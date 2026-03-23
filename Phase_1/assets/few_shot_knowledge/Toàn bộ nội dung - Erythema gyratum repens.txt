@@ -1,0 +1,75 @@
+# Ban đỏ dạng vòng tròn repens — thông tin bổ sung
+
+Thể loại:
+
+Bệnh hệ thống
+
+SNOMED CT:
+
+77300003, 200920000, 49783001
+
+**[Bệnh hệ thống](https://dermnetnz.org/topics/topics?category=Systemic+diseases)**
+
+
+# **Ban đỏ dạng vòng**
+
+Tác giả: Bác sĩ Cathy Yunjia Zhao, Chuyên viên Da liễu, Bệnh viện Westmead, Sydney, NSW, Úc. Tổng biên tập DermNet: Phó Giáo sư Amanda Oakley, Bác sĩ Da liễu, Hamilton, New Zealand. Biên tập bởi Gus Mitchell/Maria McGivern. Tháng 1 năm 2019.
+
+---
+
+## Ban đỏ dạng vòng là gì?
+
+Ban đỏ vòng xoắn là một loại [ban đỏ hình](https://dermnetnz.org/topics/annular-erythema) vòng cận ung thư hiếm gặp với hình dạng vân gỗ đặc trưng. Bệnh có liên quan chặt chẽ với [bệnh ác tính](https://dermnetnz.org/topics/cutaneous-markers-of-internal-malignancy) . [](https://dermnetnz.org/topics/annular-erythema) [](https://dermnetnz.org/topics/cutaneous-markers-of-internal-malignancy)
+![Xuất hiện giống ban đỏ dạng vòng ở bệnh pemphigus vảy lá](https://dermnetnz.org/assets/Uploads/erythema-gyratum-repens-01-v2.jpg)
+![Xuất hiện giống ban đỏ dạng vòng ở bệnh pemphigus vảy lá](https://dermnetnz.org/assets/Uploads/erythema-gyratum-repens-02.jpg)
+![Xuất hiện giống ban đỏ dạng vòng ở bệnh pemphigus vảy lá](https://dermnetnz.org/assets/Uploads/erythema-gyratum-repens-03.jpg)
+* Phát ban của bệnh nhân này có hình dạng giống như vân gỗ giống như ban đỏ dạng vòng nhưng thực chất là bệnh pemphigus vảy lá.
+
+---
+
+## Ai mắc bệnh ban đỏ dạng vòng?
+
+Ban đỏ dạng vòng (erythema gyratum repens) thường gặp nhất ở nam giới da trắng độ tuổi 60. Tỷ lệ nam/nữ là 2:1. Có một bệnh lý ác tính tiềm ẩn đi kèm ở 80% bệnh nhân ban đỏ dạng vòng. Gần một nửa số bệnh nhân ban đỏ dạng vòng bị ung thư phổi (33–47%), và ít gặp hơn là ung thư thực quản , vú và dạ dày [1,2].
+Trong một số trường hợp hiếm gặp, ban đỏ dạng vòng cũng được mô tả có liên quan đến [nhiễm trùng do vi khuẩn mycobacteria](https://dermnetnz.org/topics/atypical-mycobacterial-infection) , [bệnh mô liên kết](https://dermnetnz.org/topics/connective-tissue-diseases) và [thai kỳ](https://dermnetnz.org/topics/skin-changes-in-pregnancy) [1].
+
+---
+
+## Nguyên nhân gây ra bệnh ban đỏ dạng vòng là gì?
+
+Mối liên quan chặt chẽ giữa hồng ban vòng và bệnh ác tính đã dẫn đến một số giả thuyết bệnh sinh khác nhau. Các giả thuyết này được mô tả dưới đây.
+- Giả thuyết chính là hồng ban gyratum repens là kết quả của phản ứng chéo giữa hai kháng thể khác nhau , mỗi kháng thể phản ứng với kháng nguyên khối u và kháng nguyên da . Kháng nguyên da chịu trách nhiệm vẫn chưa được biết rõ. Giả thuyết này được củng cố bởi thực tế là [phương pháp miễn dịch huỳnh quang trực tiếp](https://dermnetnz.org/topics/direct-immunofluorescence) trên da ở hồng ban gyratum repens cho thấy các lắng đọng dạng hạt của immunoglobulin G và bổ thể C3 ở vùng nối bì-biểu bì (mô nơi lớp biểu bì và lớp hạ bì kết nối), với các lắng đọng tương tự cũng được quan sát thấy trong khối u liên quan [3]. [](https://dermnetnz.org/topics/direct-immunofluorescence)
+- Một giả thuyết khác là khối u có thể đã sản xuất ra các chất có khả năng thay đổi các thành phần của da, dẫn đến sự lắng đọng kháng thể và kích hoạt [bổ thể](https://dermnetnz.org/topics/the-complement-system) [3].
+- Gần đây, người ta đã đề xuất mối liên hệ giữa glutamine ở da (một chất cần thiết cho sự phát triển của tế bào) và tình trạng xuất hiện nhiều vòng của ban đỏ dạng vòng [2].
+
+---
+
+## Các đặc điểm lâm sàng của bệnh ban đỏ dạng vòng là gì?
+
+Hồng ban dạng vòng tròn repens biểu hiện bằng các vòng hồng ban đồng tâm có hình dạng vân gỗ đặc trưng. Các vòng tròn tiến triển theo từng đợt, với cạnh trước di chuyển khoảng 1 cm/ngày. Có thể thấy vảy kéo dài hoặc vảy cổ áo . Hồng ban dạng vòng tròn repens rất ngứa.
+Các mảng xơ vữa hình khuyên thường liên quan đến các chi và thân mình [1].
+
+---
+
+## Bệnh ban đỏ dạng vòng repens được chẩn đoán như thế nào?
+
+Mặc dù ban đỏ dạng vòng có thể được chẩn đoán lâm sàng, nhưng [sinh thiết da](https://dermnetnz.org/topics/skin-biopsy) thường được thực hiện để loại trừ các bệnh lý khác. Các đặc điểm mô học của [ban đỏ dạng vòng](https://dermnetnz.org/topics/erythema-gyratum-repens-pathology) không đặc hiệu.
+Các xét nghiệm khác có thể được thực hiện bao gồm công thức máu, sinh hóa, hồ sơ kháng thể kháng nhân và sàng lọc ác tính (tức là chụp X-quang ngực, chụp nhũ ảnh, phết tế bào cổ tử cung , dấu hiệu khối u, chụp cắt lớp vi tính ngực/bụng/khung chậu và nếu cần, nội soi hoặc nội soi đại tràng ) [1].
+
+---
+
+## Chẩn đoán phân biệt bệnh ban đỏ dạng vòng là gì?
+
+Các tình trạng khác cần được xem xét trong quá trình chẩn đoán bao gồm:
+- [Erythema annulare centrifugum](https://dermnetnz.org/topics/erythema-annulare-centrifugum-pathology)
+- [Bệnh lupus ban đỏ bán cấp ở da](https://dermnetnz.org/topics/subacute-cutaneous-lupus-erythematosus)
+- Lupus ban đỏ dạng vòng (một biến thể của [lupus ban đỏ da](https://dermnetnz.org/topics/cutaneous-lupus-erythematosus) bóng nước ) [](https://dermnetnz.org/topics/cutaneous-lupus-erythematosus)
+- [Ban đỏ di trú hoại tử](https://dermnetnz.org/topics/necrolytic-migratory-erythema)
+- [Các bệnh viêm da](https://dermnetnz.org/cme/dermatopathology/inflammatory-skin-diseases) khác [](https://dermnetnz.org/cme/dermatopathology/inflammatory-skin-diseases)
+- Ban đỏ mãn tính di chuyển (giai đoạn đầu của [bệnh Lyme](https://dermnetnz.org/topics/lyme-disease) )
+- Bệnh nấm da ( [tinea corporis](https://dermnetnz.org/topics/tinea-corporis) do nhiễm nấm Trichophyton concentricum ).
+
+---
+
+## Phương pháp điều trị bệnh ban đỏ dạng vòng là gì?
+
+Điều trị hồng ban dạng vòng là xác định và điều trị khối u ác tính nguyên phát . Hồng ban dạng vòng thường tự khỏi sau khi [khối u ác tính](https://dermnetnz.org/topics/cutaneous-markers-of-internal-malignancy) được loại bỏ, ví dụ như bằng phẫu thuật cắt bỏ. [Steroid bôi ngoài da](https://dermnetnz.org/topics/topical-steroid) chưa được chứng minh là có hiệu quả [1].

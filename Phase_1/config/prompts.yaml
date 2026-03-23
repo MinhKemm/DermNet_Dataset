@@ -1,0 +1,81 @@
+# configs/prompts.yaml
+phase1:
+  system_instruction: >
+    Bạn là một chuyên gia AI Da liễu cao cấp. Nhiệm vụ của bạn là phân tích hình ảnh lâm sàng dựa trên kiến thức y khoa được cung cấp.
+    
+    NGUYÊN TẮC CỐT LÕI (BẮT BUỘC):
+    - ĐỊNH DẠNG vs NỘI DUNG: Các ví dụ (few-shot) chỉ được dùng để tham khảo CẤU TRÚC JSON. Tuyệt đối KHÔNG ĐƯỢC sao chép nội dung từ ví dụ.
+    - NGUỒN TIN: Ưu tiên CASE_INPUT > DISEASE_KNOWLEDGE.
+    - TRUNG THỰC: Zero-Hallucination. Chỉ điền các thông tin đã được xác nhận ở Bước 1. Nếu không thấy, ghi 'Not available'.
+
+  cot_steps: >
+    Bước 1: Trả lời các câu hỏi sau để xác định đặc điểm (Chain of Thought):
+    - Vùng cơ thể nào đang được quan sát?
+    - Loại tổn thương cơ bản thấy được trên ảnh là gì?
+    - Màu sắc, hình dạng và ranh giới của tổn thương như thế nào?
+    - Cách sắp xếp và phân bố của chúng ra sao?
+    - Có dấu hiệu phụ nào (vảy, loét, tiết dịch) thực sự xuất hiện trên ảnh không?
+    
+    Bước 2: Trích xuất thông tin vào JSON với các key: Category, Lesion_Type, Colour, Shape, Distribution, Characteristics.
+
+  user_template: >
+    DỮ LIỆU ĐẦU VÀO:
+    1. DISEASE_KNOWLEDGE (Kiến thức bệnh): {disease_knowledge}
+    2. CASE_INPUT (Mô tả lâm sàng đính kèm): {clinical_description}
+    
+    Hãy thực hiện theo các bước yêu cầu và trả về kết quả cuối cùng theo cấu trúc:
+    ```json
+    {{
+      "JSON_EXTRACTION": {{...}}
+    }}
+    ```
+
+  few_shot_examples:
+    - example_1:
+        image_name: "few_shot_images/Tinea_incognito.png"
+        disease_knowledge_path: "Phase_1/assets/few_shot_knowledge/Toàn bộ nội dung - Tinea incognito.txt"
+        expected_json: |
+          ```json
+          {
+            "JSON_EXTRACTION": {
+              "Category": "Tinea incognito (Nấm da biến đổi do Steroid)",
+              "Lesion_Type": "Mảng hồng ban kèm mụn mủ nang lông",
+              "Colour": "Hồng ban",
+              "Shape": ["Bất quy tắc", "Có bờ rõ", "Lan tỏa rộng"],
+              "Distribution": ["Khu trú một bên", "Mu bàn tay trái"],
+              "Characteristics": ["Mụn mủ nang lông", "Teo da", "Bờ ít gồ cao", "Vảy rất ít"]
+            }
+          }
+          ```
+    - example_2:
+        image_name: "Phase_1/assets/few_shot_image/Erythema_gyratum_repens.png"
+        disease_knowledge_path: "Phase_1/assets/few_shot_knowledge/Toàn bộ nội dung - Erythema gyratum repens.txt"
+        expected_json: |
+          ```json
+          {
+            "JSON_EXTRACTION": {
+              "Category": "Hồng ban vòng uốn lượn",
+              "Lesion_Type": ["Dải hồng ban uốn lượn", "Các mảng dạng vòng"],
+              "Colour": "Đỏ hồng",
+              "Shape": ["Hình vân gỗ", "Hình dải", "Đồng tâm"],
+              "Distribution": ["Lan tỏa diện rộng", "Đối xứng ở vùng thân mình"],
+              "Characteristics": ["Vảy mịn ở rìa tổn thương", "Ranh giới giữa các dải rõ nét"]
+            }
+          }
+          ```
+    - example_3:
+        image_name: "Phase_1/assets/few_shot_image/Erythema_multiforme.png"
+        disease_knowledge_path: "Phase_1/assets/few_shot_knowledge/Toàn bộ nội dung - Erythema multiforme-2.txt"
+        expected_json: |
+          ```json
+          {
+            "JSON_EXTRACTION": {
+              "Category": "Hồng ban đa dạng",
+              "Lesion_Type": ["Tổn thương hình bia bắn", "Sẩn hồng ban"],
+              "Colour": "Các vòng đồng tâm biến đổi sắc đỏ với vùng trung tâm sẫm màu",
+              "Shape": ["Hình tròn", "Vòng đồng tâm", "Ranh giới rõ"],
+              "Distribution": ["Đối xứng", "Phân bố ở lòng bàn tay, cổ tay và cẳng tay"],
+              "Characteristics": ["Biến đổi màu sắc 3 vùng", "Vùng trung tâm sẫm màu"]
+            } 
+          }
+          ```

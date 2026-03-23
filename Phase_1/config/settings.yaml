@@ -1,0 +1,24 @@
+# configs/settings.yaml
+paths:
+  project_root: "/Users/binhminh/Documents/Demo 2" # Đường dẫn trên Mac M3 của bạn
+  data_raw: "test_demo/raw_subset"
+  data_intermediate: "data/intermediate"
+  data_consensus: "data/consensus_results"
+  prompt_assets: "assets/few_shot_images"
+
+models:
+  vlm_1:
+    model_id: "qwen2.5-vl:3b"
+    temperature: 0.1
+  
+  vlm_2:
+    model_id: "llava:7b"
+    temperature: 0.1
+
+  judge_llm:
+    model_id: "llama3.2:3b"
+    temperature: 0.0
+
+pipeline:
+  save_format: "jsonl"
+  jaccard_threshold: 0.85
