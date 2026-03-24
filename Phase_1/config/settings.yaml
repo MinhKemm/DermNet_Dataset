@@ -2,8 +2,9 @@
 paths:
   project_root: "/Users/binhminh/Documents/Demo 2" # Đường dẫn trên Mac M3 của bạn
   data_raw: "test_demo/raw_subset"
-  data_intermediate: "data/intermediate"
-  data_consensus: "data/consensus_results"
+  data_intermediate: "test_demo/intermediate" # Chứa 2 JSON của VLM1 và VLM2
+  data_consensus: "test_demo/final"           # Chứa JSON cuối cùng của Judge LLM
+  
   prompt_assets: "assets/few_shot_images"
 
 models:
