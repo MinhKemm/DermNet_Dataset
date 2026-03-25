@@ -1,26 +1,25 @@
-# configs/settings.yaml
-
 paths:
-  # KHÔNG CẦN project_root ở đây nữa vì code loaders đã tự tính toán rồi.
-  # Tất cả các đường dẫn dưới đây sẽ được code tự ghép với gốc dự án.
   data_raw: "Phase_1/test_demo" 
   data_intermediate: "Phase_1/test_demo/intermediate"
-  data_consensus: "Phase_1/test_demo/final"          # Chứa JSON cuối cùng của Judge LLM
+  data_consensus: "Phase_1/test_demo/final"          
   
-  prompt_assets: "Phase_1/assets/few_shot_images" # Sửa lại cho đúng cấu trúc folder
+  prompt_assets: "Phase_1/assets/few_shot_images" 
 
 models:
   vlm_1:
-    model_id: "llama3.2-vision:11b" # Đổi sang model bạn đã pull thành công trên Colab
+    model_id: "Qwen/Qwen2-VL-7B-Instruct" 
     temperature: 0.1
+    use_4bit: true
   
   vlm_2:
-    model_id: "llava:7b"            # Khớp với bản bạn đã pull
+    model_id: "OpenGVLab/InternVL2-8B"           
     temperature: 0.1
+    use_4bit: true
 
   judge_llm:
-    model_id: "llama3.2:3b"         # Khớp với bản bạn đã pull
+    model_id: "meta-llama/Meta-Llama-3.1-8B-Instruct"        
     temperature: 0.0
+    use_4bit: true
 
 pipeline:
   save_format: "jsonl"
