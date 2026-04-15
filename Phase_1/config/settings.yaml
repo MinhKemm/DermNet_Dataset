@@ -1,26 +1,59 @@
+#  Phase 1 — Cấu hình Pipeline
 paths:
-  data_raw: "Phase_1/test_demo" 
-  data_intermediate: "Phase_1/test_demo/intermediate"
-  data_consensus: "Phase_1/test_demo/final"          
-  
-  prompt_assets: "Phase_1/assets/few_shot_images" 
+  # Dataset từ Google Drive đã tải về (dermnet-output/)
+  # Cấu trúc:
+  #   dermnet-output/images/<DiseaseName>/<image.jpg>
+  #   dermnet-output/contents/<Toàn bộ nội dung - DiseaseName.txt>
+  data_raw:        "dermnet-output"
+  # Debug: lưu response thô Phase 1 & Phase 2
+  data_intermediate: "Phase_1/debug_outputs"
+  # Output cuối cùng: JSON chuẩn hóa
+  data_consensus:   "Phase_1/output"
 
 models:
+  # ================================================================
+  #  VLM 1 — Claude Opus 4.6 (Anthropic)
+  #  Nhiệm vụ: Phase 1 (quan sát hình thái) → sinh JSON
+  # ================================================================
   vlm_1:
-    model_id: "Qwen/Qwen2-VL-7B-Instruct" 
-    temperature: 0.1
-    use_4bit: true
-  
-  vlm_2:
-    model_id: "OpenGVLab/InternVL2-8B"           
-    temperature: 0.1
-    use_4bit: true
+    provider:      "anthropic"
+    model_id:      "claude-sonnet-4-6"
+    # model_id: "claude-sonnet-4-20251120"  # fallback
+    temperature:   0.1
+    max_tokens:    4096
 
+  # ================================================================
+  #  VLM 2 — GPT-4o (OpenAI)
+  #  Nhiệm vụ: Phase 1 (quan sát hình thái) → sinh JSON
+  #  Ghi chú  : Hiện tại chưa chạy, cấu hình sẵn để push GitHub
+  # ================================================================
+  vlm_2:
+    provider:      "openai"
+    model_id:      "gpt-4o"
+    # model_id: "gpt-4o-mini"    # fallback nhanh hơn
+    temperature:   0.1
+    max_tokens:    4096
+    # OpenAI API key — đặt trong .env
+    api_key_env:   "OPENAI_API_KEY"
+
+  # ================================================================
+  #  Judge LLM — Gemma 4 (Google / Vertex AI / HuggingFace)
+  #  Nhiệm vụ: Phase 2 — hợp nhất 2 JSON từ VLM1 & VLM2
+  #  Ghi chú  : Chạy text-only, không cần ảnh
+  # ================================================================
   judge_llm:
-    model_id: "meta-llama/Meta-Llama-3.1-8B-Instruct"        
-    temperature: 0.0
-    use_4bit: true
+    provider:      "google-ai-studio"  # Gemma 4 — miễn phí qua AI Studio
+    model_id:      "gemma-3-27b-it"
+    # model_id: "gemma-2-9b-it"     # fallback nhẹ hơn, nhanh hơn
+    temperature:   0.05
+    max_tokens:    1024
+    api_key_env:   "GOOGLE_AI_STUDIO_KEY"
 
 pipeline:
-  save_format: "jsonl"
+  # Định dạng lưu: json (mỗi bệnh/ảnh 1 file) hoặc jsonl
+  save_format:       "json"
+  # Ngưỡng Jaccard — nếu đồng thuận > threshold → chấp nhận trực tiếp
+  # Nếu < threshold → gọi Judge LLM hợp nhất
   jaccard_threshold: 0.85
+  # Lưu response thô Phase 1 & Phase 2 ra file debug
+  debug_save_raw:     true

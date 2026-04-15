@@ -1,0 +1,18 @@
+# Settings:  pip install -r requirements.txt
+PyYAML>=6.0
+anthropic>=0.40.0           # Claude Opus / Sonnet (Anthropic)
+openai>=1.50.0              # GPT-4o / GPT-4o-mini (OpenAI)
+Pillow>=10.0                # resize, encode ảnh
+requests>=2.31.0             # gọi HuggingFace / Vertex API
+google-auth>=2.30.0
+google-auth-httplib2>=0.1.1
+google-api-python-client>=2.140.0
+
+# ── Google Drive (down_dataset.py — tuỳ chọn) ─────────
+google-api-python-client>=2.140.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.2.0
+
+# ── Development / Testing ────────────────────────────────
+# pytest>=8.0
+# pytest-asyncio>=0.23.0

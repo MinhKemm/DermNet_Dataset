@@ -5,8 +5,9 @@ phase1_observation_qa:
     
     NGUYÊN TẮC CỐT LÕI:
     - KHÔNG ĐOÁN TÊN BỆNH: Tuyệt đối không được nêu tên bệnh hay mã bệnh trong câu trả lời
-    - TRUNG THỰC: Chỉ mô tả những gì thấy trên ảnh. Nếu không thấy rõ một đặc điểm nào đó, ghi "Không quan sát rõ". 
-    - KHÔNG BỊA ĐẶT: Không thêm bất kỳ thông tin nào không có trên ảnh, kể cả các dấu hiệu phụ. Nếu không thấy rõ, ghi "Không quan sát rõ".
+    - TRUNG THỰC: Trả lời câu hỏi dựa trên những gì thấy trên ảnh. Nếu không trả lời được câu hỏi nào, hãy ghi "Không quan sát rõ". 
+    - KHÔNG GIẢI THÍCH: Trả lời ngắn gọn, đúng trọng tâm câu hỏi, không thêm giải thích hay mô tả dài dòng
+    - ĐỊNH DẠNG BẮT BUỘC: Mỗi dòng chỉ chứa các cụm từ, ngăn cách bởi dấu phẩy
 
   user_template: >
     DỮ LIỆU ĐẦU VÀO:
@@ -19,45 +20,45 @@ phase1_observation_qa:
     4. Vùng cơ thể/vị trí giải phẫu và cách sắp xếp của tổn thương như thế nào?
     5. Có các đặc điểm nhận dạng phụ nào thực sự xuất hiện không?
 
+
   few_shot_examples:
     - example_1:
         image_name: "Phase_1/assets/few_shot_image/Tinea_incognito.png"
         expected_output: >
-          1. Loại tổn thương là các mảng hồng ban.
-          2. Tổn thương có màu đỏ nhạt.
-          3. Hình dạng bất quy tắc, ranh giới rõ ràng.
-          4. Vị trí quan sát được là vùng mu bàn tay trái và cách sắp xếp là lan tỏa rộng, khu trú một bên.
-          5. Các đặc điểm nhận dạng phụ gồm mụn mủ nang lông, teo da, bờ ít gồ cao và vảy rất ít.
+          1. Mảng hồng ban
+          2. Đỏ nhạt
+          3. Bất quy tắc, ranh giới rõ
+          4. Mu bàn tay trái, khu trú
+          5. Mụn mủ nang lông, teo da, bờ gồ nhẹ
 
     - example_2:
         image_name: "Phase_1/assets/few_shot_image/Erythema_gyratum_repens.png"
         expected_output: >
-          1. Loại tổn thương cơ bản gồm các dải hồng ban uốn lượn và các mảng dạng vòng.
-          2. Màu sắc chủ đạo là đỏ hồng.
-          3. Hình dạng dải kiểu vân gỗ, ranh giới rõ nét.
-          4. Vị trí quan sát được là vùng thân mình và cách sắp xếp đồng tâm, đối xứng.
-          5. Quan sát thấy vảy mịn ở vùng rìa của tổn thương.
+          1. Dải hồng ban uốn lượn, mảng dạng vòng
+          2. Đỏ hồng
+          3. Dải kiểu vân gỗ, ranh giới rõ nét
+          4. Vùng thân mình, sắp xếp đồng tâm, đối xứng
+          5. Vảy mịn
 
     - example_3:
         image_name: "Phase_1/assets/few_shot_image/Erythema_multiforme.png"
         expected_output: >
-          1. Loại tổn thương cơ bản là hình bia bắn và các sẩn hồng ban.
-          2. Màu sắc biến đổi theo các vòng đồng tâm với sắc đỏ, vùng trung tâm sẫm màu hơn.
-          3. Hình tròn, ranh giới rõ ràng.
-          4. Vị trí quan sát được là vùng lòng bàn tay, cổ tay và cẳng tay và sắp xếp theo dạng các vòng đồng tâm, đối xứng.
-          5. Biến đổi màu sắc rõ rệt thành 3 vùng và vùng trung tâm sẫm màu đặc trưng.
+          1. Hình bia bắn, sẩn hồng ban
+          2. Đỏ tươi, trung tâm sẫm màu
+          3. Hình tròn, ranh giới rõ
+          4. Lòng bàn tay, cổ tay, cẳng tay; sắp xếp đối xứng
+          5. Tổn thương bia bắn 3 vòng màu, bọng nước nhỏ
 
 # PHASE 2: MEDICAL JSON MAPPING (Chuẩn hóa dựa trên Q&A và Kiến thức)
 phase2_json_standardization:
   system_instruction: >
     Bạn là một chuyên gia AI Da liễu cao cấp. Nhiệm vụ của bạn là tổng hợp các câu trả lời quan sát từ Phase 1 và đối chiếu với DISEASE_KNOWLEDGE để tạo ra file JSON chuẩn hóa.
-    
+
     NGUYÊN TẮC CỐT LÕI:
-    - CATEGORY: Luôn lấy từ tên bệnh được cung cấp.
-    - NGUỒN TIN: Chỉ được trích xuất những đặc điểm CÓ XUẤT HIỆN trong OBSERVATION_QA.
-    - MAPPING: Sử dụng thuật ngữ chuyên môn từ DISEASE_KNOWLEDGE để gọi tên các đặc điểm đó (Ví dụ: Phase 1 ghi "đốm đỏ" -> Phase 2 dùng "Hồng ban" nếu kiến thức xác nhận).
-    - ĐỊNH DẠNG: 'Category' là chuỗi đơn, các trường còn lại PHẢI là mảng các chuỗi [].
-    - ZERO-HALLUCINATION: Tuyệt đối không thêm các đặc điểm có trong DISEASE_KNOWLEDGE nhưng Phase 1 KHÔNG quan sát thấy. Nếu Phase 1 không nhắc đến, ghi ["Not available"].
+    - ZERO-HALLUCINATION: Chỉ trích xuất những đặc điểm CÓ XUẤT HIỆN trong OBSERVATION_QA. Tuyệt đối không thêm các đặc điểm nào.
+    - CATEGORY: Luôn lấy từ tên bệnh được cung cấp, là chuỗi đơn .
+    - ĐỊNH DẠNG: Mỗi đặc điểm phải là một cụm riêng, ngăn cách bởi dấu phẩy. KHÔNG dùng "và", "hoặc"
+    - ĐỊNH DẠNG TRẢ VỀ: Chỉ trả về duy nhất một khối JSON hợp lệ. Không có văn bản giải thích trước hoặc sau khối JSON.
 
   user_template: >
     DỮ LIỆU ĐẦU VÀO:
@@ -82,66 +83,66 @@ phase2_json_standardization:
     - example_1:
         disease_name: "Nấm da ẩn danh"
         phase1_qa_output: >
-          1. Loại tổn thương là các mảng hồng ban.
-          2. Tổn thương có màu đỏ nhạt.
-          3. Hình dạng bất quy tắc, ranh giới rõ ràng.
-          4. Vị trí quan sát được là vùng mu bàn tay trái và cách sắp xếp là lan tỏa rộng, khu trú một bên.
-          5. Các đặc điểm nhận dạng phụ gồm mụn mủ nang lông, teo da, bờ ít gồ cao và vảy rất ít.
+          1. Mảng hồng ban.
+          2. Đỏ nhạt.
+          3. Bất quy tắc, ranh giới rõ.
+          4. Mu bàn tay trái, khu trú.
+          5. Mụn mủ nang lông, teo da, bờ gồ nhẹ.
 
         expected_json: |
           ```json
           {
             "JSON_EXTRACTION": {
-              "Category": "Nấm da ẩn danh (Nấm da biến đổi do Steroid)",
+              "Category": "Nấm da ẩn danh (Tinea Incognito)",
               "Lesion_Type": ["Mảng hồng ban"],
-              "Colour": ["Hồng ban"],
-              "Shape": ["Bất quy tắc", "Có bờ rõ"],
-              "Distribution": ["Mu bàn tay trái", "Khu trú một bên", "Lan tỏa rộng"],
-              "Characteristics": ["Mụn mủ nang lông", "Teo da", "Bờ ít gồ cao", "Vảy rất ít"]
+              "Colour": ["Đỏ nhạt"],
+              "Shape": ["Bất quy tắc", "Ranh giới rõ"],
+              "Distribution": ["Mu bàn tay trái", "Khu trú"],
+              "Characteristics": ["Mụn mủ nang lông", "Teo da", "Bờ gồ nhẹ"]
             }
           }
           ```
     - example_2:
         disease_name: "Ban đỏ dạng vòng tròn repens"
         phase1_qa_output: >
-          1. Loại tổn thương cơ bản gồm các dải hồng ban uốn lượn và các mảng dạng vòng.
-          2. Màu sắc chủ đạo là đỏ hồng.
-          3. Hình dạng dải kiểu vân gỗ, ranh giới rõ nét.
-          4. Vị trí quan sát được là vùng thân mình và cách sắp xếp đồng tâm, đối xứng.
-          5. Quan sát thấy vảy mịn ở vùng rìa của tổn thương.
+          1. Dải hồng ban uốn lượn, mảng dạng vòng.
+          2. Đỏ hồng.
+          3. Dải kiểu vân gỗ, ranh giới rõ nét.
+          4. Vùng thân mình, sắp xếp đồng tâm, đối xứng.
+          5. Vảy mịn.
 
         expected_json: |
           ```json
           {
             "JSON_EXTRACTION": {
               "Category": "Ban đỏ dạng vòng tròn repens",
-              "Lesion_Type": ["Dải hồng ban uốn lượn", "Các mảng dạng vòng"],
+              "Lesion_Type": ["Dải hồng ban uốn lượn", "Mảng dạng vòng"],
               "Colour": ["Đỏ hồng"],
-              "Shape": ["Hình vân gỗ", "Ranh giới rõ ràng"],
-              "Distribution": ["Vùng thân mình", "Lan tỏa diện rộng", "Đối xứng", "Đồng tâm"],
-              "Characteristics": ["Vảy mịn ở rìa tổn thương"]
+              "Shape": ["Hình vân gỗ", "Ranh giới rõ"],
+              "Distribution": ["Vùng thân mình", "Đồng tâm"],
+              "Characteristics": ["Vảy mịn"]
             }
           }
           ```
     - example_3:
         disease_name: "Ban đỏ đa dạng"
         phase1_qa_output: >
-          1. Loại tổn thương cơ bản là hình bia bắn và các sẩn hồng ban.
-          2. Màu sắc biến đổi theo các vòng đồng tâm với sắc đỏ, vùng trung tâm sẫm màu hơn.
-          3. Hình tròn, ranh giới rõ ràng.
-          4. Vị trí quan sát được là vùng lòng bàn tay, cổ tay và cẳng tay và sắp xếp theo dạng các vòng đồng tâm, đối xứng.
-          5. Biến đổi màu sắc rõ rệt thành 3 vùng và vùng trung tâm sẫm màu đặc trưng.
+          1. Hình bia bắn, sẩn hồng ban.
+          2. Đỏ tươi, trung tâm sẫm màu.
+          3. Hình tròn, ranh giới rõ.
+          4. Lòng bàn tay, cổ tay, cẳng tay; sắp xếp đối xứng.
+          5. Tổn thương bia bắn 3 vòng màu, bọng nước nhỏ.
 
         expected_json: |
           ```json
           {
             "JSON_EXTRACTION": {
               "Category": "Ban đỏ đa dạng",
-              "Lesion_Type": ["Tổn thương hình bia bắn", "Sẩn hồng ban"],
-              "Colour": ["Vòng đồng tâm biến đổi sắc đỏ", "Trung tâm sẫm màu"],
+              "Lesion_Type": ["Hình bia bắn", "Sẩn hồng ban"],
+              "Colour": ["Đỏ", "Trung tâm sẫm màu"],
               "Shape": ["Hình tròn", "Ranh giới rõ"],
-              "Distribution": ["Lòng bàn tay", "Cổ tay", "Cẳng tay", "Đối xứng", "Vòng đồng tâm"],
-              "Characteristics": ["Biến đổi màu sắc 3 vùng", "Vùng trung tâm sẫm màu"]
+              "Distribution": ["Lòng bàn tay", "Cổ tay", "Cẳng tay", "Đối xứng"],
+              "Characteristics": ["Biến đổi màu sắc 3 vùng", "Bọng nước"]
             } 
           }
           ```

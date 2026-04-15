@@ -1,0 +1,68 @@
+# ──────────────────────────────────────────────────
+#  Environment & Secrets — KHÔNG BAO GIỜ push
+# ──────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+*.key
+token.json
+*.p12
+service_account.json
+
+# Credentials (đặt tên khác cho ví dụ nếu cần push)
+# credentials_example.json   ← copy credentials.json → đổi tên → push
+
+# ──────────────────────────────────────────────────
+#  Python
+# ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+*.egg-info/
+*.egg
+.mypy_cache/
+.pytype/
+.coverage
+htmlcov/
+*.cpython-313.pyc
+*.cpython-312.pyc
+*.cpython-311.pyc
+
+venv/
+.venv/
+ENV/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ──────────────────────────────────────────────────
+#  Debug / Output — không push
+# ──────────────────────────────────────────────────
+Phase_1/debug_outputs/
+Phase_1/output/
+logs/
+*.log
+
+# ──────────────────────────────────────────────────
+#  Dataset gốc — không push
+# ──────────────────────────────────────────────────
+# dermnet-output/           # ← bỏ comment dòng này nếu muốn ignore
+# dermnet-output-local/
+# DermNet_Data_V2/
+# downloaded_data/
+
+# ──────────────────────────────────────────────────
+#  OS
+# ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

@@ -49,5 +49,5 @@ def calculate_jaccard(json1: dict, json2: dict) -> float:
 if __name__ == "__main__":
     # Test nhanh
     d1 = {"Colour": "Hồng ban đỏ", "Shape": ["Tròn", "Bờ rõ"]}
-    d2 = {"Colour": "Màu đỏ hồng", "Shape": "Hình tròn, ranh giới rõ"}
+    d2 = {"Colour": "Màu đỏ hồng", "Shape": ["Hình tròn, ranh giới rõ"]}
     print(f"Jaccard Score: {calculate_jaccard(d1, d2):.4f}")

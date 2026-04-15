@@ -1,211 +1,296 @@
-import torch
-import gc
+"""
+Judge Engine — Gemma 4 qua Google AI Studio (miễn phí)
+
+Nhiệm vụ:
+  1. Nhận JSON từ VLM1 (Claude Opus) và VLM2 (GPT-4o)
+  2. Tính Jaccard Similarity giữa 2 JSON
+  3. Nếu Jaccard >= threshold → dùng JSON VLM1 trực tiếp
+  4. Nếu Jaccard <  threshold → gọi Gemma 4 hợp nhất & sinh JSON cuối cùng
+
+Endpoint: Google AI Studio (OpenAI-compatible)
+  https://generativelanguage.googleapis.com/v1beta/openai/chat/completions
+  ?key=GOOGLE_AI_STUDIO_KEY
+
+Tách biệt hoàn toàn khỏi VLM Engine.
+"""
+
+import os
 import json
 import re
-import os
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+import time
+import requests
 
-# Giả định bạn đã có hàm calculate_jaccard trong utils, nếu test độc lập thì có thể import
 try:
     from Phase_1.utils.metrics import calculate_jaccard
 except ImportError:
-    # Fallback cho trường hợp chạy test file trực tiếp chưa có module metrics
-    def calculate_jaccard(d1, d2): return 0.85 
+    def calculate_jaccard(d1, d2): return 0.85
 
+
+# ─────────────────────────────────────────────────────────────────
+#  CẤU HÌNH Gemma 4 — Google AI Studio (miễn phí)
+# ─────────────────────────────────────────────────────────────────
+GOOGLE_AI_STUDIO_KEY = os.environ.get("GOOGLE_AI_STUDIO_KEY", "")
+
+# Endpoint OpenAI-compatible của Google AI Studio
+GEMMA4_BASE_URL = (
+    "https://generativelanguage.googleapis.com/v1beta"
+    "/openai/chat/completions"
+)
+# Model Gemma 4 trên AI Studio (tên chính xác lấy từ model list)
+GEMMA4_MODEL_ID = "gemma-3-27b-it"   # ← đổi model_id trong settings.yaml nếu cần
+
+
+# ─────────────────────────────────────────────────────────────────
+#  PROMPTS cho Judge (Gemma 4)
+# ─────────────────────────────────────────────────────────────────
+JUDGE_SYSTEM = (
+    "Bạn là chuyên gia hội chẩn Da liễu AI cấp cao. "
+    "Nhiệm vụ: hợp nhất dữ liệu từ hai mô hình VLM để tạo Gold Standard JSON.\n\n"
+    "QUY TẮC CỐT LÕI:\n"
+    "1. Output PHẢI là JSON duy nhất với root key 'JSON_EXTRACTION'.\n"
+    "2. Trường 'Category': ghi chính xác tên bệnh được cung cấp.\n"
+    "3. Các trường còn lại BẮT BUỘC là mảng chuỗi [] (không để trống).\n"
+    "4. Hợp nhất:\n"
+    "   - Từ đồng nghĩa → dùng thuật ngữ y khoa chuẩn.\n"
+    "   - Gộp đặc điểm không mâu thuẫn.\n"
+    "   - Loại bỏ 'Không quan sát rõ' nếu model kia nhìn thấy rõ.\n"
+    "5. KHÔNG giải thích, KHÔNG sinh text ngoài block JSON."
+)
+
+JUDGE_USER_TEMPLATE = (
+    "[DỮ LIỆU ĐẦU VÀO]\n"
+    "- Jaccard Similarity: {j_score:.2f}\n"
+    "- VLM1 (Claude Opus 4.6): {vlm1_json}\n"
+    "- VLM2 (GPT-4o): {vlm2_json}\n\n"
+    "Hợp nhất và trả về JSON ngay lập tức:"
+)
+
+JUDGE_FEW_SHOT = """
+--- VÍ DỤ MINH HỌA ---
+
+Ví dụ 1 (đồng thuận cao):
+  VLM1: {"Category":"Nấm da ẩn danh","Lesion_Type":["Mảng hồng ban"],"Colour":["Hồng ban"]}
+  VLM2: {"Category":"Nấm da ẩn danh","Lesion_Type":["Mảng hồng ban"],"Colour":["Đỏ hồng"]}
+  JSON Output:
+  ```json
+  {{"JSON_EXTRACTION":{{
+    "Category":"Nấm da ẩn danh",
+    "Lesion_Type":["Mảng hồng ban"],
+    "Colour":["Hồng ban","Đỏ hồng"],
+    "Shape":[],
+    "Distribution":[],
+    "Characteristics":[]
+  }}}}
+  ```
+
+Ví dụ 2 (mâu thuẫn):
+  VLM1: {"Category":"Ban đỏ đa dạng","Lesion_Type":["Sẩn hồng ban"]}
+  VLM2: {"Category":"Ban đỏ đa dạng","Lesion_Type":["Mảng đỏ","Mụn nước"]}
+  JSON Output:
+  ```json
+  {{"JSON_EXTRACTION":{{
+    "Category":"Ban đỏ đa dạng",
+    "Lesion_Type":["Sẩn hồng ban","Mảng đỏ"],
+    "Shape":[],
+    "Distribution":[],
+    "Characteristics":["Mụn nước"]
+  }}}}
+  ```
+
+--> BÂY GIỜ LÀ LƯỢT CỦA BẠN:
+"""
+
+
+# ─────────────────────────────────────────────────────────────────
+#  JudgeEngine
+# ─────────────────────────────────────────────────────────────────
 class JudgeEngine:
-    def __init__(self, model_id="meta-llama/Meta-Llama-3.1-8B-Instruct"):
-        self.model_id = model_id
-        self.drive_cache_path = "/content/drive/MyDrive/DermNet_Dataset/huggingface_cache"
-        self.model = None
-        self.tokenizer = None
-        
-        # Cấu hình 4-bit bắt buộc cho Colab T4
-        self.bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.bfloat16
-        )
+    def __init__(self, model_id: str = GEMMA4_MODEL_ID):
+        self.model_id  = model_id
+        self.base_url  = GEMMA4_BASE_URL
+        self.api_key   = GOOGLE_AI_STUDIO_KEY
+        self._session  = requests.Session()
 
     def flush_memory(self):
-        """Dọn dẹp VRAM tuyệt đối trước/sau khi chạy Judge"""
-        if self.model is not None: del self.model
-        if self.tokenizer is not None: del self.tokenizer
-        self.model = None
-        self.tokenizer = None
-        gc.collect()
-        torch.cuda.empty_cache()
-        torch.cuda.reset_peak_memory_stats()
-        print("--- [Judge] Đã giải phóng hoàn toàn VRAM ---")
+        print("[Judge/Gemma4] flush_memory — no GPU needed.")
 
     def load_model(self):
-        os.makedirs(self.drive_cache_path, exist_ok=True)
-        print(f"--- [Judge] Nạp {self.model_id} từ Drive Cache ---")
-        
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            self.model_id, 
-            cache_dir=self.drive_cache_path
-        )
-        self.model = AutoModelForCausalLM.from_pretrained(
-            self.model_id,
-            quantization_config=self.bnb_config,
-            device_map="auto",
-            torch_dtype=torch.bfloat16,
-            cache_dir=self.drive_cache_path, # Quan trọng
-            attn_implementation="sdpa"
-        )
+        print(f"[Judge] Model: {self.model_id}")
+        print(f"[Judge] Backend: Google AI Studio (miễn phí)")
+        if not self.api_key:
+            print("[Judge] ⚠️ CẢNH BÁO: GOOGLE_AI_STUDIO_KEY chưa đặt trong .env!")
+
+    # ──────────────────────────────────────────
+    #  Core: run(vlm1_json, vlm2_json, disease_name)
+    # ──────────────────────────────────────────
+    def run(self, vlm1_json: dict, vlm2_json: dict,
+            disease_name: str, jaccard_threshold: float = 0.85) -> dict:
+        """
+        Luồng Judge:
+          1. Kiểm tra lỗi JSON → fallback nếu 1 trong 2 lỗi
+          2. Tính Jaccard
+          3. Jaccard >= threshold → dùng JSON VLM1 trực tiếp
+          4. Jaccard <  threshold → gọi Gemma 4 hợp nhất
+        """
+        err1 = self._has_error(vlm1_json)
+        err2 = self._has_error(vlm2_json)
+
+        if err1 and not err2:
+            result = self._wrap(vlm2_json, "fallback_vlm2_only", jaccard=0.0)
+            print(f"[Judge] ⚠️ VLM1 lỗi → dùng VLM2 trực tiếp.")
+            return result
+
+        if err2 and not err1:
+            result = self._wrap(vlm1_json, "fallback_vlm1_only", jaccard=0.0)
+            print(f"[Judge] ⚠️ VLM2 lỗi → dùng VLM1 trực tiếp.")
+            return result
+
+        if err1 and err2:
+            return {
+                "error": "Cả hai VLM đều lỗi.",
+                "JSON_EXTRACTION": {"Category": disease_name}
+            }
+
+        # Tính Jaccard
+        j_score = calculate_jaccard(vlm1_json, vlm2_json)
+        print(f"[Judge] Jaccard Score: {j_score:.4f}  (threshold: {jaccard_threshold})")
+
+        # Threshold: chấp nhận trực tiếp
+        if j_score >= jaccard_threshold:
+            result = self._wrap(vlm1_json, "consensus_direct", jaccard=j_score)
+            print(f"[Judge] ✅ Jaccard >= threshold → dùng VLM1 trực tiếp.")
+            return result
+
+        # Jaccard thấp → gọi Gemma 4 hợp nhất
+        print(f"[Judge] 🔄 Jaccard < threshold → gọi Gemma 4 hợp nhất...")
+        return self._run_gemma_merge(vlm1_json, vlm2_json, j_score, disease_name)
+
+    # ──────────────────────────────────────────
+    #  Gemma 4 merge
+    # ──────────────────────────────────────────
+    def _run_gemma_merge(self, vlm1, vlm2, j_score, disease_name) -> dict:
+        try:
+            raw = self._call_gemma(vlm1, vlm2, j_score, disease_name)
+            parsed = self.extract_json(raw)
+            parsed["JSON_EXTRACTION"]["_metadata"] = {
+                "judge_model":   self.model_id,
+                "judge_backend": "google-ai-studio",
+                "input_jaccard": round(j_score, 4),
+                "status":        "gemma4_merged",
+                "timestamp":     time.strftime("%Y-%m-%d %H:%M:%S"),
+            }
+            print(f"[Judge/Gemma4] ✅ JSON parse thành công.")
+            return parsed
+        except Exception as e:
+            print(f"[-] [Judge] Gemma merge thất bại: {e} → fallback VLM1.")
+            return self._wrap(vlm1, "gemma_merge_failed", j_score)
+
+    def _call_gemma(self, vlm1, vlm2, j_score, disease_name) -> str:
+        """Gọi Gemma 4 qua Google AI Studio (OpenAI-compatible endpoint)."""
+        if not self.api_key:
+            raise RuntimeError(
+                "[Judge] GOOGLE_AI_STUDIO_KEY chưa đặt trong .env. "
+                "Lấy key tại: https://aistudio.google.com/app/apikey"
+            )
+
+        messages = [
+            {"role": "system", "content": JUDGE_SYSTEM},
+            {
+                "role": "user",
+                "content": (
+                    JUDGE_USER_TEMPLATE.format(
+                        j_score   = j_score,
+                        vlm1_json = json.dumps(vlm1, ensure_ascii=False),
+                        vlm2_json = json.dumps(vlm2, ensure_ascii=False),
+                    )
+                    + JUDGE_FEW_SHOT
+                ),
+            },
+        ]
+
+        payload = {
+            "model": self.model_id,
+            "messages": messages,
+            "temperature": 0.05,
+            "max_tokens": 2048,
+        }
+
+        # Google AI Studio: key là query param
+        url = f"{self.base_url}?key={self.api_key}"
+
+        print(f"[Judge] Đang gọi {self.model_id} qua Google AI Studio...")
+        resp = self._session.post(url, json=payload, timeout=120)
+        resp.raise_for_status()
+
+        data = resp.json()
+        return data["choices"][0]["message"]["content"].strip()
+
+    # ──────────────────────────────────────────
+    #  Helpers
+    # ──────────────────────────────────────────
+    def _has_error(self, data: dict) -> bool:
+        return "error" in data or not data
+
+    def _wrap(self, data: dict, status: str, jaccard: float) -> dict:
+        if "JSON_EXTRACTION" not in data:
+            data = {"JSON_EXTRACTION": data}
+        data["JSON_EXTRACTION"]["_metadata"] = {
+            "judge_model":    self.model_id,
+            "judge_backend":  "none_direct",
+            "input_jaccard":  round(jaccard, 4),
+            "status":         status,
+            "timestamp":      time.strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        return data
 
     def extract_json(self, text: str) -> dict:
-        """
-        Trích xuất JSON an toàn, ưu tiên tìm block JSON_EXTRACTION.
-        Xử lý cả trường hợp model sinh thêm text rác.
-        """
         try:
-            # Tìm block code markdown json
             match = re.search(r'```json\s*(.*?)\s*```', text, re.DOTALL)
-            json_str = match.group(1) if match else text
-            
-            # Cố gắng tìm cặp ngoặc nhọn lớn nhất
-            start_idx = json_str.find('{')
-            end_idx = json_str.rfind('}') + 1
-            if start_idx != -1 and end_idx != 0:
-                parsed_data = json.loads(json_str[start_idx:end_idx])
-                
-                # Nếu model không bọc trong JSON_EXTRACTION, ta tự bọc lại cho đúng format
-                if "JSON_EXTRACTION" not in parsed_data:
-                    return {"JSON_EXTRACTION": parsed_data}
-                return parsed_data
-            else:
-                raise ValueError("Không tìm thấy cặp ngoặc {} hợp lệ.")
+            json_str = match.group(1).strip() if match else None
+
+            if not json_str:
+                start = text.find('{')
+                end   = text.rfind('}')
+                json_str = text[start:end + 1] if start != -1 else text
+
+            json_str = re.sub(r'[\x00-\x1F\x7F]', '', json_str)
+            parsed   = json.loads(json_str)
+
+            if "JSON_EXTRACTION" not in parsed:
+                parsed = {"JSON_EXTRACTION": parsed}
+            return parsed
+
         except Exception as e:
-            return {"error": "JSON parse failed in Judge", "raw_output": text[:200], "details": str(e)}
+            print(f"[-] [Judge] JSON parse failed: {e}")
+            return {"error": f"JSON parse failed: {e}", "raw": text[:300]}
 
-    def build_prompt(self, vlm1_data: dict, vlm2_data: dict, j_score: float, disease_name: str) -> str:
-        """Tạo Prompt ép Llama 3.1 xuất chuẩn định dạng JSON_EXTRACTION"""
-        
-        # Trích xuất dữ liệu lõi, bỏ qua metadata và lớp bọc JSON_EXTRACTION để đưa vào prompt gọn gàng
-        d1 = vlm1_data.get("JSON_EXTRACTION", vlm1_data)
-        d2 = vlm2_data.get("JSON_EXTRACTION", vlm2_data)
-        
-        d1_clean = {k: v for k, v in d1.items() if not k.startswith('_')}
-        d2_clean = {k: v for k, v in d2.items() if not k.startswith('_')}
 
-        # Sử dụng đúng format của Llama 3.1
-        return f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-Bạn là một chuyên gia hội chẩn Da liễu AI cấp cao. Nhiệm vụ của bạn là hợp nhất dữ liệu từ hai mô hình VLM để tạo ra một bản ghi "Gold Standard" chuẩn xác.
+# ─────────────────────────────────────────────────────────────────
+#  Convenience wrapper
+# ─────────────────────────────────────────────────────────────────
+def judge_merge(vlm1_json: dict, vlm2_json: dict,
+                disease_name: str, threshold: float = 0.85) -> dict:
+    judge = JudgeEngine()
+    judge.load_model()
+    return judge.run(vlm1_json, vlm2_json, disease_name, threshold)
 
-[QUY TẮC CỐT LÕI - BẮT BUỘC TUÂN THỦ]
-1. Cấu trúc output PHẢI LÀ một JSON duy nhất với root key là "JSON_EXTRACTION".
-2. Trường "Category": Ghi chính xác "{disease_name}".
-3. Các trường "Lesion_Type", "Colour", "Shape", "Distribution", "Characteristics": BẮT BUỘC phải là mảng các chuỗi (Array of Strings) [].
-4. CƠ CHẾ HỢP NHẤT:
-   - Nếu VLM1 và VLM2 dùng từ đồng nghĩa (VD: "Mảng đỏ" và "Hồng ban"), hãy dùng thuật ngữ y khoa chuẩn ("Hồng ban").
-   - Gộp các đặc điểm không mâu thuẫn vào mảng.
-   - Loại bỏ các thông tin có chữ "Không quan sát rõ" nếu mô hình kia nhìn thấy rõ.
-5. KHÔNG giải thích, KHÔNG sinh thêm văn bản ngoài block JSON.<|eot_id|><|start_header_id|>user<|end_header_id|>
-[DỮ LIỆU ĐẦU VÀO]
-- Chỉ số đồng thuận (Jaccard): {j_score:.2f}
-- VLM 1: {json.dumps(d1_clean, ensure_ascii=False)}
-- VLM 2: {json.dumps(d2_clean, ensure_ascii=False)}
 
-Thực hiện hợp nhất và xuất JSON ngay lập tức:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-```json
-{{
-  "JSON_EXTRACTION": {{"""
-
-    def run_judge(self, vlm1_data: dict, vlm2_data: dict, disease_name: str) -> dict:
-        """Quy trình chạy Judge hoàn chỉnh"""
-        # 1. Fallback Logic: Nếu một trong hai VLM bị lỗi (Ví dụ: OOM, parse error)
-        err1 = "error" in vlm1_data or "error" in vlm1_data.get("JSON_EXTRACTION", {})
-        err2 = "error" in vlm2_data or "error" in vlm2_data.get("JSON_EXTRACTION", {})
-        
-        if err1 and not err2:
-            final_data = vlm2_data.copy()
-            final_data["_metadata"] = {"judge_status": "fallback_vlm2"}
-            return final_data
-        if err2 and not err1:
-            final_data = vlm1_data.copy()
-            final_data["_metadata"] = {"judge_status": "fallback_vlm1"}
-            return final_data
-        if err1 and err2:
-            return {"error": "Cả hai VLM đều thất bại.", "Category": disease_name}
-        
-        # 2. Tính Jaccard (nếu 2 VLM đều thành công)
-        j_score = calculate_jaccard(vlm1_data, vlm2_data)
-        
-        # 3. Inference với Llama 3.1
-        prompt = self.build_prompt(vlm1_data, vlm2_data, j_score, disease_name)
-        inputs = self.tokenizer(prompt, return_tensors="pt").to("cuda")
-        
-        with torch.no_grad():
-            outputs = self.model.generate(
-                **inputs, 
-                max_new_tokens=768, 
-                temperature=0.01, # Giữ cực thấp để tránh hallucination
-                do_sample=False,
-                pad_token_id=self.tokenizer.eos_token_id
-            )
-        
-        response_text = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-        
-        # Vì prompt ép model bắt đầu bằng `{\n  "JSON_EXTRACTION": {`, ta phải nối lại nếu text bị cắt
-        if "assistant" in response_text:
-            output_part = response_text.split("assistant")[-1].strip()
-            # Khôi phục phần mồi (prefix)
-            if not output_part.startswith("{"):
-                output_part = '{\n  "JSON_EXTRACTION": {' + output_part
-        else:
-            output_part = response_text
-            
-        final_json = self.extract_json(output_part)
-        
-        # 4. Đính kèm Metadata kiểm thử
-        if "JSON_EXTRACTION" in final_json:
-            final_json["JSON_EXTRACTION"]["_metadata"] = {
-                "judge_model": self.model_id,
-                "input_jaccard": round(j_score, 4),
-                "status": "consensus_achieved"
-            }
-        
-        return final_json
-
-# --- TEST BLOCK ---
 if __name__ == "__main__":
-    # Dữ liệu mô phỏng theo đúng format JSON_EXTRACTION từ Phase 2
-    mock_vlm1 = {
-        "JSON_EXTRACTION": {
-            "Category": "Ban đỏ đa dạng",
-            "Lesion_Type": ["Hình bia bắn", "Sẩn đỏ"],
-            "Colour": ["Đỏ", "Trung tâm sậm màu"],
-            "Shape": ["Tròn", "Bờ rõ"],
-            "Distribution": ["Lòng bàn tay", "Cẳng tay"],
-            "Characteristics": ["Không quan sát rõ"]
-        }
-    }
-    
-    mock_vlm2 = {
-        "JSON_EXTRACTION": {
+    print("Test Judge Engine (Gemma 4 — Google AI Studio)...")
+    judge = JudgeEngine()
+    judge.load_model()
+    result = judge.run(
+        vlm1_json={
             "Category": "Ban đỏ đa dạng",
             "Lesion_Type": ["Tổn thương hình bia bắn"],
-            "Colour": ["Vòng đồng tâm biến đổi sắc đỏ"],
-            "Shape": ["Hình tròn", "Đối xứng"],
-            "Distribution": ["Cổ tay", "Cẳng tay"],
-            "Characteristics": ["Biến đổi màu sắc 3 vùng"]
-        }
-    }
-
-    judge = JudgeEngine()
-    
-    try:
-        # Cần login Hugging Face trên Colab trước khi chạy lệnh này
-        judge.load_model("meta-llama/Meta-Llama-3.1-8B-Instruct")
-        
-        result = judge.run_judge(mock_vlm1, mock_vlm2, "Ban đỏ đa dạng")
-        
-        print("\n=== KẾT QUẢ HỢP NHẤT TỪ JUDGE ===")
-        print(json.dumps(result, indent=2, ensure_ascii=False))
-        
-    except Exception as e:
-        print(f"Lỗi thực thi Judge: {e}")
-    finally:
-        judge.flush_memory()
+            "Colour": ["Đỏ", "Trung tâm sẫm màu"],
+        },
+        vlm2_json={
+            "Category": "Ban đỏ đa dạng",
+            "Lesion_Type": ["Sẩn hồng ban", "Mụn nước"],
+            "Colour": ["Hồng đỏ", "Vòng đồng tâm"],
+        },
+        disease_name="Ban đỏ đa dạng",
+        jaccard_threshold=0.85,
+    )
+    print(json.dumps(result, indent=2, ensure_ascii=False))

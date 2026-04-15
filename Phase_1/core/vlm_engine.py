@@ -1,208 +1,248 @@
-import torch
-import gc
+"""
+VLM Engine — multi-provider VLM cho Phase 1
+
+Providers:
+  anthropic  — Claude Opus / Sonnet
+              (base_url tùy chọn: Groq, OpenRouter, Together…)
+  openai     — GPT-4o / GPT-4o-mini
+
+Đọc token từ .env.
+"""
+
 import os
 import json
 import re
+import time
+import base64
+import requests
 from PIL import Image
-import torchvision.transforms as T
-from torchvision.transforms.functional import InterpolationMode
-from transformers import (
-    Qwen2VLForConditionalGeneration, 
-    AutoProcessor, 
-    AutoModel, 
-    AutoTokenizer,
-    BitsAndBytesConfig
-)
+import io
+from dotenv import load_dotenv
+load_dotenv()
 
-# Thư viện hỗ trợ Qwen2-VL xử lý ảnh
-try:
-    from qwen_vl_utils import process_vision_info
-except ImportError:
-    os.system('pip install qwen-vl-utils')
-    from qwen_vl_utils import process_vision_info
+# ──────────────────────────────────────────────
+#  Token & endpoint từ .env
+# ──────────────────────────────────────────────
+ANTHROPIC_TOKEN  = os.getenv("ANTHROPIC_API_KEY", "")
+ANTHROPIC_BASE_URL = os.getenv("ANTHROPIC_BASE_URL", "").rstrip("/")
 
+OPENAI_TOKEN = os.getenv("OPENAI_API_KEY", "")
+
+
+# ──────────────────────────────────────────────
+#  Image encoder helper
+# ──────────────────────────────────────────────
+def encode_image(image_path: str, max_size=(1024, 1024)) -> str:
+    """Resize + encode ảnh sang base64 JPEG."""
+    with Image.open(image_path) as img:
+        img = img.convert('RGB')
+        img.thumbnail(max_size, Image.LANCZOS)
+        buffer = io.BytesIO()
+        img.save(buffer, format="JPEG", quality=90)
+    return base64.b64encode(buffer.getvalue()).decode("utf-8")
+
+
+# ──────────────────────────────────────────────
+#  VLMEngine
+# ──────────────────────────────────────────────
 class VLMEngine:
     def __init__(self):
-        self.model = None
-        self.processor = None
-        self.tokenizer = None
-        self.model_id = None
-        
-        # Đường dẫn lưu trữ cố định trên Drive
-        self.drive_cache_path = "/content/drive/MyDrive/DermNet_Dataset/huggingface_cache"
-        
-        # Cấu hình 4-bit
-        self.bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.bfloat16
-        )
+        self.model_id   = None
+        self.provider   = None
+        self._clients   = {}   # lazy clients
 
     def flush_memory(self):
-        """Giải phóng hoàn toàn VRAM"""
-        if self.model is not None: del self.model
-        if self.processor is not None: del self.processor
-        if self.tokenizer is not None: del self.tokenizer
-        self.model = self.processor = self.tokenizer = None
-        gc.collect()
-        torch.cuda.empty_cache()
-        print(f"--- Đã giải phóng VRAM ---")
+        self._clients.clear()
+        print(f"--- [VLMEngine] flushed ({self.provider}) ---")
 
-    def load_model(self, model_id: str):
-        """Load model và tự động lưu/đọc từ Drive"""
-        self.flush_memory()
+    # ──────────────────────────────────────────
+    #  load_model(provider, model_id)
+    # ──────────────────────────────────────────
+    def load_model(self, provider: str, model_id: str):
+        self.provider = provider
         self.model_id = model_id
-        os.makedirs(self.drive_cache_path, exist_ok=True)
 
-        print(f"--- Đang nạp model: {model_id} ---")
-        print(f"--- Cache Directory: {self.drive_cache_path} ---")
+        if provider == "anthropic":
+            self._load_anthropic()
 
-        common_kwargs = {
-            "quantization_config": self.bnb_config,
-            "device_map": "auto",
-            "trust_remote_code": True,
-            "cache_dir": self.drive_cache_path, # Lưu model vào Drive
-            "attn_implementation": "sdpa"      # Fix lỗi Flash Attention
-        }
+        elif provider == "openai":
+            self._load_openai()
 
-        if "Qwen2-VL" in model_id:
-            self.model = Qwen2VLForConditionalGeneration.from_pretrained(
-                model_id, **common_kwargs
-            )
-            self.processor = AutoProcessor.from_pretrained(
-                model_id, cache_dir=self.drive_cache_path
-            )
-        
-        elif "InternVL2" in model_id:
-            self.model = AutoModel.from_pretrained(
-                model_id, torch_dtype=torch.bfloat16, **common_kwargs
-            ).eval()
-            self.tokenizer = AutoTokenizer.from_pretrained(
-                model_id, trust_remote_code=True, use_fast=False, 
-                cache_dir=self.drive_cache_path
-            )
-
-    def extract_json(self, raw_txt: str) -> dict:
-        """Trích xuất JSON từ chuỗi văn bản."""
-        match = re.search(r'```json\s*(.*?)\s*```', raw_txt, re.DOTALL)
-        json_str = match.group(1) if match else raw_txt
-        try:
-            start_idx = json_str.find('{')
-            end_idx = json_str.rfind('}') + 1
-            if start_idx == -1 or end_idx == 0:
-                raise ValueError("Không tìm thấy {}")
-            return json.loads(json_str[start_idx:end_idx])
-        except Exception as e:
-            return {"error": "JSON parse failed", "details": str(e), "raw": raw_txt[:200]}
-
-    def get_internvl_pixel_values(self, image_path):
-        """Hàm helper chuẩn bị ảnh cho InternVL2"""
-        image = Image.open(image_path).convert('RGB')
-        transform = T.Compose([
-            T.Resize((448, 448), interpolation=InterpolationMode.BICUBIC),
-            T.ToTensor(),
-            T.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
-        ])
-        return transform(image).unsqueeze(0).to(torch.bfloat16).cuda()
-
-    def call_vlm(self, system_prompt: str, user_prompt: str, image_path: str = None) -> str:
-        """Hàm inference đa model (Hỗ trợ System Prompt)"""
-        if not self.model:
-            return "ERROR: Model chưa được nạp!"
-
-        if "Qwen2-VL" in self.model_id:
-            # Qwen2-VL hỗ trợ role 'system' một cách native
-            messages = [
-                {"role": "system", "content": [{"type": "text", "text": system_prompt}]},
-                {"role": "user", "content": []}
-            ]
-            
-            if image_path:
-                messages[1]["content"].append({"type": "image", "image": image_path})
-            
-            messages[1]["content"].append({"type": "text", "text": user_prompt})
-            
-            text = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-            image_inputs, video_inputs = process_vision_info(messages)
-            
-            inputs = self.processor(
-                text=[text],
-                images=image_inputs,
-                videos=video_inputs,
-                padding=True,
-                return_tensors="pt"
-            ).to("cuda")
-
-            generated_ids = self.model.generate(**inputs, max_new_tokens=1024)
-            generated_ids_trimmed = [
-                out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
-            ]
-            return self.processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
-
-        elif "InternVL2" in self.model_id:
-            # InternVL2 thường nhận prompt gộp cho system và user
-            full_prompt = f"{system_prompt}\n\n{user_prompt}"
-            
-            if image_path:
-                pixel_values = self.get_internvl_pixel_values(image_path)
-                response, _ = self.model.chat(
-                    self.tokenizer, 
-                    pixel_values, 
-                    full_prompt, 
-                    generation_config={"max_new_tokens": 1024}
-                )
-            else:
-                response, _ = self.model.chat(
-                    self.tokenizer, 
-                    None, 
-                    full_prompt, 
-                    generation_config={"max_new_tokens": 1024}
-                )
-            return response
-
-# --- LOGIC PIPELINE (Cập nhật tham số system_prompt) ---
-
-def run_phase1(engine: VLMEngine, image_path: str, sys_prompt: str, usr_prompt: str) -> str:
-    print(f"[+] Phase 1: Observing {os.path.basename(image_path)}")
-    return engine.call_vlm(sys_prompt, usr_prompt, image_path=image_path)
-
-def run_phase2(engine: VLMEngine, phase1_output: str, sys_prompt: str, usr_template: str, disease_name: str, disease_knowledge: str) -> dict:
-    print(f"[+] Phase 2: Mapping for {disease_name}")
-    final_user_prompt = usr_template.format(
-        phase1_qa_output=phase1_output,
-        disease_name=disease_name,
-        disease_knowledge=disease_knowledge
-    )
-    raw_response = engine.call_vlm(sys_prompt, final_user_prompt)
-    return engine.extract_json(raw_response)
-
-# --- TEST BLOCK ---
-if __name__ == "__main__":
-    # Cấu trúc test mô phỏng y hệt file YAML của bạn
-    SYS_P1 = "Bạn là chuyên gia. KHÔNG ĐOÁN TÊN BỆNH. Chỉ mô tả những gì thấy trên ảnh."
-    USR_P1 = "Trả lời: 1. Loại tổn thương? 2. Màu sắc? 3. Hình dạng?"
-    
-    SYS_P2 = "Bạn là AI mapping. Luôn lấy tên bệnh làm Category. Trích xuất JSON mảng."
-    USR_P2 = "DỮ LIỆU: \n1. Quan sát: {phase1_qa_output}\n2. Kiến thức: {disease_knowledge}\nXuất JSON."
-    
-    IMG_PATH = "Phase_1/assets/few_shot_image/Tinea_incognito.png" 
-    
-    engine = VLMEngine()
-
-    # Chỉ chạy 1 model để test nhanh (Ví dụ: Qwen)
-    try:
-        if os.path.exists(IMG_PATH):
-            engine.load_model("Qwen/Qwen2-VL-7B-Instruct")
-            
-            obs_qwen = run_phase1(engine, IMG_PATH, SYS_P1, USR_P1)
-            print(f"\n[QWEN2-VL P1]:\n{obs_qwen}")
-            
-            json_qwen = run_phase2(engine, obs_qwen, SYS_P2, USR_P2, "Nấm da ẩn danh", "Có mảng hồng ban, mụn mủ")
-            print(f"\n[QWEN2-VL P2 JSON]:\n{json.dumps(json_qwen, indent=2, ensure_ascii=False)}")
         else:
-            print("[-] Không tìm thấy ảnh test, hãy sửa IMG_PATH!")
-    except Exception as e:
-        print(f"[-] Lỗi hệ thống: {e}")
-    finally:
-        engine.flush_memory()
+            raise ValueError(
+                f"[VLMEngine] Provider '{provider}' không hỗ trợ. "
+                "Dùng: 'anthropic' | 'openai'"
+            )
+
+    def _load_anthropic(self):
+        """Khởi tạo Anthropic client — hỗ trợ base_url tùy chỉnh."""
+        if not ANTHROPIC_TOKEN:
+            raise RuntimeError(
+                "[VLMEngine] ANTHROPIC_API_KEY chưa đặt trong .env"
+            )
+
+        try:
+            from anthropic import Anthropic
+        except ImportError:
+            raise RuntimeError(
+                "[VLMEngine] pip install anthropic"
+            )
+
+        kwargs = {"api_key": ANTHROPIC_TOKEN}
+
+        # Dùng base_url tùy chỉnh nếu có (Groq, OpenRouter, Together…)
+        if ANTHROPIC_BASE_URL:
+            kwargs["base_url"] = ANTHROPIC_BASE_URL
+            backend = ANTHROPIC_BASE_URL.split("//")[1].split("/")[0]
+            print(f"[VLMEngine] ✅ Anthropic — model: {self.model_id} | base_url: {backend}")
+        else:
+            print(f"[VLMEngine] ✅ Anthropic — model: {self.model_id} | endpoint: api.anthropic.com")
+
+        self._clients["anthropic"] = Anthropic(**kwargs)
+
+    def _load_openai(self):
+        """Khởi tạo OpenAI client."""
+        if not OPENAI_TOKEN:
+            raise RuntimeError(
+                "[VLMEngine] OPENAI_API_KEY chưa đặt trong .env"
+            )
+        try:
+            from openai import OpenAI
+        except ImportError:
+            raise RuntimeError("[VLMEngine] pip install openai")
+
+        self._clients["openai"] = OpenAI(api_key=OPENAI_TOKEN)
+        print(f"[VLMEngine] ✅ OpenAI — model: {self.model_id}")
+
+    # ──────────────────────────────────────────
+    #  call_vlm(system_prompt, user_prompt, image_path=None)
+    # ──────────────────────────────────────────
+    def call_vlm(self, system_prompt: str, user_prompt: str,
+                 image_path: str = None) -> str:
+        if self.provider == "anthropic":
+            return self._call_anthropic(system_prompt, user_prompt, image_path)
+        elif self.provider == "openai":
+            return self._call_openai(system_prompt, user_prompt, image_path)
+        return f"LỖI: Provider '{self.provider}' không hỗ trợ."
+
+    # ── Anthropic (Claude) ─────────────────────
+    def _call_anthropic(self, system_prompt, user_prompt, image_path):
+        cli = self._clients.get("anthropic")
+        if cli is None:
+            return "LỖI: Anthropic client chưa khởi tạo."
+
+        content = [{"type": "text", "text": user_prompt}]
+        if image_path:
+            content.append({
+                "type": "image",
+                "source": {
+                    "type":       "base64",
+                    "media_type": "image/jpeg",
+                    "data":       encode_image(image_path),
+                }
+            })
+
+        try:
+            resp = cli.messages.create(
+                model       = self.model_id,
+                max_tokens  = 4096,
+                temperature = 0.1,
+                system      = system_prompt,
+                messages     = [{"role": "user", "content": content}],
+            )
+
+            # Lặp qua các khối nội dung để tìm khối "text" thực sự
+            final_text = ""
+            for block in resp.content:
+                if hasattr(block, 'text'):
+                    final_text += block.text
+            
+            return final_text.strip() if final_text else "LỖI: Không tìm thấy nội dung văn bản."
+
+            # return resp.content[0].text.strip()
+        except Exception as e:
+            return f"LỖI Anthropic: {e}"
+
+    # ── OpenAI (GPT-4o) ────────────────────────
+    def _call_openai(self, system_prompt, user_prompt, image_path):
+        cli = self._clients.get("openai")
+        if cli is None:
+            return "LỖI: OpenAI client chưa khởi tạo."
+
+        content = [{"type": "text", "text": user_prompt}]
+        if image_path:
+            content.append({
+                "type": "image_url",
+                "image_url": {
+                    "url": f"data:image/jpeg;base64,{encode_image(image_path)}"
+                }
+            })
+
+        try:
+            resp = cli.chat.completions.create(
+                model       = self.model_id,
+                messages    = [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user",   "content": content},
+                ],
+                temperature = 0.1,
+                max_tokens = 4096,
+            )
+            return resp.choices[0].message.content.strip()
+        except Exception as e:
+            return f"LỖI OpenAI: {e}"
+
+    # ──────────────────────────────────────────
+    #  extract_json(text) → dict
+    # ──────────────────────────────────────────
+    def extract_json(self, text: str) -> dict:
+        """Trích JSON từ text, chấp nhận markdown code block hoặc thuần text."""
+        try:
+            match = re.search(r'```json\s*(.*?)\s*```', text, re.DOTALL)
+            json_str = match.group(1).strip() if match else None
+
+            if not json_str:
+                start = text.find('{')
+                end   = text.rfind('}')
+                json_str = text[start:end + 1] if start != -1 else text
+
+            json_str = re.sub(r'[\x00-\x1F\x7F]', '', json_str)
+            parsed   = json.loads(json_str)
+
+            if "JSON_EXTRACTION" not in parsed:
+                parsed = {"JSON_EXTRACTION": parsed}
+            return parsed
+
+        except Exception as e:
+            print(f"[-] LỖI PARSE JSON: {e}")
+            return {"error": f"JSON parse failed: {e}", "raw": text[:300]}
+
+    # ──────────────────────────────────────────
+    #  debug_log(phase, raw_text, ...)
+    # ──────────────────────────────────────────
+    def debug_log(self, phase, raw_text,
+                  image_name="", disease_name=""):
+        """Lưu response thô ra file để inspect."""
+        debug_dir = os.path.normpath(os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            "..", "..", "debug_outputs"
+        ))
+        os.makedirs(debug_dir, exist_ok=True)
+
+        safe = lambda s: re.sub(r'[^\w\-_.]', '_', s or "")
+        ts   = time.strftime("%Y%m%d_%H%M%S")
+        fname = f"DEBUG_P{phase}_{safe(disease_name)}__{safe(image_name)}__{ts}.txt"
+        path  = os.path.join(debug_dir, fname)
+
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(f"PROVIDER: {self.provider}\n"
+                    f"MODEL   : {self.model_id}\n"
+                    f"PHASE   : {phase}\n"
+                    f"IMAGE   : {image_name}\n"
+                    f"DISEASE : {disease_name}\n"
+                    f"TIME    : {ts}\n"
+                    f"{'='*60}\n"
+                    f"{raw_text}")
+
+        print(f"[DEBUG P{phase}] Đã lưu → {path}")
+        return path
