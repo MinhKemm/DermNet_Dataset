@@ -56,10 +56,10 @@ logs/
 # ──────────────────────────────────────────────────
 #  Dataset gốc — không push
 # ──────────────────────────────────────────────────
-# dermnet-output/           # ← bỏ comment dòng này nếu muốn ignore
-# dermnet-output-local/
-# DermNet_Data_V2/
-# downloaded_data/
+dermnet-output/           # ← bỏ comment dòng này nếu muốn ignore
+dermnet-output-local/
+DermNet_Data_V2/
+downloaded_data/
 
 # ──────────────────────────────────────────────────
 #  OS
