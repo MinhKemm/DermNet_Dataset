@@ -2,21 +2,22 @@
 run_pipeline.py — Phase 1 Full Pipeline trên dermnet-output
 
 Luồng xử lý:
-  Phase 1a: VLM1 (Claude Opus 4.6) → JSON mô tả hình thái
-  Phase 1b: VLM2 (GPT-4o)          → JSON mô tả hình thái  [bạn của bạn chạy]
-  Judge   : Gemma 4                  → Hợp nhất & sinh JSON cuối cùng
+  Phase 1 (Claude) → Phase 2 (Claude) → Gemma Compare vs GPT-4o JSON
 
-Thực tế hiện tại: chỉ chạy VLM1 (Claude Opus 4.6).
-Cấu trúc VLM2 + Judge giữ nguyên để push GitHub đầy đủ.
+Sử dụng master_registry.csv để kiểm soát tiến độ.
+Chạy lại sẽ tự động bỏ qua ảnh đã xong.
 
 Dataset:
   dermnet-output/
-  ├── images/<DiseaseName>/*.jpg, *.png
+  ├── images/<DiseaseName>/<image.jpg, *.png>
   └── contents/<Toàn bộ nội dung - DiseaseName.txt>
+
+GPT-4o outputs (bạn đặt vào):
+  Phase_1/gpt4o_outputs/<disease_name>.json
 
 Chạy:
     cd /Users/binhminh/Desktop/DermNet_Dataset
-    RUN_MODE=VLM1_ONLY python Phase_1/scripts/run_pipeline.py
+    python Phase_1/scripts/run_pipeline.py
 """
 
 import os
@@ -31,19 +32,18 @@ project_root  = os.path.abspath(os.path.join(current_dir, "../../"))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-from Phase_1.loaders.config_loader import get_settings, get_prompts
-from Phase_1.core.vlm_engine   import VLMEngine
-from Phase_1.core.judge_engine import JudgeEngine
-from Phase_1.utils.json_handler import save_json_ordered
-
-
-# ─────────────────────────────────────────────────────────────────
-#  Chế độ chạy
-# ─────────────────────────────────────────────────────────────────
-# "BOTH"      : VLM1 + VLM2 → Judge (khi có đủ JSON)
-# "VLM1_ONLY" : Chỉ Claude Opus → lưu trực tiếp  ← hiện tại
-# "VLM2_ONLY" : Chỉ GPT-4o    → lưu trực tiếp
-RUN_MODE = os.environ.get("RUN_MODE", "VLM1_ONLY").upper()
+from Phase_1.loaders.config_loader  import get_settings, get_prompts
+from Phase_1.core.vlm_engine        import VLMEngine
+from Phase_1.core.gemma_comparison import GemmaGoldStandardEngine
+from Phase_1.loaders.registry       import RegistryManager, (
+    STATUS_PENDING, STATUS_P1_OK, STATUS_P2_OK, STATUS_GEMMA_OK, STATUS_ERROR,
+)
+from Phase_1.utils.json_handler     import (
+    save_json_ordered,
+    save_json_with_ids,
+    generate_image_id,
+    canonicalize_fields,
+)
 
 
 # ─────────────────────────────────────────────────────────────────
@@ -62,12 +62,12 @@ def build_debug_filename(prefix, disease_name, image_name):
 
 
 def save_debug_file(prefix, disease_name, image_name,
-                   sys_prompt, user_prompt, raw_response):
+                    sys_prompt, user_prompt, raw_response):
     debug_dir = get_debug_dir()
     path = os.path.join(debug_dir, build_debug_filename(prefix, disease_name, image_name))
     with open(path, "w", encoding="utf-8") as f:
         f.write(f"{'='*60}\n"
-                f"[{prefix}] Claude Opus 4.6 – Phase 1/2 Response\n"
+                f"[{prefix}] Claude Opus 4.6\n"
                 f"{'='*60}\n"
                 f"BỆNH  : {disease_name}\n"
                 f"ẢNH   : {image_name}\n"
@@ -82,268 +82,333 @@ def save_debug_file(prefix, disease_name, image_name,
 
 
 # ─────────────────────────────────────────────────────────────────
-#  Prompt builders (few-shot từ YAML)
+#  Prompt builders
 # ─────────────────────────────────────────────────────────────────
 def build_p1_prompt(p1_config):
     user_template = p1_config.get('user_template', '')
     examples      = p1_config.get('few_shot_examples', [])
 
     if examples:
-        user_template += "\n\n--- CÁC VÍ DỤ MINH HỌA ---\n"
+        user_template += "\n\n--- VÍ DỤ MINH HỌA ---\n"
         for ex_item in examples:
             for _, ex_val in ex_item.items():
                 img_name = os.path.basename(ex_val.get('image_name', ''))
                 user_template += (
-                    f"Ví dụ ({img_name}):\n"
+                    f"[{img_name}]\n"
                     f"{ex_val.get('expected_output', '').strip()}\n\n"
                 )
-        user_template += ("--> BÂY GIỜ LÀ LƯỢT CỦA BẠN "
-                          "(Vui lòng chỉ trả lời 5 mục):")
+        user_template += "--> BÂY GIỜ LÀ LƯỢT CỦA BẠN:\n"
     return user_template
 
 
 def build_p2_prompt(p2_config, phase1_output, disease_name, knowledge):
     user_template = p2_config.get('user_template', '')
+
     formatted = user_template.format(
-        phase1_qa_output = phase1_output,
-        disease_name      = disease_name,
-        disease_knowledge= knowledge,
+        phase1_qa_output  = phase1_output,
+        disease_name       = disease_name,
+        disease_knowledge  = knowledge,
     )
 
     examples = p2_config.get('few_shot_examples', [])
     if examples:
-        formatted += "\n\n--- CÁC VÍ DỤ MINH HỌA ---\n"
+        formatted += "\n\n--- VÍ DỤ MINH HỌA ---\n"
         for ex_item in examples:
             for _, ex_val in ex_item.items():
                 formatted += (
-                    f"Ví dụ ({ex_val.get('disease_name', '')}):\n"
+                    f"[{ex_val.get('disease_name', '')}]\n"
                     f"QA Đầu vào:\n"
                     f"{ex_val.get('phase1_qa_output', '').strip()}\n\n"
                     f"JSON Đầu ra:\n"
                     f"{ex_val.get('expected_json', '').strip()}\n\n"
                 )
-        formatted += (
-            f"--> BÂY GIỜ LÀ LƯỢT CỦA BẠN — "
-            f"TRÍCH XUẤT JSON CHO BỆNH {disease_name}:"
-        )
+        formatted += f"--> TRÍCH XUẤT JSON CHO BỆNH: {disease_name}\n"
+
     return formatted
 
 
 # ─────────────────────────────────────────────────────────────────
-#  Một VLM xử lý 1 ảnh: Phase 1 + Phase 2
+#  Tìm GPT-4o JSON trong folder local
 # ─────────────────────────────────────────────────────────────────
-def run_vlm_single(
-    engine: VLMEngine,
-    model_label: str,
-    image_path: str,
-    disease_name: str,
-    disease_knowledge: str,
-    prompts_config: dict,
-) -> dict:
-    img_filename = os.path.basename(image_path)
-    result = {
-        "phase1_raw":      "",
-        "phase2_raw":      "",
-        "json_extraction": {},
-        "success":         False,
-    }
+def load_gpt4o_json(gpt4o_dir: str, disease_name: str) -> dict | None:
+    """Tìm JSON của GPT-4o trong gpt4o_outputs/."""
+    if not os.path.exists(gpt4o_dir):
+        return None
 
-    try:
-        # ── Phase 1: Quan sát hình thái ──────────────────────
-        sys_p1 = prompts_config["phase1_observation_qa"]["system_instruction"]
-        usr_p1 = build_p1_prompt(prompts_config["phase1_observation_qa"])
-
-        print(f"\n  [{model_label}/Phase1] Gọi {engine.model_id} — quan sát...")
-        p1_res = engine.call_vlm(sys_p1, usr_p1, image_path=image_path)
-        result["phase1_raw"] = p1_res
-
-        print(f"\n  [{model_label}/Phase1] ✅ Quan sát thô:")
-        print(f"  {'─'*45}")
-        for line in p1_res.splitlines()[:8]:
-            print(f"  {line}")
-        print(f"  {'─'*45}\n")
-
-        save_debug_file(
-            f"DEBUG_{model_label}_P1",
-            disease_name, img_filename,
-            sys_p1, usr_p1, p1_res,
-        )
-
-        if p1_res.startswith("LỖI"):
-            print(f"  ❌ [{model_label}/Phase1] Lỗi: {p1_res}")
-            result["json_extraction"] = {"error": p1_res, "Category": disease_name}
-            return result
-
-        # ── Phase 2: Chuẩn hóa JSON ──────────────────────────
-        sys_p2 = prompts_config["phase2_json_standardization"]["system_instruction"]
-        usr_p2 = build_p2_prompt(
-            prompts_config["phase2_json_standardization"],
-            p1_res, disease_name, disease_knowledge,
-        )
-
-        print(f"  [{model_label}/Phase2] Gọi {engine.model_id} — chuẩn hóa...")
-        p2_raw = engine.call_vlm(sys_p2, usr_p2, image_path=None)
-        result["phase2_raw"] = p2_raw
-
-        save_debug_file(
-            f"DEBUG_{model_label}_P2",
-            disease_name, img_filename,
-            sys_p2, usr_p2, p2_raw,
-        )
-
-        parsed = engine.extract_json(p2_raw)
-        je     = parsed.get("JSON_EXTRACTION", parsed)
-        result["json_extraction"] = je
-        result["success"]         = "error" not in je
-
-        if result["success"]:
-            print(f"  [{model_label}/Phase2] ✅ JSON parse OK.")
-        else:
-            print(f"  [{model_label}/Phase2] ⚠️ Lỗi parse: {je.get('error')}")
-
-    except Exception as e:
-        print(f"  ❌ [{model_label}] Lỗi: {e}")
-        result["json_extraction"] = {"error": str(e), "Category": disease_name}
-
-    return result
+    target = disease_name.strip().lower()
+    for fname in sorted(os.listdir(gpt4o_dir)):
+        if not fname.lower().endswith(".json"):
+            continue
+        name_part = os.path.splitext(fname)[0].strip().lower()
+        if name_part == target or target in name_part or name_part in target:
+            path = os.path.join(gpt4o_dir, fname)
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+    return None
 
 
 # ─────────────────────────────────────────────────────────────────
-#  Xử lý một ảnh — đầy đủ VLM1 + VLM2 + Judge
+#  Xử lý 1 ảnh: Phase 1 + Phase 2 + Gemma Compare
 # ─────────────────────────────────────────────────────────────────
 def process_single_image(
-    image_path: str,
+    image_abs_path: str,
     disease_txt_path: str,
-    disease_folder_name: str,
+    disease_name: str,
+    disease_folder: str,
     settings: dict,
     prompts_config: dict,
+    registry: RegistryManager,
     output_dir: str,
+    gpt4o_dir: str,
 ):
-    # ── Trích tên bệnh từ file .txt ──────────────────────────
-    txt_filename = os.path.basename(disease_txt_path)
-    disease_name  = re.sub(r'^.*?\-\s*', '', txt_filename)
-    disease_name  = re.sub(r'\.txt$', '', disease_name,
-                           flags=re.IGNORECASE).strip()
-    img_filename  = os.path.basename(image_path)
+    img_rel      = os.path.join(disease_folder, os.path.basename(image_abs_path))
+    img_filename = os.path.basename(image_abs_path)
 
     print(f"\n{'='*55}")
     print(f"🚀 XỬ LÝ: [{disease_name}] | Ảnh: [{img_filename}]")
-    print(f"   Mode : {RUN_MODE}")
     print(f"{'='*55}")
 
+    # ── Đọc kiến thức bệnh ──────────────────────────────────────
     with open(disease_txt_path, 'r', encoding='utf-8') as f:
         disease_knowledge = f.read().strip()
 
-    vlm1_cfg  = settings["models"]["vlm_1"]
-    vlm2_cfg  = settings["models"]["vlm_2"]
-    judge_cfg = settings["models"]["judge_llm"]
+    vlm_cfg  = settings["models"]["vlm_1"]
+    engine   = VLMEngine()
+    engine.load_model(provider=vlm_cfg["provider"], model_id=vlm_cfg["model_id"])
 
-    vlm1_result = None
-    vlm2_result = None
+    # ── Phase 1 ───────────────────────────────────────────────
+    print(f"\n[Phase1] 🔍 Gọi {vlm_cfg['model_id']}...")
+    registry.update_status(img_rel, STATUS_P1_OK, {"phase1_claude_status": "RUNNING"})
 
-    # ── VLM 1 — Claude Opus 4.6 ────────────────────────────────
-    if RUN_MODE in ("BOTH", "VLM1_ONLY"):
-        print(f"\n[VLM1] {vlm1_cfg['provider']} / {vlm1_cfg['model_id']}")
-        engine1 = VLMEngine()
-        engine1.load_model(provider=vlm1_cfg["provider"], model_id=vlm1_cfg["model_id"])
-        vlm1_result = run_vlm_single(
-            engine1, "VLM1", image_path,
-            disease_name, disease_knowledge, prompts_config,
-        )
-        engine1.flush_memory()
+    sys_p1 = prompts_config["phase1_observation_qa"]["system_instruction"]
+    usr_p1 = build_p1_prompt(prompts_config["phase1_observation_qa"])
 
-    # ── VLM 2 — GPT-4o (OpenAI) ─────────────────────────────────
-    if RUN_MODE in ("BOTH", "VLM2_ONLY"):
-        print(f"\n[VLM2] {vlm2_cfg['provider']} / {vlm2_cfg['model_id']}")
-        engine2 = VLMEngine()
-        engine2.load_model(provider=vlm2_cfg["provider"], model_id=vlm2_cfg["model_id"])
-        vlm2_result = run_vlm_single(
-            engine2, "VLM2", image_path,
-            disease_name, disease_knowledge, prompts_config,
-        )
-        engine2.flush_memory()
+    def call_p1():
+        return engine.call_vlm(sys_p1, usr_p1, image_path=image_abs_path)
 
-    # ── Judge — Gemma 4 ─────────────────────────────────────────
-    if RUN_MODE == "BOTH":
-        print(f"\n[Judge] {judge_cfg['model_id']}")
-        judge = JudgeEngine(model_id=judge_cfg["model_id"])
-        judge.load_model()
+    # Retry logic
+    phase1_raw = _call_with_retry(call_p1, "Phase1", max_retries=3, retry_delay=5)
 
-        final_json = judge.run(
-            vlm1_result["json_extraction"] if vlm1_result else {},
-            vlm2_result["json_extraction"] if vlm2_result else {},
-            disease_name       = disease_name,
-            jaccard_threshold  = settings["pipeline"].get("jaccard_threshold", 0.85),
-        )
-        judge.flush_memory()
+    save_debug_file("P1", disease_name, img_filename, sys_p1, usr_p1, phase1_raw)
 
-    elif vlm1_result:
-        final_json = vlm1_result["json_extraction"]
+    if phase1_raw.startswith("LỖI"):
+        print(f"❌ [Phase1] Lỗi: {phase1_raw}")
+        registry.update_phase(img_rel, "claude_p1", STATUS_ERROR,
+                              raw_text=phase1_raw, error=str(phase1_raw))
+        engine.flush_memory()
+        return
 
-    elif vlm2_result:
-        final_json = vlm2_result["json_extraction"]
+    print(f"\n[Phase1] ✅ Quan sát OK — 5 dòng đầu:")
+    for ln in phase1_raw.splitlines()[:6]:
+        print(f"  {ln}")
+    registry.update_phase(img_rel, "claude_p1", STATUS_P1_OK, raw_text=phase1_raw)
 
-    else:
-        final_json = {"error": "Không có kết quả VLM nào.", "Category": disease_name}
+    # ⏳ Đợi giữa P1 → P2
+    print(f"\n⏳ Đợi 5s trước Phase 2...")
+    time.sleep(5)
 
-    # ── Thêm metadata ───────────────────────────────────────────
-    if "JSON_EXTRACTION" not in final_json:
-        final_json = {"JSON_EXTRACTION": final_json}
+    # ── Phase 2 ───────────────────────────────────────────────
+    print(f"\n[Phase2] 📋 Gọi {vlm_cfg['model_id']} — chuẩn hóa JSON...")
+    registry.update_status(img_rel, STATUS_P2_OK, {"phase2_claude_status": "RUNNING"})
 
-    final_json["JSON_EXTRACTION"].setdefault("_metadata", {}).update({
+    sys_p2 = prompts_config["phase2_json_standardization"]["system_instruction"]
+    usr_p2 = build_p2_prompt(
+        prompts_config["phase2_json_standardization"],
+        phase1_raw, disease_name, disease_knowledge,
+    )
+
+    def call_p2():
+        return engine.call_vlm(sys_p2, usr_p2, image_path=None)
+
+    phase2_raw = _call_with_retry(call_p2, "Phase2", max_retries=3, retry_delay=5)
+
+    save_debug_file("P2", disease_name, img_filename, sys_p2, usr_p2, phase2_raw)
+
+    parsed   = engine.extract_json(phase2_raw)
+    je_claude = parsed.get("JSON_EXTRACTION", parsed)
+
+    if "error" in je_claude:
+        print(f"⚠️ [Phase2] Parse lỗi: {je_claude.get('error')}")
+        registry.update_phase(img_rel, "claude_p2", STATUS_ERROR,
+                               raw_text=phase2_raw, error=str(je_claude))
+        engine.flush_memory()
+        return
+
+    registry.update_phase(img_rel, "claude_p2", STATUS_P2_OK, raw_text=phase2_raw)
+    print(f"[Phase2] ✅ Parse OK.")
+
+    # ── Đánh ID ngay từ Phase 2 ─────────────────────────────────
+    image_id = generate_image_id(img_filename, disease_folder)
+
+    # Thêm metadata (canonicalize fields trước)
+    je_claude = canonicalize_fields(je_claude)
+    je_claude.setdefault("_metadata", {}).update({
         "source_image": img_filename,
-        "run_mode":    RUN_MODE,
-        "vlm1_model":  vlm1_cfg.get("model_id") if RUN_MODE != "VLM2_ONLY" else None,
-        "vlm2_model":  vlm2_cfg.get("model_id") if RUN_MODE != "VLM1_ONLY" else None,
-        "judge_model": judge_cfg.get("model_id") if RUN_MODE == "BOTH" else None,
-        "timestamp":    time.strftime("%Y-%m-%d %H:%M:%S"),
+        "model":       vlm_cfg["model_id"],
+        "provider":    vlm_cfg["provider"],
+        "phase1_raw":  phase1_raw,
     })
 
-    # ── Lưu JSON cuối cùng ─────────────────────────────────────
-    base_name   = os.path.splitext(img_filename)[0]
-    save_folder = os.path.join(output_dir, disease_folder_name)
-    save_path   = os.path.join(save_folder, f"{base_name}.json")
+    # Lưu Claude JSON với ID
+    claude_json = {"JSON_EXTRACTION": je_claude}
+    save_path   = os.path.join(output_dir, disease_folder, f"{os.path.splitext(img_filename)[0]}_claude.json")
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    save_json_with_ids(
+        claude_json, save_path,
+        image_id   = image_id,
+        source     = "claude",
+        extra_meta = {
+            "model":    vlm_cfg["model_id"],
+            "provider": vlm_cfg["provider"],
+            "phase1_raw": phase1_raw,
+        },
+    )
+    print(f"✅ Đã lưu Claude JSON (with IDs) → {save_path}")
+    print(f"   image_id: {image_id}")
 
-    save_json_ordered(final_json, save_path)
-    print(f"\n✅ Đã lưu → {save_path}")
+    engine.flush_memory()
 
-    return final_json
+    # ── Gemma Compare vs GPT-4o JSON ──────────────────────────
+    gpt4o_json = load_gpt4o_json(gpt4o_dir, disease_name)
+
+    if gpt4o_json:
+        print(f"\n[GemmaGold] Merge Claude vs GPT-4o → Gold Standard...")
+
+        # Lưu TRƯỚC MERGE để làm ví dụ paper
+        before_dir = os.path.join(output_dir, disease_folder, "_before_merge")
+        before_path = os.path.join(before_dir, f"{os.path.splitext(img_filename)[0]}_BEFORE_MERGE.json")
+        save_json_with_ids(
+            claude_json, before_path,
+            image_id   = image_id,
+            source     = "claude_before_merge",
+            extra_meta = {"description": "JSON Claude trước khi Gemma merge"},
+        )
+        gpt4o_before_path = os.path.join(before_dir, f"{os.path.splitext(img_filename)[0]}_GPT4O_BEFORE_MERGE.json")
+        save_json_with_ids(
+            gpt4o_json, gpt4o_before_path,
+            image_id   = image_id,
+            source     = "gpt4o_before_merge",
+            extra_meta = {"description": "JSON GPT-4o trước khi Gemma merge"},
+        )
+
+        # ── Gemma Merge ─────────────────────────────────────────
+        gemma = GemmaGoldStandardEngine()
+        gemma.load_model()
+
+        gold_json = gemma.create_gold_standard(
+            image_path        = image_abs_path,
+            json_a           = claude_json,     # Claude (source)
+            json_b           = gpt4o_json,       # GPT-4o
+            disease_name     = disease_name,
+            disease_knowledge = disease_knowledge,
+            image_id         = image_id,
+        )
+
+        # Lưu SAU MERGE
+        after_dir = os.path.join(output_dir, disease_folder, "_after_merge")
+        after_path = os.path.join(after_dir, f"{os.path.splitext(img_filename)[0]}_GOLD_STANDARD.json")
+        save_json_with_ids(
+            gold_json, after_path,
+            image_id   = image_id,
+            source     = "gold",
+            extra_meta = {
+                "description":     "Gold Standard JSON — sau khi Gemma merge Claude + GPT-4o",
+                "claude_json_id":  claude_json.get("JSON_EXTRACTION", {}).get("_metadata", {}).get("json_id", ""),
+                "gpt4o_json_id":   gpt4o_json.get("JSON_EXTRACTION", {}).get("_metadata", {}).get("json_id", ""),
+                "gemma_model":     "gemma-3-27b-it",
+            },
+        )
+        print(f"✅ Gold Standard → {after_path}")
+
+        # Lưu final (= gold standard)
+        final_path = os.path.join(output_dir, disease_folder,
+                                  f"{os.path.splitext(img_filename)[0]}_final.json")
+        save_json_with_ids(
+            gold_json, final_path,
+            image_id   = image_id,
+            source     = "gold",
+            extra_meta = {"description": "Final output — Gold Standard"},
+        )
+        print(f"✅ Final (Gold Standard) → {final_path}")
+
+        registry.update_phase(
+            img_rel, "gemma",
+            phase_status=STATUS_GEMMA_OK,
+            verdict="MERGED",
+            reason="Gemma merge Claude + GPT-4o",
+        )
+
+        gemma.flush_memory()
+
+        # ⏳ Đợi sau mỗi case
+        print(f"\n⏳ Đợi 10s trước case tiếp theo...")
+        time.sleep(10)
+
+        return gold_json
+
+    else:
+        # Không có GPT-4o JSON → dùng Claude làm final
+        # Vẫn đánh ID nhưng không merge
+        final_path = os.path.join(output_dir, disease_folder,
+                                  f"{os.path.splitext(img_filename)[0]}_final.json")
+        os.makedirs(os.path.dirname(final_path), exist_ok=True)
+        save_json_with_ids(
+            claude_json, final_path,
+            image_id   = image_id,
+            source     = "claude",
+            extra_meta = {"description": "Final — Claude only (GPT-4o chưa có)"},
+        )
+        print(f"✅ Không có GPT-4o JSON — dùng Claude làm final.")
+        print(f"   💡 Đặt JSON GPT-4o vào: {gpt4o_dir}/<tên bệnh>.json")
+        print(f"   để Gemma merge tự động.")
+
+        registry.update_status(img_rel, STATUS_P2_OK)
+
+        print(f"\n⏳ Đợi 10s trước case tiếp theo...")
+        time.sleep(10)
+        return claude_json
 
 
 # ─────────────────────────────────────────────────────────────────
-#  Tìm kiếm file kiến thức bệnh trong contents/
+#  Retry wrapper
 # ─────────────────────────────────────────────────────────────────
-def find_knowledge_file(contents_dir: str, disease_folder_name: str) -> str | None:
-    """
-    Tìm file .txt trong contents/ khớp với disease_folder_name.
-    Case-insensitive, rough match để chịu được sự khác nhau nhỏ
-    về dấu câu / cách viết.
-    """
-    disease_lower = disease_folder_name.lower().strip()
+def _call_with_retry(call_fn, label, max_retries=3, retry_delay=5):
+    for attempt in range(1, max_retries + 1):
+        print(f"\n  [{label}] Lần #{attempt}/{max_retries}...")
+        result = call_fn()
+        if result and not result.startswith("LỖI") and result.strip():
+            if attempt > 1:
+                print(f"  [{label}] ✅ Thành công ở lần #{attempt}")
+            return result
+        print(f"  [{label}] ⚠️ Lần #{attempt} thất bại.")
+        if attempt < max_retries:
+            print(f"  [{label}] ⏳ Đợi {retry_delay}s trước retry...")
+            time.sleep(retry_delay)
+    print(f"  [{label}] ❌ Tất cả retry đều thất bại.")
+    return result if result else "LỖI: Hết retry"
 
+
+# ─────────────────────────────────────────────────────────────────
+#  Tìm kiến thức bệnh
+# ─────────────────────────────────────────────────────────────────
+def find_knowledge_file(contents_dir: str, disease_folder: str):
     if not os.path.isdir(contents_dir):
         return None
-
-    for fname in os.listdir(contents_dir):
-        if not fname.lower().endswith('.txt'):
+    target = disease_folder.lower().strip()
+    for fname in sorted(os.listdir(contents_dir)):
+        if not fname.lower().endswith(".txt"):
             continue
-        # File format: "Toàn bộ nội dung - <DiseaseName>.txt"
-        # Lấy phần sau dấu " - " rồi bỏ .txt
-        part = re.sub(r'^.*?\-\s*', '', fname)
-        part = re.sub(r'\.txt$', '', part, flags=re.IGNORECASE).strip()
-        if part.lower() == disease_lower:
+        part = re.sub(r"^.*?\-\s*", "", fname)
+        part = re.sub(r"\.txt$", "", part, flags=re.IGNORECASE).strip()
+        if part.lower() == target or target in part.lower() or part.lower() in target:
             return os.path.join(contents_dir, fname)
-
-    # Fallback: fuzzy match — kiểm tra disease_lower có trong part không
-    for fname in os.listdir(contents_dir):
-        if not fname.lower().endswith('.txt'):
-            continue
-        part = re.sub(r'^.*?\-\s*', '', fname)
-        part = re.sub(r'\.txt$', '', part, flags=re.IGNORECASE).strip()
-        if disease_lower in part.lower() or part.lower() in disease_lower:
-            return os.path.join(contents_dir, fname)
-
     return None
+
+
+def extract_disease_name(knowledge_filename: str) -> str:
+    name = re.sub(r"^.*?\-\s*", "", knowledge_filename)
+    name = re.sub(r"\.(txt|TXT)$", "", name).strip()
+    return name
 
 
 # ─────────────────────────────────────────────────────────────────
@@ -360,88 +425,100 @@ if __name__ == "__main__":
         print(f"❌ Lỗi load config: {e}")
         sys.exit(1)
 
-    # ── Đường dẫn dataset ─────────────────────────────────────
-    DATASET_DIR   = os.path.join(project_root, SETTINGS["paths"]["data_raw"])
-    CONTENTS_DIR  = os.path.join(DATASET_DIR, "contents")
-    IMAGES_DIR    = os.path.join(DATASET_DIR, "images")
-    OUTPUT_DIR    = os.path.join(project_root, "Phase_1", "output", "final")
+    # ── Paths ──────────────────────────────────────────────────
+    DATASET_DIR     = os.path.join(project_root, SETTINGS["paths"]["data_raw"])
+    CONTENTS_DIR   = os.path.join(DATASET_DIR, "contents")
+    IMAGES_DIR     = os.path.join(DATASET_DIR, "images")
+    OUTPUT_DIR     = os.path.join(project_root, "Phase_1", "output", "final")
+    GPT4O_DIR      = os.path.join(project_root, "Phase_1", "gpt4o_outputs")
+    REGISTRY_PATH  = os.path.join(project_root, "Phase_1", "master_registry.csv")
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(get_debug_dir(), exist_ok=True)
+    os.makedirs(GPT4O_DIR, exist_ok=True)   # tạo sẵn folder cho GPT-4o JSON
 
-    print(f"\n{'='*50}")
-    print(f"  Dataset   : {DATASET_DIR}")
-    print(f"  Images    : {IMAGES_DIR}")
-    print(f"  Contents  : {CONTENTS_DIR}")
-    print(f"  Output    : {OUTPUT_DIR}")
-    print(f"  Debug dir : {get_debug_dir()}")
-    print(f"  Run mode  : {RUN_MODE}")
-    print(f"  VLM1      : {SETTINGS['models']['vlm_1']['provider']} / "
+    print(f"\n{'='*55}")
+    print(f"  Dataset     : {DATASET_DIR}")
+    print(f"  Images      : {IMAGES_DIR}")
+    print(f"  Contents    : {CONTENTS_DIR}")
+    print(f"  Output      : {OUTPUT_DIR}")
+    print(f"  GPT-4o dir  : {GPT4O_DIR}")
+    print(f"  Registry    : {REGISTRY_PATH}")
+    print(f"  VLM         : {SETTINGS['models']['vlm_1']['provider']} / "
           f"{SETTINGS['models']['vlm_1']['model_id']}")
-    print(f"  VLM2      : {SETTINGS['models']['vlm_2']['provider']} / "
-          f"{SETTINGS['models']['vlm_2']['model_id']}")
-    print(f"  Judge     : {SETTINGS['models']['judge_llm']['model_id']}")
-    print(f"{'='*50}\n")
+    print(f"{'='*55}\n")
 
-    if not os.path.exists(IMAGES_DIR):
-        print(f"❌ Không tìm thấy dataset: {IMAGES_DIR}")
-        sys.exit(1)
+    # ── Registry ───────────────────────────────────────────────
+    registry = RegistryManager(REGISTRY_PATH)
+    new_imgs = registry.discover_dataset(IMAGES_DIR, CONTENTS_DIR)
 
-    # ── Duyệt dataset ──────────────────────────────────────────
-    total_images   = 0
-    skipped_diseases = 0
-    disease_folders = sorted([
-        d for d in os.listdir(IMAGES_DIR)
-        if os.path.isdir(os.path.join(IMAGES_DIR, d))
-    ])
+    stats = registry.summary()
+    print(f"\n📋 REGISTRY SUMMARY:")
+    print(f"  Total   : {stats['total']}")
+    print(f"  Pending : {stats['pending']}")
+    print(f"  Done    : {stats['completed']}")
+    print(f"  Status  : {stats['counts']}\n")
 
-    print(f"Tìm thấy {len(disease_folders)} thư mục bệnh\n")
+    if stats['pending'] == 0:
+        print("✅ Tất cả ảnh đã xử lý xong. Thoát.")
+        sys.exit(0)
 
-    for disease_folder in disease_folders:
-        disease_img_dir = os.path.join(IMAGES_DIR, disease_folder)
+    # ── Duyệt dataset ─────────────────────────────────────────
+    processed  = 0
+    errors     = 0
+
+    for entry in registry.get_pending():
+        img_rel    = entry["image_path"]
+        folder     = entry["disease_folder"]
+        disease_name = entry.get("disease_name", folder)
+
+        img_abs = os.path.join(IMAGES_DIR, img_rel)
+
+        if not os.path.exists(img_abs):
+            print(f"⚠️ BỎ QUA (không tìm thấy ảnh): {img_abs}")
+            errors += 1
+            continue
 
         # Tìm kiến thức bệnh
-        knowledge_path = find_knowledge_file(CONTENTS_DIR, disease_folder)
+        knowledge_path = find_knowledge_file(CONTENTS_DIR, folder)
         if not knowledge_path:
-            print(f"⚠️ BỎ QUA '{disease_folder}': không tìm thấy .txt trong contents/")
-            skipped_diseases += 1
+            print(f"⚠️ BỎ QUA '{folder}': không tìm thấy .txt trong contents/")
+            errors += 1
             continue
 
-        # Tìm ảnh
-        image_files = sorted([
-            f for f in os.listdir(disease_img_dir)
-            if f.lower().endswith(('.png', '.jpg', '.jpeg'))
-        ])
-        if not image_files:
-            print(f"⚠️ BỎ QUA '{disease_folder}': không có ảnh")
-            skipped_diseases += 1
-            continue
+        try:
+            process_single_image(
+                image_abs_path    = img_abs,
+                disease_txt_path  = knowledge_path,
+                disease_name      = disease_name,
+                disease_folder    = folder,
+                settings          = SETTINGS,
+                prompts_config    = PROMPTS_CFG,
+                registry          = registry,
+                output_dir        = OUTPUT_DIR,
+                gpt4o_dir         = GPT4O_DIR,
+            )
+            processed += 1
 
-        print(f"\n📁 [{disease_folder}] — {len(image_files)} ảnh")
+            stats = registry.summary()
+            print(f"\n  📋 Tiến độ: {stats['completed']}/{stats['total']} đã xong")
 
-        for img_file in image_files:
-            img_path = os.path.join(disease_img_dir, img_file)
-            try:
-                process_single_image(
-                    image_path            = img_path,
-                    disease_txt_path      = knowledge_path,
-                    disease_folder_name   = disease_folder,
-                    settings              = SETTINGS,
-                    prompts_config        = PROMPTS_CFG,
-                    output_dir            = OUTPUT_DIR,
-                )
-                total_images += 1
+        except Exception as e:
+            print(f"❌ Lỗi xử lý {img_rel}: {e}")
+            import traceback
+            traceback.print_exc()
+            registry.update_status(img_rel, STATUS_ERROR,
+                                    {"error_log": str(e)})
+            errors += 1
 
-            except Exception as e:
-                print(f"❌ Lỗi xử lý {img_file}: {e}")
-
-            # Tránh rate-limit API
-            time.sleep(1)
+        # ⏳ Đợi sau mỗi ảnh
+        print(f"\n⏳ Đợi 10s trước ảnh tiếp theo...")
+        time.sleep(10)
 
     elapsed = (time.time() - start_time) / 60
-    print(f"\n{'='*50}")
+    print(f"\n{'='*55}")
     print(f"✅ HOÀN TẤT")
-    print(f"   Ảnh đã xử lý : {total_images}")
-    print(f"   Thư mục bỏ qua: {skipped_diseases}")
-    print(f"   Tổng thời gian: {elapsed:.1f} phút")
-    print(f"{'='*50}")
+    print(f"   Đã xử lý : {processed}")
+    print(f"   Lỗi      : {errors}")
+    print(f"   Thời gian: {elapsed:.1f} phút")
+    print(f"{'='*55}")
