@@ -2,11 +2,9 @@
 VLM Engine — multi-provider VLM cho Phase 1
 
 Providers:
-  anthropic  — Claude Opus / Sonnet
-              (base_url tùy chọn: Groq, OpenRouter, Together…)
-  openai     — GPT-4o / GPT-4o-mini
+  openai     — GPT-4o / GPT-4o-mini (Qua API trung gian)
 
-Đọc token từ .env.
+Đọc token từ .env và sử dụng requests thuần để tránh bị Proxy chặn.
 """
 
 import os
@@ -17,21 +15,32 @@ import base64
 import requests
 from PIL import Image
 import io
-from dotenv import load_dotenv
+from pathlib import Path
+
+try:
+    from dotenv import load_dotenv
+except ImportError:
+    def load_dotenv(dotenv_path: str = ".env"):
+        env_file = Path(dotenv_path)
+        if not env_file.is_file():
+            return
+
+        for raw_line in env_file.read_text(encoding="utf-8").splitlines():
+            line = raw_line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+
+            key, value = line.split("=", 1)
+            key = key.strip()
+            value = value.strip().strip('"').strip("'")
+            os.environ.setdefault(key, value)
+
 load_dotenv()
 
-# ──────────────────────────────────────────────
-#  Token & endpoint từ .env
-# ──────────────────────────────────────────────
-ANTHROPIC_TOKEN  = os.getenv("ANTHROPIC_API_KEY", "")
-ANTHROPIC_BASE_URL = os.getenv("ANTHROPIC_BASE_URL", "").rstrip("/")
+OPENAI_TOKEN = os.getenv("OPENAI_TOKEN") or os.getenv("OPENAI_API_KEY")
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://apikey.click/v1").rstrip("/")
+MODEL = os.getenv("MODEL", "gpt-5.5")
 
-OPENAI_TOKEN = os.getenv("OPENAI_API_KEY", "")
-
-
-# ──────────────────────────────────────────────
-#  Image encoder helper
-# ──────────────────────────────────────────────
 def encode_image(image_path: str, max_size=(1024, 1024)) -> str:
     """Resize + encode ảnh sang base64 JPEG."""
     with Image.open(image_path) as img:
@@ -41,7 +50,6 @@ def encode_image(image_path: str, max_size=(1024, 1024)) -> str:
         img.save(buffer, format="JPEG", quality=90)
     return base64.b64encode(buffer.getvalue()).decode("utf-8")
 
-
 # ──────────────────────────────────────────────
 #  VLMEngine
 # ──────────────────────────────────────────────
@@ -49,10 +57,8 @@ class VLMEngine:
     def __init__(self):
         self.model_id   = None
         self.provider   = None
-        self._clients   = {}   # lazy clients
 
     def flush_memory(self):
-        self._clients.clear()
         print(f"--- [VLMEngine] flushed ({self.provider}) ---")
 
     # ──────────────────────────────────────────
@@ -62,135 +68,63 @@ class VLMEngine:
         self.provider = provider
         self.model_id = model_id
 
-        if provider == "anthropic":
-            self._load_anthropic()
-
-        elif provider == "openai":
+        if provider == "openai":
             self._load_openai()
-
         else:
-            raise ValueError(
-                f"[VLMEngine] Provider '{provider}' không hỗ trợ. "
-                "Dùng: 'anthropic' | 'openai'"
-            )
-
-    def _load_anthropic(self):
-        """Khởi tạo Anthropic client — hỗ trợ base_url tùy chỉnh."""
-        if not ANTHROPIC_TOKEN:
-            raise RuntimeError(
-                "[VLMEngine] ANTHROPIC_API_KEY chưa đặt trong .env"
-            )
-
-        try:
-            from anthropic import Anthropic
-        except ImportError:
-            raise RuntimeError(
-                "[VLMEngine] pip install anthropic"
-            )
-
-        kwargs = {"api_key": ANTHROPIC_TOKEN}
-
-        # Dùng base_url tùy chỉnh nếu có (Groq, OpenRouter, Together…)
-        if ANTHROPIC_BASE_URL:
-            kwargs["base_url"] = ANTHROPIC_BASE_URL
-            backend = ANTHROPIC_BASE_URL.split("//")[1].split("/")[0]
-            print(f"[VLMEngine] ✅ Anthropic — model: {self.model_id} | base_url: {backend}")
-        else:
-            print(f"[VLMEngine] ✅ Anthropic — model: {self.model_id} | endpoint: api.anthropic.com")
-
-        self._clients["anthropic"] = Anthropic(**kwargs)
+            raise ValueError("[VLMEngine] Luồng mới chỉ hỗ trợ 'openai'.")
 
     def _load_openai(self):
-        """Khởi tạo OpenAI client."""
         if not OPENAI_TOKEN:
-            raise RuntimeError(
-                "[VLMEngine] OPENAI_API_KEY chưa đặt trong .env"
-            )
-        try:
-            from openai import OpenAI
-        except ImportError:
-            raise RuntimeError("[VLMEngine] pip install openai")
+            raise RuntimeError("[VLMEngine] OPENAI_API_KEY chưa đặt trong .env")
+        
+        print(f"[VLMEngine] ✅ Khởi tạo HTTP Requests — model: {self.model_id} | base_url: {OPENAI_BASE_URL}")
 
-        self._clients["openai"] = OpenAI(api_key=OPENAI_TOKEN)
-        print(f"[VLMEngine] ✅ OpenAI — model: {self.model_id}")
+    def call_vlm(self, system_prompt: str, user_prompt: str, image_path: str = None) -> str:
+        if self.provider != "openai":
+            return "LỖI: Cấu hình provider không hợp lệ."
 
-    # ──────────────────────────────────────────
-    #  call_vlm(system_prompt, user_prompt, image_path=None)
-    # ──────────────────────────────────────────
-    def call_vlm(self, system_prompt: str, user_prompt: str,
-                 image_path: str = None) -> str:
-        if self.provider == "anthropic":
-            return self._call_anthropic(system_prompt, user_prompt, image_path)
-        elif self.provider == "openai":
-            return self._call_openai(system_prompt, user_prompt, image_path)
-        return f"LỖI: Provider '{self.provider}' không hỗ trợ."
-
-    # ── Anthropic (Claude) ─────────────────────
-    def _call_anthropic(self, system_prompt, user_prompt, image_path):
-        cli = self._clients.get("anthropic")
-        if cli is None:
-            return "LỖI: Anthropic client chưa khởi tạo."
+        url = f"{OPENAI_BASE_URL}/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {OPENAI_TOKEN}",
+            "Content-Type": "application/json"
+        }
 
         content = [{"type": "text", "text": user_prompt}]
+        
         if image_path:
-            content.append({
-                "type": "image",
-                "source": {
-                    "type":       "base64",
-                    "media_type": "image/jpeg",
-                    "data":       encode_image(image_path),
-                }
-            })
-
-        try:
-            resp = cli.messages.create(
-                model       = self.model_id,
-                max_tokens  = 4096,
-                temperature = 0.1,
-                system      = system_prompt,
-                messages     = [{"role": "user", "content": content}],
-            )
-
-            # Lặp qua các khối nội dung để tìm khối "text" thực sự
-            final_text = ""
-            for block in resp.content:
-                if hasattr(block, 'text'):
-                    final_text += block.text
+            # Tự động xác định MIME type dựa trên đuôi file
+            ext = Path(image_path).suffix.lower()
+            mime_type = "image/png" if ext == ".png" else "image/jpeg"
             
-            return final_text.strip() if final_text else "LỖI: Không tìm thấy nội dung văn bản."
-
-            # return resp.content[0].text.strip()
-        except Exception as e:
-            return f"LỖI Anthropic: {e}"
-
-    # ── OpenAI (GPT-4o) ────────────────────────
-    def _call_openai(self, system_prompt, user_prompt, image_path):
-        cli = self._clients.get("openai")
-        if cli is None:
-            return "LỖI: OpenAI client chưa khởi tạo."
-
-        content = [{"type": "text", "text": user_prompt}]
-        if image_path:
             content.append({
                 "type": "image_url",
                 "image_url": {
-                    "url": f"data:image/jpeg;base64,{encode_image(image_path)}"
+                    "url": f"data:{mime_type};base64,{encode_image(image_path)}"
                 }
             })
 
+        payload = {
+            "model": self.model_id,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user",   "content": content},
+            ],
+            "temperature": 0.1,
+            "max_tokens": 4096,
+        }
+
         try:
-            resp = cli.chat.completions.create(
-                model       = self.model_id,
-                messages    = [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user",   "content": content},
-                ],
-                temperature = 0.1,
-                max_tokens = 4096,
-            )
-            return resp.choices[0].message.content.strip()
+            # Sử dụng requests thay vì OpenAI SDK
+            resp = requests.post(url, headers=headers, json=payload, timeout=120)
+            
+            if not resp.ok:
+                return f"LỖI OpenAI (HTTP {resp.status_code}): {resp.text}"
+                
+            data = resp.json()
+            return data["choices"][0]["message"]["content"].strip()
+            
         except Exception as e:
-            return f"LỖI OpenAI: {e}"
+            return f"LỖI OpenAI (Requests): {e}"
 
     # ──────────────────────────────────────────
     #  extract_json(text) → dict
@@ -217,9 +151,6 @@ class VLMEngine:
             print(f"[-] LỖI PARSE JSON: {e}")
             return {"error": f"JSON parse failed: {e}", "raw": text[:300]}
 
-    # ──────────────────────────────────────────
-    #  debug_log(phase, raw_text, ...)
-    # ──────────────────────────────────────────
     def debug_log(self, phase, raw_text,
                   image_name="", disease_name=""):
         """Lưu response thô ra file để inspect."""

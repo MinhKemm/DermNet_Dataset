@@ -70,7 +70,7 @@ def parse_phase1_output(raw_text: str) -> dict:
         # Tìm key: value (hỗ trợ format "Key: value" hoặc "Key value")
         # Dùng regex để bắt "Loại tổn thương:" hoặc "Loại tổn thương"
         matched_key = None
-        for label, json_key in fieldMap.items():
+        for label, json_key in field_map.items():
             if line.lower().startswith(label):
                 matched_key = json_key
                 value_str = line[len(label):].lstrip(" :\t")
@@ -122,11 +122,11 @@ def build_phase2_user_prompt(p2_config: dict,
     template = p2_config.get("user_template", "")
 
     # Format template với giá trị
-    formatted = template.format(
-        phase1_qa_output  = phase1_output,
-        disease_name      = disease_name,
-        disease_knowledge = disease_knowledge or "(Không có kiến thức bệnh)",
-    )
+    # Use safe replace to avoid issues with braces in disease data
+    formatted = template.replace("{phase1_qa_output}", phase1_output)
+    formatted = formatted.replace("{disease_name}", disease_name)
+    formatted = formatted.replace("{disease_knowledge}", disease_knowledge or "(Không có kiến thức bệnh)")
+
 
     # Thêm few-shot examples
     examples = p2_config.get("few_shot_examples", [])
