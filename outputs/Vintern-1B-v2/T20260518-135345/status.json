@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20260518-135345",
+  "created_at": "2026-05-18T13:53:45.087393+07:00",
+  "datasets": {
+    "MyDermNet": {
+      "status": "done",
+      "prediction_file": "outputs/Vintern-1B-v2/T20260518-135345/Vintern-1B-v2_MyDermNet.xlsx",
+      "updated_at": "2026-05-18T13:53:45.090765+07:00",
+      "skip_reason": "invalid_dataset"
+    }
+  },
+  "model_name": "Vintern-1B-v2",
+  "commit": "2d1b1921",
+  "argv": [
+    "Phase_2/VLMEvalKit/run.py",
+    "--model",
+    "Vintern-1B-v2",
+    "--data",
+    "MyDermNet",
+    "--mode",
+    "infer"
+  ],
+  "api_mode": false,
+  "world_size": 1,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "infer",
+  "reuse": false,
+  "reuse_aux": "all",
+  "updated_at": "2026-05-18T13:53:45.090720+07:00"
+}

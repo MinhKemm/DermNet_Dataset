@@ -1,0 +1,26 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Herpes zoster",
+        "Loai_ton_thuong": [
+            "mảng"
+        ],
+        "Mau_sac": [
+            "đỏ",
+            "hồng"
+        ],
+        "Hinh_dang": [
+            "dải ngang",
+            "không đều"
+        ],
+        "Phan_bo": [
+            "thân mình",
+            "một bên",
+            "thành dải"
+        ],
+        "Dac_diem": [
+            "bờ mờ",
+            "phẳng"
+        ],
+        "image_name": "zoster-18"
+    }
+}

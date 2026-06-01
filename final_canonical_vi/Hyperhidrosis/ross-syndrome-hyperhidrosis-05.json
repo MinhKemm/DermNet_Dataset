@@ -1,0 +1,23 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Hyperhidrosis",
+        "Loai_ton_thuong": [
+            "mảng"
+        ],
+        "Mau_sac": [
+            "da",
+            "nâu"
+        ],
+        "Hinh_dang": [
+            "dài"
+        ],
+        "Phan_bo": [
+            "cẳng chân",
+            "khu trú"
+        ],
+        "Dac_diem": [
+            "bóng ướt"
+        ],
+        "image_name": "ross-syndrome-hyperhidrosis-05"
+    }
+}

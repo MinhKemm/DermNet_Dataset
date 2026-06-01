@@ -1,0 +1,26 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Herpes zoster",
+        "Loai_ton_thuong": [
+            "vảy tiết",
+            "trợt",
+            "sẩn"
+        ],
+        "Mau_sac": [
+            "đỏ",
+            "nâu đen"
+        ],
+        "Hinh_dang": [
+            "không đều"
+        ],
+        "Phan_bo": [
+            "một bên",
+            "cổ vai"
+        ],
+        "Dac_diem": [
+            "lan dải",
+            "đóng mài"
+        ],
+        "image_name": "figure-6-fever-rash2"
+    }
+}

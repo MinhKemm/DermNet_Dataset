@@ -1,0 +1,24 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Cherry angioma",
+        "Loai_ton_thuong": [
+            "sẩn"
+        ],
+        "Mau_sac": [
+            "đỏ tím"
+        ],
+        "Hinh_dang": [
+            "tròn",
+            "vòm"
+        ],
+        "Phan_bo": [
+            "đơn độc"
+        ],
+        "Dac_diem": [
+            "nhẵn",
+            "bóng",
+            "ranh rõ"
+        ],
+        "image_name": "166240-15950422-20150514130216454"
+    }
+}

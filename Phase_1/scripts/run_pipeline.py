@@ -220,4 +220,4 @@ if __name__ == "__main__":
         registry.update_phase(img_rel, "phase2", STATUS_P2_OK, raw_text=phase2_raw)
         print(f"✅ Hoàn thành: {save_path}")
 
-        time.sleep(5) # Delay tránh rate limit
+        time.sleep(3) # Delay tránh rate limit

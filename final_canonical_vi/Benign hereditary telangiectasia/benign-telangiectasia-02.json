@@ -1,0 +1,23 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Benign hereditary telangiectasia",
+        "Loai_ton_thuong": [
+            "Dát"
+        ],
+        "Mau_sac": [
+            "Đỏ"
+        ],
+        "Hinh_dang": [
+            "Không đều"
+        ],
+        "Phan_bo": [
+            "Ngực",
+            "Thành cụm"
+        ],
+        "Dac_diem": [
+            "Nhỏ",
+            "Mờ"
+        ],
+        "image_name": "benign-telangiectasia-02"
+    }
+}

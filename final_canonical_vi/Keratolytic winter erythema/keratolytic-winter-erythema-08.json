@@ -1,0 +1,24 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Keratolytic winter erythema",
+        "Loai_ton_thuong": [
+            "mảng"
+        ],
+        "Mau_sac": [
+            "hồng",
+            "trắng"
+        ],
+        "Hinh_dang": [
+            "tròn",
+            "không đều"
+        ],
+        "Phan_bo": [
+            "ngón chân"
+        ],
+        "Dac_diem": [
+            "bong vảy",
+            "quanh móng"
+        ],
+        "image_name": "keratolytic-winter-erythema-08"
+    }
+}

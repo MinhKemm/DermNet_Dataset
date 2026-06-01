@@ -1,0 +1,21 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Cutaneous horn",
+        "Loai_ton_thuong": [
+            "sừng da"
+        ],
+        "Mau_sac": [
+            "vàng"
+        ],
+        "Hinh_dang": [
+            "cong"
+        ],
+        "Phan_bo": [
+            "vành tai"
+        ],
+        "Dac_diem": [
+            "vảy sừng"
+        ],
+        "image_name": "horn-19"
+    }
+}

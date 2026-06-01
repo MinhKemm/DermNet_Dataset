@@ -1,0 +1,25 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Calcinosis cutis",
+        "Loai_ton_thuong": [
+            "Sẩn"
+        ],
+        "Mau_sac": [
+            "Trắng",
+            "Hồng"
+        ],
+        "Hinh_dang": [
+            "Tròn",
+            "Ranh giới rõ"
+        ],
+        "Phan_bo": [
+            "Môi trên",
+            "Khu trú"
+        ],
+        "Dac_diem": [
+            "Bề mặt nhẵn",
+            "Trung tâm trắng"
+        ],
+        "image_name": "calcinosis-cutis-0007"
+    }
+}

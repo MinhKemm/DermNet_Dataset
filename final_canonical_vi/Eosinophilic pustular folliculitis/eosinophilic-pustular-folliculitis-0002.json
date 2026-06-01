@@ -1,0 +1,26 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Eosinophilic pustular folliculitis",
+        "Loai_ton_thuong": [
+            "sẩn"
+        ],
+        "Mau_sac": [
+            "hồng nhạt",
+            "đỏ nhạt"
+        ],
+        "Hinh_dang": [
+            "tròn",
+            "dạng vòm"
+        ],
+        "Phan_bo": [
+            "má",
+            "nhiều",
+            "rải rác"
+        ],
+        "Dac_diem": [
+            "vảy mỏng",
+            "da khô"
+        ],
+        "image_name": "eosinophilic-pustular-folliculitis-0002"
+    }
+}

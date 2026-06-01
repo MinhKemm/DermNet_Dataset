@@ -1,0 +1,25 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Hidradenitis suppurativa",
+        "Loai_ton_thuong": [
+            "sẩn",
+            "nốt"
+        ],
+        "Mau_sac": [
+            "đỏ",
+            "hồng"
+        ],
+        "Hinh_dang": [
+            "tròn"
+        ],
+        "Phan_bo": [
+            "rải rác",
+            "vùng lông"
+        ],
+        "Dac_diem": [
+            "viêm",
+            "nhỏ"
+        ],
+        "image_name": "hs-inflammatory-109"
+    }
+}

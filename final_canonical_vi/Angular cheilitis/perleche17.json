@@ -1,0 +1,26 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Angular cheilitis",
+        "Loai_ton_thuong": [
+            "Mảng",
+            "Sẩn"
+        ],
+        "Mau_sac": [
+            "Đỏ",
+            "Nâu đỏ"
+        ],
+        "Hinh_dang": [
+            "Tròn",
+            "Không đều"
+        ],
+        "Phan_bo": [
+            "Quanh miệng",
+            "Cụm"
+        ],
+        "Dac_diem": [
+            "Đóng mày",
+            "Trợt"
+        ],
+        "image_name": "perleche17"
+    }
+}

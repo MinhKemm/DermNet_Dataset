@@ -1,0 +1,32 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Discoid lupus erythematosus",
+        "Loai_ton_thuong": [
+            "mảng",
+            "nốt"
+        ],
+        "Mau_sac": [
+            "tím đỏ",
+            "nâu tím",
+            "xám"
+        ],
+        "Hinh_dang": [
+            "tròn",
+            "bầu dục",
+            "đa cung"
+        ],
+        "Phan_bo": [
+            "má",
+            "thái dương",
+            "góc hàm",
+            "rải rác",
+            "tụ đám"
+        ],
+        "Dac_diem": [
+            "thâm nhiễm",
+            "khô",
+            "vảy mịn"
+        ],
+        "image_name": "discoid-lupus-erythematosus-0041"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Amyloidosis cutis dyschromica",
+        "Loai_ton_thuong": [
+            "dát"
+        ],
+        "Mau_sac": [
+            "trắng",
+            "nâu"
+        ],
+        "Hinh_dang": [
+            "tròn"
+        ],
+        "Phan_bo": [
+            "chi",
+            "rải rác"
+        ],
+        "Dac_diem": [
+            "nhỏ"
+        ],
+        "image_name": "fig-1-acd-elbow"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Acral lentiginous melanoma",
+        "Loai_ton_thuong": [
+            "Dát sắc tố"
+        ],
+        "Mau_sac": [
+            "Đen",
+            "Nâu"
+        ],
+        "Hinh_dang": [
+            "Bầu dục"
+        ],
+        "Phan_bo": [
+            "Đầu ngón chân",
+            "Rải rác"
+        ],
+        "Dac_diem": [
+            "Tăng sừng",
+            "Đơn độc"
+        ],
+        "image_name": "acral-lentiginous-melanoma-0013"
+    }
+}

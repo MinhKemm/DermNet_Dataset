@@ -1,0 +1,27 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Acute febrile neutrophilic dermatosis (Sweet syndrome)",
+        "Loai_ton_thuong": [
+            "Loét",
+            "Nốt"
+        ],
+        "Mau_sac": [
+            "Đỏ",
+            "Tím đen",
+            "Vàng"
+        ],
+        "Hinh_dang": [
+            "Bất quy tắc",
+            "Tròn"
+        ],
+        "Phan_bo": [
+            "Bàn tay",
+            "Khu trú"
+        ],
+        "Dac_diem": [
+            "Đóng mài",
+            "Hoại tử"
+        ],
+        "image_name": "acute-febrile-neutrophilic-dermatosis-0022"
+    }
+}

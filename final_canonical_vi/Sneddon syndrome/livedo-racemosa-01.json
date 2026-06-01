@@ -1,0 +1,28 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Sneddon syndrome",
+        "Loai_ton_thuong": [
+            "Mảng hồng ban",
+            "Dát hồng ban"
+        ],
+        "Mau_sac": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Hinh_dang": [
+            "Dạng lưới",
+            "Loang lổ",
+            "Ranh giới không rõ"
+        ],
+        "Phan_bo": [
+            "Hai cẳng chân",
+            "Hai gối",
+            "Đối xứng",
+            "Rải rác"
+        ],
+        "Dac_diem": [
+            "Vân lưới"
+        ],
+        "image_name": "livedo-racemosa-01"
+    }
+}

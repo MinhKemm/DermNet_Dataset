@@ -1,0 +1,24 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Acne vulgaris",
+        "Loai_ton_thuong": [
+            "Lõm",
+            "Dát"
+        ],
+        "Mau_sac": [
+            "Nâu",
+            "Tím"
+        ],
+        "Hinh_dang": [
+            "Không đều"
+        ],
+        "Phan_bo": [
+            "Má"
+        ],
+        "Dac_diem": [
+            "Lõm",
+            "Mảng"
+        ],
+        "image_name": "acne-face-2-28"
+    }
+}

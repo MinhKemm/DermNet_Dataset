@@ -1,0 +1,26 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Hand dermatitis",
+        "Loai_ton_thuong": [
+            "Sẩn",
+            "Dát"
+        ],
+        "Mau_sac": [
+            "Nâu tím",
+            "Hồng nhạt"
+        ],
+        "Hinh_dang": [
+            "Tròn nhỏ"
+        ],
+        "Phan_bo": [
+            "Mu ngón tay",
+            "Quanh khớp"
+        ],
+        "Dac_diem": [
+            "Khô da",
+            "Bong vảy",
+            "Hơi gồ"
+        ],
+        "image_name": "atopic-hand-dermatitis-0010"
+    }
+}

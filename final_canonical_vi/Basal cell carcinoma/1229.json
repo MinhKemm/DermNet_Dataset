@@ -1,0 +1,22 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Basal cell carcinoma",
+        "Loai_ton_thuong": [
+            "Sẩn"
+        ],
+        "Mau_sac": [
+            "Hồng"
+        ],
+        "Hinh_dang": [
+            "Tròn"
+        ],
+        "Phan_bo": [
+            "Mặt",
+            "Khu trú"
+        ],
+        "Dac_diem": [
+            "Vảy"
+        ],
+        "image_name": "1229"
+    }
+}

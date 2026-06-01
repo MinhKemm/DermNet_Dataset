@@ -1,0 +1,23 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Atypical melanocytic naevus",
+        "Loai_ton_thuong": [
+            "Sẩn"
+        ],
+        "Mau_sac": [
+            "Nâu",
+            "Nâu sẫm"
+        ],
+        "Hinh_dang": [
+            "Tròn"
+        ],
+        "Phan_bo": [
+            "Đơn độc"
+        ],
+        "Dac_diem": [
+            "Trung tâm đậm",
+            "Viền nhạt"
+        ],
+        "image_name": "atypical-melanocytic-naevus-0003"
+    }
+}

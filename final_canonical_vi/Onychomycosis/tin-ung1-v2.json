@@ -1,0 +1,31 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Onychomycosis",
+        "Loai_ton_thuong": [
+            "Dày móng",
+            "Biến dạng móng",
+            "Tách móng"
+        ],
+        "Mau_sac": [
+            "Vàng nâu",
+            "Trắng vàng",
+            "Đỏ hồng"
+        ],
+        "Hinh_dang": [
+            "Bất quy tắc",
+            "Bờ nham nhở",
+            "Không đều"
+        ],
+        "Phan_bo": [
+            "Móng chân",
+            "Nhiều ngón",
+            "Khu trú"
+        ],
+        "Dac_diem": [
+            "Vụn móng",
+            "Tăng sừng",
+            "Sần sùi"
+        ],
+        "image_name": "tin-ung1-v2"
+    }
+}

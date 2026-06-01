@@ -1,0 +1,21 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Dermatofibroma",
+        "Loai_ton_thuong": [
+            "sẩn"
+        ],
+        "Mau_sac": [
+            "nâu"
+        ],
+        "Hinh_dang": [
+            "tròn"
+        ],
+        "Phan_bo": [
+            "đơn độc"
+        ],
+        "Dac_diem": [
+            "kích thước nhỏ"
+        ],
+        "image_name": "dermatofibroma-0001"
+    }
+}

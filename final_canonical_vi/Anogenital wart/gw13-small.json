@@ -1,0 +1,24 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Anogenital wart",
+        "Loai_ton_thuong": [
+            "Sẩn"
+        ],
+        "Mau_sac": [
+            "Hồng"
+        ],
+        "Hinh_dang": [
+            "Dài",
+            "Không đều"
+        ],
+        "Phan_bo": [
+            "Niêm mạc",
+            "Khu trú"
+        ],
+        "Dac_diem": [
+            "Bóng",
+            "Nhẵn"
+        ],
+        "image_name": "gw13-small"
+    }
+}

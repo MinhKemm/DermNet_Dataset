@@ -1,0 +1,24 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Bullous pemphigoid",
+        "Loai_ton_thuong": [
+            "Mảng",
+            "Trợt"
+        ],
+        "Mau_sac": [
+            "Đỏ",
+            "Tím"
+        ],
+        "Hinh_dang": [
+            "Tròn"
+        ],
+        "Phan_bo": [
+            "Cổ chân"
+        ],
+        "Dac_diem": [
+            "Rải rác",
+            "Viền rõ"
+        ],
+        "image_name": "bullous-pemphigoid-00095"
+    }
+}

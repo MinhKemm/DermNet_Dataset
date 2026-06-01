@@ -1,0 +1,25 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Cutaneous horn",
+        "Loai_ton_thuong": [
+            "sừng",
+            "nốt"
+        ],
+        "Mau_sac": [
+            "trắng",
+            "hồng"
+        ],
+        "Hinh_dang": [
+            "hình nón",
+            "tròn"
+        ],
+        "Phan_bo": [
+            "đơn độc"
+        ],
+        "Dac_diem": [
+            "tăng sừng",
+            "nhô cao"
+        ],
+        "image_name": "squamous-cell-carcinoma-0019"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Amelanotic melanoma",
+        "Loai_ton_thuong": [
+            "sẩn"
+        ],
+        "Mau_sac": [
+            "hồng"
+        ],
+        "Hinh_dang": [
+            "tròn"
+        ],
+        "Phan_bo": [
+            "khu trú",
+            "đơn độc"
+        ],
+        "Dac_diem": [
+            "nhẵn"
+        ],
+        "image_name": "amelanotic-melanoma-99-of-125"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Atopic dermatitis",
+        "Loai_ton_thuong": [
+            "Mảng"
+        ],
+        "Mau_sac": [
+            "Đỏ"
+        ],
+        "Hinh_dang": [
+            "Không đều"
+        ],
+        "Phan_bo": [
+            "Cẳng chân",
+            "Đối xứng"
+        ],
+        "Dac_diem": [
+            "Vảy",
+            "Khô"
+        ],
+        "image_name": "atopic-dermatitis-0047"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Atypical solar lentigo",
+        "Loai_ton_thuong": [
+            "Mảng tăng sắc tố",
+            "Đốm tăng sắc tố"
+        ],
+        "Mau_sac": [
+            "Nâu nhạt",
+            "Nâu vàng"
+        ],
+        "Hinh_dang": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Phan_bo": [
+            "Má",
+            "Vùng mặt",
+            "Khu trú"
+        ],
+        "Dac_diem": [
+            "Phẳng",
+            "Da nhăn"
+        ],
+        "image_name": "solar-lentigo-30"
+    }
+}

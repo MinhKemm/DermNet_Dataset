@@ -1,0 +1,27 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Actinic keratosis",
+        "Loai_ton_thuong": [
+            "Mảng",
+            "Sẩn"
+        ],
+        "Mau_sac": [
+            "Đỏ",
+            "Hồng",
+            "Nâu"
+        ],
+        "Hinh_dang": [
+            "Bất quy tắc"
+        ],
+        "Phan_bo": [
+            "Má",
+            "Mũi"
+        ],
+        "Dac_diem": [
+            "Đóng mài",
+            "Vảy",
+            "Lan rộng"
+        ],
+        "image_name": "3740"
+    }
+}

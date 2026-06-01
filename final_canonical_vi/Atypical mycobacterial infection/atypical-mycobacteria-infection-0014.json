@@ -1,0 +1,23 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Atypical mycobacterial infection",
+        "Loai_ton_thuong": [
+            "nốt"
+        ],
+        "Mau_sac": [
+            "hồng",
+            "tím"
+        ],
+        "Hinh_dang": [
+            "tròn"
+        ],
+        "Phan_bo": [
+            "rải rác"
+        ],
+        "Dac_diem": [
+            "lõm giữa",
+            "loét"
+        ],
+        "image_name": "atypical-mycobacteria-infection-0014"
+    }
+}

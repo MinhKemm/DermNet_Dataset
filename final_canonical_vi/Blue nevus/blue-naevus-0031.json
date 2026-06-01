@@ -1,0 +1,23 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Blue nevus",
+        "Loai_ton_thuong": [
+            "Sẩn"
+        ],
+        "Mau_sac": [
+            "Xanh đen"
+        ],
+        "Hinh_dang": [
+            "Tròn"
+        ],
+        "Phan_bo": [
+            "Mi dưới",
+            "Đơn độc"
+        ],
+        "Dac_diem": [
+            "Nhỏ",
+            "Gồ"
+        ],
+        "image_name": "blue-naevus-0031"
+    }
+}

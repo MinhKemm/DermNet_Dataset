@@ -1,0 +1,25 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Actinic keratosis",
+        "Loai_ton_thuong": [
+            "sẩn",
+            "mảng"
+        ],
+        "Mau_sac": [
+            "hồng",
+            "nâu"
+        ],
+        "Hinh_dang": [
+            "không đều"
+        ],
+        "Phan_bo": [
+            "mũi",
+            "khu trú"
+        ],
+        "Dac_diem": [
+            "vảy tiết",
+            "trợt"
+        ],
+        "image_name": "sks-nose2"
+    }
+}

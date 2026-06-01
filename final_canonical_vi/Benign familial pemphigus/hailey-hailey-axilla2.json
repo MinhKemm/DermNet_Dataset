@@ -1,0 +1,25 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Benign familial pemphigus",
+        "Loai_ton_thuong": [
+            "Mảng",
+            "Sẩn"
+        ],
+        "Mau_sac": [
+            "Đỏ",
+            "Trắng"
+        ],
+        "Hinh_dang": [
+            "Không đều"
+        ],
+        "Phan_bo": [
+            "Nách",
+            "Thành cụm"
+        ],
+        "Dac_diem": [
+            "Vảy",
+            "Ẩm"
+        ],
+        "image_name": "hailey-hailey-axilla2"
+    }
+}

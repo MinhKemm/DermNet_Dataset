@@ -1,0 +1,23 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Amputation stump dermatoses",
+        "Loai_ton_thuong": [
+            "mảng"
+        ],
+        "Mau_sac": [
+            "hồng",
+            "tím"
+        ],
+        "Hinh_dang": [
+            "không đều"
+        ],
+        "Phan_bo": [
+            "mỏm cụt",
+            "lan tỏa"
+        ],
+        "Dac_diem": [
+            "khô"
+        ],
+        "image_name": "amputation-stump-08"
+    }
+}

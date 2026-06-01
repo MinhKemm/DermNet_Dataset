@@ -1,0 +1,27 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Leprosy",
+        "Loai_ton_thuong": [
+            "Mảng hồng ban",
+            "Sẩn phù"
+        ],
+        "Mau_sac": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Hinh_dang": [
+            "Hình vòng",
+            "Đa cung",
+            "Ranh giới mờ"
+        ],
+        "Phan_bo": [
+            "Thân mình",
+            "Lan tỏa"
+        ],
+        "Dac_diem": [
+            "Nhạt màu",
+            "Phù nề nhẹ"
+        ],
+        "image_name": "leprosy-borderline-borderline-00001"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "TRICH_XUAT_JSON": {
+        "Danh_muc_benh": "Trichotillomania",
+        "Loai_ton_thuong": [
+            "Mảng rụng tóc",
+            "Vùng thưa tóc"
+        ],
+        "Mau_sac": [
+            "Hồng nhạt",
+            "Trắng ngà"
+        ],
+        "Hinh_dang": [
+            "Hình bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Phan_bo": [
+            "Da đầu",
+            "Khu trú"
+        ],
+        "Dac_diem": [
+            "Tóc thưa",
+            "Da đầu nhẵn"
+        ],
+        "image_name": "trichotillomania-06"
+    }
+}
