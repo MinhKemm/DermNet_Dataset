@@ -2,13 +2,12 @@ import pandas as pd
 import os
 
 # 1. Khai báo đường dẫn file tsv đầu vào và đầu ra
-# (Đoạn này vẫn dùng đường dẫn tương đối từ vị trí chạy file để đọc được file TSV)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-input_file = "/Users/binhminh/Desktop/DermNet_Dataset/Phase_2/DermNet_Test_Val_4000_fixed/DermNet_Test_mac.tsv"
-output_file = os.path.join(BASE_DIR, "Phase_2", "DermNet_Test_Val_4000_fixed", "DermNet_Test_mac_relative.tsv")
+input_file = "/Users/binhminh/Desktop/DermNet_Dataset/Phase_2/VLMEvalKit/LMUData/DermNet_Val_4k-2.tsv"
+output_file = os.path.join(BASE_DIR, "Phase_2", "VLMEvalKit", "LMUData", "DermNet_Val_4k-2_mac_relative.tsv")
 
-# Chuỗi gốc cố định bắt đầu của bộ data theo yêu cầu của bạn
-dataset_root = "DermNet_Dataset/dermnet-output/images/"
+# ĐỔI THÀNH CHUỖI GỐC THEO YÊU CẦU MỚI CỦA BẠN
+dataset_root = "../../dermnet-output/images/"
 
 def convert_to_relative_path(win_path):
     if pd.isna(win_path):
@@ -17,7 +16,7 @@ def convert_to_relative_path(win_path):
     # Chuyển toàn bộ dấu \ của Windows thành / để chuẩn hóa định dạng Linux/Mac
     path_normalized = str(win_path).replace('\\', '/')
     
-    # Tìm cụm '/images/' để lấy phần tên bệnh và tên ảnh phía sau
+    # Tìm cụm '/images/' để lấy phần 'Tên bệnh/tên ảnh.jpg' phía sau
     if '/images/' in path_normalized:
         relative_part = path_normalized.split('/images/')[-1]
     else:
@@ -28,7 +27,7 @@ def convert_to_relative_path(win_path):
         else:
             relative_part = parts[-1]
         
-    # Nối thẳng để tạo ra đường dẫn bắt đầu từ DermNet_Dataset
+    # Nối thẳng để tạo ra đường dẫn tương đối hoàn chỉnh
     return dataset_root + relative_part
 
 # 2. Đọc file TSV sử dụng pandas
@@ -39,11 +38,15 @@ else:
     df = pd.read_csv(input_file, sep='\t')
 
     # 3. Áp dụng hàm sửa đường dẫn cho cột 'image_path'
-    print("Đang chuẩn hóa đường dẫn ảnh (chỉ lấy từ DermNet_Dataset/)...")
+    print("Đang chuẩn hóa đường dẫn ảnh (dạng tương đối ../../)...")
     df['image_path'] = df['image_path'].apply(convert_to_relative_path)
 
     # In thử dòng đầu tiên để bạn check kết quả hiển thị
-    print(f"👉 Kết quả test dòng đầu: {df['image_path'].iloc[0]}")
+    if len(df) > 0:
+        print(f"👉 Kết quả test dòng đầu: {df['image_path'].iloc[0]}")
+
+    # Đảm bảo thư mục đầu ra tồn tại trước khi ghi file
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
     # 4. Lưu lại thành file TSV mới
     df.to_csv(output_file, sep='\t', index=False)

@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # 1. Khai báo đường dẫn file tsv đầu vào và đầu ra
-input_file = "/Users/binhminh/Desktop/DermNet_Dataset/Phase_2/DermNet_Test_Val_4000_fixed/DermNet_Val_4k.tsv" # Thay bằng tên file tsv hiện tại của bạn
-output_file = "/Users/binhminh/Desktop/DermNet_Dataset/Phase_2/DermNet_Test_Val_4000_fixed/DermNet_Val_4k_mac.tsv" # Tên file mới sau khi đã sửa xong đường dẫn
+input_file = "/Users/binhminh/Desktop/DermNet_Dataset/Phase_2/VLMEvalKit/LMUData/DermNet_Test_1of3-2.tsv" # Thay bằng tên file tsv hiện tại của bạn
+output_file = "/Users/binhminh/Desktop/DermNet_Dataset/Phase_2/VLMEvalKit/LMUData/DermNet_Test_1of3-2_mac.tsv" # Tên file mới sau khi đã sửa xong đường dẫn
 
 # Đường dẫn chuẩn trên Mac bạn muốn thay thế vào
 mac_base_path = "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/images/"
