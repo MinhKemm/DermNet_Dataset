@@ -67,3 +67,7 @@ Phase_1/debug_outputs/
 # ──────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+id_ed25519
+mykey.pem
+*.pem
+*.key
