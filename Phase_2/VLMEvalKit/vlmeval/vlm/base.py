@@ -1,4 +1,5 @@
 import logging
+import sys
 import warnings
 from abc import abstractmethod
 
@@ -73,7 +74,7 @@ class BaseModel:
         Returns:
             list(dict): The preprocessed input messages. Will return None if failed to preprocess the input.
         """
-
+        print(inputs)
         if self.check_content(inputs) == 'str':
             return [dict(type='text', value=inputs)]
         elif self.check_content(inputs) == 'dict':
@@ -93,6 +94,8 @@ class BaseModel:
                 assert 'type' in item and 'value' in item
                 mime, s = parse_file(item['value'])
                 if mime is None:
+                    if 'type' not in item or item['type'] != 'text':
+                        print("\n🚨 CỤC DATA LỖI ĐÂY RỒI:", item) # <--- CHÈN DÒNG NÀY
                     assert item['type'] == 'text'
                 else:
                     assert mime.split('/')[0] == item['type']
