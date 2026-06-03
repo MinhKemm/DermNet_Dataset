@@ -176,6 +176,19 @@ def infer_data(model, model_name, work_dir, dataset, out_file, verbose=False, ap
         else:
             struct = dataset.build_prompt(data.iloc[i])
 
+        skip_this_data = False
+        for item in struct:
+            if isinstance(item, dict) and item.get('type') == 'image':
+                img_path = item.get('value')
+                if not os.path.exists(img_path):
+                    print(f"\n🚨 [SKIP] Không tìm thấy ảnh: {img_path}")
+                    res[idx] = "SKIP: Image not found" # Lưu kết quả rỗng để lần sau ko lặp lại
+                    skip_this_data = True
+                    break
+                    
+        if skip_this_data:
+            continue
+
         # If `SKIP_ERR` flag is set, the model will skip the generation if error is encountered
         if os.environ.get('SKIP_ERR', False) == '1':
             FAIL_MSG = 'Failed to obtain answer'
