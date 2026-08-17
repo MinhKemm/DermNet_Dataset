@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20260612-065636",
+  "created_at": "2026-06-12T06:56:37.796049+00:00",
+  "datasets": {
+    "DermNet_Val_4k-2_mac_relative": {
+      "status": "done",
+      "prediction_file": "outputs/MedGemma-4B/T20260612-065636/MedGemma-4B_DermNet_Val_4k-2_mac_relative.xlsx",
+      "updated_at": "2026-06-12T06:56:38.762465+00:00",
+      "judge_model": "",
+      "reuse_aux": "all",
+      "error_message": "You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/medgemma-1.5-4b-it.\n403 Client Error. (Request ID: Root=1-6a2bada6-070144645fbaa0d176ae5440;d15701db-8952-4dba-b0ba-ec3910043632)\n\nCannot access gated repo for url https://huggingface.co/google/medgemma-1.5-4b-it/resolve/main/config.json.\nAccess to model google/medgemma-1.5-4b-it is restricted and you are not in the authorized list. Visit https://huggingface.co/google/medgemma-1.5-4b-it to ask for access."
+    }
+  },
+  "model_name": "MedGemma-4B",
+  "commit": "ba6451f4",
+  "argv": [
+    "run.py",
+    "--data",
+    "DermNet_Val_4k-2_mac_relative",
+    "--model",
+    "MedGemma-4B",
+    "--mode",
+    "infer",
+    "--reuse"
+  ],
+  "api_mode": false,
+  "world_size": 2,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "infer",
+  "reuse": true,
+  "reuse_aux": "all",
+  "updated_at": "2026-06-12T06:56:38.762090+00:00"
+}

@@ -1,0 +1,173 @@
+[2026-06-04 10:16:44] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-04 10:16:44] INFO - vlmeval.__main__: =========== Vintern-1B-v2 ===========
+[2026-06-04 10:16:44] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-04 10:16:44] INFO - vlmeval.__main__: =========== Vintern-1B-v2 ===========
+[2026-06-04 10:16:44] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-04 10:16:44] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-04 10:16:49] ERROR - vlmeval.__main__: Model Vintern-1B-v2 x Dataset DermNet_Test_mac_relative combination failed: Qwen2ForCausalLM(
+  (model): Qwen2Model(
+    (embed_tokens): Embedding(151655, 896)
+    (layers): ModuleList(
+      (0-23): 24 x Qwen2DecoderLayer(
+        (self_attn): Qwen2Attention(
+          (q_proj): Linear(in_features=896, out_features=896, bias=True)
+          (k_proj): Linear(in_features=896, out_features=128, bias=True)
+          (v_proj): Linear(in_features=896, out_features=128, bias=True)
+          (o_proj): Linear(in_features=896, out_features=896, bias=False)
+        )
+        (mlp): Qwen2MLP(
+          (gate_proj): Linear(in_features=896, out_features=4864, bias=False)
+          (up_proj): Linear(in_features=896, out_features=4864, bias=False)
+          (down_proj): Linear(in_features=4864, out_features=896, bias=False)
+          (act_fn): SiLUActivation()
+        )
+        (input_layernorm): Qwen2RMSNorm((896,), eps=1e-06)
+        (post_attention_layernorm): Qwen2RMSNorm((896,), eps=1e-06)
+      )
+    )
+    (norm): Qwen2RMSNorm((896,), eps=1e-06)
+    (rotary_emb): Qwen2RotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=896, out_features=151655, bias=False)
+) got multiple values for keyword argument 'return_dict', skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 202, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 122, in generate
+    return self.generate_inner(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 357, in generate_inner
+    return self.generate_v2(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 345, in generate_v2
+    response = self.model.chat(
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/_5CD_hyphen_AI/Vintern_hyphen_1B_hyphen_v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/modeling_internvl_chat.py", line 284, in chat
+    generation_output = self.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/_5CD_hyphen_AI/Vintern_hyphen_1B_hyphen_v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/modeling_internvl_chat.py", line 334, in generate
+    outputs = self.language_model.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 2582, in generate
+    result = decoding_method(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 3269, in _beam_search
+    model_outputs = self._prefill(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 3828, in _prefill
+    return self(**model_inputs, return_dict=True)
+TypeError: Qwen2ForCausalLM(
+  (model): Qwen2Model(
+    (embed_tokens): Embedding(151655, 896)
+    (layers): ModuleList(
+      (0-23): 24 x Qwen2DecoderLayer(
+        (self_attn): Qwen2Attention(
+          (q_proj): Linear(in_features=896, out_features=896, bias=True)
+          (k_proj): Linear(in_features=896, out_features=128, bias=True)
+          (v_proj): Linear(in_features=896, out_features=128, bias=True)
+          (o_proj): Linear(in_features=896, out_features=896, bias=False)
+        )
+        (mlp): Qwen2MLP(
+          (gate_proj): Linear(in_features=896, out_features=4864, bias=False)
+          (up_proj): Linear(in_features=896, out_features=4864, bias=False)
+          (down_proj): Linear(in_features=4864, out_features=896, bias=False)
+          (act_fn): SiLUActivation()
+        )
+        (input_layernorm): Qwen2RMSNorm((896,), eps=1e-06)
+        (post_attention_layernorm): Qwen2RMSNorm((896,), eps=1e-06)
+      )
+    )
+    (norm): Qwen2RMSNorm((896,), eps=1e-06)
+    (rotary_emb): Qwen2RotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=896, out_features=151655, bias=False)
+) got multiple values for keyword argument 'return_dict'
+[2026-06-04 10:16:49] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-04 10:16:49] INFO - vlmeval.__main__: 
+benchmark                  infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ------------------------------------------
+DermNet_Test_mac_relative  -                  -                  -                 -                       -              Qwen2ForCausalLM(
+                                                                                                                            (model): Qwen2Model(
+                                                                                                                              (embed_tokens): Embedding(151655, 896)
+                                                                                                                              (layers): ModuleList(
+                                                                                                                                (0-2...
+[2026-06-04 10:16:49] ERROR - vlmeval.__main__: Model Vintern-1B-v2 x Dataset DermNet_Test_mac_relative combination failed: Qwen2ForCausalLM(
+  (model): Qwen2Model(
+    (embed_tokens): Embedding(151655, 896)
+    (layers): ModuleList(
+      (0-23): 24 x Qwen2DecoderLayer(
+        (self_attn): Qwen2Attention(
+          (q_proj): Linear(in_features=896, out_features=896, bias=True)
+          (k_proj): Linear(in_features=896, out_features=128, bias=True)
+          (v_proj): Linear(in_features=896, out_features=128, bias=True)
+          (o_proj): Linear(in_features=896, out_features=896, bias=False)
+        )
+        (mlp): Qwen2MLP(
+          (gate_proj): Linear(in_features=896, out_features=4864, bias=False)
+          (up_proj): Linear(in_features=896, out_features=4864, bias=False)
+          (down_proj): Linear(in_features=4864, out_features=896, bias=False)
+          (act_fn): SiLUActivation()
+        )
+        (input_layernorm): Qwen2RMSNorm((896,), eps=1e-06)
+        (post_attention_layernorm): Qwen2RMSNorm((896,), eps=1e-06)
+      )
+    )
+    (norm): Qwen2RMSNorm((896,), eps=1e-06)
+    (rotary_emb): Qwen2RotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=896, out_features=151655, bias=False)
+) got multiple values for keyword argument 'return_dict', skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 202, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 122, in generate
+    return self.generate_inner(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 357, in generate_inner
+    return self.generate_v2(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 345, in generate_v2
+    response = self.model.chat(
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/_5CD_hyphen_AI/Vintern_hyphen_1B_hyphen_v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/modeling_internvl_chat.py", line 284, in chat
+    generation_output = self.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/_5CD_hyphen_AI/Vintern_hyphen_1B_hyphen_v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/modeling_internvl_chat.py", line 334, in generate
+    outputs = self.language_model.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 2582, in generate
+    result = decoding_method(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 3269, in _beam_search
+    model_outputs = self._prefill(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 3828, in _prefill
+    return self(**model_inputs, return_dict=True)
+TypeError: Qwen2ForCausalLM(
+  (model): Qwen2Model(
+    (embed_tokens): Embedding(151655, 896)
+    (layers): ModuleList(
+      (0-23): 24 x Qwen2DecoderLayer(
+        (self_attn): Qwen2Attention(
+          (q_proj): Linear(in_features=896, out_features=896, bias=True)
+          (k_proj): Linear(in_features=896, out_features=128, bias=True)
+          (v_proj): Linear(in_features=896, out_features=128, bias=True)
+          (o_proj): Linear(in_features=896, out_features=896, bias=False)
+        )
+        (mlp): Qwen2MLP(
+          (gate_proj): Linear(in_features=896, out_features=4864, bias=False)
+          (up_proj): Linear(in_features=896, out_features=4864, bias=False)
+          (down_proj): Linear(in_features=4864, out_features=896, bias=False)
+          (act_fn): SiLUActivation()
+        )
+        (input_layernorm): Qwen2RMSNorm((896,), eps=1e-06)
+        (post_attention_layernorm): Qwen2RMSNorm((896,), eps=1e-06)
+      )
+    )
+    (norm): Qwen2RMSNorm((896,), eps=1e-06)
+    (rotary_emb): Qwen2RotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=896, out_features=151655, bias=False)
+) got multiple values for keyword argument 'return_dict'

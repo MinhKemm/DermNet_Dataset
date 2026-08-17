@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20260602-170222",
+  "created_at": "2026-06-02T17:02:22.487816+00:00",
+  "datasets": {
+    "DermNet_Val_4k-2": {
+      "status": "done",
+      "prediction_file": "outputs/Qwen2.5-VL-3B-Instruct/T20260602-170222/Qwen2.5-VL-3B-Instruct_DermNet_Val_4k-2.xlsx",
+      "updated_at": "2026-06-02T17:02:25.615956+00:00",
+      "judge_model": "",
+      "reuse_aux": "all",
+      "error_message": ""
+    }
+  },
+  "model_name": "Qwen2.5-VL-3B-Instruct",
+  "commit": "f297377e",
+  "argv": [
+    "run.py",
+    "--data",
+    "DermNet_Val_4k-2",
+    "--model",
+    "Qwen2.5-VL-3B-Instruct",
+    "--mode",
+    "infer",
+    "--reuse"
+  ],
+  "api_mode": false,
+  "world_size": 1,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "infer",
+  "reuse": true,
+  "reuse_aux": "all",
+  "updated_at": "2026-06-02T17:02:25.615742+00:00"
+}

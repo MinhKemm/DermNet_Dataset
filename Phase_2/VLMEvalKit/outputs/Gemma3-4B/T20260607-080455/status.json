@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20260607-080455",
+  "created_at": "2026-06-07T08:04:56.048092+00:00",
+  "datasets": {
+    "DermNet_Test_mac_relative": {
+      "status": "done",
+      "prediction_file": "outputs/Gemma3-4B/T20260607-080455/Gemma3-4B_DermNet_Test_mac_relative.xlsx",
+      "updated_at": "2026-06-07T08:04:56.096989+00:00",
+      "skip_reason": "invalid_dataset"
+    }
+  },
+  "model_name": "Gemma3-4B",
+  "commit": "ba6451f4",
+  "argv": [
+    "run.py",
+    "--data",
+    "DermNet_Test_mac_relative",
+    "--model",
+    "Gemma3-4B",
+    "--mode",
+    "infer",
+    "--reuse"
+  ],
+  "api_mode": false,
+  "world_size": 2,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "infer",
+  "reuse": true,
+  "reuse_aux": "all",
+  "updated_at": "2026-06-07T08:04:56.096865+00:00"
+}

@@ -1,0 +1,131 @@
+[2026-06-07 07:42:50] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-07 07:42:50] INFO - vlmeval.__main__: =========== llava_v1.5_7b_4bit ===========
+[2026-06-07 07:42:50] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 07:42:50] INFO - vlmeval.__main__: =========== llava_v1.5_7b_4bit ===========
+[2026-06-07 07:42:50] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 07:42:51] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/llava_v1.5_7b_4bit/T20260607-053833/02_DermNet_Test_mac_relative.pkl
+[2026-06-07 07:42:51] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/llava_v1.5_7b_4bit/T20260607-053833/12_DermNet_Test_mac_relative.pkl
+[2026-06-07 07:42:51] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-07 07:42:53] ERROR - vlmeval.__main__: Model llava_v1.5_7b_4bit x Dataset DermNet_Test_mac_relative combination failed: Error parsing line b'\x0e' in /mnt/tp/.cache/huggingface/hub/models--liuhaotian--llava-v1.5-7b/snapshots/4481d270cc22fd5c4d1bb5df129622006ccd9234/tokenizer.model, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/tokenization_utils_tokenizers.py", line 217, in convert_to_native_format
+    extractor = SentencePieceExtractor(vocab_file)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py", line 156, in __init__
+    model_pb2 = import_protobuf()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py", line 97, in import_protobuf
+    from sentencepiece import sentencepiece_model_pb2
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/sentencepiece/sentencepiece_model_pb2.py", line 34, in <module>
+    _descriptor.EnumValueDescriptor(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/google/protobuf/descriptor.py", line 1027, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/tiktoken/load.py", line 167, in load_tiktoken_bpe
+    token, rank = line.split()
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/llava/llava.py", line 70, in __init__
+    raise err
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/llava/llava.py", line 51, in __init__
+    load_pretrained_model(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/LLaVA/llava/model/builder.py", line 116, in load_pretrained_model
+    tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 744, in from_pretrained
+    return TokenizersBackend.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 1744, in from_pretrained
+    return cls._from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 1931, in _from_pretrained
+    init_kwargs = cls.convert_to_native_format(**init_kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/tokenization_utils_tokenizers.py", line 283, in convert_to_native_format
+    local_kwargs["tokenizer_object"] = converter.converted()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py", line 1957, in converted
+    tokenizer = self.tokenizer()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py", line 1950, in tokenizer
+    vocab_scores, merges = self.extract_vocab_merges_from_model(self.vocab_file)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py", line 1926, in extract_vocab_merges_from_model
+    bpe_ranks = load_tiktoken_bpe(tiktoken_url)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/tiktoken/load.py", line 170, in load_tiktoken_bpe
+    raise ValueError(f"Error parsing line {line!r} in {tiktoken_bpe_file}") from e
+ValueError: Error parsing line b'\x0e' in /mnt/tp/.cache/huggingface/hub/models--liuhaotian--llava-v1.5-7b/snapshots/4481d270cc22fd5c4d1bb5df129622006ccd9234/tokenizer.model
+[2026-06-07 07:42:53] ERROR - vlmeval.__main__: Model llava_v1.5_7b_4bit x Dataset DermNet_Test_mac_relative combination failed: Error parsing line b'\x0e' in /mnt/tp/.cache/huggingface/hub/models--liuhaotian--llava-v1.5-7b/snapshots/4481d270cc22fd5c4d1bb5df129622006ccd9234/tokenizer.model, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/tokenization_utils_tokenizers.py", line 217, in convert_to_native_format
+    extractor = SentencePieceExtractor(vocab_file)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py", line 156, in __init__
+    model_pb2 = import_protobuf()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py", line 97, in import_protobuf
+    from sentencepiece import sentencepiece_model_pb2
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/sentencepiece/sentencepiece_model_pb2.py", line 34, in <module>
+    _descriptor.EnumValueDescriptor(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/google/protobuf/descriptor.py", line 1027, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/tiktoken/load.py", line 167, in load_tiktoken_bpe
+    token, rank = line.split()
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/llava/llava.py", line 70, in __init__
+    raise err
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/llava/llava.py", line 51, in __init__
+    load_pretrained_model(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/LLaVA/llava/model/builder.py", line 116, in load_pretrained_model
+    tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 744, in from_pretrained
+    return TokenizersBackend.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 1744, in from_pretrained
+    return cls._from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 1931, in _from_pretrained
+    init_kwargs = cls.convert_to_native_format(**init_kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/tokenization_utils_tokenizers.py", line 283, in convert_to_native_format
+    local_kwargs["tokenizer_object"] = converter.converted()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py", line 1957, in converted
+    tokenizer = self.tokenizer()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py", line 1950, in tokenizer
+    vocab_scores, merges = self.extract_vocab_merges_from_model(self.vocab_file)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py", line 1926, in extract_vocab_merges_from_model
+    bpe_ranks = load_tiktoken_bpe(tiktoken_url)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/tiktoken/load.py", line 170, in load_tiktoken_bpe
+    raise ValueError(f"Error parsing line {line!r} in {tiktoken_bpe_file}") from e
+ValueError: Error parsing line b'\x0e' in /mnt/tp/.cache/huggingface/hub/models--liuhaotian--llava-v1.5-7b/snapshots/4481d270cc22fd5c4d1bb5df129622006ccd9234/tokenizer.model
+[2026-06-07 07:42:53] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-07 07:42:53] INFO - vlmeval.__main__: 
+benchmark                  infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ---------------------------------------------------------------------------------------------------------------------------
+DermNet_Test_mac_relative  -                  -                  -                 -                       -              Error parsing line b'\x0e' in /mnt/tp/.cache/huggingface/hub/models--liuhaotian--llava-v1.5-7b/snapshots/4481d270cc22fd5...

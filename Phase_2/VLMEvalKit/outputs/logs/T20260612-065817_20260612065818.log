@@ -1,0 +1,11 @@
+[2026-06-12 06:58:18] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-12 06:58:18] INFO - vlmeval.__main__: =========== MedGemma-4B ===========
+[2026-06-12 06:58:18] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 06:58:18] INFO - vlmeval.__main__: =========== MedGemma-4B ===========
+[2026-06-12 06:58:18] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 06:58:18] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-12 07:13:16] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-12 07:13:16] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ------------
+DermNet_Val_4k-2_mac_relative  0.00% (0/4000)     -                  -                 -                       mode_infer     -

@@ -1,0 +1,156 @@
+[2026-06-12 06:56:37] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-12 06:56:37] INFO - vlmeval.__main__: =========== MedGemma-4B ===========
+[2026-06-12 06:56:37] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 06:56:37] INFO - vlmeval.__main__: =========== MedGemma-4B ===========
+[2026-06-12 06:56:37] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 06:56:37] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-12 06:56:38] ERROR - vlmeval.__main__: Model MedGemma-4B x Dataset DermNet_Val_4k-2_mac_relative combination failed: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/medgemma-1.5-4b-it.
+403 Client Error. (Request ID: Root=1-6a2bada6-1f87d61c3151bf5258ea45d7;bac2fe22-1a7b-4fcc-a79b-b982b8d492cd)
+
+Cannot access gated repo for url https://huggingface.co/google/medgemma-1.5-4b-it/resolve/main/config.json.
+Access to model google/medgemma-1.5-4b-it is restricted and you are not in the authorized list. Visit https://huggingface.co/google/medgemma-1.5-4b-it to ask for access., skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 403, in hf_raise_for_status
+    response.raise_for_status()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://huggingface.co/google/medgemma-1.5-4b-it/resolve/main/config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 342, in cached_file
+    resolved_file = hf_hub_download(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1014, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1121, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1662, in _raise_on_head_call_error
+    raise head_call_error
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1550, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1467, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 283, in _request_wrapper
+    response = _request_wrapper(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 307, in _request_wrapper
+    hf_raise_for_status(response)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 420, in hf_raise_for_status
+    raise _format(GatedRepoError, message, response) from e
+huggingface_hub.errors.GatedRepoError: 403 Client Error. (Request ID: Root=1-6a2bada6-1f87d61c3151bf5258ea45d7;bac2fe22-1a7b-4fcc-a79b-b982b8d492cd)
+
+Cannot access gated repo for url https://huggingface.co/google/medgemma-1.5-4b-it/resolve/main/config.json.
+Access to model google/medgemma-1.5-4b-it is restricted and you are not in the authorized list. Visit https://huggingface.co/google/medgemma-1.5-4b-it to ask for access.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 24, in __init__
+    model = PaliGemmaForConditionalGeneration.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 262, in _wrapper
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3647, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 554, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 594, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 653, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 360, in cached_file
+    raise EnvironmentError(
+OSError: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/medgemma-1.5-4b-it.
+403 Client Error. (Request ID: Root=1-6a2bada6-1f87d61c3151bf5258ea45d7;bac2fe22-1a7b-4fcc-a79b-b982b8d492cd)
+
+Cannot access gated repo for url https://huggingface.co/google/medgemma-1.5-4b-it/resolve/main/config.json.
+Access to model google/medgemma-1.5-4b-it is restricted and you are not in the authorized list. Visit https://huggingface.co/google/medgemma-1.5-4b-it to ask for access.
+[2026-06-12 06:56:38] ERROR - vlmeval.__main__: Model MedGemma-4B x Dataset DermNet_Val_4k-2_mac_relative combination failed: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/medgemma-1.5-4b-it.
+403 Client Error. (Request ID: Root=1-6a2bada6-070144645fbaa0d176ae5440;d15701db-8952-4dba-b0ba-ec3910043632)
+
+Cannot access gated repo for url https://huggingface.co/google/medgemma-1.5-4b-it/resolve/main/config.json.
+Access to model google/medgemma-1.5-4b-it is restricted and you are not in the authorized list. Visit https://huggingface.co/google/medgemma-1.5-4b-it to ask for access., skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 403, in hf_raise_for_status
+    response.raise_for_status()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://huggingface.co/google/medgemma-1.5-4b-it/resolve/main/config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 342, in cached_file
+    resolved_file = hf_hub_download(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1014, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1121, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1662, in _raise_on_head_call_error
+    raise head_call_error
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1550, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1467, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 283, in _request_wrapper
+    response = _request_wrapper(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 307, in _request_wrapper
+    hf_raise_for_status(response)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 420, in hf_raise_for_status
+    raise _format(GatedRepoError, message, response) from e
+huggingface_hub.errors.GatedRepoError: 403 Client Error. (Request ID: Root=1-6a2bada6-070144645fbaa0d176ae5440;d15701db-8952-4dba-b0ba-ec3910043632)
+
+Cannot access gated repo for url https://huggingface.co/google/medgemma-1.5-4b-it/resolve/main/config.json.
+Access to model google/medgemma-1.5-4b-it is restricted and you are not in the authorized list. Visit https://huggingface.co/google/medgemma-1.5-4b-it to ask for access.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 24, in __init__
+    model = PaliGemmaForConditionalGeneration.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 262, in _wrapper
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3647, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 554, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 594, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 653, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 360, in cached_file
+    raise EnvironmentError(
+OSError: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/medgemma-1.5-4b-it.
+403 Client Error. (Request ID: Root=1-6a2bada6-070144645fbaa0d176ae5440;d15701db-8952-4dba-b0ba-ec3910043632)
+
+Cannot access gated repo for url https://huggingface.co/google/medgemma-1.5-4b-it/resolve/main/config.json.
+Access to model google/medgemma-1.5-4b-it is restricted and you are not in the authorized list. Visit https://huggingface.co/google/medgemma-1.5-4b-it to ask for access.
+[2026-06-12 06:56:38] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-12 06:56:38] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ------------------------------------------------------------------------------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              You are trying to access a gated repo.
+                                                                                                                              Make sure to have access to it at https://huggingface.co/google/medgemma-1.5-4b-i...

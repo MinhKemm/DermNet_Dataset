@@ -1,0 +1,6 @@
+[2026-06-03 06:46:52] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-03 06:46:52] INFO - vlmeval.__main__: =========== Qwen2.5-VL-3B-Instruct ===========
+[2026-06-03 06:46:52] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-03 06:46:52] INFO - vlmeval.__main__: =========== Qwen2.5-VL-3B-Instruct ===========
+[2026-06-03 06:46:52] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-03 06:46:53] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

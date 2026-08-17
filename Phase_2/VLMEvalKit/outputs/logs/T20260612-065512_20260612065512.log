@@ -1,0 +1,129 @@
+[2026-06-12 06:55:12] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-12 06:55:12] INFO - vlmeval.__main__: =========== MedGemma-4B ===========
+[2026-06-12 06:55:12] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 06:55:12] INFO - vlmeval.__main__: =========== MedGemma-4B ===========
+[2026-06-12 06:55:12] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 06:55:12] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-12 06:55:12] ERROR - vlmeval.__main__: Model MedGemma-4B x Dataset DermNet_Val_4k-2_mac_relative combination failed: google/paligemma-3b-pt-448-medqa is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 403, in hf_raise_for_status
+    response.raise_for_status()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://huggingface.co/google/paligemma-3b-pt-448-medqa/resolve/main/config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 342, in cached_file
+    resolved_file = hf_hub_download(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1014, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1121, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1662, in _raise_on_head_call_error
+    raise head_call_error
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1550, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1467, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 283, in _request_wrapper
+    response = _request_wrapper(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 307, in _request_wrapper
+    hf_raise_for_status(response)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 453, in hf_raise_for_status
+    raise _format(RepositoryNotFoundError, message, response) from e
+huggingface_hub.errors.RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-6a2bad50-0c34d7f82d229dc81f34385c;4a4db894-dd63-41fc-92bd-d8c4e78cd0a2)
+
+Repository Not Found for url: https://huggingface.co/google/paligemma-3b-pt-448-medqa/resolve/main/config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 24, in __init__
+    model = PaliGemmaForConditionalGeneration.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 262, in _wrapper
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3540, in from_pretrained
+    resolved_config_file = cached_file(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 365, in cached_file
+    raise EnvironmentError(
+OSError: google/paligemma-3b-pt-448-medqa is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+[2026-06-12 06:55:12] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-12 06:55:12] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ---------------------------------------------------------------------------------------------------------------------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              google/paligemma-3b-pt-448-medqa is not a local folder and is not a valid model identifier listed on 'https://huggingfac...
+[2026-06-12 06:55:12] ERROR - vlmeval.__main__: Model MedGemma-4B x Dataset DermNet_Val_4k-2_mac_relative combination failed: google/paligemma-3b-pt-448-medqa is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 403, in hf_raise_for_status
+    response.raise_for_status()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://huggingface.co/google/paligemma-3b-pt-448-medqa/resolve/main/config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 342, in cached_file
+    resolved_file = hf_hub_download(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1014, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1121, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1662, in _raise_on_head_call_error
+    raise head_call_error
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1550, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1467, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 283, in _request_wrapper
+    response = _request_wrapper(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 307, in _request_wrapper
+    hf_raise_for_status(response)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 453, in hf_raise_for_status
+    raise _format(RepositoryNotFoundError, message, response) from e
+huggingface_hub.errors.RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-6a2bad50-2ad66e8334fec2e124620ddf;6b7cb85a-f093-4870-adb2-8994761ab012)
+
+Repository Not Found for url: https://huggingface.co/google/paligemma-3b-pt-448-medqa/resolve/main/config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 24, in __init__
+    model = PaliGemmaForConditionalGeneration.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 262, in _wrapper
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3540, in from_pretrained
+    resolved_config_file = cached_file(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 365, in cached_file
+    raise EnvironmentError(
+OSError: google/paligemma-3b-pt-448-medqa is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`

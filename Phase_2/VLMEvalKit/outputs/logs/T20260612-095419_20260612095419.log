@@ -1,0 +1,37 @@
+[2026-06-12 09:54:19] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-12 09:54:19] INFO - vlmeval.__main__: =========== Gemma4-12B-it ===========
+[2026-06-12 09:54:19] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 09:54:19] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-12 09:54:20] ERROR - vlmeval.__main__: Model Gemma4-12B-it x Dataset DermNet_Val_4k-2_mac_relative combination failed: The checkpoint you are trying to load has model type `gemma4_unified` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+
+You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1092, in from_pretrained
+    config_class = CONFIG_MAPPING[config_dict["model_type"]]
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 794, in __getitem__
+    raise KeyError(key)
+KeyError: 'gemma4_unified'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 307, in __init__
+    self.model = Gemma4ForConditionalGeneration.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 526, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1094, in from_pretrained
+    raise ValueError(
+ValueError: The checkpoint you are trying to load has model type `gemma4_unified` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+
+You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+[2026-06-12 09:54:20] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-12 09:54:20] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ---------------------------------------------------------------------------------------------------------------------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              The checkpoint you are trying to load has model type `gemma4_unified` but Transformers does not recognize this architect...

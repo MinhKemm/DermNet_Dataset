@@ -1,0 +1,8 @@
+[2026-06-03 17:34:50] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-03 17:34:50] INFO - vlmeval.__main__: =========== Qwen2.5-VL-3B-Instruct ===========
+[2026-06-03 17:34:50] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-03 17:34:50] INFO - vlmeval.__main__: =========== Qwen2.5-VL-3B-Instruct ===========
+[2026-06-03 17:34:50] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-03 17:34:51] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Qwen2.5-VL-3B-Instruct/T20260603-155750/12_DermNet_Test_mac_relative.pkl
+[2026-06-03 17:34:51] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Qwen2.5-VL-3B-Instruct/T20260603-155750/02_DermNet_Test_mac_relative.pkl
+[2026-06-03 17:34:51] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

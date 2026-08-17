@@ -1,0 +1,8 @@
+[2026-06-15 07:07:50] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-15 07:07:50] INFO - vlmeval.__main__: =========== MedGemma-4B ===========
+[2026-06-15 07:07:50] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-15 07:07:50] INFO - vlmeval.__main__: =========== MedGemma-4B ===========
+[2026-06-15 07:07:50] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-15 07:07:51] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/MedGemma-4B/T20260613-043921/12_DermNet_Test_mac_relative.pkl
+[2026-06-15 07:07:51] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/MedGemma-4B/T20260613-043921/02_DermNet_Test_mac_relative.pkl
+[2026-06-15 07:07:51] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

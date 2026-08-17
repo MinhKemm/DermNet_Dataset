@@ -1,0 +1,41 @@
+[2026-06-16 09:57:42] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-16 09:57:42] INFO - vlmeval.__main__: =========== Gemma4-31B-it ===========
+[2026-06-16 09:57:42] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-16 09:57:42] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Gemma4-31B-it/T20260616-094813/01_DermNet_Val_4k-2_mac_relative.pkl
+[2026-06-16 09:57:42] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': True, 'retry': 6, 'timeout': 600}
+[2026-06-16 09:58:11] ERROR - vlmeval.__main__: Model Gemma4-31B-it x Dataset DermNet_Val_4k-2_mac_relative combination failed: Engine core initialization failed. See root cause above. Failed core proc(s): {}, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 415, in __init__
+    self.llm = LLM(
+  File "/mnt/tp/miniconda/envs/dermnet_v2/lib/python3.10/site-packages/vllm/entrypoints/llm.py", line 349, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(
+  File "/mnt/tp/miniconda/envs/dermnet_v2/lib/python3.10/site-packages/vllm/v1/engine/llm_engine.py", line 170, in from_engine_args
+    return cls(
+  File "/mnt/tp/miniconda/envs/dermnet_v2/lib/python3.10/site-packages/vllm/v1/engine/llm_engine.py", line 104, in __init__
+    self.engine_core = EngineCoreClient.make_client(
+  File "/mnt/tp/miniconda/envs/dermnet_v2/lib/python3.10/site-packages/vllm/v1/engine/core_client.py", line 102, in make_client
+    return SyncMPClient(vllm_config, executor_class, log_stats)
+  File "/mnt/tp/miniconda/envs/dermnet_v2/lib/python3.10/site-packages/vllm/tracing/otel.py", line 178, in sync_wrapper
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet_v2/lib/python3.10/site-packages/vllm/v1/engine/core_client.py", line 771, in __init__
+    super().__init__(
+  File "/mnt/tp/miniconda/envs/dermnet_v2/lib/python3.10/site-packages/vllm/v1/engine/core_client.py", line 570, in __init__
+    with launch_core_engines(
+  File "/mnt/tp/miniconda/envs/dermnet_v2/lib/python3.10/contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "/mnt/tp/miniconda/envs/dermnet_v2/lib/python3.10/site-packages/vllm/v1/engine/utils.py", line 1190, in launch_core_engines
+    wait_for_engine_startup(
+  File "/mnt/tp/miniconda/envs/dermnet_v2/lib/python3.10/site-packages/vllm/v1/engine/utils.py", line 1249, in wait_for_engine_startup
+    raise RuntimeError(
+RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}
+[2026-06-16 09:58:11] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-16 09:58:11] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  --------------------------------------------------------------------------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              Engine core initialization failed. See root cause above. Failed core proc(s): {}

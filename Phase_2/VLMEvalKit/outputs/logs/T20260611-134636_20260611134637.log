@@ -1,0 +1,6 @@
+[2026-06-11 13:46:37] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-11 13:46:37] INFO - vlmeval.__main__: =========== SmolVLM-500M ===========
+[2026-06-11 13:46:37] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-11 13:46:37] INFO - vlmeval.__main__: =========== SmolVLM-500M ===========
+[2026-06-11 13:46:37] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-11 13:46:38] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

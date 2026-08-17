@@ -1,0 +1,5 @@
+[2026-06-02 17:50:19] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-02 17:50:19] INFO - vlmeval.__main__: =========== Qwen2.5-VL-3B-Instruct ===========
+[2026-06-02 17:50:19] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-02 17:50:19] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Qwen2.5-VL-3B-Instruct/T20260602-174503/01_DermNet_Val_4k-2_mac_relative.pkl
+[2026-06-02 17:50:19] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

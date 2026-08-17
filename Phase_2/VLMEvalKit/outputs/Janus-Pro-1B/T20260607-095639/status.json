@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20260607-095639",
+  "created_at": "2026-06-07T09:56:41.801988+00:00",
+  "datasets": {
+    "DermNet_Test_mac_relative": {
+      "status": "infer",
+      "prediction_file": "outputs/Janus-Pro-1B/T20260607-095639/Janus-Pro-1B_DermNet_Test_mac_relative.xlsx",
+      "updated_at": "2026-06-07T09:56:43.003478+00:00",
+      "judge_model": "",
+      "source_run": "T20260607-092847",
+      "reuse_aux": "all"
+    }
+  },
+  "model_name": "Janus-Pro-1B",
+  "commit": "ba6451f4",
+  "argv": [
+    "run.py",
+    "--data",
+    "DermNet_Test_mac_relative",
+    "--model",
+    "Janus-Pro-1B",
+    "--mode",
+    "infer",
+    "--reuse"
+  ],
+  "api_mode": false,
+  "world_size": 2,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "infer",
+  "reuse": true,
+  "reuse_aux": "all",
+  "updated_at": "2026-06-07T09:56:43.003164+00:00"
+}

@@ -1,0 +1,21 @@
+[2026-06-03 11:13:28] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-03 11:13:28] INFO - vlmeval.__main__: =========== Qwen2.5-VL-3B-Instruct ===========
+[2026-06-03 11:13:28] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-03 11:13:28] INFO - vlmeval.__main__: =========== Qwen2.5-VL-3B-Instruct ===========
+[2026-06-03 11:13:28] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-03 11:13:29] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Qwen2.5-VL-3B-Instruct/T20260603-111000/02_DermNet_Test_mac_relative.pkl
+[2026-06-03 11:13:29] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Qwen2.5-VL-3B-Instruct/T20260603-111000/12_DermNet_Test_mac_relative.pkl
+[2026-06-03 11:13:29] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-04 06:18:42] ERROR - vlmeval.__main__: Model Qwen2.5-VL-3B-Instruct x Dataset DermNet_Test_mac_relative combination failed: [Errno 5] Input/output error, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 202, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 118, in generate
+    message = self.preproc_content(message)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 77, in preproc_content
+    print(inputs)
+OSError: [Errno 5] Input/output error

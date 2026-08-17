@@ -1,0 +1,49 @@
+[2026-06-05 05:42:37] INFO - vlmeval.__main__: =========== Qwen2.5-VL-7B-Instruct ===========
+[2026-06-05 05:42:37] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-05 07:54:52] ERROR - vlmeval.__main__: Model Qwen2.5-VL-7B-Instruct x Dataset DermNet_Val_4k-2_mac_relative combination failed: CUDA out of memory. Tried to allocate 1.02 GiB. GPU 0 has a total capacity of 44.67 GiB of which 317.88 MiB is free. Process 651863 has 21.57 GiB memory in use. Including non-PyTorch memory, this process has 12.06 GiB memory in use. Process 707888 has 10.71 GiB memory in use. Of the allocated memory 11.55 GiB is allocated by PyTorch, and 21.22 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf), skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 202, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 122, in generate
+    return self.generate_inner(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/qwen2_vl/model.py", line 650, in generate_inner
+    return self.generate_inner_transformers(message, dataset=dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/qwen2_vl/model.py", line 497, in generate_inner_transformers
+    generated_ids = self.model.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 2582, in generate
+    result = decoding_method(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 2796, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/accelerate/hooks.py", line 192, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 171, in wrapped_func
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/generic.py", line 903, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py", line 1430, in forward
+    logits = self.lm_head(hidden_states[:, slice_indices, :])
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/accelerate/hooks.py", line 187, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/accelerate/hooks.py", line 50, in wrapper
+    return wrapper._compiled_fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 1298, in _fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/accelerate/hooks.py", line 378, in pre_forward
+    set_module_tensor_to_device(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 343, in set_module_tensor_to_device
+    new_value = value.to(device, non_blocking=non_blocking)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.02 GiB. GPU 0 has a total capacity of 44.67 GiB of which 317.88 MiB is free. Process 651863 has 21.57 GiB memory in use. Including non-PyTorch memory, this process has 12.06 GiB memory in use. Process 707888 has 10.71 GiB memory in use. Of the allocated memory 11.55 GiB is allocated by PyTorch, and 21.22 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

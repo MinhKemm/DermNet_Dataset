@@ -1,0 +1,37 @@
+[2026-06-16 10:54:29] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-16 10:54:29] INFO - vlmeval.__main__: =========== Gemma4-31B-it ===========
+[2026-06-16 10:54:29] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-16 10:54:29] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Gemma4-31B-it/T20260616-105001/01_DermNet_Val_4k-2_mac_relative.pkl
+[2026-06-16 10:54:29] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': True, 'retry': 6, 'timeout': 600}
+[2026-06-16 10:55:39] ERROR - vlmeval.__main__: Model Gemma4-31B-it x Dataset DermNet_Val_4k-2_mac_relative combination failed: 'Parameter' object has no attribute 'SCB', skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 456, in __init__
+    self.model = AutoModelForImageTextToText.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 406, in from_pretrained
+    return model_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4342, in from_pretrained
+    accelerate_dispatch(model, hf_quantizer, device_map, offload_folder, disk_offload_index, offload_buffers)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/integrations/accelerate.py", line 403, in accelerate_dispatch
+    dispatch_model(model, **device_map_kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/accelerate/big_modeling.py", line 361, in dispatch_model
+    check_device_map(model, device_map)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 1602, in check_device_map
+    all_model_tensors = [name for name, _ in model.state_dict().items()]
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2270, in state_dict
+    module.state_dict(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2267, in state_dict
+    self._save_to_state_dict(destination, prefix, keep_vars)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/bitsandbytes/nn/modules.py", line 1020, in _save_to_state_dict
+    param_from_weight = getattr(self.weight, scb_name)
+AttributeError: 'Parameter' object has no attribute 'SCB'
+[2026-06-16 10:55:39] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-16 10:55:39] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  -----------------------------------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              'Parameter' object has no attribute 'SCB'

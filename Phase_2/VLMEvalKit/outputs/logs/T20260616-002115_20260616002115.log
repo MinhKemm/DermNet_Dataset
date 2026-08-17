@@ -1,0 +1,10 @@
+[2026-06-16 00:21:15] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-16 00:21:15] INFO - vlmeval.__main__: =========== Gemma4-12B-it ===========
+[2026-06-16 00:21:15] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-16 00:21:16] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Gemma4-12B-it/T20260615-115412/01_DermNet_Test_mac_relative.pkl
+[2026-06-16 00:21:16] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': True, 'retry': 6, 'timeout': 600}
+[2026-06-16 04:21:17] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-16 04:21:17] INFO - vlmeval.__main__: 
+benchmark                  infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ------------
+DermNet_Test_mac_relative  0.00% (0/19133)    -                  -                 -                       mode_infer     -

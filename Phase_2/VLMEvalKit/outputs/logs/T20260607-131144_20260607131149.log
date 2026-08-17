@@ -1,0 +1,8 @@
+[2026-06-07 13:11:49] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-07 13:11:49] INFO - vlmeval.__main__: =========== Gemma3-4B ===========
+[2026-06-07 13:11:49] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 13:11:49] INFO - vlmeval.__main__: =========== Gemma3-4B ===========
+[2026-06-07 13:11:49] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 13:11:50] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Gemma3-4B/T20260607-115049/02_DermNet_Test_mac_relative.pkl
+[2026-06-07 13:11:50] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Gemma3-4B/T20260607-115049/12_DermNet_Test_mac_relative.pkl
+[2026-06-07 13:11:50] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

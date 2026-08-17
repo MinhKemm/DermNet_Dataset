@@ -1,0 +1,34 @@
+[2026-06-02 16:52:52] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-02 16:52:52] INFO - vlmeval.__main__: =========== Qwen2.5-VL-3B-Instruct ===========
+[2026-06-02 16:52:52] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2 -----------
+[2026-06-02 16:52:52] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-02 16:53:00] ERROR - vlmeval.__main__: Model Qwen2.5-VL-3B-Instruct x Dataset DermNet_Val_4k-2 combination failed: FlashAttention2 has been toggled on, but it cannot be used due to the following error: the package for FlashAttention2 doesn't seem to be installed., skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 232, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/qwen2_vl/model.py", line 311, in __init__
+    self.model = MODEL_CLS.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4252, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py", line 1337, in __init__
+    super().__init__(config)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1351, in __init__
+    self.config._attn_implementation_internal = self._check_and_adjust_attn_implementation(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1978, in _check_and_adjust_attn_implementation
+    applicable_attn_implementation = self.get_correct_attn_implementation(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2025, in get_correct_attn_implementation
+    self._flash_attn_can_dispatch(flash_attn_version=fa_version, is_init_check=is_init_check)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1759, in _flash_attn_can_dispatch
+    self._flash_attn_import_error(**FLASH_ATTENTION_COMPATIBILITY_MATRIX[flash_attn_version])
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1714, in _flash_attn_import_error
+    raise ImportError(
+ImportError: FlashAttention2 has been toggled on, but it cannot be used due to the following error: the package for FlashAttention2 doesn't seem to be installed.
+[2026-06-02 16:53:00] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-02 16:53:00] INFO - vlmeval.__main__: 
+benchmark         infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+----------------  -----------------  -----------------  ----------------  ----------------------  -------------  ---------------------------------------------------------------------------------------------------------------------------
+DermNet_Val_4k-2  -                  -                  -                 -                       -              FlashAttention2 has been toggled on, but it cannot be used due to the following error: the package for FlashAttention2 d...

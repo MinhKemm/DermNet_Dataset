@@ -1,0 +1,65 @@
+[2026-06-04 10:21:49] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-04 10:21:49] INFO - vlmeval.__main__: =========== Vintern-1B-v2 ===========
+[2026-06-04 10:21:49] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-04 10:21:49] INFO - vlmeval.__main__: =========== Vintern-1B-v2 ===========
+[2026-06-04 10:21:49] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-04 10:21:49] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-04 10:21:53] ERROR - vlmeval.__main__: Model Vintern-1B-v2 x Dataset DermNet_Test_mac_relative combination failed: You passed `inputs_embeds` to `.generate()`, but the model class Qwen2ForCausalLM doesn't have its forwarding implemented. See the GPT2 implementation for an example (https://github.com/huggingface/transformers/pull/21405), and feel free to open a PR with it!, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 202, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 122, in generate
+    return self.generate_inner(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 368, in generate_inner
+    return self.generate_v2(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 356, in generate_v2
+    response = self.model.chat(
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/_5CD_hyphen_AI/Vintern_hyphen_1B_hyphen_v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/modeling_internvl_chat.py", line 284, in chat
+    generation_output = self.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/_5CD_hyphen_AI/Vintern_hyphen_1B_hyphen_v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/modeling_internvl_chat.py", line 334, in generate
+    outputs = self.language_model.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 2431, in generate
+    inputs_tensor, model_input_name, model_kwargs = self._prepare_model_inputs(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 649, in _prepare_model_inputs
+    raise ValueError(
+ValueError: You passed `inputs_embeds` to `.generate()`, but the model class Qwen2ForCausalLM doesn't have its forwarding implemented. See the GPT2 implementation for an example (https://github.com/huggingface/transformers/pull/21405), and feel free to open a PR with it!
+[2026-06-04 10:21:53] ERROR - vlmeval.__main__: Model Vintern-1B-v2 x Dataset DermNet_Test_mac_relative combination failed: You passed `inputs_embeds` to `.generate()`, but the model class Qwen2ForCausalLM doesn't have its forwarding implemented. See the GPT2 implementation for an example (https://github.com/huggingface/transformers/pull/21405), and feel free to open a PR with it!, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 202, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 122, in generate
+    return self.generate_inner(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 368, in generate_inner
+    return self.generate_v2(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 356, in generate_v2
+    response = self.model.chat(
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/_5CD_hyphen_AI/Vintern_hyphen_1B_hyphen_v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/modeling_internvl_chat.py", line 284, in chat
+    generation_output = self.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/_5CD_hyphen_AI/Vintern_hyphen_1B_hyphen_v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/modeling_internvl_chat.py", line 334, in generate
+    outputs = self.language_model.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 2431, in generate
+    inputs_tensor, model_input_name, model_kwargs = self._prepare_model_inputs(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 649, in _prepare_model_inputs
+    raise ValueError(
+ValueError: You passed `inputs_embeds` to `.generate()`, but the model class Qwen2ForCausalLM doesn't have its forwarding implemented. See the GPT2 implementation for an example (https://github.com/huggingface/transformers/pull/21405), and feel free to open a PR with it!
+[2026-06-04 10:21:53] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-04 10:21:53] INFO - vlmeval.__main__: 
+benchmark                  infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ---------------------------------------------------------------------------------------------------------------------------
+DermNet_Test_mac_relative  -                  -                  -                 -                       -              You passed `inputs_embeds` to `.generate()`, but the model class Qwen2ForCausalLM doesn't have its forwarding implemente...

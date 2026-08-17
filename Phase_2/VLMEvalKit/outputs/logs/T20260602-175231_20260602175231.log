@@ -1,0 +1,4 @@
+[2026-06-02 17:52:31] WARNING - vlmeval.__main__: --reuse is not set, this run will start from a fresh output directory
+[2026-06-02 17:52:31] INFO - vlmeval.__main__: =========== Qwen2.5-VL-3B-Instruct ===========
+[2026-06-02 17:52:31] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-02 17:52:32] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

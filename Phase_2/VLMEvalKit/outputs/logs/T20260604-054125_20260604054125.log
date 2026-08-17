@@ -1,0 +1,65 @@
+[2026-06-04 05:41:25] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-04 05:41:25] INFO - vlmeval.__main__: =========== Vintern-1B-v2 ===========
+[2026-06-04 05:41:25] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-04 05:41:25] INFO - vlmeval.__main__: =========== Vintern-1B-v2 ===========
+[2026-06-04 05:41:25] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-04 05:41:26] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-04 05:41:27] ERROR - vlmeval.__main__: Model Vintern-1B-v2 x Dataset DermNet_Test_mac_relative combination failed: 'architectures', skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 108, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True, use_fast=False)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 694, in from_pretrained
+    config = AutoConfig.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 395, in from_pretrained
+    return config_class.from_pretrained(pretrained_model_name_or_path, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 665, in from_pretrained
+    return cls.from_dict(config_dict, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 859, in from_dict
+    logger.info(f"Model config {config}")
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 942, in __repr__
+    return f"{self.__class__.__name__} {self.to_json_string()}"
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 1066, in to_json_string
+    config_dict = self.to_diff_dict()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 962, in to_diff_dict
+    class_config_dict = self.__class__().to_dict() if not self.has_no_defaults_at_init else {}
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/_5CD_hyphen_AI/Vintern_hyphen_1B_hyphen_v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/configuration_internvl_chat.py", line 49, in __init__
+    if llm_config['architectures'][0] == 'LlamaForCausalLM':
+KeyError: 'architectures'
+[2026-06-04 05:41:27] ERROR - vlmeval.__main__: Model Vintern-1B-v2 x Dataset DermNet_Test_mac_relative combination failed: 'architectures', skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 108, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True, use_fast=False)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 694, in from_pretrained
+    config = AutoConfig.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 395, in from_pretrained
+    return config_class.from_pretrained(pretrained_model_name_or_path, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 665, in from_pretrained
+    return cls.from_dict(config_dict, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 859, in from_dict
+    logger.info(f"Model config {config}")
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 942, in __repr__
+    return f"{self.__class__.__name__} {self.to_json_string()}"
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 1066, in to_json_string
+    config_dict = self.to_diff_dict()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 962, in to_diff_dict
+    class_config_dict = self.__class__().to_dict() if not self.has_no_defaults_at_init else {}
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/_5CD_hyphen_AI/Vintern_hyphen_1B_hyphen_v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/configuration_internvl_chat.py", line 49, in __init__
+    if llm_config['architectures'][0] == 'LlamaForCausalLM':
+KeyError: 'architectures'
+[2026-06-04 05:41:27] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-04 05:41:27] INFO - vlmeval.__main__: 
+benchmark                  infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ---------------
+DermNet_Test_mac_relative  -                  -                  -                 -                       -              'architectures'

@@ -1,0 +1,129 @@
+[2026-06-04 10:31:25] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-04 10:31:25] INFO - vlmeval.__main__: =========== Vintern-1B-v2 ===========
+[2026-06-04 10:31:25] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-04 10:31:25] INFO - vlmeval.__main__: =========== Vintern-1B-v2 ===========
+[2026-06-04 10:31:25] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-04 10:31:25] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-04 10:31:27] ERROR - vlmeval.__main__: Model Vintern-1B-v2 x Dataset DermNet_Test_mac_relative combination failed: Failed to import transformers.models.llama.modeling_llama because of the following error (look up to see its traceback):
+flash_attn.__spec__ is None, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1364, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 54, in <module>
+    if is_flash_attn_2_available():
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 630, in is_flash_attn_2_available
+    if not _is_package_available("flash_attn"):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 43, in _is_package_available
+    package_exists = importlib.util.find_spec(pkg_name) is not None
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/importlib/util.py", line 114, in find_spec
+    raise ValueError('{}.__spec__ is None'.format(name))
+ValueError: flash_attn.__spec__ is None
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 137, in __init__
+    self.model = AutoModel.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 553, in from_pretrained
+    model_class = get_class_from_dynamic_module(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/dynamic_module_utils.py", line 500, in get_class_from_dynamic_module
+    return get_class_in_module(class_name, final_module.replace(".py", ""))
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/dynamic_module_utils.py", line 200, in get_class_in_module
+    module = importlib.import_module(module_path)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/5CD-AI/Vintern-1B-v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/modeling_internvl_chat.py", line 13, in <module>
+    from transformers import (AutoModel, GenerationConfig, LlamaForCausalLM,
+  File "<frozen importlib._bootstrap>", line 1075, in _handle_fromlist
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1355, in __getattr__
+    value = getattr(module, name)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1354, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1366, in _get_module
+    raise RuntimeError(
+RuntimeError: Failed to import transformers.models.llama.modeling_llama because of the following error (look up to see its traceback):
+flash_attn.__spec__ is None
+[2026-06-04 10:31:27] ERROR - vlmeval.__main__: Model Vintern-1B-v2 x Dataset DermNet_Test_mac_relative combination failed: Failed to import transformers.models.llama.modeling_llama because of the following error (look up to see its traceback):
+flash_attn.__spec__ is None, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1364, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 54, in <module>
+    if is_flash_attn_2_available():
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 630, in is_flash_attn_2_available
+    if not _is_package_available("flash_attn"):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 43, in _is_package_available
+    package_exists = importlib.util.find_spec(pkg_name) is not None
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/importlib/util.py", line 114, in find_spec
+    raise ValueError('{}.__spec__ is None'.format(name))
+ValueError: flash_attn.__spec__ is None
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 137, in __init__
+    self.model = AutoModel.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 553, in from_pretrained
+    model_class = get_class_from_dynamic_module(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/dynamic_module_utils.py", line 500, in get_class_from_dynamic_module
+    return get_class_in_module(class_name, final_module.replace(".py", ""))
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/dynamic_module_utils.py", line 200, in get_class_in_module
+    module = importlib.import_module(module_path)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/5CD-AI/Vintern-1B-v2/c3f01cf5b55816c092fb493babc672b0dc33c8bc/modeling_internvl_chat.py", line 13, in <module>
+    from transformers import (AutoModel, GenerationConfig, LlamaForCausalLM,
+  File "<frozen importlib._bootstrap>", line 1075, in _handle_fromlist
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1355, in __getattr__
+    value = getattr(module, name)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1354, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1366, in _get_module
+    raise RuntimeError(
+RuntimeError: Failed to import transformers.models.llama.modeling_llama because of the following error (look up to see its traceback):
+flash_attn.__spec__ is None
+[2026-06-04 10:31:27] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-04 10:31:27] INFO - vlmeval.__main__: 
+benchmark                  infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ---------------------------------------------------------------------------------------------------------------------------
+DermNet_Test_mac_relative  -                  -                  -                 -                       -              Failed to import transformers.models.llama.modeling_llama because of the following error (look up to see its traceback):...

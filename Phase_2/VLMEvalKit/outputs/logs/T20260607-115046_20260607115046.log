@@ -1,0 +1,19 @@
+[2026-06-07 11:50:46] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-07 11:50:46] INFO - vlmeval.__main__: =========== Janus-Pro-1B ===========
+[2026-06-07 11:50:46] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 11:50:46] INFO - vlmeval.__main__: =========== Janus-Pro-1B ===========
+[2026-06-07 11:50:46] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 11:50:48] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Janus-Pro-1B/T20260607-105810/12_DermNet_Test_mac_relative.pkl
+[2026-06-07 11:50:48] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Janus-Pro-1B/T20260607-105810/02_DermNet_Test_mac_relative.pkl
+[2026-06-07 11:50:48] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-07 12:51:49] ERROR - vlmeval.__main__: Model Janus-Pro-1B x Dataset DermNet_Test_mac_relative combination failed: NCCL communicator was aborted on rank 1. , skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 309, in infer_data_job
+    dist.barrier()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/distributed/c10d_logger.py", line 83, in wrapper
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py", line 5230, in barrier
+    work = group.barrier(opts=opts)
+torch.distributed.DistBackendError: NCCL communicator was aborted on rank 1. 

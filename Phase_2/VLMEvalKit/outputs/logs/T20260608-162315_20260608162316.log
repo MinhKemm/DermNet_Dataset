@@ -1,0 +1,29 @@
+[2026-06-08 16:23:16] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-08 16:23:16] INFO - vlmeval.__main__: =========== Phi-3.5-vision-instruct ===========
+[2026-06-08 16:23:16] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-08 16:23:16] INFO - vlmeval.__main__: =========== Phi-3.5-vision-instruct ===========
+[2026-06-08 16:23:16] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-08 16:23:17] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-08 16:23:18] ERROR - vlmeval.__main__: Model Phi-3.5-vision-instruct x Dataset DermNet_Test_mac_relative combination failed: 'Phi-3.5-vision-instruct', skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+KeyError: 'Phi-3.5-vision-instruct'
+[2026-06-08 16:23:18] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-08 16:23:18] INFO - vlmeval.__main__: 
+benchmark                  infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  -------------------------
+DermNet_Test_mac_relative  -                  -                  -                 -                       -              'Phi-3.5-vision-instruct'
+[2026-06-08 16:23:18] ERROR - vlmeval.__main__: Model Phi-3.5-vision-instruct x Dataset DermNet_Test_mac_relative combination failed: 'Phi-3.5-vision-instruct', skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+KeyError: 'Phi-3.5-vision-instruct'

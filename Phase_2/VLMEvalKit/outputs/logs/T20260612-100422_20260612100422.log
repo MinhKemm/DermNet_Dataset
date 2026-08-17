@@ -1,0 +1,4 @@
+[2026-06-12 10:04:22] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-12 10:04:22] INFO - vlmeval.__main__: =========== Gemma4-12B-it ===========
+[2026-06-12 10:04:22] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 10:04:22] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

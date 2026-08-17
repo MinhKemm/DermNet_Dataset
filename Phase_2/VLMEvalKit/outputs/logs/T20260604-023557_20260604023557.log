@@ -1,0 +1,57 @@
+[2026-06-04 02:35:57] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-04 02:35:57] INFO - vlmeval.__main__: =========== InternVL3_5-2B ===========
+[2026-06-04 02:35:57] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-04 02:35:57] INFO - vlmeval.__main__: =========== InternVL3_5-2B ===========
+[2026-06-04 02:35:57] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-04 02:35:57] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-04 02:36:01] ERROR - vlmeval.__main__: Model InternVL3_5-2B x Dataset DermNet_Val_4k-2_mac_relative combination failed: 'InternVLChatModel' object has no attribute 'all_tied_weights_keys', skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/internvl/internvl_chat.py", line 181, in __init__
+    self.model = AutoModel.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 389, in from_pretrained
+    return model_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4288, in from_pretrained
+    device_map = _get_device_map(model, device_map, max_memory, hf_quantizer)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/integrations/accelerate.py", line 365, in _get_device_map
+    device_map = infer_auto_device_map(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/integrations/accelerate.py", line 667, in infer_auto_device_map
+    ) = _init_infer_auto_device_map(model, max_memory, no_split_module_classes, tied_parameters, hf_quantizer)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/integrations/accelerate.py", line 583, in _init_infer_auto_device_map
+    if len(model.all_tied_weights_keys) > 0:
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1967, in __getattr__
+    raise AttributeError(
+AttributeError: 'InternVLChatModel' object has no attribute 'all_tied_weights_keys'. Did you mean: '_tied_weights_keys'?
+[2026-06-04 02:36:01] ERROR - vlmeval.__main__: Model InternVL3_5-2B x Dataset DermNet_Val_4k-2_mac_relative combination failed: 'InternVLChatModel' object has no attribute 'all_tied_weights_keys', skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/internvl/internvl_chat.py", line 181, in __init__
+    self.model = AutoModel.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 389, in from_pretrained
+    return model_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4288, in from_pretrained
+    device_map = _get_device_map(model, device_map, max_memory, hf_quantizer)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/integrations/accelerate.py", line 365, in _get_device_map
+    device_map = infer_auto_device_map(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/integrations/accelerate.py", line 667, in infer_auto_device_map
+    ) = _init_infer_auto_device_map(model, max_memory, no_split_module_classes, tied_parameters, hf_quantizer)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/integrations/accelerate.py", line 583, in _init_infer_auto_device_map
+    if len(model.all_tied_weights_keys) > 0:
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1967, in __getattr__
+    raise AttributeError(
+AttributeError: 'InternVLChatModel' object has no attribute 'all_tied_weights_keys'. Did you mean: '_tied_weights_keys'?
+[2026-06-04 02:36:01] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-04 02:36:01] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  -------------------------------------------------------------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              'InternVLChatModel' object has no attribute 'all_tied_weights_keys'

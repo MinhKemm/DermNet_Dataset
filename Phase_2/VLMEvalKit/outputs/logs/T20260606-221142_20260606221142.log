@@ -1,0 +1,8 @@
+[2026-06-06 22:11:42] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-06 22:11:42] INFO - vlmeval.__main__: =========== Janus-Pro-1B ===========
+[2026-06-06 22:11:42] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-06 22:11:42] INFO - vlmeval.__main__: =========== Janus-Pro-1B ===========
+[2026-06-06 22:11:42] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-06 22:11:43] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Janus-Pro-1B/T20260606-160503/02_DermNet_Test_mac_relative.pkl
+[2026-06-06 22:11:43] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Janus-Pro-1B/T20260606-160503/12_DermNet_Test_mac_relative.pkl
+[2026-06-06 22:11:43] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

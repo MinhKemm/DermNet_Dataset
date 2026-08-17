@@ -1,0 +1,76 @@
+[2026-06-12 09:56:01] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-12 09:56:01] INFO - vlmeval.__main__: =========== Gemma4-12B-it ===========
+[2026-06-12 09:56:01] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 09:56:01] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-12 09:56:54] ERROR - vlmeval.__main__: Model Gemma4-12B-it x Dataset DermNet_Val_4k-2_mac_relative combination failed: mat1 and mat2 shapes cannot be multiplied (280x6912 and 768x768), skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 202, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 122, in generate
+    return self.generate_inner(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 442, in generate_inner
+    return self.generate_inner_transformers(message, dataset=dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 398, in generate_inner_transformers
+    generation = self.model.generate(**inputs, **self.kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 2582, in generate
+    result = decoding_method(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 2782, in _sample
+    outputs = self._prefill(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 3828, in _prefill
+    return self(**model_inputs, return_dict=True)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/generic.py", line 907, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/gemma4/modeling_gemma4.py", line 2508, in forward
+    outputs = self.model(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/generic.py", line 1036, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/generic.py", line 907, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/gemma4/modeling_gemma4.py", line 2275, in forward
+    image_features = self.get_image_features(pixel_values, image_position_ids, return_dict=True).pooler_output
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/generic.py", line 907, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/gemma4/modeling_gemma4.py", line 2160, in get_image_features
+    vision_outputs = self.vision_tower(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/generic.py", line 1036, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/output_capturing.py", line 252, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/gemma4/modeling_gemma4.py", line 2051, in forward
+    inputs_embeds = self.patch_embedder(pixel_values, pixel_position_ids, padding_positions)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/gemma4/modeling_gemma4.py", line 613, in forward
+    hidden_states = self.input_proj(pixel_values.to(self.input_proj.weight.dtype))
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (280x6912 and 768x768)
+[2026-06-12 09:56:55] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-12 09:56:55] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ----------------------------------------------------------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              mat1 and mat2 shapes cannot be multiplied (280x6912 and 768x768)

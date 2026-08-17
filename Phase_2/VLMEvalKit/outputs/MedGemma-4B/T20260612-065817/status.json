@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20260612-065817",
+  "created_at": "2026-06-12T06:58:18.578387+00:00",
+  "datasets": {
+    "DermNet_Val_4k-2_mac_relative": {
+      "status": "done",
+      "prediction_file": "outputs/MedGemma-4B/T20260612-065817/MedGemma-4B_DermNet_Val_4k-2_mac_relative.xlsx",
+      "updated_at": "2026-06-12T07:13:15.649475+00:00",
+      "judge_model": "",
+      "reuse_aux": "all",
+      "skip_reason": "mode_infer"
+    }
+  },
+  "model_name": "MedGemma-4B",
+  "commit": "ba6451f4",
+  "argv": [
+    "run.py",
+    "--data",
+    "DermNet_Val_4k-2_mac_relative",
+    "--model",
+    "MedGemma-4B",
+    "--mode",
+    "infer",
+    "--reuse"
+  ],
+  "api_mode": false,
+  "world_size": 2,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "infer",
+  "reuse": true,
+  "reuse_aux": "all",
+  "updated_at": "2026-06-12T07:13:15.649041+00:00"
+}

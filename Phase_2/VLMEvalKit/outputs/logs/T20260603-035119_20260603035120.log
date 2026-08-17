@@ -1,0 +1,39 @@
+[2026-06-03 03:51:20] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-03 03:51:20] INFO - vlmeval.__main__: =========== Qwen2.5-VL-3B-Instruct ===========
+[2026-06-03 03:51:20] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-03 03:51:20] INFO - vlmeval.__main__: =========== Qwen2.5-VL-3B-Instruct ===========
+[2026-06-03 03:51:20] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-03 03:51:20] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Qwen2.5-VL-3B-Instruct/T20260603-003151/02_DermNet_Val_4k-2_mac_relative.pkl
+[2026-06-03 03:51:20] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Qwen2.5-VL-3B-Instruct/T20260603-003151/12_DermNet_Val_4k-2_mac_relative.pkl
+[2026-06-03 03:51:20] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-03 03:51:33] ERROR - vlmeval.__main__: Model Qwen2.5-VL-3B-Instruct x Dataset DermNet_Val_4k-2_mac_relative combination failed: , skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 232, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 189, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 118, in generate
+    message = self.preproc_content(message)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 99, in preproc_content
+    assert item['type'] == 'text'
+AssertionError
+[2026-06-03 03:51:42] ERROR - vlmeval.__main__: Model Qwen2.5-VL-3B-Instruct x Dataset DermNet_Val_4k-2_mac_relative combination failed: , skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 232, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 189, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 118, in generate
+    message = self.preproc_content(message)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 99, in preproc_content
+    assert item['type'] == 'text'
+AssertionError
+[2026-06-03 03:51:42] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-03 03:51:42] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              -

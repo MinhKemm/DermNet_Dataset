@@ -1,0 +1,57 @@
+[2026-06-07 03:51:38] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-07 03:51:38] INFO - vlmeval.__main__: =========== llava_v1.5_7b_4bit ===========
+[2026-06-07 03:51:38] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-07 03:51:38] INFO - vlmeval.__main__: =========== llava_v1.5_7b_4bit ===========
+[2026-06-07 03:51:38] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-07 03:51:38] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-07 03:52:52] ERROR - vlmeval.__main__: Model llava_v1.5_7b_4bit x Dataset DermNet_Val_4k-2_mac_relative combination failed: The following `model_kwargs` are not used by the model: ['quantization_config'] (note: typos in the generate arguments will also show up in this list), skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 202, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 122, in generate
+    return self.generate_inner(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/llava/llava.py", line 214, in generate_inner
+    output_ids = self.model.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/LLaVA/llava/model/language_model/llava_llama.py", line 137, in generate
+    return super().generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 1307, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 1122, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['quantization_config'] (note: typos in the generate arguments will also show up in this list)
+[2026-06-07 03:52:53] ERROR - vlmeval.__main__: Model llava_v1.5_7b_4bit x Dataset DermNet_Val_4k-2_mac_relative combination failed: The following `model_kwargs` are not used by the model: ['quantization_config'] (note: typos in the generate arguments will also show up in this list), skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 202, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 122, in generate
+    return self.generate_inner(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/llava/llava.py", line 214, in generate_inner
+    output_ids = self.model.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/LLaVA/llava/model/language_model/llava_llama.py", line 137, in generate
+    return super().generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 1307, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 1122, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['quantization_config'] (note: typos in the generate arguments will also show up in this list)
+[2026-06-07 03:52:53] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-07 03:52:53] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ---------------------------------------------------------------------------------------------------------------------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              The following `model_kwargs` are not used by the model: ['quantization_config'] (note: typos in the generate arguments w...

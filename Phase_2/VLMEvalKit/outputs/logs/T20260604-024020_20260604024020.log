@@ -1,0 +1,6 @@
+[2026-06-04 02:40:20] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-04 02:40:20] INFO - vlmeval.__main__: =========== InternVL3_5-2B ===========
+[2026-06-04 02:40:20] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-04 02:40:20] INFO - vlmeval.__main__: =========== InternVL3_5-2B ===========
+[2026-06-04 02:40:20] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-04 02:40:20] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

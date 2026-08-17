@@ -1,0 +1,57 @@
+[2026-06-12 06:57:26] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-12 06:57:26] INFO - vlmeval.__main__: =========== MedGemma-4B ===========
+[2026-06-12 06:57:26] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 06:57:26] INFO - vlmeval.__main__: =========== MedGemma-4B ===========
+[2026-06-12 06:57:26] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 06:57:27] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-12 06:57:28] ERROR - vlmeval.__main__: Model MedGemma-4B x Dataset DermNet_Val_4k-2_mac_relative combination failed: 'gemma3_text', skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 24, in __init__
+    model = PaliGemmaForConditionalGeneration.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 262, in _wrapper
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3647, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 572, in from_pretrained
+    return cls.from_dict(config_dict, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 743, in from_dict
+    config = cls(**config_dict)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/paligemma/configuration_paligemma.py", line 118, in __init__
+    self.text_config = CONFIG_MAPPING[text_config["model_type"]](**text_config)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 794, in __getitem__
+    raise KeyError(key)
+KeyError: 'gemma3_text'
+[2026-06-12 06:57:28] ERROR - vlmeval.__main__: Model MedGemma-4B x Dataset DermNet_Val_4k-2_mac_relative combination failed: 'gemma3_text', skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 24, in __init__
+    model = PaliGemmaForConditionalGeneration.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 262, in _wrapper
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3647, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 572, in from_pretrained
+    return cls.from_dict(config_dict, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 743, in from_dict
+    config = cls(**config_dict)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/paligemma/configuration_paligemma.py", line 118, in __init__
+    self.text_config = CONFIG_MAPPING[text_config["model_type"]](**text_config)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 794, in __getitem__
+    raise KeyError(key)
+KeyError: 'gemma3_text'
+[2026-06-12 06:57:28] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-12 06:57:28] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  -------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              'gemma3_text'

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20260607-075622",
+  "created_at": "2026-06-07T07:56:23.632931+00:00",
+  "datasets": {
+    "DermNet_Test_mac_relative": {
+      "status": "done",
+      "prediction_file": "outputs/llava_v1.5_7b_4bit/T20260607-075622/llava_v1.5_7b_4bit_DermNet_Test_mac_relative.xlsx",
+      "updated_at": "2026-06-07T07:56:27.700925+00:00",
+      "judge_model": "",
+      "source_run": "T20260607-074250",
+      "reuse_aux": "all",
+      "error_message": "Using `bitsandbytes` 4-bit quantization requires bitsandbytes: `pip install -U bitsandbytes>=0.46.1`"
+    }
+  },
+  "model_name": "llava_v1.5_7b_4bit",
+  "commit": "ba6451f4",
+  "argv": [
+    "run.py",
+    "--data",
+    "DermNet_Test_mac_relative",
+    "--model",
+    "llava_v1.5_7b_4bit",
+    "--mode",
+    "infer",
+    "--reuse"
+  ],
+  "api_mode": false,
+  "world_size": 2,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "infer",
+  "reuse": true,
+  "reuse_aux": "all",
+  "updated_at": "2026-06-07T07:56:27.700549+00:00"
+}

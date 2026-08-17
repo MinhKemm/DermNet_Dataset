@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20260610-012833",
+  "created_at": "2026-06-10T01:28:34.428301+00:00",
+  "datasets": {
+    "DermNet_Test_mac_relative": {
+      "status": "done",
+      "prediction_file": "outputs/Phi-3.5-Vision-4bit/T20260610-012833/Phi-3.5-Vision-4bit_DermNet_Test_mac_relative.xlsx",
+      "updated_at": "2026-06-10T02:29:35.671210+00:00",
+      "judge_model": "",
+      "source_run": "T20260609-165231",
+      "reuse_aux": "all",
+      "error_message": ""
+    }
+  },
+  "model_name": "Phi-3.5-Vision-4bit",
+  "commit": "ba6451f4",
+  "argv": [
+    "run.py",
+    "--data",
+    "DermNet_Test_mac_relative",
+    "--model",
+    "Phi-3.5-Vision-4bit",
+    "--mode",
+    "infer",
+    "--reuse"
+  ],
+  "api_mode": false,
+  "world_size": 2,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "infer",
+  "reuse": true,
+  "reuse_aux": "all",
+  "updated_at": "2026-06-10T02:29:35.670889+00:00"
+}

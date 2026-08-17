@@ -1,0 +1,34 @@
+[2026-06-04 02:37:58] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-04 02:37:58] INFO - vlmeval.__main__: =========== InternVL3_5-2B ===========
+[2026-06-04 02:37:58] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-04 02:37:59] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-04 02:38:03] ERROR - vlmeval.__main__: Model InternVL3_5-2B x Dataset DermNet_Val_4k-2_mac_relative combination failed: can't set attribute, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/internvl/internvl_chat.py", line 188, in __init__
+    self.model = AutoModel.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 389, in from_pretrained
+    return model_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4264, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "/mnt/tp/.cache/huggingface/modules/transformers_modules/OpenGVLab/InternVL3_5_hyphen_2B/7d7bd7bcc35b77b391883ebd7f9686cfa0e25cc0/modeling_internvl_chat.py", line 82, in __init__
+    self.language_model = Qwen3ForCausalLM(config.llm_config)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 449, in __init__
+    self.model = Qwen3Model(config)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 373, in __init__
+    self.post_init()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1394, in post_init
+    self.all_tied_weights_keys = self.get_expanded_tied_weights_keys(all_submodels=False)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2074, in __setattr__
+    super().__setattr__(name, value)
+AttributeError: can't set attribute
+[2026-06-04 02:38:03] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-04 02:38:03] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  -------------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              can't set attribute

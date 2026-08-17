@@ -1,0 +1,156 @@
+[2026-06-06 00:43:24] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-06 00:43:24] INFO - vlmeval.__main__: =========== Gemma3-4B ===========
+[2026-06-06 00:43:24] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-06 00:43:24] INFO - vlmeval.__main__: =========== Gemma3-4B ===========
+[2026-06-06 00:43:24] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-06 00:43:24] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Gemma3-4B/T20260605-164648/02_DermNet_Val_4k-2_mac_relative.pkl
+[2026-06-06 00:43:24] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-06 00:43:24] ERROR - vlmeval.__main__: Model Gemma3-4B x Dataset DermNet_Val_4k-2_mac_relative combination failed: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/gemma-3-4b-it.
+401 Client Error. (Request ID: Root=1-6a236d2c-2f7688a9141859e31d47f9a5;fb78ba82-7527-4131-9849-ebdc3d6cafde)
+
+Cannot access gated repo for url https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json.
+Access to model google/gemma-3-4b-it is restricted. You must have access to it and be authenticated to access it. Please log in., skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 437, in cached_files
+    hf_hub_download(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1010, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1161, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1796, in _raise_on_head_call_error
+    raise head_call_error
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1682, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1604, in get_hf_file_metadata
+    response = _httpx_follow_relative_redirects_with_backoff(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 692, in _httpx_follow_relative_redirects_with_backoff
+    hf_raise_for_status(response)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 787, in hf_raise_for_status
+    raise _format(GatedRepoError, message, response, repo_type=repo_type, repo_id=repo_id) from e
+huggingface_hub.errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-6a236d2c-2f7688a9141859e31d47f9a5;fb78ba82-7527-4131-9849-ebdc3d6cafde)
+
+Cannot access gated repo for url https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json.
+Access to model google/gemma-3-4b-it is restricted. You must have access to it and be authenticated to access it. Please log in.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 102, in __init__
+    self.model = Gemma3ForConditionalGeneration.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4166, in from_pretrained
+    config, model_kwargs = config_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 644, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 685, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 740, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 293, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 503, in cached_files
+    raise OSError(
+OSError: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/gemma-3-4b-it.
+401 Client Error. (Request ID: Root=1-6a236d2c-2f7688a9141859e31d47f9a5;fb78ba82-7527-4131-9849-ebdc3d6cafde)
+
+Cannot access gated repo for url https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json.
+Access to model google/gemma-3-4b-it is restricted. You must have access to it and be authenticated to access it. Please log in.
+[2026-06-06 00:43:24] ERROR - vlmeval.__main__: Model Gemma3-4B x Dataset DermNet_Val_4k-2_mac_relative combination failed: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/gemma-3-4b-it.
+401 Client Error. (Request ID: Root=1-6a236d2c-6adf63a574a116a711b17939;06258557-0981-4fe1-9d31-d0329c5e8383)
+
+Cannot access gated repo for url https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json.
+Access to model google/gemma-3-4b-it is restricted. You must have access to it and be authenticated to access it. Please log in., skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 437, in cached_files
+    hf_hub_download(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1010, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1161, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1796, in _raise_on_head_call_error
+    raise head_call_error
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1682, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1604, in get_hf_file_metadata
+    response = _httpx_follow_relative_redirects_with_backoff(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 692, in _httpx_follow_relative_redirects_with_backoff
+    hf_raise_for_status(response)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 787, in hf_raise_for_status
+    raise _format(GatedRepoError, message, response, repo_type=repo_type, repo_id=repo_id) from e
+huggingface_hub.errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-6a236d2c-6adf63a574a116a711b17939;06258557-0981-4fe1-9d31-d0329c5e8383)
+
+Cannot access gated repo for url https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json.
+Access to model google/gemma-3-4b-it is restricted. You must have access to it and be authenticated to access it. Please log in.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 102, in __init__
+    self.model = Gemma3ForConditionalGeneration.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4166, in from_pretrained
+    config, model_kwargs = config_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 644, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 685, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 740, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 293, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/hub.py", line 503, in cached_files
+    raise OSError(
+OSError: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/gemma-3-4b-it.
+401 Client Error. (Request ID: Root=1-6a236d2c-6adf63a574a116a711b17939;06258557-0981-4fe1-9d31-d0329c5e8383)
+
+Cannot access gated repo for url https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json.
+Access to model google/gemma-3-4b-it is restricted. You must have access to it and be authenticated to access it. Please log in.
+[2026-06-06 00:43:24] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-06 00:43:24] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ------------------------------------------------------------------------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              You are trying to access a gated repo.
+                                                                                                                              Make sure to have access to it at https://huggingface.co/google/gemma-3-4b-it.
+                                                                                                                              40...

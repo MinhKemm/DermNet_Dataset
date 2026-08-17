@@ -1,0 +1,6 @@
+[2026-06-09 05:59:38] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-09 05:59:38] INFO - vlmeval.__main__: =========== Phi-3.5-Vision-4bit ===========
+[2026-06-09 05:59:38] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-09 05:59:39] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Phi-3.5-Vision-4bit/T20260608-163444/12_DermNet_Test_mac_relative.pkl
+[2026-06-09 05:59:39] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Phi-3.5-Vision-4bit/T20260608-163444/02_DermNet_Test_mac_relative.pkl
+[2026-06-09 05:59:39] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

@@ -1,0 +1,26 @@
+[2026-06-07 07:13:10] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-07 07:13:10] INFO - vlmeval.__main__: =========== Janus-Pro-1B ===========
+[2026-06-07 07:13:10] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 07:13:10] INFO - vlmeval.__main__: =========== Janus-Pro-1B ===========
+[2026-06-07 07:13:10] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 07:13:11] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Janus-Pro-1B/T20260607-062442/12_DermNet_Test_mac_relative.pkl
+[2026-06-07 07:13:11] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Janus-Pro-1B/T20260607-062442/02_DermNet_Test_mac_relative.pkl
+[2026-06-07 07:13:11] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-07 07:13:11] ERROR - vlmeval.__main__: Model Janus-Pro-1B x Dataset DermNet_Test_mac_relative combination failed: pickle data was truncated, skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 107, in infer_data
+    res.update(load(out_file))
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/smp/file.py", line 284, in load
+    return handlers[suffix](f)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/smp/file.py", line 250, in load_pkl
+    return pickle.load(open(pth, 'rb'))
+_pickle.UnpicklingError: pickle data was truncated
+[2026-06-07 07:13:11] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-07 07:13:11] INFO - vlmeval.__main__: 
+benchmark                  infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  -------------------------
+DermNet_Test_mac_relative  -                  -                  -                 -                       -              pickle data was truncated

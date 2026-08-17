@@ -1,0 +1,9 @@
+[2026-06-02 16:47:50] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-02 16:47:50] INFO - vlmeval.__main__: =========== Vintern-1B-v2 ===========
+[2026-06-02 16:47:50] INFO - vlmeval.__main__: ----------- /mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/LMUData/DermNet_Val_4k-2.tsv -----------
+[2026-06-02 16:47:50] ERROR - vlmeval.__main__: Dataset /mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/LMUData/DermNet_Val_4k-2.tsv is not valid, will be skipped. 
+[2026-06-02 16:47:50] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-02 16:47:50] INFO - vlmeval.__main__: 
+benchmark                                                                               infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason      eval_error
+--------------------------------------------------------------------------------------  -----------------  -----------------  ----------------  ----------------------  ---------------  ------------
+/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/LMUData/DermNet_Val_4k-2.tsv  -                  -                  -                 -                       invalid_dataset  -

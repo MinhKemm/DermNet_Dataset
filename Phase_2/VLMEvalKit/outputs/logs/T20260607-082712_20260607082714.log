@@ -1,0 +1,8 @@
+[2026-06-07 08:27:14] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-07 08:27:14] INFO - vlmeval.__main__: =========== llava_v1.5_7b_4bit ===========
+[2026-06-07 08:27:14] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 08:27:14] INFO - vlmeval.__main__: =========== llava_v1.5_7b_4bit ===========
+[2026-06-07 08:27:14] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 08:27:14] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/llava_v1.5_7b_4bit/T20260607-075711/12_DermNet_Test_mac_relative.pkl
+[2026-06-07 08:27:14] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/llava_v1.5_7b_4bit/T20260607-075711/02_DermNet_Test_mac_relative.pkl
+[2026-06-07 08:27:14] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

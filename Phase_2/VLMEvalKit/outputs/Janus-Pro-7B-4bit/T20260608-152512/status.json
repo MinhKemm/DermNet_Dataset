@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20260608-152512",
+  "created_at": "2026-06-08T15:25:17.292584+00:00",
+  "datasets": {
+    "DermNet_Val_4k-2_mac_relative": {
+      "status": "infer",
+      "prediction_file": "outputs/Janus-Pro-7B-4bit/T20260608-152512/Janus-Pro-7B-4bit_DermNet_Val_4k-2_mac_relative.xlsx",
+      "updated_at": "2026-06-08T15:25:17.489254+00:00",
+      "judge_model": "",
+      "source_run": "T20260608-152414",
+      "reuse_aux": "all"
+    }
+  },
+  "model_name": "Janus-Pro-7B-4bit",
+  "commit": "ba6451f4",
+  "argv": [
+    "run.py",
+    "--data",
+    "DermNet_Val_4k-2_mac_relative",
+    "--model",
+    "Janus-Pro-7B-4bit",
+    "--mode",
+    "infer",
+    "--reuse"
+  ],
+  "api_mode": false,
+  "world_size": 2,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "infer",
+  "reuse": true,
+  "reuse_aux": "all",
+  "updated_at": "2026-06-08T15:25:17.489027+00:00"
+}

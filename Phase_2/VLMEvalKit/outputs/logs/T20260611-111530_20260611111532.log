@@ -1,0 +1,8 @@
+[2026-06-11 11:15:32] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-11 11:15:32] INFO - vlmeval.__main__: =========== SmolVLM-500M ===========
+[2026-06-11 11:15:32] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-11 11:15:32] INFO - vlmeval.__main__: =========== SmolVLM-500M ===========
+[2026-06-11 11:15:32] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-11 11:15:32] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/SmolVLM-500M/T20260611-101950/12_DermNet_Val_4k-2_mac_relative.pkl
+[2026-06-11 11:15:32] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/SmolVLM-500M/T20260611-101950/02_DermNet_Val_4k-2_mac_relative.pkl
+[2026-06-11 11:15:32] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

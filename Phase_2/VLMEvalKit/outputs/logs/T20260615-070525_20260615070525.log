@@ -1,0 +1,5 @@
+[2026-06-15 07:05:25] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-15 07:05:25] INFO - vlmeval.__main__: =========== Gemma4-12B-it ===========
+[2026-06-15 07:05:25] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-15 07:05:25] INFO - vlmeval.smp.file: --reuse-aux=all, will reuse inference auxiliary file outputs/Gemma4-12B-it/T20260612-173220/01_DermNet_Val_4k-2_mac_relative.pkl
+[2026-06-15 07:05:25] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

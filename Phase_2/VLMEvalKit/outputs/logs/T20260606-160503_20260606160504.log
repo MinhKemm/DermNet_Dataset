@@ -1,0 +1,66 @@
+[2026-06-06 16:05:04] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-06 16:05:04] INFO - vlmeval.__main__: =========== Janus-Pro-1B ===========
+[2026-06-06 16:05:04] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-06 16:05:04] INFO - vlmeval.__main__: =========== Janus-Pro-1B ===========
+[2026-06-06 16:05:04] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-06 16:05:05] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-06 16:12:24] ERROR - vlmeval.__main__: Model Janus-Pro-1B x Dataset DermNet_Test_mac_relative combination failed: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 44.67 GiB of which 12.31 MiB is free. Process 1372768 has 6.91 GiB memory in use. Process 1481861 has 8.69 GiB memory in use. Process 1482841 has 8.78 GiB memory in use. Process 1489334 has 9.87 GiB memory in use. Including non-PyTorch memory, this process has 5.02 GiB memory in use. Process 1498593 has 5.36 GiB memory in use. Of the allocated memory 4.22 GiB is allocated by PyTorch, and 309.59 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf), skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 202, in infer_data
+    response = model.generate(message=struct, dataset=dataset_name)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/base.py", line 122, in generate
+    return self.generate_inner(message, dataset)
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/janus.py", line 87, in generate_inner
+    outputs = self.model.language_model.generate(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 2582, in generate
+    result = decoding_method(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/generation/utils.py", line 2796, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/generic.py", line 903, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 474, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/generic.py", line 1032, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/utils/output_capturing.py", line 252, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 411, in forward
+    hidden_states = decoder_layer(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 316, in forward
+    hidden_states, _ = self.self_attn(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 270, in forward
+    key_states, value_states = past_key_values.update(key_states, value_states, self.layer_idx)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/cache_utils.py", line 993, in update
+    keys, values = self.layers[layer_idx].update(key_states, value_states, *args, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/cache_utils.py", line 144, in update
+    self.values = torch.cat([self.values, value_states], dim=-2)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 44.67 GiB of which 12.31 MiB is free. Process 1372768 has 6.91 GiB memory in use. Process 1481861 has 8.69 GiB memory in use. Process 1482841 has 8.78 GiB memory in use. Process 1489334 has 9.87 GiB memory in use. Including non-PyTorch memory, this process has 5.02 GiB memory in use. Process 1498593 has 5.36 GiB memory in use. Of the allocated memory 4.22 GiB is allocated by PyTorch, and 309.59 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+[2026-06-06 16:12:24] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-06 16:12:24] INFO - vlmeval.__main__: 
+benchmark                  infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  ---------------------------------------------------------------------------------------------------------------------------
+DermNet_Test_mac_relative  -                  -                  -                 -                       -              CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 44.67 GiB of which 12.31 MiB is free. Pro...

@@ -1,0 +1,6 @@
+[2026-06-08 13:45:09] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-08 13:45:09] INFO - vlmeval.__main__: =========== Janus-Pro-7B ===========
+[2026-06-08 13:45:09] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-08 13:45:09] INFO - vlmeval.__main__: =========== Janus-Pro-7B ===========
+[2026-06-08 13:45:09] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-08 13:45:09] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}

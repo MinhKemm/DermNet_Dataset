@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20260603-111000",
+  "created_at": "2026-06-03T11:10:00.566833+00:00",
+  "datasets": {
+    "DermNet_Test_mac_relative": {
+      "status": "infer",
+      "prediction_file": "outputs/Qwen2.5-VL-3B-Instruct/T20260603-111000/Qwen2.5-VL-3B-Instruct_DermNet_Test_mac_relative.xlsx",
+      "updated_at": "2026-06-03T11:10:01.584173+00:00",
+      "judge_model": "",
+      "source_run": "T20260603-072837",
+      "reuse_aux": "all"
+    }
+  },
+  "model_name": "Qwen2.5-VL-3B-Instruct",
+  "commit": "ba6451f4",
+  "argv": [
+    "run.py",
+    "--data",
+    "DermNet_Test_mac_relative",
+    "--model",
+    "Qwen2.5-VL-3B-Instruct",
+    "--mode",
+    "infer",
+    "--reuse"
+  ],
+  "api_mode": false,
+  "world_size": 2,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "infer",
+  "reuse": true,
+  "reuse_aux": "all",
+  "updated_at": "2026-06-03T11:10:01.583863+00:00"
+}

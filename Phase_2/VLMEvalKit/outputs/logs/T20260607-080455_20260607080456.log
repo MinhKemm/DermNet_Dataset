@@ -1,0 +1,12 @@
+[2026-06-07 08:04:56] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-07 08:04:56] INFO - vlmeval.__main__: =========== Gemma3-4B ===========
+[2026-06-07 08:04:56] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 08:04:56] INFO - vlmeval.__main__: =========== Gemma3-4B ===========
+[2026-06-07 08:04:56] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-07 08:04:56] ERROR - vlmeval.__main__: Dataset DermNet_Test_mac_relative is not valid, will be skipped. 
+[2026-06-07 08:04:56] ERROR - vlmeval.__main__: Dataset DermNet_Test_mac_relative is not valid, will be skipped. 
+[2026-06-07 08:04:56] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-07 08:04:56] INFO - vlmeval.__main__: 
+benchmark                  infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason      eval_error
+-------------------------  -----------------  -----------------  ----------------  ----------------------  ---------------  ------------
+DermNet_Test_mac_relative  -                  -                  -                 -                       invalid_dataset  -

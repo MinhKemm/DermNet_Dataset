@@ -1,0 +1,54 @@
+[2026-06-12 09:59:01] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-12 09:59:01] INFO - vlmeval.__main__: =========== Gemma4-12B-it ===========
+[2026-06-12 09:59:01] INFO - vlmeval.__main__: ----------- DermNet_Val_4k-2_mac_relative -----------
+[2026-06-12 09:59:01] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-12 09:59:02] ERROR - vlmeval.__main__: Model Gemma4-12B-it x Dataset DermNet_Val_4k-2_mac_relative combination failed: Validation error for field 'use_bidirectional_attention':
+    TypeError: Field 'use_bidirectional_attention' with value 'vision' doesn't match any type in (<class 'bool'>, <class 'NoneType'>). Errors: Field 'use_bidirectional_attention' expected bool, got str (value: 'vision'); Field 'use_bidirectional_attention' expected NoneType, got str (value: 'vision'), skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/dataclasses.py", line 144, in __strict_setattr__
+    validator(value)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/dataclasses.py", line 625, in validator
+    type_validator(field.name, value, field.type)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/dataclasses.py", line 470, in type_validator
+    validator(name, value, args)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/dataclasses.py", line 507, in _validate_union
+    raise TypeError(
+TypeError: Field 'use_bidirectional_attention' with value 'vision' doesn't match any type in (<class 'bool'>, <class 'NoneType'>). Errors: Field 'use_bidirectional_attention' expected bool, got str (value: 'vision'); Field 'use_bidirectional_attention' expected NoneType, got str (value: 'vision')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/gemma.py", line 105, in __init__
+    self.model = Gemma3ForConditionalGeneration.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4174, in from_pretrained
+    config, model_kwargs = config_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 666, in from_pretrained
+    return cls.from_dict(config_dict, **kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 843, in from_dict
+    config = cls(**config_dict)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/dataclasses.py", line 275, in init_with_validate
+    initial_init(self, *args, **kwargs)  # type: ignore [call-arg]
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 115, in __init__
+    self.__post_init__(**additional_kwargs)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/gemma3/configuration_gemma3.py", line 214, in __post_init__
+    self.text_config = Gemma3TextConfig(**self.text_config)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/dataclasses.py", line 275, in init_with_validate
+    initial_init(self, *args, **kwargs)  # type: ignore [call-arg]
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/configuration_utils.py", line 100, in __init__
+    setattr(self, f.name, standard_kwargs[f.name])
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/huggingface_hub/dataclasses.py", line 146, in __strict_setattr__
+    raise StrictDataclassFieldValidationError(field=name, cause=e) from e
+huggingface_hub.errors.StrictDataclassFieldValidationError: Validation error for field 'use_bidirectional_attention':
+    TypeError: Field 'use_bidirectional_attention' with value 'vision' doesn't match any type in (<class 'bool'>, <class 'NoneType'>). Errors: Field 'use_bidirectional_attention' expected bool, got str (value: 'vision'); Field 'use_bidirectional_attention' expected NoneType, got str (value: 'vision')
+[2026-06-12 09:59:02] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-12 09:59:02] INFO - vlmeval.__main__: 
+benchmark                      infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-----------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  -----------------------------------------------------------------
+DermNet_Val_4k-2_mac_relative  -                  -                  -                 -                       -              Validation error for field 'use_bidirectional_attention':
+                                                                                                                                  TypeError: Field 'use_bidirectional_attention' with value ...

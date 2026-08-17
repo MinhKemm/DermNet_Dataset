@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20260703-142602",
+  "created_at": "2026-07-03T14:26:02.926942+00:00",
+  "datasets": {
+    "DermNet_Test_1of3_en": {
+      "status": "infer",
+      "prediction_file": "outputs/Gemma4-12B-it/T20260703-142602/Gemma4-12B-it_DermNet_Test_1of3_en.xlsx",
+      "updated_at": "2026-07-03T14:26:03.137630+00:00",
+      "judge_model": "",
+      "source_run": "T20260703-131839",
+      "reuse_aux": "all"
+    }
+  },
+  "model_name": "Gemma4-12B-it",
+  "commit": "ba6451f4",
+  "argv": [
+    "run.py",
+    "--data",
+    "DermNet_Test_1of3_en",
+    "--model",
+    "Gemma4-12B-it",
+    "--mode",
+    "infer",
+    "--reuse",
+    "--verbose"
+  ],
+  "api_mode": false,
+  "world_size": 1,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "infer",
+  "reuse": true,
+  "reuse_aux": "all",
+  "updated_at": "2026-07-03T14:26:03.137403+00:00"
+}

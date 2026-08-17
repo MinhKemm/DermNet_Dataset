@@ -1,0 +1,53 @@
+[2026-06-04 10:06:39] INFO - vlmeval.__main__: --reuse is set, reuse-aux=all
+[2026-06-04 10:06:39] INFO - vlmeval.__main__: =========== Vintern-1B-v2 ===========
+[2026-06-04 10:06:39] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-04 10:06:39] INFO - vlmeval.__main__: =========== Vintern-1B-v2 ===========
+[2026-06-04 10:06:39] INFO - vlmeval.__main__: ----------- DermNet_Test_mac_relative -----------
+[2026-06-04 10:06:40] INFO - vlmeval.__main__: {'nproc': 32, 'verbose': False, 'retry': 6, 'timeout': 600}
+[2026-06-04 10:06:42] ERROR - vlmeval.__main__: Model Vintern-1B-v2 x Dataset DermNet_Test_mac_relative combination failed: object of type 'NoneType' has no len(), skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 154, in __init__
+    self.model = AutoModel.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 389, in from_pretrained
+    return model_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4308, in from_pretrained
+    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4389, in _load_pretrained_model
+    caching_allocator_warmup(model, expanded_device_map, load_config.hf_quantizer)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 5025, in caching_allocator_warmup
+    total_byte_count = get_total_byte_count(model, accelerator_device_map, hf_quantizer)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in get_total_byte_count
+    if len(tp_plan) > 0:
+TypeError: object of type 'NoneType' has no len()
+[2026-06-04 10:06:42] INFO - vlmeval.__main__: Run Summary Report:
+[2026-06-04 10:06:42] INFO - vlmeval.__main__: 
+benchmark                  infer_fail_rate    judge_fail_rate    primary_metric    primary_metric_value    skip_reason    eval_error
+-------------------------  -----------------  -----------------  ----------------  ----------------------  -------------  --------------------------------------
+DermNet_Test_mac_relative  -                  -                  -                 -                       -              object of type 'NoneType' has no len()
+[2026-06-04 10:06:42] ERROR - vlmeval.__main__: Model Vintern-1B-v2 x Dataset DermNet_Test_mac_relative combination failed: object of type 'NoneType' has no len(), skipping this combination.
+Traceback (most recent call last):
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/run.py", line 763, in run_local_mode
+    model = infer_data_job(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 245, in infer_data_job
+    model = infer_data(
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/inference.py", line 143, in infer_data
+    model = supported_VLM[model_name](**kwargs) if isinstance(model, str) else model
+  File "/mnt/tp/tungns/MinhKem/DermNet_Dataset/Phase_2/VLMEvalKit/vlmeval/vlm/vintern_chat.py", line 154, in __init__
+    self.model = AutoModel.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 389, in from_pretrained
+    return model_class.from_pretrained(
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4308, in from_pretrained
+    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4389, in _load_pretrained_model
+    caching_allocator_warmup(model, expanded_device_map, load_config.hf_quantizer)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 5025, in caching_allocator_warmup
+    total_byte_count = get_total_byte_count(model, accelerator_device_map, hf_quantizer)
+  File "/mnt/tp/miniconda/envs/dermnet/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in get_total_byte_count
+    if len(tp_plan) > 0:
+TypeError: object of type 'NoneType' has no len()
