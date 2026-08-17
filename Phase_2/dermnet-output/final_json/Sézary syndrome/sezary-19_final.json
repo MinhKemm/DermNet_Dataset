@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sézary syndrome",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Gót chân",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng dày sừng",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Nâu vàng",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Bong vảy",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sezary_19_jpg_9bc3",
+            "json_id": "JSON_IMG_sezary_19_jpg_9bc3_gpt_5_5_04280027",
+            "timestamp": "2026-04-28 00:27:00"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Napkin dermatitis",
+        "Distribution": [
+            "Quanh móng",
+            "Nếp móng gần",
+            "Nếp móng bên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sưng nề",
+            "Hồng ban",
+            "Biến đổi móng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt",
+            "Trắng đục"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Mất biểu bì",
+            "Tách móng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_napkin_dermatitis1_sm_jpg_de13",
+            "json_id": "JSON_IMG_napkin_dermatitis1_sm_jpg_de13_gpt_5_5_04290828",
+            "timestamp": "2026-04-29 08:28:57"
+        }
+    }
+}

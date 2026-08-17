@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Nếp khoeo chân",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Sẩn tím nâu"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Tím nâu",
+            "Hồng tím"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Dày da",
+            "Lichen hóa",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_planus_pigmentosus_0001_jpg_008b",
+            "json_id": "JSON_IMG_lichen_planus_pigmentosus_0001_jpg_008b_gpt_5_5_04291325",
+            "timestamp": "2026-04-29 13:25:09"
+        }
+    }
+}

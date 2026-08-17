@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Morphoea en coup de sabre",
+        "Distribution": [
+            "Nếp gấp da",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Da bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3196_jpg_198b",
+            "json_id": "JSON_IMG_3196_jpg_198b_gpt_5_5_04290942",
+            "timestamp": "2026-04-29 09:42:17"
+        }
+    }
+}

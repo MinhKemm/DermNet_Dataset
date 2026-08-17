@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Necrolytic migratory erythema",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Trợt da",
+            "Mảng đóng vảy"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ nâu",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Bong vảy",
+            "Rỉ dịch",
+            "Nứt da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_6a8e",
+            "json_id": "JSON_IMG_02_jpg_6a8e_gpt_5_5_04290814",
+            "timestamp": "2026-04-29 08:14:12"
+        }
+    }
+}

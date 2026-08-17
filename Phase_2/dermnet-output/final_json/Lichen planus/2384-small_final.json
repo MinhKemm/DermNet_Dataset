@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Vùng quanh hậu môn",
+            "Rãnh liên mông",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt viêm",
+            "Lỗ loét",
+            "Hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ",
+            "Trung tâm lõm"
+        ],
+        "Characteristics": [
+            "Lỗ mở",
+            "Trợt da",
+            "Ẩm ướt",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_2384_small_jpg_0cd2",
+            "json_id": "JSON_IMG_2384_small_jpg_0cd2_gpt_5_5_04291408",
+            "timestamp": "2026-04-29 14:08:33"
+        }
+    }
+}

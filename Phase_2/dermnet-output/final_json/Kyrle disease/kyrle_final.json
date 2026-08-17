@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kyrle disease",
+        "Distribution": [
+            "Cẳng tay",
+            "Lan tỏa",
+            "Dày đặc"
+        ],
+        "Lesion_Type": [
+            "Chấm xuất huyết",
+            "Ban xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình chấm nhỏ",
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Tổn thương nhiều",
+            "Hợp lưu nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_kyrle_jpg_889f",
+            "json_id": "JSON_IMG_kyrle_jpg_889f_gpt_5_5_04291444",
+            "timestamp": "2026-04-29 14:44:53"
+        }
+    }
+}

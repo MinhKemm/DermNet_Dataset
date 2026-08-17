@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pseudofolliculitis barbae",
+        "Distribution": [
+            "Vùng cằm",
+            "Quanh miệng",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Mụn mủ nhỏ",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Nền hồng ban",
+            "Vảy mỏng",
+            "Lông râu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_13f8",
+            "json_id": "JSON_IMG_01_jpg_13f8_gpt_5_5_04281140",
+            "timestamp": "2026-04-28 11:40:32"
+        }
+    }
+}

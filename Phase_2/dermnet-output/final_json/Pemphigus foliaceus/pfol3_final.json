@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus foliaceus",
+        "Distribution": [
+            "Cẳng chân hai bên",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Vảy da"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Xám trắng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Bong vảy",
+            "Dày da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pfol3_jpg_ae78",
+            "json_id": "JSON_IMG_pfol3_jpg_ae78_gpt_5_5_04281717",
+            "timestamp": "2026-04-28 17:17:47"
+        }
+    }
+}

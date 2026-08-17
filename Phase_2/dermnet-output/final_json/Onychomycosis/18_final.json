@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Onychomycosis",
+        "Distribution": [
+            "Kẽ ngón chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng bong vảy",
+            "Nứt kẽ"
+        ],
+        "Colour": [
+            "Trắng vàng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Dạng đường nứt"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Trợt ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_18_jpg_b9d8",
+            "json_id": "JSON_IMG_18_jpg_b9d8_gpt_5_5_04282118",
+            "timestamp": "2026-04-28 21:18:38"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyogenic granuloma",
+        "Distribution": [
+            "Mi dưới",
+            "Khóe mắt trong",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Nốt đỏ",
+            "U nhú"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ máu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Dạng cuống"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_2bc0",
+            "json_id": "JSON_IMG_06_jpg_2bc0_gpt_5_5_04280945",
+            "timestamp": "2026-04-28 09:45:35"
+        }
+    }
+}

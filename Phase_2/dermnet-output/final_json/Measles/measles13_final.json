@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Measles",
+        "Distribution": [
+            "Môi trên",
+            "Môi dưới",
+            "Mép miệng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Nứt môi"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy tiết vàng",
+            "Nứt kẽ",
+            "Khô môi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_measles13_jpg_7d1e",
+            "json_id": "JSON_IMG_measles13_jpg_7d1e_gpt_5_5_04291216",
+            "timestamp": "2026-04-29 12:16:33"
+        }
+    }
+}

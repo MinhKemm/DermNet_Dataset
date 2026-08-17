@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sebaceous hyperplasia",
+        "Distribution": [
+            "Mặt",
+            "Mũi",
+            "Má",
+            "Vùng trung tâm"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Giãn mạch",
+            "Bề mặt bóng",
+            "Lỗ chân lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_14_jpg_a07f",
+            "json_id": "JSON_IMG_14_jpg_a07f_gpt_5_5_04280735",
+            "timestamp": "2026-04-28 07:35:18"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scarlatina",
+        "Distribution": [
+            "Vùng nếp gấp",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da dày",
+            "Bề mặt sần sùi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_toxic_erythema_jpg_d28f",
+            "json_id": "JSON_IMG_toxic_erythema_jpg_d28f_gpt_5_5_04280747",
+            "timestamp": "2026-04-28 07:47:46"
+        }
+    }
+}

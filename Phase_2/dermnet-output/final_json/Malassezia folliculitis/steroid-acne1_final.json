@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Malassezia folliculitis",
+        "Distribution": [
+            "Ngực",
+            "Vùng có lông",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Chấm nhỏ"
+        ],
+        "Characteristics": [
+            "Nang lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_steroid_acne1_jpg_ba83",
+            "json_id": "JSON_IMG_steroid_acne1_jpg_ba83_gpt_5_5_04291233",
+            "timestamp": "2026-04-29 12:33:51"
+        }
+    }
+}

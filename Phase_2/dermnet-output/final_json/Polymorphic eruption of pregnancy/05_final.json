@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polymorphic eruption of pregnancy",
+        "Distribution": [
+            "Bụng",
+            "Quanh rốn",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vết rạn da",
+            "Gồ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_28c1",
+            "json_id": "JSON_IMG_05_jpg_28c1_gpt_5_5_04281352",
+            "timestamp": "2026-04-28 13:52:10"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea corporis",
+        "Distribution": [
+            "Vùng mặt",
+            "Rải rác",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm",
+            "Vàng trắng",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Tròn nhỏ",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy da",
+            "Vảy tiết",
+            "Đóng mài",
+            "Mụn mủ nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tincorp18_jpg_58ed",
+            "json_id": "JSON_IMG_tincorp18_jpg_58ed_gpt_5_5_04272113",
+            "timestamp": "2026-04-27 21:13:59"
+        }
+    }
+}

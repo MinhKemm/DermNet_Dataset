@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Molluscum contagiosum",
+        "Distribution": [
+            "Vùng thân mình",
+            "Nếp gấp da",
+            "Rải rác",
+            "Tập trung cụm"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Mụn nước nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy nhẹ",
+            "Đóng mài nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_amputation_stump_07_jpg_34c9",
+            "json_id": "JSON_IMG_amputation_stump_07_jpg_34c9_gpt_5_5_04291016",
+            "timestamp": "2026-04-29 10:16:51"
+        }
+    }
+}

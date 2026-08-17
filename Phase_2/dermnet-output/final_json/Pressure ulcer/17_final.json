@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Mu bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết loét nhỏ",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Mài tiết",
+            "Lõm trung tâm",
+            "Quầng đỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_17_jpg_660c",
+            "json_id": "JSON_IMG_17_jpg_660c_gpt_5_5_04281303",
+            "timestamp": "2026-04-28 13:03:41"
+        }
+    }
+}

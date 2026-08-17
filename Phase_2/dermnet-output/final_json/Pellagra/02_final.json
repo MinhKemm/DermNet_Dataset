@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pellagra",
+        "Distribution": [
+            "Mu bàn chân",
+            "Cổ chân",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng thâm nhiễm"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Da dày",
+            "Nứt nẻ",
+            "Phù nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_43a2",
+            "json_id": "JSON_IMG_02_jpg_43a2_gpt_5_5_04281741",
+            "timestamp": "2026-04-28 17:41:03"
+        }
+    }
+}

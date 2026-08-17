@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Venous eczema",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Đốm xuất huyết",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Phù nề",
+            "Tăng sắc tố",
+            "Chấm xuất huyết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_acute_lipodermatosclerosis_24_jpg_dcea",
+            "json_id": "JSON_IMG_acute_lipodermatosclerosis_24_jpg_dcea_gpt_5_5_04271912",
+            "timestamp": "2026-04-27 19:12:28"
+        }
+    }
+}

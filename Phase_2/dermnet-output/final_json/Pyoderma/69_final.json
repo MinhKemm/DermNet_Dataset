@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Vùng cằm",
+            "Quanh miệng",
+            "Khu trú",
+            "Tập trung thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ",
+            "Mụn nước"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng mật ong",
+            "Trắng đục"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Trợt da",
+            "Bóng ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_69_jpg_1631",
+            "json_id": "JSON_IMG_69_jpg_1631_gpt_5_5_04280950",
+            "timestamp": "2026-04-28 09:50:19"
+        }
+    }
+}

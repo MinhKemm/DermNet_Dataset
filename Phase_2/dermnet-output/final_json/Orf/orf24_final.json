@@ -1,0 +1,39 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Mặt",
+            "Má",
+            "Mũi",
+            "Trán",
+            "Một bên"
+        ],
+        "Lesion_Type": [
+            "Bọng nước",
+            "Trợt da",
+            "Mảng hồng ban",
+            "Vảy tiết"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Tím đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều",
+            "Kích thước đa dạng"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Rỉ dịch",
+            "Loét nông",
+            "Phù nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf24_jpg_527f",
+            "json_id": "JSON_IMG_orf24_jpg_527f_gpt_5_5_04282002",
+            "timestamp": "2026-04-28 20:02:09"
+        }
+    }
+}

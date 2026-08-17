@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Vùng lưng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng xơ cứng",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Hồng tím",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Teo da",
+            "Viền tím nhạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mmm3_jpg_e83a",
+            "json_id": "JSON_IMG_mmm3_jpg_e83a_gpt_5_5_04291031",
+            "timestamp": "2026-04-29 10:31:57"
+        }
+    }
+}

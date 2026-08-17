@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leukaemia cutis",
+        "Distribution": [
+            "Chi dưới",
+            "Rải rác",
+            "Không đều"
+        ],
+        "Lesion_Type": [
+            "Đốm xuất huyết",
+            "Sẩn đỏ tím",
+            "Dát tím"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Nâu tím",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Kích thước nhỏ",
+            "Tăng sắc tố nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leukaemia_cutis4_jpg_7aec",
+            "json_id": "JSON_IMG_leukaemia_cutis4_jpg_7aec_gpt_5_5_04291414",
+            "timestamp": "2026-04-29 14:14:46"
+        }
+    }
+}

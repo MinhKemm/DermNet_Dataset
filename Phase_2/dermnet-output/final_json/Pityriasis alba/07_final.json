@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis alba",
+        "Distribution": [
+            "Má",
+            "Quanh miệng",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng",
+            "Dát"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không rõ"
+        ],
+        "Characteristics": [
+            "Khô da",
+            "Vảy mịn",
+            "Nứt môi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_2800",
+            "json_id": "JSON_IMG_07_jpg_2800_gpt_5_5_04281600",
+            "timestamp": "2026-04-28 16:00:28"
+        }
+    }
+}

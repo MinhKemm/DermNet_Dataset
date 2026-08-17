@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Periarteritis nodosa",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết loét rộng",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Hồng nhạt",
+            "Vàng nhạt",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Dịch tiết",
+            "Mô hoại tử",
+            "Giả mạc vàng",
+            "Chảy máu điểm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_feb4",
+            "json_id": "JSON_IMG_05_jpg_feb4_gpt_5_5_04281701",
+            "timestamp": "2026-04-28 17:01:18"
+        }
+    }
+}

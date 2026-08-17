@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Osteoma cutis",
+        "Distribution": [
+            "Cẳng tay",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Dát giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không rõ"
+        ],
+        "Characteristics": [
+            "Lông bảo tồn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_9a69",
+            "json_id": "JSON_IMG_02_jpg_9a69_gpt_5_5_04281948",
+            "timestamp": "2026-04-28 19:48:07"
+        }
+    }
+}

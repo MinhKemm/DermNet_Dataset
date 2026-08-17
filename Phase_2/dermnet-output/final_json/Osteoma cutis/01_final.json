@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Osteoma cutis",
+        "Distribution": [
+            "Da có lông",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Bọng nước",
+            "Mụn nước"
+        ],
+        "Colour": [
+            "Trong suốt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Căng bóng",
+            "Dịch trong"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_da60",
+            "json_id": "JSON_IMG_01_jpg_da60_gpt_5_5_04281948",
+            "timestamp": "2026-04-28 19:48:24"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pearly penile papules",
+        "Distribution": [
+            "Rãnh quy đầu",
+            "Vành quy đầu",
+            "Xếp vòng"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Sẩn dạng hạt"
+        ],
+        "Colour": [
+            "Trắng hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Kích thước đều",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Nhiều tổn thương"
+        ],
+        "_metadata": {
+            "image_id": "IMG_penile_pearly_papules_04_jpg_3fbc",
+            "json_id": "JSON_IMG_penile_pearly_papules_04_jpg_3fbc_gpt_5_5_04281748",
+            "timestamp": "2026-04-28 17:48:44"
+        }
+    }
+}

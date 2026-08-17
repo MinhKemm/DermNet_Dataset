@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Vùng ngực trên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tím bầm",
+            "Nốt gồ"
+        ],
+        "Colour": [
+            "Tím xanh",
+            "Đỏ tím",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bầm máu",
+            "Sưng nhẹ",
+            "Da bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mmm1_jpg_5aa3",
+            "json_id": "JSON_IMG_mmm1_jpg_5aa3_gpt_5_5_04291032",
+            "timestamp": "2026-04-29 10:32:16"
+        }
+    }
+}

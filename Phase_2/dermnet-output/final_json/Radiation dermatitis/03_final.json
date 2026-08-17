@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Radiation dermatitis",
+        "Distribution": [
+            "Vùng da",
+            "Không xác định",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng teo da",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Đỏ hồng",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Giãn mạch",
+            "Vảy mỏng",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_c342",
+            "json_id": "JSON_IMG_03_jpg_c342_gpt_5_5_04280937",
+            "timestamp": "2026-04-28 09:37:39"
+        }
+    }
+}

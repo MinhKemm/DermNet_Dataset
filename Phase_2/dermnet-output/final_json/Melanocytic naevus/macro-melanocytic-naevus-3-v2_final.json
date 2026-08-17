@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical melanocytic naevus",
+        "Distribution": [
+            "Lưng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Đốm tăng sắc tố",
+            "Sẩn sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đa ổ",
+            "Không đều"
+        ],
+        "_metadata": {
+            "image_id": "IMG_macro_melanocytic_naevus_3_v2_jpg_525c",
+            "json_id": "JSON_IMG_macro_melanocytic_naevus_3_v2_jpg_525c_gpt_5_5_04291145",
+            "timestamp": "2026-04-29 11:45:38"
+        }
+    }
+}

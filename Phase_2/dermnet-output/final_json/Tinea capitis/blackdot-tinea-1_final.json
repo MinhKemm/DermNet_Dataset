@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea capitis",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Sẩn nang lông"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Hồng nhạt",
+            "Đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy trắng",
+            "Tóc gãy",
+            "Chấm đen",
+            "Thưa tóc"
+        ],
+        "_metadata": {
+            "image_id": "IMG_blackdot_tinea_1_jpg_af94",
+            "json_id": "JSON_IMG_blackdot_tinea_1_jpg_af94_gpt_5_5_04272123",
+            "timestamp": "2026-04-27 21:23:39"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Anogenital squamous cell carcinoma",
+        "Distribution": [
+            "Nếp gấp",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét da",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Vàng trắng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Nền hoại tử",
+            "Dịch tiết",
+            "Bờ đỏ gồ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3963_jpg_26d1",
+            "json_id": "JSON_IMG_3963_jpg_26d1_gpt_5_5_04280013",
+            "timestamp": "2026-04-28 00:13:24"
+        }
+    }
+}

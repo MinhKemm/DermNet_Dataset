@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Mặt",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "Sẩn",
+            "Mảng loét"
+        ],
+        "Colour": [
+            "Đen",
+            "Nâu sẫm",
+            "Xám xanh",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bờ gồ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Loét",
+            "Bề mặt bóng",
+            "Dày sừng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_metastatic_melanoma_18_jpg_691a",
+            "json_id": "JSON_IMG_metastatic_melanoma_18_jpg_691a_gpt_5_5_04291036",
+            "timestamp": "2026-04-29 10:36:48"
+        }
+    }
+}

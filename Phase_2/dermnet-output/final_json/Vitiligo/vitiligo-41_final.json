@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Cánh tay",
+            "Cẳng tay",
+            "Mu bàn tay",
+            "Một bên"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Nâu sẫm",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều",
+            "Dạng dải"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Bong vảy",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_41_jpg_2faf",
+            "json_id": "JSON_IMG_vitiligo_41_jpg_2faf_gpt_5_5_04271836",
+            "timestamp": "2026-04-27 18:36:44"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kerion",
+        "Distribution": [
+            "Má",
+            "Vùng râu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng loét",
+            "Mảng trợt",
+            "Nốt viêm"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ nâu",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bờ không đều",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Mủ vàng",
+            "Bề mặt ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tfker_jpg_0927",
+            "json_id": "JSON_IMG_tfker_jpg_0927_gpt_5_5_04291447",
+            "timestamp": "2026-04-29 14:47:09"
+        }
+    }
+}

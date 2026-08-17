@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sunburn",
+        "Distribution": [
+            "Vành tai",
+            "Nếp tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_21_jpg_7071",
+            "json_id": "JSON_IMG_21_jpg_7071_gpt_5_5_04272338",
+            "timestamp": "2026-04-27 23:38:37"
+        }
+    }
+}

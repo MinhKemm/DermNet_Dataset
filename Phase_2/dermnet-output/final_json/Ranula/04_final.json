@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Granular parakeratosis",
+        "Distribution": [
+            "Bàn chân",
+            "Cổ chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng dày sừng",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu vàng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Nứt nẻ",
+            "Da khô",
+            "Dày da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_8061",
+            "json_id": "JSON_IMG_04_jpg_8061_gpt_5_5_04280932",
+            "timestamp": "2026-04-28 09:32:20"
+        }
+    }
+}

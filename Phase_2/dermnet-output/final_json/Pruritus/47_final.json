@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Da đầu",
+            "Vùng quanh tai",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Trầy xước",
+            "Chấm đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_47_jpg_8fef",
+            "json_id": "JSON_IMG_47_jpg_8fef_gpt_5_5_04281144",
+            "timestamp": "2026-04-28 11:44:25"
+        }
+    }
+}

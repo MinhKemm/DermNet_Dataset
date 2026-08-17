@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Dystrophic epidermolysis bullosa",
+        "Distribution": [
+            "Quanh miệng",
+            "Mép môi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Trợt da",
+            "Nứt kẽ",
+            "Mảng đóng mài"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng mật ong",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Dạng dải",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Bong vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_b1b6",
+            "json_id": "JSON_IMG_02_jpg_b1b6_gpt_5_5_04280917",
+            "timestamp": "2026-04-28 09:17:09"
+        }
+    }
+}

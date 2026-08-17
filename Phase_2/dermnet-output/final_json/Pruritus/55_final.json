@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Đùi trước",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Dát tăng sắc tố",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Nâu tím",
+            "Tím nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Loang lổ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Lằn da rõ",
+            "Dày da nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_55_jpg_c035",
+            "json_id": "JSON_IMG_55_jpg_c035_gpt_5_5_04281142",
+            "timestamp": "2026-04-28 11:42:10"
+        }
+    }
+}

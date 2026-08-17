@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Naevus depigmentosus",
+        "Distribution": [
+            "Cổ",
+            "Thân trên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Đốm giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Loang lổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_naevus_depigmentosus_5_jpg_3d65",
+            "json_id": "JSON_IMG_naevus_depigmentosus_5_jpg_3d65_gpt_5_5_04290837",
+            "timestamp": "2026-04-29 08:37:07"
+        }
+    }
+}

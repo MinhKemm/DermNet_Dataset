@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Psoriatic arthritis",
+        "Distribution": [
+            "Mu ngón tay",
+            "Khớp ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Mảng gồ nhẹ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình vòng",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Sưng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_fa10",
+            "json_id": "JSON_IMG_04_jpg_fa10_gpt_5_5_04281055",
+            "timestamp": "2026-04-28 10:55:23"
+        }
+    }
+}

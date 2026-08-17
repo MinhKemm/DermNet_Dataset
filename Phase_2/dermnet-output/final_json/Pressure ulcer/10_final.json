@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Vùng bẹn",
+            "Nếp gấp",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Nốt viêm",
+            "Mụn mủ trung tâm"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ hồng",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Quầng đỏ",
+            "Trung tâm lõm",
+            "Lông rậm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_10_jpg_3b67",
+            "json_id": "JSON_IMG_10_jpg_3b67_gpt_5_5_04281307",
+            "timestamp": "2026-04-28 13:07:00"
+        }
+    }
+}

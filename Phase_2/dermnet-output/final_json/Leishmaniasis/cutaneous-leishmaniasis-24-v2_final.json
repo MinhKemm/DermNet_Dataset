@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leishmaniasis",
+        "Distribution": [
+            "Chi",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Ổ loét",
+            "Mảng trợt",
+            "Vảy tiết"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Đỏ hồng",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Chỉ khâu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cutaneous_leishmaniasis_24_v2_jpg_78d5",
+            "json_id": "JSON_IMG_cutaneous_leishmaniasis_24_v2_jpg_78d5_gpt_5_5_04291425",
+            "timestamp": "2026-04-29 14:25:29"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Đùi",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Sẩn đóng mài"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Chấm trợt",
+            "Không đều"
+        ],
+        "_metadata": {
+            "image_id": "IMG_26_jpg_bc9e",
+            "json_id": "JSON_IMG_26_jpg_bc9e_gpt_5_5_04281227",
+            "timestamp": "2026-04-28 12:27:14"
+        }
+    }
+}

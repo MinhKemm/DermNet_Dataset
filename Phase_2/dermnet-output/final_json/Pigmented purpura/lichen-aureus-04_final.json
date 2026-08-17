@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ cam"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Lốm đốm",
+            "Hợp lưu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_aureus_04_jpg_de8f",
+            "json_id": "JSON_IMG_lichen_aureus_04_jpg_de8f_gpt_5_5_04281628",
+            "timestamp": "2026-04-28 16:28:00"
+        }
+    }
+}

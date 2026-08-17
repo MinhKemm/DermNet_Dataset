@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Multiple self-healing squamous epitheliomas of Ferguson-Smith",
+        "Distribution": [
+            "Vùng da chi",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt sùi",
+            "U cục"
+        ],
+        "Colour": [
+            "Hồng đỏ",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Gồ cao"
+        ],
+        "Characteristics": [
+            "Loét trung tâm",
+            "Đóng vảy",
+            "Sần sùi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ferguson_smith_3_jpg_a23d",
+            "json_id": "JSON_IMG_ferguson_smith_3_jpg_a23d_gpt_5_5_04290920",
+            "timestamp": "2026-04-29 09:20:28"
+        }
+    }
+}

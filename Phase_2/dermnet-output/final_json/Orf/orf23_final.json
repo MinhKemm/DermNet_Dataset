@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Cổ chân",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Nốt loét",
+            "Sẩn đóng mài"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Mài tiết",
+            "Quầng đỏ",
+            "Lõm trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf23_jpg_64d6",
+            "json_id": "JSON_IMG_orf23_jpg_64d6_gpt_5_5_04282002",
+            "timestamp": "2026-04-28 20:02:28"
+        }
+    }
+}

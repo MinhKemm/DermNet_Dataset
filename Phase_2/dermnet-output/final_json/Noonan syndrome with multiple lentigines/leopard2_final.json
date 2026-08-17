@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Noonan syndrome with multiple lentigines",
+        "Distribution": [
+            "Vành tai",
+            "Vùng thái dương",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Đốm sắc tố",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Kích thước nhỏ"
+        ],
+        "Characteristics": [
+            "Nhiều tổn thương"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leopard2_jpg_613d",
+            "json_id": "JSON_IMG_leopard2_jpg_613d_gpt_5_5_04282214",
+            "timestamp": "2026-04-28 22:14:05"
+        }
+    }
+}

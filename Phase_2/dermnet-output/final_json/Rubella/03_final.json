@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rubella",
+        "Distribution": [
+            "Đùi",
+            "Vùng bẹn",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng nhạt"
+        ],
+        "Shape": [
+            "Hình vòng cung",
+            "Đa cung",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_b417",
+            "json_id": "JSON_IMG_03_jpg_b417_gpt_5_5_04280821",
+            "timestamp": "2026-04-28 08:21:47"
+        }
+    }
+}

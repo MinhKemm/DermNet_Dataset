@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Quanh móng",
+            "Nếp móng gần",
+            "Nếp móng bên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Bong da",
+            "Vảy da mỏng"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Hồng nhạt",
+            "Màu da"
+        ],
+        "Shape": [
+            "Viền cong",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Bong vảy mỏng",
+            "Xước măng rô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_melanonychia_04_jpg_e44a",
+            "json_id": "JSON_IMG_melanonychia_04_jpg_e44a_gpt_5_5_04291105",
+            "timestamp": "2026-04-29 11:05:14"
+        }
+    }
+}

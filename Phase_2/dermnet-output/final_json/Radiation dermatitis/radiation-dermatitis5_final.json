@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Radiation dermatitis",
+        "Distribution": [
+            "Vùng da có lông",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng sừng",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Đỏ hồng",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Bong vảy",
+            "Chấm xuất huyết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_radiation_dermatitis5_jpg_af5b",
+            "json_id": "JSON_IMG_radiation_dermatitis5_jpg_af5b_gpt_5_5_04280935",
+            "timestamp": "2026-04-28 09:35:29"
+        }
+    }
+}

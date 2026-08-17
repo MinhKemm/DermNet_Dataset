@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt nhỏ",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới không đều",
+            "Kích thước nhỏ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Trợt trung tâm",
+            "Tăng sắc tố",
+            "Sẹo nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_13_jpg_054a",
+            "json_id": "JSON_IMG_13_jpg_054a_gpt_5_5_04281154",
+            "timestamp": "2026-04-28 11:54:40"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Non-albicans candida infections",
+        "Distribution": [
+            "Khóe miệng",
+            "Quanh miệng",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt",
+            "Nứt kẽ"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Đóng mài",
+            "Rỉ dịch",
+            "Vảy tiết mật ong"
+        ],
+        "_metadata": {
+            "image_id": "IMG_65_jpg_5511",
+            "json_id": "JSON_IMG_65_jpg_5511_gpt_5_5_04282223",
+            "timestamp": "2026-04-28 22:23:26"
+        }
+    }
+}

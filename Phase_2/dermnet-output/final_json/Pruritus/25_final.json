@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Lưng trên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Loang lổ",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_25_jpg_cd5f",
+            "json_id": "JSON_IMG_25_jpg_cd5f_gpt_5_5_04281150",
+            "timestamp": "2026-04-28 11:50:53"
+        }
+    }
+}

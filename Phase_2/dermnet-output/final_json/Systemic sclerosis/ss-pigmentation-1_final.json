@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Systemic sclerosis",
+        "Distribution": [
+            "Da đầu",
+            "Vùng có lông",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Đốm giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Hồng nhạt",
+            "Nâu da"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Lông thưa",
+            "Loang lổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ss_pigmentation_1_jpg_f419",
+            "json_id": "JSON_IMG_ss_pigmentation_1_jpg_f419_gpt_5_5_04272221",
+            "timestamp": "2026-04-27 22:21:49"
+        }
+    }
+}

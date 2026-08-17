@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Colloid milium",
+        "Distribution": [
+            "Mi mắt trên",
+            "Khu trú",
+            "Tập trung thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Vàng nhạt",
+            "Trong bóng"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bóng nước nhỏ",
+            "Đóng mài vàng",
+            "Da căng bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_milia_21_jpg_037d",
+            "json_id": "JSON_IMG_milia_21_jpg_037d_gpt_5_5_04291026",
+            "timestamp": "2026-04-29 10:26:15"
+        }
+    }
+}

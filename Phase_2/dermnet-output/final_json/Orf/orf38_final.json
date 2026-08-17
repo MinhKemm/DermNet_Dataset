@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Cẳng tay",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình vòng",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Trung tâm nhạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf38_jpg_f037",
+            "json_id": "JSON_IMG_orf38_jpg_f037_gpt_5_5_04281957",
+            "timestamp": "2026-04-28 19:57:29"
+        }
+    }
+}

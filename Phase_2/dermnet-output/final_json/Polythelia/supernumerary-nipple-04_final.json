@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polythelia",
+        "Distribution": [
+            "Vùng da hở",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Sẩn có cuống",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Hồng da"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Nếp da",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_supernumerary_nipple_04_jpg_733e",
+            "json_id": "JSON_IMG_supernumerary_nipple_04_jpg_733e_gpt_5_5_04281329",
+            "timestamp": "2026-04-28 13:29:54"
+        }
+    }
+}

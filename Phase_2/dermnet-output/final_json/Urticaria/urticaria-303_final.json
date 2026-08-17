@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Cold urticaria",
+        "Distribution": [
+            "Lưng",
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình vòng",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Bờ gồ nhẹ",
+            "Trung tâm nhạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_urticaria_303_jpg_9871",
+            "json_id": "JSON_IMG_urticaria_303_jpg_9871_gpt_5_5_04271949",
+            "timestamp": "2026-04-27 19:49:03"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polymorphic light eruption",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Sẩn nang lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_cf4d",
+            "json_id": "JSON_IMG_04_jpg_cf4d_gpt_5_5_04281348",
+            "timestamp": "2026-04-28 13:48:46"
+        }
+    }
+}

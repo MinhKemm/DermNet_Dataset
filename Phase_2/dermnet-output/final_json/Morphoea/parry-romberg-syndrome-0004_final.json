@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Morphoea en coup de sabre",
+        "Distribution": [
+            "Trán",
+            "Quanh mắt",
+            "Hai bên mặt"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Lốm đốm",
+            "Da nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_parry_romberg_syndrome_0004_jpg_4f8c",
+            "json_id": "JSON_IMG_parry_romberg_syndrome_0004_jpg_4f8c_gpt_5_5_04290927",
+            "timestamp": "2026-04-29 09:27:47"
+        }
+    }
+}

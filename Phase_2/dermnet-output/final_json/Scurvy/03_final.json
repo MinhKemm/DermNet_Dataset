@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scurvy",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Mu bàn chân",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Chấm xuất huyết",
+            "Dát xuất huyết"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Tím sẫm",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Nhiều đốm nhỏ",
+            "Da bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_ecf7",
+            "json_id": "JSON_IMG_03_jpg_ecf7_gpt_5_5_04280746",
+            "timestamp": "2026-04-28 07:46:49"
+        }
+    }
+}

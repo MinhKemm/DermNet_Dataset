@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Acanthosis palmaris",
+        "Lesion_Type": [
+            "Dày sừng gan bàn tay",
+            "Mảng dày sừng"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Xám nâu"
+        ],
+        "Shape": [
+            "Khu trú",
+            "Bất quy tắc",
+            "Ranh giới không rõ"
+        ],
+        "Distribution": [
+            "Gan bàn tay hai bên",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Characteristics": [
+            "Nhiều nốt sần nhỏ",
+            "Nếp nhăn sâu",
+            "Da khô",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "source_image": "tripe-palms.jpg",
+            "run_mode": "VLM1_ONLY",
+            "vlm1_model": "claude-sonnet-4-6",
+            "vlm2_model": null,
+            "judge_model": null,
+            "timestamp": "2026-04-16 21:01:01"
+        }
+    }
+}

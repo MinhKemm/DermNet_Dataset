@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mid-dermal elastolysis",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát sắc tố",
+            "Chấm nâu"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Vàng da"
+        ],
+        "Shape": [
+            "Hình nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_middermal_elastolysis_3_jpg_0208",
+            "json_id": "JSON_IMG_middermal_elastolysis_3_jpg_0208_gpt_5_5_04291028",
+            "timestamp": "2026-04-29 10:28:56"
+        }
+    }
+}

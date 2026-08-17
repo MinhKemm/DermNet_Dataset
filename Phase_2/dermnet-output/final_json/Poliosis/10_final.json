@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Poliosis",
+        "Distribution": [
+            "Vùng chẩm",
+            "Đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng hồng nhạt"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Bề mặt bóng",
+            "Lông tóc thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_10_jpg_b086",
+            "json_id": "JSON_IMG_10_jpg_b086_gpt_5_5_04281358",
+            "timestamp": "2026-04-28 13:58:11"
+        }
+    }
+}

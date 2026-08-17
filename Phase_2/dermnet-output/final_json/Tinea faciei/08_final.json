@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea faciei",
+        "Distribution": [
+            "Má",
+            "Mặt",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Bờ gồ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_8afb",
+            "json_id": "JSON_IMG_08_jpg_8afb_gpt_5_5_04272102",
+            "timestamp": "2026-04-27 21:02:38"
+        }
+    }
+}

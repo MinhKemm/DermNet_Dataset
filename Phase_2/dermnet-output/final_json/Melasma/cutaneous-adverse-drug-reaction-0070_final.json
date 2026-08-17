@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melasma",
+        "Distribution": [
+            "Gò má",
+            "Má",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt phẳng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cutaneous_adverse_drug_reaction_0070_jpg_7a54",
+            "json_id": "JSON_IMG_cutaneous_adverse_drug_reaction_0070_jpg_7a54_gpt_5_5_04291051",
+            "timestamp": "2026-04-29 10:51:15"
+        }
+    }
+}

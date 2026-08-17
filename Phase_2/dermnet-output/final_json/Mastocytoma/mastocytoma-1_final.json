@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mastocytoma",
+        "Distribution": [
+            "Thân mình",
+            "Bụng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát sắc tố"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phẳng",
+            "Nếp da mờ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mastocytoma_1_jpg_431e",
+            "json_id": "JSON_IMG_mastocytoma_1_jpg_431e_gpt_5_5_04291225",
+            "timestamp": "2026-04-29 12:25:08"
+        }
+    }
+}

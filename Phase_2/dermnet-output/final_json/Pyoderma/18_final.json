@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Thân mình",
+            "Ngực bụng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt da",
+            "Bọng nước vỡ",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều",
+            "Diện rộng"
+        ],
+        "Characteristics": [
+            "Bong tróc thượng bì",
+            "Rỉ dịch",
+            "Vảy tiết",
+            "Trợt ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_18_jpg_005d",
+            "json_id": "JSON_IMG_18_jpg_005d_gpt_5_5_04281006",
+            "timestamp": "2026-04-28 10:06:06"
+        }
+    }
+}

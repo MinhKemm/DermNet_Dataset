@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Acral lentiginous melanoma",
+        "Distribution": [
+            "Vùng da chi",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Nốt sùi",
+            "Khối u lồi",
+            "Loét"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím đỏ",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Có cuống",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Trợt loét",
+            "Bề mặt bóng",
+            "Chảy máu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mel3_jpg_e191",
+            "json_id": "JSON_IMG_mel3_jpg_e191_gpt_5_5_04291131",
+            "timestamp": "2026-04-29 11:31:48"
+        }
+    }
+}

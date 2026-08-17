@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Móng tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng sắc tố"
+        ],
+        "Colour": [
+            "Đen nâu",
+            "Xám xanh"
+        ],
+        "Shape": [
+            "Hình chữ nhật",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đổi màu móng",
+            "Bờ sẫm màu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pseudomonas_nail_jpg_3c84",
+            "json_id": "JSON_IMG_pseudomonas_nail_jpg_3c84_gpt_5_5_04291101",
+            "timestamp": "2026-04-29 11:01:44"
+        }
+    }
+}

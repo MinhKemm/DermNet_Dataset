@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Whipple disease",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Lốm đốm",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Khô da",
+            "Vảy mịn",
+            "Lông thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_d762",
+            "json_id": "JSON_IMG_03_jpg_d762_gpt_5_5_04271750",
+            "timestamp": "2026-04-27 17:50:47"
+        }
+    }
+}

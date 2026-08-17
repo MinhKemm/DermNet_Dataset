@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Acral lentiginous melanoma",
+        "Distribution": [
+            "Vùng trán",
+            "Đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Mảng sắc tố",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm",
+            "Đỏ tươi",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều",
+            "Hình tròn nhỏ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Đóng mài",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_desmoplastic_melanoma_3_jpg_e83c",
+            "json_id": "JSON_IMG_desmoplastic_melanoma_3_jpg_e83c_gpt_5_5_04291133",
+            "timestamp": "2026-04-29 11:33:25"
+        }
+    }
+}

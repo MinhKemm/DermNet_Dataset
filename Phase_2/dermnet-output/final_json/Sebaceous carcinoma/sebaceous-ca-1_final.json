@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sebaceous carcinoma",
+        "Distribution": [
+            "Quanh miệng",
+            "Môi trên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Nốt loét",
+            "Sẩn bóng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Loét",
+            "Bờ gồ",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sebaceous_ca_1_jpg_5b2b",
+            "json_id": "JSON_IMG_sebaceous_ca_1_jpg_5b2b_gpt_5_5_04280741",
+            "timestamp": "2026-04-28 07:41:49"
+        }
+    }
+}

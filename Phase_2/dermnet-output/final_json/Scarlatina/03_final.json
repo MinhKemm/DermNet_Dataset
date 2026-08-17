@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scarlatina",
+        "Distribution": [
+            "Ngực",
+            "Thân trên",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Dạng chấm",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Hợp lưu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_26f8",
+            "json_id": "JSON_IMG_03_jpg_26f8_gpt_5_5_04280750",
+            "timestamp": "2026-04-28 07:50:22"
+        }
+    }
+}

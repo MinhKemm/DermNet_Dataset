@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Lan tỏa",
+            "Vùng da mặt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Giãn mạch nhỏ",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_24_jpg_8702",
+            "json_id": "JSON_IMG_24_jpg_8702_gpt_5_5_04281228",
+            "timestamp": "2026-04-28 12:28:23"
+        }
+    }
+}

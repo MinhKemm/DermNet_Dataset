@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Chi",
+            "Khu trú",
+            "Dọc trục chi"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Dài",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Khô da",
+            "Trầy xước nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_figure_5_itch_jpg_20b8",
+            "json_id": "JSON_IMG_figure_5_itch_jpg_20b8_gpt_5_5_04291303",
+            "timestamp": "2026-04-29 13:03:38"
+        }
+    }
+}

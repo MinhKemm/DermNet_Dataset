@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Merkel cell carcinoma",
+        "Distribution": [
+            "Mí mắt trên",
+            "Quanh mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Phù nề mí mắt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sưng nề",
+            "Căng bóng",
+            "Nếp da mờ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_eyelid_merkel_1_jpg_1c83",
+            "json_id": "JSON_IMG_eyelid_merkel_1_jpg_1c83_gpt_5_5_04291046",
+            "timestamp": "2026-04-29 10:46:44"
+        }
+    }
+}

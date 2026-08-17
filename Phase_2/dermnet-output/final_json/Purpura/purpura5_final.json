@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Henoch–Schönlein purpura",
+        "Distribution": [
+            "Vùng bẹn",
+            "Mặt trong đùi",
+            "Sinh dục",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng giảm sắc tố",
+            "Mảng teo da"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Tím nâu",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Teo da",
+            "Nhăn da",
+            "Sẹo giảm sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_purpura5_jpg_b938",
+            "json_id": "JSON_IMG_purpura5_jpg_b938_gpt_5_5_04281012",
+            "timestamp": "2026-04-28 10:12:46"
+        }
+    }
+}

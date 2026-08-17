@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Da chi",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt sẩn",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đen nâu",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Đóng mài",
+            "Viền đỏ xung quanh"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nm9_big_jpg_eb80",
+            "json_id": "JSON_IMG_nm9_big_jpg_eb80_gpt_5_5_04282248",
+            "timestamp": "2026-04-28 22:48:24"
+        }
+    }
+}

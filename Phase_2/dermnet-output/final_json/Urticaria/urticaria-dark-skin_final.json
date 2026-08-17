@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Cold urticaria",
+        "Distribution": [
+            "Thân mình",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Dát giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Trắng xám",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_urticaria_dark_skin_jpg_c2a2",
+            "json_id": "JSON_IMG_urticaria_dark_skin_jpg_c2a2_gpt_5_5_04271948",
+            "timestamp": "2026-04-27 19:48:22"
+        }
+    }
+}

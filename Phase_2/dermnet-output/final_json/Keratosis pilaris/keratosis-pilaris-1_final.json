@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Keratosis pilaris",
+        "Distribution": [
+            "Mặt ngoài cánh tay",
+            "Rải rác",
+            "Theo nang lông"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Màu da",
+            "Trắng ngà",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Nhỏ đều"
+        ],
+        "Characteristics": [
+            "Nút sừng",
+            "Bề mặt ráp",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_keratosis_pilaris_1_jpg_f1bd",
+            "json_id": "JSON_IMG_keratosis_pilaris_1_jpg_f1bd_gpt_5_5_04291455",
+            "timestamp": "2026-04-29 14:55:05"
+        }
+    }
+}

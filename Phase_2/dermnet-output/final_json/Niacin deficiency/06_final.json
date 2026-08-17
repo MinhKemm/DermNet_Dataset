@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Niacin deficiency",
+        "Distribution": [
+            "Cẳng chân dưới",
+            "Cổ chân",
+            "Mu bàn chân",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Nâu sẫm",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Dày da",
+            "Bong vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_5462",
+            "json_id": "JSON_IMG_06_jpg_5462_gpt_5_5_04290738",
+            "timestamp": "2026-04-29 07:38:53"
+        }
+    }
+}

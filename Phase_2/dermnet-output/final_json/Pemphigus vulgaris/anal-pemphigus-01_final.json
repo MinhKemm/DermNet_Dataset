@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Nếp kẽ",
+            "Vùng có lông",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết trợt",
+            "Nứt kẽ",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng ngà",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Ẩm ướt",
+            "Rỉ dịch",
+            "Giả mạc",
+            "Loét nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_anal_pemphigus_01_jpg_4639",
+            "json_id": "JSON_IMG_anal_pemphigus_01_jpg_4639_gpt_5_5_04281716",
+            "timestamp": "2026-04-28 17:16:31"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Varicose veins",
+        "Distribution": [
+            "Cẳng chân",
+            "Rải rác",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Dát xuất huyết",
+            "Chấm xuất huyết",
+            "Dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Đỏ tím",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Da khô nhẹ",
+            "Nhiều đốm nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_87c6",
+            "json_id": "JSON_IMG_01_jpg_87c6_gpt_5_5_04271927",
+            "timestamp": "2026-04-27 19:27:29"
+        }
+    }
+}

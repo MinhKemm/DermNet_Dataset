@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Whipple disease",
+        "Distribution": [
+            "Gáy",
+            "Chân tóc",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Bờ gồ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_d900",
+            "json_id": "JSON_IMG_02_jpg_d900_gpt_5_5_04271751",
+            "timestamp": "2026-04-27 17:51:10"
+        }
+    }
+}

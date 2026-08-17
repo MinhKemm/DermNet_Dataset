@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Malassezia folliculitis",
+        "Distribution": [
+            "Ngực",
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Kích thước nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Quanh nang lông",
+            "Trung tâm mủ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pitfol1_jpg_fc9d",
+            "json_id": "JSON_IMG_pitfol1_jpg_fc9d_gpt_5_5_04291234",
+            "timestamp": "2026-04-29 12:34:43"
+        }
+    }
+}

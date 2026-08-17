@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Vùng mông",
+            "Nếp kẽ",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng bầm tím",
+            "Chấm xuất huyết",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Tím bầm",
+            "Đỏ sẫm",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mày",
+            "Vết xước",
+            "Trợt da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_747c",
+            "json_id": "JSON_IMG_07_jpg_747c_gpt_5_5_04281233",
+            "timestamp": "2026-04-28 12:33:57"
+        }
+    }
+}

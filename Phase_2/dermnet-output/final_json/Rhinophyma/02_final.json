@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rhinophyma",
+        "Distribution": [
+            "Vành tai",
+            "Dái tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "U cục",
+            "Mảng dày da"
+        ],
+        "Colour": [
+            "Màu da",
+            "Hồng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Thùy múi",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Gồ ghề",
+            "Nếp nhăn da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_a183",
+            "json_id": "JSON_IMG_02_jpg_a183_gpt_5_5_04280908",
+            "timestamp": "2026-04-28 09:08:25"
+        }
+    }
+}

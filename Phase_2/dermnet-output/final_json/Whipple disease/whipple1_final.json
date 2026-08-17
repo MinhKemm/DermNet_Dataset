@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Whipple disease",
+        "Distribution": [
+            "Mu bàn tay",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Dát mất sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Trắng hồng",
+            "Nâu da"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Da nhăn",
+            "Đốm nâu nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_whipple1_jpg_408c",
+            "json_id": "JSON_IMG_whipple1_jpg_408c_gpt_5_5_04271750",
+            "timestamp": "2026-04-27 17:50:32"
+        }
+    }
+}

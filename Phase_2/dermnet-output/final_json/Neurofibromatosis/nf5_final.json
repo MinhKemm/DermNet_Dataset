@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Neurofibromatosis",
+        "Distribution": [
+            "Vùng da",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn hình vòm",
+            "Nốt nhỏ"
+        ],
+        "Colour": [
+            "Hồng da",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng",
+            "Lõm trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nf5_jpg_1573",
+            "json_id": "JSON_IMG_nf5_jpg_1573_gpt_5_5_04290742",
+            "timestamp": "2026-04-29 07:42:39"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis versicolor",
+        "Distribution": [
+            "Vùng cổ",
+            "Nếp gấp cổ",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng dày da"
+        ],
+        "Colour": [
+            "Tăng sắc tố",
+            "Nâu sẫm",
+            "Nâu xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da dày",
+            "Bề mặt nhung",
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3504_jpg_0da2",
+            "json_id": "JSON_IMG_3504_jpg_0da2_gpt_5_5_04281523",
+            "timestamp": "2026-04-28 15:23:25"
+        }
+    }
+}

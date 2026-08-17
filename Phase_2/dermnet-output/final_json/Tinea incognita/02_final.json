@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea incognita",
+        "Distribution": [
+            "Mu bàn chân",
+            "Kẽ ngón chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng bong vảy",
+            "Mảng dày sừng"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy khô",
+            "Nứt nẻ",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_7f7e",
+            "json_id": "JSON_IMG_02_jpg_7f7e_gpt_5_5_04272058",
+            "timestamp": "2026-04-27 20:58:09"
+        }
+    }
+}

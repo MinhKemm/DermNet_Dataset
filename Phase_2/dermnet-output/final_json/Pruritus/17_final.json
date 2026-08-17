@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Chi có lông",
+            "Quanh nang lông",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Hình tròn"
+        ],
+        "Characteristics": [
+            "Tổn thương nang lông",
+            "Lông mọc xuyên",
+            "Trầy xước nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_17_jpg_a37e",
+            "json_id": "JSON_IMG_17_jpg_a37e_gpt_5_5_04281153",
+            "timestamp": "2026-04-28 11:53:11"
+        }
+    }
+}

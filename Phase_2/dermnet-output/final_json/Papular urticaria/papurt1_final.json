@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Papular urticaria",
+        "Distribution": [
+            "Cẳng tay",
+            "Mu bàn tay",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Vết trợt nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Trầy xước",
+            "Chấm đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_papurt1_jpg_7c20",
+            "json_id": "JSON_IMG_papurt1_jpg_7c20_gpt_5_5_04281808",
+            "timestamp": "2026-04-28 18:08:37"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Keratosis pilaris",
+        "Distribution": [
+            "Vùng da phẳng",
+            "Rải rác",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Khô da",
+            "Vảy mịn",
+            "Lỗ chân lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cutaneous_adverse_drug_reaction_0035_jpg_d314",
+            "json_id": "JSON_IMG_cutaneous_adverse_drug_reaction_0035_jpg_d314_gpt_5_5_04291458",
+            "timestamp": "2026-04-29 14:58:22"
+        }
+    }
+}

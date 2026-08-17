@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Mu bàn chân",
+            "Cổ chân",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn dẹt",
+            "Mảng dạng vòng"
+        ],
+        "Colour": [
+            "Màu da",
+            "Trắng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Hình cung",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Thành vòng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_papular_lichen_planus_0007_jpg_798a",
+            "json_id": "JSON_IMG_papular_lichen_planus_0007_jpg_798a_gpt_5_5_04291316",
+            "timestamp": "2026-04-29 13:16:56"
+        }
+    }
+}

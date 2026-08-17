@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Thân mình",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vảy"
+        ],
+        "Colour": [
+            "Đỏ cam",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Trung tâm nhạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_capillaritis_39_jpg_1bc8",
+            "json_id": "JSON_IMG_capillaritis_39_jpg_1bc8_gpt_5_5_04281634",
+            "timestamp": "2026-04-28 16:34:05"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Mu ngón tay",
+            "Quanh móng",
+            "Nhiều ngón"
+        ],
+        "Lesion_Type": [
+            "Mảng khô da",
+            "Dày da nhẹ"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Hồng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Nếp da sâu",
+            "Bong vảy mịn",
+            "Rãnh móng dọc"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cutaneous_adverse_drug_reaction_0068_jpg_55ec",
+            "json_id": "JSON_IMG_cutaneous_adverse_drug_reaction_0068_jpg_55ec_gpt_5_5_04291110",
+            "timestamp": "2026-04-29 11:10:53"
+        }
+    }
+}

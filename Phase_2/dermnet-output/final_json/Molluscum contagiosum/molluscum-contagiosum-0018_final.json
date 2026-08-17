@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Molluscum contagiosum",
+        "Distribution": [
+            "Mi trên",
+            "Góc mắt trong",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng vàng",
+            "Sẩn phẳng"
+        ],
+        "Colour": [
+            "Vàng nhạt",
+            "Vàng trắng"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Hơi gồ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_molluscum_contagiosum_0018_jpg_06be",
+            "json_id": "JSON_IMG_molluscum_contagiosum_0018_jpg_06be_gpt_5_5_04291008",
+            "timestamp": "2026-04-29 10:08:57"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea pedis",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Lõm nông",
+            "Mảng trắng"
+        ],
+        "Colour": [
+            "Trắng đục",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Macer hóa",
+            "Tróc vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tinped11_jpg_3b17",
+            "json_id": "JSON_IMG_tinped11_jpg_3b17_gpt_5_5_04272051",
+            "timestamp": "2026-04-27 20:51:02"
+        }
+    }
+}

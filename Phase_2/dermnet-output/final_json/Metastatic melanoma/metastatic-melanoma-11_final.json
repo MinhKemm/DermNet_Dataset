@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Chi dưới",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt",
+            "Da nhạt màu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình vòng",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bờ gồ nhẹ",
+            "Trung tâm nhạt màu",
+            "Bóng da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_metastatic_melanoma_11_jpg_3759",
+            "json_id": "JSON_IMG_metastatic_melanoma_11_jpg_3759_gpt_5_5_04291039",
+            "timestamp": "2026-04-29 10:39:01"
+        }
+    }
+}

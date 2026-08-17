@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Dát sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Nâu đỏ",
+            "Trắng hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố",
+            "Giảm sắc tố",
+            "Lông thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_Melanoma_in_situ_9_jpg_0321",
+            "json_id": "JSON_IMG_Melanoma_in_situ_9_jpg_0321_gpt_5_5_04291126",
+            "timestamp": "2026-04-29 11:26:19"
+        }
+    }
+}

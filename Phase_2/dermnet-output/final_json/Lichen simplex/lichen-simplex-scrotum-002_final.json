@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Bìu",
+            "Dương vật",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng dày da",
+            "Sẩn hợp lưu"
+        ],
+        "Colour": [
+            "Nâu tím",
+            "Xám trắng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Lichen hóa",
+            "Bong vảy",
+            "Nếp da nổi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_simplex_scrotum_002_jpg_2a73",
+            "json_id": "JSON_IMG_lichen_simplex_scrotum_002_jpg_2a73_gpt_5_5_04291255",
+            "timestamp": "2026-04-29 12:55:52"
+        }
+    }
+}

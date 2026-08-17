@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Thân mình",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng nhạt",
+            "Nâu da"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Quầng trắng",
+            "Trung tâm đỏ",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_18_jpg_f920",
+            "json_id": "JSON_IMG_vitiligo_18_jpg_f920_gpt_5_5_04271845",
+            "timestamp": "2026-04-27 18:45:03"
+        }
+    }
+}

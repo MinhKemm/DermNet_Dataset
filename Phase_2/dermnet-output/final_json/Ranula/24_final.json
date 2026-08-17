@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Granular parakeratosis",
+        "Distribution": [
+            "Sống mũi",
+            "Góc trong mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng loét",
+            "Nốt hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ gồ cao"
+        ],
+        "Characteristics": [
+            "Trợt da",
+            "Loét nông",
+            "Bề mặt bóng",
+            "Vảy tiết vàng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_24_jpg_f356",
+            "json_id": "JSON_IMG_24_jpg_f356_gpt_5_5_04280925",
+            "timestamp": "2026-04-28 09:25:56"
+        }
+    }
+}

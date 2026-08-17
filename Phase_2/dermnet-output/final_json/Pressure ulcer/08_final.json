@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Vùng mông",
+            "Khu trú",
+            "Cụm gần nhau"
+        ],
+        "Lesion_Type": [
+            "Ổ loét sâu",
+            "Mảng trợt",
+            "Vết loét nhỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Vàng nhạt",
+            "Hồng tím"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Mô hoại tử vàng",
+            "Mô hạt đỏ",
+            "Bờ tím hồng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_e4c5",
+            "json_id": "JSON_IMG_08_jpg_e4c5_gpt_5_5_04281307",
+            "timestamp": "2026-04-28 13:07:28"
+        }
+    }
+}

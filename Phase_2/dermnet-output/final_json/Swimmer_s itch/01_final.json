@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Swimmer_s itch",
+        "Distribution": [
+            "Thân mình",
+            "Vùng nách",
+            "Rải rác",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Mụn nước nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Trung tâm trắng",
+            "Nốt nhỏ",
+            "Da nền bình thường"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_579d",
+            "json_id": "JSON_IMG_01_jpg_579d_gpt_5_5_04272328",
+            "timestamp": "2026-04-27 23:28:52"
+        }
+    }
+}

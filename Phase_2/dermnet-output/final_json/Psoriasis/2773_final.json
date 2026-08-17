@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erythrodermic psoriasis",
+        "Distribution": [
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Lõm giữa",
+            "Quầng đỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_2773_jpg_4dc5",
+            "json_id": "JSON_IMG_2773_jpg_4dc5_gpt_5_5_04281122",
+            "timestamp": "2026-04-28 11:22:41"
+        }
+    }
+}

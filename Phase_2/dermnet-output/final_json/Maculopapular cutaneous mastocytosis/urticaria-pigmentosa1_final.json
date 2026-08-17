@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Maculopapular cutaneous mastocytosis",
+        "Distribution": [
+            "Mặt trước đùi",
+            "Hai bên",
+            "Đối xứng",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Chấm đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tăng sừng",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_urticaria_pigmentosa1_jpg_bf91",
+            "json_id": "JSON_IMG_urticaria_pigmentosa1_jpg_bf91_gpt_5_5_04291241",
+            "timestamp": "2026-04-29 12:41:41"
+        }
+    }
+}

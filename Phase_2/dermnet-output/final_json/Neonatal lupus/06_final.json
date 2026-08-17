@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Neonatal lupus",
+        "Distribution": [
+            "Mặt",
+            "Trán",
+            "Da đầu",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Dạng lưới",
+            "Loang lổ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vân lưới"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_0323",
+            "json_id": "JSON_IMG_06_jpg_0323_gpt_5_5_04290756",
+            "timestamp": "2026-04-29 07:56:40"
+        }
+    }
+}

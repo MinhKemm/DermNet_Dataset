@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Marjolin ulcer",
+        "Distribution": [
+            "Má",
+            "Mặt",
+            "Một bên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Da căng",
+            "Sưng nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_Mohs20_640x480_jpg_90dc",
+            "json_id": "JSON_IMG_Mohs20_640x480_jpg_90dc_gpt_5_5_04291228",
+            "timestamp": "2026-04-29 12:28:38"
+        }
+    }
+}

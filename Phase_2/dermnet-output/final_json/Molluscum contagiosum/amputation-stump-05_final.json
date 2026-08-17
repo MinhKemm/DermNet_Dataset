@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Molluscum contagiosum",
+        "Distribution": [
+            "Khuỷu tay",
+            "Mặt duỗi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Khô da",
+            "Vảy mịn",
+            "Nứt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_amputation_stump_05_jpg_1530",
+            "json_id": "JSON_IMG_amputation_stump_05_jpg_1530_gpt_5_5_04291017",
+            "timestamp": "2026-04-29 10:17:09"
+        }
+    }
+}

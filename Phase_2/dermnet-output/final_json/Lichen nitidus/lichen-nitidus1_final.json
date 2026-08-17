@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen nitidus",
+        "Distribution": [
+            "Mặt gấp",
+            "Cẳng tay",
+            "Cổ tay",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Chấm xuất huyết",
+            "Dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [],
+        "_metadata": {
+            "image_id": "IMG_lichen_nitidus1_jpg_19bd",
+            "json_id": "JSON_IMG_lichen_nitidus1_jpg_19bd_gpt_5_5_04291411",
+            "timestamp": "2026-04-29 14:11:48"
+        }
+    }
+}

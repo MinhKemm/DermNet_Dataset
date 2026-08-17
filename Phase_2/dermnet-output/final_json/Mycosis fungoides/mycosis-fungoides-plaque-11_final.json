@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Bong vảy nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mycosis_fungoides_plaque_11_jpg_2758",
+            "json_id": "JSON_IMG_mycosis_fungoides_plaque_11_jpg_2758_gpt_5_5_04290847",
+            "timestamp": "2026-04-29 08:47:11"
+        }
+    }
+}

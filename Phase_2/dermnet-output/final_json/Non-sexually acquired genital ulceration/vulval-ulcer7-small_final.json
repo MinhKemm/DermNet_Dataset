@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Non-sexually acquired genital ulceration",
+        "Distribution": [
+            "Vùng sinh dục",
+            "Âm hộ",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét",
+            "Trợt niêm mạc",
+            "Mảng giả mạc"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng",
+            "Tím nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Dịch tiết",
+            "Giả mạc",
+            "Niêm mạc ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vulval_ulcer7_small_jpg_6ff6",
+            "json_id": "JSON_IMG_vulval_ulcer7_small_jpg_6ff6_gpt_5_5_04282217",
+            "timestamp": "2026-04-28 22:17:08"
+        }
+    }
+}

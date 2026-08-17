@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Chấm xuất huyết"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Khô da",
+            "Lỗ chân lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_superficial_spreading_melanoma_0026_jpg_f016",
+            "json_id": "JSON_IMG_superficial_spreading_melanoma_0026_jpg_f016_gpt_5_5_04291113",
+            "timestamp": "2026-04-29 11:13:23"
+        }
+    }
+}

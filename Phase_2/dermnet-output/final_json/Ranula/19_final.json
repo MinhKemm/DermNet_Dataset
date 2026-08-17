@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Granular parakeratosis",
+        "Distribution": [
+            "Vùng thân mình",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Loét nông",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm",
+            "Tím hồng",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt ẩm",
+            "Bờ tím",
+            "Mạch máu giãn",
+            "Dịch tiết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_19_jpg_3a1a",
+            "json_id": "JSON_IMG_19_jpg_3a1a_gpt_5_5_04280927",
+            "timestamp": "2026-04-28 09:27:13"
+        }
+    }
+}

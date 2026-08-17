@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Da lòng bàn tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Sắc tố loang lổ",
+            "Vùng đỏ nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_alm_3_macro_jpg_6dd1",
+            "json_id": "JSON_IMG_alm_3_macro_jpg_6dd1_gpt_5_5_04291121",
+            "timestamp": "2026-04-29 11:21:24"
+        }
+    }
+}

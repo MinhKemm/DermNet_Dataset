@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea capitis",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy trắng",
+            "Trợt da",
+            "Chấm xuất huyết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_18_jpg_f399",
+            "json_id": "JSON_IMG_18_jpg_f399_gpt_5_5_04272124",
+            "timestamp": "2026-04-27 21:24:31"
+        }
+    }
+}

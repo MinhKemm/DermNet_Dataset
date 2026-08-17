@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Mu bàn tay",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ",
+            "Vết loét"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Hình tròn"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Đóng mày",
+            "Trợt loét"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf05_jpg_9223",
+            "json_id": "JSON_IMG_orf05_jpg_9223_gpt_5_5_04282008",
+            "timestamp": "2026-04-28 20:08:13"
+        }
+    }
+}

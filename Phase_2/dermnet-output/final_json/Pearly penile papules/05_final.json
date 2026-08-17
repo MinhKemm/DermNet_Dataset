@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pearly penile papules",
+        "Distribution": [
+            "Rãnh quy đầu",
+            "Xếp hàng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Sẩn bóng"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Đều nhau",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_12b6",
+            "json_id": "JSON_IMG_05_jpg_12b6_gpt_5_5_04281750",
+            "timestamp": "2026-04-28 17:50:38"
+        }
+    }
+}

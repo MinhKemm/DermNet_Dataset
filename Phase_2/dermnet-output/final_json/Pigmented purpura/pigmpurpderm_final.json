@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Trầy xước nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pigmpurpderm_jpg_7516",
+            "json_id": "JSON_IMG_pigmpurpderm_jpg_7516_gpt_5_5_04281625",
+            "timestamp": "2026-04-28 16:25:19"
+        }
+    }
+}

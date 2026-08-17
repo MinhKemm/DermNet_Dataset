@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Remitting seronegative symmetrical synovitis with pitting oedema",
+        "Distribution": [
+            "Vùng má",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Lỗ chân lông",
+            "Giãn mạch nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pitting_oedema_05_jpg_0ad9",
+            "json_id": "JSON_IMG_pitting_oedema_05_jpg_0ad9_gpt_5_5_04280915",
+            "timestamp": "2026-04-28 09:15:12"
+        }
+    }
+}

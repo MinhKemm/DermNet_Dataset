@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polycystic ovary syndrome",
+        "Distribution": [
+            "Da đầu",
+            "Vùng đỉnh",
+            "Vùng trán",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Rụng tóc",
+            "Thưa tóc"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Mảng thưa tóc",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Giảm mật độ",
+            "Tóc mảnh"
+        ],
+        "_metadata": {
+            "image_id": "IMG_aga_pcos_jpg_65c1",
+            "json_id": "JSON_IMG_aga_pcos_jpg_65c1_gpt_5_5_04281354",
+            "timestamp": "2026-04-28 13:54:19"
+        }
+    }
+}

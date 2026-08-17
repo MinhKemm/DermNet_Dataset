@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Poikiloderma of Civatte",
+        "Distribution": [
+            "Vùng cổ",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Lốm đốm",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_civatte1_jpg_39ba",
+            "json_id": "JSON_IMG_civatte1_jpg_39ba_gpt_5_5_04281402",
+            "timestamp": "2026-04-28 14:02:55"
+        }
+    }
+}

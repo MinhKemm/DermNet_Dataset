@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nodular chondrodermatitis",
+        "Distribution": [
+            "Dái tai",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng",
+            "Lõm trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cnh2_jpg_ad2a",
+            "json_id": "JSON_IMG_cnh2_jpg_ad2a_gpt_5_5_04290722",
+            "timestamp": "2026-04-29 07:22:10"
+        }
+    }
+}

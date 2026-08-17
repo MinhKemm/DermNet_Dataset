@@ -1,0 +1,28 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Đùi",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng bầm máu",
+            "Dát xuất huyết"
+        ],
+        "Colour": [
+            "Tím nâu",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [],
+        "_metadata": {
+            "image_id": "IMG_purpannul_jpg_f44e",
+            "json_id": "JSON_IMG_purpannul_jpg_f44e_gpt_5_5_04281623",
+            "timestamp": "2026-04-28 16:23:07"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea cruris",
+        "Distribution": [
+            "Gáy",
+            "Đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tineacrur3_jpg_e373",
+            "json_id": "JSON_IMG_tineacrur3_jpg_e373_gpt_5_5_04272106",
+            "timestamp": "2026-04-27 21:06:58"
+        }
+    }
+}

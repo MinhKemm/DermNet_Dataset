@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilar cyst",
+        "Distribution": [
+            "Má",
+            "Cổ",
+            "Khu trú",
+            "Tập trung cụm"
+        ],
+        "Lesion_Type": [
+            "Mụn mủ",
+            "Sẩn viêm",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Mụn mủ nhỏ",
+            "Nền hồng ban"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cyst22_jpg_ab31",
+            "json_id": "JSON_IMG_cyst22_jpg_ab31_gpt_5_5_04281614",
+            "timestamp": "2026-04-28 16:14:01"
+        }
+    }
+}

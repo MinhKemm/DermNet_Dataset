@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Móng tay",
+            "Nhiều móng"
+        ],
+        "Lesion_Type": [
+            "Rãnh dọc móng",
+            "Móng giòn"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Đường dọc",
+            "Song song"
+        ],
+        "Characteristics": [
+            "Khía dọc",
+            "Bong vảy quanh móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichenkynnet_jpg_513f",
+            "json_id": "JSON_IMG_lichenkynnet_jpg_513f_gpt_5_5_04291323",
+            "timestamp": "2026-04-29 13:23:56"
+        }
+    }
+}

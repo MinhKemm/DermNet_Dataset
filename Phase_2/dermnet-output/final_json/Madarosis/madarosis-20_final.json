@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Madarosis",
+        "Distribution": [
+            "Trán",
+            "Quanh mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng teo da"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Hồng nhạt",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Nhăn mịn",
+            "Teo da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_madarosis_20_jpg_b27f",
+            "json_id": "JSON_IMG_madarosis_20_jpg_b27f_gpt_5_5_04291236",
+            "timestamp": "2026-04-29 12:36:55"
+        }
+    }
+}

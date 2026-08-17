@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erythrodermic psoriasis",
+        "Distribution": [
+            "Móng tay",
+            "Quanh móng",
+            "Nhiều ngón",
+            "Hai bàn tay"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Loạn dưỡng móng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Trắng đục"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Dày móng",
+            "Tách móng",
+            "Rãnh móng",
+            "Vụn dưới móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3245_jpg_6443",
+            "json_id": "JSON_IMG_3245_jpg_6443_gpt_5_5_04281118",
+            "timestamp": "2026-04-28 11:18:56"
+        }
+    }
+}

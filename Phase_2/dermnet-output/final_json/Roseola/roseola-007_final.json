@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Roseola",
+        "Distribution": [
+            "Mặt",
+            "Cổ",
+            "Thân mình",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [],
+        "_metadata": {
+            "image_id": "IMG_roseola_007_jpg_7258",
+            "json_id": "JSON_IMG_roseola_007_jpg_7258_gpt_5_5_04280829",
+            "timestamp": "2026-04-28 08:29:51"
+        }
+    }
+}

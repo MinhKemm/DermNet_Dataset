@@ -1,0 +1,39 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Acanthosis palmaris",
+        "Lesion_Type": [
+            "Sẩn teo nhỏ",
+            "Dày sừng quang hóa",
+            "Tăng sắc tố lan tỏa"
+        ],
+        "Colour": [
+            "Tăng sắc tố nâu",
+            "Da tự nhiên",
+            "Nhợt nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Rải rác",
+            "Ranh giới không rõ"
+        ],
+        "Distribution": [
+            "Mu bàn tay",
+            "Rải rác",
+            "Đối xứng hai bên"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Nhiều nếp nhăn",
+            "Tăng cường hóa mạch máu",
+            "Móng ngắn cắt gọn"
+        ],
+        "_metadata": {
+            "source_image": "acanthosis.jpg",
+            "run_mode": "VLM1_ONLY",
+            "vlm1_model": "claude-sonnet-4-6",
+            "vlm2_model": null,
+            "judge_model": null,
+            "timestamp": "2026-04-16 21:00:36"
+        }
+    }
+}

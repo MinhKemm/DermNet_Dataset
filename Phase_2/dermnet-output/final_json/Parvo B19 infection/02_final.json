@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Parvo B19 infection",
+        "Distribution": [
+            "Má hai bên",
+            "Đối xứng",
+            "Vùng mặt"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_e2d3",
+            "json_id": "JSON_IMG_02_jpg_e2d3_gpt_5_5_04281753",
+            "timestamp": "2026-04-28 17:53:39"
+        }
+    }
+}

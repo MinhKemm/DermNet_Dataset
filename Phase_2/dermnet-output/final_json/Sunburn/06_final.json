@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sunburn",
+        "Distribution": [
+            "Gáy",
+            "Đường chân tóc",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_1d24",
+            "json_id": "JSON_IMG_06_jpg_1d24_gpt_5_5_04272343",
+            "timestamp": "2026-04-27 23:43:20"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Traction alopecia",
+        "Distribution": [
+            "Chân tóc trán",
+            "Vùng thái dương",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Thưa tóc"
+        ],
+        "Colour": [
+            "Nâu da",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Dạng dải",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tóc tơ thưa",
+            "Sợi tóc gãy"
+        ],
+        "_metadata": {
+            "image_id": "IMG_traction_alopecia_5_jpg_52e8",
+            "json_id": "JSON_IMG_traction_alopecia_5_jpg_52e8_gpt_5_5_04272036",
+            "timestamp": "2026-04-27 20:36:34"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Merkel cell carcinoma",
+        "Distribution": [
+            "Chi dưới",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "U cục",
+            "Nốt gồ"
+        ],
+        "Colour": [
+            "Đỏ sẫm",
+            "Đỏ tím",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Dạng vòm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Vảy trắng",
+            "Bờ gồ cao"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mcc2_jpg_2640",
+            "json_id": "JSON_IMG_mcc2_jpg_2640_gpt_5_5_04291045",
+            "timestamp": "2026-04-29 10:45:46"
+        }
+    }
+}

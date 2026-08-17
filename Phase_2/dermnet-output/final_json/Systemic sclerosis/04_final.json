@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Systemic sclerosis",
+        "Distribution": [
+            "Mặt",
+            "Má",
+            "Quanh miệng",
+            "Cằm",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sẩn nhỏ",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_5ecd",
+            "json_id": "JSON_IMG_04_jpg_5ecd_gpt_5_5_04272227",
+            "timestamp": "2026-04-27 22:27:52"
+        }
+    }
+}

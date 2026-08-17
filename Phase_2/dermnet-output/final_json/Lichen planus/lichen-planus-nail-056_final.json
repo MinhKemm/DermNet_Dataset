@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Mu bàn tay",
+            "Ngón tay",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng mất sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Quanh khớp ngón"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_planus_nail_056_jpg_5f41",
+            "json_id": "JSON_IMG_lichen_planus_nail_056_jpg_5f41_gpt_5_5_04291325",
+            "timestamp": "2026-04-29 13:25:45"
+        }
+    }
+}

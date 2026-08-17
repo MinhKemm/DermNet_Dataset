@@ -1,0 +1,38 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Mu bàn tay",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Vết loét",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím",
+            "Vàng xanh",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Giả mạc",
+            "Dịch mủ",
+            "Vảy tiết",
+            "Phù nề",
+            "Bờ gồ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_24_jpg_d4c5",
+            "json_id": "JSON_IMG_24_jpg_d4c5_gpt_5_5_04281004",
+            "timestamp": "2026-04-28 10:04:23"
+        }
+    }
+}

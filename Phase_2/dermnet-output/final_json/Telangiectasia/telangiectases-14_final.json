@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Benign hereditary telangiectasia",
+        "Distribution": [
+            "Vùng quanh mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn bóng",
+            "Mảng thâm nhiễm"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngà",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Bờ gồ nhẹ"
+        ],
+        "Characteristics": [
+            "Bóng nhẵn",
+            "Giãn mạch",
+            "Trợt nông",
+            "Vảy tiết nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_telangiectases_14_jpg_b3f6",
+            "json_id": "JSON_IMG_telangiectases_14_jpg_b3f6_gpt_5_5_04272136",
+            "timestamp": "2026-04-27 21:36:28"
+        }
+    }
+}

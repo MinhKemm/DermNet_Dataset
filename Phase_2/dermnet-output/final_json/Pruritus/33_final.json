@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Lưng",
+            "Khu trú",
+            "Dọc giữa"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Ít vảy",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_33_jpg_448a",
+            "json_id": "JSON_IMG_33_jpg_448a_gpt_5_5_04281148",
+            "timestamp": "2026-04-28 11:48:28"
+        }
+    }
+}

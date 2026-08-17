@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Mặt",
+            "Quanh mắt",
+            "Quanh mũi",
+            "Quanh miệng",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt",
+            "Vết trợt",
+            "Mụn nước vỡ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Mài tiết",
+            "Mài máu",
+            "Rỉ dịch"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pgus7_jpg_2902",
+            "json_id": "JSON_IMG_pgus7_jpg_2902_gpt_5_5_04281705",
+            "timestamp": "2026-04-28 17:05:10"
+        }
+    }
+}

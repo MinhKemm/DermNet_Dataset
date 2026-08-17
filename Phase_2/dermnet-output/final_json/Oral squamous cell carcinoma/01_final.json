@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral squamous cell carcinoma",
+        "Distribution": [
+            "Niêm mạc miệng",
+            "Mặt trong môi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Mảng trợt",
+            "Hồng ban"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Bề mặt ướt",
+            "Giả mạc",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_6cfc",
+            "json_id": "JSON_IMG_01_jpg_6cfc_gpt_5_5_04282011",
+            "timestamp": "2026-04-28 20:11:28"
+        }
+    }
+}

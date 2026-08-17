@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nickel allergy",
+        "Distribution": [
+            "Mu bàn tay",
+            "Mu ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng vòng",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Ranh giới rõ",
+            "Trung tâm nhạt"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Gờ viền nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_16_jpg_bcab",
+            "json_id": "JSON_IMG_16_jpg_bcab_gpt_5_5_04290733",
+            "timestamp": "2026-04-29 07:33:18"
+        }
+    }
+}

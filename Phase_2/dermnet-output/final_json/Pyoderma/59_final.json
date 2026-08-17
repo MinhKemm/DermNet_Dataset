@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Vùng chi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Ổ loét",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ tím",
+            "Vàng nhạt",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ nham nhở"
+        ],
+        "Characteristics": [
+            "Hoại tử",
+            "Giả mạc vàng",
+            "Dịch tiết",
+            "Đóng mài",
+            "Hồng ban quanh tổn thương"
+        ],
+        "_metadata": {
+            "image_id": "IMG_59_jpg_3f68",
+            "json_id": "JSON_IMG_59_jpg_3f68_gpt_5_5_04280953",
+            "timestamp": "2026-04-28 09:53:17"
+        }
+    }
+}

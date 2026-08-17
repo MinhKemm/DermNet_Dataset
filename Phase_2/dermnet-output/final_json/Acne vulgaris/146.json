@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Acne vulgaris",
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Ban đỏ dát nhỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ tía"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Bán cầu nhô"
+        ],
+        "Distribution": [
+            "Lưng trên",
+            "Gai vai",
+            "Tản scattering"
+        ],
+        "Characteristics": [
+            "Mật độ dày đặc",
+            "Kích thước không đều",
+            "Viêm nhẹ"
+        ],
+        "_metadata": {
+            "source_image": "146.jpg",
+            "run_mode": "VLM1_ONLY",
+            "vlm1_model": "claude-sonnet-4-6",
+            "vlm2_model": null,
+            "judge_model": null,
+            "timestamp": "2026-04-16 21:03:00"
+        }
+    }
+}

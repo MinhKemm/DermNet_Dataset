@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nipple eczema",
+        "Distribution": [
+            "Quầng vú",
+            "Núm vú",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng dày da"
+        ],
+        "Colour": [
+            "Nâu hồng",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Khô da",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_1fb5",
+            "json_id": "JSON_IMG_08_jpg_1fb5_gpt_5_5_04290727",
+            "timestamp": "2026-04-29 07:27:09"
+        }
+    }
+}

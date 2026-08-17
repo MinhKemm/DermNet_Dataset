@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Penile epithelial neoplasia",
+        "Distribution": [
+            "Quanh miệng",
+            "Môi",
+            "Cằm",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Trợt da",
+            "Phù nề môi"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Lan rộng"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Bong vảy",
+            "Nứt nẻ",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pin2_s_jpg_b64b",
+            "json_id": "JSON_IMG_pin2_s_jpg_b64b_gpt_5_5_04281702",
+            "timestamp": "2026-04-28 17:02:45"
+        }
+    }
+}

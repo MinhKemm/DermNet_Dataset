@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scarlatina",
+        "Distribution": [
+            "Mặt",
+            "Má",
+            "Quanh miệng",
+            "Quanh mũi",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Chàm hóa"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy tiết",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_799a",
+            "json_id": "JSON_IMG_02_jpg_799a_gpt_5_5_04280750",
+            "timestamp": "2026-04-28 07:50:41"
+        }
+    }
+}

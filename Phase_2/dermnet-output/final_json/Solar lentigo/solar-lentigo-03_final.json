@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical solar lentigo",
+        "Distribution": [
+            "Vùng chi",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Mảng sắc tố",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu đồng nhất"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Chấm sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_solar_lentigo_03_jpg_bc9c",
+            "json_id": "JSON_IMG_solar_lentigo_03_jpg_bc9c_gpt_5_5_04280022",
+            "timestamp": "2026-04-28 00:22:40"
+        }
+    }
+}

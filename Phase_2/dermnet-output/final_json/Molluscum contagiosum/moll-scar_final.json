@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Molluscum contagiosum",
+        "Distribution": [
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Bong vảy nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_moll_scar_jpg_4e43",
+            "json_id": "JSON_IMG_moll_scar_jpg_4e43_gpt_5_5_04291015",
+            "timestamp": "2026-04-29 10:15:10"
+        }
+    }
+}

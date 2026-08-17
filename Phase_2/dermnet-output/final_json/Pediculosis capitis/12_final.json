@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pediculosis capitis",
+        "Distribution": [
+            "Vùng thái dương",
+            "Đường chân tóc",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Mảng",
+            "Sẩn dày sừng"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt sùi",
+            "Dày sừng",
+            "Vảy tiết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_12_jpg_2adb",
+            "json_id": "JSON_IMG_12_jpg_2adb_gpt_5_5_04281743",
+            "timestamp": "2026-04-28 17:43:05"
+        }
+    }
+}

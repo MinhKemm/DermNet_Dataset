@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Hai rốn phổi",
+            "Vùng cạnh tim",
+            "Trung tâm"
+        ],
+        "Lesion_Type": [
+            "Đám mờ"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Đen xám"
+        ],
+        "Shape": [
+            "Bờ mờ",
+            "Bất đối xứng"
+        ],
+        "Characteristics": [
+            "Tăng đậm",
+            "Phim X quang"
+        ],
+        "_metadata": {
+            "image_id": "IMG_16_jpg_e6c9",
+            "json_id": "JSON_IMG_16_jpg_e6c9_gpt_5_5_04280815",
+            "timestamp": "2026-04-28 08:15:03"
+        }
+    }
+}

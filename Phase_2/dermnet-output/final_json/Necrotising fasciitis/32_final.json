@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Necrotising fasciitis",
+        "Distribution": [
+            "Chi dưới",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét hoại tử",
+            "Mảng hoại tử"
+        ],
+        "Colour": [
+            "Đen",
+            "Đỏ sẫm",
+            "Tím bầm",
+            "Xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ nham nhở"
+        ],
+        "Characteristics": [
+            "Mô hoại tử",
+            "Đóng mày đen",
+            "Viền đỏ",
+            "Bầm tím"
+        ],
+        "_metadata": {
+            "image_id": "IMG_32_jpg_acca",
+            "json_id": "JSON_IMG_32_jpg_acca_gpt_5_5_04290801",
+            "timestamp": "2026-04-29 08:01:45"
+        }
+    }
+}

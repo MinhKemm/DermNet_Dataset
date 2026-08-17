@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Triangular alopecia",
+        "Distribution": [
+            "Da đầu thái dương",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Thưa tóc"
+        ],
+        "Colour": [
+            "Màu da",
+            "Đen xám"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tóc gãy",
+            "Tóc thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_c26b",
+            "json_id": "JSON_IMG_01_jpg_c26b_gpt_5_5_04272031",
+            "timestamp": "2026-04-27 20:31:40"
+        }
+    }
+}

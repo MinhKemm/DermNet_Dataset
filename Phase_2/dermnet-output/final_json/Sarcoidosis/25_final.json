@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Vùng khuỷu tay",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Nốt sưng",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sưng nề",
+            "Chấm trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_25_jpg_4e9f",
+            "json_id": "JSON_IMG_25_jpg_4e9f_gpt_5_5_04280812",
+            "timestamp": "2026-04-28 08:12:25"
+        }
+    }
+}

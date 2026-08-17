@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ross syndrome",
+        "Distribution": [
+            "Mông",
+            "Mặt sau đùi",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Hình tròn nhỏ"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố",
+            "Quanh nang lông",
+            "Da bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_2fe0",
+            "json_id": "JSON_IMG_03_jpg_2fe0_gpt_5_5_04280827",
+            "timestamp": "2026-04-28 08:27:18"
+        }
+    }
+}

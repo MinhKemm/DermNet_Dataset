@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Cổ chân",
+            "Mặt bên bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Nâu sẫm",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Lấm tấm",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Dát nhỏ li ti",
+            "Hợp lưu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_purpuranilkk_jpg_f411",
+            "json_id": "JSON_IMG_purpuranilkk_jpg_f411_gpt_5_5_04281620",
+            "timestamp": "2026-04-28 16:20:50"
+        }
+    }
+}

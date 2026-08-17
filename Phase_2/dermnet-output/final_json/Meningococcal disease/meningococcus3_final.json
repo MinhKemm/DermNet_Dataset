@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Meningococcal disease",
+        "Distribution": [
+            "Thân mình",
+            "Ngực",
+            "Bụng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Dát xuất huyết"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Tím nâu"
+        ],
+        "Shape": [
+            "Kích thước nhỏ",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tổn thương thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_meningococcus3_jpg_3fff",
+            "json_id": "JSON_IMG_meningococcus3_jpg_3fff_gpt_5_5_04291047",
+            "timestamp": "2026-04-29 10:47:01"
+        }
+    }
+}

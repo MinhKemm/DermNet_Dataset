@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Thân mình",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Ổ loét",
+            "Mảng trợt",
+            "Mô hoại tử"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Vàng nhạt",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ gồ"
+        ],
+        "Characteristics": [
+            "Dịch tiết",
+            "Giả mạc",
+            "Đóng mài",
+            "Chảy máu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_8d59",
+            "json_id": "JSON_IMG_02_jpg_8d59_gpt_5_5_04281011",
+            "timestamp": "2026-04-28 10:11:46"
+        }
+    }
+}

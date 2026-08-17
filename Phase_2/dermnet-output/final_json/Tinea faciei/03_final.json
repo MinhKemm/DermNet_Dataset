@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea faciei",
+        "Distribution": [
+            "Quanh mắt",
+            "Mí mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy vàng",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_cd02",
+            "json_id": "JSON_IMG_03_jpg_cd02_gpt_5_5_04272105",
+            "timestamp": "2026-04-27 21:05:06"
+        }
+    }
+}

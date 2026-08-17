@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leprosy",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sừng",
+            "Loét nông"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Trắng vàng",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Đóng mài",
+            "Bong vảy",
+            "Lõm trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leprosy6_jpg_1423",
+            "json_id": "JSON_IMG_leprosy6_jpg_1423_gpt_5_5_04291417",
+            "timestamp": "2026-04-29 14:17:27"
+        }
+    }
+}

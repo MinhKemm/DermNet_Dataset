@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilomatricoma",
+        "Distribution": [
+            "Vùng da hở",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn bóng",
+            "Nốt nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Dạng vòm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Trung tâm trắng",
+            "Gờ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_84ce",
+            "json_id": "JSON_IMG_04_jpg_84ce_gpt_5_5_04281606",
+            "timestamp": "2026-04-28 16:06:32"
+        }
+    }
+}

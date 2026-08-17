@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Piebaldism",
+        "Distribution": [
+            "Cẳng chân",
+            "Quanh gối",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng bạc"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_piebald6_jpg_cb3e",
+            "json_id": "JSON_IMG_piebald6_jpg_cb3e_gpt_5_5_04281643",
+            "timestamp": "2026-04-28 16:43:17"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Reticular erythematous mucinosis",
+        "Distribution": [
+            "Kẽ mông",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Loang lổ",
+            "Da ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_rem2_jpg_3dd6",
+            "json_id": "JSON_IMG_rem2_jpg_3dd6_gpt_5_5_04280913",
+            "timestamp": "2026-04-28 09:13:05"
+        }
+    }
+}

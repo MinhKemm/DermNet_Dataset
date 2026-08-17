@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Rải rác",
+            "Ngực",
+            "Thân mình",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ",
+            "Sẩn đóng vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Trung tâm trợt",
+            "Quanh nang lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syph8_jpg_59c0",
+            "json_id": "JSON_IMG_syph8_jpg_59c0_gpt_5_5_04272312",
+            "timestamp": "2026-04-27 23:12:58"
+        }
+    }
+}

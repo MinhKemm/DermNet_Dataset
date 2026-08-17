@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Colloid milium",
+        "Distribution": [
+            "Trán",
+            "Sát chân tóc",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Sẩn lõm giữa"
+        ],
+        "Colour": [
+            "Màu da",
+            "Trắng ngà",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Vòm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Lõm trung tâm",
+            "Bóng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_milia_20_jpg_c928",
+            "json_id": "JSON_IMG_milia_20_jpg_c928_gpt_5_5_04291026",
+            "timestamp": "2026-04-29 10:26:37"
+        }
+    }
+}

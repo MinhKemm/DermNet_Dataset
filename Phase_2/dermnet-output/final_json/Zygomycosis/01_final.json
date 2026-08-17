@@ -1,0 +1,38 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Zygomycosis",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Vết loét sâu",
+            "Mảng hoại tử",
+            "Vết trợt rộng"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm",
+            "Vàng xám",
+            "Đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ nham nhở"
+        ],
+        "Characteristics": [
+            "Hoại tử",
+            "Giả mạc",
+            "Dịch tiết",
+            "Chảy máu",
+            "Mô hạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_0c25",
+            "json_id": "JSON_IMG_01_jpg_0c25_gpt_5_5_04271703",
+            "timestamp": "2026-04-27 17:03:24"
+        }
+    }
+}

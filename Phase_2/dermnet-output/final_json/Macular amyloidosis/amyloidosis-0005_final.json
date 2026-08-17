@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Macular amyloidosis",
+        "Distribution": [
+            "Lưng trên",
+            "Vai",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu đỏ",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Loang lổ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Da khô",
+            "Hợp lưu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_amyloidosis_0005_jpg_190f",
+            "json_id": "JSON_IMG_amyloidosis_0005_jpg_190f_gpt_5_5_04291247",
+            "timestamp": "2026-04-29 12:47:29"
+        }
+    }
+}

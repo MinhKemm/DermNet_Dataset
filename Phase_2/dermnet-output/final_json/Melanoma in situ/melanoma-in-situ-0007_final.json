@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Nếp gấp da",
+            "Vùng bụng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đóng mày"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mày",
+            "Da khô",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_melanoma_in_situ_0007_jpg_949c",
+            "json_id": "JSON_IMG_melanoma_in_situ_0007_jpg_949c_gpt_5_5_04291116",
+            "timestamp": "2026-04-29 11:16:15"
+        }
+    }
+}

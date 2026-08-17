@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigoid gestationis",
+        "Distribution": [
+            "Đùi",
+            "Cẳng chân",
+            "Hai bên",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Quanh nang lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_22_jpg_1fd6",
+            "json_id": "JSON_IMG_22_jpg_1fd6_gpt_5_5_04281731",
+            "timestamp": "2026-04-28 17:31:39"
+        }
+    }
+}

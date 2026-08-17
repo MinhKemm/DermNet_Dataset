@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Da có lông",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt đỏ",
+            "Sẩn bóng",
+            "Loét nông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Trung tâm trợt",
+            "Chấm xuất huyết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nm10_jpg_5102",
+            "json_id": "JSON_IMG_nm10_jpg_5102_gpt_5_5_04290719",
+            "timestamp": "2026-04-29 07:19:49"
+        }
+    }
+}

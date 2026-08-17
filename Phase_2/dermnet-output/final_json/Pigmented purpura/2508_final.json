@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Vùng nếp gấp",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Quanh nang lông",
+            "Da nền hồng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_2508_jpg_31ee",
+            "json_id": "JSON_IMG_2508_jpg_31ee_gpt_5_5_04281636",
+            "timestamp": "2026-04-28 16:36:16"
+        }
+    }
+}

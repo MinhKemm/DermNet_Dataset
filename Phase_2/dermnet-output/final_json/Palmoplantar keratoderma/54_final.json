@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Palmoplantar keratoderma",
+        "Distribution": [
+            "Ngón tay",
+            "Mặt lòng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mụn nước nhỏ",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Trong mờ",
+            "Vàng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Nhỏ li ti"
+        ],
+        "Characteristics": [
+            "Bong vảy mỏng",
+            "Da khô",
+            "Đóng mài nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_54_jpg_5690",
+            "json_id": "JSON_IMG_54_jpg_5690_gpt_5_5_04281914",
+            "timestamp": "2026-04-28 19:14:29"
+        }
+    }
+}

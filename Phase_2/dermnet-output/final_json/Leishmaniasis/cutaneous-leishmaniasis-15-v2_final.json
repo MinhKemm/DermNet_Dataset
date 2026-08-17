@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leishmaniasis",
+        "Distribution": [
+            "Vùng quanh miệng",
+            "Môi trên",
+            "Khu trú",
+            "Tụ đám"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Vết trợt",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Nền hồng ban",
+            "Bóng nước nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cutaneous_leishmaniasis_15_v2_jpg_7e16",
+            "json_id": "JSON_IMG_cutaneous_leishmaniasis_15_v2_jpg_7e16_gpt_5_5_04291427",
+            "timestamp": "2026-04-29 14:27:56"
+        }
+    }
+}

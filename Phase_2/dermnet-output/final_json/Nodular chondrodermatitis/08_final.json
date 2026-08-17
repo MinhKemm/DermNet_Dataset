@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nodular chondrodermatitis",
+        "Distribution": [
+            "Môi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết trợt",
+            "Mảng đóng vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Sưng nề nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_2832",
+            "json_id": "JSON_IMG_08_jpg_2832_gpt_5_5_04290722",
+            "timestamp": "2026-04-29 07:22:28"
+        }
+    }
+}

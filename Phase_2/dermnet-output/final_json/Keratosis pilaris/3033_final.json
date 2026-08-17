@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Keratosis pilaris",
+        "Distribution": [
+            "Cánh tay",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Màu da"
+        ],
+        "Shape": [
+            "Li ti",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sần ráp",
+            "Khô da",
+            "Tăng sừng nang lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3033_jpg_0dbd",
+            "json_id": "JSON_IMG_3033_jpg_0dbd_gpt_5_5_04291458",
+            "timestamp": "2026-04-29 14:58:53"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Henoch–Schönlein purpura",
+        "Distribution": [
+            "Gót chân",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Dát xuất huyết",
+            "Dát sắc tố"
+        ],
+        "Colour": [
+            "Tím sẫm",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt phẳng",
+            "Da dày sừng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_822f",
+            "json_id": "JSON_IMG_08_jpg_822f_gpt_5_5_04281051",
+            "timestamp": "2026-04-28 10:51:23"
+        }
+    }
+}

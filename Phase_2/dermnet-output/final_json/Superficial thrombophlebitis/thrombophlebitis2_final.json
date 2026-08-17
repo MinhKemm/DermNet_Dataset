@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Superficial thrombophlebitis",
+        "Distribution": [
+            "Cẳng tay",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Đốm hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Ranh giới mờ",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Chấm nang lông",
+            "Da khô nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_thrombophlebitis2_jpg_12f4",
+            "json_id": "JSON_IMG_thrombophlebitis2_jpg_12f4_gpt_5_5_04272329",
+            "timestamp": "2026-04-27 23:29:10"
+        }
+    }
+}

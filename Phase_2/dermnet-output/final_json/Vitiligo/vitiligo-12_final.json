@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Vùng sinh dục",
+            "Tầng sinh môn",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng mất sắc tố"
+        ],
+        "Colour": [
+            "Trắng sữa",
+            "Hồng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Loang lổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_12_jpg_ccce",
+            "json_id": "JSON_IMG_vitiligo_12_jpg_ccce_gpt_5_5_04271847",
+            "timestamp": "2026-04-27 18:47:29"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Nếp gấp",
+            "Khu trú",
+            "Rải rác lân cận"
+        ],
+        "Lesion_Type": [
+            "Mảng loét",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Hồng nhạt",
+            "Trắng hồng",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều",
+            "Trung tâm lõm"
+        ],
+        "Characteristics": [
+            "Loét nông",
+            "Bờ gồ",
+            "Sẹo giảm sắc tố",
+            "Bề mặt ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_ce0d",
+            "json_id": "JSON_IMG_07_jpg_ce0d_gpt_5_5_04281307",
+            "timestamp": "2026-04-28 13:07:51"
+        }
+    }
+}

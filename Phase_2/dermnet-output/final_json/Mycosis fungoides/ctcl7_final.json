@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Môi trên",
+            "Vùng dưới mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Nốt sưng nề"
+        ],
+        "Colour": [
+            "Đỏ sẫm",
+            "Đỏ tím",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Gồ cao"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Bóng căng",
+            "Đóng mài",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ctcl7_jpg_6a7a",
+            "json_id": "JSON_IMG_ctcl7_jpg_6a7a_gpt_5_5_04290857",
+            "timestamp": "2026-04-29 08:57:41"
+        }
+    }
+}

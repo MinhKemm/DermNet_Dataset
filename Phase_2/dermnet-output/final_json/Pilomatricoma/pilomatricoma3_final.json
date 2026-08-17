@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilomatricoma",
+        "Distribution": [
+            "Vùng mặt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mụn mủ",
+            "Sẩn viêm"
+        ],
+        "Colour": [
+            "Vàng trắng",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Quầng đỏ",
+            "Dịch mủ",
+            "Bề mặt gồ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pilomatricoma3_jpg_4f9f",
+            "json_id": "JSON_IMG_pilomatricoma3_jpg_4f9f_gpt_5_5_04281603",
+            "timestamp": "2026-04-28 16:03:37"
+        }
+    }
+}

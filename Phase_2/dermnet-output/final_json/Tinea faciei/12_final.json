@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea faciei",
+        "Distribution": [
+            "Mu bàn chân",
+            "Kẽ ngón chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng bong vảy",
+            "Dày sừng"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Vảy mịn",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_12_jpg_c37d",
+            "json_id": "JSON_IMG_12_jpg_c37d_gpt_5_5_04272101",
+            "timestamp": "2026-04-27 21:01:33"
+        }
+    }
+}

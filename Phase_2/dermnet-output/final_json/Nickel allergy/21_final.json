@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nickel allergy",
+        "Distribution": [
+            "Vùng da mặt",
+            "Khu trú",
+            "Tập trung cụm"
+        ],
+        "Lesion_Type": [
+            "Bọng nước",
+            "Mụn nước",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Trong bóng"
+        ],
+        "Shape": [
+            "Chùm cụm",
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Nền hồng ban",
+            "Dịch trong",
+            "Bóng căng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_21_jpg_5994",
+            "json_id": "JSON_IMG_21_jpg_5994_gpt_5_5_04290731",
+            "timestamp": "2026-04-29 07:31:38"
+        }
+    }
+}

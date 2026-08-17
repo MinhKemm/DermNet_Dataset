@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyogenic granuloma",
+        "Distribution": [
+            "Ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "Bọng máu"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Tím sẫm",
+            "Xanh tím"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Ranh giới rõ",
+            "Đơn độc"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Căng",
+            "Quầng hồng ban mờ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_16_jpg_6c34",
+            "json_id": "JSON_IMG_16_jpg_6c34_gpt_5_5_04280942",
+            "timestamp": "2026-04-28 09:42:02"
+        }
+    }
+}

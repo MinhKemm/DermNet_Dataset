@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leprosy",
+        "Distribution": [
+            "Mu bàn chân",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn vòng",
+            "Đốm tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Nâu xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Bong vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leprosy_pure_neural_00003_jpg_1168",
+            "json_id": "JSON_IMG_leprosy_pure_neural_00003_jpg_1168_gpt_5_5_04291420",
+            "timestamp": "2026-04-29 14:20:47"
+        }
+    }
+}

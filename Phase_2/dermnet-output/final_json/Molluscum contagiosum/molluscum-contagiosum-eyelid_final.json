@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Molluscum contagiosum",
+        "Distribution": [
+            "Mí mắt trên",
+            "Góc mắt trong",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Sẩn dạng vòm",
+            "Nốt nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Màu da",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Lõm trung tâm"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Nút sừng",
+            "Bóng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_molluscum_contagiosum_eyelid_jpg_e957",
+            "json_id": "JSON_IMG_molluscum_contagiosum_eyelid_jpg_e957_gpt_5_5_04291004",
+            "timestamp": "2026-04-29 10:04:23"
+        }
+    }
+}

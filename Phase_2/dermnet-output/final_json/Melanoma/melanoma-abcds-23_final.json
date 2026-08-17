@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Acral lentiginous melanoma",
+        "Distribution": [
+            "Da có lông",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt dạng vòm",
+            "Mảng tăng sừng"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Xám trắng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Bề mặt lồi"
+        ],
+        "Characteristics": [
+            "Vảy dày",
+            "Tăng sừng",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_melanoma_abcds_23_jpg_9c79",
+            "json_id": "JSON_IMG_melanoma_abcds_23_jpg_9c79_gpt_5_5_04291131",
+            "timestamp": "2026-04-29 11:31:33"
+        }
+    }
+}

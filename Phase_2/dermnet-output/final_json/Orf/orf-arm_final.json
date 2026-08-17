@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Cẳng tay",
+            "Cổ tay",
+            "Rải rác",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Nốt viêm",
+            "Vết loét nhỏ"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Trung tâm lõm",
+            "Quầng đỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf_arm_jpg_b0c5",
+            "json_id": "JSON_IMG_orf_arm_jpg_b0c5_gpt_5_5_04282009",
+            "timestamp": "2026-04-28 20:09:42"
+        }
+    }
+}

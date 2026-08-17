@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Khu trú",
+            "Cụm nhỏ"
+        ],
+        "Lesion_Type": [
+            "Bọng nước căng",
+            "Mụn nước",
+            "Loét nông"
+        ],
+        "Colour": [
+            "Tím đen",
+            "Vàng trắng",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới rõ",
+            "Gồ cao"
+        ],
+        "Characteristics": [
+            "Dịch máu",
+            "Vảy tiết",
+            "Dày sừng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf28_jpg_d0b5",
+            "json_id": "JSON_IMG_orf28_jpg_d0b5_gpt_5_5_04282000",
+            "timestamp": "2026-04-28 20:00:49"
+        }
+    }
+}

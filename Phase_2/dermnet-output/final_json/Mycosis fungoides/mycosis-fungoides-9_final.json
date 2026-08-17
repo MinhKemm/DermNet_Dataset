@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Thân mình",
+            "Rải rác",
+            "Đa ổ"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Hoại tử trung tâm",
+            "Trợt da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mycosis_fungoides_9_jpg_3250",
+            "json_id": "JSON_IMG_mycosis_fungoides_9_jpg_3250_gpt_5_5_04290851",
+            "timestamp": "2026-04-29 08:51:02"
+        }
+    }
+}

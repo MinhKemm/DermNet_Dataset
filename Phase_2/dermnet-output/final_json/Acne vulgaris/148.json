@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Acne vulgaris",
+        "Lesion_Type": [
+            "Sẩn dạng sùi",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới không rõ"
+        ],
+        "Distribution": [
+            "Lưng trên",
+            "Vai",
+            "Khu trú",
+            "Đối xứng"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố sau viêm",
+            "Phân bố không đều"
+        ],
+        "_metadata": {
+            "source_image": "148.jpg",
+            "run_mode": "VLM1_ONLY",
+            "vlm1_model": "claude-sonnet-4-6",
+            "vlm2_model": null,
+            "judge_model": null,
+            "timestamp": "2026-04-16 21:03:18"
+        }
+    }
+}

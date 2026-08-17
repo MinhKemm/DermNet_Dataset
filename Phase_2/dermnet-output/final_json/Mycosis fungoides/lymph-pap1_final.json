@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Góc mắt trong",
+            "Mi dưới",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Bề mặt ẩm",
+            "Sưng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lymph_pap1_jpg_2402",
+            "json_id": "JSON_IMG_lymph_pap1_jpg_2402_gpt_5_5_04290856",
+            "timestamp": "2026-04-29 08:56:36"
+        }
+    }
+}

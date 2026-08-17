@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea capitis",
+        "Distribution": [
+            "Da đầu",
+            "Đỉnh đầu",
+            "Nhiều ổ",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Mảng thưa tóc"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Tóc thưa",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_16_jpg_5e05",
+            "json_id": "JSON_IMG_16_jpg_5e05_gpt_5_5_04272125",
+            "timestamp": "2026-04-27 21:25:04"
+        }
+    }
+}

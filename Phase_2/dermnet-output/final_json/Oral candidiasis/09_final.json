@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral candidiasis",
+        "Distribution": [
+            "Niêm mạc miệng",
+            "Lưỡi",
+            "Môi",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Giả mạc",
+            "Nền đỏ",
+            "Ẩm ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_09_jpg_04cf",
+            "json_id": "JSON_IMG_09_jpg_04cf_gpt_5_5_04282045",
+            "timestamp": "2026-04-28 20:45:00"
+        }
+    }
+}

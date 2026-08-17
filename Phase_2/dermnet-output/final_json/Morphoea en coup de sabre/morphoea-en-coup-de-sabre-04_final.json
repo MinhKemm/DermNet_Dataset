@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Morphoea en coup de sabre",
+        "Distribution": [
+            "Vùng thái dương",
+            "Đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm tóc",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Thưa tóc",
+            "Rụng tóc",
+            "Da bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_morphoea_en_coup_de_sabre_04_jpg_8251",
+            "json_id": "JSON_IMG_morphoea_en_coup_de_sabre_04_jpg_8251_gpt_5_5_04290926",
+            "timestamp": "2026-04-29 09:26:03"
+        }
+    }
+}

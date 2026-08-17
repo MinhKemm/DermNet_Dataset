@@ -1,0 +1,38 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Molluscum contagiosum",
+        "Distribution": [
+            "Mặt",
+            "Quanh mắt",
+            "Sống mũi",
+            "Má",
+            "Tập trung cụm"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Trong suốt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Mụn nước nhỏ",
+            "Dịch trong",
+            "Phù nề mí mắt",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_molluscum04_jpg_c642",
+            "json_id": "JSON_IMG_molluscum04_jpg_c642_gpt_5_5_04291002",
+            "timestamp": "2026-04-29 10:02:54"
+        }
+    }
+}

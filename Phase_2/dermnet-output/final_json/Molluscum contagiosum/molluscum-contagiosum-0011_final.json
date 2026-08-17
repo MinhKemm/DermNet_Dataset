@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Molluscum contagiosum",
+        "Distribution": [
+            "Vai",
+            "Cánh tay trên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Vết trợt nhỏ",
+            "Chấm lõm trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_molluscum_contagiosum_0011_jpg_ddc4",
+            "json_id": "JSON_IMG_molluscum_contagiosum_0011_jpg_ddc4_gpt_5_5_04291011",
+            "timestamp": "2026-04-29 10:11:44"
+        }
+    }
+}

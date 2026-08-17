@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilar cyst",
+        "Distribution": [
+            "Vùng cổ bên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Hồng ban lưới"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Dạng lưới",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da teo",
+            "Nếp nhăn",
+            "Giãn mạch mảnh"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cyst19_jpg_a53e",
+            "json_id": "JSON_IMG_cyst19_jpg_a53e_gpt_5_5_04281614",
+            "timestamp": "2026-04-28 16:14:58"
+        }
+    }
+}

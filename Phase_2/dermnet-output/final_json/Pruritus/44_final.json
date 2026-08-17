@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Lưng",
+            "Vai",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Vảy tiết máu",
+            "Trầy xước"
+        ],
+        "_metadata": {
+            "image_id": "IMG_44_jpg_bde6",
+            "json_id": "JSON_IMG_44_jpg_bde6_gpt_5_5_04281145",
+            "timestamp": "2026-04-28 11:45:19"
+        }
+    }
+}

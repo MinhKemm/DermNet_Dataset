@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Trichotillomania",
+        "Distribution": [
+            "Da đầu",
+            "Loang lổ",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Thưa tóc"
+        ],
+        "Colour": [
+            "Màu da",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Tóc thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_18_jpg_ceef",
+            "json_id": "JSON_IMG_18_jpg_ceef_gpt_5_5_04272021",
+            "timestamp": "2026-04-27 20:21:25"
+        }
+    }
+}

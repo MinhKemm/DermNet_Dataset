@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Piebaldism",
+        "Distribution": [
+            "Đường chân tóc",
+            "Trán",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Giảm sắc tố",
+            "Mất sắc tố"
+        ],
+        "Colour": [
+            "Trắng sữa",
+            "Nâu da"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Tóc bạc trắng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_b1ef",
+            "json_id": "JSON_IMG_02_jpg_b1ef_gpt_5_5_04281646",
+            "timestamp": "2026-04-28 16:46:48"
+        }
+    }
+}

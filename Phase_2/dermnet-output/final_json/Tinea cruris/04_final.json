@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea cruris",
+        "Distribution": [
+            "Vùng mông",
+            "Hai bên",
+            "Tập trung thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mảng vòng",
+            "Mảng hồng ban",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Tím hồng",
+            "Nâu sẫm",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Trung tâm trợt",
+            "Bờ gồ cao"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_3c1c",
+            "json_id": "JSON_IMG_04_jpg_3c1c_gpt_5_5_04272110",
+            "timestamp": "2026-04-27 21:10:17"
+        }
+    }
+}

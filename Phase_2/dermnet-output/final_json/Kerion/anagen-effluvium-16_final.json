@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kerion",
+        "Distribution": [
+            "Rải rác",
+            "Da đầu",
+            "Sau tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Nâu vàng",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Đóng mày",
+            "Trầy xước",
+            "Tóc thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_anagen_effluvium_16_jpg_b94f",
+            "json_id": "JSON_IMG_anagen_effluvium_16_jpg_b94f_gpt_5_5_04291450",
+            "timestamp": "2026-04-29 14:50:56"
+        }
+    }
+}

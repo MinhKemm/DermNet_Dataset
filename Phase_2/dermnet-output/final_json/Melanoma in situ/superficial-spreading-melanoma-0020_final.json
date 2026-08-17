@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Bụng dưới",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn sắc tố",
+            "Dát sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Kích thước nhỏ",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_superficial_spreading_melanoma_0020_jpg_f0fe",
+            "json_id": "JSON_IMG_superficial_spreading_melanoma_0020_jpg_f0fe_gpt_5_5_04291113",
+            "timestamp": "2026-04-29 11:13:53"
+        }
+    }
+}

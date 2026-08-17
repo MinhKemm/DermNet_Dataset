@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Measles",
+        "Distribution": [
+            "Vai",
+            "Ngực trên",
+            "Cánh tay trên",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Hợp lưu nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_measles10_jpg_7f49",
+            "json_id": "JSON_IMG_measles10_jpg_7f49_gpt_5_5_04291217",
+            "timestamp": "2026-04-29 12:17:38"
+        }
+    }
+}

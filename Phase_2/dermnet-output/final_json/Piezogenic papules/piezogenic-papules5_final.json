@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Piezogenic papules",
+        "Distribution": [
+            "Gót chân",
+            "Lòng bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng dày sừng",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Da khô",
+            "Dày sừng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_piezogenic_papules5_jpg_6506",
+            "json_id": "JSON_IMG_piezogenic_papules5_jpg_6506_gpt_5_5_04281638",
+            "timestamp": "2026-04-28 16:38:32"
+        }
+    }
+}

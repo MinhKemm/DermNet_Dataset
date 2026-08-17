@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melasma",
+        "Distribution": [
+            "Má",
+            "Khu trú",
+            "Một bên"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Chấm tăng sắc tố",
+            "Bề mặt trơn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3141_jpg_7bfa",
+            "json_id": "JSON_IMG_3141_jpg_7bfa_gpt_5_5_04291055",
+            "timestamp": "2026-04-29 10:55:59"
+        }
+    }
+}

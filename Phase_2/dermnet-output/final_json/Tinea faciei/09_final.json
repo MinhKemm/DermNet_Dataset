@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea faciei",
+        "Distribution": [
+            "Má",
+            "Một bên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Khối u loét",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ nâu",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới rõ",
+            "Gồ cao"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Dịch tiết",
+            "Loét",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_09_jpg_acfe",
+            "json_id": "JSON_IMG_09_jpg_acfe_gpt_5_5_04272102",
+            "timestamp": "2026-04-27 21:02:24"
+        }
+    }
+}

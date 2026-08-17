@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Postinflammatory hyperpigmentation",
+        "Distribution": [
+            "Thân mình",
+            "Cánh tay",
+            "Đùi",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Vết trợt",
+            "Vết cào gãi"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Dạng chấm",
+            "Dạng đường",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Trầy xước",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_22_jpg_b9cb",
+            "json_id": "JSON_IMG_22_jpg_b9cb_gpt_5_5_04281315",
+            "timestamp": "2026-04-28 13:15:37"
+        }
+    }
+}

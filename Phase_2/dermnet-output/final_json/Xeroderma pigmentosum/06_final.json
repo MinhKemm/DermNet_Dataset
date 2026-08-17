@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Xeroderma pigmentosum",
+        "Distribution": [
+            "Mặt",
+            "Vùng quanh mắt",
+            "Hai bên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng dày da",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Xám đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phù nề mi mắt",
+            "Bong vảy",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_dc25",
+            "json_id": "JSON_IMG_06_jpg_dc25_gpt_5_5_04271710",
+            "timestamp": "2026-04-27 17:10:28"
+        }
+    }
+}

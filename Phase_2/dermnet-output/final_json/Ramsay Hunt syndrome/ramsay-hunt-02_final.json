@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ramsay Hunt syndrome",
+        "Distribution": [
+            "Vùng cổ bên",
+            "Dưới tai",
+            "Một bên",
+            "Khu trú",
+            "Lan rộng"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt loét",
+            "Mảng hồng ban",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Bong vảy",
+            "Vảy tiết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ramsay_hunt_02_jpg_de16",
+            "json_id": "JSON_IMG_ramsay_hunt_02_jpg_de16_gpt_5_5_04280933",
+            "timestamp": "2026-04-28 09:33:59"
+        }
+    }
+}

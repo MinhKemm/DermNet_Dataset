@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis versicolor",
+        "Distribution": [
+            "Lưng trên",
+            "Vai",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Đốm giảm sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Loang lổ",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3502_jpg_2a92",
+            "json_id": "JSON_IMG_3502_jpg_2a92_gpt_5_5_04281524",
+            "timestamp": "2026-04-28 15:24:34"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical melanocytic naevus",
+        "Distribution": [
+            "Da không xác định",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng nâu"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Ranh giới rõ",
+            "Bờ đều"
+        ],
+        "Characteristics": [
+            "Bề mặt sần",
+            "Dày da nhẹ",
+            "Lông thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pigmented_lesion_02_jpg_3101",
+            "json_id": "JSON_IMG_pigmented_lesion_02_jpg_3101_gpt_5_5_04291138",
+            "timestamp": "2026-04-29 11:38:56"
+        }
+    }
+}

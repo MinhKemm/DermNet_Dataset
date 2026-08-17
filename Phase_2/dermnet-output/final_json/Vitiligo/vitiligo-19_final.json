@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Quanh miệng",
+            "Mép miệng",
+            "Môi dưới",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng mất sắc tố",
+            "Dát giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng sữa",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Khô môi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_19_jpg_8462",
+            "json_id": "JSON_IMG_vitiligo_19_jpg_8462_gpt_5_5_04271844",
+            "timestamp": "2026-04-27 18:44:44"
+        }
+    }
+}

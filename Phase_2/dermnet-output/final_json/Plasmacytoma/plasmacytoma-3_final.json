@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Plasmacytoma",
+        "Distribution": [
+            "Vùng da có lông",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Nốt dạng vòm"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Dạng vòm"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_plasmacytoma_3_jpg_b867",
+            "json_id": "JSON_IMG_plasmacytoma_3_jpg_b867_gpt_5_5_04281406",
+            "timestamp": "2026-04-28 14:06:19"
+        }
+    }
+}

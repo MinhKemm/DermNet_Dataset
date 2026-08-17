@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Cổ tay",
+            "Cẳng tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng dày sừng",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Xám trắng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy dày",
+            "Nứt nẻ",
+            "Lichen hóa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_simplex_0014_jpg_da7a",
+            "json_id": "JSON_IMG_lichen_simplex_0014_jpg_da7a_gpt_5_5_04291258",
+            "timestamp": "2026-04-29 12:58:47"
+        }
+    }
+}

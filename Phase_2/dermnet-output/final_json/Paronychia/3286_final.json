@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Paronychia",
+        "Distribution": [
+            "Quanh móng",
+            "Ngón tay",
+            "Nếp móng gần",
+            "Nếp móng bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sưng nề",
+            "Loạn dưỡng móng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng đục",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dày móng",
+            "Bong tách móng",
+            "Mất biểu bì",
+            "Vảy vụn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3286_jpg_50c1",
+            "json_id": "JSON_IMG_3286_jpg_50c1_gpt_5_5_04281803",
+            "timestamp": "2026-04-28 18:03:57"
+        }
+    }
+}

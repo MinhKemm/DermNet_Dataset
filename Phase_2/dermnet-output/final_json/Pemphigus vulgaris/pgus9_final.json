@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt da",
+            "Loét nông"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Hồng nhạt",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Ẩm bóng",
+            "Rỉ dịch",
+            "Mất thượng bì"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pgus9_jpg_fb1f",
+            "json_id": "JSON_IMG_pgus9_jpg_fb1f_gpt_5_5_04281704",
+            "timestamp": "2026-04-28 17:04:35"
+        }
+    }
+}

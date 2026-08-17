@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical melanocytic naevus",
+        "Distribution": [
+            "Lưng",
+            "Vai",
+            "Cánh tay",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Đốm giảm sắc tố",
+            "Sẩn sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Nâu sẫm",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Da dày",
+            "Bề mặt sần",
+            "Nhiều đốm nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_neurocutaneous_melanosis_0004_jpg_5441",
+            "json_id": "JSON_IMG_neurocutaneous_melanosis_0004_jpg_5441_gpt_5_5_04291140",
+            "timestamp": "2026-04-29 11:40:08"
+        }
+    }
+}

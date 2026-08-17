@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Sống mũi",
+            "Cạnh mũi",
+            "Khu trú",
+            "Thành dải"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Dát đỏ tím"
+        ],
+        "Colour": [
+            "Nâu tím",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phẳng",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3079_jpg_8e90",
+            "json_id": "JSON_IMG_3079_jpg_8e90_gpt_5_5_04291400",
+            "timestamp": "2026-04-29 14:00:47"
+        }
+    }
+}

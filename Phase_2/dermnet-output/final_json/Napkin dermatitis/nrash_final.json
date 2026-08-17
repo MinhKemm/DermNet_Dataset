@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Napkin dermatitis",
+        "Distribution": [
+            "Mông",
+            "Đùi trên",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Trắng bạc"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Vảy trắng",
+            "Nứt kẽ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nrash_jpg_548c",
+            "json_id": "JSON_IMG_nrash_jpg_548c_gpt_5_5_04290820",
+            "timestamp": "2026-04-29 08:20:59"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Systemic lupus erythematosus",
+        "Distribution": [
+            "Móng tay",
+            "Hai bàn tay",
+            "Nhiều móng"
+        ],
+        "Lesion_Type": [
+            "Biến đổi móng",
+            "Teo móng",
+            "Tách móng"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Xám đục",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Dọc móng",
+            "Không đều",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Rãnh dọc",
+            "Gồ ghề",
+            "Móng giòn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sle_49_jpg_a964",
+            "json_id": "JSON_IMG_sle_49_jpg_a964_gpt_5_5_04272232",
+            "timestamp": "2026-04-27 22:32:36"
+        }
+    }
+}

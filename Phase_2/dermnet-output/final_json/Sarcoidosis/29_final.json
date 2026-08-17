@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Má",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy sừng",
+            "Giãn mạch"
+        ],
+        "_metadata": {
+            "image_id": "IMG_29_jpg_8af0",
+            "json_id": "JSON_IMG_29_jpg_8af0_gpt_5_5_04280811",
+            "timestamp": "2026-04-28 08:11:17"
+        }
+    }
+}

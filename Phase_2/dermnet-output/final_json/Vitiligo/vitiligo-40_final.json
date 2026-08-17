@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Gáy",
+            "Lưng trên",
+            "Lưng dưới",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Dày da",
+            "Hợp lưu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_40_jpg_5b09",
+            "json_id": "JSON_IMG_vitiligo_40_jpg_5b09_gpt_5_5_04271837",
+            "timestamp": "2026-04-27 18:37:06"
+        }
+    }
+}

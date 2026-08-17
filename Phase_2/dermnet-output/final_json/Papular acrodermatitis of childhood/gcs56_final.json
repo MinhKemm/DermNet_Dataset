@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Papular acrodermatitis of childhood",
+        "Distribution": [
+            "Đùi",
+            "Khu trú",
+            "Tổn thương vệ tinh"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Cam hồng"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bờ gồ nhẹ",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_gcs56_jpg_da2c",
+            "json_id": "JSON_IMG_gcs56_jpg_da2c_gpt_5_5_04281813",
+            "timestamp": "2026-04-28 18:13:31"
+        }
+    }
+}

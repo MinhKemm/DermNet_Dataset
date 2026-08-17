@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Steatocystoma multiplex",
+        "Distribution": [
+            "Cẳng tay",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dát đỏ",
+            "Sẩn đỏ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Vảy mịn",
+            "Nếp nhăn da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_d73e",
+            "json_id": "JSON_IMG_03_jpg_d73e_gpt_5_5_04272349",
+            "timestamp": "2026-04-27 23:49:16"
+        }
+    }
+}

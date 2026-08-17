@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Cẳng chân",
+            "Quanh mắt cá",
+            "Lan tỏa",
+            "Bất đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Da căng bóng",
+            "Sưng nề",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_metastatic_melanoma_17_jpg_417a",
+            "json_id": "JSON_IMG_metastatic_melanoma_17_jpg_417a_gpt_5_5_04291037",
+            "timestamp": "2026-04-29 10:37:11"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical fibroxanthoma",
+        "Distribution": [
+            "Mi mắt",
+            "Góc mắt trong",
+            "Hai bên",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Sẩn trắng"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy dày",
+            "Tăng sừng",
+            "Bề mặt gồ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tca_during_jpg_7c9b",
+            "json_id": "JSON_IMG_tca_during_jpg_7c9b_gpt_5_5_04271732",
+            "timestamp": "2026-04-27 17:32:42"
+        }
+    }
+}

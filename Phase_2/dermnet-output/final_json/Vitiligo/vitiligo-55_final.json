@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Quanh mắt",
+            "Mi mắt",
+            "Lông mày",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng mất sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng sữa",
+            "Trắng ngà",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Lông trắng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_55_jpg_d80b",
+            "json_id": "JSON_IMG_vitiligo_55_jpg_d80b_gpt_5_5_04271832",
+            "timestamp": "2026-04-27 18:32:22"
+        }
+    }
+}

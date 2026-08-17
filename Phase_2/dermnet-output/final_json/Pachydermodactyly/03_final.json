@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pachydermodactyly",
+        "Distribution": [
+            "Mu ngón tay",
+            "Trên khớp ngón",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng dày da",
+            "Sẩn phẳng"
+        ],
+        "Colour": [
+            "Màu da",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dày da",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_09df",
+            "json_id": "JSON_IMG_03_jpg_09df_gpt_5_5_04281944",
+            "timestamp": "2026-04-28 19:44:03"
+        }
+    }
+}

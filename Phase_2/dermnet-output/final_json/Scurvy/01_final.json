@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scurvy",
+        "Distribution": [
+            "Da có lông",
+            "Rải rác",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt",
+            "Mảng gồ"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Nâu tím"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Thâm nhiễm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_55e5",
+            "json_id": "JSON_IMG_01_jpg_55e5_gpt_5_5_04280747",
+            "timestamp": "2026-04-28 07:47:25"
+        }
+    }
+}

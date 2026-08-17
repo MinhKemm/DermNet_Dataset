@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Gót chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét da",
+            "Mảng hoại tử",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Đỏ hồng",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết dày",
+            "Hoại tử",
+            "Viền bong da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_decubitus3_jpg_9847",
+            "json_id": "JSON_IMG_decubitus3_jpg_9847_gpt_5_5_04281301",
+            "timestamp": "2026-04-28 13:01:24"
+        }
+    }
+}

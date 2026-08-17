@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Thân mình",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_Melanoma_in_situ_6_jpg_1997",
+            "json_id": "JSON_IMG_Melanoma_in_situ_6_jpg_1997_gpt_5_5_04291127",
+            "timestamp": "2026-04-29 11:27:06"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral mucositis - Stomatitis",
+        "Distribution": [
+            "Móng tay",
+            "Nhiều ngón",
+            "Quanh móng",
+            "Dưới móng"
+        ],
+        "Lesion_Type": [
+            "Tách móng",
+            "Dày móng",
+            "Mảng trắng móng"
+        ],
+        "Colour": [
+            "Trắng đục",
+            "Vàng nhạt",
+            "Hồng đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Dạng cung"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vụn sừng",
+            "Rãnh ngang"
+        ],
+        "_metadata": {
+            "image_id": "IMG_70_jpg_2f47",
+            "json_id": "JSON_IMG_70_jpg_2f47_gpt_5_5_04282018",
+            "timestamp": "2026-04-28 20:18:16"
+        }
+    }
+}

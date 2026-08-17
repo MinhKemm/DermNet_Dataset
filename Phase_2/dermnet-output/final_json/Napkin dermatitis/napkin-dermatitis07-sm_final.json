@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Napkin dermatitis",
+        "Distribution": [
+            "Vùng tã",
+            "Nếp bẹn",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bóng ẩm",
+            "Trợt nông",
+            "Sẩn vệ tinh"
+        ],
+        "_metadata": {
+            "image_id": "IMG_napkin_dermatitis07_sm_jpg_53c7",
+            "json_id": "JSON_IMG_napkin_dermatitis07_sm_jpg_53c7_gpt_5_5_04290829",
+            "timestamp": "2026-04-29 08:29:54"
+        }
+    }
+}

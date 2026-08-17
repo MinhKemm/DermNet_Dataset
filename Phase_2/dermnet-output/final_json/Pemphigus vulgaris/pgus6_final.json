@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Quanh mắt",
+            "Mí trên",
+            "Mí dưới",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Phù nề mí mắt"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Tím hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Vảy mịn",
+            "Sung huyết kết mạc"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pgus6_jpg_38d0",
+            "json_id": "JSON_IMG_pgus6_jpg_38d0_gpt_5_5_04281705",
+            "timestamp": "2026-04-28 17:05:28"
+        }
+    }
+}

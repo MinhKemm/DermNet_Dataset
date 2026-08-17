@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Vùng sinh dục",
+            "Quanh âm hộ",
+            "Cụm nhiều"
+        ],
+        "Lesion_Type": [
+            "Nốt sùi",
+            "Mảng sùi",
+            "U nhú"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng xám",
+            "Tím nhạt"
+        ],
+        "Shape": [
+            "Dạng nhú",
+            "Bề mặt gồ ghề",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Sừng hóa",
+            "Ẩm",
+            "Cuống nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_44_jpg_95b1",
+            "json_id": "JSON_IMG_syphilis_44_jpg_95b1_gpt_5_5_04272255",
+            "timestamp": "2026-04-27 22:55:10"
+        }
+    }
+}

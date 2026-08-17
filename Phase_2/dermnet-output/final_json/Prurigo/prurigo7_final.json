@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Vùng bụng dưới",
+            "Nếp bẹn",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt",
+            "Mụn mủ"
+        ],
+        "Colour": [
+            "Tím hồng",
+            "Tím sẫm",
+            "Nâu tím"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Rải rác"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Lõm trung tâm",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_prurigo7_jpg_69d3",
+            "json_id": "JSON_IMG_prurigo7_jpg_69d3_gpt_5_5_04281201",
+            "timestamp": "2026-04-28 12:01:09"
+        }
+    }
+}

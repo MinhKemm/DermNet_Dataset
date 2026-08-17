@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Vùng da phẳng",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Vết loét nông",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Đỏ tím",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Mài vàng nâu",
+            "Vảy tiết",
+            "Lõm trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_46_jpg_7bf2",
+            "json_id": "JSON_IMG_46_jpg_7bf2_gpt_5_5_04280957",
+            "timestamp": "2026-04-28 09:57:04"
+        }
+    }
+}

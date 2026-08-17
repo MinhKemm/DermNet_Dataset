@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Cổ chân",
+            "Mắt cá",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng xuất huyết",
+            "Chấm xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Tím đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dát phẳng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mycosis_fungoides_6_jpg_b096",
+            "json_id": "JSON_IMG_mycosis_fungoides_6_jpg_b096_gpt_5_5_04290852",
+            "timestamp": "2026-04-29 08:52:00"
+        }
+    }
+}

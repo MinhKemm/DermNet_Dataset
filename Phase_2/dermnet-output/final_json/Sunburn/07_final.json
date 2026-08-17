@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sunburn",
+        "Distribution": [
+            "Lan tỏa",
+            "Mặt",
+            "Cổ",
+            "Ngực trên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Đám tăng sắc tố"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bờ mờ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Da teo",
+            "Nếp nhăn",
+            "Giãn mạch",
+            "Lốm đốm sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_6a00",
+            "json_id": "JSON_IMG_07_jpg_6a00_gpt_5_5_04272343",
+            "timestamp": "2026-04-27 23:43:02"
+        }
+    }
+}

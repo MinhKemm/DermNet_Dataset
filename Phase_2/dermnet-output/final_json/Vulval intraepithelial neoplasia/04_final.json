@@ -1,0 +1,21 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vulval intraepithelial neoplasia",
+        "Distribution": [
+            "Bàn tay",
+            "Ngón tay",
+            "Hai bên"
+        ],
+        "Lesion_Type": [],
+        "Colour": [
+            "Bình thường"
+        ],
+        "Shape": [],
+        "Characteristics": [],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_7eb9",
+            "json_id": "JSON_IMG_04_jpg_7eb9_gpt_5_5_04271827",
+            "timestamp": "2026-04-27 18:27:00"
+        }
+    }
+}

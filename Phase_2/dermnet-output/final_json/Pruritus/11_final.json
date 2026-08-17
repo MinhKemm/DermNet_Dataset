@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Vùng nách",
+            "Thành ngực bên",
+            "Tập trung thành cụm"
+        ],
+        "Lesion_Type": [
+            "Nốt gồ",
+            "Mảng tăng sắc tố",
+            "Sẩn tăng sắc tố"
+        ],
+        "Colour": [
+            "Đen xám",
+            "Nâu sẫm",
+            "Xám xanh"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt gồ",
+            "Nhiều kích thước",
+            "Tổn thương vệ tinh"
+        ],
+        "_metadata": {
+            "image_id": "IMG_11_jpg_3b82",
+            "json_id": "JSON_IMG_11_jpg_3b82_gpt_5_5_04281155",
+            "timestamp": "2026-04-28 11:55:12"
+        }
+    }
+}

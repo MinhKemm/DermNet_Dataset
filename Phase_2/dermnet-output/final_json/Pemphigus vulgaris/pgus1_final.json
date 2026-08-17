@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Niêm mạc miệng",
+            "Khẩu cái mềm",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Trợt niêm mạc"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Đỏ bóng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Giả mạc trắng",
+            "Bề mặt ướt",
+            "Nhiều ổ nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pgus1_jpg_67ba",
+            "json_id": "JSON_IMG_pgus1_jpg_67ba_gpt_5_5_04281707",
+            "timestamp": "2026-04-28 17:07:07"
+        }
+    }
+}

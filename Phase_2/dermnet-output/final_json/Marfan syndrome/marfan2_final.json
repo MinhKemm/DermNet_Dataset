@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Marfan syndrome",
+        "Distribution": [
+            "Vùng nách",
+            "Thành ngực bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát giảm sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Hợp lưu nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_marfan2_jpg_1957",
+            "json_id": "JSON_IMG_marfan2_jpg_1957_gpt_5_5_04291231",
+            "timestamp": "2026-04-29 12:31:08"
+        }
+    }
+}

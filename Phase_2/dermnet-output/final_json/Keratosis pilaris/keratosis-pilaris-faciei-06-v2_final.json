@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Keratosis pilaris",
+        "Distribution": [
+            "Quanh mắt",
+            "Mí trên",
+            "Dưới mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Phù nề mí mắt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Phù nề nhẹ",
+            "Khô da",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_keratosis_pilaris_faciei_06_v2_jpg_c556",
+            "json_id": "JSON_IMG_keratosis_pilaris_faciei_06_v2_jpg_c556_gpt_5_5_04291454",
+            "timestamp": "2026-04-29 14:54:13"
+        }
+    }
+}

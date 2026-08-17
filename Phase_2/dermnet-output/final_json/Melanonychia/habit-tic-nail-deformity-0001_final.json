@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Móng tay",
+            "Nhiều móng",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Biến đổi móng",
+            "Dày móng",
+            "Đổi màu móng"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Trắng đục",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Dải dọc",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tăng sừng dưới móng",
+            "Rãnh dọc",
+            "Đục móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_habit_tic_nail_deformity_0001_jpg_c735",
+            "json_id": "JSON_IMG_habit_tic_nail_deformity_0001_jpg_c735_gpt_5_5_04291110",
+            "timestamp": "2026-04-29 11:10:15"
+        }
+    }
+}

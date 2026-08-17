@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ichthyosis",
+        "Distribution": [
+            "Vùng khuỷu tay",
+            "Mặt duỗi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng dày sừng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Mảng lớn"
+        ],
+        "Characteristics": [
+            "Bong vảy dày",
+            "Nứt nẻ",
+            "Dày da",
+            "Vảy khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_bec9",
+            "json_id": "JSON_IMG_06_jpg_bec9_gpt_5_5_04280919",
+            "timestamp": "2026-04-28 09:19:52"
+        }
+    }
+}

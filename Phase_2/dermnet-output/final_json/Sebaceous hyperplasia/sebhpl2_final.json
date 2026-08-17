@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sebaceous hyperplasia",
+        "Distribution": [
+            "Trán",
+            "Giữa lông mày",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn dạng vòm",
+            "Sẩn lõm giữa"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Lõm trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sebhpl2_jpg_4848",
+            "json_id": "JSON_IMG_sebhpl2_jpg_4848_gpt_5_5_04280723",
+            "timestamp": "2026-04-28 07:23:59"
+        }
+    }
+}

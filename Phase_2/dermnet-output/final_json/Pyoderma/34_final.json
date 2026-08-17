@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Da có lông",
+            "Khu trú",
+            "Cụm"
+        ],
+        "Lesion_Type": [
+            "Mảng sưng nề",
+            "Nốt loét",
+            "Ổ loét"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Nâu đỏ",
+            "Vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ gồ"
+        ],
+        "Characteristics": [
+            "Loét",
+            "Vảy tiết vàng",
+            "Mủ",
+            "Bờ trắng",
+            "Sưng nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_34_jpg_7b7a",
+            "json_id": "JSON_IMG_34_jpg_7b7a_gpt_5_5_04281001",
+            "timestamp": "2026-04-28 10:01:00"
+        }
+    }
+}

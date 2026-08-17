@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Vùng nách",
+            "Rải rác",
+            "Theo nang lông"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt",
+            "Mụn mủ"
+        ],
+        "Colour": [
+            "Tím nâu",
+            "Đỏ tím",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Gồ cao",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Trung tâm lõm",
+            "Vảy tiết",
+            "Sẹo thâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_96_jpg_1843",
+            "json_id": "JSON_IMG_96_jpg_1843_gpt_5_5_04281203",
+            "timestamp": "2026-04-28 12:03:55"
+        }
+    }
+}

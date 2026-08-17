@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Henoch–Schönlein purpura",
+        "Distribution": [
+            "Mi trên",
+            "Góc mắt trong",
+            "Quanh mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt loét",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ sẫm",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Sưng nề",
+            "Bầm tím"
+        ],
+        "_metadata": {
+            "image_id": "IMG_11_jpg_00ad",
+            "json_id": "JSON_IMG_11_jpg_00ad_gpt_5_5_04281047",
+            "timestamp": "2026-04-28 10:47:02"
+        }
+    }
+}

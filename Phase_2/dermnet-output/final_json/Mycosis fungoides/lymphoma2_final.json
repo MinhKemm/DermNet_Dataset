@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Da có lông",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Nốt loét",
+            "Khối lồi"
+        ],
+        "Colour": [
+            "Đỏ sẫm",
+            "Đen tím",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Hoại tử",
+            "Đóng mày",
+            "Loét trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lymphoma2_jpg_4f14",
+            "json_id": "JSON_IMG_lymphoma2_jpg_4f14_gpt_5_5_04290856",
+            "timestamp": "2026-04-29 08:56:03"
+        }
+    }
+}

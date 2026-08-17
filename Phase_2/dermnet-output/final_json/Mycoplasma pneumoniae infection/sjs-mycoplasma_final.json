@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycoplasma pneumoniae infection",
+        "Distribution": [
+            "Hai cẳng chân",
+            "Rải rác",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban",
+            "Dạng bia bắn"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Tím nâu",
+            "Trung tâm sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình vòng",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Trung tâm trợt",
+            "Vảy tiết",
+            "Viền đỏ hồng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sjs_mycoplasma_jpg_020d",
+            "json_id": "JSON_IMG_sjs_mycoplasma_jpg_020d_gpt_5_5_04290901",
+            "timestamp": "2026-04-29 09:01:03"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Vùng bụng",
+            "Quanh rốn",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Ổ loét",
+            "Mảng hồng ban",
+            "Nốt loét"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ tím",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Trợt loét",
+            "Đóng mài",
+            "Bề mặt ướt",
+            "Bờ gồ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_60_jpg_49b4",
+            "json_id": "JSON_IMG_60_jpg_49b4_gpt_5_5_04280953",
+            "timestamp": "2026-04-28 09:53:00"
+        }
+    }
+}

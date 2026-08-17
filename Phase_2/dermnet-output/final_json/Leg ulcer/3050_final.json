@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leg ulcer",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét da",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Dịch tiết",
+            "Trợt da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3050_jpg_4b89",
+            "json_id": "JSON_IMG_3050_jpg_4b89_gpt_5_5_04291440",
+            "timestamp": "2026-04-29 14:40:07"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polycystic ovary syndrome",
+        "Distribution": [
+            "Cằm",
+            "Vùng quanh miệng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Da khô",
+            "Lông thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_5298",
+            "json_id": "JSON_IMG_03_jpg_5298_gpt_5_5_04281354",
+            "timestamp": "2026-04-28 13:54:54"
+        }
+    }
+}

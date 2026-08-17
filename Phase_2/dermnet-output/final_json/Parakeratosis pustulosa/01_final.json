@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Parakeratosis pustulosa",
+        "Distribution": [
+            "Đầu ngón tay",
+            "Quanh móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sừng",
+            "Mảng hồng ban",
+            "Biến dạng móng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Vảy tiết",
+            "Đóng mài",
+            "Nứt trợt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_fd61",
+            "json_id": "JSON_IMG_01_jpg_fd61_gpt_5_5_04281807",
+            "timestamp": "2026-04-28 18:07:46"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Onychocryptosis",
+        "Distribution": [
+            "Ngón chân cái",
+            "Quanh móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sưng nề",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Bong móng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_c771",
+            "json_id": "JSON_IMG_08_jpg_c771_gpt_5_5_04282131",
+            "timestamp": "2026-04-28 21:31:22"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Mu bàn tay",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Mảng nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_58_jpg_667e",
+            "json_id": "JSON_IMG_58_jpg_667e_gpt_5_5_04281215",
+            "timestamp": "2026-04-28 12:15:38"
+        }
+    }
+}

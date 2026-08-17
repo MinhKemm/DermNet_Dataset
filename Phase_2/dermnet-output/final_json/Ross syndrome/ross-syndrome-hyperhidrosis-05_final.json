@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ross syndrome",
+        "Distribution": [
+            "Cẳng chân",
+            "Mặt trước",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Dát nâu"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Nâu sẫm",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Tăng sắc tố",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ross_syndrome_hyperhidrosis_05_jpg_cfbf",
+            "json_id": "JSON_IMG_ross_syndrome_hyperhidrosis_05_jpg_cfbf_gpt_5_5_04280826",
+            "timestamp": "2026-04-28 08:26:42"
+        }
+    }
+}

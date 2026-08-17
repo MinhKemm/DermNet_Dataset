@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Swimmer_s itch",
+        "Distribution": [
+            "Rải rác",
+            "Cẳng chân",
+            "Hai bên",
+            "Không đều"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Chấm xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ"
+        ],
+        "Characteristics": [
+            "Vết trầy xước",
+            "Chấm đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_cb2d",
+            "json_id": "JSON_IMG_06_jpg_cb2d_gpt_5_5_04272327",
+            "timestamp": "2026-04-27 23:27:13"
+        }
+    }
+}

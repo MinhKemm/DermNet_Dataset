@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leprosy",
+        "Distribution": [
+            "Loa tai",
+            "Vành tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt",
+            "Mảng sưng nề"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leprosy5_jpg_1f59",
+            "json_id": "JSON_IMG_leprosy5_jpg_1f59_gpt_5_5_04291417",
+            "timestamp": "2026-04-29 14:17:45"
+        }
+    }
+}

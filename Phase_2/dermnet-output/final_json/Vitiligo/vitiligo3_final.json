@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Mu bàn tay",
+            "Ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu hồng"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Bờ gồ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo3_jpg_bb72",
+            "json_id": "JSON_IMG_vitiligo3_jpg_bb72_gpt_5_5_04271828",
+            "timestamp": "2026-04-27 18:28:28"
+        }
+    }
+}

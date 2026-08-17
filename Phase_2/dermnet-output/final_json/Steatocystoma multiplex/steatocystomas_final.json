@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Steatocystoma multiplex",
+        "Distribution": [
+            "Nách",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Nâu",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Lông rậm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_steatocystomas_jpg_5499",
+            "json_id": "JSON_IMG_steatocystomas_jpg_5499_gpt_5_5_04272347",
+            "timestamp": "2026-04-27 23:47:04"
+        }
+    }
+}

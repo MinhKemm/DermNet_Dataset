@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Necrobiosis lipoidica",
+        "Distribution": [
+            "Cẳng chân hai bên",
+            "Đối xứng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Trung tâm nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bờ gồ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_01df",
+            "json_id": "JSON_IMG_07_jpg_01df_gpt_5_5_04290818",
+            "timestamp": "2026-04-29 08:18:57"
+        }
+    }
+}

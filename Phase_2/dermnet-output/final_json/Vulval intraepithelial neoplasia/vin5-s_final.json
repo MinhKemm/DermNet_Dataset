@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vulval intraepithelial neoplasia",
+        "Distribution": [
+            "Vùng sinh dục",
+            "Nếp kẽ",
+            "Tập trung"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhú",
+            "Khối sùi",
+            "Trợt đỏ"
+        ],
+        "Colour": [
+            "Hồng nâu",
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Dạng nhú",
+            "Có cuống",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Ẩm ướt",
+            "Nứt kẽ",
+            "Dịch trắng vàng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vin5_s_jpg_9045",
+            "json_id": "JSON_IMG_vin5_s_jpg_9045_gpt_5_5_04271804",
+            "timestamp": "2026-04-27 18:04:37"
+        }
+    }
+}

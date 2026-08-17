@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melasma",
+        "Distribution": [
+            "Má",
+            "Vùng mặt",
+            "Rải rác",
+            "Hợp lưu"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Loang lổ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Chấm sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_chloas3_jpg_ccb5",
+            "json_id": "JSON_IMG_chloas3_jpg_ccb5_gpt_5_5_04291051",
+            "timestamp": "2026-04-29 10:51:34"
+        }
+    }
+}

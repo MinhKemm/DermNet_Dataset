@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral allergy syndrome",
+        "Distribution": [
+            "Rau củ quả",
+            "Rải rác"
+        ],
+        "Lesion_Type": [],
+        "Colour": [
+            "Đỏ",
+            "Vàng",
+            "Xanh",
+            "Cam",
+            "Nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Thuôn dài"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_birch_pollen_food_allergy_jpg_166e",
+            "json_id": "JSON_IMG_birch_pollen_food_allergy_jpg_166e_gpt_5_5_04282048",
+            "timestamp": "2026-04-28 20:48:46"
+        }
+    }
+}

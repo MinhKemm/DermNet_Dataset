@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Lưng trên",
+            "Rải rác",
+            "Tập trung trung tâm"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ",
+            "Sẩn nang lông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Tăng sắc tố nhẹ",
+            "Phân bố nang lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3070_jpg_0aad",
+            "json_id": "JSON_IMG_3070_jpg_0aad_gpt_5_5_04291403",
+            "timestamp": "2026-04-29 14:03:08"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Morphoea en coup de sabre",
+        "Distribution": [
+            "Thân mình",
+            "Mạn sườn",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Hình cung",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Trung tâm nhạt",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3215_jpg_b91f",
+            "json_id": "JSON_IMG_3215_jpg_b91f_gpt_5_5_04290935",
+            "timestamp": "2026-04-29 09:35:49"
+        }
+    }
+}

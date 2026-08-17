@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sézary syndrome",
+        "Distribution": [
+            "Cổ",
+            "Ngực",
+            "Vai",
+            "Cánh tay",
+            "Lan tỏa",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Dát giảm sắc tố",
+            "Mảng loang lổ"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Nâu sẫm",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Loang lổ"
+        ],
+        "Characteristics": [
+            "Da teo",
+            "Nhăn da",
+            "Giãn mạch mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sezary_1_jpg_0d2f",
+            "json_id": "JSON_IMG_sezary_1_jpg_0d2f_gpt_5_5_04280027",
+            "timestamp": "2026-04-28 00:27:20"
+        }
+    }
+}

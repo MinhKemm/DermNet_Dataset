@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Milker_s nodule",
+        "Distribution": [
+            "Lòng bàn tay",
+            "Cổ tay",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng dày sừng",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Nâu vàng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Nứt nẻ",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ecz_hand3_jpg_b312",
+            "json_id": "JSON_IMG_ecz_hand3_jpg_b312_gpt_5_5_04291020",
+            "timestamp": "2026-04-29 10:20:16"
+        }
+    }
+}

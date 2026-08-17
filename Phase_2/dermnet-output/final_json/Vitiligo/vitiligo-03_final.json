@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Lưng trên",
+            "Vai phải",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng",
+            "Dát"
+        ],
+        "Colour": [
+            "Trắng sữa",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_03_jpg_f858",
+            "json_id": "JSON_IMG_vitiligo_03_jpg_f858_gpt_5_5_04271850",
+            "timestamp": "2026-04-27 18:50:13"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Molluscum contagiosum",
+        "Distribution": [
+            "Bờ mi trên",
+            "Chân lông mi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Đỏ hồng nhạt"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đầu trắng",
+            "Quầng đỏ nhẹ",
+            "Nề nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_eyelid_15_jpg_9644",
+            "json_id": "JSON_IMG_eyelid_15_jpg_9644_gpt_5_5_04291016",
+            "timestamp": "2026-04-29 10:16:03"
+        }
+    }
+}

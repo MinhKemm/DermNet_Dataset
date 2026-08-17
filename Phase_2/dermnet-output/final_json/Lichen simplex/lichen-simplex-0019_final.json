@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Da có lông",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn màu da",
+            "Sẩn lõm giữa"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Màu da",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Lõm trung tâm",
+            "Vảy mịn",
+            "Đóng mài mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_simplex_0019_jpg_fc87",
+            "json_id": "JSON_IMG_lichen_simplex_0019_jpg_fc87_gpt_5_5_04291257",
+            "timestamp": "2026-04-29 12:57:10"
+        }
+    }
+}

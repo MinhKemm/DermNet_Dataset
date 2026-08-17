@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical melanocytic naevus",
+        "Distribution": [
+            "Vùng quanh mắt",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngọc"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Vòm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Lõm giữa nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cellular_naevus_jpg_2e24",
+            "json_id": "JSON_IMG_cellular_naevus_jpg_2e24_gpt_5_5_04291149",
+            "timestamp": "2026-04-29 11:49:03"
+        }
+    }
+}

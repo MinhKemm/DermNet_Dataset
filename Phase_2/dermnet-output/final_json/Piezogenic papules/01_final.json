@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Piezogenic papules",
+        "Distribution": [
+            "Lòng bàn tay",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mụn nước nhỏ",
+            "Sẩn trong"
+        ],
+        "Colour": [
+            "Trắng trong",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Mụn nước sâu",
+            "Bề mặt bóng",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_94bc",
+            "json_id": "JSON_IMG_01_jpg_94bc_gpt_5_5_04281642",
+            "timestamp": "2026-04-28 16:42:34"
+        }
+    }
+}

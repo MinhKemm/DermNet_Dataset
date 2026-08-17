@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Vai",
+            "Lưng trên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát giảm sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_metastatic_melanoma04_jpg_7b29",
+            "json_id": "JSON_IMG_metastatic_melanoma04_jpg_7b29_gpt_5_5_04291035",
+            "timestamp": "2026-04-29 10:35:08"
+        }
+    }
+}

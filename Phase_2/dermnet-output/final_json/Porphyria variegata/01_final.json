@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Porphyria variegata",
+        "Distribution": [
+            "Mặt",
+            "Má",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dát giảm sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_b6b4",
+            "json_id": "JSON_IMG_01_jpg_b6b4_gpt_5_5_04281518",
+            "timestamp": "2026-04-28 15:18:11"
+        }
+    }
+}

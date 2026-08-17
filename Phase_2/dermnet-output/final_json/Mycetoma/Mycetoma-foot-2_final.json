@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycetoma",
+        "Distribution": [
+            "Kẽ ngón chân",
+            "Mu bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt loét",
+            "Nốt hồng",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng bệch",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Bong vảy",
+            "Phù nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_Mycetoma_foot_2_jpg_757d",
+            "json_id": "JSON_IMG_Mycetoma_foot_2_jpg_757d_gpt_5_5_04290919",
+            "timestamp": "2026-04-29 09:19:46"
+        }
+    }
+}

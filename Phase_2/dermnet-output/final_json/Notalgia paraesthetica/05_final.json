@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Notalgia paraesthetica",
+        "Distribution": [
+            "Lưng trên",
+            "Lan tỏa",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Đốm tăng sắc tố",
+            "Dát nâu",
+            "Hồng ban"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Lấm tấm",
+            "Lưới mờ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Lỗ chân lông",
+            "Sắc tố loang lổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_ad49",
+            "json_id": "JSON_IMG_05_jpg_ad49_gpt_5_5_04282211",
+            "timestamp": "2026-04-28 22:11:55"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilonidal disease",
+        "Distribution": [
+            "Rãnh liên mông",
+            "Đường giữa",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Lỗ rò",
+            "Vết lõm",
+            "Hồng ban nhẹ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Tím nâu",
+            "Màu da"
+        ],
+        "Shape": [
+            "Dạng khe",
+            "Lỗ tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Lông rậm",
+            "Nếp gấp sâu",
+            "Sẹo lõm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pilonidal_jpg_10c2",
+            "json_id": "JSON_IMG_pilonidal_jpg_10c2_gpt_5_5_04281603",
+            "timestamp": "2026-04-28 16:03:18"
+        }
+    }
+}

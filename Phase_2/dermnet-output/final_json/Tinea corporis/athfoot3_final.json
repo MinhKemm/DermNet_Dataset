@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea corporis",
+        "Distribution": [
+            "Nếp sau tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Vết nứt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy tiết",
+            "Nứt da",
+            "Trợt da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_athfoot3_jpg_81e3",
+            "json_id": "JSON_IMG_athfoot3_jpg_81e3_gpt_5_5_04272120",
+            "timestamp": "2026-04-27 21:20:56"
+        }
+    }
+}

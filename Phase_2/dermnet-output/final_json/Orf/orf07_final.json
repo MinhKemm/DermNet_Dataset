@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Ngón cái",
+            "Quanh móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét trợt",
+            "Mảng đóng mày",
+            "Hồng ban"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Vàng nâu",
+            "Tím đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mày",
+            "Tiết dịch",
+            "Mày máu",
+            "Sưng nề nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf07_jpg_f9d3",
+            "json_id": "JSON_IMG_orf07_jpg_f9d3_gpt_5_5_04282007",
+            "timestamp": "2026-04-28 20:07:40"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Onychopapilloma",
+        "Distribution": [
+            "Móng ngón tay",
+            "Đầu xa",
+            "Bên móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Tách móng",
+            "Nứt móng",
+            "Xuất huyết"
+        ],
+        "Colour": [
+            "Trắng đục",
+            "Vàng nhạt",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Dải ngang",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong phiến móng",
+            "Vụn sừng",
+            "Mảng xuất huyết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_onychopapilloma_3_jpg_a049",
+            "json_id": "JSON_IMG_onychopapilloma_3_jpg_a049_gpt_5_5_04282049",
+            "timestamp": "2026-04-28 20:49:24"
+        }
+    }
+}

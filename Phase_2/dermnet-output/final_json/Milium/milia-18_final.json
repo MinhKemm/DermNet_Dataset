@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Colloid milium",
+        "Distribution": [
+            "Má",
+            "Dưới mắt",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Mụn đầu trắng"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Kích thước nhỏ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Nhân trắng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_milia_18_jpg_5250",
+            "json_id": "JSON_IMG_milia_18_jpg_5250_gpt_5_5_04291027",
+            "timestamp": "2026-04-29 10:27:10"
+        }
+    }
+}

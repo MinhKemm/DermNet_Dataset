@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polymorphic eruption of pregnancy",
+        "Distribution": [
+            "Bụng dưới",
+            "Hai bên bụng",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Dải teo da",
+            "Vệt rạn da"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Cong nhẹ",
+            "Song song"
+        ],
+        "Characteristics": [
+            "Teo da",
+            "Lõm nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pupp4_jpg_3e55",
+            "json_id": "JSON_IMG_pupp4_jpg_3e55_gpt_5_5_04281350",
+            "timestamp": "2026-04-28 13:50:19"
+        }
+    }
+}

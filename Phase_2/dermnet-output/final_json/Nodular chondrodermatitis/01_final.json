@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nodular chondrodermatitis",
+        "Distribution": [
+            "Tiền đình mũi",
+            "Cánh mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn phù nề"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Bề mặt bóng",
+            "Sưng nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_2e62",
+            "json_id": "JSON_IMG_01_jpg_2e62_gpt_5_5_04290724",
+            "timestamp": "2026-04-29 07:24:38"
+        }
+    }
+}

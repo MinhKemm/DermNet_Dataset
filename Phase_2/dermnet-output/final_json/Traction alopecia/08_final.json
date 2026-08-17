@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Traction alopecia",
+        "Distribution": [
+            "Da đầu",
+            "Đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy vàng nhờn",
+            "Trợt nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_f501",
+            "json_id": "JSON_IMG_08_jpg_f501_gpt_5_5_04272037",
+            "timestamp": "2026-04-27 20:37:51"
+        }
+    }
+}

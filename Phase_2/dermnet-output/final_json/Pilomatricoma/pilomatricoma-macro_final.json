@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilomatricoma",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú",
+            "Quanh nang lông"
+        ],
+        "Lesion_Type": [
+            "Nốt đỏ",
+            "Mảng hồng ban",
+            "Mụn mủ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Gồ cao",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bóng căng",
+            "Mụn mủ nhỏ",
+            "Rụng tóc khu trú"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pilomatricoma_macro_jpg_37c6",
+            "json_id": "JSON_IMG_pilomatricoma_macro_jpg_37c6_gpt_5_5_04281604",
+            "timestamp": "2026-04-28 16:04:33"
+        }
+    }
+}

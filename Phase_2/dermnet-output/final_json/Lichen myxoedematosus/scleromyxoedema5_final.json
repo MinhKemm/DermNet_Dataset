@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen myxoedematosus",
+        "Distribution": [
+            "Mặt duỗi cẳng tay",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Sẩn nang lông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Màu da"
+        ],
+        "Shape": [
+            "Tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Sần ráp",
+            "Tăng sừng nang lông",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_scleromyxoedema5_jpg_0796",
+            "json_id": "JSON_IMG_scleromyxoedema5_jpg_0796_gpt_5_5_04291412",
+            "timestamp": "2026-04-29 14:12:30"
+        }
+    }
+}

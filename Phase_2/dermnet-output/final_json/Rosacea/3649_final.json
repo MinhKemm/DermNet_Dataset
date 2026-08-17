@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rosacea",
+        "Distribution": [
+            "Mũi",
+            "Cánh mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Lỗ chân lông giãn",
+            "Giãn mạch nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3649_jpg_5f3e",
+            "json_id": "JSON_IMG_3649_jpg_5f3e_gpt_5_5_04280837",
+            "timestamp": "2026-04-28 08:37:44"
+        }
+    }
+}

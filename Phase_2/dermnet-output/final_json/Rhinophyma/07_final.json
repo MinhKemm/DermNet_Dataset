@@ -1,0 +1,38 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rhinophyma",
+        "Distribution": [
+            "Mặt",
+            "Trán",
+            "Má",
+            "Mũi",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng phù nề",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da dày",
+            "Bề mặt bóng",
+            "Phù nề",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_4eb0",
+            "json_id": "JSON_IMG_07_jpg_4eb0_gpt_5_5_04280906",
+            "timestamp": "2026-04-28 09:06:44"
+        }
+    }
+}

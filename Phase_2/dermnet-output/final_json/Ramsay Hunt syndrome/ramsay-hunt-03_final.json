@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ramsay Hunt syndrome",
+        "Distribution": [
+            "Lan tỏa",
+            "Mặt trung tâm",
+            "Mũi",
+            "Má",
+            "Quanh miệng",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Giãn mạch nhỏ",
+            "Da khô",
+            "Nếp nhăn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ramsay_hunt_03_jpg_2eb4",
+            "json_id": "JSON_IMG_ramsay_hunt_03_jpg_2eb4_gpt_5_5_04280933",
+            "timestamp": "2026-04-28 09:33:29"
+        }
+    }
+}

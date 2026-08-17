@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Neurofibromatosis",
+        "Distribution": [
+            "Vùng cổ",
+            "Nếp gấp da",
+            "Rải rác",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt",
+            "U mềm"
+        ],
+        "Colour": [
+            "Màu da",
+            "Hồng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình cầu",
+            "Có cuống",
+            "Kích thước đa dạng"
+        ],
+        "Characteristics": [
+            "Bề mặt trơn",
+            "Nếp nhăn da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nf15_jpg_3ddf",
+            "json_id": "JSON_IMG_nf15_jpg_3ddf_gpt_5_5_04290744",
+            "timestamp": "2026-04-29 07:44:55"
+        }
+    }
+}

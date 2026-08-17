@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral mucositis - Stomatitis",
+        "Distribution": [
+            "Khóe miệng",
+            "Hai bên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nứt kẽ",
+            "Mảng hồng ban",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Khe nứt",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_13_jpg_564e",
+            "json_id": "JSON_IMG_13_jpg_564e_gpt_5_5_04282037",
+            "timestamp": "2026-04-28 20:37:16"
+        }
+    }
+}

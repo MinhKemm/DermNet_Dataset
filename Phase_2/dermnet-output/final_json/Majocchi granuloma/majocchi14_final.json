@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Majocchi granuloma",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Tụ thành mảng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn trợt",
+            "Vết loét nông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy trắng",
+            "Mài tiết",
+            "Trợt da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_majocchi14_jpg_53ca",
+            "json_id": "JSON_IMG_majocchi14_jpg_53ca_gpt_5_5_04291235",
+            "timestamp": "2026-04-29 12:35:46"
+        }
+    }
+}

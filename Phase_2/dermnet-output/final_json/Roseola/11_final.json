@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Roseola",
+        "Distribution": [
+            "Mông",
+            "Đùi",
+            "Vùng tã lót",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Nhỏ li ti",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [],
+        "_metadata": {
+            "image_id": "IMG_11_jpg_1268",
+            "json_id": "JSON_IMG_11_jpg_1268_gpt_5_5_04280832",
+            "timestamp": "2026-04-28 08:32:44"
+        }
+    }
+}

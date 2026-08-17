@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mid-dermal elastolysis",
+        "Distribution": [
+            "Nách",
+            "Nếp gấp",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da dày nhẹ",
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_middermal_elastolysis_2_jpg_a8e9",
+            "json_id": "JSON_IMG_middermal_elastolysis_2_jpg_a8e9_gpt_5_5_04291029",
+            "timestamp": "2026-04-29 10:29:10"
+        }
+    }
+}

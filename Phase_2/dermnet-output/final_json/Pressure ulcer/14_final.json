@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Kẽ ngón tay",
+            "Mu ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sừng",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Trắng xám",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Khô da",
+            "Nứt kẽ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_14_jpg_1873",
+            "json_id": "JSON_IMG_14_jpg_1873_gpt_5_5_04281305",
+            "timestamp": "2026-04-28 13:05:24"
+        }
+    }
+}

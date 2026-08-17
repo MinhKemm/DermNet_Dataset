@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Reed syndrome",
+        "Distribution": [
+            "Vùng thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Đốm tăng sắc tố",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Phẳng",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leiomyomatosis_4_jpg_c3de",
+            "json_id": "JSON_IMG_leiomyomatosis_4_jpg_c3de_gpt_5_5_04280916",
+            "timestamp": "2026-04-28 09:16:08"
+        }
+    }
+}

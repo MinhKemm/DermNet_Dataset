@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Merkel cell carcinoma",
+        "Distribution": [
+            "Mu bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "Khối u"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Nâu sẫm",
+            "Hồng bóng"
+        ],
+        "Shape": [
+            "Dạng thùy",
+            "Hình vòm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Gồ cao",
+            "Bề mặt bóng",
+            "Đóng mài",
+            "Loét nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_merkel_cell_carcinoma_0004_jpg_944b",
+            "json_id": "JSON_IMG_merkel_cell_carcinoma_0004_jpg_944b_gpt_5_5_04291043",
+            "timestamp": "2026-04-29 10:43:51"
+        }
+    }
+}

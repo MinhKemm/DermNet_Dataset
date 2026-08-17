@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Urticaria",
+        "Distribution": [
+            "Lưng",
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Bờ mờ"
+        ],
+        "Characteristics": [
+            "Nhiều tổn thương",
+            "Kích thước không đều"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3807_big_jpg_4ae7",
+            "json_id": "JSON_IMG_3807_big_jpg_4ae7_gpt_5_5_04271929",
+            "timestamp": "2026-04-27 19:29:53"
+        }
+    }
+}

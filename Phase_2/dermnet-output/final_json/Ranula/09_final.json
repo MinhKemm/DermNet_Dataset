@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Granular parakeratosis",
+        "Distribution": [
+            "Lưng",
+            "Thân mình",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng dát",
+            "Dát giảm sắc tố",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Trắng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Bong vảy phấn",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_09_jpg_d810",
+            "json_id": "JSON_IMG_09_jpg_d810_gpt_5_5_04280931",
+            "timestamp": "2026-04-28 09:31:00"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Osteoma cutis",
+        "Distribution": [
+            "Cẳng chân",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Đốm giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt trơn",
+            "Lông bình thường"
+        ],
+        "_metadata": {
+            "image_id": "IMG_osteoma_cutis2_jpg_4bd1",
+            "json_id": "JSON_IMG_osteoma_cutis2_jpg_4bd1_gpt_5_5_04281946",
+            "timestamp": "2026-04-28 19:46:11"
+        }
+    }
+}

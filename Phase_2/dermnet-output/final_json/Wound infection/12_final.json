@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Wound infection",
+        "Distribution": [
+            "Má",
+            "Vùng mặt",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Nốt sẩn",
+            "Loét trung tâm",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng trắng",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Không đều",
+            "Gồ cao"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Vảy tiết",
+            "Lõm trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_12_jpg_5e88",
+            "json_id": "JSON_IMG_12_jpg_5e88_gpt_5_5_04271744",
+            "timestamp": "2026-04-27 17:44:38"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilomatricoma",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Vết loét nông",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Hồng tím",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Trợt da",
+            "Đóng mài",
+            "Quầng đỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_91e4",
+            "json_id": "JSON_IMG_05_jpg_91e4_gpt_5_5_04281605",
+            "timestamp": "2026-04-28 16:05:45"
+        }
+    }
+}

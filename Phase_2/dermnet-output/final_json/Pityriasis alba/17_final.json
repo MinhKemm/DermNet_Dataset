@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis alba",
+        "Distribution": [
+            "Mặt ngoài cánh tay",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Màu da",
+            "Đỏ hồng nhạt"
+        ],
+        "Shape": [
+            "Hình chấm nhỏ",
+            "Đồng dạng"
+        ],
+        "Characteristics": [
+            "Da sần",
+            "Nút sừng nang lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_17_jpg_cddd",
+            "json_id": "JSON_IMG_17_jpg_cddd_gpt_5_5_04281556",
+            "timestamp": "2026-04-28 15:56:45"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scabies",
+        "Distribution": [
+            "Dương vật",
+            "Rãnh quy đầu",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Trợt nông",
+            "Vết loét nhỏ",
+            "Sẩn trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Nâu xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bờ rõ",
+            "Kích thước nhỏ"
+        ],
+        "Characteristics": [
+            "Bề mặt ẩm",
+            "Đóng mài nhẹ",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_scabies_013_jpg_7938",
+            "json_id": "JSON_IMG_scabies_013_jpg_7938_gpt_5_5_04280803",
+            "timestamp": "2026-04-28 08:03:59"
+        }
+    }
+}

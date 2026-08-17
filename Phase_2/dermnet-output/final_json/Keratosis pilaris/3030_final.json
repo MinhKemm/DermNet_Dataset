@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Keratosis pilaris",
+        "Distribution": [
+            "Trán",
+            "Thái dương",
+            "Gần đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Đốm hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Không đều",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sần nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3030_jpg_de9b",
+            "json_id": "JSON_IMG_3030_jpg_de9b_gpt_5_5_04291459",
+            "timestamp": "2026-04-29 14:59:51"
+        }
+    }
+}

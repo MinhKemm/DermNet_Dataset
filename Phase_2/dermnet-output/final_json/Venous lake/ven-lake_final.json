@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Venous lake",
+        "Distribution": [
+            "Môi dưới",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt"
+        ],
+        "Colour": [
+            "Tím xanh",
+            "Tím sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng",
+            "Đơn độc"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ven_lake_jpg_fb63",
+            "json_id": "JSON_IMG_ven_lake_jpg_fb63_gpt_5_5_04271856",
+            "timestamp": "2026-04-27 18:56:00"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polycystic ovary syndrome",
+        "Distribution": [
+            "Vùng đỉnh",
+            "Vùng trán",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Thưa tóc"
+        ],
+        "Colour": [
+            "Màu da",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Tóc mảnh",
+            "Giảm mật độ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_27e5",
+            "json_id": "JSON_IMG_02_jpg_27e5_gpt_5_5_04281355",
+            "timestamp": "2026-04-28 13:55:13"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical melanocytic naevus",
+        "Distribution": [
+            "Da đầu",
+            "Vùng thái dương",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Mảng vảy"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy khô",
+            "Tóc gãy",
+            "Thưa tóc"
+        ],
+        "_metadata": {
+            "image_id": "IMG_hairy2_jpg_50b1",
+            "json_id": "JSON_IMG_hairy2_jpg_50b1_gpt_5_5_04291146",
+            "timestamp": "2026-04-29 11:46:29"
+        }
+    }
+}

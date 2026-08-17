@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scabies",
+        "Distribution": [
+            "Dương vật",
+            "Quy đầu",
+            "Rãnh quy đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn dẹt",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu tím",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình đa giác",
+            "Ranh giới rõ",
+            "Hơi gồ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Vảy mịn",
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_scabies_008_jpg_5377",
+            "json_id": "JSON_IMG_scabies_008_jpg_5377_gpt_5_5_04280805",
+            "timestamp": "2026-04-28 08:05:18"
+        }
+    }
+}

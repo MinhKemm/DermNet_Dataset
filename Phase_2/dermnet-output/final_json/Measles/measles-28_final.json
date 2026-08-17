@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Measles",
+        "Distribution": [
+            "Cổ tay",
+            "Cẳng tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Dải teo da"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Dạng dải",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Teo da",
+            "Nhăn da",
+            "Mất nếp da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_measles_28_jpg_3158",
+            "json_id": "JSON_IMG_measles_28_jpg_3158_gpt_5_5_04291221",
+            "timestamp": "2026-04-29 12:21:50"
+        }
+    }
+}

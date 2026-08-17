@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Má",
+            "Rãnh mũi má",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng tím"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_291a",
+            "json_id": "JSON_IMG_03_jpg_291a_gpt_5_5_04281235",
+            "timestamp": "2026-04-28 12:35:36"
+        }
+    }
+}

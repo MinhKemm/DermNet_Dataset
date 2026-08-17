@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Notalgia paraesthetica",
+        "Distribution": [
+            "Vùng thân mình",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Đám đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Chấm xuất huyết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_11_jpg_950b",
+            "json_id": "JSON_IMG_11_jpg_950b_gpt_5_5_04282209",
+            "timestamp": "2026-04-28 22:09:41"
+        }
+    }
+}

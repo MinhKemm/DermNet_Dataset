@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Thân mình",
+            "Cánh tay",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Nốt loét",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ nâu",
+            "Vàng xanh"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Hoại tử trung tâm",
+            "Loét lõm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syph9_jpg_c616",
+            "json_id": "JSON_IMG_syph9_jpg_c616_gpt_5_5_04272312",
+            "timestamp": "2026-04-27 23:12:43"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilar cyst",
+        "Distribution": [
+            "Má",
+            "Dưới mắt",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn dạng vòm",
+            "Nốt nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngà",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Lõm trung tâm"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Lõm rốn",
+            "Vảy mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cyst16_jpg_e4c7",
+            "json_id": "JSON_IMG_cyst16_jpg_e4c7_gpt_5_5_04281615",
+            "timestamp": "2026-04-28 16:15:58"
+        }
+    }
+}

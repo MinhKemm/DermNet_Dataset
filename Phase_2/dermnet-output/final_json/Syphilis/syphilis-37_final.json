@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Cằm",
+            "Đường hàm",
+            "Cổ trước",
+            "Vùng râu",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn viêm",
+            "Mụn mủ",
+            "Nốt viêm"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Quanh nang lông",
+            "Đóng mài",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_37_jpg_023f",
+            "json_id": "JSON_IMG_syphilis_37_jpg_023f_gpt_5_5_04272257",
+            "timestamp": "2026-04-27 22:57:29"
+        }
+    }
+}

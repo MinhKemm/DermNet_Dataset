@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leishmaniasis",
+        "Distribution": [
+            "Vùng vai",
+            "Lưng trên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Loét trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đen",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Trợt da",
+            "Vảy tiết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leishmaniasis8_jpg_b3f3",
+            "json_id": "JSON_IMG_leishmaniasis8_jpg_b3f3_gpt_5_5_04291422",
+            "timestamp": "2026-04-29 14:22:59"
+        }
+    }
+}

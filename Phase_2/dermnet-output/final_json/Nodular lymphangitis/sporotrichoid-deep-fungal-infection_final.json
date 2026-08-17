@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nodular lymphangitis",
+        "Distribution": [
+            "Cẳng chân",
+            "Rải rác",
+            "Thành hàng"
+        ],
+        "Lesion_Type": [
+            "Nốt loét",
+            "Mảng thâm",
+            "Sẩn cục"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Đỏ sẫm",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Loét trung tâm",
+            "Vảy tiết",
+            "Bờ gồ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sporotrichoid_deep_fungal_infection_jpg_afa4",
+            "json_id": "JSON_IMG_sporotrichoid_deep_fungal_infection_jpg_afa4_gpt_5_5_04290721",
+            "timestamp": "2026-04-29 07:21:14"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tuberous sclerosis",
+        "Distribution": [
+            "Quanh móng",
+            "Nếp móng gần",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn sùi",
+            "Mảng tăng sừng"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngà",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bề mặt gồ ghề"
+        ],
+        "Characteristics": [
+            "Tăng sừng",
+            "Bong vảy",
+            "Tách móng",
+            "Biến dạng móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tubscler8_jpg_419c",
+            "json_id": "JSON_IMG_tubscler8_jpg_419c_gpt_5_5_04271958",
+            "timestamp": "2026-04-27 19:58:48"
+        }
+    }
+}

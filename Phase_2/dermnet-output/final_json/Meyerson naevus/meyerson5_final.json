@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Meyerson naevus",
+        "Distribution": [
+            "Vùng thân mình",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát nâu"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Trung tâm nhạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_meyerson5_jpg_7012",
+            "json_id": "JSON_IMG_meyerson5_jpg_7012_gpt_5_5_04291029",
+            "timestamp": "2026-04-29 10:29:49"
+        }
+    }
+}

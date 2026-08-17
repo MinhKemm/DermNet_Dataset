@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Porphyria cutanea tarda",
+        "Distribution": [
+            "Mu bàn tay",
+            "Khớp ngón tay",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn dẹt"
+        ],
+        "Colour": [
+            "Tím hồng",
+            "Đỏ tím",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Teo da nhẹ",
+            "Trợt nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pct5_jpg_4933",
+            "json_id": "JSON_IMG_pct5_jpg_4933_gpt_5_5_04281518",
+            "timestamp": "2026-04-28 15:18:46"
+        }
+    }
+}

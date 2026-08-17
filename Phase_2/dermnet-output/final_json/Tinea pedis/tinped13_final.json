@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea pedis",
+        "Distribution": [
+            "Kẽ ngón chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Trợt nông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Da ẩm",
+            "Nứt kẽ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tinped13_jpg_fea3",
+            "json_id": "JSON_IMG_tinped13_jpg_fea3_gpt_5_5_04272050",
+            "timestamp": "2026-04-27 20:50:27"
+        }
+    }
+}

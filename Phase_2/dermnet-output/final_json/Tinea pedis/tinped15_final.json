@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea pedis",
+        "Distribution": [
+            "Mu bàn chân",
+            "Cổ chân",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình vòng cung",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Trung tâm nhạt màu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tinped15_jpg_3162",
+            "json_id": "JSON_IMG_tinped15_jpg_3162_gpt_5_5_04272049",
+            "timestamp": "2026-04-27 20:49:52"
+        }
+    }
+}

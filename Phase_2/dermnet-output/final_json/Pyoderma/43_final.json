@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Vùng da xăm",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Sẩn loét",
+            "Nốt đỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Trợt loét",
+            "Rỉ dịch",
+            "Đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_43_jpg_647c",
+            "json_id": "JSON_IMG_43_jpg_647c_gpt_5_5_04280957",
+            "timestamp": "2026-04-28 09:57:59"
+        }
+    }
+}

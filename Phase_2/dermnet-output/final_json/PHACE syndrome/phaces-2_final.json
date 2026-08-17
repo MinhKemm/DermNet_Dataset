@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "PHACE syndrome",
+        "Distribution": [
+            "Mặt",
+            "Má",
+            "Quanh mắt",
+            "Quanh miệng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Trợt da",
+            "Phù nề nhẹ",
+            "Vảy tiết mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_phaces_2_jpg_1cd3",
+            "json_id": "JSON_IMG_phaces_2_jpg_1cd3_gpt_5_5_04281945",
+            "timestamp": "2026-04-28 19:45:15"
+        }
+    }
+}

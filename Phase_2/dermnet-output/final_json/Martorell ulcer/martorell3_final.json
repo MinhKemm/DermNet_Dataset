@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Martorell ulcer",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Loét da",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Vàng nhạt",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Giả mạc vàng",
+            "Dịch tiết",
+            "Viền hồng ban"
+        ],
+        "_metadata": {
+            "image_id": "IMG_martorell3_jpg_45f1",
+            "json_id": "JSON_IMG_martorell3_jpg_45f1_gpt_5_5_04291226",
+            "timestamp": "2026-04-29 12:26:42"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea corporis",
+        "Distribution": [
+            "Cẳng tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Trung tâm nhạt"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Bờ gồ",
+            "Viền vảy"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tincorp9_jpg_92f4",
+            "json_id": "JSON_IMG_tincorp9_jpg_92f4_gpt_5_5_04272111",
+            "timestamp": "2026-04-27 21:11:49"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pediculosis capitis",
+        "Distribution": [
+            "Da đầu",
+            "Đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng bạc",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Vảy rải rác"
+        ],
+        "_metadata": {
+            "image_id": "IMG_11_jpg_79e8",
+            "json_id": "JSON_IMG_11_jpg_79e8_gpt_5_5_04281743",
+            "timestamp": "2026-04-28 17:43:25"
+        }
+    }
+}

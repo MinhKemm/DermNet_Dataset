@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pediculosis capitis",
+        "Distribution": [
+            "Da đầu",
+            "Rìa chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mỡ",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nits_dermatitis_jpg_28d4",
+            "json_id": "JSON_IMG_nits_dermatitis_jpg_28d4_gpt_5_5_04281741",
+            "timestamp": "2026-04-28 17:41:38"
+        }
+    }
+}

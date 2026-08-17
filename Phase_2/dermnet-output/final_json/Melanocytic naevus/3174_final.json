@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical melanocytic naevus",
+        "Distribution": [
+            "Vùng da",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn cuống",
+            "Nốt gồ"
+        ],
+        "Colour": [
+            "Hồng da",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Chia thùy",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt sần",
+            "Dạng cuống"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3174_jpg_ce2e",
+            "json_id": "JSON_IMG_3174_jpg_ce2e_gpt_5_5_04291159",
+            "timestamp": "2026-04-29 11:59:41"
+        }
+    }
+}

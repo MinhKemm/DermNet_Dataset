@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scurvy",
+        "Distribution": [
+            "Mu bàn tay",
+            "Khớp ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn dẹt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da nhăn",
+            "Teo da",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_2f42",
+            "json_id": "JSON_IMG_06_jpg_2f42_gpt_5_5_04280745",
+            "timestamp": "2026-04-28 07:45:49"
+        }
+    }
+}

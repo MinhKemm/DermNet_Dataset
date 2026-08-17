@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pretibial myxoedema",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Nốt đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sưng nề nhẹ",
+            "Bề mặt trơn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_25_jpg_86dc",
+            "json_id": "JSON_IMG_25_jpg_86dc_gpt_5_5_04281253",
+            "timestamp": "2026-04-28 12:53:09"
+        }
+    }
+}

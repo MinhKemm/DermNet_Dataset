@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Gót chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng tăng sừng",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Bờ không đều"
+        ],
+        "Characteristics": [
+            "Vảy dày",
+            "Dày sừng",
+            "Nứt nẻ",
+            "Mài vàng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_5a32",
+            "json_id": "JSON_IMG_05_jpg_5a32_gpt_5_5_04281308",
+            "timestamp": "2026-04-28 13:08:39"
+        }
+    }
+}

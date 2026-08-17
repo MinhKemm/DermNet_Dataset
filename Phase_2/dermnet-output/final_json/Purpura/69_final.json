@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Henoch–Schönlein purpura",
+        "Distribution": [
+            "Chi dưới",
+            "Đùi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hoại tử",
+            "Loét da",
+            "Mảng xuất huyết"
+        ],
+        "Colour": [
+            "Đen",
+            "Tím đen",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Vảy tiết máu",
+            "Trợt da",
+            "Bong da",
+            "Mô hoại tử"
+        ],
+        "_metadata": {
+            "image_id": "IMG_69_jpg_1bf3",
+            "json_id": "JSON_IMG_69_jpg_1bf3_gpt_5_5_04281026",
+            "timestamp": "2026-04-28 10:26:15"
+        }
+    }
+}

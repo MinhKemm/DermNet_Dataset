@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kerion",
+        "Distribution": [
+            "Trán",
+            "Quanh mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy trắng",
+            "Đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_kerion02_jpg_e95e",
+            "json_id": "JSON_IMG_kerion02_jpg_e95e_gpt_5_5_04291449",
+            "timestamp": "2026-04-29 14:49:48"
+        }
+    }
+}

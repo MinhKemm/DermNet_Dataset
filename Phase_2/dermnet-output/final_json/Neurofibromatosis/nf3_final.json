@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Neurofibromatosis",
+        "Distribution": [
+            "Nách",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Dày da"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhung",
+            "Nếp da rõ",
+            "Da dày"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nf3_jpg_da24",
+            "json_id": "JSON_IMG_nf3_jpg_da24_gpt_5_5_04290743",
+            "timestamp": "2026-04-29 07:43:20"
+        }
+    }
+}

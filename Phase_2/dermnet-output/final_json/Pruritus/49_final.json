@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Thân mình",
+            "Vùng lưng dưới",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Vết trợt nhỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Trầy xước",
+            "Chấm xuất huyết nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_49_jpg_cb2e",
+            "json_id": "JSON_IMG_49_jpg_cb2e_gpt_5_5_04281143",
+            "timestamp": "2026-04-28 11:43:50"
+        }
+    }
+}

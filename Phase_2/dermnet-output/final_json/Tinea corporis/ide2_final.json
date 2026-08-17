@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea corporis",
+        "Distribution": [
+            "Đầu gối",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Mảng sẩn"
+        ],
+        "Colour": [
+            "Màu da",
+            "Trắng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt sần",
+            "Vảy mịn",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ide2_jpg_cba7",
+            "json_id": "JSON_IMG_ide2_jpg_cba7_gpt_5_5_04272118",
+            "timestamp": "2026-04-27 21:18:51"
+        }
+    }
+}

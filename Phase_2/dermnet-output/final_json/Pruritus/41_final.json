@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Ngực trước",
+            "Vùng cổ",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng dát hồng ban",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Vảy phấn",
+            "Trầy xước nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_41_jpg_d30c",
+            "json_id": "JSON_IMG_41_jpg_d30c_gpt_5_5_04281146",
+            "timestamp": "2026-04-28 11:46:14"
+        }
+    }
+}

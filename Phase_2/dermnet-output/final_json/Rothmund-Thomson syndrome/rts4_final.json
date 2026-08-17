@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rothmund-Thomson syndrome",
+        "Distribution": [
+            "Ngực",
+            "Bụng",
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Không đều"
+        ],
+        "_metadata": {
+            "image_id": "IMG_rts4_jpg_723a",
+            "json_id": "JSON_IMG_rts4_jpg_723a_gpt_5_5_04280823",
+            "timestamp": "2026-04-28 08:23:18"
+        }
+    }
+}

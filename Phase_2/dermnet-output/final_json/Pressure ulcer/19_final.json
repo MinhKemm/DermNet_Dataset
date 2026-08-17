@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Vùng rốn",
+            "Bụng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt đỏ",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Dịch tiết vàng",
+            "Đóng mài",
+            "Quầng đỏ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_19_jpg_d5d5",
+            "json_id": "JSON_IMG_19_jpg_d5d5_gpt_5_5_04281303",
+            "timestamp": "2026-04-28 13:03:05"
+        }
+    }
+}

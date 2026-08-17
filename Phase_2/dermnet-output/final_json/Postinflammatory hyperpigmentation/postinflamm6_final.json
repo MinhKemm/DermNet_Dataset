@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Postinflammatory hyperpigmentation",
+        "Distribution": [
+            "Lưng trên",
+            "Vai",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Đốm tăng sắc tố",
+            "Mảng tăng sắc tố",
+            "Mảng teo da"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Dạng lưới"
+        ],
+        "Characteristics": [
+            "Da nhăn",
+            "Teo da",
+            "Chấm sắc tố",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_postinflamm6_jpg_d665",
+            "json_id": "JSON_IMG_postinflamm6_jpg_d665_gpt_5_5_04281310",
+            "timestamp": "2026-04-28 13:10:18"
+        }
+    }
+}

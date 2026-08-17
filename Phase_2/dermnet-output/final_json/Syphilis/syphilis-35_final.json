@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Vết trợt",
+            "Mảng hồng ban",
+            "Loét nông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đen",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bờ vòng",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy viền",
+            "Mài tiết",
+            "Bong vảy mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_35_jpg_d65e",
+            "json_id": "JSON_IMG_syphilis_35_jpg_d65e_gpt_5_5_04272258",
+            "timestamp": "2026-04-27 22:58:39"
+        }
+    }
+}

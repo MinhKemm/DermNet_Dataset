@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kerion",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng loét",
+            "Sẩn trợt"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Hồng đỏ",
+            "Vàng nâu",
+            "Đen"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Vảy trắng",
+            "Trợt da",
+            "Loét nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_kerion10_jpg_70aa",
+            "json_id": "JSON_IMG_kerion10_jpg_70aa_gpt_5_5_04291448",
+            "timestamp": "2026-04-29 14:48:04"
+        }
+    }
+}

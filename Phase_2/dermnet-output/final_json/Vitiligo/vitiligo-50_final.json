@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Vùng thân mình",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Đốm giảm sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Nâu nền"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Bờ mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt phẳng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_50_jpg_eed7",
+            "json_id": "JSON_IMG_vitiligo_50_jpg_eed7_gpt_5_5_04271833",
+            "timestamp": "2026-04-27 18:33:48"
+        }
+    }
+}

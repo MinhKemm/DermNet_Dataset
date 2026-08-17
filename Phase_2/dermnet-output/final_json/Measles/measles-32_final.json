@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Measles",
+        "Distribution": [
+            "Da có lông",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Sẩn trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Chấm trợt",
+            "Vảy tiết nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_measles_32_jpg_ffe2",
+            "json_id": "JSON_IMG_measles_32_jpg_ffe2_gpt_5_5_04291220",
+            "timestamp": "2026-04-29 12:20:52"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kyrle disease",
+        "Distribution": [
+            "Cẳng chân",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Đỏ hồng",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Lõm trung tâm",
+            "Vảy tiết",
+            "Sẹo thâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_kyrle_disease_0002_jpg_a963",
+            "json_id": "JSON_IMG_kyrle_disease_0002_jpg_a963_gpt_5_5_04291446",
+            "timestamp": "2026-04-29 14:46:19"
+        }
+    }
+}

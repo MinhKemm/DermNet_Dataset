@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Móng tay",
+            "Đầu xa móng",
+            "Hai móng"
+        ],
+        "Lesion_Type": [
+            "Dát sắc tố",
+            "Mảng sắc tố"
+        ],
+        "Colour": [
+            "Đen",
+            "Nâu đỏ",
+            "Tím đen"
+        ],
+        "Shape": [
+            "Dải dọc",
+            "Mảng ngang",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Đốm đen nhỏ",
+            "Vệt xuất huyết",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_dithranol_stained_nail_jpg_6a9e",
+            "json_id": "JSON_IMG_dithranol_stained_nail_jpg_6a9e_gpt_5_5_04291110",
+            "timestamp": "2026-04-29 11:10:33"
+        }
+    }
+}

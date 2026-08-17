@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Móng tay",
+            "Nhiều ngón",
+            "Hai bàn tay"
+        ],
+        "Lesion_Type": [
+            "Móng tay khum",
+            "Đầu ngón phình"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Cong lồi",
+            "Hình vòm",
+            "Góc móng tù"
+        ],
+        "Characteristics": [
+            "Mất góc móng",
+            "Dày mô quanh móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_laugier_hunziker_syndrome_0019_jpg_4aac",
+            "json_id": "JSON_IMG_laugier_hunziker_syndrome_0019_jpg_4aac_gpt_5_5_04291108",
+            "timestamp": "2026-04-29 11:08:12"
+        }
+    }
+}

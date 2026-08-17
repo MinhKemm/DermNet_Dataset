@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Acral lentiginous melanoma",
+        "Distribution": [
+            "Vùng da",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt dạng vòm",
+            "Sẩn bóng"
+        ],
+        "Colour": [
+            "Trắng ngọc trai",
+            "Hồng nhạt",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Bờ gồ",
+            "Viền đỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_desmoplastic_melanoma_1_jpg_1865",
+            "json_id": "JSON_IMG_desmoplastic_melanoma_1_jpg_1865_gpt_5_5_04291133",
+            "timestamp": "2026-04-29 11:33:42"
+        }
+    }
+}

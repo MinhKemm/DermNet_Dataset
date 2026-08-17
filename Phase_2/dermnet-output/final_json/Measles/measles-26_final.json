@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Measles",
+        "Distribution": [
+            "Mặt",
+            "Hai má",
+            "Quanh miệng",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Khô da",
+            "Bong vảy mịn",
+            "Nứt nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_measles_26_jpg_5190",
+            "json_id": "JSON_IMG_measles_26_jpg_5190_gpt_5_5_04291222",
+            "timestamp": "2026-04-29 12:22:29"
+        }
+    }
+}

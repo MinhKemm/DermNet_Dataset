@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Molluscum contagiosum",
+        "Distribution": [
+            "Mi mắt",
+            "Quanh mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trong bóng"
+        ],
+        "Shape": [
+            "Hình cụm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Mụn nước thành chùm",
+            "Nền đỏ",
+            "Phù nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_molluscum06_jpg_4231",
+            "json_id": "JSON_IMG_molluscum06_jpg_4231_gpt_5_5_04291002",
+            "timestamp": "2026-04-29 10:02:11"
+        }
+    }
+}

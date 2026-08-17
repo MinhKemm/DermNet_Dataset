@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral candidiasis",
+        "Distribution": [
+            "Vùng ria mép",
+            "Môi trên",
+            "Quanh miệng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mụn nước vỡ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng mật ong",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Đóng mài",
+            "Nứt kẽ",
+            "Rỉ dịch"
+        ],
+        "_metadata": {
+            "image_id": "IMG_candida_barbae_18_jpg_a15d",
+            "json_id": "JSON_IMG_candida_barbae_18_jpg_a15d_gpt_5_5_04282042",
+            "timestamp": "2026-04-28 20:42:50"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Malignant atrophic papulosis",
+        "Distribution": [
+            "Lưng",
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Sẩn lõm giữa",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng ngà",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Kích thước nhỏ"
+        ],
+        "Characteristics": [
+            "Lõm giữa",
+            "Quầng đỏ",
+            "Đóng mài nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_degos2_jpg_169e",
+            "json_id": "JSON_IMG_degos2_jpg_169e_gpt_5_5_04291232",
+            "timestamp": "2026-04-29 12:32:31"
+        }
+    }
+}

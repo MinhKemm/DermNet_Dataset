@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Onychogryphosis",
+        "Distribution": [
+            "Móng chân",
+            "Nhiều ngón",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Móng dày",
+            "Móng biến dạng",
+            "Tách móng"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Xanh lục",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Bề mặt gồ ghề",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Vụn móng",
+            "Móng giòn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_bdc1",
+            "json_id": "JSON_IMG_03_jpg_bdc1_gpt_5_5_04282129",
+            "timestamp": "2026-04-28 21:29:19"
+        }
+    }
+}

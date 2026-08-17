@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Mặt trong đùi",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Đám hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ cam"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Hình vòng",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Bờ gồ nhẹ",
+            "Trung tâm nhạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_purpsimpl1_jpg_a5e5",
+            "json_id": "JSON_IMG_purpsimpl1_jpg_a5e5_gpt_5_5_04281622",
+            "timestamp": "2026-04-28 16:22:07"
+        }
+    }
+}

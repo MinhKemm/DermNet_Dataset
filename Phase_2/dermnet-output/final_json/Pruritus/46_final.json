@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Nếp gấp da",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Chấm xuất huyết",
+            "Ban xuất huyết",
+            "Mảng bầm"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ nâu",
+            "Tím sẫm"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dạng vệt",
+            "Chấm nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_46_jpg_0f6e",
+            "json_id": "JSON_IMG_46_jpg_0f6e_gpt_5_5_04281144",
+            "timestamp": "2026-04-28 11:44:46"
+        }
+    }
+}

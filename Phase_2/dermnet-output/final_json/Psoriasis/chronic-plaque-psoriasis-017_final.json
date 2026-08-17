@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erythrodermic psoriasis",
+        "Distribution": [
+            "Thân mình",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn mảng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm",
+            "Trắng bạc"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới rõ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy trắng",
+            "Vảy dày"
+        ],
+        "_metadata": {
+            "image_id": "IMG_chronic_plaque_psoriasis_017_jpg_6cb9",
+            "json_id": "JSON_IMG_chronic_plaque_psoriasis_017_jpg_6cb9_gpt_5_5_04281113",
+            "timestamp": "2026-04-28 11:13:10"
+        }
+    }
+}

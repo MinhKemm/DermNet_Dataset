@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Benign hereditary telangiectasia",
+        "Distribution": [
+            "Mi mắt trên",
+            "Quanh mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Khô da",
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_steroid_telangiectasia2_jpg_4923",
+            "json_id": "JSON_IMG_steroid_telangiectasia2_jpg_4923_gpt_5_5_04272139",
+            "timestamp": "2026-04-27 21:39:57"
+        }
+    }
+}

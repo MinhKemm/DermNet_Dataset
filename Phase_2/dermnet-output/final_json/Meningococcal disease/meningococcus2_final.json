@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Meningococcal disease",
+        "Distribution": [
+            "Hai chi dưới",
+            "Đối xứng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Chấm xuất huyết",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ cam",
+            "Đỏ tím",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Hình tròn nhỏ"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Da căng bóng",
+            "Xuất huyết dạng chấm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_meningococcus2_jpg_b095",
+            "json_id": "JSON_IMG_meningococcus2_jpg_b095_gpt_5_5_04291047",
+            "timestamp": "2026-04-29 10:47:19"
+        }
+    }
+}

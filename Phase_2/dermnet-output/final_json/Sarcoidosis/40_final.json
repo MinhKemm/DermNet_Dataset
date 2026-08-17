@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Quanh mắt",
+            "Mí trên",
+            "Mí dưới",
+            "Tập trung"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Sẩn hình vòm"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Lõm giữa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_40_jpg_0d21",
+            "json_id": "JSON_IMG_40_jpg_0d21_gpt_5_5_04280807",
+            "timestamp": "2026-04-28 08:07:44"
+        }
+    }
+}

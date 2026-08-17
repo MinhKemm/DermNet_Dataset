@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilar cyst",
+        "Distribution": [
+            "Má",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Nền đỏ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cyst18_jpg_3af8",
+            "json_id": "JSON_IMG_cyst18_jpg_3af8_gpt_5_5_04281615",
+            "timestamp": "2026-04-28 16:15:13"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sebaceous carcinoma",
+        "Distribution": [
+            "Nếp gấp da",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng thâm nhiễm"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Da dày",
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_eb4f",
+            "json_id": "JSON_IMG_04_jpg_eb4f_gpt_5_5_04280743",
+            "timestamp": "2026-04-28 07:43:01"
+        }
+    }
+}

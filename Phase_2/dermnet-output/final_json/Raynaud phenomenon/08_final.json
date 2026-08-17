@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Raynaud phenomenon",
+        "Distribution": [
+            "Da dưới đèn",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng phát quang",
+            "Dải phát quang"
+        ],
+        "Colour": [
+            "Xanh lam",
+            "Xanh lục",
+            "Vàng sáng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phát quang mạnh",
+            "Nền tối"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_8285",
+            "json_id": "JSON_IMG_08_jpg_8285_gpt_5_5_04280923",
+            "timestamp": "2026-04-28 09:23:02"
+        }
+    }
+}

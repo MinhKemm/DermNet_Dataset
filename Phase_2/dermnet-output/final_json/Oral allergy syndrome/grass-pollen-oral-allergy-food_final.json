@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral allergy syndrome",
+        "Distribution": [
+            "Trên mặt phẳng",
+            "Rời rạc"
+        ],
+        "Lesion_Type": [
+            "Không tổn thương",
+            "Vật thể thực phẩm"
+        ],
+        "Colour": [
+            "Đỏ",
+            "Cam",
+            "Xanh lục",
+            "Nâu",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Vỏ sần",
+            "Nhãn dán"
+        ],
+        "_metadata": {
+            "image_id": "IMG_grass_pollen_oral_allergy_food_jpg_fe76",
+            "json_id": "JSON_IMG_grass_pollen_oral_allergy_food_jpg_fe76_gpt_5_5_04282048",
+            "timestamp": "2026-04-28 20:48:31"
+        }
+    }
+}

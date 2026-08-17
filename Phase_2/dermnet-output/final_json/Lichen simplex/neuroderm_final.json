@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Đùi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy tiết",
+            "Chấm xuất huyết",
+            "Vết gãi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_neuroderm_jpg_6573",
+            "json_id": "JSON_IMG_neuroderm_jpg_6573_gpt_5_5_04291254",
+            "timestamp": "2026-04-29 12:54:48"
+        }
+    }
+}

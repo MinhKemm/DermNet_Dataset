@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilomatricoma",
+        "Distribution": [
+            "Da có lông",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "U dạng vòm"
+        ],
+        "Colour": [
+            "Hồng bóng",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Gồ cao"
+        ],
+        "Characteristics": [
+            "Căng bóng",
+            "Trợt nông",
+            "Vảy mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_4c51",
+            "json_id": "JSON_IMG_01_jpg_4c51_gpt_5_5_04281607",
+            "timestamp": "2026-04-28 16:07:29"
+        }
+    }
+}

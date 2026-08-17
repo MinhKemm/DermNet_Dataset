@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Swimmer_s itch",
+        "Distribution": [
+            "Thân mình",
+            "Mạn sườn",
+            "Rải rác",
+            "Tập trung cụm"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn nước nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Quầng đỏ",
+            "Đóng mài nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_swimmer1_jpg_6497",
+            "json_id": "JSON_IMG_swimmer1_jpg_6497_gpt_5_5_04272326",
+            "timestamp": "2026-04-27 23:26:19"
+        }
+    }
+}

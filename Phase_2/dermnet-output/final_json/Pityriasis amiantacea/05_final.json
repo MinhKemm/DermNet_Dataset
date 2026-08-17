@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis amiantacea",
+        "Distribution": [
+            "Da đầu",
+            "Thân tóc",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Trứng chấy",
+            "Hạt bám"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Thuôn dài"
+        ],
+        "Characteristics": [
+            "Bám chặt",
+            "Nhiều hạt nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_d3d1",
+            "json_id": "JSON_IMG_05_jpg_d3d1_gpt_5_5_04281553",
+            "timestamp": "2026-04-28 15:53:49"
+        }
+    }
+}

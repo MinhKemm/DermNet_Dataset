@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Niêm mạc má",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Dải trắng"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Hồng đỏ"
+        ],
+        "Shape": [
+            "Dạng lưới",
+            "Dạng vân",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Vệt trắng mảnh",
+            "Bề mặt ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3097_jpg_654c",
+            "json_id": "JSON_IMG_3097_jpg_654c_gpt_5_5_04291355",
+            "timestamp": "2026-04-29 13:55:31"
+        }
+    }
+}

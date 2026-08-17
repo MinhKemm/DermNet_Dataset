@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Neonatal lupus",
+        "Distribution": [
+            "Da đầu",
+            "Vùng thái dương",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Trung tâm nhạt màu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lupus_neon2_s_jpg_93d8",
+            "json_id": "JSON_IMG_lupus_neon2_s_jpg_93d8_gpt_5_5_04290755",
+            "timestamp": "2026-04-29 07:55:47"
+        }
+    }
+}

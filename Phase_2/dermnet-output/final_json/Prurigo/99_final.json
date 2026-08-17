@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Cẳng tay",
+            "Mặt duỗi",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng trắng",
+            "Mảng teo da"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Hồng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Teo da",
+            "Lõm da",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_99_jpg_e97d",
+            "json_id": "JSON_IMG_99_jpg_e97d_gpt_5_5_04281202",
+            "timestamp": "2026-04-28 12:02:57"
+        }
+    }
+}

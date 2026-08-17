@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tuberous sclerosis",
+        "Distribution": [
+            "Mũi",
+            "Má",
+            "Rãnh mũi má",
+            "Khu trú vùng mặt"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ",
+            "Nốt gồ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Giãn mạch",
+            "Da dày",
+            "Lỗ chân lông to",
+            "Bề mặt sần sùi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tuberous_sclerosis22_jpg_1faf",
+            "json_id": "JSON_IMG_tuberous_sclerosis22_jpg_1faf_gpt_5_5_04272001",
+            "timestamp": "2026-04-27 20:01:00"
+        }
+    }
+}

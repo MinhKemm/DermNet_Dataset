@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Lòng bàn tay",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Sẩn tăng sừng",
+            "Nốt sừng"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt sần sùi",
+            "Tăng sừng",
+            "Chấm đen"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf20_jpg_7444",
+            "json_id": "JSON_IMG_orf20_jpg_7444_gpt_5_5_04282003",
+            "timestamp": "2026-04-28 20:03:28"
+        }
+    }
+}

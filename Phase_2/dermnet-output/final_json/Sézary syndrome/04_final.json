@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sézary syndrome",
+        "Distribution": [
+            "Vùng quanh mắt",
+            "Mí mắt",
+            "Một bên"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sưng nề",
+            "Đóng mày",
+            "Vết trợt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_3df2",
+            "json_id": "JSON_IMG_04_jpg_3df2_gpt_5_5_04280029",
+            "timestamp": "2026-04-28 00:29:38"
+        }
+    }
+}

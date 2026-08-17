@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kerion",
+        "Distribution": [
+            "Má bên",
+            "Vùng râu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng loét",
+            "Nốt sùi"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ gồ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Vảy tiết",
+            "Loét trợt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_kerion_01_jpg_5a48",
+            "json_id": "JSON_IMG_kerion_01_jpg_5a48_gpt_5_5_04291450",
+            "timestamp": "2026-04-29 14:50:27"
+        }
+    }
+}

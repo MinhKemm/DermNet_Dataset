@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Necrolytic migratory erythema",
+        "Distribution": [
+            "Quanh miệng",
+            "Quanh mũi",
+            "Cằm",
+            "Má"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt",
+            "Sẩn viêm",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Đóng mày",
+            "Trợt da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_3efd",
+            "json_id": "JSON_IMG_01_jpg_3efd_gpt_5_5_04290814",
+            "timestamp": "2026-04-29 08:14:29"
+        }
+    }
+}

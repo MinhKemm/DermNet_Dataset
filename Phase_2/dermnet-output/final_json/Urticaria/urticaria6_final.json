@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Cold urticaria",
+        "Distribution": [
+            "Vai",
+            "Lưng trên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Dát đỏ rải rác"
+        ],
+        "_metadata": {
+            "image_id": "IMG_urticaria6_jpg_fda6",
+            "json_id": "JSON_IMG_urticaria6_jpg_fda6_gpt_5_5_04271944",
+            "timestamp": "2026-04-27 19:44:22"
+        }
+    }
+}

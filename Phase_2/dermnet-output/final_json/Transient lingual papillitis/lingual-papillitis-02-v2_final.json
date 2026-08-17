@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Transient lingual papillitis",
+        "Distribution": [
+            "Lan tỏa",
+            "Mặt lưng lưỡi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Hồng đỏ"
+        ],
+        "Shape": [
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Lớp phủ trắng",
+            "Gai nổi rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lingual_papillitis_02_v2_jpg_1648",
+            "json_id": "JSON_IMG_lingual_papillitis_02_v2_jpg_1648_gpt_5_5_04272034",
+            "timestamp": "2026-04-27 20:34:41"
+        }
+    }
+}

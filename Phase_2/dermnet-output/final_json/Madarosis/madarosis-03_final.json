@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Madarosis",
+        "Distribution": [
+            "Mí mắt trên",
+            "Quanh mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Phù nề"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Khô da",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_madarosis_03_jpg_071f",
+            "json_id": "JSON_IMG_madarosis_03_jpg_071f_gpt_5_5_04291240",
+            "timestamp": "2026-04-29 12:40:52"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Reed syndrome",
+        "Distribution": [
+            "Cẳng tay",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Chấm hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Nang lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leiomyomatosis_2_jpg_1cf7",
+            "json_id": "JSON_IMG_leiomyomatosis_2_jpg_1cf7_gpt_5_5_04280916",
+            "timestamp": "2026-04-28 09:16:48"
+        }
+    }
+}

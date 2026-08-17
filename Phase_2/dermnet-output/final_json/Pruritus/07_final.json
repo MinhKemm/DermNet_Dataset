@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Lưng",
+            "Thân mình",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Trợt xước",
+            "Vảy tiết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_ec0b",
+            "json_id": "JSON_IMG_07_jpg_ec0b_gpt_5_5_04281156",
+            "timestamp": "2026-04-28 11:56:24"
+        }
+    }
+}

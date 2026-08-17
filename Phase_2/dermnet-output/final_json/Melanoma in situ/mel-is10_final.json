@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Da thân mình",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng sắc tố",
+            "Sẩn gồ"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Đỏ nâu",
+            "Đen"
+        ],
+        "Shape": [
+            "Bất đối xứng",
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Đóng vảy",
+            "Bề mặt bóng",
+            "Loét trợt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mel_is10_jpg_8724",
+            "json_id": "JSON_IMG_mel_is10_jpg_8724_gpt_5_5_04291119",
+            "timestamp": "2026-04-29 11:19:38"
+        }
+    }
+}

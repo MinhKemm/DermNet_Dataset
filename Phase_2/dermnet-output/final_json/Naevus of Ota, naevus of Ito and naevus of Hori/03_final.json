@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Naevus of Ota, naevus of Ito and naevus of Hori",
+        "Distribution": [
+            "Quanh mắt",
+            "Mi trên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Dát sắc tố"
+        ],
+        "Colour": [
+            "Xanh xám",
+            "Xanh đen",
+            "Nâu xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phẳng",
+            "Lốm đốm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_2c45",
+            "json_id": "JSON_IMG_03_jpg_2c45_gpt_5_5_04290834",
+            "timestamp": "2026-04-29 08:34:46"
+        }
+    }
+}

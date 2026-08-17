@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Keratosis pilaris",
+        "Distribution": [
+            "Mi trên",
+            "Dưới lông mày",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình vòng cung",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3014_jpg_2644",
+            "json_id": "JSON_IMG_3014_jpg_2644_gpt_5_5_04291504",
+            "timestamp": "2026-04-29 15:04:06"
+        }
+    }
+}

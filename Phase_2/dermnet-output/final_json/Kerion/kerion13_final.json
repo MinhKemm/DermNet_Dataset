@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kerion",
+        "Distribution": [
+            "Da đầu",
+            "Đỉnh đầu",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng vảy tiết",
+            "Mảng đóng mài"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Mờ ranh giới"
+        ],
+        "Characteristics": [
+            "Vảy dày",
+            "Mài tiết",
+            "Tóc thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_kerion13_jpg_bd17",
+            "json_id": "JSON_IMG_kerion13_jpg_bd17_gpt_5_5_04291447",
+            "timestamp": "2026-04-29 14:47:21"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Systemic sclerosis",
+        "Distribution": [
+            "Cổ chân",
+            "Mắt cá chân",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn loét",
+            "Vết trợt",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đen",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Vảy tiết",
+            "Trung tâm hoại tử"
+        ],
+        "_metadata": {
+            "image_id": "IMG_16_jpg_720f",
+            "json_id": "JSON_IMG_16_jpg_720f_gpt_5_5_04272223",
+            "timestamp": "2026-04-27 22:23:59"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Venous eczema",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng dày da",
+            "Mảng tăng sắc tố",
+            "Sẩn"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Nâu sẫm",
+            "Hồng tím"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Da dày",
+            "Bong vảy",
+            "Đóng mày",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lds2_jpg_ce2f",
+            "json_id": "JSON_IMG_lds2_jpg_ce2f_gpt_5_5_04271907",
+            "timestamp": "2026-04-27 19:07:15"
+        }
+    }
+}

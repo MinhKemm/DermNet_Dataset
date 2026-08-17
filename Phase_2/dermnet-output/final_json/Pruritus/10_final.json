@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Vùng da",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn lõm giữa",
+            "Sẩn hồng"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Nút sừng",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_10_jpg_5dc2",
+            "json_id": "JSON_IMG_10_jpg_5dc2_gpt_5_5_04281155",
+            "timestamp": "2026-04-28 11:55:30"
+        }
+    }
+}

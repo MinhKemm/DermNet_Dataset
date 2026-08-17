@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Piezogenic papules",
+        "Distribution": [
+            "Gót chân",
+            "Vùng gân gót",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Nốt dưới da",
+            "Mảng dày da"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Nâu tím",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Gồ cao",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Da căng bóng",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_EDS_molluscoid_pseudotumours_001_jpg_05fc",
+            "json_id": "JSON_IMG_EDS_molluscoid_pseudotumours_001_jpg_05fc_gpt_5_5_04281639",
+            "timestamp": "2026-04-28 16:39:50"
+        }
+    }
+}

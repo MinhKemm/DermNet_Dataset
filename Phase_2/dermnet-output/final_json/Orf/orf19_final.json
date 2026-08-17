@@ -1,0 +1,40 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Mu bàn tay",
+            "Ngón tay",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mụn mủ",
+            "Bọng nước",
+            "Sẩn đỏ",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Vàng trắng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Loét nông",
+            "Dịch mủ",
+            "Bóng căng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf19_jpg_93ca",
+            "json_id": "JSON_IMG_orf19_jpg_93ca_gpt_5_5_04282004",
+            "timestamp": "2026-04-28 20:04:01"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Mặt duỗi gối",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Sẩn nang lông"
+        ],
+        "Colour": [
+            "Nâu da",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Khô da",
+            "Sần da",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_17_jpg_ce9d",
+            "json_id": "JSON_IMG_17_jpg_ce9d_gpt_5_5_04281230",
+            "timestamp": "2026-04-28 12:30:34"
+        }
+    }
+}

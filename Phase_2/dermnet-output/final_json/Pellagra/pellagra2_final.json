@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pellagra",
+        "Distribution": [
+            "Vùng cổ",
+            "Nếp gấp cổ",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng dày da"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Dải dài",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhung",
+            "Dày da",
+            "Nếp da nổi rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pellagra2_jpg_ef44",
+            "json_id": "JSON_IMG_pellagra2_jpg_ef44_gpt_5_5_04281738",
+            "timestamp": "2026-04-28 17:38:00"
+        }
+    }
+}

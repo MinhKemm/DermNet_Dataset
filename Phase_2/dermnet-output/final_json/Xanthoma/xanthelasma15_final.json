@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical fibroxanthoma",
+        "Distribution": [
+            "Mi dưới",
+            "Quanh mắt",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Sẩn phẳng"
+        ],
+        "Colour": [
+            "Vàng nhạt",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Cụm nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_xanthelasma15_jpg_4a8a",
+            "json_id": "JSON_IMG_xanthelasma15_jpg_4a8a_gpt_5_5_04271722",
+            "timestamp": "2026-04-27 17:22:23"
+        }
+    }
+}

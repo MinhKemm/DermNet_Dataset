@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rheumatic fever",
+        "Distribution": [
+            "Vùng thân mình",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Chấm đỏ nang lông",
+            "Vảy mịn mờ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_e_marginatum3_jpg_776d",
+            "json_id": "JSON_IMG_e_marginatum3_jpg_776d_gpt_5_5_04280909",
+            "timestamp": "2026-04-28 09:09:04"
+        }
+    }
+}

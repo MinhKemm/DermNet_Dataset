@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Thân mình",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt tăng sắc tố",
+            "Khối gồ cao"
+        ],
+        "Colour": [
+            "Tím đen",
+            "Đen xanh",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất đối xứng",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Bờ không đều",
+            "Không đồng nhất"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nm3_jpg_a998",
+            "json_id": "JSON_IMG_nm3_jpg_a998_gpt_5_5_04290719",
+            "timestamp": "2026-04-29 07:19:15"
+        }
+    }
+}

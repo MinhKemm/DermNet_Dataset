@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rosacea",
+        "Distribution": [
+            "Vùng quanh mắt",
+            "Má",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Teo da",
+            "Giãn mạch"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3607_jpg_8361",
+            "json_id": "JSON_IMG_3607_jpg_8361_gpt_5_5_04280851",
+            "timestamp": "2026-04-28 08:51:26"
+        }
+    }
+}

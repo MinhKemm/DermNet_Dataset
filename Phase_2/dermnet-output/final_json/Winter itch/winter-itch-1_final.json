@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Winter itch",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Đối xứng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình chấm",
+            "Nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vết gãi",
+            "Khô da",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_winter_itch_1_jpg_0b19",
+            "json_id": "JSON_IMG_winter_itch_1_jpg_0b19_gpt_5_5_04271749",
+            "timestamp": "2026-04-27 17:49:10"
+        }
+    }
+}

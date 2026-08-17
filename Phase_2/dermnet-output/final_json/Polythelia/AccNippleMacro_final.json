@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polythelia",
+        "Distribution": [
+            "Vùng da có lông",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt sẩn",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Hồng nâu",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Dạng vòm",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Lỗ nhỏ",
+            "Lông mọc xuyên qua"
+        ],
+        "_metadata": {
+            "image_id": "IMG_AccNippleMacro_jpg_8dd5",
+            "json_id": "JSON_IMG_AccNippleMacro_jpg_8dd5_gpt_5_5_04281331",
+            "timestamp": "2026-04-28 13:31:48"
+        }
+    }
+}

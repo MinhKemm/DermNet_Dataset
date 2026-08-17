@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Spider angioma",
+        "Distribution": [
+            "Vùng dưới mắt",
+            "Má",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Giãn mạch",
+            "Trợt nông",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_spider_ang2_jpg_cbb2",
+            "json_id": "JSON_IMG_spider_ang2_jpg_cbb2_gpt_5_5_04280008",
+            "timestamp": "2026-04-28 00:08:39"
+        }
+    }
+}

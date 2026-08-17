@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilomatricoma",
+        "Distribution": [
+            "Tụ thành cụm",
+            "Vùng mặt",
+            "Quanh mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mụn mủ",
+            "Mụn nước nhỏ"
+        ],
+        "Colour": [
+            "Trắng vàng",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ"
+        ],
+        "Characteristics": [
+            "Nền hồng ban",
+            "Bờ gồ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_0952",
+            "json_id": "JSON_IMG_06_jpg_0952_gpt_5_5_04281605",
+            "timestamp": "2026-04-28 16:05:26"
+        }
+    }
+}

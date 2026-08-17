@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Cẳng chân",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Dát xuất huyết",
+            "Mảng bầm tím"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím xanh",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Da teo",
+            "Vảy mịn",
+            "Xuất huyết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3109_jpg_ceb1",
+            "json_id": "JSON_IMG_3109_jpg_ceb1_gpt_5_5_04291351",
+            "timestamp": "2026-04-29 13:51:30"
+        }
+    }
+}

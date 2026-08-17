@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Postinflammatory hyperpigmentation",
+        "Distribution": [
+            "Má",
+            "Mặt",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng tăng sắc tố",
+            "Sẩn hồng"
+        ],
+        "Colour": [
+            "Nâu",
+            "Nâu sẫm",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Đa ổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_2aab",
+            "json_id": "JSON_IMG_02_jpg_2aab_gpt_5_5_04281516",
+            "timestamp": "2026-04-28 15:16:10"
+        }
+    }
+}

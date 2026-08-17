@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea capitis",
+        "Distribution": [
+            "Da đầu thái dương",
+            "Quanh tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Thưa tóc",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tinea_capitis_jpg_a096",
+            "json_id": "JSON_IMG_tinea_capitis_jpg_a096_gpt_5_5_04272122",
+            "timestamp": "2026-04-27 21:22:00"
+        }
+    }
+}

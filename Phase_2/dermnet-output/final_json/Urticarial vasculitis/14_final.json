@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Urticaria",
+        "Distribution": [
+            "Chi dưới",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dải hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Đa cung",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Trung tâm nhạt",
+            "Bờ đỏ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_14_jpg_dcd9",
+            "json_id": "JSON_IMG_14_jpg_dcd9_gpt_5_5_04271937",
+            "timestamp": "2026-04-27 19:37:49"
+        }
+    }
+}

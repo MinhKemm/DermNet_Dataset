@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ichthyosis",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng dày sừng",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Hồng nhạt",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy dày",
+            "Nứt nẻ",
+            "Vảy khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_946e",
+            "json_id": "JSON_IMG_05_jpg_946e_gpt_5_5_04280920",
+            "timestamp": "2026-04-28 09:20:08"
+        }
+    }
+}

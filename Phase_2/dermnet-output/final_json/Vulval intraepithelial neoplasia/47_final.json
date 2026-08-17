@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vulval intraepithelial neoplasia",
+        "Distribution": [
+            "Kẽ ngón chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Trắng đục",
+            "Hồng đỏ"
+        ],
+        "Shape": [
+            "Dạng đường cong",
+            "Bờ gồ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Da ẩm",
+            "Bợt trắng",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_47_jpg_cdf0",
+            "json_id": "JSON_IMG_47_jpg_cdf0_gpt_5_5_04271810",
+            "timestamp": "2026-04-27 18:10:56"
+        }
+    }
+}

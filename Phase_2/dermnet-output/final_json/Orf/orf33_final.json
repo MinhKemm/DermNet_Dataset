@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Mu bàn chân",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình vòng",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Trung tâm nhạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf33_jpg_90ce",
+            "json_id": "JSON_IMG_orf33_jpg_90ce_gpt_5_5_04281959",
+            "timestamp": "2026-04-28 19:59:21"
+        }
+    }
+}

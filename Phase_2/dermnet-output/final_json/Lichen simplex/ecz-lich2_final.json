@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Bìu",
+            "Dương vật",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng dày da",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Tím nâu",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Nếp da hằn",
+            "Bong vảy",
+            "Vảy trắng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ecz_lich2_jpg_0226",
+            "json_id": "JSON_IMG_ecz_lich2_jpg_0226_gpt_5_5_04291303",
+            "timestamp": "2026-04-29 13:03:56"
+        }
+    }
+}

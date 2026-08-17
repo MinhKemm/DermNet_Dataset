@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nummular eczematous dermatitis",
+        "Distribution": [
+            "Chi dưới",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn loét",
+            "Nốt loét",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Nâu đỏ",
+            "Đen nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mày",
+            "Vảy tiết",
+            "Trợt da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nummular_eczema73_jpg_b478",
+            "json_id": "JSON_IMG_nummular_eczema73_jpg_b478_gpt_5_5_04282200",
+            "timestamp": "2026-04-28 22:00:58"
+        }
+    }
+}

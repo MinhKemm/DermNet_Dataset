@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt hồng ban",
+            "Mảng gồ"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Vàng nâu",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Gồ cao"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Đóng mài",
+            "Tóc thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_amelanotic_melanoma_028_jpg_a850",
+            "json_id": "JSON_IMG_amelanotic_melanoma_028_jpg_a850_gpt_5_5_04291041",
+            "timestamp": "2026-04-29 10:41:21"
+        }
+    }
+}

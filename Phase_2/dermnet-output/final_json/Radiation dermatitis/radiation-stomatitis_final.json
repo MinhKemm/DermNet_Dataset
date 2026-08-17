@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Radiation dermatitis",
+        "Distribution": [
+            "Môi dưới",
+            "Niêm mạc miệng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Loét niêm mạc",
+            "Trợt niêm mạc",
+            "Mảng giả mạc"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Trắng vàng",
+            "Hồng đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Giả mạc",
+            "Dịch tiết",
+            "Bề mặt ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_radiation_stomatitis_jpg_842b",
+            "json_id": "JSON_IMG_radiation_stomatitis_jpg_842b_gpt_5_5_04280935",
+            "timestamp": "2026-04-28 09:35:14"
+        }
+    }
+}

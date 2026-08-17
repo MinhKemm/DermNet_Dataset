@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Cằm",
+            "Quanh miệng",
+            "Hai bên mặt",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Đốm tăng sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Nâu nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Loang lổ",
+            "Lông râu thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_24_jpg_44b3",
+            "json_id": "JSON_IMG_vitiligo_24_jpg_44b3_gpt_5_5_04271843",
+            "timestamp": "2026-04-27 18:43:27"
+        }
+    }
+}

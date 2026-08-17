@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Morbilliform drug reaction",
+        "Distribution": [
+            "Bụng dưới",
+            "Quanh rốn",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Đỏ hồng",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Loang lổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_morbilliform3_jpg_e62b",
+            "json_id": "JSON_IMG_morbilliform3_jpg_e62b_gpt_5_5_04290944",
+            "timestamp": "2026-04-29 09:44:09"
+        }
+    }
+}

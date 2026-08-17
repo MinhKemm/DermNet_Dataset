@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Cẳng tay",
+            "Mặt duỗi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng nhạt",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da teo",
+            "Khô da",
+            "Đốm xuất huyết",
+            "Lông thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_itchy_skin_14_jpg_73e8",
+            "json_id": "JSON_IMG_itchy_skin_14_jpg_73e8_gpt_5_5_04291302",
+            "timestamp": "2026-04-29 13:02:54"
+        }
+    }
+}

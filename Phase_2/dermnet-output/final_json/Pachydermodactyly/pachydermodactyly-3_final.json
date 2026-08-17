@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pachydermodactyly",
+        "Distribution": [
+            "Mu bàn tay",
+            "Khớp ngón tay",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím nhạt"
+        ],
+        "Shape": [
+            "Dẹt",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sưng nhẹ",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pachydermodactyly_3_jpg_8dab",
+            "json_id": "JSON_IMG_pachydermodactyly_3_jpg_8dab_gpt_5_5_04281943",
+            "timestamp": "2026-04-28 19:43:07"
+        }
+    }
+}

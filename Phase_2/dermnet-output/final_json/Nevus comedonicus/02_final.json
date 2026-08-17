@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nevus comedonicus",
+        "Distribution": [
+            "Thân mình",
+            "Khu trú",
+            "Tập trung"
+        ],
+        "Lesion_Type": [
+            "Sẩn bóng",
+            "Sẩn lõm rốn"
+        ],
+        "Colour": [
+            "Màu da",
+            "Trắng ngà",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Trung tâm lõm"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Lõm rốn",
+            "Mài nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_7fc5",
+            "json_id": "JSON_IMG_02_jpg_7fc5_gpt_5_5_04290741",
+            "timestamp": "2026-04-29 07:41:44"
+        }
+    }
+}

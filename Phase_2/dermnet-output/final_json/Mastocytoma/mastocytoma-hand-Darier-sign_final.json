@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mastocytoma",
+        "Distribution": [
+            "Ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Bọng nước",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Căng bóng",
+            "Phù nề",
+            "Da bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mastocytoma_hand_Darier_sign_jpg_90a9",
+            "json_id": "JSON_IMG_mastocytoma_hand_Darier_sign_jpg_90a9_gpt_5_5_04291223",
+            "timestamp": "2026-04-29 12:23:49"
+        }
+    }
+}

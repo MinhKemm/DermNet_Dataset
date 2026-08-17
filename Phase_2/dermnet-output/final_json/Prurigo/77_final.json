@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Vùng da có lông",
+            "Rải rác",
+            "Cụm nhỏ"
+        ],
+        "Lesion_Type": [
+            "Nốt sẩn",
+            "Sẹo lõm",
+            "Mảng dày"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Nâu sẫm",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bầu dục",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Lõm trung tâm",
+            "Tăng sắc tố",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_77_jpg_f404",
+            "json_id": "JSON_IMG_77_jpg_f404_gpt_5_5_04281209",
+            "timestamp": "2026-04-28 12:09:14"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Urticaria",
+        "Distribution": [
+            "Đùi",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Tím hồng",
+            "Nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Lõm giữa",
+            "Đóng mài nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_6ba8",
+            "json_id": "JSON_IMG_02_jpg_6ba8_gpt_5_5_04271942",
+            "timestamp": "2026-04-27 19:42:55"
+        }
+    }
+}

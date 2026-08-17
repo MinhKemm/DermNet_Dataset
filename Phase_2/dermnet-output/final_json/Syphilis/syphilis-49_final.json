@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng nâu tím"
+        ],
+        "Colour": [
+            "Nâu tím",
+            "Đỏ tím",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Lốm đốm",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố",
+            "Da khô",
+            "Loang lổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_49_jpg_3ca7",
+            "json_id": "JSON_IMG_syphilis_49_jpg_3ca7_gpt_5_5_04272253",
+            "timestamp": "2026-04-27 22:53:42"
+        }
+    }
+}

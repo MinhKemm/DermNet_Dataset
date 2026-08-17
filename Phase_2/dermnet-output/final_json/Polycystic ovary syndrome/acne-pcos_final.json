@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polycystic ovary syndrome",
+        "Distribution": [
+            "Vùng quanh miệng",
+            "Má",
+            "Cằm",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Nốt viêm",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sưng nề nhẹ",
+            "Bề mặt bóng",
+            "Nang lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_acne_pcos_jpg_09aa",
+            "json_id": "JSON_IMG_acne_pcos_jpg_09aa_gpt_5_5_04281354",
+            "timestamp": "2026-04-28 13:54:37"
+        }
+    }
+}

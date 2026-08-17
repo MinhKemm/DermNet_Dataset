@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rothmund-Thomson syndrome",
+        "Distribution": [
+            "Niêm mạc miệng",
+            "Môi dưới",
+            "Nướu",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn niêm mạc",
+            "Mảng nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_1fe7",
+            "json_id": "JSON_IMG_01_jpg_1fe7_gpt_5_5_04280826",
+            "timestamp": "2026-04-28 08:26:01"
+        }
+    }
+}

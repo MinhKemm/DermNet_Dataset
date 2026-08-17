@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Raynaud phenomenon",
+        "Distribution": [
+            "Mu bàn tay",
+            "Ngón tay",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Phù nề"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Lan tỏa",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Sưng nề",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_raynaud3_jpg_d204",
+            "json_id": "JSON_IMG_raynaud3_jpg_d204_gpt_5_5_04280922",
+            "timestamp": "2026-04-28 09:22:11"
+        }
+    }
+}

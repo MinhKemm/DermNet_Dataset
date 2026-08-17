@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nodular lymphangitis",
+        "Distribution": [
+            "Cẳng tay",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "Sẩn hồng ban",
+            "Loét nhỏ"
+        ],
+        "Colour": [
+            "Hồng đỏ",
+            "Đỏ sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mày",
+            "Trợt loét",
+            "Da khô",
+            "Nhăn da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sporotrichoid_spread_02_jpg_aef2",
+            "json_id": "JSON_IMG_sporotrichoid_spread_02_jpg_aef2_gpt_5_5_04290720",
+            "timestamp": "2026-04-29 07:20:39"
+        }
+    }
+}

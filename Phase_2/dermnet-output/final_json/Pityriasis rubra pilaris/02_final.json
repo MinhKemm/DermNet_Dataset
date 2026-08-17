@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis rubra pilaris",
+        "Distribution": [
+            "Móng tay",
+            "Nhiều ngón",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Đổi màu móng",
+            "Dày móng",
+            "Tách móng"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Trắng đục",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Dọc",
+            "Bờ xa",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Rãnh dọc",
+            "Dày sừng dưới móng",
+            "Bong vảy quanh móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_046f",
+            "json_id": "JSON_IMG_02_jpg_046f_gpt_5_5_04281545",
+            "timestamp": "2026-04-28 15:45:57"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Wound infection",
+        "Distribution": [
+            "Vùng da",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng gồ",
+            "Nốt gồ"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Hồng bóng"
+        ],
+        "Shape": [
+            "Hình thoi",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Căng",
+            "Nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_db7f",
+            "json_id": "JSON_IMG_08_jpg_db7f_gpt_5_5_04271745",
+            "timestamp": "2026-04-27 17:45:49"
+        }
+    }
+}

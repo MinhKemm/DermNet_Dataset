@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Varicose veins",
+        "Distribution": [
+            "Cẳng tay",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Mảng teo da"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Teo da",
+            "Lõm da",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_2377",
+            "json_id": "JSON_IMG_05_jpg_2377_gpt_5_5_04271926",
+            "timestamp": "2026-04-27 19:26:01"
+        }
+    }
+}

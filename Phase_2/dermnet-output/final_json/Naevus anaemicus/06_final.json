@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Naevus anaemicus",
+        "Distribution": [
+            "Vùng thân mình",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng trắng"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Trắng ngà",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_b2c2",
+            "json_id": "JSON_IMG_06_jpg_b2c2_gpt_5_5_04290842",
+            "timestamp": "2026-04-29 08:42:54"
+        }
+    }
+}

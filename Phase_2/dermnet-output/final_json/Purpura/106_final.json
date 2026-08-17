@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Henoch–Schönlein purpura",
+        "Distribution": [
+            "Cẳng tay",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng xuất huyết",
+            "Vết rách da"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ tím",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Dạng đường nứt",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Da mỏng",
+            "Teo da",
+            "Vảy khô",
+            "Chảy máu nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_106_jpg_649c",
+            "json_id": "JSON_IMG_106_jpg_649c_gpt_5_5_04281048",
+            "timestamp": "2026-04-28 10:48:19"
+        }
+    }
+}

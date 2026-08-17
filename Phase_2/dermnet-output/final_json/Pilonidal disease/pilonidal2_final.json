@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilonidal disease",
+        "Distribution": [
+            "Nếp gấp da",
+            "Da có lông",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dải hồng ban",
+            "Vết nứt",
+            "Trợt nông"
+        ],
+        "Colour": [
+            "Hồng tím",
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Kéo dài",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Ẩm nhẹ",
+            "Vảy mịn",
+            "Chấm đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pilonidal2_jpg_e2c7",
+            "json_id": "JSON_IMG_pilonidal2_jpg_e2c7_gpt_5_5_04281602",
+            "timestamp": "2026-04-28 16:02:57"
+        }
+    }
+}

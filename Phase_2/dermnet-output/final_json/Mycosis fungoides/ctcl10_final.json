@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Vùng sinh dục",
+            "Nếp gấp",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Sẩn trắng"
+        ],
+        "Colour": [
+            "Hồng tím",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Li ti",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ctcl10_jpg_9794",
+            "json_id": "JSON_IMG_ctcl10_jpg_9794_gpt_5_5_04290900",
+            "timestamp": "2026-04-29 09:00:09"
+        }
+    }
+}

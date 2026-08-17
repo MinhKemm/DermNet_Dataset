@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea pedis",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Gan bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sừng",
+            "Nứt da"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Đường nứt"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Da khô",
+            "Dày sừng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tinped28_jpg_8f94",
+            "json_id": "JSON_IMG_tinped28_jpg_8f94_gpt_5_5_04272045",
+            "timestamp": "2026-04-27 20:45:33"
+        }
+    }
+}

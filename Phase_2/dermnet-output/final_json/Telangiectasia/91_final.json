@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Benign hereditary telangiectasia",
+        "Distribution": [
+            "Cẳng chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Giãn mao mạch",
+            "Tĩnh mạch mạng nhện"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Đường ngoằn ngoèo",
+            "Phân nhánh",
+            "Mạng lưới"
+        ],
+        "Characteristics": [
+            "Mạch máu nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_91_jpg_6158",
+            "json_id": "JSON_IMG_91_jpg_6158_gpt_5_5_04272143",
+            "timestamp": "2026-04-27 21:43:06"
+        }
+    }
+}

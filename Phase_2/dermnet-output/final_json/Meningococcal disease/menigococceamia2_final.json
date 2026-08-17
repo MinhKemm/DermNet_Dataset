@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Meningococcal disease",
+        "Distribution": [
+            "Vùng má",
+            "Vùng râu",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Chấm nhỏ"
+        ],
+        "Characteristics": [
+            "Quanh nang lông",
+            "Vảy tiết nhỏ",
+            "Trầy xước nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_menigococceamia2_jpg_231a",
+            "json_id": "JSON_IMG_menigococceamia2_jpg_231a_gpt_5_5_04291048",
+            "timestamp": "2026-04-29 10:48:40"
+        }
+    }
+}

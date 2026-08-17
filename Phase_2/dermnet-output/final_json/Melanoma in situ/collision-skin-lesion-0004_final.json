@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Thân mình",
+            "Rải rác",
+            "Bất đối xứng"
+        ],
+        "Lesion_Type": [
+            "Dát giảm sắc tố",
+            "Dát nâu nhạt",
+            "Mảng hồng nhạt"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Nâu nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Vảy mịn",
+            "Nhăn da",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_collision_skin_lesion_0004_jpg_617b",
+            "json_id": "JSON_IMG_collision_skin_lesion_0004_jpg_617b_gpt_5_5_04291120",
+            "timestamp": "2026-04-29 11:20:14"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Benign hereditary telangiectasia",
+        "Distribution": [
+            "Lưng",
+            "Thân mình",
+            "Hai bên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Mảng hồng ban",
+            "Dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Dày đặc",
+            "Hợp lưu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_84_jpg_1c50",
+            "json_id": "JSON_IMG_84_jpg_1c50_gpt_5_5_04272145",
+            "timestamp": "2026-04-27 21:45:11"
+        }
+    }
+}

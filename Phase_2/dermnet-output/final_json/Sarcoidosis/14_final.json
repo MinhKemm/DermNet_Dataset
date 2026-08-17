@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Lưng",
+            "Rải rác",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng bầm máu",
+            "Dát xuất huyết"
+        ],
+        "Colour": [
+            "Tím đỏ",
+            "Tím nâu",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ",
+            "Kích thước không đều"
+        ],
+        "Characteristics": [],
+        "_metadata": {
+            "image_id": "IMG_14_jpg_4a9d",
+            "json_id": "JSON_IMG_14_jpg_4a9d_gpt_5_5_04280815",
+            "timestamp": "2026-04-28 08:15:43"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sebaceous carcinoma",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn trợt",
+            "Mảng nhỏ"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rụng tóc khu trú"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_bd06",
+            "json_id": "JSON_IMG_05_jpg_bd06_gpt_5_5_04280742",
+            "timestamp": "2026-04-28 07:42:43"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sunburn",
+        "Distribution": [
+            "Vùng thân mình",
+            "Khu trú",
+            "Tổn thương vệ tinh"
+        ],
+        "Lesion_Type": [
+            "Mảng mất sắc tố",
+            "Dát mất sắc tố"
+        ],
+        "Colour": [
+            "Trắng hồng",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_31_jpg_d321",
+            "json_id": "JSON_IMG_31_jpg_d321_gpt_5_5_04272335",
+            "timestamp": "2026-04-27 23:35:44"
+        }
+    }
+}

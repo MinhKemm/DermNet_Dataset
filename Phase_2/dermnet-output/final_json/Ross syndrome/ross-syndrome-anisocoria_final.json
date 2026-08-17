@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ross syndrome",
+        "Distribution": [
+            "Mi mắt trên",
+            "Góc mắt trong",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng phẳng",
+            "Mảng vàng"
+        ],
+        "Colour": [
+            "Vàng nhạt",
+            "Vàng cam"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ross_syndrome_anisocoria_jpg_42c9",
+            "json_id": "JSON_IMG_ross_syndrome_anisocoria_jpg_42c9_gpt_5_5_04280826",
+            "timestamp": "2026-04-28 08:26:58"
+        }
+    }
+}

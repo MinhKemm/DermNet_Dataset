@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Đầu ngón chân",
+            "Quanh móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hoại tử"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mày",
+            "Móng biến dạng",
+            "Sưng nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_acral_lentiginous_melanoma_0005_jpg_4156",
+            "json_id": "JSON_IMG_acral_lentiginous_melanoma_0005_jpg_4156_gpt_5_5_04291121",
+            "timestamp": "2026-04-29 11:21:43"
+        }
+    }
+}

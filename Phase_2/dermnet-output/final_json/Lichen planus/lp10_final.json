@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Ngón tay",
+            "Quanh móng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Sẩn sừng",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Tăng sừng",
+            "Vảy tiết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lp10_jpg_43e7",
+            "json_id": "JSON_IMG_lp10_jpg_43e7_gpt_5_5_04291322",
+            "timestamp": "2026-04-29 13:22:24"
+        }
+    }
+}

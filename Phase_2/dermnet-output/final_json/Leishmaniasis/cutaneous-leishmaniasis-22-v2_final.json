@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leishmaniasis",
+        "Distribution": [
+            "Gáy",
+            "Đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Ổ loét",
+            "Mảng viêm"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Dịch mủ",
+            "Bờ gồ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cutaneous_leishmaniasis_22_v2_jpg_baac",
+            "json_id": "JSON_IMG_cutaneous_leishmaniasis_22_v2_jpg_baac_gpt_5_5_04291426",
+            "timestamp": "2026-04-29 14:26:02"
+        }
+    }
+}

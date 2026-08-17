@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Urticaria",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát đỏ",
+            "Dát nâu",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_15_jpg_e134",
+            "json_id": "JSON_IMG_15_jpg_e134_gpt_5_5_04271937",
+            "timestamp": "2026-04-27 19:37:27"
+        }
+    }
+}

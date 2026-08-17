@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Ngón chân",
+            "Khu trú",
+            "Quanh móng"
+        ],
+        "Lesion_Type": [
+            "Nốt sưng",
+            "Loét nhỏ",
+            "Mảng sừng"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Nâu đỏ",
+            "Vàng trắng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Gồ cao",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Tăng sừng",
+            "Sưng nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_21_jpg_bd83",
+            "json_id": "JSON_IMG_21_jpg_bd83_gpt_5_5_04281005",
+            "timestamp": "2026-04-28 10:05:12"
+        }
+    }
+}

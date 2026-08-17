@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melasma",
+        "Distribution": [
+            "Trán",
+            "Lan tỏa",
+            "Tập trung trung tâm"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Mảng da dày"
+        ],
+        "Colour": [
+            "Vàng nhạt",
+            "Nâu vàng",
+            "Màu da"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Bề mặt sần",
+            "Nếp da rõ",
+            "Bóng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3148_jpg_5646",
+            "json_id": "JSON_IMG_3148_jpg_5646_gpt_5_5_04291053",
+            "timestamp": "2026-04-29 10:53:38"
+        }
+    }
+}

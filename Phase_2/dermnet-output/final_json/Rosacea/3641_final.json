@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rosacea",
+        "Distribution": [
+            "Mũi",
+            "Khu trú",
+            "Đối xứng tương đối"
+        ],
+        "Lesion_Type": [
+            "Nốt sần",
+            "Mảng phì đại",
+            "U cục"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Dạng thùy",
+            "Lồi gồ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Giãn mạch",
+            "Lỗ chân lông",
+            "Bề mặt bóng",
+            "Mụn mủ nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3641_jpg_6bd4",
+            "json_id": "JSON_IMG_3641_jpg_6bd4_gpt_5_5_04280840",
+            "timestamp": "2026-04-28 08:40:17"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Móng tay",
+            "Nhiều móng",
+            "Song song"
+        ],
+        "Lesion_Type": [
+            "Dải trắng móng",
+            "Sọc dọc móng"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Dải dọc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_racial_melanonychia_2_jpg_be43",
+            "json_id": "JSON_IMG_racial_melanonychia_2_jpg_be43_gpt_5_5_04291101",
+            "timestamp": "2026-04-29 11:01:25"
+        }
+    }
+}

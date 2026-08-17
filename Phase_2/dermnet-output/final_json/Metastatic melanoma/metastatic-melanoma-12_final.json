@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Cẳng chân",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Nốt hoại tử",
+            "Vết loét"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím đen",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Mài đen",
+            "Trợt loét"
+        ],
+        "_metadata": {
+            "image_id": "IMG_metastatic_melanoma_12_jpg_6cbd",
+            "json_id": "JSON_IMG_metastatic_melanoma_12_jpg_6cbd_gpt_5_5_04291038",
+            "timestamp": "2026-04-29 10:38:45"
+        }
+    }
+}

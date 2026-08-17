@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Cẳng chân",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Nốt sừng hóa",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Đỏ nâu",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bờ không đều",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Dày sừng",
+            "Teo da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_90_jpg_6c62",
+            "json_id": "JSON_IMG_90_jpg_6c62_gpt_5_5_04281205",
+            "timestamp": "2026-04-28 12:05:47"
+        }
+    }
+}

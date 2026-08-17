@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rubella",
+        "Distribution": [
+            "Đùi",
+            "Mông",
+            "Nếp gấp",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất định"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Chấm đỏ nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_9b3c",
+            "json_id": "JSON_IMG_01_jpg_9b3c_gpt_5_5_04280822",
+            "timestamp": "2026-04-28 08:22:24"
+        }
+    }
+}

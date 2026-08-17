@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycetoma",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Rải rác",
+            "Tập trung",
+            "Giữa bàn chân"
+        ],
+        "Lesion_Type": [
+            "Sẩn tăng sắc tố",
+            "Vết trợt",
+            "Mụn nước nhỏ"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Đỏ nâu",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mày",
+            "Tăng sắc tố",
+            "Trợt nông",
+            "Vảy mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mycetoma_foot_jpg_5dbd",
+            "json_id": "JSON_IMG_mycetoma_foot_jpg_5dbd_gpt_5_5_04290918",
+            "timestamp": "2026-04-29 09:18:36"
+        }
+    }
+}

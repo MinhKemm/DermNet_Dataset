@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Rải rác xung quanh"
+        ],
+        "Lesion_Type": [
+            "Loét da",
+            "Mảng hoại tử",
+            "Sẩn rải rác"
+        ],
+        "Colour": [
+            "Vàng cam",
+            "Nâu đen",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ nham nhở"
+        ],
+        "Characteristics": [
+            "Hoại tử",
+            "Đóng mài",
+            "Trợt da",
+            "Dịch tiết",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_51_jpg_4d47",
+            "json_id": "JSON_IMG_51_jpg_4d47_gpt_5_5_04280955",
+            "timestamp": "2026-04-28 09:55:34"
+        }
+    }
+}

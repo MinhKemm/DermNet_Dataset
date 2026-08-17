@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Varicose veins",
+        "Distribution": [
+            "Cẳng chân",
+            "Mặt trước",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Nốt dưới da",
+            "Mảng gồ"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Hồng nhạt",
+            "Tím xám"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Da teo",
+            "Giãn mạch",
+            "Lõm nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_varicose_veins_02_jpg_d66a",
+            "json_id": "JSON_IMG_varicose_veins_02_jpg_d66a_gpt_5_5_04271923",
+            "timestamp": "2026-04-27 19:23:08"
+        }
+    }
+}

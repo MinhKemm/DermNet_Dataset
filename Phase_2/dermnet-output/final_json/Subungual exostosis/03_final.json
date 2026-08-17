@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Subungual exostosis",
+        "Distribution": [
+            "Ngón chân cái",
+            "Quanh móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt đỏ",
+            "Sưng quanh móng"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Gồ cao",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Mô hạt",
+            "Móng biến dạng",
+            "Đóng mài",
+            "Bề mặt ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_123b",
+            "json_id": "JSON_IMG_03_jpg_123b_gpt_5_5_04272345",
+            "timestamp": "2026-04-27 23:45:46"
+        }
+    }
+}

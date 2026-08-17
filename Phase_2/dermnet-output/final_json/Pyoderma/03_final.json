@@ -1,0 +1,38 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Vùng bụng dưới",
+            "Vùng có lông",
+            "Nhiều ổ",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Ổ loét",
+            "Mảng hồng ban",
+            "Mài hoại tử"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đen nâu",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Vảy tiết",
+            "Trợt loét",
+            "Quầng đỏ",
+            "Dịch tiết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_5b6f",
+            "json_id": "JSON_IMG_03_jpg_5b6f_gpt_5_5_04281011",
+            "timestamp": "2026-04-28 10:11:30"
+        }
+    }
+}

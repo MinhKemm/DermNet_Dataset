@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sunburn",
+        "Distribution": [
+            "Cẳng tay",
+            "Mu bàn tay",
+            "Một bên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Phù nề"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sưng nề",
+            "Da căng bóng",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_1f65",
+            "json_id": "JSON_IMG_08_jpg_1f65_gpt_5_5_04272342",
+            "timestamp": "2026-04-27 23:42:43"
+        }
+    }
+}

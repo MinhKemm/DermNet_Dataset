@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Postinflammatory hyperpigmentation",
+        "Distribution": [
+            "Thân mình",
+            "Rải rác",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nhạt màu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình vòng",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bờ gồ nhẹ",
+            "Lõm trung tâm",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_18_jpg_07c4",
+            "json_id": "JSON_IMG_18_jpg_07c4_gpt_5_5_04281316",
+            "timestamp": "2026-04-28 13:16:49"
+        }
+    }
+}

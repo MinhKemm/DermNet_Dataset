@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea manuum",
+        "Distribution": [
+            "Mu bàn tay",
+            "Cổ tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Nứt nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tmtm_jpg_86f2",
+            "json_id": "JSON_IMG_tmtm_jpg_86f2_gpt_5_5_04272051",
+            "timestamp": "2026-04-27 20:51:47"
+        }
+    }
+}

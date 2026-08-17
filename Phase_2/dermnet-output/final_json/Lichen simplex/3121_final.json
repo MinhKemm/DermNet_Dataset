@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Rãnh liên mông",
+            "Mông",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Khô da",
+            "Nứt kẽ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3121_jpg_fca2",
+            "json_id": "JSON_IMG_3121_jpg_fca2_gpt_5_5_04291312",
+            "timestamp": "2026-04-29 13:12:01"
+        }
+    }
+}

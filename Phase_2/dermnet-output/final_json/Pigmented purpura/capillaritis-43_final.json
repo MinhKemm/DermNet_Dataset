@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Nếp gấp",
+            "Khuỷu tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Đám dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Khô da",
+            "Trầy xước",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_capillaritis_43_jpg_cd64",
+            "json_id": "JSON_IMG_capillaritis_43_jpg_cd64_gpt_5_5_04281631",
+            "timestamp": "2026-04-28 16:31:28"
+        }
+    }
+}

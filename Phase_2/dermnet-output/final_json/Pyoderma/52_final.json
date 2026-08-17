@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Bàn chân",
+            "Cẳng chân",
+            "Một bên"
+        ],
+        "Lesion_Type": [
+            "Loét da",
+            "Mảng hoại tử",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Đen tím",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Lan dài"
+        ],
+        "Characteristics": [
+            "Mài tiết",
+            "Giả mạc vàng",
+            "Đóng vảy",
+            "Hoại tử đen"
+        ],
+        "_metadata": {
+            "image_id": "IMG_52_jpg_db68",
+            "json_id": "JSON_IMG_52_jpg_db68_gpt_5_5_04280955",
+            "timestamp": "2026-04-28 09:55:19"
+        }
+    }
+}

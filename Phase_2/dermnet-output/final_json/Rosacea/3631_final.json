@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rosacea",
+        "Distribution": [
+            "Má",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ",
+            "Nốt viêm"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Trung tâm mủ",
+            "Viêm nang lông",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3631_jpg_0167",
+            "json_id": "JSON_IMG_3631_jpg_0167_gpt_5_5_04280843",
+            "timestamp": "2026-04-28 08:43:29"
+        }
+    }
+}

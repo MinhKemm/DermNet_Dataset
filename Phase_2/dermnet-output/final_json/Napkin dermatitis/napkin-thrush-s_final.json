@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Napkin dermatitis",
+        "Distribution": [
+            "Mông",
+            "Nếp liên mông",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Tổn thương vệ tinh",
+            "Ẩm",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_napkin_thrush_s_jpg_2894",
+            "json_id": "JSON_IMG_napkin_thrush_s_jpg_2894_gpt_5_5_04290821",
+            "timestamp": "2026-04-29 08:21:12"
+        }
+    }
+}

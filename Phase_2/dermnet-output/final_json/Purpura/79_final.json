@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Henoch–Schönlein purpura",
+        "Distribution": [
+            "Da có lông",
+            "Khu trú",
+            "Theo đường dài"
+        ],
+        "Lesion_Type": [
+            "Mảng bầm",
+            "Ban xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Xanh tím",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Dạng dải",
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Teo da",
+            "Da nhăn",
+            "Không vảy"
+        ],
+        "_metadata": {
+            "image_id": "IMG_79_jpg_7d4e",
+            "json_id": "JSON_IMG_79_jpg_7d4e_gpt_5_5_04281023",
+            "timestamp": "2026-04-28 10:23:03"
+        }
+    }
+}

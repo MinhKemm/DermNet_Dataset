@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Vùng thân mình",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy khô",
+            "Bề mặt sần"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_aureus_07_jpg_d911",
+            "json_id": "JSON_IMG_lichen_aureus_07_jpg_d911_gpt_5_5_04281627",
+            "timestamp": "2026-04-28 16:27:04"
+        }
+    }
+}

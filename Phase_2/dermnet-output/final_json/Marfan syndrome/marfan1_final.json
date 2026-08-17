@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Marfan syndrome",
+        "Distribution": [
+            "Bụng",
+            "Lan tỏa",
+            "Theo chiều ngang"
+        ],
+        "Lesion_Type": [
+            "Vết rạn da",
+            "Dải teo da"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Song song",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Teo da",
+            "Lõm nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_marfan1_jpg_18ad",
+            "json_id": "JSON_IMG_marfan1_jpg_18ad_gpt_5_5_04291231",
+            "timestamp": "2026-04-29 12:31:23"
+        }
+    }
+}

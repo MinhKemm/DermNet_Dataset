@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Dái tai",
+            "Khu trú",
+            "Quanh lỗ xỏ"
+        ],
+        "Lesion_Type": [
+            "Khối lồi",
+            "Nốt da"
+        ],
+        "Colour": [
+            "Hồng đỏ",
+            "Hồng bóng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Dạng thùy",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Căng bóng",
+            "Cuống nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_19_jpg_15a9",
+            "json_id": "JSON_IMG_19_jpg_15a9_gpt_5_5_04280814",
+            "timestamp": "2026-04-28 08:14:07"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea faciei",
+        "Distribution": [
+            "Má",
+            "Vùng trước tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Giãn mạch nhỏ",
+            "Da khô",
+            "Sẩn nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tinea_faciei1_jpg_cf95",
+            "json_id": "JSON_IMG_tinea_faciei1_jpg_cf95_gpt_5_5_04272059",
+            "timestamp": "2026-04-27 20:59:02"
+        }
+    }
+}

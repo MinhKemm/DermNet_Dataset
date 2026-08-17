@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Mặt",
+            "Cổ",
+            "Ngực trên",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Dát tăng sắc tố",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Nâu nhạt",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Loang lổ"
+        ],
+        "Characteristics": [
+            "Giãn mạch nhẹ",
+            "Phù quanh mắt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_42_jpg_1492",
+            "json_id": "JSON_IMG_syphilis_42_jpg_1492_gpt_5_5_04272255",
+            "timestamp": "2026-04-27 22:55:44"
+        }
+    }
+}

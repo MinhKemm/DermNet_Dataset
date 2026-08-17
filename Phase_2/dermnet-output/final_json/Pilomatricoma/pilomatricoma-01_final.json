@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilomatricoma",
+        "Distribution": [
+            "Mặt",
+            "Má",
+            "Cạnh mũi",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Nốt nhỏ"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Gồ nhẹ",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pilomatricoma_01_jpg_040a",
+            "json_id": "JSON_IMG_pilomatricoma_01_jpg_040a_gpt_5_5_04281604",
+            "timestamp": "2026-04-28 16:04:47"
+        }
+    }
+}

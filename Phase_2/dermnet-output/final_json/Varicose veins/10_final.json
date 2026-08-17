@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Varicose veins",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng phù nề"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Giãn tĩnh mạch",
+            "Phù nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_10_jpg_b3d4",
+            "json_id": "JSON_IMG_10_jpg_b3d4_gpt_5_5_04271924",
+            "timestamp": "2026-04-27 19:24:09"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erythrodermic psoriasis",
+        "Distribution": [
+            "Mặt duỗi chi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vảy dày"
+        ],
+        "Colour": [
+            "Trắng bạc",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Ranh giới rõ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Vảy dày",
+            "Bong vảy",
+            "Da dày"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ps6_jpg_2b93",
+            "json_id": "JSON_IMG_ps6_jpg_2b93_gpt_5_5_04281057",
+            "timestamp": "2026-04-28 10:57:45"
+        }
+    }
+}

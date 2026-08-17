@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Niêm mạc má",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết loét",
+            "Trợt niêm mạc"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Quầng đỏ",
+            "Trung tâm trắng",
+            "Bề mặt ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_oral_pemphigus_vulgaris_04_jpg_3dc7",
+            "json_id": "JSON_IMG_oral_pemphigus_vulgaris_04_jpg_3dc7_gpt_5_5_04281714",
+            "timestamp": "2026-04-28 17:14:38"
+        }
+    }
+}

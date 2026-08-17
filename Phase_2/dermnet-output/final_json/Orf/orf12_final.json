@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Ngón tay",
+            "Khu trú",
+            "Quanh móng"
+        ],
+        "Lesion_Type": [
+            "Bọng nước",
+            "Mụn nước lớn",
+            "Loét trung tâm"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Đỏ hồng",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Trung tâm lõm"
+        ],
+        "Characteristics": [
+            "Dịch trong",
+            "Vảy tiết",
+            "Hoại tử trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf12_jpg_e187",
+            "json_id": "JSON_IMG_orf12_jpg_e187_gpt_5_5_04282005",
+            "timestamp": "2026-04-28 20:05:58"
+        }
+    }
+}

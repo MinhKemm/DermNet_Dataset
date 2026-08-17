@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Dưới vú",
+            "Hai bên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Bề mặt ẩm",
+            "Nếp gấp da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_17_jpg_e3d1",
+            "json_id": "JSON_IMG_17_jpg_e3d1_gpt_5_5_04280814",
+            "timestamp": "2026-04-28 08:14:42"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Non-albicans candida infections",
+        "Distribution": [
+            "Đĩa thạch",
+            "Theo vệt cấy",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Khuẩn lạc",
+            "Mảng đục"
+        ],
+        "Colour": [
+            "Trắng kem",
+            "Trắng đục"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bờ không đều"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Lồi nhẹ",
+            "Kết tụ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_450px_Candida_tropicalis_jpg_1ccf",
+            "json_id": "JSON_IMG_450px_Candida_tropicalis_jpg_1ccf_gpt_5_5_04282230",
+            "timestamp": "2026-04-28 22:30:16"
+        }
+    }
+}

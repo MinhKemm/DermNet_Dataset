@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Molluscum contagiosum",
+        "Distribution": [
+            "Rải rác",
+            "Vùng nếp gấp",
+            "Mặt trong",
+            "Cánh tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Mụn nước nhỏ",
+            "Sẩn lõm giữa"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Đỏ hồng",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Lõm giữa",
+            "Bề mặt bóng",
+            "Viêm đỏ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_molluscum25_jpg_03b3",
+            "json_id": "JSON_IMG_molluscum25_jpg_03b3_gpt_5_5_04290955",
+            "timestamp": "2026-04-29 09:55:25"
+        }
+    }
+}

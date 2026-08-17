@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Vành tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "Mảng hồng ban",
+            "Loét trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đen",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Gồ cao",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Mài tiết",
+            "Vảy vàng",
+            "Đóng vảy",
+            "Hoại tử đen"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nm7_big_jpg_7f05",
+            "json_id": "JSON_IMG_nm7_big_jpg_7f05_gpt_5_5_04282248",
+            "timestamp": "2026-04-28 22:48:41"
+        }
+    }
+}

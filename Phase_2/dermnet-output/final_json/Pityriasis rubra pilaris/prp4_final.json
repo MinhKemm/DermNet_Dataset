@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis rubra pilaris",
+        "Distribution": [
+            "Thân mình",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát giảm sắc tố"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_prp4_jpg_c7aa",
+            "json_id": "JSON_IMG_prp4_jpg_c7aa_gpt_5_5_04281533",
+            "timestamp": "2026-04-28 15:33:28"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Nếp gấp da",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Trợt da",
+            "Vết nứt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng",
+            "Nâu hồng"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Hình bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Ẩm ướt",
+            "Bóng",
+            "Dịch vàng nhạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_11_jpg_9d1d",
+            "json_id": "JSON_IMG_11_jpg_9d1d_gpt_5_5_04281306",
+            "timestamp": "2026-04-28 13:06:41"
+        }
+    }
+}

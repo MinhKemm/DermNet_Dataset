@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Đường chân tóc",
+            "Da đầu trước",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng thưa tóc"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Màu da nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Thưa tóc",
+            "Bề mặt trơn láng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_57_jpg_486d",
+            "json_id": "JSON_IMG_vitiligo_57_jpg_486d_gpt_5_5_04271831",
+            "timestamp": "2026-04-27 18:31:44"
+        }
+    }
+}

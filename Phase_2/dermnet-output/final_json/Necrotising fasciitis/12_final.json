@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Necrotising fasciitis",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hoại tử",
+            "Loét da"
+        ],
+        "Colour": [
+            "Đen",
+            "Nâu sẫm",
+            "Tím đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Đóng mài",
+            "Dịch tiết",
+            "Phù nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_12_jpg_f5c0",
+            "json_id": "JSON_IMG_12_jpg_f5c0_gpt_5_5_04290807",
+            "timestamp": "2026-04-29 08:07:45"
+        }
+    }
+}

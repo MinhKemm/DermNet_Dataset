@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Paronychia",
+        "Distribution": [
+            "Quanh móng tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng sưng đỏ",
+            "Ổ mủ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Sưng nề",
+            "Căng bóng",
+            "Tụ mủ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3299_jpg_fd2f",
+            "json_id": "JSON_IMG_3299_jpg_fd2f_gpt_5_5_04281800",
+            "timestamp": "2026-04-28 18:00:01"
+        }
+    }
+}

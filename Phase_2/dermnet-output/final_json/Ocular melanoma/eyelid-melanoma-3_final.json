@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Mi dưới",
+            "Vùng quanh mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt loét",
+            "Mảng hồng ban",
+            "Sẩn gồ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đen",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Gồ cao"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Loét trung tâm",
+            "Vảy tiết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_eyelid_melanoma_3_jpg_625c",
+            "json_id": "JSON_IMG_eyelid_melanoma_3_jpg_625c_gpt_5_5_04282135",
+            "timestamp": "2026-04-28 21:35:43"
+        }
+    }
+}

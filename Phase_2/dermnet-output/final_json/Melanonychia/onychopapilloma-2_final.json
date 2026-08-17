@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Ngón chân cái",
+            "Bờ xa",
+            "Bờ bên"
+        ],
+        "Lesion_Type": [
+            "Mảng đổi màu",
+            "Tách móng"
+        ],
+        "Colour": [
+            "Trắng đục",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong móng",
+            "Sừng dưới móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_onychopapilloma_2_jpg_873d",
+            "json_id": "JSON_IMG_onychopapilloma_2_jpg_873d_gpt_5_5_04291102",
+            "timestamp": "2026-04-29 11:02:03"
+        }
+    }
+}

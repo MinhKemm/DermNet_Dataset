@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Papular mucinosis",
+        "Distribution": [
+            "Lòng bàn tay",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát đỏ",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Khô da",
+            "Bong vảy mịn",
+            "Nứt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_9b44",
+            "json_id": "JSON_IMG_02_jpg_9b44_gpt_5_5_04281811",
+            "timestamp": "2026-04-28 18:11:10"
+        }
+    }
+}

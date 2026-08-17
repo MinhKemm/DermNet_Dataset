@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea corporis",
+        "Distribution": [
+            "Kẽ ngón chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Nứt kẽ"
+        ],
+        "Colour": [
+            "Trắng bợt",
+            "Hồng đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Ẩm ướt",
+            "Bợt da",
+            "Bong vảy",
+            "Nứt da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_athfoot1_jpg_e873",
+            "json_id": "JSON_IMG_athfoot1_jpg_e873_gpt_5_5_04272121",
+            "timestamp": "2026-04-27 21:21:44"
+        }
+    }
+}

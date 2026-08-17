@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nummular eczematous dermatitis",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Rải rác",
+            "Quanh tổn thương"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt",
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Hình bầu dục"
+        ],
+        "Characteristics": [
+            "Trợt da",
+            "Bóng ướt",
+            "Bong vảy",
+            "Mài tiết dịch"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nummular_eczema68_jpg_3825",
+            "json_id": "JSON_IMG_nummular_eczema68_jpg_3825_gpt_5_5_04282139",
+            "timestamp": "2026-04-28 21:39:56"
+        }
+    }
+}

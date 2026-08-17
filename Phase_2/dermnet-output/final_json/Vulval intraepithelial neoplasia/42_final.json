@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vulval intraepithelial neoplasia",
+        "Distribution": [
+            "Da đầu",
+            "Nhiều ổ",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Mảng giảm tóc"
+        ],
+        "Colour": [
+            "Nâu da",
+            "Đen",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tóc gãy",
+            "Chấm đen",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_42_jpg_9034",
+            "json_id": "JSON_IMG_42_jpg_9034_gpt_5_5_04271813",
+            "timestamp": "2026-04-27 18:13:39"
+        }
+    }
+}

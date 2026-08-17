@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orofacial granulomatosis",
+        "Distribution": [
+            "Đầu mũi",
+            "Cánh mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Nốt sưng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Lồi",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Da dày",
+            "Bề mặt trơn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_8eb9",
+            "json_id": "JSON_IMG_05_jpg_8eb9_gpt_5_5_04281955",
+            "timestamp": "2026-04-28 19:55:01"
+        }
+    }
+}

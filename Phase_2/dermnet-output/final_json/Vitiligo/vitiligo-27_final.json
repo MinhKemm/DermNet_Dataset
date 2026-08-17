@@ -1,0 +1,28 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Vùng da",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng mất sắc tố",
+            "Dát trắng"
+        ],
+        "Colour": [
+            "Trắng sữa"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_27_jpg_e761",
+            "json_id": "JSON_IMG_vitiligo_27_jpg_e761_gpt_5_5_04271841",
+            "timestamp": "2026-04-27 18:41:41"
+        }
+    }
+}

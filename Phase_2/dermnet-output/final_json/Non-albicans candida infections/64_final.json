@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Non-albicans candida infections",
+        "Distribution": [
+            "Quanh móng",
+            "Nếp móng bên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sưng nề",
+            "Hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Dọc nếp móng",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng vảy tiết",
+            "Rãnh dọc móng",
+            "Biến màu móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_64_jpg_d6d3",
+            "json_id": "JSON_IMG_64_jpg_d6d3_gpt_5_5_04282224",
+            "timestamp": "2026-04-28 22:24:04"
+        }
+    }
+}

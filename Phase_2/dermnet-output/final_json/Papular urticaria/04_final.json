@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Papular urticaria",
+        "Distribution": [
+            "Cẳng tay",
+            "Cổ tay",
+            "Rải rác",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Bọng nước căng",
+            "Mụn nước"
+        ],
+        "Colour": [
+            "Vàng trong",
+            "Cam hổ phách",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Dịch trong",
+            "Nền hồng ban",
+            "Phù nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_b98d",
+            "json_id": "JSON_IMG_04_jpg_b98d_gpt_5_5_04281809",
+            "timestamp": "2026-04-28 18:09:36"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Marjolin ulcer",
+        "Distribution": [
+            "Má",
+            "Trước tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Ổ loét",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Nâu đen",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bờ gồ",
+            "Đóng mài",
+            "Hoại tử đen",
+            "Dịch tiết",
+            "Đỏ xung quanh"
+        ],
+        "_metadata": {
+            "image_id": "IMG_Mohs15_640x480_jpg_11e4",
+            "json_id": "JSON_IMG_Mohs15_640x480_jpg_11e4_gpt_5_5_04291229",
+            "timestamp": "2026-04-29 12:29:45"
+        }
+    }
+}

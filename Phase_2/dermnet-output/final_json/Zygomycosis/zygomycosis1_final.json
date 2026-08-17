@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Zygomycosis",
+        "Distribution": [
+            "Mặt",
+            "Má",
+            "Quanh mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng thâm nhiễm"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím đỏ",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Da dày",
+            "Sưng nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_zygomycosis1_jpg_242c",
+            "json_id": "JSON_IMG_zygomycosis1_jpg_242c_gpt_5_5_04271701",
+            "timestamp": "2026-04-27 17:01:58"
+        }
+    }
+}

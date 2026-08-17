@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Non-sexually acquired genital ulceration",
+        "Distribution": [
+            "Âm hộ",
+            "Môi bé",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết trợt",
+            "Loét nông",
+            "Nứt kẽ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng",
+            "Trắng hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Dạng khe",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Ẩm ướt",
+            "Rỉ máu nhẹ",
+            "Phù nề nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vulval_ulcer6_small_jpg_f33c",
+            "json_id": "JSON_IMG_vulval_ulcer6_small_jpg_f33c_gpt_5_5_04282217",
+            "timestamp": "2026-04-28 22:17:32"
+        }
+    }
+}

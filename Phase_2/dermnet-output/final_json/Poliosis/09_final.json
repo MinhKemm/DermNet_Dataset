@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Poliosis",
+        "Distribution": [
+            "Da đầu vùng chẩm",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tóc bạc",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng bạc",
+            "Xám trắng",
+            "Đen"
+        ],
+        "Shape": [
+            "Hình tam giác",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Tóc trắng khu trú"
+        ],
+        "_metadata": {
+            "image_id": "IMG_09_jpg_581d",
+            "json_id": "JSON_IMG_09_jpg_581d_gpt_5_5_04281358",
+            "timestamp": "2026-04-28 13:58:27"
+        }
+    }
+}

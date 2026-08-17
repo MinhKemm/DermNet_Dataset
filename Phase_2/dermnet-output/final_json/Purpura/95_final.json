@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Henoch–Schönlein purpura",
+        "Distribution": [
+            "Mặt trong đùi",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Dát hồng ban",
+            "Dát xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt",
+            "Tím nhạt"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Quanh nang lông",
+            "Tăng sắc tố",
+            "Vết cào xước"
+        ],
+        "_metadata": {
+            "image_id": "IMG_95_jpg_e5f3",
+            "json_id": "JSON_IMG_95_jpg_e5f3_gpt_5_5_04281015",
+            "timestamp": "2026-04-28 10:15:24"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Cẳng tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng teo da",
+            "Hồng ban"
+        ],
+        "Colour": [
+            "Hồng tím",
+            "Trắng bóng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Da mỏng",
+            "Nhăn nheo",
+            "Bóng da",
+            "Đốm sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_metastatic_melanoma_16_jpg_b173",
+            "json_id": "JSON_IMG_metastatic_melanoma_16_jpg_b173_gpt_5_5_04291037",
+            "timestamp": "2026-04-29 10:37:33"
+        }
+    }
+}

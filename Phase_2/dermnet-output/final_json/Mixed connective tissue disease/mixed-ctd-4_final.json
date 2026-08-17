@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mixed connective tissue disease",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Phù nề"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bóng da",
+            "Sưng nề",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mixed_ctd_4_jpg_3394",
+            "json_id": "JSON_IMG_mixed_ctd_4_jpg_3394_gpt_5_5_04291017",
+            "timestamp": "2026-04-29 10:17:30"
+        }
+    }
+}

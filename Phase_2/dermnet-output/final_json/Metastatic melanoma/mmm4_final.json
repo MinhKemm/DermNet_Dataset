@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Cổ chân",
+            "Gót chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vảy",
+            "Sẩn đen"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Bờ gồ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Mài tiết",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mmm4_jpg_9785",
+            "json_id": "JSON_IMG_mmm4_jpg_9785_gpt_5_5_04291031",
+            "timestamp": "2026-04-29 10:31:39"
+        }
+    }
+}

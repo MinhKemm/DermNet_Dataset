@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polythelia",
+        "Distribution": [
+            "Vùng thân mình",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bờ gồ nhẹ",
+            "Trung tâm nhạt",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_supernumerary_nipple_06_jpg_9927",
+            "json_id": "JSON_IMG_supernumerary_nipple_06_jpg_9927_gpt_5_5_04281329",
+            "timestamp": "2026-04-28 13:29:18"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Hai cẳng chân",
+            "Rải rác",
+            "Không đều"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Chấm xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Quầng đỏ",
+            "Vết gãi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_43_jpg_0168",
+            "json_id": "JSON_IMG_43_jpg_0168_gpt_5_5_04281145",
+            "timestamp": "2026-04-28 11:45:34"
+        }
+    }
+}

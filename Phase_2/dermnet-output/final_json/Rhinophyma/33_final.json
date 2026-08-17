@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rhinophyma",
+        "Distribution": [
+            "Mũi",
+            "Đầu mũi",
+            "Cánh mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng gồ",
+            "Nốt",
+            "Phì đại da"
+        ],
+        "Colour": [
+            "Da nâu",
+            "Hồng nhạt",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Dạng thùy",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Lỗ chân lông",
+            "Biến dạng mũi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_33_jpg_4d73",
+            "json_id": "JSON_IMG_33_jpg_4d73_gpt_5_5_04280857",
+            "timestamp": "2026-04-28 08:57:41"
+        }
+    }
+}

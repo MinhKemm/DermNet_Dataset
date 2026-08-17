@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Madarosis",
+        "Distribution": [
+            "Vùng quanh mắt",
+            "Mi trên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Tím hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da nhăn",
+            "Da mỏng",
+            "Bề mặt trơn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_madarosis_13_jpg_d614",
+            "json_id": "JSON_IMG_madarosis_13_jpg_d614_gpt_5_5_04291239",
+            "timestamp": "2026-04-29 12:39:04"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Plasmacytoma",
+        "Distribution": [
+            "Chi trên",
+            "Khu trú",
+            "Thành đám"
+        ],
+        "Lesion_Type": [
+            "Mảng xuất huyết",
+            "Dát xuất huyết"
+        ],
+        "Colour": [
+            "Tím bầm",
+            "Nâu vàng",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bầm máu",
+            "Hợp lưu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_38be",
+            "json_id": "JSON_IMG_04_jpg_38be_gpt_5_5_04281406",
+            "timestamp": "2026-04-28 14:06:56"
+        }
+    }
+}

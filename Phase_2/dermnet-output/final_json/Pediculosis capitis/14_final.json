@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pediculosis capitis",
+        "Distribution": [
+            "Vùng da có lông",
+            "Quanh nang lông",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Vảy tiết",
+            "Trứng bám lông"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Đỏ hồng",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Nhỏ",
+            "Rải rác"
+        ],
+        "Characteristics": [
+            "Đóng mày",
+            "Trầy xước",
+            "Lông thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_14_jpg_5d26",
+            "json_id": "JSON_IMG_14_jpg_5d26_gpt_5_5_04281742",
+            "timestamp": "2026-04-28 17:42:33"
+        }
+    }
+}

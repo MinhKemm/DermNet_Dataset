@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Palmoplantar keratoderma",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng dày sừng",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Bong vảy dày",
+            "Dày sừng",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_37_jpg_7083",
+            "json_id": "JSON_IMG_37_jpg_7083_gpt_5_5_04281919",
+            "timestamp": "2026-04-28 19:19:42"
+        }
+    }
+}

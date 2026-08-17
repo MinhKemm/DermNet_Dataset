@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis rubra pilaris",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Gót chân",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Mảng dày sừng",
+            "Bong da"
+        ],
+        "Colour": [
+            "Vàng nhạt",
+            "Hồng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Bong vảy",
+            "Nứt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_prp13_jpg_26c0",
+            "json_id": "JSON_IMG_prp13_jpg_26c0_gpt_5_5_04281534",
+            "timestamp": "2026-04-28 15:34:18"
+        }
+    }
+}

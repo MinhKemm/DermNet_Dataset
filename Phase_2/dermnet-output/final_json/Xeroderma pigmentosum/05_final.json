@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Xeroderma pigmentosum",
+        "Distribution": [
+            "Lan tỏa",
+            "Lưng trên",
+            "Gáy",
+            "Vai",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Mảng khô da"
+        ],
+        "Colour": [
+            "Nâu xám",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Bong vảy mịn",
+            "Dày sừng nang lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_7671",
+            "json_id": "JSON_IMG_05_jpg_7671_gpt_5_5_04271710",
+            "timestamp": "2026-04-27 17:10:50"
+        }
+    }
+}

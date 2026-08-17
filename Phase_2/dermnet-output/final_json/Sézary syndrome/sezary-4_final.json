@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sézary syndrome",
+        "Distribution": [
+            "Vùng da",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng thâm đỏ"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Da căng",
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sezary_4_jpg_5524",
+            "json_id": "JSON_IMG_sezary_4_jpg_5524_gpt_5_5_04280025",
+            "timestamp": "2026-04-28 00:25:59"
+        }
+    }
+}

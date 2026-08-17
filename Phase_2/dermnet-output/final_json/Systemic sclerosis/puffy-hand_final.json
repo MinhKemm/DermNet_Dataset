@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Systemic sclerosis",
+        "Distribution": [
+            "Lan tỏa",
+            "Lòng bàn tay",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Dát",
+            "Mảng"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Nâu cam"
+        ],
+        "Shape": [
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố",
+            "Đậm nếp gấp"
+        ],
+        "_metadata": {
+            "image_id": "IMG_puffy_hand_jpg_c085",
+            "json_id": "JSON_IMG_puffy_hand_jpg_c085_gpt_5_5_04272222",
+            "timestamp": "2026-04-27 22:22:08"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Non-albicans candida infections",
+        "Distribution": [
+            "Quanh hậu môn",
+            "Nếp kẽ",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn sùi",
+            "Mảng sùi",
+            "U nhú"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Đỏ hồng",
+            "Nâu tím"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Dạng nhú",
+            "Thùy múi"
+        ],
+        "Characteristics": [
+            "Bề mặt ẩm",
+            "Gồ cao",
+            "Nếp da dày"
+        ],
+        "_metadata": {
+            "image_id": "IMG_57_jpg_bcd3",
+            "json_id": "JSON_IMG_57_jpg_bcd3_gpt_5_5_04282226",
+            "timestamp": "2026-04-28 22:26:25"
+        }
+    }
+}

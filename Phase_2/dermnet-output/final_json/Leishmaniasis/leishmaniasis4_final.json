@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leishmaniasis",
+        "Distribution": [
+            "Vùng thân mình",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn lõm giữa",
+            "Nốt gồ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Dạng vòm"
+        ],
+        "Characteristics": [
+            "Lõm trung tâm",
+            "Bề mặt bóng",
+            "Quầng hồng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leishmaniasis4_jpg_a08c",
+            "json_id": "JSON_IMG_leishmaniasis4_jpg_a08c_gpt_5_5_04291424",
+            "timestamp": "2026-04-29 14:24:09"
+        }
+    }
+}

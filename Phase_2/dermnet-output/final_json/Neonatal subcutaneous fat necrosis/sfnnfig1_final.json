@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Neonatal subcutaneous fat necrosis",
+        "Distribution": [
+            "Mô mỡ dưới da",
+            "Quanh vách"
+        ],
+        "Lesion_Type": [
+            "Thâm nhiễm viêm",
+            "Mô mỡ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Tím sẫm"
+        ],
+        "Shape": [
+            "Dạng thùy",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Vách dày",
+            "Tế bào viêm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sfnnfig1_jpg_9fa0",
+            "json_id": "JSON_IMG_sfnnfig1_jpg_9fa0_gpt_5_5_04290754",
+            "timestamp": "2026-04-29 07:54:09"
+        }
+    }
+}

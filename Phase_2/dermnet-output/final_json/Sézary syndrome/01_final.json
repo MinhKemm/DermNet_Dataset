@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sézary syndrome",
+        "Distribution": [
+            "Niêm mạc môi",
+            "Tập trung",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Đốm trắng vàng"
+        ],
+        "Colour": [
+            "Trắng vàng",
+            "Hồng tím"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt trơn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_803e",
+            "json_id": "JSON_IMG_01_jpg_803e_gpt_5_5_04280030",
+            "timestamp": "2026-04-28 00:30:44"
+        }
+    }
+}

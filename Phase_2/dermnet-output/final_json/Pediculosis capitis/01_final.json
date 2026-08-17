@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pediculosis capitis",
+        "Distribution": [
+            "Da có lông",
+            "Bám sợi lông",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Ký sinh trùng",
+            "Vật thể"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Trong mờ",
+            "Đen"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Chân nhỏ",
+            "Thân dẹt",
+            "Đốm đen"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_6cba",
+            "json_id": "JSON_IMG_01_jpg_6cba_gpt_5_5_04281746",
+            "timestamp": "2026-04-28 17:46:45"
+        }
+    }
+}

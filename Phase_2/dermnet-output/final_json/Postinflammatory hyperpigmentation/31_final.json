@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Postinflammatory hyperpigmentation",
+        "Distribution": [
+            "Cẳng tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Giảm sắc tố",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_31_jpg_99ce",
+            "json_id": "JSON_IMG_31_jpg_99ce_gpt_5_5_04281312",
+            "timestamp": "2026-04-28 13:12:50"
+        }
+    }
+}

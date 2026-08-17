@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen nitidus",
+        "Distribution": [
+            "Mặt duỗi",
+            "Cánh tay",
+            "Rải rác",
+            "Theo nang lông"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Màu da",
+            "Đỏ nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Đồng dạng"
+        ],
+        "Characteristics": [
+            "Thô ráp",
+            "Nút sừng",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichennitid4_jpg_4d26",
+            "json_id": "JSON_IMG_lichennitid4_jpg_4d26_gpt_5_5_04291410",
+            "timestamp": "2026-04-29 14:10:39"
+        }
+    }
+}

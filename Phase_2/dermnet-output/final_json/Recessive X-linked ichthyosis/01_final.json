@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ichthyosis",
+        "Distribution": [
+            "Cẳng tay",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sừng",
+            "Vảy da"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Xám trắng"
+        ],
+        "Shape": [
+            "Đa giác",
+            "Dạng lưới",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Khô da",
+            "Nứt nẻ nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_ea23",
+            "json_id": "JSON_IMG_01_jpg_ea23_gpt_5_5_04280921",
+            "timestamp": "2026-04-28 09:21:54"
+        }
+    }
+}

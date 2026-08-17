@@ -1,0 +1,18 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Benign hereditary telangiectasia",
+        "Distribution": [],
+        "Lesion_Type": [],
+        "Colour": [],
+        "Shape": [],
+        "Characteristics": [
+            "Minh họa",
+            "Di truyền"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_3fd6",
+            "json_id": "JSON_IMG_08_jpg_3fd6_gpt_5_5_04272217",
+            "timestamp": "2026-04-27 22:17:21"
+        }
+    }
+}

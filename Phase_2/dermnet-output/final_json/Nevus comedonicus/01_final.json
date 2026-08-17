@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nevus comedonicus",
+        "Distribution": [
+            "Thân mình",
+            "Thành cụm",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn tăng sừng",
+            "Nốt sừng",
+            "Mảng sùi"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Đen xám",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt sần",
+            "Dày sừng",
+            "Vảy sừng",
+            "Nhiều kích thước"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_3de3",
+            "json_id": "JSON_IMG_01_jpg_3de3_gpt_5_5_04290742",
+            "timestamp": "2026-04-29 07:42:02"
+        }
+    }
+}

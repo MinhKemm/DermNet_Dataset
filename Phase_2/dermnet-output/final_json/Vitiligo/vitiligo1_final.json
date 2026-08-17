@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Mu bàn chân",
+            "Hai bên",
+            "Gần đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng mất sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Trắng sữa"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo1_jpg_ea31",
+            "json_id": "JSON_IMG_vitiligo1_jpg_ea31_gpt_5_5_04271829",
+            "timestamp": "2026-04-27 18:29:02"
+        }
+    }
+}

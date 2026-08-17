@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Loét hoại tử",
+            "Mảng hồng ban",
+            "Sẩn đóng mài"
+        ],
+        "Colour": [
+            "Đen",
+            "Đỏ hồng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Mài đen",
+            "Hoại tử trung tâm",
+            "Rỉ máu",
+            "Quầng đỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_a7c5",
+            "json_id": "JSON_IMG_04_jpg_a7c5_gpt_5_5_04281011",
+            "timestamp": "2026-04-28 10:11:14"
+        }
+    }
+}

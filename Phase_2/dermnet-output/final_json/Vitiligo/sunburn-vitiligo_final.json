@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Lưng trên",
+            "Gáy",
+            "Vai",
+            "Hợp lưu",
+            "Lan rộng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng bóng",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Bong vảy mỏng",
+            "Bề mặt bóng",
+            "Tăng sắc tố nền"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sunburn_vitiligo_jpg_3a3a",
+            "json_id": "JSON_IMG_sunburn_vitiligo_jpg_3a3a_gpt_5_5_04271850",
+            "timestamp": "2026-04-27 18:50:56"
+        }
+    }
+}

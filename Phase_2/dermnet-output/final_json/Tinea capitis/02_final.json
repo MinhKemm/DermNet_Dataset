@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea capitis",
+        "Distribution": [
+            "Da đầu",
+            "Lan tỏa",
+            "Quanh chân tóc"
+        ],
+        "Lesion_Type": [
+            "Mảng vảy tiết",
+            "Mảng trợt",
+            "Mụn mủ"
+        ],
+        "Colour": [
+            "Vàng mật ong",
+            "Nâu vàng",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Vảy tiết dày",
+            "Đóng mài",
+            "Rỉ dịch",
+            "Tóc bết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_bf5b",
+            "json_id": "JSON_IMG_02_jpg_bf5b_gpt_5_5_04272130",
+            "timestamp": "2026-04-27 21:30:10"
+        }
+    }
+}

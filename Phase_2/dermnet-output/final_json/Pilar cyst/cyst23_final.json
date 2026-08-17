@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilar cyst",
+        "Distribution": [
+            "Vành tai",
+            "Nếp sau tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mụn nước",
+            "Mụn mủ"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ hồng",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng vảy tiết",
+            "Trợt nông",
+            "Tụ thành cụm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cyst23_jpg_2769",
+            "json_id": "JSON_IMG_cyst23_jpg_2769_gpt_5_5_04281613",
+            "timestamp": "2026-04-28 16:13:33"
+        }
+    }
+}

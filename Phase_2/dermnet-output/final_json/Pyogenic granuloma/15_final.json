@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyogenic granuloma",
+        "Distribution": [
+            "Khu trú",
+            "Ngón chân",
+            "Quanh móng",
+            "Bờ móng bên"
+        ],
+        "Lesion_Type": [
+            "Đổi màu móng",
+            "Mô hạt",
+            "Sưng quanh móng"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Nâu đen",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Rỉ dịch",
+            "Loét nông",
+            "Móng bong"
+        ],
+        "_metadata": {
+            "image_id": "IMG_15_jpg_7421",
+            "json_id": "JSON_IMG_15_jpg_7421_gpt_5_5_04280942",
+            "timestamp": "2026-04-28 09:42:52"
+        }
+    }
+}

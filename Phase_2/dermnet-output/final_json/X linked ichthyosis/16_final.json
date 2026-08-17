@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ichthyosis",
+        "Distribution": [
+            "Sơ đồ",
+            "Hai cụm",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [],
+        "Colour": [
+            "Xanh lam",
+            "Xanh lục",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình que",
+            "Hình bầu dục"
+        ],
+        "Characteristics": [
+            "Chữ chú thích",
+            "Nhiễm sắc thể"
+        ],
+        "_metadata": {
+            "image_id": "IMG_16_jpg_f45a",
+            "json_id": "JSON_IMG_16_jpg_f45a_gpt_5_5_04271736",
+            "timestamp": "2026-04-27 17:36:26"
+        }
+    }
+}

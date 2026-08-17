@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Vùng bụng",
+            "Quanh rốn",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Màu da",
+            "Trắng ngà",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Kích thước nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_16_jpg_e073",
+            "json_id": "JSON_IMG_16_jpg_e073_gpt_5_5_04281230",
+            "timestamp": "2026-04-28 12:30:51"
+        }
+    }
+}

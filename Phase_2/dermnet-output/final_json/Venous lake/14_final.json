@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Venous lake",
+        "Distribution": [
+            "Vùng da",
+            "Khu trú",
+            "Trung tâm"
+        ],
+        "Lesion_Type": [
+            "Mảng sắc tố",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Xanh xám",
+            "Nâu nhạt",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Mạch máu nhỏ",
+            "Chấm đỏ",
+            "Vệt sắc tố",
+            "Nền hồng ban"
+        ],
+        "_metadata": {
+            "image_id": "IMG_14_jpg_48b9",
+            "json_id": "JSON_IMG_14_jpg_48b9_gpt_5_5_04271858",
+            "timestamp": "2026-04-27 18:58:08"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis rubra pilaris",
+        "Distribution": [
+            "Cẳng chân",
+            "Đầu gối",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng bạc"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Vảy trắng bạc"
+        ],
+        "_metadata": {
+            "image_id": "IMG_14_jpg_722e",
+            "json_id": "JSON_IMG_14_jpg_722e_gpt_5_5_04281541",
+            "timestamp": "2026-04-28 15:41:45"
+        }
+    }
+}

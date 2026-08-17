@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea faciei",
+        "Distribution": [
+            "Vùng quanh tai",
+            "Má",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Nứt kẽ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_65aa",
+            "json_id": "JSON_IMG_01_jpg_65aa_gpt_5_5_04272106",
+            "timestamp": "2026-04-27 21:06:38"
+        }
+    }
+}

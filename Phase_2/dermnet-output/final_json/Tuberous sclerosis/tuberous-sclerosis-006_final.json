@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tuberous sclerosis",
+        "Distribution": [
+            "Vùng cổ chân",
+            "Khu trú",
+            "Xếp thành hàng"
+        ],
+        "Lesion_Type": [
+            "Sẩn dẹt",
+            "Mảng nhỏ"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Hợp thành cụm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tuberous_sclerosis_006_jpg_194d",
+            "json_id": "JSON_IMG_tuberous_sclerosis_006_jpg_194d_gpt_5_5_04272009",
+            "timestamp": "2026-04-27 20:09:50"
+        }
+    }
+}

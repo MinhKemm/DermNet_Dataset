@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Necrotising fasciitis",
+        "Distribution": [
+            "Vùng bẹn",
+            "Vùng sinh dục",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết loét sâu",
+            "Mảng hoại tử",
+            "Trợt da rộng"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Trắng vàng",
+            "Đen xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ nham nhở"
+        ],
+        "Characteristics": [
+            "Mô hạt",
+            "Giả mạc",
+            "Dịch tiết",
+            "Hoại tử"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_64f2",
+            "json_id": "JSON_IMG_08_jpg_64f2_gpt_5_5_04290808",
+            "timestamp": "2026-04-29 08:08:51"
+        }
+    }
+}

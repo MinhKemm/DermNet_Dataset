@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leishmaniasis",
+        "Distribution": [
+            "Lưỡi",
+            "Mặt lưng lưỡi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Khối sùi",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Dạng thùy",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Trợt loét",
+            "Giả mạc trắng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cutaneous_leishmaniasis_07_v3_jpg_dd9c",
+            "json_id": "JSON_IMG_cutaneous_leishmaniasis_07_v3_jpg_dd9c_gpt_5_5_04291430",
+            "timestamp": "2026-04-29 14:30:19"
+        }
+    }
+}

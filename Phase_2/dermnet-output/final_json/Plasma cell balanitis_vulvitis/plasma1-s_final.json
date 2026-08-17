@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Plasma cell balanitis_vulvitis",
+        "Distribution": [
+            "Quy đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Trắng xám",
+            "Tím xanh"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt ướt",
+            "Bóng",
+            "Vết nứt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_plasma1_s_jpg_dc08",
+            "json_id": "JSON_IMG_plasma1_s_jpg_dc08_gpt_5_5_04281408",
+            "timestamp": "2026-04-28 14:08:20"
+        }
+    }
+}

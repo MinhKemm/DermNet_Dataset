@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Macroglossia",
+        "Distribution": [
+            "Mặt lưng lưỡi",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt gồ",
+            "Mảng gồ"
+        ],
+        "Colour": [
+            "Hồng tím",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Đa cung",
+            "Dạng hạt",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bóng ẩm",
+            "Dạng lát sỏi",
+            "Rãnh nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_amyl1_jpg_2469",
+            "json_id": "JSON_IMG_amyl1_jpg_2469_gpt_5_5_04291249",
+            "timestamp": "2026-04-29 12:49:07"
+        }
+    }
+}

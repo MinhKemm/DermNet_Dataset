@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Xeroderma pigmentosum",
+        "Distribution": [
+            "Mặt",
+            "Quanh mắt",
+            "Quanh miệng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Phù nề",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Đóng mài",
+            "Sưng nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_xeroderma_pigmentosum_15_jpg_0691",
+            "json_id": "JSON_IMG_xeroderma_pigmentosum_15_jpg_0691_gpt_5_5_04271706",
+            "timestamp": "2026-04-27 17:06:02"
+        }
+    }
+}

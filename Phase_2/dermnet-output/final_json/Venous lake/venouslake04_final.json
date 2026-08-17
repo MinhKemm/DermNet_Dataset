@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Venous lake",
+        "Distribution": [
+            "Môi dưới",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt sắc tố",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Xanh đen",
+            "Xám đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Bờ đều"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Kích thước nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_venouslake04_jpg_a3d0",
+            "json_id": "JSON_IMG_venouslake04_jpg_a3d0_gpt_5_5_04271851",
+            "timestamp": "2026-04-27 18:51:31"
+        }
+    }
+}

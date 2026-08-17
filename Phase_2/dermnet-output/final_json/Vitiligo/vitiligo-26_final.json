@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Mí mắt",
+            "Quanh mắt",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Phù nhẹ",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_26_jpg_7cbf",
+            "json_id": "JSON_IMG_vitiligo_26_jpg_7cbf_gpt_5_5_04271842",
+            "timestamp": "2026-04-27 18:42:10"
+        }
+    }
+}

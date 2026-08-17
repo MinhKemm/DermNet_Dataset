@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Poliosis",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Thưa tóc"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Tóc trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Tóc ngắn gãy"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_4fe5",
+            "json_id": "JSON_IMG_04_jpg_4fe5_gpt_5_5_04281359",
+            "timestamp": "2026-04-28 13:59:58"
+        }
+    }
+}

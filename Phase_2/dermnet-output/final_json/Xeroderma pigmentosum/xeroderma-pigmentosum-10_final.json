@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Xeroderma pigmentosum",
+        "Distribution": [
+            "Mặt",
+            "Quanh miệng",
+            "Niêm mạc miệng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn tăng sắc tố",
+            "Nốt sần",
+            "Khối niêm mạc"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Hồng nhạt",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Dạng thùy",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Sần sùi",
+            "Tăng sắc tố",
+            "Trợt ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_xeroderma_pigmentosum_10_jpg_aa53",
+            "json_id": "JSON_IMG_xeroderma_pigmentosum_10_jpg_aa53_gpt_5_5_04271708",
+            "timestamp": "2026-04-27 17:08:18"
+        }
+    }
+}

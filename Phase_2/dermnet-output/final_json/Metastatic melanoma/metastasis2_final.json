@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Vùng da đầu",
+            "Sát đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt sùi",
+            "U cục"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Trợt loét",
+            "Ẩm ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_metastasis2_jpg_1e47",
+            "json_id": "JSON_IMG_metastasis2_jpg_1e47_gpt_5_5_04291040",
+            "timestamp": "2026-04-29 10:40:14"
+        }
+    }
+}

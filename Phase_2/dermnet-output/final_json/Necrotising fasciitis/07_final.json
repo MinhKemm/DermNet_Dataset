@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Necrotising fasciitis",
+        "Distribution": [
+            "Vùng bẹn",
+            "Vùng hạ vị",
+            "Vùng sinh dục",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét rộng",
+            "Mảng mất da",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Trắng vàng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ nham nhở"
+        ],
+        "Characteristics": [
+            "Mô hạt",
+            "Giả mạc",
+            "Dịch tiết",
+            "Hoại tử nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_6d6b",
+            "json_id": "JSON_IMG_07_jpg_6d6b_gpt_5_5_04290809",
+            "timestamp": "2026-04-29 08:09:18"
+        }
+    }
+}

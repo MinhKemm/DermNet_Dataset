@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Osteoma cutis",
+        "Distribution": [
+            "Vùng da hở",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Nốt sẩn",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Nâu tím",
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Nút sừng",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_8cda",
+            "json_id": "JSON_IMG_03_jpg_8cda_gpt_5_5_04281947",
+            "timestamp": "2026-04-28 19:47:46"
+        }
+    }
+}

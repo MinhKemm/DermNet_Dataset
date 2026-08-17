@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Trichotillomania",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú",
+            "Nhiều ổ"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Trắng hồng",
+            "Đỏ nâu",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Thưa tóc",
+            "Tróc vảy",
+            "Đóng mài",
+            "Lông tóc gãy"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_0945",
+            "json_id": "JSON_IMG_08_jpg_0945_gpt_5_5_04272025",
+            "timestamp": "2026-04-27 20:25:15"
+        }
+    }
+}

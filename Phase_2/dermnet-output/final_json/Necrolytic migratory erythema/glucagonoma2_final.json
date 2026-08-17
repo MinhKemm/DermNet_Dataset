@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Necrolytic migratory erythema",
+        "Distribution": [
+            "Lưỡi",
+            "Niêm mạc má",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Vệt trắng",
+            "Hồng ban"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Dạng lưới",
+            "Dạng vân",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Đường trắng mảnh",
+            "Bóng ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_glucagonoma2_jpg_2e01",
+            "json_id": "JSON_IMG_glucagonoma2_jpg_2e01_gpt_5_5_04290811",
+            "timestamp": "2026-04-29 08:11:21"
+        }
+    }
+}

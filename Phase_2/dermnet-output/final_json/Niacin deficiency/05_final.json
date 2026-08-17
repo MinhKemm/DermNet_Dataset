@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Niacin deficiency",
+        "Distribution": [
+            "Vùng cổ",
+            "Nếp gấp cổ",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng sắc tố",
+            "Mảng dày da"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Dải cong",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Da dày",
+            "Nếp da rõ",
+            "Nhung mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_30f2",
+            "json_id": "JSON_IMG_05_jpg_30f2_gpt_5_5_04290739",
+            "timestamp": "2026-04-29 07:39:17"
+        }
+    }
+}

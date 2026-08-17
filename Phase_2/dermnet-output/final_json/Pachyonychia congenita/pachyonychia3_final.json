@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pachyonychia congenita",
+        "Distribution": [
+            "Mặt lưng lưỡi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng đỏ",
+            "Dải trắng"
+        ],
+        "Colour": [
+            "Hồng đỏ",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Dạng đường cong",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Mất gai lưỡi",
+            "Viền trắng mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pachyonychia3_jpg_9e66",
+            "json_id": "JSON_IMG_pachyonychia3_jpg_9e66_gpt_5_5_04281937",
+            "timestamp": "2026-04-28 19:37:02"
+        }
+    }
+}

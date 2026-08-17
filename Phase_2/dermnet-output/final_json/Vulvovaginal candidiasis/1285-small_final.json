@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vulvovaginal candidiasis",
+        "Distribution": [
+            "Nếp gấp da",
+            "Rải rác",
+            "Cụm nhỏ"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Trợt da",
+            "Ẩm",
+            "Tổn thương vệ tinh"
+        ],
+        "_metadata": {
+            "image_id": "IMG_1285_small_jpg_90ba",
+            "json_id": "JSON_IMG_1285_small_jpg_90ba_gpt_5_5_04271803",
+            "timestamp": "2026-04-27 18:03:07"
+        }
+    }
+}

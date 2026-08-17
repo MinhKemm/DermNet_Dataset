@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Nếp lằn mông",
+            "Mặt sau đùi",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Tăng sắc tố",
+            "Mảng dày da"
+        ],
+        "Colour": [
+            "Nâu xám",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Dạng dải",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Da dày",
+            "Bề mặt mịn",
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_28_jpg_7dd6",
+            "json_id": "JSON_IMG_28_jpg_7dd6_gpt_5_5_04280811",
+            "timestamp": "2026-04-28 08:11:37"
+        }
+    }
+}

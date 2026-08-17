@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pachyonychia congenita",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Hai bên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Nứt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pachyonychia_congenita_08_jpg_9bd1",
+            "json_id": "JSON_IMG_pachyonychia_congenita_08_jpg_9bd1_gpt_5_5_04281939",
+            "timestamp": "2026-04-28 19:39:28"
+        }
+    }
+}

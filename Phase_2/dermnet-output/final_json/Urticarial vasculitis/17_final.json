@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Urticaria",
+        "Distribution": [
+            "Cẳng chân",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dát xuất huyết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_17_jpg_3bd3",
+            "json_id": "JSON_IMG_17_jpg_3bd3_gpt_5_5_04271936",
+            "timestamp": "2026-04-27 19:36:48"
+        }
+    }
+}

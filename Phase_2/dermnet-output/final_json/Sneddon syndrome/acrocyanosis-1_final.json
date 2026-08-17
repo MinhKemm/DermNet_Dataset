@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sneddon syndrome",
+        "Distribution": [
+            "Đầu ngón chân",
+            "Nhiều ngón",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sưng nề",
+            "Mảng đổi màu"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Tím xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Bong vảy mịn",
+            "Căng bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_acrocyanosis_1_jpg_07ee",
+            "json_id": "JSON_IMG_acrocyanosis_1_jpg_07ee_gpt_5_5_04280025",
+            "timestamp": "2026-04-28 00:25:36"
+        }
+    }
+}

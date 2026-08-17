@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Keratosis pilaris",
+        "Distribution": [
+            "Thân mình",
+            "Phân bố nang lông",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài nhỏ",
+            "Tăng sắc tố",
+            "Nền đỏ hồng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_kerapil3_jpg_5c3b",
+            "json_id": "JSON_IMG_kerapil3_jpg_5c3b_gpt_5_5_04291457",
+            "timestamp": "2026-04-29 14:57:12"
+        }
+    }
+}

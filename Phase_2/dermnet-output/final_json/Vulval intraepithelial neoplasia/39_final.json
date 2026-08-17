@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vulval intraepithelial neoplasia",
+        "Distribution": [
+            "Vùng bụng",
+            "Rải rác",
+            "Quanh vết mổ"
+        ],
+        "Lesion_Type": [
+            "Chấm xuất huyết",
+            "Sẩn đỏ",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Dạng chấm",
+            "Đường rạch ngắn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Mài máu",
+            "Chảy máu khô",
+            "Băng dán"
+        ],
+        "_metadata": {
+            "image_id": "IMG_39_jpg_a1ad",
+            "json_id": "JSON_IMG_39_jpg_a1ad_gpt_5_5_04271814",
+            "timestamp": "2026-04-27 18:14:32"
+        }
+    }
+}

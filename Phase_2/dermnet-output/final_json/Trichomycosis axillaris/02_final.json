@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Trichomycosis axillaris",
+        "Distribution": [
+            "Nách",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng đổi màu",
+            "Mảng hồng nhạt"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Lông rậm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_57e3",
+            "json_id": "JSON_IMG_02_jpg_57e3_gpt_5_5_04272029",
+            "timestamp": "2026-04-27 20:29:34"
+        }
+    }
+}

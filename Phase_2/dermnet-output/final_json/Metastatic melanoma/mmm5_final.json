@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Lưng trên",
+            "Vai",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng sắc tố",
+            "Dát xuất huyết",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Tím nâu",
+            "Đỏ nâu",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Hình chấm"
+        ],
+        "Characteristics": [
+            "Chấm xuất huyết",
+            "Tăng sắc tố",
+            "Giảm sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mmm5_jpg_4d7f",
+            "json_id": "JSON_IMG_mmm5_jpg_4d7f_gpt_5_5_04291031",
+            "timestamp": "2026-04-29 10:31:22"
+        }
+    }
+}

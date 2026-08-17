@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Kẽ mông",
+            "Nếp gấp da",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Trợt da",
+            "Vết nứt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím",
+            "Trắng ẩm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Ẩm ướt",
+            "Nứt kẽ",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_16_jpg_20db",
+            "json_id": "JSON_IMG_16_jpg_20db_gpt_5_5_04281153",
+            "timestamp": "2026-04-28 11:53:31"
+        }
+    }
+}

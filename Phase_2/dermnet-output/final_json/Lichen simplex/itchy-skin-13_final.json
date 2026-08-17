@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Lưng trên",
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt phẳng",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_itchy_skin_13_jpg_9add",
+            "json_id": "JSON_IMG_itchy_skin_13_jpg_9add_gpt_5_5_04291303",
+            "timestamp": "2026-04-29 13:03:15"
+        }
+    }
+}

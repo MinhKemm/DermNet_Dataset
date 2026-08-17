@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vulvovaginal candidiasis",
+        "Distribution": [
+            "Kẽ mông",
+            "Quanh hậu môn",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết loét",
+            "Nứt kẽ",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ tím",
+            "Hồng đỏ"
+        ],
+        "Shape": [
+            "Dạng khe",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt ướt",
+            "Rỉ dịch",
+            "Mô hạt",
+            "Bờ trợt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cangrs_jpg_a35a",
+            "json_id": "JSON_IMG_cangrs_jpg_a35a_gpt_5_5_04271752",
+            "timestamp": "2026-04-27 17:52:02"
+        }
+    }
+}

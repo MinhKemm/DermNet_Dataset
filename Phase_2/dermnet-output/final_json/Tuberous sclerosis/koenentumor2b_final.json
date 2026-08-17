@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tuberous sclerosis",
+        "Distribution": [
+            "Ngón chân cái",
+            "Nếp móng gần",
+            "Bờ móng bên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt đỏ",
+            "Sẩn quanh móng",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Hồng đỏ",
+            "Đỏ nâu",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Lồi",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Trợt da",
+            "Tách móng",
+            "Rãnh móng dọc"
+        ],
+        "_metadata": {
+            "image_id": "IMG_koenentumor2b_jpg_3953",
+            "json_id": "JSON_IMG_koenentumor2b_jpg_3953_gpt_5_5_04272012",
+            "timestamp": "2026-04-27 20:12:04"
+        }
+    }
+}

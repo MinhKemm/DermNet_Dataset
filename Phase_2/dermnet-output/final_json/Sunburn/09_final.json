@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sunburn",
+        "Distribution": [
+            "Cẳng tay",
+            "Mu bàn tay",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Khô da",
+            "Dày da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_09_jpg_c1ea",
+            "json_id": "JSON_IMG_09_jpg_c1ea_gpt_5_5_04272342",
+            "timestamp": "2026-04-27 23:42:26"
+        }
+    }
+}

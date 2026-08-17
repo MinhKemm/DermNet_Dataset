@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Malignant histiocytoses",
+        "Distribution": [
+            "Mu bàn chân",
+            "Quanh ngón chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Cung tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leukaemia3_jpg_7e56",
+            "json_id": "JSON_IMG_leukaemia3_jpg_7e56_gpt_5_5_04291231",
+            "timestamp": "2026-04-29 12:31:57"
+        }
+    }
+}

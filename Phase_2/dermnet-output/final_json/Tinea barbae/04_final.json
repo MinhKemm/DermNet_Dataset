@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea barbae",
+        "Distribution": [
+            "Môi",
+            "Quanh miệng",
+            "Cằm",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn",
+            "Nốt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Đóng mài",
+            "Nứt nẻ",
+            "Bóng da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_5657",
+            "json_id": "JSON_IMG_04_jpg_5657_gpt_5_5_04272133",
+            "timestamp": "2026-04-27 21:33:13"
+        }
+    }
+}

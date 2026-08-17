@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pachyonychia congenita",
+        "Distribution": [
+            "Móng tay",
+            "Quanh móng",
+            "Hai bàn tay",
+            "Nhiều ngón"
+        ],
+        "Lesion_Type": [
+            "Dày móng",
+            "Biến dạng móng",
+            "Sẩn sùi"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Nâu đen",
+            "Xám vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Gồ ghề"
+        ],
+        "Characteristics": [
+            "Tăng sừng",
+            "Móng vụn",
+            "Tách móng",
+            "Sùi sừng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pachyonychia4_jpg_0648",
+            "json_id": "JSON_IMG_pachyonychia4_jpg_0648_gpt_5_5_04281936",
+            "timestamp": "2026-04-28 19:36:46"
+        }
+    }
+}

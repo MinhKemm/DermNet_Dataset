@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis amiantacea",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng đóng vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng mật ong",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy dày",
+            "Vảy tiết vàng",
+            "Tóc thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_14_jpg_ebe7",
+            "json_id": "JSON_IMG_14_jpg_ebe7_gpt_5_5_04281550",
+            "timestamp": "2026-04-28 15:50:29"
+        }
+    }
+}

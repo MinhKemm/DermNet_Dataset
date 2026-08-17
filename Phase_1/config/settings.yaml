@@ -1,22 +1,15 @@
-#  Phase 1 — Cấu hình Pipeline
 paths:
   data_raw:        "dermnet-output"
-  # Debug: lưu response thô Phase 1 & Phase 2
   data_intermediate: "Phase_1/debug_outputs"
-  # Output cuối cùng: JSON chuẩn hóa
   data_consensus:   "Phase_1/output/final"
 
 models:
-  # ================================================================
-  #  VLM MAIN — GPT-5-5 (thông qua OpenAI SDK)
-  #  Nhiệm vụ: Chạy cả Phase 1 (Quan sát) & Phase 2 (Sinh JSON)
-  # ================================================================
   vlm_main:
     provider:      "openai"
-    model_id:      "gpt-5.5" # Điền đúng tên model bạn đang dùng (VD: gpt-5.4-mini)
+    model_id:      "gpt-5.5" 
     temperature:   0.1
     max_tokens:    4096
-    api_key_env:   "sk-9vxjaKazifmr1_t_k9hvc53zrS5n_X6x"
+    api_key_env:   "OPENAI_API_KEY"
     
 
 pipeline:

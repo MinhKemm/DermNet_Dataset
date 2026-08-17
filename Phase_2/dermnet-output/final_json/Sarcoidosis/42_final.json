@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Mặt",
+            "Má",
+            "Mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mảng trợt",
+            "Nốt đỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ nâu",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Trợt da",
+            "Đóng mài",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_42_jpg_6832",
+            "json_id": "JSON_IMG_42_jpg_6832_gpt_5_5_04280807",
+            "timestamp": "2026-04-28 08:07:04"
+        }
+    }
+}

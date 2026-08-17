@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Porphyria cutanea tarda",
+        "Distribution": [
+            "Mặt",
+            "Má",
+            "Thái dương",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Vết trợt",
+            "Vết loét nông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đen",
+            "Tím bầm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Vảy tiết",
+            "Khâu da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_43ee",
+            "json_id": "JSON_IMG_01_jpg_43ee_gpt_5_5_04281327",
+            "timestamp": "2026-04-28 13:27:20"
+        }
+    }
+}

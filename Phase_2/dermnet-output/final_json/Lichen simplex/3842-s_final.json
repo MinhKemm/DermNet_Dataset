@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Nếp liên mông",
+            "Hai bên mông",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da ẩm",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3842_s_jpg_0a6d",
+            "json_id": "JSON_IMG_3842_s_jpg_0a6d_gpt_5_5_04291304",
+            "timestamp": "2026-04-29 13:04:36"
+        }
+    }
+}

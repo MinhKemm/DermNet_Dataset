@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Henoch–Schönlein purpura",
+        "Distribution": [
+            "Cẳng chân hai bên",
+            "Vùng thấp",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng xuất huyết",
+            "Chấm xuất huyết",
+            "Đám hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ sẫm",
+            "Tím bầm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dày đặc vùng cổ chân",
+            "Rải rác phía trên",
+            "Phù nề nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_107_jpg_f218",
+            "json_id": "JSON_IMG_107_jpg_f218_gpt_5_5_04281048",
+            "timestamp": "2026-04-28 10:48:01"
+        }
+    }
+}

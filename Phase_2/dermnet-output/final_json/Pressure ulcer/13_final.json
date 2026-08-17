@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét da",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Giả mạc vàng",
+            "Trợt da",
+            "Rỉ dịch",
+            "Quầng đỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_13_jpg_873c",
+            "json_id": "JSON_IMG_13_jpg_873c_gpt_5_5_04281305",
+            "timestamp": "2026-04-28 13:05:40"
+        }
+    }
+}

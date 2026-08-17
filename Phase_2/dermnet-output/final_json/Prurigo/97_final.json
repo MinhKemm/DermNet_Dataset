@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Da phơi nắng",
+            "Rải rác",
+            "Không đều"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Sẩn hồng ban",
+            "Mảng nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Dày sừng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_97_jpg_bbe6",
+            "json_id": "JSON_IMG_97_jpg_bbe6_gpt_5_5_04281203",
+            "timestamp": "2026-04-28 12:03:35"
+        }
+    }
+}

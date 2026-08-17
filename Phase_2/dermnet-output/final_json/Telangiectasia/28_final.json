@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Benign hereditary telangiectasia",
+        "Distribution": [
+            "Ngực",
+            "Thân mình",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Sẩn nang lông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Quanh nang lông",
+            "Lông nhiều"
+        ],
+        "_metadata": {
+            "image_id": "IMG_28_jpg_3faf",
+            "json_id": "JSON_IMG_28_jpg_3faf_gpt_5_5_04272203",
+            "timestamp": "2026-04-27 22:03:44"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical melanocytic naevus",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Chấm xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Dạng lưới",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Lốm đốm",
+            "Rải rác"
+        ],
+        "_metadata": {
+            "image_id": "IMG_583_jpg_75cc",
+            "json_id": "JSON_IMG_583_jpg_75cc_gpt_5_5_04291155",
+            "timestamp": "2026-04-29 11:55:10"
+        }
+    }
+}

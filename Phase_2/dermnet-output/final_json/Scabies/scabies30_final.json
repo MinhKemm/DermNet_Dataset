@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scabies",
+        "Distribution": [
+            "Theo kẽ ngón",
+            "Mu bàn chân",
+            "Ngón chân",
+            "Kẽ ngón chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng tăng sắc tố",
+            "Sưng nề"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy trắng",
+            "Nứt kẽ",
+            "Da bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_scabies30_jpg_ca8c",
+            "json_id": "JSON_IMG_scabies30_jpg_ca8c_gpt_5_5_04280753",
+            "timestamp": "2026-04-28 07:53:24"
+        }
+    }
+}

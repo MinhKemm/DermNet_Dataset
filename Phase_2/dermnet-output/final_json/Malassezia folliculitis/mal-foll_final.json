@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Malassezia folliculitis",
+        "Distribution": [
+            "Ngực",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn lõm giữa",
+            "Sẩn bóng"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Nâu nhạt",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Kích thước nhỏ"
+        ],
+        "Characteristics": [
+            "Lõm trung tâm",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mal_foll_jpg_8217",
+            "json_id": "JSON_IMG_mal_foll_jpg_8217_gpt_5_5_04291234",
+            "timestamp": "2026-04-29 12:34:57"
+        }
+    }
+}

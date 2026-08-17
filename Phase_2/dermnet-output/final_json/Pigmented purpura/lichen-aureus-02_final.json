@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Cẳng tay",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng xuất huyết",
+            "Dát đỏ nâu"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Vàng nâu",
+            "Tím nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da mỏng",
+            "Teo da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_aureus_02_jpg_ef47",
+            "json_id": "JSON_IMG_lichen_aureus_02_jpg_ef47_gpt_5_5_04281628",
+            "timestamp": "2026-04-28 16:28:32"
+        }
+    }
+}

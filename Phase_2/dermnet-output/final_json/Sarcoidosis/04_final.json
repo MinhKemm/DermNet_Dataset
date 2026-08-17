@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Gót chân",
+            "Cổ chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sưng nề"
+        ],
+        "Colour": [
+            "Đỏ cam",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Căng bóng",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_13f0",
+            "json_id": "JSON_IMG_04_jpg_13f0_gpt_5_5_04280818",
+            "timestamp": "2026-04-28 08:18:50"
+        }
+    }
+}

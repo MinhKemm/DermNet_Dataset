@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea corporis",
+        "Distribution": [
+            "Kẽ ngón chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt",
+            "Nứt kẽ"
+        ],
+        "Colour": [
+            "Trắng đục",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Macerat",
+            "Bong vảy",
+            "Ẩm ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_can_toe_jpg_a476",
+            "json_id": "JSON_IMG_can_toe_jpg_a476_gpt_5_5_04272119",
+            "timestamp": "2026-04-27 21:19:54"
+        }
+    }
+}

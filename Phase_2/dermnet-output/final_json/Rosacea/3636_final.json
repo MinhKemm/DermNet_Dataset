@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rosacea",
+        "Distribution": [
+            "Vùng da hở",
+            "Rải rác",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn sừng",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Vàng nâu",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Vảy khô",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3636_jpg_377b",
+            "json_id": "JSON_IMG_3636_jpg_377b_gpt_5_5_04280841",
+            "timestamp": "2026-04-28 08:41:56"
+        }
+    }
+}

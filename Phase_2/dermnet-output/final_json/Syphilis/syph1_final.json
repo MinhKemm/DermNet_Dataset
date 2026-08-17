@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Bìu",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Trợt da",
+            "Mảng đỏ"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Đỏ cam"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bờ rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt ẩm",
+            "Mất thượng bì"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syph1_jpg_6a98",
+            "json_id": "JSON_IMG_syph1_jpg_6a98_gpt_5_5_04272325",
+            "timestamp": "2026-04-27 23:25:47"
+        }
+    }
+}

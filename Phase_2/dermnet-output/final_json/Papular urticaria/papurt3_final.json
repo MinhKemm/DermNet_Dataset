@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Papular urticaria",
+        "Distribution": [
+            "Gáy",
+            "Vai",
+            "Khu trú",
+            "Thành cụm",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Quầng đỏ",
+            "Trung tâm mủ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_papurt3_jpg_54fb",
+            "json_id": "JSON_IMG_papurt3_jpg_54fb_gpt_5_5_04281808",
+            "timestamp": "2026-04-28 18:08:05"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Myxoma syndrome",
+        "Distribution": [
+            "Da có lông",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Sẩn vòm",
+            "Sẩn bóng"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Màu da",
+            "Trắng ngọc"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Vòm nhẵn"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_myxoma_02_jpg_44b8",
+            "json_id": "JSON_IMG_myxoma_02_jpg_44b8_gpt_5_5_04290844",
+            "timestamp": "2026-04-29 08:44:44"
+        }
+    }
+}

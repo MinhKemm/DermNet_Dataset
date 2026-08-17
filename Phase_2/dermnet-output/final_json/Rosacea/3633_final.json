@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rosacea",
+        "Distribution": [
+            "Má",
+            "Mũi",
+            "Trung tâm mặt",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Giãn mạch",
+            "Phù nề nhẹ",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3633_jpg_1317",
+            "json_id": "JSON_IMG_3633_jpg_1317_gpt_5_5_04280842",
+            "timestamp": "2026-04-28 08:42:54"
+        }
+    }
+}

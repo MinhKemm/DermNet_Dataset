@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Naevus flammeus simplex",
+        "Distribution": [
+            "Gáy",
+            "Đường chân tóc",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Da khô",
+            "Lichen hóa nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_7031",
+            "json_id": "JSON_IMG_03_jpg_7031_gpt_5_5_04290836",
+            "timestamp": "2026-04-29 08:36:06"
+        }
+    }
+}

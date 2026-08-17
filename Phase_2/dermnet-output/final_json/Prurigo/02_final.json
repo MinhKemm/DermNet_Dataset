@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Mặt",
+            "Hai má",
+            "Mũi",
+            "Môi",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Trợt da",
+            "Nứt môi"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Đóng mài",
+            "Phù nề nhẹ",
+            "Khô nứt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_cdf1",
+            "json_id": "JSON_IMG_02_jpg_cdf1_gpt_5_5_04281235",
+            "timestamp": "2026-04-28 12:35:52"
+        }
+    }
+}

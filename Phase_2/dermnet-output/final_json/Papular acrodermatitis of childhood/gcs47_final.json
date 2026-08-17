@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Papular acrodermatitis of childhood",
+        "Distribution": [
+            "Cổ chân",
+            "Mu bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt dưới da",
+            "Mảng tăng sắc tố",
+            "Sưng nề"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Tím nâu",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bờ mờ",
+            "Gồ nhẹ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Vết trợt nông",
+            "Đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_gcs47_jpg_b926",
+            "json_id": "JSON_IMG_gcs47_jpg_b926_gpt_5_5_04281816",
+            "timestamp": "2026-04-28 18:16:20"
+        }
+    }
+}

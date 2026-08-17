@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kerion",
+        "Distribution": [
+            "Da đầu",
+            "Sau tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng đóng mài",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Nâu sẫm",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Mài dày",
+            "Tóc xuyên qua"
+        ],
+        "_metadata": {
+            "image_id": "IMG_kerion01_jpg_5d3b",
+            "json_id": "JSON_IMG_kerion01_jpg_5d3b_gpt_5_5_04291450",
+            "timestamp": "2026-04-29 14:50:14"
+        }
+    }
+}

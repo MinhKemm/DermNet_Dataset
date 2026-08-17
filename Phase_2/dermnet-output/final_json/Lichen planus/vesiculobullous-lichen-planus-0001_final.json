@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Mu bàn chân",
+            "Ngón chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Bóng nước",
+            "Mảng hồng ban",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Tím xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Hình vòm"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Bong vảy",
+            "Vảy tiết",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vesiculobullous_lichen_planus_0001_jpg_98eb",
+            "json_id": "JSON_IMG_vesiculobullous_lichen_planus_0001_jpg_98eb_gpt_5_5_04291315",
+            "timestamp": "2026-04-29 13:15:03"
+        }
+    }
+}

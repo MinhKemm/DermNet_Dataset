@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scabies",
+        "Distribution": [
+            "Mu bàn tay",
+            "Ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Bong vảy mịn",
+            "Dày da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_scabies_012_jpg_d9ce",
+            "json_id": "JSON_IMG_scabies_012_jpg_d9ce_gpt_5_5_04280804",
+            "timestamp": "2026-04-28 08:04:16"
+        }
+    }
+}

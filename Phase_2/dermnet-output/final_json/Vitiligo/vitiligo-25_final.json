@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Nách",
+            "Khu trú",
+            "Dọc nếp gấp"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Dải hồng ban",
+            "Sẹo lõm"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt",
+            "Màu da"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Lông cạo ngắn",
+            "Lỗ nang lông",
+            "Teo da nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_25_jpg_4259",
+            "json_id": "JSON_IMG_vitiligo_25_jpg_4259_gpt_5_5_04271843",
+            "timestamp": "2026-04-27 18:43:00"
+        }
+    }
+}

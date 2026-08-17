@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng mất sắc tố",
+            "Đốm mất sắc tố"
+        ],
+        "Colour": [
+            "Trắng hồng",
+            "Trắng sữa"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Dạng bản đồ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_63_jpg_f8b5",
+            "json_id": "JSON_IMG_vitiligo_63_jpg_f8b5_gpt_5_5_04271830",
+            "timestamp": "2026-04-27 18:30:13"
+        }
+    }
+}

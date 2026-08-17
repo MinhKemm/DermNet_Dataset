@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Cổ chân",
+            "Cẳng chân dưới",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét da",
+            "Mảng trợt",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Vàng nâu",
+            "Nâu tím"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ nham nhở"
+        ],
+        "Characteristics": [
+            "Mài vàng",
+            "Hoại tử",
+            "Dịch tiết",
+            "Thâm nhiễm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_49_jpg_0fd8",
+            "json_id": "JSON_IMG_49_jpg_0fd8_gpt_5_5_04280956",
+            "timestamp": "2026-04-28 09:56:05"
+        }
+    }
+}

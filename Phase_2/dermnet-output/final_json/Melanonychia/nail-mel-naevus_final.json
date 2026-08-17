@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Phiến móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng móng",
+            "Đổi màu móng"
+        ],
+        "Colour": [
+            "Trắng đục",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Mất trong suốt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nail_mel_naevus_jpg_561c",
+            "json_id": "JSON_IMG_nail_mel_naevus_jpg_561c_gpt_5_5_04291102",
+            "timestamp": "2026-04-29 11:02:43"
+        }
+    }
+}

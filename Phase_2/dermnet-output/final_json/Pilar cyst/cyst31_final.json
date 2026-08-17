@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilar cyst",
+        "Distribution": [
+            "Vùng quanh tai",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "U cục"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ hồng",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Loét nhỏ",
+            "Vảy tiết",
+            "Da teo nhăn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cyst31_jpg_f45a",
+            "json_id": "JSON_IMG_cyst31_jpg_f45a_gpt_5_5_04281611",
+            "timestamp": "2026-04-28 16:11:09"
+        }
+    }
+}

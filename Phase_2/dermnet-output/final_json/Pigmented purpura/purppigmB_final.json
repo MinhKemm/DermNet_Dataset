@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Hai cẳng tay",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Nâu đồng",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Loang lổ",
+            "Bất quy tắc",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Dát xuất huyết nhỏ",
+            "Hợp lưu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_purppigmB_jpg_db88",
+            "json_id": "JSON_IMG_purppigmB_jpg_db88_gpt_5_5_04281622",
+            "timestamp": "2026-04-28 16:22:23"
+        }
+    }
+}

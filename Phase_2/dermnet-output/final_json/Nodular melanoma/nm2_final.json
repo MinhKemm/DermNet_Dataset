@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Lòng bàn tay",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt sắc tố",
+            "U cục"
+        ],
+        "Colour": [
+            "Đen",
+            "Xanh đen"
+        ],
+        "Shape": [
+            "Dạng vòm",
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Nhô cao"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nm2_jpg_86a6",
+            "json_id": "JSON_IMG_nm2_jpg_86a6_gpt_5_5_04290719",
+            "timestamp": "2026-04-29 07:19:34"
+        }
+    }
+}

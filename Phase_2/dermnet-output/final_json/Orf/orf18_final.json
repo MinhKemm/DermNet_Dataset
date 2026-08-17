@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Mu bàn tay",
+            "Ngón tay",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Nốt loét",
+            "Mụn nước"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Loét trợt",
+            "Đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf18_jpg_edbc",
+            "json_id": "JSON_IMG_orf18_jpg_edbc_gpt_5_5_04282004",
+            "timestamp": "2026-04-28 20:04:15"
+        }
+    }
+}

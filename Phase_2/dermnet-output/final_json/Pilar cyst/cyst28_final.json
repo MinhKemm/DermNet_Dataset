@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilar cyst",
+        "Distribution": [
+            "Cổ",
+            "Ngực trên",
+            "Vai",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát giảm sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố",
+            "Da nhăn",
+            "Đa ổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cyst28_jpg_07ca",
+            "json_id": "JSON_IMG_cyst28_jpg_07ca_gpt_5_5_04281612",
+            "timestamp": "2026-04-28 16:12:04"
+        }
+    }
+}

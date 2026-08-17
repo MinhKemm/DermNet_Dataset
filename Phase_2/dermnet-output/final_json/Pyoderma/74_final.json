@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Vùng niêm mạc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét",
+            "Mảng trợt",
+            "Mảng hoại tử"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm",
+            "Vàng trắng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Dịch tiết",
+            "Giả mạc",
+            "Bề mặt ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_74_jpg_d8cd",
+            "json_id": "JSON_IMG_74_jpg_d8cd_gpt_5_5_04280948",
+            "timestamp": "2026-04-28 09:48:50"
+        }
+    }
+}

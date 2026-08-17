@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lupus pernio",
+        "Distribution": [
+            "Khớp ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Bong vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lupus_pernio_jpg_3e60",
+            "json_id": "JSON_IMG_lupus_pernio_jpg_3e60_gpt_5_5_04291251",
+            "timestamp": "2026-04-29 12:51:08"
+        }
+    }
+}

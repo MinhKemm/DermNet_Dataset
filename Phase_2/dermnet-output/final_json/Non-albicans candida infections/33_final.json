@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Non-albicans candida infections",
+        "Distribution": [
+            "Đĩa thạch",
+            "Theo đường cấy",
+            "Một bên"
+        ],
+        "Lesion_Type": [
+            "Khuẩn lạc",
+            "Mảng khuẩn lạc"
+        ],
+        "Colour": [
+            "Trắng kem",
+            "Trắng đục"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Dạng vệt",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Dạng kem",
+            "Nổi gồ",
+            "Khuẩn lạc nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_33_jpg_918f",
+            "json_id": "JSON_IMG_33_jpg_918f_gpt_5_5_04282234",
+            "timestamp": "2026-04-28 22:34:18"
+        }
+    }
+}

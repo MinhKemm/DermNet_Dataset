@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus foliaceus",
+        "Distribution": [
+            "Rải rác",
+            "Lưng trên",
+            "Vai",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mảng hồng ban",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Trầy xước",
+            "Đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_13_jpg_f3db",
+            "json_id": "JSON_IMG_13_jpg_f3db_gpt_5_5_04281719",
+            "timestamp": "2026-04-28 17:19:20"
+        }
+    }
+}

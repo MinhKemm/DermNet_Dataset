@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Neurofibromatosis",
+        "Distribution": [
+            "Lưng trên",
+            "Vai",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Dát giảm sắc tố",
+            "Dát tăng sắc tố",
+            "Mảng loang lổ"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Trắng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Loang lổ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Bong vảy nhẹ",
+            "Hợp lưu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nf02_jpg_eb46",
+            "json_id": "JSON_IMG_nf02_jpg_eb46_gpt_5_5_04290748",
+            "timestamp": "2026-04-29 07:48:58"
+        }
+    }
+}

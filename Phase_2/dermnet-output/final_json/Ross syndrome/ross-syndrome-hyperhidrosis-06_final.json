@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ross syndrome",
+        "Distribution": [
+            "Mông",
+            "Mặt sau đùi",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng teo da"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Nâu nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Chấm tăng sắc tố",
+            "Da mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ross_syndrome_hyperhidrosis_06_jpg_6ec4",
+            "json_id": "JSON_IMG_ross_syndrome_hyperhidrosis_06_jpg_6ec4_gpt_5_5_04280826",
+            "timestamp": "2026-04-28 08:26:22"
+        }
+    }
+}

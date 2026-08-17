@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Cẳng chân",
+            "Mặt trước",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "Mảng hồng ban",
+            "Loét nông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng vảy",
+            "Vảy trắng",
+            "Trung tâm loét"
+        ],
+        "_metadata": {
+            "image_id": "IMG_51_jpg_edc4",
+            "json_id": "JSON_IMG_51_jpg_edc4_gpt_5_5_04281218",
+            "timestamp": "2026-04-28 12:18:44"
+        }
+    }
+}

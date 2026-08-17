@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ramsay Hunt syndrome",
+        "Distribution": [
+            "Trán",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng hồng nhạt"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Không đều",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Nếp nhăn",
+            "Da khô",
+            "Tổn thương phẳng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_1c6f",
+            "json_id": "JSON_IMG_01_jpg_1c6f_gpt_5_5_04280934",
+            "timestamp": "2026-04-28 09:34:58"
+        }
+    }
+}

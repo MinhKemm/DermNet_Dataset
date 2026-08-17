@@ -1,0 +1,38 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Cẳng chân",
+            "Trước cẳng chân",
+            "Khu trú",
+            "Một bên"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng teo da",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu vàng",
+            "Đỏ hồng",
+            "Trắng ngà",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Teo da",
+            "Bề mặt bóng",
+            "Giảm sắc tố",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_21_jpg_a942",
+            "json_id": "JSON_IMG_21_jpg_a942_gpt_5_5_04281229",
+            "timestamp": "2026-04-28 12:29:19"
+        }
+    }
+}

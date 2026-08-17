@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leprosy",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Loét da",
+            "Vết trợt",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Đỏ tươi",
+            "Đen nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bờ rõ",
+            "Lõm trung tâm"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Bong vảy",
+            "Viền trắng xám"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lucio_05_jpg_ff62",
+            "json_id": "JSON_IMG_lucio_05_jpg_ff62_gpt_5_5_04291416",
+            "timestamp": "2026-04-29 14:16:58"
+        }
+    }
+}

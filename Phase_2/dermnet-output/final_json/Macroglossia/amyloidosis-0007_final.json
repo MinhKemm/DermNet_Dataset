@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Macroglossia",
+        "Distribution": [
+            "Mặt lưng lưỡi",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng đỏ nhẵn",
+            "Mảng trắng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Dạng bản đồ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Viền trắng",
+            "Mất gai lưỡi",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_amyloidosis_0007_jpg_8f64",
+            "json_id": "JSON_IMG_amyloidosis_0007_jpg_8f64_gpt_5_5_04291248",
+            "timestamp": "2026-04-29 12:48:30"
+        }
+    }
+}

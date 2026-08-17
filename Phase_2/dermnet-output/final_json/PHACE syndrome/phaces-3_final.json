@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "PHACE syndrome",
+        "Distribution": [
+            "Má",
+            "Cằm",
+            "Cổ trước",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt",
+            "Vết trợt",
+            "Chấm xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Dạng vệt",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Trầy xước",
+            "Rỉ máu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_phaces_3_jpg_1877",
+            "json_id": "JSON_IMG_phaces_3_jpg_1877_gpt_5_5_04281944",
+            "timestamp": "2026-04-28 19:44:56"
+        }
+    }
+}

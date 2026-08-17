@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Võng mạc",
+            "Khu trú",
+            "Lệch bên"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Đám sẫm màu"
+        ],
+        "Colour": [
+            "Đen nâu",
+            "Vàng cam",
+            "Đỏ"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Mạch máu đỏ",
+            "Nền vàng cam",
+            "Vùng tối đồng nhất"
+        ],
+        "_metadata": {
+            "image_id": "IMG_uveal_melanoma1_jpg_871b",
+            "json_id": "JSON_IMG_uveal_melanoma1_jpg_871b_gpt_5_5_04282134",
+            "timestamp": "2026-04-28 21:34:25"
+        }
+    }
+}

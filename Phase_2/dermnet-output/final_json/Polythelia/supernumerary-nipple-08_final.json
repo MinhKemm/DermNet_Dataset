@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polythelia",
+        "Distribution": [
+            "Thân mình",
+            "Bụng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Dạng lưới",
+            "Loang lổ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [],
+        "_metadata": {
+            "image_id": "IMG_supernumerary_nipple_08_jpg_f50b",
+            "json_id": "JSON_IMG_supernumerary_nipple_08_jpg_f50b_gpt_5_5_04281329",
+            "timestamp": "2026-04-28 13:29:02"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Granular parakeratosis",
+        "Distribution": [
+            "Vùng da rộng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng khô da",
+            "Vảy da"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Nâu nhạt",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Đường nứt nẻ",
+            "Dạng mạng lưới"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Da khô",
+            "Nứt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_e3e4",
+            "json_id": "JSON_IMG_08_jpg_e3e4_gpt_5_5_04280931",
+            "timestamp": "2026-04-28 09:31:15"
+        }
+    }
+}

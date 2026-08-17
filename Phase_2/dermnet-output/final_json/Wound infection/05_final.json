@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Wound infection",
+        "Distribution": [
+            "Vùng da đầu",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Trợt da",
+            "Vết loét nông",
+            "Mảng đóng mày"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm",
+            "Vàng nâu",
+            "Đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Đóng mày máu",
+            "Mày tiết",
+            "Rỉ dịch",
+            "Chảy máu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_f72d",
+            "json_id": "JSON_IMG_05_jpg_f72d_gpt_5_5_04271746",
+            "timestamp": "2026-04-27 17:46:47"
+        }
+    }
+}

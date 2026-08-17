@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pediculosis capitis",
+        "Distribution": [
+            "Da đầu",
+            "Đường chân tóc",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Đốm nhỏ",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Đỏ hồng nhạt"
+        ],
+        "Shape": [
+            "Chấm nhỏ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Chấm đen nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_head_lice_001_jpg_0702",
+            "json_id": "JSON_IMG_head_lice_001_jpg_0702_gpt_5_5_04281742",
+            "timestamp": "2026-04-28 17:42:17"
+        }
+    }
+}

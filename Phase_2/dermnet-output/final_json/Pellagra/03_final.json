@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pellagra",
+        "Distribution": [
+            "Cẳng tay",
+            "Hai bên",
+            "Đối xứng",
+            "Mặt duỗi"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng dày da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Mảng lớn"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Da khô",
+            "Dày da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_e430",
+            "json_id": "JSON_IMG_03_jpg_e430_gpt_5_5_04281740",
+            "timestamp": "2026-04-28 17:40:42"
+        }
+    }
+}

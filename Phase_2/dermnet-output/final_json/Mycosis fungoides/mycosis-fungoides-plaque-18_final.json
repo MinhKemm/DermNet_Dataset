@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Ngón chân cái",
+            "Quanh móng",
+            "Khu trú",
+            "Dọc nếp móng"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sừng",
+            "Bong vảy",
+            "Loạn dưỡng móng"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Vàng nâu",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dày móng",
+            "Rãnh dọc",
+            "Vảy dày",
+            "Vụn sừng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mycosis_fungoides_plaque_18_jpg_3fe4",
+            "json_id": "JSON_IMG_mycosis_fungoides_plaque_18_jpg_3fe4_gpt_5_5_04290845",
+            "timestamp": "2026-04-29 08:45:41"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Porphyria cutanea tarda",
+        "Distribution": [
+            "Vùng cổ",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mụn nước nhỏ",
+            "Sẩn mụn nước",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng trong",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Kết cụm",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Nền hồng ban",
+            "Bóng nước nhỏ",
+            "Vảy tiết ít"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_6206",
+            "json_id": "JSON_IMG_03_jpg_6206_gpt_5_5_04281326",
+            "timestamp": "2026-04-28 13:26:34"
+        }
+    }
+}

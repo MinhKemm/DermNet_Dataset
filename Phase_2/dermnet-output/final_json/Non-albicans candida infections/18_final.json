@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Non-albicans candida infections",
+        "Distribution": [
+            "Kẽ ngón tay",
+            "Mu bàn tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Nứt da",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Khe nứt dọc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy trắng",
+            "Khô da",
+            "Nứt kẽ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_18_jpg_d9f3",
+            "json_id": "JSON_IMG_18_jpg_d9f3_gpt_5_5_04282239",
+            "timestamp": "2026-04-28 22:39:20"
+        }
+    }
+}

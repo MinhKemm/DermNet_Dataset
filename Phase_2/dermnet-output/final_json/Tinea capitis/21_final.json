@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea capitis",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng vảy",
+            "Mảng tăng sừng"
+        ],
+        "Colour": [
+            "Trắng xanh",
+            "Trắng bạc"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy dày",
+            "Vảy khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_21_jpg_c341",
+            "json_id": "JSON_IMG_21_jpg_c341_gpt_5_5_04272123",
+            "timestamp": "2026-04-27 21:23:50"
+        }
+    }
+}

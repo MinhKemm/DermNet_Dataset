@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichenoid keratosis",
+        "Distribution": [
+            "Vùng da lông",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Bờ vòng"
+        ],
+        "Characteristics": [
+            "Bờ gồ nhẹ",
+            "Trung tâm nhạt",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichenoid_keratosis7_jpg_629b",
+            "json_id": "JSON_IMG_lichenoid_keratosis7_jpg_629b_gpt_5_5_04291252",
+            "timestamp": "2026-04-29 12:52:36"
+        }
+    }
+}

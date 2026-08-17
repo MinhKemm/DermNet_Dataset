@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Lòng bàn tay",
+            "Hai bên",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng dày sừng"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Vàng xám"
+        ],
+        "Shape": [
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô nứt",
+            "Bong vảy mịn",
+            "Nứt nẻ",
+            "Tăng nếp da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_MF_palms_jpg_501e",
+            "json_id": "JSON_IMG_MF_palms_jpg_501e_gpt_5_5_04290900",
+            "timestamp": "2026-04-29 09:00:49"
+        }
+    }
+}

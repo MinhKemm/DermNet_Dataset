@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Psoriatic arthritis",
+        "Distribution": [
+            "Ngón tay",
+            "Quanh móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sưng nề",
+            "Hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bờ cong"
+        ],
+        "Characteristics": [
+            "Mất biểu bì",
+            "Bề mặt bóng",
+            "Móng biến dạng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ps_arth2_jpg_b6e9",
+            "json_id": "JSON_IMG_ps_arth2_jpg_b6e9_gpt_5_5_04281054",
+            "timestamp": "2026-04-28 10:54:04"
+        }
+    }
+}

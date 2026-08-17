@@ -1,0 +1,38 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Mu bàn tay",
+            "Cổ tay",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Nốt gồ",
+            "Mảng nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Đỏ hồng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình vòng",
+            "Ranh giới rõ",
+            "Trung tâm lõm"
+        ],
+        "Characteristics": [
+            "Lõm trung tâm",
+            "Vảy tiết",
+            "Bờ gồ",
+            "Da nhăn nheo"
+        ],
+        "_metadata": {
+            "image_id": "IMG_56_jpg_2edc",
+            "json_id": "JSON_IMG_56_jpg_2edc_gpt_5_5_04281216",
+            "timestamp": "2026-04-28 12:16:49"
+        }
+    }
+}

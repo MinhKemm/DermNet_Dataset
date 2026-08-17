@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nummular eczematous dermatitis",
+        "Distribution": [
+            "Tụ thành đám",
+            "Chi trên",
+            "Vùng nếp gấp",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mụn nước",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Vết trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_eanumm2_jpg_5572",
+            "json_id": "JSON_IMG_eanumm2_jpg_5572_gpt_5_5_04282204",
+            "timestamp": "2026-04-28 22:04:41"
+        }
+    }
+}

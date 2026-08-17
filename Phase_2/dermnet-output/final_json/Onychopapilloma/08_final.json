@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Onychopapilloma",
+        "Distribution": [
+            "Móng tay",
+            "Đầu ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dải đổi màu",
+            "Mảng"
+        ],
+        "Colour": [
+            "Hồng đỏ",
+            "Vàng nâu",
+            "Trắng đục"
+        ],
+        "Shape": [
+            "Dải ngang",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Ly móng xa",
+            "Đổi màu móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_75e2",
+            "json_id": "JSON_IMG_08_jpg_75e2_gpt_5_5_04282050",
+            "timestamp": "2026-04-28 20:50:50"
+        }
+    }
+}

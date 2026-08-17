@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea corporis",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Lan rộng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng dày sừng"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Hồng tím",
+            "Trắng bạc"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Bong vảy dày",
+            "Vảy trắng bạc",
+            "Da dày",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_chrobla_jpg_d5df",
+            "json_id": "JSON_IMG_chrobla_jpg_d5df_gpt_5_5_04272119",
+            "timestamp": "2026-04-27 21:19:24"
+        }
+    }
+}

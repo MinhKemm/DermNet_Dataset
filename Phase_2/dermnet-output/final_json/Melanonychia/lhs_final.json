@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Mu ngón tay",
+            "Khớp ngón tay",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng dày da",
+            "Sẩn dẹt"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Hồng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Dày da",
+            "Nếp da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lhs_jpg_fe50",
+            "json_id": "JSON_IMG_lhs_jpg_fe50_gpt_5_5_04291106",
+            "timestamp": "2026-04-29 11:06:23"
+        }
+    }
+}

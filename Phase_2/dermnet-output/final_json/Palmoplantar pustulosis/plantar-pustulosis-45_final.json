@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Palmoplantar pustulosis",
+        "Distribution": [
+            "Gót chân",
+            "Lòng bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn sừng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Dày sừng",
+            "Vết trợt nhỏ",
+            "Mài tiết sọc"
+        ],
+        "_metadata": {
+            "image_id": "IMG_plantar_pustulosis_45_jpg_1d97",
+            "json_id": "JSON_IMG_plantar_pustulosis_45_jpg_1d97_gpt_5_5_04281850",
+            "timestamp": "2026-04-28 18:50:40"
+        }
+    }
+}

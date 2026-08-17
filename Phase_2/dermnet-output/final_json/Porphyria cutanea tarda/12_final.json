@@ -1,0 +1,27 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Porphyria cutanea tarda",
+        "Distribution": [
+            "Trong ly",
+            "Trung tâm ảnh"
+        ],
+        "Lesion_Type": [],
+        "Colour": [
+            "Nâu đỏ",
+            "Trong suốt"
+        ],
+        "Shape": [
+            "Dạng cột",
+            "Hình trụ"
+        ],
+        "Characteristics": [
+            "Bọt nhỏ",
+            "Phản chiếu ánh sáng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_12_jpg_2215",
+            "json_id": "JSON_IMG_12_jpg_2215_gpt_5_5_04281520",
+            "timestamp": "2026-04-28 15:20:49"
+        }
+    }
+}

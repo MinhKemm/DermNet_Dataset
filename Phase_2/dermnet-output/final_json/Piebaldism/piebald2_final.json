@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Piebaldism",
+        "Distribution": [
+            "Hai chi dưới",
+            "Quanh gối",
+            "Cẳng chân",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Dày da nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_piebald2_jpg_a50d",
+            "json_id": "JSON_IMG_piebald2_jpg_a50d_gpt_5_5_04281644",
+            "timestamp": "2026-04-28 16:44:50"
+        }
+    }
+}

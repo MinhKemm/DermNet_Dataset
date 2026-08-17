@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Móng tay",
+            "Đầu xa móng",
+            "Bờ bên móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Đổi màu móng",
+            "Tách móng"
+        ],
+        "Colour": [
+            "Vàng xanh",
+            "Nâu đỏ",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Bờ cong",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Tách đầu xa",
+            "Mảng dưới móng",
+            "Mất trong suốt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_melanonychia_09_jpg_fc47",
+            "json_id": "JSON_IMG_melanonychia_09_jpg_fc47_gpt_5_5_04291104",
+            "timestamp": "2026-04-29 11:04:39"
+        }
+    }
+}

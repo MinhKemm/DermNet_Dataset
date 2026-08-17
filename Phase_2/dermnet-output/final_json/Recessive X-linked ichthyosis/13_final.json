@@ -1,0 +1,28 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ichthyosis",
+        "Distribution": [
+            "Sơ đồ nhiễm sắc thể",
+            "Bố cục hai bên"
+        ],
+        "Lesion_Type": [],
+        "Colour": [
+            "Xanh dương",
+            "Vàng nhạt",
+            "Đen"
+        ],
+        "Shape": [
+            "Hình que",
+            "Hình sơ đồ"
+        ],
+        "Characteristics": [
+            "Chữ chú thích",
+            "Biểu tượng ngôi sao"
+        ],
+        "_metadata": {
+            "image_id": "IMG_13_jpg_cdbb",
+            "json_id": "JSON_IMG_13_jpg_cdbb_gpt_5_5_04280917",
+            "timestamp": "2026-04-28 09:17:46"
+        }
+    }
+}

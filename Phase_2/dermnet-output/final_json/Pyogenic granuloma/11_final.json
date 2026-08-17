@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyogenic granuloma",
+        "Distribution": [
+            "Da có lông",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt đỏ",
+            "Sẩn dạng vòm"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Hồng đỏ"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình vòm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_11_jpg_3933",
+            "json_id": "JSON_IMG_11_jpg_3933_gpt_5_5_04280944",
+            "timestamp": "2026-04-28 09:44:06"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral mucositis - Stomatitis",
+        "Distribution": [
+            "Ngón tay",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Bọng nước",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng đục"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Dịch đục",
+            "Trợt nông",
+            "Đóng vảy mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_62_jpg_8b31",
+            "json_id": "JSON_IMG_62_jpg_8b31_gpt_5_5_04282020",
+            "timestamp": "2026-04-28 20:20:52"
+        }
+    }
+}

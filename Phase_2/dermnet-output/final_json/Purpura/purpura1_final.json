@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Henoch–Schönlein purpura",
+        "Distribution": [
+            "Vùng cổ",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Trung tâm sẫm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_purpura1_jpg_4da9",
+            "json_id": "JSON_IMG_purpura1_jpg_4da9_gpt_5_5_04281013",
+            "timestamp": "2026-04-28 10:13:51"
+        }
+    }
+}

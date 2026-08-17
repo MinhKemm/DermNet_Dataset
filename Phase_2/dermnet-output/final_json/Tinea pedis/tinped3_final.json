@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea pedis",
+        "Distribution": [
+            "Gót chân",
+            "Mặt bên cổ chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt",
+            "Vết loét nông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng ngà",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Nứt da",
+            "Bong vảy",
+            "Da dày ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tinped3_jpg_719a",
+            "json_id": "JSON_IMG_tinped3_jpg_719a_gpt_5_5_04272045",
+            "timestamp": "2026-04-27 20:45:02"
+        }
+    }
+}

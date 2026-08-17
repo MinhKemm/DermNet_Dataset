@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Naevus of Ota, naevus of Ito and naevus of Hori",
+        "Distribution": [
+            "Thân mình",
+            "Ngực",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Trung tâm nhạt",
+            "Bong vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_melanocytosis_ito_jpg_0deb",
+            "json_id": "JSON_IMG_melanocytosis_ito_jpg_0deb_gpt_5_5_04290833",
+            "timestamp": "2026-04-29 08:33:08"
+        }
+    }
+}

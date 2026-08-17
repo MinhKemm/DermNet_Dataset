@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Postinflammatory hyperpigmentation",
+        "Distribution": [
+            "Thân mình",
+            "Rải rác",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Đốm tăng sắc tố",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Tím nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Không đều"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pih_eczema_jpg_1c72",
+            "json_id": "JSON_IMG_pih_eczema_jpg_1c72_gpt_5_5_04281311",
+            "timestamp": "2026-04-28 13:11:50"
+        }
+    }
+}

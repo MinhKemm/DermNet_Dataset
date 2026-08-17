@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Vùng da chi",
+            "Rải rác",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Sẩn dẹt",
+            "Mảng tím"
+        ],
+        "Colour": [
+            "Tím đỏ",
+            "Nâu tím"
+        ],
+        "Shape": [
+            "Đa giác",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Vảy mịn",
+            "Sẩn nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mycosis_fungoides_plaque_05_jpg_ddea",
+            "json_id": "JSON_IMG_mycosis_fungoides_plaque_05_jpg_ddea_gpt_5_5_04290848",
+            "timestamp": "2026-04-29 08:48:54"
+        }
+    }
+}

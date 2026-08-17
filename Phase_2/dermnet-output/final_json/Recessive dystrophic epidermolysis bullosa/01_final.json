@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Dystrophic epidermolysis bullosa",
+        "Distribution": [
+            "Bàn chân",
+            "Gan bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Bọng nước",
+            "Trợt da",
+            "Mảng đỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Hồng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong da",
+            "Da trợt bóng",
+            "Vảy da mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_dcfa",
+            "json_id": "JSON_IMG_01_jpg_dcfa_gpt_5_5_04280917",
+            "timestamp": "2026-04-28 09:17:28"
+        }
+    }
+}

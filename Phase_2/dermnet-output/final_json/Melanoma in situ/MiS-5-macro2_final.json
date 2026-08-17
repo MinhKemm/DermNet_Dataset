@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Vùng bụng",
+            "Quanh rốn",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn sắc tố",
+            "Mảng nâu nhỏ",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Đỏ hồng",
+            "Màu da"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Nhỏ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Bề mặt sần",
+            "Chấm sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_MiS_5_macro2_jpg_c17a",
+            "json_id": "JSON_IMG_MiS_5_macro2_jpg_c17a_gpt_5_5_04291123",
+            "timestamp": "2026-04-29 11:23:46"
+        }
+    }
+}

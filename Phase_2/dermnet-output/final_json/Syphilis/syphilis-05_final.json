@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Lòng bàn tay",
+            "Ngón tay",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Đỏ tím nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_05_jpg_c26a",
+            "json_id": "JSON_IMG_syphilis_05_jpg_c26a_gpt_5_5_04272311",
+            "timestamp": "2026-04-27 23:11:01"
+        }
+    }
+}

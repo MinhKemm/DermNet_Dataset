@@ -1,0 +1,20 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vulval intraepithelial neoplasia",
+        "Distribution": [
+            "Vùng bụng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [],
+        "Colour": [
+            "Màu da bình thường"
+        ],
+        "Shape": [],
+        "Characteristics": [],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_41e0",
+            "json_id": "JSON_IMG_03_jpg_41e0_gpt_5_5_04271827",
+            "timestamp": "2026-04-27 18:27:16"
+        }
+    }
+}

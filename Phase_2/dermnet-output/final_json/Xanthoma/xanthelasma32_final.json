@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical fibroxanthoma",
+        "Distribution": [
+            "Vùng giữa mặt",
+            "Sống mũi",
+            "Hai bên má",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Không đều",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Giãn mạch nhỏ",
+            "Bóng da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_xanthelasma32_jpg_998d",
+            "json_id": "JSON_IMG_xanthelasma32_jpg_998d_gpt_5_5_04271715",
+            "timestamp": "2026-04-27 17:15:03"
+        }
+    }
+}

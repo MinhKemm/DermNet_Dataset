@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nodular chondrodermatitis",
+        "Distribution": [
+            "Theo vành tai",
+            "Loa tai",
+            "Vành tai",
+            "Khu trú",
+            "Một bên",
+            "Dái tai"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sưng nề",
+            "Căng bóng",
+            "Ít tổn thương"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_e63a",
+            "json_id": "JSON_IMG_07_jpg_e63a_gpt_5_5_04290722",
+            "timestamp": "2026-04-29 07:22:49"
+        }
+    }
+}

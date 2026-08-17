@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Hai đùi",
+            "Đối xứng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Đốm xuất huyết",
+            "Ban xuất huyết",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Dày đặc",
+            "Tụ thành đám"
+        ],
+        "_metadata": {
+            "image_id": "IMG_purpAmlodip2_jpg_3907",
+            "json_id": "JSON_IMG_purpAmlodip2_jpg_3907_gpt_5_5_04281623",
+            "timestamp": "2026-04-28 16:23:57"
+        }
+    }
+}

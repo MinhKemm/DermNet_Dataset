@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Wound infection",
+        "Distribution": [
+            "Khuỷu tay",
+            "Mặt duỗi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Loét trung tâm",
+            "Nốt sừng hóa"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Không đều",
+            "Trung tâm lõm"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Đóng mài",
+            "Tăng sừng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_10_jpg_6c08",
+            "json_id": "JSON_IMG_10_jpg_6c08_gpt_5_5_04271745",
+            "timestamp": "2026-04-27 17:45:15"
+        }
+    }
+}

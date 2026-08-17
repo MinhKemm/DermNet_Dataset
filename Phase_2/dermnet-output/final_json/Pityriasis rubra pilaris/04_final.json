@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis rubra pilaris",
+        "Distribution": [
+            "Vùng da",
+            "Rải rác",
+            "Hợp lưu"
+        ],
+        "Lesion_Type": [
+            "Dát mất sắc tố",
+            "Mảng mất sắc tố"
+        ],
+        "Colour": [
+            "Trắng sữa",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Dát nhỏ vệ tinh"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_bf90",
+            "json_id": "JSON_IMG_04_jpg_bf90_gpt_5_5_04281545",
+            "timestamp": "2026-04-28 15:45:16"
+        }
+    }
+}

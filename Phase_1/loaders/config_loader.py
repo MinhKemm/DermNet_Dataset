@@ -1,7 +1,3 @@
-"""
-config_loader.py — Load & parse YAML config cho Phase 1 pipeline
-"""
-
 import os
 import re
 import yaml
@@ -164,10 +160,10 @@ if __name__ == "__main__":
 
     try:
         settings = get_settings()
-        print("✅ settings.yaml loaded")
+        print("Settings.yaml loaded")
 
         prompts = get_prompts()
-        print("✅ prompts.yaml loaded")
+        print("Prompts.yaml loaded")
 
         # Test parse Phase 1
         sample = """

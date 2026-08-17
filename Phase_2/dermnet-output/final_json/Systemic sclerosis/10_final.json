@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Systemic sclerosis",
+        "Distribution": [
+            "Ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mụn nước",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Thuôn dài",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Vảy tiết vàng",
+            "Bóng căng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_10_jpg_4c78",
+            "json_id": "JSON_IMG_10_jpg_4c78_gpt_5_5_04272225",
+            "timestamp": "2026-04-27 22:25:48"
+        }
+    }
+}

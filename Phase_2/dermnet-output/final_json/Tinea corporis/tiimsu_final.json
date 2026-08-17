@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea corporis",
+        "Distribution": [
+            "Mu bàn chân",
+            "Kẽ ngón chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng bong vảy",
+            "Dày sừng"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Khô da",
+            "Bong vảy mịn",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tiimsu_jpg_a6e3",
+            "json_id": "JSON_IMG_tiimsu_jpg_a6e3_gpt_5_5_04272116",
+            "timestamp": "2026-04-27 21:16:42"
+        }
+    }
+}

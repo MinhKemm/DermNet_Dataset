@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lymphatic malformation",
+        "Distribution": [
+            "Vùng nếp gấp",
+            "Khu trú",
+            "Tập trung đám"
+        ],
+        "Lesion_Type": [
+            "Mảng sùi",
+            "Nốt sùi",
+            "U cục"
+        ],
+        "Colour": [
+            "Hồng tím",
+            "Nâu đen",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Gồ cao",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt sùi",
+            "Tăng sừng",
+            "Ẩm bóng",
+            "Trợt loét"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lymphangioma_circumscriptum_2_jpg_e17d",
+            "json_id": "JSON_IMG_lymphangioma_circumscriptum_2_jpg_e17d_gpt_5_5_04291249",
+            "timestamp": "2026-04-29 12:49:59"
+        }
+    }
+}

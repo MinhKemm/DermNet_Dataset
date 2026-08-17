@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Paronychia",
+        "Distribution": [
+            "Ngón chân",
+            "Nếp móng",
+            "Quanh móng",
+            "Nhiều vị trí"
+        ],
+        "Lesion_Type": [
+            "Trợt da",
+            "Mảng viêm",
+            "Sưng nề"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Vàng mật ong",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Viền quanh móng"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Phù nề",
+            "Biến đổi móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_paron2_jpg_ed44",
+            "json_id": "JSON_IMG_paron2_jpg_ed44_gpt_5_5_04281756",
+            "timestamp": "2026-04-28 17:56:08"
+        }
+    }
+}

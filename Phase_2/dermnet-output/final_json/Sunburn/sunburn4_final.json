@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sunburn",
+        "Distribution": [
+            "Lưng",
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vảy",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình vòng",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mỏng",
+            "Vảy trắng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sunburn4_jpg_f94d",
+            "json_id": "JSON_IMG_sunburn4_jpg_f94d_gpt_5_5_04272331",
+            "timestamp": "2026-04-27 23:31:30"
+        }
+    }
+}

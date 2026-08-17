@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Hai cẳng chân",
+            "Quanh gối",
+            "Đối xứng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát nâu",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Nâu sẫm",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố",
+            "Khô da",
+            "Dày da",
+            "Vết trầy xước"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_48_jpg_1b8f",
+            "json_id": "JSON_IMG_syphilis_48_jpg_1b8f_gpt_5_5_04272253",
+            "timestamp": "2026-04-27 22:53:58"
+        }
+    }
+}

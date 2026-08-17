@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Nếp gấp",
+            "Vùng bẹn",
+            "Vùng nách",
+            "Nhiều ổ"
+        ],
+        "Lesion_Type": [
+            "Ổ loét",
+            "Mảng trợt",
+            "Vảy tiết"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Đen xanh",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đáy ướt",
+            "Hoại tử",
+            "Viền đỏ",
+            "Vảy tiết dày"
+        ],
+        "_metadata": {
+            "image_id": "IMG_16_jpg_9a3b",
+            "json_id": "JSON_IMG_16_jpg_9a3b_gpt_5_5_04281303",
+            "timestamp": "2026-04-28 13:03:57"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Porphyria variegata",
+        "Distribution": [
+            "Ngón tay",
+            "Kẽ ngón tay",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Đóng mày",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_9610",
+            "json_id": "JSON_IMG_04_jpg_9610_gpt_5_5_04281516",
+            "timestamp": "2026-04-28 15:16:43"
+        }
+    }
+}

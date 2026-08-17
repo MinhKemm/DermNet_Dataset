@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pseudoporphyria",
+        "Distribution": [
+            "Ngón chân",
+            "Quanh móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng sừng hóa",
+            "Khuyết móng",
+            "Trợt nông"
+        ],
+        "Colour": [
+            "Hồng đỏ",
+            "Vàng nâu",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Vảy trắng",
+            "Vảy tiết",
+            "Biến dạng móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pseudoporphyria2_jpg_ab34",
+            "json_id": "JSON_IMG_pseudoporphyria2_jpg_ab34_gpt_5_5_04281130",
+            "timestamp": "2026-04-28 11:30:08"
+        }
+    }
+}

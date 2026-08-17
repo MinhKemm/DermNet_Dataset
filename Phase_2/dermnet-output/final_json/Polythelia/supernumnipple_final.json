@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polythelia",
+        "Distribution": [
+            "Ngực",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Chấm xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Kích thước nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_supernumnipple_jpg_882c",
+            "json_id": "JSON_IMG_supernumnipple_jpg_882c_gpt_5_5_04281328",
+            "timestamp": "2026-04-28 13:28:08"
+        }
+    }
+}

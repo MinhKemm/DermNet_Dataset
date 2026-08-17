@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sézary syndrome",
+        "Distribution": [
+            "Ngón tay",
+            "Quanh móng",
+            "Khu trú",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sưng nề",
+            "Dày da",
+            "Da bóng",
+            "Nếp da sâu",
+            "Móng dày",
+            "Biến dạng móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sezary_3_jpg_173e",
+            "json_id": "JSON_IMG_sezary_3_jpg_173e_gpt_5_5_04280026",
+            "timestamp": "2026-04-28 00:26:39"
+        }
+    }
+}

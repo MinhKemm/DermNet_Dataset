@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea incognita",
+        "Distribution": [
+            "Cẳng chân",
+            "Rải rác",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ",
+            "Dát xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm",
+            "Tím đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Chấm xuất huyết",
+            "Bờ không đều",
+            "Phù nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_c632",
+            "json_id": "JSON_IMG_06_jpg_c632_gpt_5_5_04272056",
+            "timestamp": "2026-04-27 20:56:32"
+        }
+    }
+}

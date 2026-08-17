@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Neurofibromatosis",
+        "Distribution": [
+            "Thân mình",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt sẩn",
+            "Cục nhỏ"
+        ],
+        "Colour": [
+            "Hồng da",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Dạng vòm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Tăng sắc tố",
+            "Rải rác"
+        ],
+        "_metadata": {
+            "image_id": "IMG_calm17_jpg_b626",
+            "json_id": "JSON_IMG_calm17_jpg_b626_gpt_5_5_04290750",
+            "timestamp": "2026-04-29 07:50:51"
+        }
+    }
+}

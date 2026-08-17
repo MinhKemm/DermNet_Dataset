@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leprosy",
+        "Distribution": [
+            "Mu bàn tay",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Bọng nước",
+            "Sẩn nổi",
+            "Mảng phù nề"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Đỏ hồng",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Căng phồng",
+            "Sưng nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leprosy_lepromatous_00003_jpg_f87e",
+            "json_id": "JSON_IMG_leprosy_lepromatous_00003_jpg_f87e_gpt_5_5_04291421",
+            "timestamp": "2026-04-29 14:21:02"
+        }
+    }
+}

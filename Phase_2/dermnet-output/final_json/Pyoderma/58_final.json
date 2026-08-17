@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Trợt da",
+            "Loét nông",
+            "Bóng nước vỡ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm",
+            "Đen",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Rỉ dịch",
+            "Đóng mài",
+            "Hoại tử đen",
+            "Da trợt ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_58_jpg_c388",
+            "json_id": "JSON_IMG_58_jpg_c388_gpt_5_5_04280953",
+            "timestamp": "2026-04-28 09:53:35"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Progressive macular hypomelanosis",
+        "Distribution": [
+            "Lưng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn sắc tố",
+            "Dát sắc tố"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt trơn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_progressive_hypomelanosis_2_jpg_bd76",
+            "json_id": "JSON_IMG_progressive_hypomelanosis_2_jpg_bd76_gpt_5_5_04281236",
+            "timestamp": "2026-04-28 12:36:28"
+        }
+    }
+}

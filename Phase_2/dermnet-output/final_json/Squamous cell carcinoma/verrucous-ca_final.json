@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Anogenital squamous cell carcinoma",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Vùng tì đè",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Khối sùi",
+            "Mảng tăng sừng",
+            "Nốt sừng"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Vàng nâu",
+            "Đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Gồ cao",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Bề mặt sần sùi",
+            "Đóng vảy cứng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_verrucous_ca_jpg_bb8d",
+            "json_id": "JSON_IMG_verrucous_ca_jpg_bb8d_gpt_5_5_04272350",
+            "timestamp": "2026-04-27 23:50:14"
+        }
+    }
+}

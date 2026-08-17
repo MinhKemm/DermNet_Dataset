@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Transient neonatal pustular melanosis",
+        "Distribution": [
+            "Rải rác",
+            "Thân mình",
+            "Cổ",
+            "Tay",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Nền hồng ban",
+            "Mụn mủ nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_neonatal_pustular_melanosis_2_jpg_6386",
+            "json_id": "JSON_IMG_neonatal_pustular_melanosis_2_jpg_6386_gpt_5_5_04272032",
+            "timestamp": "2026-04-27 20:32:14"
+        }
+    }
+}

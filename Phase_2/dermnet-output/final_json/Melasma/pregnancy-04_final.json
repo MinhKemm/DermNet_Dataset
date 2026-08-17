@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melasma",
+        "Distribution": [
+            "Vùng trán",
+            "Khu trú",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pregnancy_04_jpg_d957",
+            "json_id": "JSON_IMG_pregnancy_04_jpg_d957_gpt_5_5_04291049",
+            "timestamp": "2026-04-29 10:49:31"
+        }
+    }
+}

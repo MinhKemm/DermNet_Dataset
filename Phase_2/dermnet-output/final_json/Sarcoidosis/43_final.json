@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Cẳng tay",
+            "Mu bàn tay",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát đỏ nâu",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Nâu đồng"
+        ],
+        "Shape": [
+            "Đốm nhỏ",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố",
+            "Da khô",
+            "Dày da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_43_jpg_940c",
+            "json_id": "JSON_IMG_43_jpg_940c_gpt_5_5_04280806",
+            "timestamp": "2026-04-28 08:06:47"
+        }
+    }
+}

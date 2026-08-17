@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Keratosis pilaris",
+        "Distribution": [
+            "Má",
+            "Dưới mắt",
+            "Khu trú",
+            "Thành đám"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Lõm da nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Màu da",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Li ti",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Teo da nhẹ",
+            "Nang lông giãn",
+            "Bề mặt lõm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_keratosis_pilaris_faciei_08_v2_jpg_d26f",
+            "json_id": "JSON_IMG_keratosis_pilaris_faciei_08_v2_jpg_d26f_gpt_5_5_04291453",
+            "timestamp": "2026-04-29 14:53:32"
+        }
+    }
+}

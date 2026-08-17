@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea faciei",
+        "Distribution": [
+            "Quanh tai",
+            "Má",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy dày",
+            "Vảy nhờn",
+            "Nứt kẽ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_tcchi_jpg_d6ba",
+            "json_id": "JSON_IMG_tcchi_jpg_d6ba_gpt_5_5_04272100",
+            "timestamp": "2026-04-27 21:00:03"
+        }
+    }
+}

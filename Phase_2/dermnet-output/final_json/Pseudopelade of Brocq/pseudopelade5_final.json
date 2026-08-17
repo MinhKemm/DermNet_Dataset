@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pseudopelade of Brocq",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng bong vảy",
+            "Vảy da đầu"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Vảy trắng",
+            "Tóc thưa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pseudopelade5_jpg_8876",
+            "json_id": "JSON_IMG_pseudopelade5_jpg_8876_gpt_5_5_04281133",
+            "timestamp": "2026-04-28 11:33:07"
+        }
+    }
+}

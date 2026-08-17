@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng xuất huyết",
+            "Dát xuất huyết",
+            "Chấm xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ nâu",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Lấm tấm",
+            "Nền da đổi màu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_golfer_capillaritis_1_jpg_f084",
+            "json_id": "JSON_IMG_golfer_capillaritis_1_jpg_f084_gpt_5_5_04281629",
+            "timestamp": "2026-04-28 16:29:27"
+        }
+    }
+}

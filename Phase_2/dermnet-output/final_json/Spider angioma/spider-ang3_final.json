@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Spider angioma",
+        "Distribution": [
+            "Ngực trên",
+            "Cổ dưới",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Đốm hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Dạng chấm",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Tổn thương nang lông",
+            "Vết trợt nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_spider_ang3_jpg_b22e",
+            "json_id": "JSON_IMG_spider_ang3_jpg_b22e_gpt_5_5_04280008",
+            "timestamp": "2026-04-28 00:08:21"
+        }
+    }
+}

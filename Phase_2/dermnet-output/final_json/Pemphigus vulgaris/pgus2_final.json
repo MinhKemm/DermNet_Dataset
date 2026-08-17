@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Môi trên",
+            "Môi dưới",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt loét"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đen",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phù nề môi",
+            "Mài tiết",
+            "Mài máu",
+            "Mài vàng",
+            "Hoại tử đen",
+            "Rỉ dịch"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pgus2_jpg_9427",
+            "json_id": "JSON_IMG_pgus2_jpg_9427_gpt_5_5_04281706",
+            "timestamp": "2026-04-28 17:06:47"
+        }
+    }
+}

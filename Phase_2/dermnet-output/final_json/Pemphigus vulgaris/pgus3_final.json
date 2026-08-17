@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Vùng bẹn",
+            "Vùng sinh dục",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Bọng nước",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Hình bầu dục"
+        ],
+        "Characteristics": [
+            "Bóng nước căng",
+            "Vảy trắng",
+            "Đóng mài đen"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pgus3_jpg_17c5",
+            "json_id": "JSON_IMG_pgus3_jpg_17c5_gpt_5_5_04281706",
+            "timestamp": "2026-04-28 17:06:29"
+        }
+    }
+}

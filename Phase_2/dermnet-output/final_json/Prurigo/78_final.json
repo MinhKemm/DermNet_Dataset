@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Mông",
+            "Nếp mông",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Quanh nang lông",
+            "Chấm đóng mày"
+        ],
+        "_metadata": {
+            "image_id": "IMG_78_jpg_3a3f",
+            "json_id": "JSON_IMG_78_jpg_3a3f_gpt_5_5_04281208",
+            "timestamp": "2026-04-28 12:08:59"
+        }
+    }
+}

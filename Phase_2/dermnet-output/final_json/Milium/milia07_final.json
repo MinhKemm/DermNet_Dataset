@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Colloid milium",
+        "Distribution": [
+            "Vùng da",
+            "Rải rác",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng trong"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Dịch trong",
+            "Nền hồng ban",
+            "Bong vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_milia07_jpg_9f6c",
+            "json_id": "JSON_IMG_milia07_jpg_9f6c_gpt_5_5_04291022",
+            "timestamp": "2026-04-29 10:22:24"
+        }
+    }
+}

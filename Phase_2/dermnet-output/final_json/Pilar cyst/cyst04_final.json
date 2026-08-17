@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilar cyst",
+        "Distribution": [
+            "Sống mũi",
+            "Giữa mặt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Nốt gồ"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ tươi",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Tròn",
+            "Bờ không rõ",
+            "Gồ cao"
+        ],
+        "Characteristics": [
+            "Giãn mạch",
+            "Bóng da",
+            "Mụn mủ nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cyst04_jpg_628b",
+            "json_id": "JSON_IMG_cyst04_jpg_628b_gpt_5_5_04281619",
+            "timestamp": "2026-04-28 16:19:04"
+        }
+    }
+}

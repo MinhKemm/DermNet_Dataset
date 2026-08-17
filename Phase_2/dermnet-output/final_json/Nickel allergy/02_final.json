@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nickel allergy",
+        "Distribution": [
+            "Quanh mắt",
+            "Sống mũi",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Phù nề"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phù mi mắt",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_b24a",
+            "json_id": "JSON_IMG_02_jpg_b24a_gpt_5_5_04290737",
+            "timestamp": "2026-04-29 07:37:41"
+        }
+    }
+}

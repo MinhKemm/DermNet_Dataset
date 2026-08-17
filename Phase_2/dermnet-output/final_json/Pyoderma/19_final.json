@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Nếp dưới vú",
+            "Vùng bụng",
+            "Lan rộng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Trợt da",
+            "Đóng mài",
+            "Ẩm ướt",
+            "Nứt kẽ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_19_jpg_a28e",
+            "json_id": "JSON_IMG_19_jpg_a28e_gpt_5_5_04281005",
+            "timestamp": "2026-04-28 10:05:47"
+        }
+    }
+}

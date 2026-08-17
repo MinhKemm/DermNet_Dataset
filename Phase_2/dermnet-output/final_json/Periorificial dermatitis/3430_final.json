@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Periorificial dermatitis",
+        "Distribution": [
+            "Quanh miệng",
+            "Rãnh mũi má",
+            "Hai bên mặt",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Khô nhẹ",
+            "Bong vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3430_jpg_154b",
+            "json_id": "JSON_IMG_3430_jpg_154b_gpt_5_5_04281649",
+            "timestamp": "2026-04-28 16:49:06"
+        }
+    }
+}

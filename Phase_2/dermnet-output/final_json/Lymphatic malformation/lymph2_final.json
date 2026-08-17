@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lymphatic malformation",
+        "Distribution": [
+            "Nếp gấp da",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Mụn mủ",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đen",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Cụm nhỏ",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Mài tiết",
+            "Nền hồng ban"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lymph2_jpg_fee6",
+            "json_id": "JSON_IMG_lymph2_jpg_fee6_gpt_5_5_04291250",
+            "timestamp": "2026-04-29 12:50:32"
+        }
+    }
+}

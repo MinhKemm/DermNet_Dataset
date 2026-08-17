@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral mucositis - Stomatitis",
+        "Distribution": [
+            "Vòm miệng",
+            "Khu trú",
+            "Cụm nhỏ"
+        ],
+        "Lesion_Type": [
+            "Vết loét",
+            "Mụn nước trợt",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Quầng đỏ",
+            "Nền trợt",
+            "Dịch bóng ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_58_jpg_43e6",
+            "json_id": "JSON_IMG_58_jpg_43e6_gpt_5_5_04282021",
+            "timestamp": "2026-04-28 20:21:58"
+        }
+    }
+}

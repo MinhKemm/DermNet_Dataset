@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Radiation dermatitis",
+        "Distribution": [
+            "Vùng mặt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Nốt loét"
+        ],
+        "Colour": [
+            "Hồng đỏ",
+            "Trắng ngà",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Bờ gồ",
+            "Lõm trung tâm"
+        ],
+        "Characteristics": [
+            "Giãn mạch",
+            "Loét trung tâm",
+            "Vảy tiết đen"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_0abc",
+            "json_id": "JSON_IMG_04_jpg_0abc_gpt_5_5_04280937",
+            "timestamp": "2026-04-28 09:37:23"
+        }
+    }
+}

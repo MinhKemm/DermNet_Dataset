@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Acral lentiginous melanoma",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng hồng nhạt"
+        ],
+        "Colour": [
+            "Trắng hồng",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da dày",
+            "Vảy mịn",
+            "Đường da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_Desmoplastic_melanoma_2_2_2_v2_jpg_ece0",
+            "json_id": "JSON_IMG_Desmoplastic_melanoma_2_2_2_v2_jpg_ece0_gpt_5_5_04291134",
+            "timestamp": "2026-04-29 11:34:54"
+        }
+    }
+}

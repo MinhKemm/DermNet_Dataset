@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Thromboangiitis obliterans",
+        "Distribution": [
+            "Lòng bàn tay",
+            "Ngón tay",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Phù nề nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_ff0d",
+            "json_id": "JSON_IMG_03_jpg_ff0d_gpt_5_5_04272134",
+            "timestamp": "2026-04-27 21:34:59"
+        }
+    }
+}

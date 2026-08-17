@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Plasma cell balanitis_vulvitis",
+        "Distribution": [
+            "Niêm mạc môi",
+            "Mặt trong môi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Trợt loét",
+            "Mảng đỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ cam",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Trợt nông",
+            "Bề mặt ẩm",
+            "Giả mạc trắng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_plasma2_s_jpg_5c39",
+            "json_id": "JSON_IMG_plasma2_s_jpg_5c39_gpt_5_5_04281408",
+            "timestamp": "2026-04-28 14:08:03"
+        }
+    }
+}

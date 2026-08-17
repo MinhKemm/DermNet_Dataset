@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ross syndrome",
+        "Distribution": [
+            "Cẳng chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Teo da",
+            "Chấm tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_950d",
+            "json_id": "JSON_IMG_02_jpg_950d_gpt_5_5_04280827",
+            "timestamp": "2026-04-28 08:27:37"
+        }
+    }
+}

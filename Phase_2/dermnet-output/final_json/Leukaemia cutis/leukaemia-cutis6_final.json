@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leukaemia cutis",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ",
+            "Nốt đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Tím đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ",
+            "Dạng dải"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Sần sùi",
+            "Vảy mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leukaemia_cutis6_jpg_2fd5",
+            "json_id": "JSON_IMG_leukaemia_cutis6_jpg_2fd5_gpt_5_5_04291414",
+            "timestamp": "2026-04-29 14:14:10"
+        }
+    }
+}

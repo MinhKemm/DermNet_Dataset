@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mucocoele of the lip",
+        "Distribution": [
+            "Môi dưới",
+            "Môi trên",
+            "Quanh miệng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Trợt loét",
+            "Mụn nước vỡ",
+            "Mài tiết"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Nông"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Dịch tiết",
+            "Niêm mạc bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mucocoele3_jpg_8a44",
+            "json_id": "JSON_IMG_mucocoele3_jpg_8a44_gpt_5_5_04290924",
+            "timestamp": "2026-04-29 09:24:45"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Trichomycosis axillaris",
+        "Distribution": [
+            "Nách",
+            "Nếp gấp",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Nốt sùi",
+            "U nhú",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Nâu sẫm",
+            "Đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Có cuống",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt sùi",
+            "Sừng hóa",
+            "Lông rậm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_trich_axil1_jpg_119c",
+            "json_id": "JSON_IMG_trich_axil1_jpg_119c_gpt_5_5_04272028",
+            "timestamp": "2026-04-27 20:28:59"
+        }
+    }
+}

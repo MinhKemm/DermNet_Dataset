@@ -1,0 +1,37 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Wound infection",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Vết loét",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím",
+            "Nâu đen",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Bờ gồ"
+        ],
+        "Characteristics": [
+            "Hoại tử trung tâm",
+            "Đóng mài",
+            "Sưng nề",
+            "Bóng da",
+            "Chỉ khâu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_1fe9",
+            "json_id": "JSON_IMG_07_jpg_1fe9_gpt_5_5_04271746",
+            "timestamp": "2026-04-27 17:46:07"
+        }
+    }
+}

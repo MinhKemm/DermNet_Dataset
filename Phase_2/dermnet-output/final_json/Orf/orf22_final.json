@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết loét",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng",
+            "Trắng vàng",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Bờ gồ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Vảy trắng",
+            "Trung tâm ướt",
+            "Viền viêm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf22_jpg_9bd9",
+            "json_id": "JSON_IMG_orf22_jpg_9bd9_gpt_5_5_04282002",
+            "timestamp": "2026-04-28 20:02:54"
+        }
+    }
+}

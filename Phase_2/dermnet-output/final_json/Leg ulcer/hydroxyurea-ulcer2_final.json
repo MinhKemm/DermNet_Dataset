@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leg ulcer",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng loét",
+            "Mảng đóng mài",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Trắng vàng",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Mài tiết",
+            "Dịch mủ",
+            "Sưng nề",
+            "Bóng da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_hydroxyurea_ulcer2_jpg_f5b4",
+            "json_id": "JSON_IMG_hydroxyurea_ulcer2_jpg_f5b4_gpt_5_5_04291435",
+            "timestamp": "2026-04-29 14:35:08"
+        }
+    }
+}

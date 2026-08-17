@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leg ulcer",
+        "Distribution": [
+            "Thân mình",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Trợt loét nông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mỏng",
+            "Đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3055_jpg_cc6a",
+            "json_id": "JSON_IMG_3055_jpg_cc6a_gpt_5_5_04291438",
+            "timestamp": "2026-04-29 14:38:16"
+        }
+    }
+}

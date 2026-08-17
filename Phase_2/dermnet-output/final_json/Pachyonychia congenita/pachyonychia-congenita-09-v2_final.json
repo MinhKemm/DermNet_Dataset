@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pachyonychia congenita",
+        "Distribution": [
+            "Vùng khuỷu tay",
+            "Mặt duỗi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Khối gồ",
+            "Sưng nề khu trú"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Căng bóng",
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pachyonychia_congenita_09_v2_jpg_6d5c",
+            "json_id": "JSON_IMG_pachyonychia_congenita_09_v2_jpg_6d5c_gpt_5_5_04281939",
+            "timestamp": "2026-04-28 19:39:12"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pressure ulcer",
+        "Distribution": [
+            "Quanh mắt",
+            "Mí mắt",
+            "Khóe mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét",
+            "Mảng trợt",
+            "Mụn mủ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ tím",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Hoại tử",
+            "Tiết dịch",
+            "Phù nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_bd77",
+            "json_id": "JSON_IMG_03_jpg_bd77_gpt_5_5_04281309",
+            "timestamp": "2026-04-28 13:09:21"
+        }
+    }
+}

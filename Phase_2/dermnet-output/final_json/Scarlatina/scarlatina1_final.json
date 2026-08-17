@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scarlatina",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Ngón chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Bong vảy",
+            "Trợt nông"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng đục",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy bong mỏng",
+            "Vảy da viền",
+            "Đóng mài nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_scarlatina1_jpg_5bf3",
+            "json_id": "JSON_IMG_scarlatina1_jpg_5bf3_gpt_5_5_04280749",
+            "timestamp": "2026-04-28 07:49:20"
+        }
+    }
+}

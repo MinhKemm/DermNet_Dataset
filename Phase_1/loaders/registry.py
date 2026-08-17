@@ -1,5 +1,5 @@
 """
-RegistryManager — Quản lý tiến độ xử lý ảnh trong pipeline (Luồng GPT Đơn)
+RegistryManager — Quản lý tiến độ xử lý ảnh trong pipeline 
 
 Tự động:
   • Ghi log ảnh nào đã chạy, ảnh nào chưa
@@ -12,12 +12,12 @@ import os
 import csv
 import re
 
-STATUS_PENDING          = "PENDING"           # chưa chạy gì
-STATUS_P1_RUNNING       = "P1_RUNNING"        # đang chạy Phase 1
-STATUS_P1_OK            = "P1_OK"             # Phase 1 xong
-STATUS_P2_RUNNING       = "P2_RUNNING"        # đang chạy Phase 2
-STATUS_P2_OK            = "P2_OK"             # Phase 2 xong (Hoàn thành)
-STATUS_ERROR            = "ERROR"             # có lỗi, sẽ được retry
+STATUS_PENDING          = "PENDING"           
+STATUS_P1_RUNNING       = "P1_RUNNING"        
+STATUS_P1_OK            = "P1_OK"             
+STATUS_P2_RUNNING       = "P2_RUNNING"        
+STATUS_P2_OK            = "P2_OK"             
+STATUS_ERROR            = "ERROR"            
 
 COLUMNS = [
     "image_path", "disease_name", "disease_folder",
@@ -40,7 +40,7 @@ class RegistryManager:
             with open(self.csv_path, "w", newline="", encoding="utf-8") as f:
                 writer = csv.DictWriter(f, fieldnames=COLUMNS)
                 writer.writeheader()
-            print(f"[Registry] ✅ Tạo mới: {self.csv_path}")
+            print(f"[Registry] Tạo mới: {self.csv_path}")
 
     def _rows(self) -> list[dict]:
         rows = []
@@ -58,7 +58,7 @@ class RegistryManager:
 
     def discover_dataset(self, images_dir: str, contents_dir: str):
         if not os.path.exists(images_dir):
-            print(f"[Registry] ⚠️ Không tìm thấy: {images_dir}")
+            print(f"[Registry] Không tìm thấy: {images_dir}")
             return 0
 
         existing = {row["image_path"] for row in self._rows()}
@@ -94,9 +94,9 @@ class RegistryManager:
                 new_count += 1
 
         if new_count:
-            print(f"[Registry] ✅ Đã thêm {new_count} ảnh mới vào registry")
+            print(f"[Registry] Đã thêm {new_count} ảnh mới vào registry")
         else:
-            print(f"[Registry] ℹ️ Không có ảnh mới — registry đã đầy")
+            print(f"[Registry] Không có ảnh mới — registry đã đầy")
 
         return new_count
 

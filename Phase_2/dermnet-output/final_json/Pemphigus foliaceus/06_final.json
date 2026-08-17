@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus foliaceus",
+        "Distribution": [
+            "Vùng thân mình",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Trợt da",
+            "Mảng tăng sắc tố",
+            "Vết loét nông"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Nâu vàng",
+            "Nâu sẫm",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Rỉ dịch",
+            "Vảy trắng",
+            "Xuất huyết điểm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_3108",
+            "json_id": "JSON_IMG_06_jpg_3108_gpt_5_5_04281722",
+            "timestamp": "2026-04-28 17:22:09"
+        }
+    }
+}

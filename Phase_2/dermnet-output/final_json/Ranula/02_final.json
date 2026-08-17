@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Granular parakeratosis",
+        "Distribution": [
+            "Mu bàn tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "U dưới da"
+        ],
+        "Colour": [
+            "Màu da",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Căng bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_e8d6",
+            "json_id": "JSON_IMG_02_jpg_e8d6_gpt_5_5_04280932",
+            "timestamp": "2026-04-28 09:32:52"
+        }
+    }
+}

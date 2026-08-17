@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea cruris",
+        "Distribution": [
+            "Nếp bẹn",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng bong vảy"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Nếp gấp da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_erythrasma12_jpg_105c",
+            "json_id": "JSON_IMG_erythrasma12_jpg_105c_gpt_5_5_04272107",
+            "timestamp": "2026-04-27 21:07:47"
+        }
+    }
+}

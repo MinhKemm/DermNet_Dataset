@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Nicotine stomatitis",
+        "Distribution": [
+            "Khay đỏ",
+            "Rời rạc",
+            "Rải rác",
+            "Tập trung"
+        ],
+        "Lesion_Type": [],
+        "Colour": [
+            "Đỏ",
+            "Vàng nâu",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình trụ"
+        ],
+        "Characteristics": [
+            "Đầu lọc",
+            "Tro",
+            "Mảnh vụn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cigarettes_02_jpg_fdf4",
+            "json_id": "JSON_IMG_cigarettes_02_jpg_fdf4_gpt_5_5_04290729",
+            "timestamp": "2026-04-29 07:29:51"
+        }
+    }
+}

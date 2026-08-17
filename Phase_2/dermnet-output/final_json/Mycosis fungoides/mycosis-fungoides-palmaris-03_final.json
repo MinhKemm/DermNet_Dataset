@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Ngón tay",
+            "Mu ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Bong vảy",
+            "Vảy khô",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mycosis_fungoides_palmaris_03_jpg_47ab",
+            "json_id": "JSON_IMG_mycosis_fungoides_palmaris_03_jpg_47ab_gpt_5_5_04290850",
+            "timestamp": "2026-04-29 08:50:16"
+        }
+    }
+}

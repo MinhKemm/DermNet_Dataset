@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical fibroxanthoma",
+        "Distribution": [
+            "Vùng cổ",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "U cục"
+        ],
+        "Colour": [
+            "Hồng tím",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Có cuống",
+            "Bề mặt nhẵn",
+            "Căng bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_xanth_tub1_jpg_edf5",
+            "json_id": "JSON_IMG_xanth_tub1_jpg_edf5_gpt_5_5_04271732",
+            "timestamp": "2026-04-27 17:32:11"
+        }
+    }
+}

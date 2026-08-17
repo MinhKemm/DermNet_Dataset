@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Non-albicans candida infections",
+        "Distribution": [
+            "Môi dưới",
+            "Niêm mạc miệng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng niêm mạc",
+            "Trợt nông"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Ướt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_35_jpg_cbf2",
+            "json_id": "JSON_IMG_35_jpg_cbf2_gpt_5_5_04282233",
+            "timestamp": "2026-04-28 22:33:43"
+        }
+    }
+}

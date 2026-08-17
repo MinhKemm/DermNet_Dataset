@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Cytophagic histiocytic panniculitis",
+        "Distribution": [
+            "Vai",
+            "Lưng trên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát giảm sắc tố",
+            "Mảng hồng nhạt"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Nâu nhạt",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Đốm nâu nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_13_jpg_5776",
+            "json_id": "JSON_IMG_13_jpg_5776_gpt_5_5_04281838",
+            "timestamp": "2026-04-28 18:38:11"
+        }
+    }
+}

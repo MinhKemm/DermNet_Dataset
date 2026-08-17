@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Milker_s nodule",
+        "Distribution": [
+            "Ngón tay",
+            "Quanh móng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Mụn mủ",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bóng căng",
+            "Đóng mài",
+            "Sưng nề nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_milkers1_sm_jpg_da54",
+            "json_id": "JSON_IMG_milkers1_sm_jpg_da54_gpt_5_5_04291019",
+            "timestamp": "2026-04-29 10:19:51"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Quanh hậu môn",
+            "Nếp kẽ",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt loét",
+            "Hồng ban",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Rỉ dịch",
+            "Chảy máu",
+            "Bề mặt ẩm",
+            "Nứt kẽ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_53_jpg_e3ae",
+            "json_id": "JSON_IMG_53_jpg_e3ae_gpt_5_5_04280955",
+            "timestamp": "2026-04-28 09:55:02"
+        }
+    }
+}

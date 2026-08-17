@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichenoid keratosis",
+        "Distribution": [
+            "Cẳng tay",
+            "Rải rác",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Dát giảm sắc tố",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Hồng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Lông thưa",
+            "Tăng sắc tố nền"
+        ],
+        "_metadata": {
+            "image_id": "IMG_eruptive_lplk_jpg_d330",
+            "json_id": "JSON_IMG_eruptive_lplk_jpg_d330_gpt_5_5_04291254",
+            "timestamp": "2026-04-29 12:54:32"
+        }
+    }
+}

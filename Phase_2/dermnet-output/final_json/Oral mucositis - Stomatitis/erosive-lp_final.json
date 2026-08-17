@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral mucositis - Stomatitis",
+        "Distribution": [
+            "Niêm mạc",
+            "Môi dưới",
+            "Môi trên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Loét nông",
+            "Trợt niêm mạc",
+            "Mụn nước nhỏ"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Hồng đỏ",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bóng ướt",
+            "Giả mạc",
+            "Viền đỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_erosive_lp_jpg_8916",
+            "json_id": "JSON_IMG_erosive_lp_jpg_8916_gpt_5_5_04282012",
+            "timestamp": "2026-04-28 20:12:09"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Non-albicans candida infections",
+        "Distribution": [
+            "Niêm mạc sinh dục",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt ẩm",
+            "Trợt nông",
+            "Nếp gấp"
+        ],
+        "_metadata": {
+            "image_id": "IMG_52_jpg_3fbc",
+            "json_id": "JSON_IMG_52_jpg_3fbc_gpt_5_5_04282227",
+            "timestamp": "2026-04-28 22:27:59"
+        }
+    }
+}

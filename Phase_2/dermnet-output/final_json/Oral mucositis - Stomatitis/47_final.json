@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral mucositis - Stomatitis",
+        "Distribution": [
+            "Mặt lưng lưỡi",
+            "Khu trú",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng phủ lưỡi",
+            "Gai lưỡi đỏ"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Lớp phủ trắng",
+            "Gai lưỡi nổi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_47_jpg_f5e3",
+            "json_id": "JSON_IMG_47_jpg_f5e3_gpt_5_5_04282025",
+            "timestamp": "2026-04-28 20:25:41"
+        }
+    }
+}

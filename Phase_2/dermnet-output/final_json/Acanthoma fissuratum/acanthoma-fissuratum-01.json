@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Acanthoma fissuratum",
+        "Lesion_Type": [
+            "Nốt hồng ban",
+            "U mụn"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bán cầu",
+            "Tròn",
+            "Ranh giới rõ"
+        ],
+        "Distribution": [
+            "Vành tai",
+            "Khu trú"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng mịn",
+            "Viềng hồng ban xung quanh",
+            "Mụn nhỏ trung tâm"
+        ],
+        "_metadata": {
+            "source_image": "acanthoma-fissuratum-01.jpg",
+            "run_mode": "VLM1_ONLY",
+            "vlm1_model": "claude-sonnet-4-6",
+            "vlm2_model": null,
+            "judge_model": null,
+            "timestamp": "2026-04-16 20:59:44"
+        }
+    }
+}

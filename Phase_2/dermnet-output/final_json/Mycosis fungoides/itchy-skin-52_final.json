@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Thân mình",
+            "Rải rác",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Mài hoại tử",
+            "Đóng vảy",
+            "Trung tâm sẫm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_itchy_skin_52_jpg_a2ac",
+            "json_id": "JSON_IMG_itchy_skin_52_jpg_a2ac_gpt_5_5_04290856",
+            "timestamp": "2026-04-29 08:56:51"
+        }
+    }
+}

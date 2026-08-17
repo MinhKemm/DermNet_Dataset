@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leishmaniasis",
+        "Distribution": [
+            "Cẳng tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng dày da",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Tăng sắc tố"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Dày da",
+            "Bóng nhẹ",
+            "Nếp da nổi rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leishmaniasis2_jpg_62a4",
+            "json_id": "JSON_IMG_leishmaniasis2_jpg_62a4_gpt_5_5_04291424",
+            "timestamp": "2026-04-29 14:24:25"
+        }
+    }
+}

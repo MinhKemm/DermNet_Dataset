@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Palmar fascial fibromatosis",
+        "Distribution": [
+            "Lòng bàn tay",
+            "Ngón tay",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Ban đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_dupuytren_contracture_03_jpg_371d",
+            "json_id": "JSON_IMG_dupuytren_contracture_03_jpg_371d_gpt_5_5_04281933",
+            "timestamp": "2026-04-28 19:33:24"
+        }
+    }
+}

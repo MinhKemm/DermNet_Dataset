@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Non-albicans candida infections",
+        "Distribution": [
+            "Vi trường kính hiển vi",
+            "Rải rác",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Sợi nấm giả",
+            "Bào tử men"
+        ],
+        "Colour": [
+            "Tím đậm",
+            "Hồng tím"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Dạng sợi",
+            "Phân nhánh"
+        ],
+        "Characteristics": [
+            "Nảy chồi",
+            "Vách ngăn",
+            "Bắt màu tím"
+        ],
+        "_metadata": {
+            "image_id": "IMG_640px_Candida_dubliniensis_jpg_12b9",
+            "json_id": "JSON_IMG_640px_Candida_dubliniensis_jpg_12b9_gpt_5_5_04282223",
+            "timestamp": "2026-04-28 22:23:45"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanonychia",
+        "Distribution": [
+            "Móng ngón chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Đổi màu móng",
+            "Tách móng"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Dày móng",
+            "Vụn sừng",
+            "Bong móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_brown_onychomycosis_jpg_453b",
+            "json_id": "JSON_IMG_brown_onychomycosis_jpg_453b_gpt_5_5_04291111",
+            "timestamp": "2026-04-29 11:11:25"
+        }
+    }
+}

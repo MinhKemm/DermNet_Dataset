@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Vùng bụng",
+            "Quanh rốn",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng",
+            "Sẩn"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Tím nâu",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Trợt nông",
+            "Bề mặt khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_65_jpg_5f6c",
+            "json_id": "JSON_IMG_syphilis_65_jpg_5f6c_gpt_5_5_04272249",
+            "timestamp": "2026-04-27 22:49:18"
+        }
+    }
+}

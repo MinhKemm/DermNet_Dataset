@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Cẳng tay",
+            "Khu trú",
+            "Dạng dải"
+        ],
+        "Lesion_Type": [
+            "Mảng teo da",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Hồng tím",
+            "Nâu nhạt",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Da teo",
+            "Bóng nhẹ",
+            "Nhăn nheo"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_simplex_0016_jpg_9c87",
+            "json_id": "JSON_IMG_lichen_simplex_0016_jpg_9c87_gpt_5_5_04291258",
+            "timestamp": "2026-04-29 12:58:09"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rosacea",
+        "Distribution": [
+            "Da đầu hói",
+            "Trán",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Bề mặt sần"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3635_jpg_3276",
+            "json_id": "JSON_IMG_3635_jpg_3276_gpt_5_5_04280842",
+            "timestamp": "2026-04-28 08:42:21"
+        }
+    }
+}

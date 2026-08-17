@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orofacial granulomatosis",
+        "Distribution": [
+            "Đầu lưỡi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Rãnh nứt lưỡi",
+            "Lưỡi chẻ đôi"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Dạng thùy",
+            "Rãnh dọc",
+            "Bờ rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt ẩm",
+            "Nhú lưỡi nổi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_15_jpg_d87c",
+            "json_id": "JSON_IMG_15_jpg_d87c_gpt_5_5_04281951",
+            "timestamp": "2026-04-28 19:51:46"
+        }
+    }
+}

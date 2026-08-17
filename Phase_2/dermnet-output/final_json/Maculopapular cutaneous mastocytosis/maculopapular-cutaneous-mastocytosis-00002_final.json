@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Maculopapular cutaneous mastocytosis",
+        "Distribution": [
+            "Cổ",
+            "Má",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Chấm trung tâm",
+            "Đóng mày nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_maculopapular_cutaneous_mastocytosis_000_e7ef",
+            "json_id": "JSON_IMG_maculopapular_cutaneous_mastocytosis_000_e7ef_gpt_5_5_04291245",
+            "timestamp": "2026-04-29 12:45:12"
+        }
+    }
+}

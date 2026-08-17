@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Postinflammatory hyperpigmentation",
+        "Distribution": [
+            "Lưng",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Đốm tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố",
+            "Tổn thương quanh nang lông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_7506",
+            "json_id": "JSON_IMG_01_jpg_7506_gpt_5_5_04281516",
+            "timestamp": "2026-04-28 15:16:24"
+        }
+    }
+}

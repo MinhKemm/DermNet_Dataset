@@ -1,0 +1,38 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycoplasma pneumoniae infection",
+        "Distribution": [
+            "Môi",
+            "Quanh miệng",
+            "Quanh mũi",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Trợt loét",
+            "Mảng đóng mài",
+            "Hồng ban"
+        ],
+        "Colour": [
+            "Đỏ sẫm",
+            "Đen",
+            "Nâu đỏ",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Đóng mài máu",
+            "Hoại tử",
+            "Rỉ dịch",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mycoplasma_04_jpg_edb0",
+            "json_id": "JSON_IMG_mycoplasma_04_jpg_edb0_gpt_5_5_04290918",
+            "timestamp": "2026-04-29 09:18:05"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Steatocystoma multiplex",
+        "Distribution": [
+            "Má",
+            "Vùng trước tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt nhỏ",
+            "Nang nhỏ"
+        ],
+        "Colour": [
+            "Màu da",
+            "Vàng nhạt",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Gồ cao",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Nhân đen",
+            "Da nhăn",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_steatocyst_5_jpg_f211",
+            "json_id": "JSON_IMG_steatocyst_5_jpg_f211_gpt_5_5_04272347",
+            "timestamp": "2026-04-27 23:47:54"
+        }
+    }
+}

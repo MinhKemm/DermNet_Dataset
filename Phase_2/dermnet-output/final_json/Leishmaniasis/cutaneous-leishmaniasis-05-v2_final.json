@@ -1,0 +1,38 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leishmaniasis",
+        "Distribution": [
+            "Mặt",
+            "Quanh mắt",
+            "Má",
+            "Mũi",
+            "Tập trung"
+        ],
+        "Lesion_Type": [
+            "Nốt",
+            "U cục",
+            "Mảng gồ"
+        ],
+        "Colour": [
+            "Nâu tím",
+            "Đỏ tím",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Đa thùy",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Sần sùi",
+            "Đóng vảy",
+            "Biến dạng mặt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cutaneous_leishmaniasis_05_v2_jpg_70fc",
+            "json_id": "JSON_IMG_cutaneous_leishmaniasis_05_v2_jpg_70fc_gpt_5_5_04291430",
+            "timestamp": "2026-04-29 14:30:56"
+        }
+    }
+}

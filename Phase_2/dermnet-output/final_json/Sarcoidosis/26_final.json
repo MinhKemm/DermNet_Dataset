@@ -1,0 +1,28 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Thân mình",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Ban dát hồng",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng nhạt"
+        ],
+        "Shape": [
+            "Không đều",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt trơn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_26_jpg_2b84",
+            "json_id": "JSON_IMG_26_jpg_2b84_gpt_5_5_04280812",
+            "timestamp": "2026-04-28 08:12:11"
+        }
+    }
+}

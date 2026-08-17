@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Papular acrodermatitis of childhood",
+        "Distribution": [
+            "Mặt duỗi gối",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng dày da",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Nâu tím",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bầu dục"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Dày sừng",
+            "Hằn da",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_gcs32_jpg_1735",
+            "json_id": "JSON_IMG_gcs32_jpg_1735_gpt_5_5_04281821",
+            "timestamp": "2026-04-28 18:21:39"
+        }
+    }
+}

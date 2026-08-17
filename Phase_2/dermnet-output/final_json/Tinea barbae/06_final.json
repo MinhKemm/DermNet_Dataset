@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea barbae",
+        "Distribution": [
+            "Vùng má",
+            "Vùng râu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng sùi",
+            "Sẩn cục",
+            "Loét nông"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Nâu vàng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Gồ cao"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Đóng mài",
+            "Bề mặt sùi",
+            "Rỉ dịch"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_df5b",
+            "json_id": "JSON_IMG_06_jpg_df5b_gpt_5_5_04272132",
+            "timestamp": "2026-04-27 21:32:37"
+        }
+    }
+}

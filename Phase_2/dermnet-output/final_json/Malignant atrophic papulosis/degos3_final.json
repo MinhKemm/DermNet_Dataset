@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Malignant atrophic papulosis",
+        "Distribution": [
+            "Vùng da hở",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn dẹt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy trắng",
+            "Bề mặt thô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_degos3_jpg_91c2",
+            "json_id": "JSON_IMG_degos3_jpg_91c2_gpt_5_5_04291232",
+            "timestamp": "2026-04-29 12:32:14"
+        }
+    }
+}

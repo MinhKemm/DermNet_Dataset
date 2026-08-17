@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ichthyosis",
+        "Distribution": [
+            "Vùng da chi",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng khô da",
+            "Bong vảy"
+        ],
+        "Colour": [
+            "Nâu hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Đa giác",
+            "Đường nứt nông",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Vảy mỏng",
+            "Vảy da khô",
+            "Nứt da nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_12_jpg_66db",
+            "json_id": "JSON_IMG_12_jpg_66db_gpt_5_5_04280918",
+            "timestamp": "2026-04-28 09:18:06"
+        }
+    }
+}

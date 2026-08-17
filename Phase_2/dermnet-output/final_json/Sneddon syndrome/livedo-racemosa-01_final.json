@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sneddon syndrome",
+        "Distribution": [
+            "Hai cẳng chân",
+            "Hai gối",
+            "Đối xứng",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Dạng lưới",
+            "Loang lổ",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Vân lưới"
+        ],
+        "_metadata": {
+            "image_id": "IMG_livedo_racemosa_01_jpg_0f9c",
+            "json_id": "JSON_IMG_livedo_racemosa_01_jpg_0f9c_gpt_5_5_04280024",
+            "timestamp": "2026-04-28 00:24:52"
+        }
+    }
+}

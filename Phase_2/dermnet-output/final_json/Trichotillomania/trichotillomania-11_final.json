@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Trichotillomania",
+        "Distribution": [
+            "Da đầu",
+            "Vùng đỉnh đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng bạc màu",
+            "Giảm sắc tố"
+        ],
+        "Colour": [
+            "Vàng cam",
+            "Trắng vàng",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Dạng dải",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sợi tóc đổi màu",
+            "Sợi tóc sẫm màu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_trichotillomania_11_jpg_383e",
+            "json_id": "JSON_IMG_trichotillomania_11_jpg_383e_gpt_5_5_04272015",
+            "timestamp": "2026-04-27 20:15:21"
+        }
+    }
+}

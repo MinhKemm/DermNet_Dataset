@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Đốm tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Xám xanh",
+            "Đen trung tâm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Trung tâm sẫm",
+            "Bề mặt nhẵn",
+            "Đường da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_42_jpg_d767",
+            "json_id": "JSON_IMG_42_jpg_d767_gpt_5_5_04281222",
+            "timestamp": "2026-04-28 12:22:22"
+        }
+    }
+}

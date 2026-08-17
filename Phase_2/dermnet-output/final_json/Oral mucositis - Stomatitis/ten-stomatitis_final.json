@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral mucositis - Stomatitis",
+        "Distribution": [
+            "Môi trên",
+            "Môi dưới",
+            "Quanh miệng"
+        ],
+        "Lesion_Type": [
+            "Trợt loét",
+            "Mảng đóng mài",
+            "Phù nề môi"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Đen",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Mài máu",
+            "Mài hoại tử",
+            "Rỉ dịch"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ten_stomatitis_jpg_6719",
+            "json_id": "JSON_IMG_ten_stomatitis_jpg_6719_gpt_5_5_04282011",
+            "timestamp": "2026-04-28 20:11:49"
+        }
+    }
+}

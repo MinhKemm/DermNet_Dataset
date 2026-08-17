@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kerion",
+        "Distribution": [
+            "Gáy",
+            "Đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Trợt da",
+            "Đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_anagen_effluvium_15_jpg_aa43",
+            "json_id": "JSON_IMG_anagen_effluvium_15_jpg_aa43_gpt_5_5_04291451",
+            "timestamp": "2026-04-29 14:51:15"
+        }
+    }
+}

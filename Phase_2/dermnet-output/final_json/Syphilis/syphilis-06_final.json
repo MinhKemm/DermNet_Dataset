@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Lòng bàn tay",
+            "Cổ tay",
+            "Cẳng tay",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Mụn nước nhỏ",
+            "Tổn thương bia bắn"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm",
+            "Trung tâm nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Trung tâm lõm",
+            "Quầng đỏ",
+            "Bọng nước nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_06_jpg_d832",
+            "json_id": "JSON_IMG_syphilis_06_jpg_d832_gpt_5_5_04272310",
+            "timestamp": "2026-04-27 23:10:47"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vulvovaginal candidiasis",
+        "Distribution": [
+            "Vùng sinh dục",
+            "Nếp gấp",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Nứt kẽ",
+            "Ẩm ướt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cand_vulvitis_jpg_4b7f",
+            "json_id": "JSON_IMG_cand_vulvitis_jpg_4b7f_gpt_5_5_04271801",
+            "timestamp": "2026-04-27 18:01:18"
+        }
+    }
+}

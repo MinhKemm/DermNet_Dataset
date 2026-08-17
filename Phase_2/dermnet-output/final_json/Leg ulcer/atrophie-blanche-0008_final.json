@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leg ulcer",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Gót chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Trợt loét",
+            "Vảy tiết"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Vảy tiết",
+            "Trợt da",
+            "Nứt da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_atrophie_blanche_0008_jpg_8395",
+            "json_id": "JSON_IMG_atrophie_blanche_0008_jpg_8395_gpt_5_5_04291435",
+            "timestamp": "2026-04-29 14:35:43"
+        }
+    }
+}

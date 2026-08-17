@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis alba",
+        "Distribution": [
+            "Cánh tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Dát giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_5a85",
+            "json_id": "JSON_IMG_05_jpg_5a85_gpt_5_5_04281601",
+            "timestamp": "2026-04-28 16:01:02"
+        }
+    }
+}

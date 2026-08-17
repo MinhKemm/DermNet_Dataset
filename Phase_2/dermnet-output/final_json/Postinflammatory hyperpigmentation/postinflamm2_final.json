@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Postinflammatory hyperpigmentation",
+        "Distribution": [
+            "Gáy",
+            "Nếp cổ",
+            "Đối xứng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Da dày"
+        ],
+        "Colour": [
+            "Nâu xám",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bờ không rõ"
+        ],
+        "Characteristics": [
+            "Dày da",
+            "Bề mặt nhẵn",
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_postinflamm2_jpg_1551",
+            "json_id": "JSON_IMG_postinflamm2_jpg_1551_gpt_5_5_04281311",
+            "timestamp": "2026-04-28 13:11:11"
+        }
+    }
+}

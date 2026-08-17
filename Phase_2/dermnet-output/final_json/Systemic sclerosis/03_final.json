@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Systemic sclerosis",
+        "Distribution": [
+            "Ngón chân",
+            "Quanh móng",
+            "Nhiều vị trí"
+        ],
+        "Lesion_Type": [
+            "Mảng loét",
+            "Hồng ban quanh móng",
+            "Sưng nề"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng xanh",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Dạng quanh móng"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Dịch mủ",
+            "Biến dạng móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_c9fe",
+            "json_id": "JSON_IMG_03_jpg_c9fe_gpt_5_5_04272228",
+            "timestamp": "2026-04-27 22:28:12"
+        }
+    }
+}

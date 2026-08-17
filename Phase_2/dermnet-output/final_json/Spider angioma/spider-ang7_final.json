@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Spider angioma",
+        "Distribution": [
+            "Má",
+            "Cạnh mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Chấm xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Trung tâm đỏ",
+            "Da hồng nhạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_spider_ang7_jpg_f297",
+            "json_id": "JSON_IMG_spider_ang7_jpg_f297_gpt_5_5_04280007",
+            "timestamp": "2026-04-28 00:07:17"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leg ulcer",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Lan dọc"
+        ],
+        "Lesion_Type": [
+            "Mảng loét",
+            "Mảng hoại tử",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đen",
+            "Vàng trắng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Vảy tiết dày",
+            "Dịch rỉ",
+            "Giả mạc",
+            "Phù nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_xylazine_induced_skin_ulceration_0002_jp_9ca5",
+            "json_id": "JSON_IMG_xylazine_induced_skin_ulceration_0002_jp_9ca5_gpt_5_5_04291431",
+            "timestamp": "2026-04-29 14:31:55"
+        }
+    }
+}

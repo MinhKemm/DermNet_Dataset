@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mastocytoma",
+        "Distribution": [
+            "Cẳng tay",
+            "Nếp gấp",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Vệt hồng ban"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Dạng dải",
+            "Thẳng",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cutaneous_mastocytosis_0006_jpg_cee7",
+            "json_id": "JSON_IMG_cutaneous_mastocytosis_0006_jpg_cee7_gpt_5_5_04291226",
+            "timestamp": "2026-04-29 12:26:27"
+        }
+    }
+}

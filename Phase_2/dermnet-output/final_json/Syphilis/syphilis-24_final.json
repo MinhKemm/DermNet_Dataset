@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Niêm mạc",
+            "Lợi trên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết loét",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Nền trợt",
+            "Quầng đỏ",
+            "Bề mặt ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_24_jpg_b3b7",
+            "json_id": "JSON_IMG_syphilis_24_jpg_b3b7_gpt_5_5_04272303",
+            "timestamp": "2026-04-27 23:03:42"
+        }
+    }
+}

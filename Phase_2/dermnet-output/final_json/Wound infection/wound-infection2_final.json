@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Wound infection",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết loét",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Hoại tử trung tâm",
+            "Quầng đỏ xung quanh"
+        ],
+        "_metadata": {
+            "image_id": "IMG_wound_infection2_jpg_ff5a",
+            "json_id": "JSON_IMG_wound_infection2_jpg_ff5a_gpt_5_5_04271742",
+            "timestamp": "2026-04-27 17:42:39"
+        }
+    }
+}

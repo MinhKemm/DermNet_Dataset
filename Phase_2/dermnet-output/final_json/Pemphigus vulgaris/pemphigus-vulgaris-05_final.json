@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Vùng cổ",
+            "Vùng xương đòn",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng loét",
+            "Sẩn trợt",
+            "Nốt đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Vảy tiết",
+            "Trợt da",
+            "Loét nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pemphigus_vulgaris_05_jpg_fe70",
+            "json_id": "JSON_IMG_pemphigus_vulgaris_05_jpg_fe70_gpt_5_5_04281711",
+            "timestamp": "2026-04-28 17:11:55"
+        }
+    }
+}

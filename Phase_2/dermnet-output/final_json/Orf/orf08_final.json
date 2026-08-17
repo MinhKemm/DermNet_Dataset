@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Ngón tay",
+            "Quanh móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt sưng viêm",
+            "Mảng hồng ban",
+            "Loét đóng mài"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ tím",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Sưng nề",
+            "Đóng mài",
+            "Trợt loét"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf08_jpg_5bae",
+            "json_id": "JSON_IMG_orf08_jpg_5bae_gpt_5_5_04282007",
+            "timestamp": "2026-04-28 20:07:21"
+        }
+    }
+}

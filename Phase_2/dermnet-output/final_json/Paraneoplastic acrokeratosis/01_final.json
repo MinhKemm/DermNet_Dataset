@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Paraneoplastic acrokeratosis",
+        "Distribution": [
+            "Bàn tay",
+            "Ngón tay",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dày sừng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Khô da",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_bd39",
+            "json_id": "JSON_IMG_01_jpg_bd39_gpt_5_5_04281806",
+            "timestamp": "2026-04-28 18:06:40"
+        }
+    }
+}

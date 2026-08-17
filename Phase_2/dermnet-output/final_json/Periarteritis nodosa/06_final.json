@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Periarteritis nodosa",
+        "Distribution": [
+            "Chi trên",
+            "Cẳng tay",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Dạng lưới",
+            "Loang lổ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vân lưới mờ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_8e61",
+            "json_id": "JSON_IMG_06_jpg_8e61_gpt_5_5_04281701",
+            "timestamp": "2026-04-28 17:01:01"
+        }
+    }
+}

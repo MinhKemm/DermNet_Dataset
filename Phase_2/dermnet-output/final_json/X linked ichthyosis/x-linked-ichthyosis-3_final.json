@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ichthyosis",
+        "Distribution": [
+            "Cổ chân",
+            "Mu bàn chân",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn tăng sừng",
+            "Mảng tăng sừng"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Trắng ngà",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Bờ nổi",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Lõm trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_x_linked_ichthyosis_3_jpg_d835",
+            "json_id": "JSON_IMG_x_linked_ichthyosis_3_jpg_d835_gpt_5_5_04271733",
+            "timestamp": "2026-04-27 17:33:53"
+        }
+    }
+}

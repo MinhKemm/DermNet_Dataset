@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leprosy",
+        "Distribution": [
+            "Thân mình",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn phù"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Đa cung",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Nhạt màu",
+            "Phù nề nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leprosy_borderline_borderline_00001_jpg_6b9d",
+            "json_id": "JSON_IMG_leprosy_borderline_borderline_00001_jpg_6b9d_gpt_5_5_04291422",
+            "timestamp": "2026-04-29 14:22:13"
+        }
+    }
+}

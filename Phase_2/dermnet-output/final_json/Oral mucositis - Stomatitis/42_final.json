@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral mucositis - Stomatitis",
+        "Distribution": [
+            "Cổ chân",
+            "Mu bàn chân",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_42_jpg_50c5",
+            "json_id": "JSON_IMG_42_jpg_50c5_gpt_5_5_04282027",
+            "timestamp": "2026-04-28 20:27:03"
+        }
+    }
+}

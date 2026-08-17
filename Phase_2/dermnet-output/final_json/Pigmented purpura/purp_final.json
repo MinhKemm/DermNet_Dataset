@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Dát xuất huyết",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Đỏ cam",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Chấm xuất huyết",
+            "Dạng lấm tấm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_purp_jpg_06a2",
+            "json_id": "JSON_IMG_purp_jpg_06a2_gpt_5_5_04281624",
+            "timestamp": "2026-04-28 16:24:24"
+        }
+    }
+}

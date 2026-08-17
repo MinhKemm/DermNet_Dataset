@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Mũi",
+            "Cánh mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt loét",
+            "Mảng trợt",
+            "Cục gồ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều",
+            "Gồ cao"
+        ],
+        "Characteristics": [
+            "Mài tiết",
+            "Đóng vảy",
+            "Loét trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf26_jpg_238d",
+            "json_id": "JSON_IMG_orf26_jpg_238d_gpt_5_5_04282001",
+            "timestamp": "2026-04-28 20:01:36"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen nitidus",
+        "Distribution": [
+            "Vùng thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Quanh nang lông",
+            "Nền hồng nhạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_nitidus2_jpg_39ff",
+            "json_id": "JSON_IMG_lichen_nitidus2_jpg_39ff_gpt_5_5_04291411",
+            "timestamp": "2026-04-29 14:11:23"
+        }
+    }
+}

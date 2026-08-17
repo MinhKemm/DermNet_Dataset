@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scabies",
+        "Distribution": [
+            "Vùng sinh dục",
+            "Bìu",
+            "Tập trung"
+        ],
+        "Lesion_Type": [
+            "Sẩn lõm giữa",
+            "Nốt nhỏ"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Lõm rốn giữa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_scabies21_jpg_1d39",
+            "json_id": "JSON_IMG_scabies21_jpg_1d39_gpt_5_5_04280756",
+            "timestamp": "2026-04-28 07:56:52"
+        }
+    }
+}

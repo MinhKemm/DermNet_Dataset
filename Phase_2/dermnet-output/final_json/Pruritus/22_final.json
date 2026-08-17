@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Cổ bên",
+            "Má dưới",
+            "Vùng phơi nắng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát giảm sắc tố",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Loang lổ",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Teo da nhẹ",
+            "Giãn mạch nhỏ",
+            "Da khô"
+        ],
+        "_metadata": {
+            "image_id": "IMG_22_jpg_2d94",
+            "json_id": "JSON_IMG_22_jpg_2d94_gpt_5_5_04281151",
+            "timestamp": "2026-04-28 11:51:42"
+        }
+    }
+}

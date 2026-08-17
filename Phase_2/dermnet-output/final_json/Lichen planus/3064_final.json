@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Niêm mạc miệng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng trắng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vân trắng lưới",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3064_jpg_4b48",
+            "json_id": "JSON_IMG_3064_jpg_4b48_gpt_5_5_04291404",
+            "timestamp": "2026-04-29 14:04:37"
+        }
+    }
+}

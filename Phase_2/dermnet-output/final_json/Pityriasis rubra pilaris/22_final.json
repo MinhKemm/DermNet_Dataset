@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis rubra pilaris",
+        "Distribution": [
+            "Mu bàn tay",
+            "Ngón tay",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ",
+            "Mụn nước nhỏ"
+        ],
+        "Colour": [
+            "Đỏ cam",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Sần ráp",
+            "Mụn nước li ti"
+        ],
+        "_metadata": {
+            "image_id": "IMG_22_jpg_7c3f",
+            "json_id": "JSON_IMG_22_jpg_7c3f_gpt_5_5_04281538",
+            "timestamp": "2026-04-28 15:38:33"
+        }
+    }
+}

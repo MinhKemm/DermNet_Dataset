@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Piebaldism",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát",
+            "Mảng"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu cam"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt phẳng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_4f74",
+            "json_id": "JSON_IMG_03_jpg_4f74_gpt_5_5_04281646",
+            "timestamp": "2026-04-28 16:46:27"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lupus pernio",
+        "Distribution": [
+            "Vành tai",
+            "Dái tai",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Hồng tím"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sưng nề",
+            "Phù nề",
+            "Da căng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lupus_pernio_1_jpg_d1c3",
+            "json_id": "JSON_IMG_lupus_pernio_1_jpg_d1c3_gpt_5_5_04291251",
+            "timestamp": "2026-04-29 12:51:53"
+        }
+    }
+}

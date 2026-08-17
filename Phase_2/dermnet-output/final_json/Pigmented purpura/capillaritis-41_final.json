@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Đốm xuất huyết",
+            "Ban xuất huyết",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Đỏ tím",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Dạng chấm",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tăng sắc tố",
+            "Dát nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_capillaritis_41_jpg_8b60",
+            "json_id": "JSON_IMG_capillaritis_41_jpg_8b60_gpt_5_5_04281632",
+            "timestamp": "2026-04-28 16:32:05"
+        }
+    }
+}

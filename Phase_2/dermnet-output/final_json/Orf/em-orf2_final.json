@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Mu bàn tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Loét trung tâm"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Trắng xám",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Bờ gồ"
+        ],
+        "Characteristics": [
+            "Vảy dày",
+            "Đóng mài",
+            "Sưng nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_em_orf2_jpg_ddb9",
+            "json_id": "JSON_IMG_em_orf2_jpg_ddb9_gpt_5_5_04282009",
+            "timestamp": "2026-04-28 20:09:57"
+        }
+    }
+}

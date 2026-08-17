@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Periorificial dermatitis",
+        "Distribution": [
+            "Má",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Sẩn nhỏ",
+            "Bề mặt nhẵn",
+            "Bóng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3426_jpg_413c",
+            "json_id": "JSON_IMG_3426_jpg_413c_gpt_5_5_04281650",
+            "timestamp": "2026-04-28 16:50:24"
+        }
+    }
+}

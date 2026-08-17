@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Systemic lupus erythematosus",
+        "Distribution": [
+            "Má",
+            "Mặt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Trắng hồng",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Teo da",
+            "Sẹo",
+            "Bong vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sle_08_jpg_8566",
+            "json_id": "JSON_IMG_sle_08_jpg_8566_gpt_5_5_04272244",
+            "timestamp": "2026-04-27 22:44:47"
+        }
+    }
+}

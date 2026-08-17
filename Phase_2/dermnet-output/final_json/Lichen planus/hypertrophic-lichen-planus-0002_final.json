@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Cẳng tay",
+            "Cổ tay",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vòng",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng bạc",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Bờ gồ cao"
+        ],
+        "_metadata": {
+            "image_id": "IMG_hypertrophic_lichen_planus_0002_jpg_8d97",
+            "json_id": "JSON_IMG_hypertrophic_lichen_planus_0002_jpg_8d97_gpt_5_5_04291344",
+            "timestamp": "2026-04-29 13:44:13"
+        }
+    }
+}

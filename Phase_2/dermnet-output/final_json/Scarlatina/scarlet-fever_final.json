@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scarlatina",
+        "Distribution": [
+            "Hai má",
+            "Đối xứng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phù nhẹ",
+            "Da láng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_scarlet_fever_jpg_d9c9",
+            "json_id": "JSON_IMG_scarlet_fever_jpg_d9c9_gpt_5_5_04280748",
+            "timestamp": "2026-04-28 07:48:12"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Median canaliform nail dystrophy",
+        "Distribution": [
+            "Móng ngón cái",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Biến dạng móng",
+            "Ly móng",
+            "Rãnh dọc móng"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Xanh lục",
+            "Trắng đục"
+        ],
+        "Shape": [
+            "Dọc giữa",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dày sừng dưới móng",
+            "Vụn móng",
+            "Gồ ghề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_median_jpg_1379",
+            "json_id": "JSON_IMG_median_jpg_1379_gpt_5_5_04291210",
+            "timestamp": "2026-04-29 12:10:41"
+        }
+    }
+}

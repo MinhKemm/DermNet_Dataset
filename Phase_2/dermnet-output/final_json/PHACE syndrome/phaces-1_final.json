@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "PHACE syndrome",
+        "Distribution": [
+            "Thân mình",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn viêm"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Trung tâm lõm",
+            "Quầng đỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_phaces_1_jpg_58c6",
+            "json_id": "JSON_IMG_phaces_1_jpg_58c6_gpt_5_5_04281945",
+            "timestamp": "2026-04-28 19:45:35"
+        }
+    }
+}

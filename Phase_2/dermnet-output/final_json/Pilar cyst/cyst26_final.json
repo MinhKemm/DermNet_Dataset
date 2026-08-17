@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilar cyst",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng sưng"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Rụng tóc",
+            "Bề mặt bóng",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cyst26_jpg_bb23",
+            "json_id": "JSON_IMG_cyst26_jpg_bb23_gpt_5_5_04281612",
+            "timestamp": "2026-04-28 16:12:41"
+        }
+    }
+}

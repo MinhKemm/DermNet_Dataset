@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pachyonychia congenita",
+        "Distribution": [
+            "Móng chân",
+            "Nhiều móng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dày móng",
+            "Biến dạng móng"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Bề mặt gồ ghề"
+        ],
+        "Characteristics": [
+            "Tăng sừng",
+            "Vụn móng",
+            "Bong móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pachyonychia_congenita_10_jpg_aaf2",
+            "json_id": "JSON_IMG_pachyonychia_congenita_10_jpg_aaf2_gpt_5_5_04281938",
+            "timestamp": "2026-04-28 19:38:25"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scurvy",
+        "Distribution": [
+            "Đầu dưới",
+            "Xương dài",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Đậm độ xương",
+            "Dải cản quang"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Xám đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đặc xương",
+            "Bờ xương gồ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_0a1d",
+            "json_id": "JSON_IMG_05_jpg_0a1d_gpt_5_5_04280746",
+            "timestamp": "2026-04-28 07:46:09"
+        }
+    }
+}

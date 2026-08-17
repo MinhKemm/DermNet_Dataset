@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Polythelia",
+        "Distribution": [
+            "Da có lông",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Nốt đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trung tâm sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Chấm lõm trung tâm",
+            "Quầng đỏ mờ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_supernumerary_nipple_02_jpg_bed4",
+            "json_id": "JSON_IMG_supernumerary_nipple_02_jpg_bed4_gpt_5_5_04281330",
+            "timestamp": "2026-04-28 13:30:40"
+        }
+    }
+}

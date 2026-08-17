@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leprosy",
+        "Distribution": [
+            "Cẳng tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng dày da",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Nứt nẻ",
+            "Lichen hóa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lepra_type_1_jpg_673b",
+            "json_id": "JSON_IMG_lepra_type_1_jpg_673b_gpt_5_5_04291422",
+            "timestamp": "2026-04-29 14:22:32"
+        }
+    }
+}

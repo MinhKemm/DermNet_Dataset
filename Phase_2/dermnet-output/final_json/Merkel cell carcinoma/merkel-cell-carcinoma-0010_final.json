@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Merkel cell carcinoma",
+        "Distribution": [
+            "Vùng thân mình",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Nốt sẩn hồng",
+            "Nốt gồ"
+        ],
+        "Colour": [
+            "Hồng đỏ",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Dạng vòm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Đóng mài",
+            "Giãn mạch nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_merkel_cell_carcinoma_0010_jpg_352f",
+            "json_id": "JSON_IMG_merkel_cell_carcinoma_0010_jpg_352f_gpt_5_5_04291042",
+            "timestamp": "2026-04-29 10:42:44"
+        }
+    }
+}

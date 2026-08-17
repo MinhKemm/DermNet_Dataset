@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orofacial granulomatosis",
+        "Distribution": [
+            "Môi trên",
+            "Quanh miệng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Phù nề môi",
+            "Trợt da",
+            "Vảy tiết"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Sưng nề",
+            "Đóng mài",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_c788",
+            "json_id": "JSON_IMG_04_jpg_c788_gpt_5_5_04281955",
+            "timestamp": "2026-04-28 19:55:17"
+        }
+    }
+}

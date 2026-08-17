@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scurvy",
+        "Distribution": [
+            "Da có lông",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nang lông"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Trung tâm sẫm",
+            "Vảy mịn",
+            "Lông mọc ngược"
+        ],
+        "_metadata": {
+            "image_id": "IMG_schair_jpg_43a9",
+            "json_id": "JSON_IMG_schair_jpg_43a9_gpt_5_5_04280744",
+            "timestamp": "2026-04-28 07:44:47"
+        }
+    }
+}

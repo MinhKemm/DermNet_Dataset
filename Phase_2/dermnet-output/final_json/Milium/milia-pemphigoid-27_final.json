@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Colloid milium",
+        "Distribution": [
+            "Vùng thân mình",
+            "Rải rác",
+            "Tụ thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mụn nước nhỏ",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Trắng trong",
+            "Hồng nhạt",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Kích thước nhỏ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Nền hồng ban"
+        ],
+        "_metadata": {
+            "image_id": "IMG_milia_pemphigoid_27_jpg_f32c",
+            "json_id": "JSON_IMG_milia_pemphigoid_27_jpg_f32c_gpt_5_5_04291024",
+            "timestamp": "2026-04-29 10:24:51"
+        }
+    }
+}

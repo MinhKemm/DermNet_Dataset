@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Piebaldism",
+        "Distribution": [
+            "Rải rác",
+            "Trán",
+            "Đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Nhỏ"
+        ],
+        "Characteristics": [
+            "Nhân mụn",
+            "Viêm nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_9762",
+            "json_id": "JSON_IMG_06_jpg_9762_gpt_5_5_04281645",
+            "timestamp": "2026-04-28 16:45:30"
+        }
+    }
+}

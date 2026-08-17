@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycosis fungoides",
+        "Distribution": [
+            "Mu bàn chân",
+            "Cổ chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng dày da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy dày",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mycosis_fungoides_10_jpg_a841",
+            "json_id": "JSON_IMG_mycosis_fungoides_10_jpg_a841_gpt_5_5_04290855",
+            "timestamp": "2026-04-29 08:55:29"
+        }
+    }
+}

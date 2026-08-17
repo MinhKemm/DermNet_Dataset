@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pilar cyst",
+        "Distribution": [
+            "Da có lông",
+            "Khu trú",
+            "Song song"
+        ],
+        "Lesion_Type": [
+            "Mảng",
+            "Dải teo da"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Teo da",
+            "Lõm nhẹ",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cyst29_jpg_7849",
+            "json_id": "JSON_IMG_cyst29_jpg_7849_gpt_5_5_04281611",
+            "timestamp": "2026-04-28 16:11:44"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Lưng",
+            "Hai bên",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn tăng sắc tố",
+            "Dát tăng sắc tố",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu đen",
+            "Tím nâu"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Hình tròn",
+            "Đường thẳng",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Vết gãi",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_19_jpg_b4e8",
+            "json_id": "JSON_IMG_19_jpg_b4e8_gpt_5_5_04281152",
+            "timestamp": "2026-04-28 11:52:37"
+        }
+    }
+}

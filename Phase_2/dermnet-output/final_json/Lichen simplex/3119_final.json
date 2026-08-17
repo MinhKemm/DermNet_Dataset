@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Mu bàn tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Gờ nổi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3119_jpg_0a44",
+            "json_id": "JSON_IMG_3119_jpg_0a44_gpt_5_5_04291312",
+            "timestamp": "2026-04-29 13:12:31"
+        }
+    }
+}

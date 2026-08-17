@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mastocytoma",
+        "Distribution": [
+            "Vùng thân mình",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn dạng vòm",
+            "Nốt hồng"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Màu da"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Lõm trung tâm"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Lõm rốn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mastocytoma_4_jpg_ff7c",
+            "json_id": "JSON_IMG_mastocytoma_4_jpg_ff7c_gpt_5_5_04291224",
+            "timestamp": "2026-04-29 12:24:05"
+        }
+    }
+}

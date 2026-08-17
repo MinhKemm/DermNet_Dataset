@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rosacea",
+        "Distribution": [
+            "Quanh miệng",
+            "Rãnh mũi má",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Lõm trung tâm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3632_jpg_c589",
+            "json_id": "JSON_IMG_3632_jpg_c589_gpt_5_5_04280843",
+            "timestamp": "2026-04-28 08:43:10"
+        }
+    }
+}

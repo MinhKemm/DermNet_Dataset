@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scabies",
+        "Distribution": [
+            "Mông",
+            "Hai bên",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Sẩn viêm"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Tổn thương nang lông",
+            "Chấm trợt nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_scabies18_jpg_0b43",
+            "json_id": "JSON_IMG_scabies18_jpg_0b43_gpt_5_5_04280758",
+            "timestamp": "2026-04-28 07:58:17"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritus",
+        "Distribution": [
+            "Lưng trên",
+            "Vai",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Dát hồng ban",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Đỏ hồng",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Dạng lưới",
+            "Lốm đốm",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Giãn mạch nhỏ",
+            "Loang lổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_26_jpg_7c42",
+            "json_id": "JSON_IMG_26_jpg_7c42_gpt_5_5_04281150",
+            "timestamp": "2026-04-28 11:50:28"
+        }
+    }
+}

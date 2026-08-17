@@ -1,0 +1,39 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Vùng ngực",
+            "Nách",
+            "Một bên",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Bọng nước nhỏ",
+            "Mảng hồng ban",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím",
+            "Vàng nhạt",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Mài tiết",
+            "Trung tâm sẫm",
+            "Nền hồng ban"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pemphigus_vulgaris_18_jpg_777e",
+            "json_id": "JSON_IMG_pemphigus_vulgaris_18_jpg_777e_gpt_5_5_04281708",
+            "timestamp": "2026-04-28 17:08:01"
+        }
+    }
+}

@@ -46,8 +46,8 @@ if __name__ == "__main__":
     print(f"Project Root: {get_project_root()}")
     try:
         img_path, txt_content = prepare_vlm_input(test_img_rel, test_txt_rel)
-        print(f"✅ Đã load kiến thức bệnh: {len(txt_content)} ký tự.")
-        print(f"✅ Path ảnh sẵn sàng gửi đi: {img_path}")
+        print(f" Đã load kiến thức bệnh: {len(txt_content)} ký tự.")
+        print(f" Path ảnh sẵn sàng gửi đi: {img_path}")
     except Exception as e:
-        print(f"❌ Lỗi thực thi: {e}")
-        print("💡 Gợi ý: Hãy đảm bảo bạn đã tạo file ảnh và txt giả lập ở đúng đường dẫn để test.")
+        print(f" Lỗi thực thi: {e}")
+        print(" Gợi ý: Hãy đảm bảo bạn đã tạo file ảnh và txt giả lập ở đúng đường dẫn để test.")

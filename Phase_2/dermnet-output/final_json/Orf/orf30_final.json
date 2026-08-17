@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Mu bàn tay",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt loét",
+            "Nốt gồ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím đỏ",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Lõm trung tâm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Loét trung tâm",
+            "Vảy tiết",
+            "Bờ gồ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf30_jpg_1f17",
+            "json_id": "JSON_IMG_orf30_jpg_1f17_gpt_5_5_04282000",
+            "timestamp": "2026-04-28 20:00:12"
+        }
+    }
+}

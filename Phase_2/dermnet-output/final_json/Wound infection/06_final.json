@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Wound infection",
+        "Distribution": [
+            "Chi dưới",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng trợt loét"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng trắng",
+            "Nâu vàng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Giả mạc",
+            "Rỉ dịch"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_6736",
+            "json_id": "JSON_IMG_06_jpg_6736_gpt_5_5_04271746",
+            "timestamp": "2026-04-27 17:46:27"
+        }
+    }
+}

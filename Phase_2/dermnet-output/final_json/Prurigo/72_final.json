@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Đùi",
+            "Mu bàn tay",
+            "Lan tỏa",
+            "Gần đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Hợp lưu",
+            "Loang lổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_72_jpg_fe96",
+            "json_id": "JSON_IMG_72_jpg_fe96_gpt_5_5_04281210",
+            "timestamp": "2026-04-28 12:10:46"
+        }
+    }
+}

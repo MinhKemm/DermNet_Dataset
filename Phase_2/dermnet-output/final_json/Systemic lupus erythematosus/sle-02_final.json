@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Systemic lupus erythematosus",
+        "Distribution": [
+            "Mặt lưng lưỡi",
+            "Khoang miệng",
+            "Khu trú",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Chấm đỏ",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Trắng vàng",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Lớp phủ dày",
+            "Gai lưỡi nổi",
+            "Bề mặt ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_sle_02_jpg_54d2",
+            "json_id": "JSON_IMG_sle_02_jpg_54d2_gpt_5_5_04272246",
+            "timestamp": "2026-04-27 22:46:41"
+        }
+    }
+}

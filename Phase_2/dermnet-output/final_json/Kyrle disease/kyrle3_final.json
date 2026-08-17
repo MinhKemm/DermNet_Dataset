@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kyrle disease",
+        "Distribution": [
+            "Da có lông",
+            "Rải rác",
+            "Theo nang lông"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Vàng trắng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy da",
+            "Vảy vàng",
+            "Đóng mày",
+            "Trung tâm mủ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_kyrle3_jpg_d3a7",
+            "json_id": "JSON_IMG_kyrle3_jpg_d3a7_gpt_5_5_04291444",
+            "timestamp": "2026-04-29 14:44:21"
+        }
+    }
+}

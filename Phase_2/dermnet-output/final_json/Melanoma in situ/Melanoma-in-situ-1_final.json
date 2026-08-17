@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Da đầu",
+            "Vùng đỉnh",
+            "Khu trú",
+            "Thành cụm"
+        ],
+        "Lesion_Type": [
+            "Dát sắc tố",
+            "Mảng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt phẳng",
+            "Thưa tóc"
+        ],
+        "_metadata": {
+            "image_id": "IMG_Melanoma_in_situ_1_jpg_38b8",
+            "json_id": "JSON_IMG_Melanoma_in_situ_1_jpg_38b8_gpt_5_5_04291130",
+            "timestamp": "2026-04-29 11:30:03"
+        }
+    }
+}

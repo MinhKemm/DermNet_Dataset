@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycoplasma pneumoniae infection",
+        "Distribution": [
+            "Mi mắt",
+            "Khóe mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng trợt",
+            "Hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Vảy mật ong",
+            "Sưng nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_reactive_infectious_mucocutaneous_erupti_4472",
+            "json_id": "JSON_IMG_reactive_infectious_mucocutaneous_erupti_4472_gpt_5_5_04290902",
+            "timestamp": "2026-04-29 09:02:35"
+        }
+    }
+}

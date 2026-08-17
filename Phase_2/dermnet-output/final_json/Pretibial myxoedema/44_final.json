@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pretibial myxoedema",
+        "Distribution": [
+            "Bàn chân",
+            "Cổ chân",
+            "Cẳng chân dưới",
+            "Một bên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Phù nề",
+            "Mảng dày da",
+            "Nốt sần"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu xám"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Nếp gấp sâu",
+            "Dày da",
+            "Tăng sắc tố",
+            "Sần sùi",
+            "Biến dạng ngón chân"
+        ],
+        "_metadata": {
+            "image_id": "IMG_44_jpg_9daa",
+            "json_id": "JSON_IMG_44_jpg_9daa_gpt_5_5_04281245",
+            "timestamp": "2026-04-28 12:45:46"
+        }
+    }
+}

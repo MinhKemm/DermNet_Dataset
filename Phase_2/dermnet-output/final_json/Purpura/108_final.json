@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Henoch–Schönlein purpura",
+        "Distribution": [
+            "Niêm mạc miệng",
+            "Khẩu cái mềm",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng trắng",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Trắng xám",
+            "Đỏ hồng",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Mảng bám",
+            "Giả mạc",
+            "Bề mặt ẩm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_108_jpg_4c15",
+            "json_id": "JSON_IMG_108_jpg_4c15_gpt_5_5_04281047",
+            "timestamp": "2026-04-28 10:47:39"
+        }
+    }
+}

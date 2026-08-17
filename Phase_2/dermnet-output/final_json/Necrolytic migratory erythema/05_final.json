@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Necrolytic migratory erythema",
+        "Distribution": [
+            "Lưỡi",
+            "Niêm mạc miệng",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dải trắng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Dạng lưới",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Vân trắng mảnh",
+            "Bề mặt ẩm",
+            "Nhú lưỡi"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_77b1",
+            "json_id": "JSON_IMG_05_jpg_77b1_gpt_5_5_04290813",
+            "timestamp": "2026-04-29 08:13:15"
+        }
+    }
+}

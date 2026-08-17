@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leprosy",
+        "Distribution": [
+            "Lưng",
+            "Lan tỏa",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu xám",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Loang lổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leprosy_borderline_tuberculoid_00002_jpg_b298",
+            "json_id": "JSON_IMG_leprosy_borderline_tuberculoid_00002_jpg_b298_gpt_5_5_04291421",
+            "timestamp": "2026-04-29 14:21:16"
+        }
+    }
+}

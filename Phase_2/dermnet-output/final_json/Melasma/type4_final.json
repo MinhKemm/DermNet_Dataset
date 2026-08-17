@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melasma",
+        "Distribution": [
+            "Mặt",
+            "Má",
+            "Cằm",
+            "Quanh miệng"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_type4_jpg_297c",
+            "json_id": "JSON_IMG_type4_jpg_297c_gpt_5_5_04291049",
+            "timestamp": "2026-04-29 10:49:15"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Keratolytic winter erythema",
+        "Distribution": [
+            "Bàn chân",
+            "Mu bàn chân",
+            "Rìa bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Khô da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_keratolytic_winter_erythema_18_jpg_af1d",
+            "json_id": "JSON_IMG_keratolytic_winter_erythema_18_jpg_af1d_gpt_5_5_04291507",
+            "timestamp": "2026-04-29 15:07:33"
+        }
+    }
+}

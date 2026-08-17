@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kerion",
+        "Distribution": [
+            "Má",
+            "Vùng hàm",
+            "Cổ",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Nốt viêm",
+            "Mụn mủ",
+            "Loét nông"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Vàng mủ",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Tròn",
+            "Bầu dục",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Chảy mủ",
+            "Trung tâm hoại tử"
+        ],
+        "_metadata": {
+            "image_id": "IMG_kerion06_jpg_b802",
+            "json_id": "JSON_IMG_kerion06_jpg_b802_gpt_5_5_04291448",
+            "timestamp": "2026-04-29 14:48:44"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Ornithonyssosis",
+        "Distribution": [
+            "Vùng da",
+            "Đơn độc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn sừng",
+            "Mảng nhỏ"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Sừng hóa",
+            "Bề mặt gồ ghề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_bird_mite_2_jpg_7082",
+            "json_id": "JSON_IMG_bird_mite_2_jpg_7082_gpt_5_5_04281956",
+            "timestamp": "2026-04-28 19:56:38"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Oral allergy syndrome",
+        "Distribution": [
+            "Trái cây",
+            "Sắp xếp chồng lấp"
+        ],
+        "Lesion_Type": [],
+        "Colour": [
+            "Xanh lá",
+            "Vàng",
+            "Cam"
+        ],
+        "Shape": [
+            "Hình thuôn dài",
+            "Hình cong",
+            "Mặt cắt tròn"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Đốm nhỏ",
+            "Ruột quả",
+            "Hạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ragweed_pollen_oral_allergy_food_jpg_ef2a",
+            "json_id": "JSON_IMG_ragweed_pollen_oral_allergy_food_jpg_ef2a_gpt_5_5_04282048",
+            "timestamp": "2026-04-28 20:48:14"
+        }
+    }
+}

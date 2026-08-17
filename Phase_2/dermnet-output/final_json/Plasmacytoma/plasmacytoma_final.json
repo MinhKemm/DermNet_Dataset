@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Plasmacytoma",
+        "Distribution": [
+            "Cẳng tay",
+            "Cổ tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Trắng ngà",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Hình vòng",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Vảy mịn",
+            "Da khô",
+            "Trợt nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_plasmacytoma_jpg_8d60",
+            "json_id": "JSON_IMG_plasmacytoma_jpg_8d60_gpt_5_5_04281406",
+            "timestamp": "2026-04-28 14:06:00"
+        }
+    }
+}

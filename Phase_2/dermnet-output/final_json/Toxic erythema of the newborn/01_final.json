@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Toxic erythema of the newborn",
+        "Distribution": [
+            "Mặt",
+            "Ngực",
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Quầng đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_c386",
+            "json_id": "JSON_IMG_01_jpg_c386_gpt_5_5_04272041",
+            "timestamp": "2026-04-27 20:41:32"
+        }
+    }
+}

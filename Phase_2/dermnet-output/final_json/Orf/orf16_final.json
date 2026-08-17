@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Ngón tay",
+            "Khu trú",
+            "Quanh khớp"
+        ],
+        "Lesion_Type": [
+            "Bọng nước",
+            "Mảng loét",
+            "Sẩn mảng"
+        ],
+        "Colour": [
+            "Tím đỏ",
+            "Tím đen",
+            "Vàng trắng"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Hoại tử",
+            "Dịch tiết",
+            "Sưng nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf16_jpg_d3eb",
+            "json_id": "JSON_IMG_orf16_jpg_d3eb_gpt_5_5_04282004",
+            "timestamp": "2026-04-28 20:04:46"
+        }
+    }
+}

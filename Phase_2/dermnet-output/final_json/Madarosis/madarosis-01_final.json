@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Madarosis",
+        "Distribution": [
+            "Mi dưới",
+            "Bờ mi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sưng nề"
+        ],
+        "Colour": [
+            "Hồng đỏ",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Dạng dải",
+            "Bờ cong",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_madarosis_01_jpg_22a5",
+            "json_id": "JSON_IMG_madarosis_01_jpg_22a5_gpt_5_5_04291241",
+            "timestamp": "2026-04-29 12:41:21"
+        }
+    }
+}

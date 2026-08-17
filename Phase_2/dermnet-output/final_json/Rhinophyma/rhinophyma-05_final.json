@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rhinophyma",
+        "Distribution": [
+            "Mũi",
+            "Khu trú",
+            "Trung tâm mặt"
+        ],
+        "Lesion_Type": [
+            "Mảng đỏ",
+            "Sẩn",
+            "Nốt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Gồ ghề"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Giãn mạch",
+            "Vảy tiết",
+            "Lỗ chân lông to"
+        ],
+        "_metadata": {
+            "image_id": "IMG_rhinophyma_05_jpg_7da2",
+            "json_id": "JSON_IMG_rhinophyma_05_jpg_7da2_gpt_5_5_04280855",
+            "timestamp": "2026-04-28 08:55:53"
+        }
+    }
+}

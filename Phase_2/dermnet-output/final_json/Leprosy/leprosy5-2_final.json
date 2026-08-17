@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leprosy",
+        "Distribution": [
+            "Vai",
+            "Cổ",
+            "Ngực trên",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Nâu sẫm",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ",
+            "Bờ nham nhở"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Da khô",
+            "Dát nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_leprosy5_2_jpg_74fe",
+            "json_id": "JSON_IMG_leprosy5_2_jpg_74fe_gpt_5_5_04291418",
+            "timestamp": "2026-04-29 14:18:06"
+        }
+    }
+}

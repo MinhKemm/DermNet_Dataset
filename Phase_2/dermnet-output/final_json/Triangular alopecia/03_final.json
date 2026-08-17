@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Triangular alopecia",
+        "Distribution": [
+            "Vùng da có lông",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng giảm sắc tố",
+            "Mảng mất sắc tố"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Lông trắng",
+            "Lông tơ",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_0f61",
+            "json_id": "JSON_IMG_03_jpg_0f61_gpt_5_5_04272030",
+            "timestamp": "2026-04-27 20:30:58"
+        }
+    }
+}

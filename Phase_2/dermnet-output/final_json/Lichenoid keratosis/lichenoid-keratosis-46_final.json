@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichenoid keratosis",
+        "Distribution": [
+            "Quanh mắt",
+            "Mí trên",
+            "Mí dưới",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Tím hồng",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Phù nề",
+            "Da khô",
+            "Nếp nhăn mịn",
+            "Bong vảy nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichenoid_keratosis_46_jpg_0674",
+            "json_id": "JSON_IMG_lichenoid_keratosis_46_jpg_0674_gpt_5_5_04291253",
+            "timestamp": "2026-04-29 12:53:54"
+        }
+    }
+}

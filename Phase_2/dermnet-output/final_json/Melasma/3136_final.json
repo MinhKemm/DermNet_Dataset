@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melasma",
+        "Distribution": [
+            "Rải rác",
+            "Quanh miệng",
+            "Rãnh mũi má",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3136_jpg_c7c3",
+            "json_id": "JSON_IMG_3136_jpg_c7c3_gpt_5_5_04291057",
+            "timestamp": "2026-04-29 10:57:25"
+        }
+    }
+}

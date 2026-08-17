@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea manuum",
+        "Distribution": [
+            "Rải rác",
+            "Cẳng chân",
+            "Vùng khoeo",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Nốt đỏ",
+            "Sẩn đóng mài"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu",
+            "Nâu tím"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Trợt da",
+            "Trung tâm lõm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_d929",
+            "json_id": "JSON_IMG_04_jpg_d929_gpt_5_5_04272055",
+            "timestamp": "2026-04-27 20:55:29"
+        }
+    }
+}

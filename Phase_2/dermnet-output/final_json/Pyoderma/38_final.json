@@ -1,0 +1,38 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Cẳng tay",
+            "Mặt duỗi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng loét",
+            "Mảng teo da",
+            "Mảng xơ cứng"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Trắng ngà",
+            "Đỏ tươi",
+            "Tím hồng"
+        ],
+        "Shape": [
+            "Bầu dục dài",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Loét nông",
+            "Trợt da",
+            "Đóng mài",
+            "Bề mặt bóng",
+            "Teo da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_38_jpg_42e6",
+            "json_id": "JSON_IMG_38_jpg_42e6_gpt_5_5_04281000",
+            "timestamp": "2026-04-28 10:00:00"
+        }
+    }
+}

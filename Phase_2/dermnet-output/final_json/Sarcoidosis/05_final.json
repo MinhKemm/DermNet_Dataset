@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Mũi",
+            "Cánh mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nhạt",
+            "Trong bóng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Cụm nhỏ",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Mụn nước nhóm",
+            "Bề mặt bóng",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_678c",
+            "json_id": "JSON_IMG_05_jpg_678c_gpt_5_5_04280818",
+            "timestamp": "2026-04-28 08:18:23"
+        }
+    }
+}

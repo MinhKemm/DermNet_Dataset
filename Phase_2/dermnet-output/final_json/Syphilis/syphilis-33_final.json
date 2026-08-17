@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Quy đầu",
+            "Thân dương vật",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Trợt loét",
+            "Sẩn mụn nước"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Trắng đục"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Ranh giới rõ",
+            "Tụ thành cụm"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Dịch tiết bóng",
+            "Phù nề nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_33_jpg_2b2f",
+            "json_id": "JSON_IMG_syphilis_33_jpg_2b2f_gpt_5_5_04272259",
+            "timestamp": "2026-04-27 22:59:29"
+        }
+    }
+}

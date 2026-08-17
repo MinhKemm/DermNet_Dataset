@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Rothmund-Thomson syndrome",
+        "Distribution": [
+            "Mu bàn tay",
+            "Khớp ngón tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn phẳng"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Phù nhẹ",
+            "Da khô nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_9a6f",
+            "json_id": "JSON_IMG_06_jpg_9a6f_gpt_5_5_04280823",
+            "timestamp": "2026-04-28 08:23:54"
+        }
+    }
+}

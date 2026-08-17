@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vulvovaginal candidiasis",
+        "Distribution": [
+            "Kẽ mông",
+            "Quanh hậu môn",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Trợt da",
+            "Nứt kẽ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Ẩm ướt",
+            "Bóng da",
+            "Nếp nứt",
+            "Lông vùng kẽ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_canvuls_jpg_bb60",
+            "json_id": "JSON_IMG_canvuls_jpg_bb60_gpt_5_5_04271751",
+            "timestamp": "2026-04-27 17:51:45"
+        }
+    }
+}

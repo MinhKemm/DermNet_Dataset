@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pseudoporphyria",
+        "Distribution": [
+            "Mu bàn tay",
+            "Khớp ngón tay",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy",
+            "Da khô",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_941c",
+            "json_id": "JSON_IMG_07_jpg_941c_gpt_5_5_04281130",
+            "timestamp": "2026-04-28 11:30:57"
+        }
+    }
+}

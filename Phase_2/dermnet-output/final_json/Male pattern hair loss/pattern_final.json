@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Male pattern hair loss",
+        "Distribution": [
+            "Đỉnh đầu",
+            "Vùng trán",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Thưa tóc"
+        ],
+        "Colour": [
+            "Màu da",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Da bóng",
+            "Mất tóc"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pattern_jpg_e3a0",
+            "json_id": "JSON_IMG_pattern_jpg_e3a0_gpt_5_5_04291233",
+            "timestamp": "2026-04-29 12:33:00"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical melanocytic naevus",
+        "Distribution": [
+            "Móng tay",
+            "Một bên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dải sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Dải dọc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Quanh móng",
+            "Móng bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_nail_pigment8_jpg_7da7",
+            "json_id": "JSON_IMG_nail_pigment8_jpg_7da7_gpt_5_5_04291141",
+            "timestamp": "2026-04-29 11:41:01"
+        }
+    }
+}

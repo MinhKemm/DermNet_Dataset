@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma in situ",
+        "Distribution": [
+            "Lòng bàn chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng sắc tố",
+            "Tổn thương đóng vảy"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Đen",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Vảy da",
+            "Dày sừng",
+            "Nứt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_Melanoma_in_situ_12_jpg_e2d1",
+            "json_id": "JSON_IMG_Melanoma_in_situ_12_jpg_e2d1_gpt_5_5_04291129",
+            "timestamp": "2026-04-29 11:29:08"
+        }
+    }
+}

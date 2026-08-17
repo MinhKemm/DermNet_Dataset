@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Dương vật",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng da dày",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Hồng nâu",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Thuôn dài",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Nếp da sâu",
+            "Khô da",
+            "Bong vảy nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_31_jpg_8342",
+            "json_id": "JSON_IMG_syphilis_31_jpg_8342_gpt_5_5_04272300",
+            "timestamp": "2026-04-27 23:00:54"
+        }
+    }
+}

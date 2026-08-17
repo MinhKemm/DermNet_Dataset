@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Scurvy",
+        "Distribution": [
+            "Cẳng tay",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dát nâu",
+            "Chấm sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Chấm nhỏ",
+            "Hình tròn",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Chấm sẫm màu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_4346",
+            "json_id": "JSON_IMG_07_jpg_4346_gpt_5_5_04280745",
+            "timestamp": "2026-04-28 07:45:29"
+        }
+    }
+}

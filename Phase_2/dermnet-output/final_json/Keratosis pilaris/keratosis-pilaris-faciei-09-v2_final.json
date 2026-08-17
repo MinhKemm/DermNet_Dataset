@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Keratosis pilaris",
+        "Distribution": [
+            "Má",
+            "Vùng mặt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Dát hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Giãn mạch nhỏ",
+            "Bề mặt trơn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_keratosis_pilaris_faciei_09_v2_jpg_6a84",
+            "json_id": "JSON_IMG_keratosis_pilaris_faciei_09_v2_jpg_6a84_gpt_5_5_04291453",
+            "timestamp": "2026-04-29 14:53:12"
+        }
+    }
+}

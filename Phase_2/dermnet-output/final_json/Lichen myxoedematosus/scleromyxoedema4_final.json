@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen myxoedematosus",
+        "Distribution": [
+            "Bụng",
+            "Quanh rốn",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Nang lông",
+            "Đỉnh mủ",
+            "Vảy tiết mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_scleromyxoedema4_jpg_d459",
+            "json_id": "JSON_IMG_scleromyxoedema4_jpg_d459_gpt_5_5_04291412",
+            "timestamp": "2026-04-29 14:12:52"
+        }
+    }
+}

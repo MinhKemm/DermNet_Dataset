@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Vòm miệng",
+            "Khẩu cái mềm",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Chấm xuất huyết"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Dạng đốm",
+            "Hình tròn nhỏ",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Niêm mạc bóng",
+            "Trợt nông",
+            "Chấm đỏ li ti"
+        ],
+        "_metadata": {
+            "image_id": "IMG_oral_pemphigus_vulgaris_02_jpg_9727",
+            "json_id": "JSON_IMG_oral_pemphigus_vulgaris_02_jpg_9727_gpt_5_5_04281715",
+            "timestamp": "2026-04-28 17:15:14"
+        }
+    }
+}

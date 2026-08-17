@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical melanocytic naevus",
+        "Distribution": [
+            "Bụng",
+            "Nếp gấp bụng",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dải hồng ban",
+            "Vệt teo da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Song song",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Lõm nhẹ",
+            "Teo da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3188_jpg_a300",
+            "json_id": "JSON_IMG_3188_jpg_a300_gpt_5_5_04291157",
+            "timestamp": "2026-04-29 11:57:30"
+        }
+    }
+}

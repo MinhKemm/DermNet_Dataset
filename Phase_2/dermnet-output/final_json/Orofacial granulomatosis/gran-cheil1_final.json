@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orofacial granulomatosis",
+        "Distribution": [
+            "Má",
+            "Cằm",
+            "Mặt",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Đốm sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Kích thước nhỏ",
+            "Bề mặt phẳng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_gran_cheil1_jpg_980f",
+            "json_id": "JSON_IMG_gran_cheil1_jpg_980f_gpt_5_5_04281948",
+            "timestamp": "2026-04-28 19:48:40"
+        }
+    }
+}

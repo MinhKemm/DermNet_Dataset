@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Colloid milium",
+        "Distribution": [
+            "Vùng da chi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng dày da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Vảy mịn",
+            "Hằn da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_milia_27_jpg_efd4",
+            "json_id": "JSON_IMG_milia_27_jpg_efd4_gpt_5_5_04291025",
+            "timestamp": "2026-04-29 10:25:10"
+        }
+    }
+}

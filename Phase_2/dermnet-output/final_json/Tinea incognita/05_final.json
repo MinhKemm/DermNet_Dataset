@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea incognita",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu tím",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Dày da",
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_05_jpg_541e",
+            "json_id": "JSON_IMG_05_jpg_541e_gpt_5_5_04272057",
+            "timestamp": "2026-04-27 20:57:18"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Nếp gấp da",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết nứt",
+            "Mảng đổi màu"
+        ],
+        "Colour": [
+            "Tím nâu",
+            "Đỏ hồng",
+            "Xanh đen"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Lõm trung tâm",
+            "Tăng sắc tố",
+            "Bầm tím"
+        ],
+        "_metadata": {
+            "image_id": "IMG_2383_s2_jpg_893e",
+            "json_id": "JSON_IMG_2383_s2_jpg_893e_gpt_5_5_04291409",
+            "timestamp": "2026-04-29 14:09:14"
+        }
+    }
+}

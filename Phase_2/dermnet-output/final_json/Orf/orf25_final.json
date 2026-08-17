@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orf",
+        "Distribution": [
+            "Vùng mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Nốt u",
+            "Khối sùi"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Dạng vòm",
+            "Chia thùy",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Trợt loét",
+            "Dịch tiết",
+            "Đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_orf25_jpg_ad1f",
+            "json_id": "JSON_IMG_orf25_jpg_ad1f_gpt_5_5_04282001",
+            "timestamp": "2026-04-28 20:01:52"
+        }
+    }
+}

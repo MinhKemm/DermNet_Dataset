@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pretibial myxoedema",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu xám",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Dày da nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pretibial_myxoedema_13_jpg_b82f",
+            "json_id": "JSON_IMG_pretibial_myxoedema_13_jpg_b82f_gpt_5_5_04281242",
+            "timestamp": "2026-04-28 12:42:26"
+        }
+    }
+}

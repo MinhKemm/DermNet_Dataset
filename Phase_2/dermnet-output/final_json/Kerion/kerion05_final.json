@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Kerion",
+        "Distribution": [
+            "Vùng thái dương",
+            "Đường chân tóc",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn dày",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Đóng mài",
+            "Loét nông",
+            "Sừng hóa"
+        ],
+        "_metadata": {
+            "image_id": "IMG_kerion05_jpg_8ba9",
+            "json_id": "JSON_IMG_kerion05_jpg_8ba9_gpt_5_5_04291449",
+            "timestamp": "2026-04-29 14:49:08"
+        }
+    }
+}

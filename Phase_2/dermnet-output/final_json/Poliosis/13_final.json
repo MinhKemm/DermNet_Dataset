@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Poliosis",
+        "Distribution": [
+            "Mí mắt",
+            "Quanh mắt",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Mảng mất sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng ngà",
+            "Trắng hồng"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_13_jpg_39ee",
+            "json_id": "JSON_IMG_13_jpg_39ee_gpt_5_5_04281357",
+            "timestamp": "2026-04-28 13:57:11"
+        }
+    }
+}

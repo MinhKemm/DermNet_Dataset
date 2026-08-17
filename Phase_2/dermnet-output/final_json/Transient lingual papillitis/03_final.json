@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Transient lingual papillitis",
+        "Distribution": [
+            "Niêm mạc",
+            "Thành cụm",
+            "Dày đặc"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Bọng nước nhỏ",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng trong",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Kích thước nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Nền hồng ban",
+            "Bóng nước",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_9508",
+            "json_id": "JSON_IMG_03_jpg_9508_gpt_5_5_04272034",
+            "timestamp": "2026-04-27 20:34:57"
+        }
+    }
+}

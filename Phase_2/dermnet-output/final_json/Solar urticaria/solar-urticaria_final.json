@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Solar urticaria",
+        "Distribution": [
+            "Cánh tay",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trung tâm sẫm"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bia bắn mờ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_solar_urticaria_jpg_371e",
+            "json_id": "JSON_IMG_solar_urticaria_jpg_371e_gpt_5_5_04280009",
+            "timestamp": "2026-04-28 00:09:45"
+        }
+    }
+}

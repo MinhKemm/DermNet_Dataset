@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Vitiligo",
+        "Distribution": [
+            "Nếp khoeo",
+            "Hai bên",
+            "Đối xứng"
+        ],
+        "Lesion_Type": [
+            "Dát giảm sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng nhạt",
+            "Trắng sữa"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Nếp da rõ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_vitiligo_53_jpg_d943",
+            "json_id": "JSON_IMG_vitiligo_53_jpg_d943_gpt_5_5_04271832",
+            "timestamp": "2026-04-27 18:32:57"
+        }
+    }
+}

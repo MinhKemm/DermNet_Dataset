@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pretibial myxoedema",
+        "Distribution": [
+            "Quanh móng",
+            "Ngón tay",
+            "Nếp móng gần",
+            "Nhiều ngón"
+        ],
+        "Lesion_Type": [
+            "Sưng nề",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bóng da",
+            "Phù nề",
+            "Biến dạng móng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_thyroid_acropachy_jpg_3290",
+            "json_id": "JSON_IMG_thyroid_acropachy_jpg_3290_gpt_5_5_04281238",
+            "timestamp": "2026-04-28 12:38:27"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pyoderma",
+        "Distribution": [
+            "Vùng thái dương",
+            "Đường chân tóc",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Mảng sắc tố",
+            "Sẩn tăng sừng"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt sần sùi",
+            "Tăng sừng",
+            "Vảy tiết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_08_jpg_3a8f",
+            "json_id": "JSON_IMG_08_jpg_3a8f_gpt_5_5_04281009",
+            "timestamp": "2026-04-28 10:09:50"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sézary syndrome",
+        "Distribution": [
+            "Dương vật",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Nốt sẩn cuống",
+            "Khối lồi"
+        ],
+        "Colour": [
+            "Hồng đỏ",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Ranh giới rõ",
+            "Lồi nhô"
+        ],
+        "Characteristics": [
+            "Trơn láng",
+            "Bóng",
+            "Cuống hẹp"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_2aa4",
+            "json_id": "JSON_IMG_07_jpg_2aa4_gpt_5_5_04280028",
+            "timestamp": "2026-04-28 00:28:46"
+        }
+    }
+}

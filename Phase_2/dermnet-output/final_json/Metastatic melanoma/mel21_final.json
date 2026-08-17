@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Vùng bẹn",
+            "Nếp gấp bẹn",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Bọng nước lớn",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Hồng tím",
+            "Đỏ hồng",
+            "Trong mờ"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Căng bóng",
+            "Dịch trong",
+            "Xuất huyết tím"
+        ],
+        "_metadata": {
+            "image_id": "IMG_mel21_jpg_5dd9",
+            "json_id": "JSON_IMG_mel21_jpg_5dd9_gpt_5_5_04291041",
+            "timestamp": "2026-04-29 10:41:06"
+        }
+    }
+}

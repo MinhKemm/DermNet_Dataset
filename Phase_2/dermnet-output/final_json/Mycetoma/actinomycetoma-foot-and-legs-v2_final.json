@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Mycetoma",
+        "Distribution": [
+            "Cẳng chân",
+            "Cổ chân",
+            "Bẹn",
+            "Sinh dục",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng dày da",
+            "Sẩn nốt"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Xám trắng"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Hợp lưu"
+        ],
+        "Characteristics": [
+            "Dày sừng",
+            "Bong vảy",
+            "Da dày",
+            "Nếp gấp sâu"
+        ],
+        "_metadata": {
+            "image_id": "IMG_actinomycetoma_foot_and_legs_v2_jpg_16f4",
+            "json_id": "JSON_IMG_actinomycetoma_foot_and_legs_v2_jpg_16f4_gpt_5_5_04290918",
+            "timestamp": "2026-04-29 09:18:57"
+        }
+    }
+}

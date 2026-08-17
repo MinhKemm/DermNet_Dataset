@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Onychomycosis",
+        "Distribution": [
+            "Móng ngón chân cái",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Móng dày",
+            "Móng loạn dưỡng",
+            "Tách móng"
+        ],
+        "Colour": [
+            "Vàng nâu",
+            "Trắng đục"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không đều"
+        ],
+        "Characteristics": [
+            "Dày sừng dưới móng",
+            "Mủn móng",
+            "Rãnh dọc",
+            "Bong vụn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_01_jpg_f256",
+            "json_id": "JSON_IMG_01_jpg_f256_gpt_5_5_04282126",
+            "timestamp": "2026-04-28 21:26:29"
+        }
+    }
+}

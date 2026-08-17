@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Orofacial granulomatosis",
+        "Distribution": [
+            "Lan tỏa",
+            "Môi dưới",
+            "Môi trên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Phù nề",
+            "Sưng môi"
+        ],
+        "Colour": [
+            "Hồng tím",
+            "Đỏ tím"
+        ],
+        "Shape": [
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Căng bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_11_jpg_05c2",
+            "json_id": "JSON_IMG_11_jpg_05c2_gpt_5_5_04281953",
+            "timestamp": "2026-04-28 19:53:01"
+        }
+    }
+}

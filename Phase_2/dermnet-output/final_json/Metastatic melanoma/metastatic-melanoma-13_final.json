@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanoma",
+        "Distribution": [
+            "Vùng da sẹo",
+            "Dọc theo sẹo",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn",
+            "Nốt",
+            "Mảng sẹo"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Hồng nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Hình tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Bề mặt bóng",
+            "Chảy máu điểm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_metastatic_melanoma_13_jpg_580c",
+            "json_id": "JSON_IMG_metastatic_melanoma_13_jpg_580c_gpt_5_5_04291038",
+            "timestamp": "2026-04-29 10:38:27"
+        }
+    }
+}

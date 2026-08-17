@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Syphilis",
+        "Distribution": [
+            "Cẳng chân",
+            "Hai bên",
+            "Đối xứng",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Đốm xuất huyết",
+            "Dát tăng sắc tố",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Tím nâu",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Không đều",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Chấm xuất huyết",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_syphilis_50_jpg_dc50",
+            "json_id": "JSON_IMG_syphilis_50_jpg_dc50_gpt_5_5_04272253",
+            "timestamp": "2026-04-27 22:53:23"
+        }
+    }
+}

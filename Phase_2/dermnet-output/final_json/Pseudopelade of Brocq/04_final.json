@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pseudopelade of Brocq",
+        "Distribution": [
+            "Da đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng rụng tóc",
+            "Vùng thưa tóc"
+        ],
+        "Colour": [
+            "Màu da",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Dạng dải",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Giảm mật độ tóc",
+            "Mất lỗ chân tóc"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_6efd",
+            "json_id": "JSON_IMG_04_jpg_6efd_gpt_5_5_04281135",
+            "timestamp": "2026-04-28 11:35:15"
+        }
+    }
+}

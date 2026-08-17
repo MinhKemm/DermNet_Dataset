@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichenoid keratosis",
+        "Distribution": [
+            "Thân mình",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Xám đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Dày da",
+            "Vảy mịn",
+            "Bề mặt sần"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichenoid_keratosis_00078_jpg_495a",
+            "json_id": "JSON_IMG_lichenoid_keratosis_00078_jpg_495a_gpt_5_5_04291254",
+            "timestamp": "2026-04-29 12:54:13"
+        }
+    }
+}

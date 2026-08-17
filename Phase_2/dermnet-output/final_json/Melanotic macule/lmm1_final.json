@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melanotic macule",
+        "Distribution": [
+            "Môi dưới",
+            "Khu trú",
+            "Đơn độc"
+        ],
+        "Lesion_Type": [
+            "Sẩn sẫm màu",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đen nâu",
+            "Đỏ hồng",
+            "Tím hồng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Bề mặt bóng",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lmm1_jpg_cdff",
+            "json_id": "JSON_IMG_lmm1_jpg_cdff_gpt_5_5_04291100",
+            "timestamp": "2026-04-29 11:00:49"
+        }
+    }
+}

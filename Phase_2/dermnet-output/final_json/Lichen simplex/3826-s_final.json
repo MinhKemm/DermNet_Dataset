@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Nếp bẹn",
+            "Nếp sinh dục",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Hồng nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da nhăn",
+            "Ẩm",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3826_s_jpg_eaac",
+            "json_id": "JSON_IMG_3826_s_jpg_eaac_gpt_5_5_04291309",
+            "timestamp": "2026-04-29 13:09:38"
+        }
+    }
+}

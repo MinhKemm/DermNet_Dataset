@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Poliosis",
+        "Distribution": [
+            "Mi mắt trên",
+            "Bờ mi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Mụn nước nhỏ"
+        ],
+        "Colour": [
+            "Trắng trong",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình vòm",
+            "Tròn nhỏ",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_2eb4",
+            "json_id": "JSON_IMG_07_jpg_2eb4_gpt_5_5_04281359",
+            "timestamp": "2026-04-28 13:59:04"
+        }
+    }
+}

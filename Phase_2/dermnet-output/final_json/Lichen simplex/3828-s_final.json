@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Nách",
+            "Nếp gấp",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng dày da"
+        ],
+        "Colour": [
+            "Nâu đen",
+            "Tím xám",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới không rõ"
+        ],
+        "Characteristics": [
+            "Dày da",
+            "Nếp da sâu",
+            "Bề mặt sần nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3828_s_jpg_555b",
+            "json_id": "JSON_IMG_3828_s_jpg_555b_gpt_5_5_04291308",
+            "timestamp": "2026-04-29 13:08:56"
+        }
+    }
+}

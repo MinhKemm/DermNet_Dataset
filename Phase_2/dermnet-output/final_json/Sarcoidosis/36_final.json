@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sarcoidosis",
+        "Distribution": [
+            "Cánh tay ngoài",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Nâu đỏ",
+            "Đỏ hồng"
+        ],
+        "Shape": [
+            "Nhỏ li ti",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Sần ráp",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_36_jpg_adbe",
+            "json_id": "JSON_IMG_36_jpg_adbe_gpt_5_5_04280809",
+            "timestamp": "2026-04-28 08:09:06"
+        }
+    }
+}

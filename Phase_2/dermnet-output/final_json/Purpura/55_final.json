@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Henoch–Schönlein purpura",
+        "Distribution": [
+            "Cổ chân",
+            "Mu bàn chân",
+            "Rải rác",
+            "Hợp lưu"
+        ],
+        "Lesion_Type": [
+            "Đốm xuất huyết",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Chấm xuất huyết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_55_jpg_3f83",
+            "json_id": "JSON_IMG_55_jpg_3f83_gpt_5_5_04281030",
+            "timestamp": "2026-04-28 10:30:19"
+        }
+    }
+}

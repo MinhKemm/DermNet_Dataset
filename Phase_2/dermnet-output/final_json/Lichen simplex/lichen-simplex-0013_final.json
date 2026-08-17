@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Lichen simplex",
+        "Distribution": [
+            "Vùng chi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng tăng sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Trắng xám",
+            "Tím nâu"
+        ],
+        "Shape": [
+            "Dạng dải",
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Teo da",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_simplex_0013_jpg_f538",
+            "json_id": "JSON_IMG_lichen_simplex_0013_jpg_f538_gpt_5_5_04291259",
+            "timestamp": "2026-04-29 12:59:09"
+        }
+    }
+}

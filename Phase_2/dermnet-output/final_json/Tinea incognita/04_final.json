@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Tinea incognita",
+        "Distribution": [
+            "Mặt",
+            "Má",
+            "Mũi",
+            "Cằm",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn đỏ",
+            "Mụn mủ nhỏ",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Giãn mạch",
+            "Da bóng",
+            "Vảy mịn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_04_jpg_2fcc",
+            "json_id": "JSON_IMG_04_jpg_2fcc_gpt_5_5_04272057",
+            "timestamp": "2026-04-27 20:57:36"
+        }
+    }
+}

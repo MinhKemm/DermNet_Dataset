@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sebaceous carcinoma",
+        "Distribution": [
+            "Mi mắt",
+            "Khóe mắt trong",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Trợt da"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Phù nề",
+            "Nứt trợt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_07_jpg_54d7",
+            "json_id": "JSON_IMG_07_jpg_54d7_gpt_5_5_04280742",
+            "timestamp": "2026-04-28 07:42:05"
+        }
+    }
+}

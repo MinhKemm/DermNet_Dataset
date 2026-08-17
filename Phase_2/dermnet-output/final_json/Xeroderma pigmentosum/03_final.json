@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Xeroderma pigmentosum",
+        "Distribution": [
+            "Môi trên",
+            "Vùng dưới mũi",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Khối sùi",
+            "Nốt loét"
+        ],
+        "Colour": [
+            "Đỏ nâu",
+            "Vàng nâu",
+            "Đen"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Dạng vòm",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Loét",
+            "Đóng vảy",
+            "Dịch tiết",
+            "Xuất huyết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_03_jpg_5aa6",
+            "json_id": "JSON_IMG_03_jpg_5aa6_gpt_5_5_04271711",
+            "timestamp": "2026-04-27 17:11:30"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Rải rác",
+            "Mông",
+            "Hai bên",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Chấm nhỏ"
+        ],
+        "Characteristics": [
+            "Quanh nang lông",
+            "Da khô",
+            "Tăng sắc tố nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_capillaritis_37_jpg_f602",
+            "json_id": "JSON_IMG_capillaritis_37_jpg_f602_gpt_5_5_04281634",
+            "timestamp": "2026-04-28 16:34:41"
+        }
+    }
+}

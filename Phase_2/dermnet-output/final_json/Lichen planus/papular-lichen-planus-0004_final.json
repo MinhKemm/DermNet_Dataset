@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Da có lông",
+            "Khu trú",
+            "Hai mảng",
+            "Cạnh nhau"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng thâm nhiễm"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Tím nhạt",
+            "Trắng xám"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Bề mặt bóng",
+            "Vết trợt nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_papular_lichen_planus_0004_jpg_255a",
+            "json_id": "JSON_IMG_papular_lichen_planus_0004_jpg_255a_gpt_5_5_04291318",
+            "timestamp": "2026-04-29 13:18:18"
+        }
+    }
+}

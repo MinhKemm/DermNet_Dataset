@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Macroglossia",
+        "Distribution": [
+            "Quy đầu",
+            "Bao quy đầu",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ cam",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Ẩm",
+            "Nếp da"
+        ],
+        "_metadata": {
+            "image_id": "IMG_amyloid8_jpg_7a7b",
+            "json_id": "JSON_IMG_amyloid8_jpg_7a7b_gpt_5_5_04291248",
+            "timestamp": "2026-04-29 12:48:44"
+        }
+    }
+}

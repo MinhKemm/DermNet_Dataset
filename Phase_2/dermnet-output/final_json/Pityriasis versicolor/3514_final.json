@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pityriasis versicolor",
+        "Distribution": [
+            "Nách",
+            "Ngực trên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng dát",
+            "Dát tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Loang lổ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3514_jpg_a1cb",
+            "json_id": "JSON_IMG_3514_jpg_a1cb_gpt_5_5_04281413",
+            "timestamp": "2026-04-28 14:13:08"
+        }
+    }
+}

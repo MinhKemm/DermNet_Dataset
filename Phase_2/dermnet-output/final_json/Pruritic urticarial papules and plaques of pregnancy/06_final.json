@@ -1,0 +1,30 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pruritic urticarial papules and plaques of pregnancy",
+        "Distribution": [
+            "Vùng bụng",
+            "Quanh rốn",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn đỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Bong vảy nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_62cd",
+            "json_id": "JSON_IMG_06_jpg_62cd_gpt_5_5_04281158",
+            "timestamp": "2026-04-28 11:58:57"
+        }
+    }
+}

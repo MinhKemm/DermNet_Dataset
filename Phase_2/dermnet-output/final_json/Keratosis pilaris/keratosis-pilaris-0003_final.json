@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Keratosis pilaris",
+        "Distribution": [
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Dát giảm sắc tố",
+            "Dát nâu nhạt"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Hồng nhạt",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Bờ mờ"
+        ],
+        "Characteristics": [
+            "Vảy mịn",
+            "Khô da nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_keratosis_pilaris_0003_jpg_0ac3",
+            "json_id": "JSON_IMG_keratosis_pilaris_0003_jpg_0ac3_gpt_5_5_04291456",
+            "timestamp": "2026-04-29 14:56:08"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Madarosis",
+        "Distribution": [
+            "Vùng quanh mắt",
+            "Cung mày",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng mất sắc tố",
+            "Mảng giảm sắc tố"
+        ],
+        "Colour": [
+            "Trắng sữa",
+            "Trắng nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Lông bạc màu",
+            "Bề mặt nhẵn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_madarosis_10_jpg_aacd",
+            "json_id": "JSON_IMG_madarosis_10_jpg_aacd_gpt_5_5_04291239",
+            "timestamp": "2026-04-29 12:39:59"
+        }
+    }
+}

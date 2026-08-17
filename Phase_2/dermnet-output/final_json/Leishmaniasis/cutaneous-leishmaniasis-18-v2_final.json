@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Leishmaniasis",
+        "Distribution": [
+            "Má",
+            "Mặt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu nhạt"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Giãn mạch",
+            "Vảy mịn",
+            "Chấm nâu nhạt"
+        ],
+        "_metadata": {
+            "image_id": "IMG_cutaneous_leishmaniasis_18_v2_jpg_cc50",
+            "json_id": "JSON_IMG_cutaneous_leishmaniasis_18_v2_jpg_cc50_gpt_5_5_04291427",
+            "timestamp": "2026-04-29 14:27:09"
+        }
+    }
+}

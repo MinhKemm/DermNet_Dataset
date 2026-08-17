@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Venous eczema",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú",
+            "Cụm"
+        ],
+        "Lesion_Type": [
+            "Vết loét nông",
+            "Mảng trợt da"
+        ],
+        "Colour": [
+            "Vàng cam",
+            "Đỏ tím",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Bầu dục",
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Nền ẩm",
+            "Bờ tím",
+            "Da bóng",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_ulcer_jpg_3528",
+            "json_id": "JSON_IMG_ulcer_jpg_3528_gpt_5_5_04271904",
+            "timestamp": "2026-04-27 19:04:46"
+        }
+    }
+}

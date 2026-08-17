@@ -1,0 +1,39 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Palmoplantar pustulosis",
+        "Distribution": [
+            "Lòng bàn tay",
+            "Ngón tay",
+            "Lan tỏa",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Bọng nước nhỏ",
+            "Vết trợt",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Đỏ sẫm",
+            "Vàng nhạt",
+            "Trắng đục"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Đóng vảy",
+            "Trợt da",
+            "Bong da",
+            "Dịch đục"
+        ],
+        "_metadata": {
+            "image_id": "IMG_palmar_pustulosis_02_jpg_f7ec",
+            "json_id": "JSON_IMG_palmar_pustulosis_02_jpg_f7ec_gpt_5_5_04281905",
+            "timestamp": "2026-04-28 19:05:06"
+        }
+    }
+}

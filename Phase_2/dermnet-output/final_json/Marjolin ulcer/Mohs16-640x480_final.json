@@ -1,0 +1,36 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Marjolin ulcer",
+        "Distribution": [
+            "Góc mắt trong",
+            "Mi dưới",
+            "Má",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Vết loét",
+            "Khuyết da",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ tươi",
+            "Vàng nâu",
+            "Đen nâu"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Rỉ máu",
+            "Mô hoại tử",
+            "Dịch tiết",
+            "Vảy tiết"
+        ],
+        "_metadata": {
+            "image_id": "IMG_Mohs16_640x480_jpg_3a23",
+            "json_id": "JSON_IMG_Mohs16_640x480_jpg_3a23_gpt_5_5_04291229",
+            "timestamp": "2026-04-29 12:29:28"
+        }
+    }
+}

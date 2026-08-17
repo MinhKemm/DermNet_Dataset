@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Wound infection",
+        "Distribution": [
+            "Gót chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Loét trợt"
+        ],
+        "Colour": [
+            "Đỏ tím",
+            "Vàng nâu",
+            "Trắng ngà"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Đóng mài",
+            "Hoại tử nông",
+            "Da bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_13_jpg_ceb0",
+            "json_id": "JSON_IMG_13_jpg_ceb0_gpt_5_5_04271744",
+            "timestamp": "2026-04-27 17:44:16"
+        }
+    }
+}

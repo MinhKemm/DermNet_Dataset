@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Radiation dermatitis",
+        "Distribution": [
+            "Cẳng chân",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Loét da",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng",
+            "Đen tím"
+        ],
+        "Shape": [
+            "Hình bầu dục",
+            "Không đều"
+        ],
+        "Characteristics": [
+            "Hoại tử",
+            "Mài vàng",
+            "Rỉ dịch",
+            "Phù nề"
+        ],
+        "_metadata": {
+            "image_id": "IMG_radiation_dermatitis2_jpg_52f1",
+            "json_id": "JSON_IMG_radiation_dermatitis2_jpg_52f1_gpt_5_5_04280936",
+            "timestamp": "2026-04-28 09:36:25"
+        }
+    }
+}

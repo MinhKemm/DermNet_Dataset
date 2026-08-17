@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Erosive lichen planus",
+        "Distribution": [
+            "Cẳng chân",
+            "Sắp xếp tuyến tính",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn hồng ban",
+            "Mảng hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ sẫm"
+        ],
+        "Shape": [
+            "Dạng đường",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Trợt nông",
+            "Vảy tiết nhỏ",
+            "Cụm sẩn"
+        ],
+        "_metadata": {
+            "image_id": "IMG_koebner_3_jpg_6f7e",
+            "json_id": "JSON_IMG_koebner_3_jpg_6f7e_gpt_5_5_04291343",
+            "timestamp": "2026-04-29 13:43:15"
+        }
+    }
+}

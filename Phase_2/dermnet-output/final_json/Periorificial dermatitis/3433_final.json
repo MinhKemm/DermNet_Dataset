@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Periorificial dermatitis",
+        "Distribution": [
+            "Mi dưới",
+            "Quanh mắt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Trong"
+        ],
+        "Shape": [
+            "Cụm nhỏ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Nề nhẹ",
+            "Bóng nước nhỏ",
+            "Trợt nông"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3433_jpg_f371",
+            "json_id": "JSON_IMG_3433_jpg_f371_gpt_5_5_04281648",
+            "timestamp": "2026-04-28 16:48:27"
+        }
+    }
+}

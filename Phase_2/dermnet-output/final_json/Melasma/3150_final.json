@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melasma",
+        "Distribution": [
+            "Cánh tay",
+            "Rải rác",
+            "Lan tỏa"
+        ],
+        "Lesion_Type": [
+            "Sẩn nang lông",
+            "Dát sắc tố"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Đỏ nâu"
+        ],
+        "Shape": [
+            "Nhỏ",
+            "Tròn",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Da khô",
+            "Sần ráp",
+            "Nút sừng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3150_jpg_70e6",
+            "json_id": "JSON_IMG_3150_jpg_70e6_gpt_5_5_04291052",
+            "timestamp": "2026-04-29 10:52:28"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pearly penile papules",
+        "Distribution": [
+            "Ngón tay",
+            "Quanh nếp gấp",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Sẩn tăng sừng",
+            "Mảng sùi"
+        ],
+        "Colour": [
+            "Trắng đục",
+            "Hồng da"
+        ],
+        "Shape": [
+            "Dạng dải",
+            "Hình vòng",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt sùi",
+            "Dày sừng",
+            "Tập trung cụm"
+        ],
+        "_metadata": {
+            "image_id": "IMG_02_jpg_693c",
+            "json_id": "JSON_IMG_02_jpg_693c_gpt_5_5_04281751",
+            "timestamp": "2026-04-28 17:51:33"
+        }
+    }
+}

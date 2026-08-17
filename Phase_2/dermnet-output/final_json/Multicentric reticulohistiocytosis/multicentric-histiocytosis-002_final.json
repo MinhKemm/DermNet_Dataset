@@ -1,0 +1,35 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Multicentric reticulohistiocytosis",
+        "Distribution": [
+            "Mu bàn tay",
+            "Ngón tay",
+            "Hai bên"
+        ],
+        "Lesion_Type": [
+            "Bọng nước",
+            "Mụn nước",
+            "Sẩn hồng ban"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ",
+            "Vàng trong"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bọng nước căng",
+            "Dịch trong",
+            "Sẩn rải rác"
+        ],
+        "_metadata": {
+            "image_id": "IMG_multicentric_histiocytosis_002_jpg_2037",
+            "json_id": "JSON_IMG_multicentric_histiocytosis_002_jpg_2037_gpt_5_5_04290924",
+            "timestamp": "2026-04-29 09:24:07"
+        }
+    }
+}

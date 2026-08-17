@@ -1,0 +1,34 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Periorificial dermatitis",
+        "Distribution": [
+            "Quanh mắt",
+            "Mí dưới",
+            "Góc mắt trong",
+            "Tập trung"
+        ],
+        "Lesion_Type": [
+            "Sẩn nhỏ",
+            "Sẩn màu da"
+        ],
+        "Colour": [
+            "Màu da",
+            "Vàng nhạt",
+            "Hồng nhạt"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Kích thước nhỏ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3405_jpg_8298",
+            "json_id": "JSON_IMG_3405_jpg_8298_gpt_5_5_04281656",
+            "timestamp": "2026-04-28 16:56:42"
+        }
+    }
+}

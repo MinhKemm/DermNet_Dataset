@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Melasma",
+        "Distribution": [
+            "Má",
+            "Vùng mặt",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Dát tăng sắc tố",
+            "Sẹo lõm nhỏ"
+        ],
+        "Colour": [
+            "Nâu nhạt",
+            "Nâu sẫm"
+        ],
+        "Shape": [
+            "Hình tròn nhỏ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Lõm nhẹ",
+            "Rải rác",
+            "Bề mặt bóng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_3137_jpg_794e",
+            "json_id": "JSON_IMG_3137_jpg_794e_gpt_5_5_04291057",
+            "timestamp": "2026-04-29 10:57:04"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pemphigus vulgaris",
+        "Distribution": [
+            "Nếp gấp da",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mụn nước",
+            "Bọng nước nhỏ",
+            "Sẩn đỏ",
+            "Vết trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Đỏ tươi",
+            "Tím nhạt",
+            "Vàng trong"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ",
+            "Bất quy tắc"
+        ],
+        "Characteristics": [
+            "Dịch trong",
+            "Quầng đỏ",
+            "Lõm trung tâm",
+            "Vảy tiết mỏng"
+        ],
+        "_metadata": {
+            "image_id": "IMG_pgus5_jpg_d79c",
+            "json_id": "JSON_IMG_pgus5_jpg_d79c_gpt_5_5_04281705",
+            "timestamp": "2026-04-28 17:05:49"
+        }
+    }
+}

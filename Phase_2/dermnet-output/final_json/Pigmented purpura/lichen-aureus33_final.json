@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Pigmented purpura",
+        "Distribution": [
+            "Kẽ ngón tay",
+            "Lòng bàn tay",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng trợt"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Nâu đỏ"
+        ],
+        "Shape": [
+            "Bất quy tắc",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bong vảy mịn",
+            "Da bóng",
+            "Nứt nẻ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_lichen_aureus33_jpg_fefe",
+            "json_id": "JSON_IMG_lichen_aureus33_jpg_fefe_gpt_5_5_04281626",
+            "timestamp": "2026-04-28 16:26:07"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Periarteritis nodosa",
+        "Distribution": [
+            "Cẳng tay",
+            "Rải rác",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Mảng vòng"
+        ],
+        "Colour": [
+            "Đỏ hồng nhạt",
+            "Trung tâm nhạt"
+        ],
+        "Shape": [
+            "Hình vòng cung",
+            "Đa cung",
+            "Ranh giới mờ"
+        ],
+        "Characteristics": [
+            "Bờ mờ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_14_jpg_afca",
+            "json_id": "JSON_IMG_14_jpg_afca_gpt_5_5_04281658",
+            "timestamp": "2026-04-28 16:58:47"
+        }
+    }
+}

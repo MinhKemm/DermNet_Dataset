@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Atypical solar lentigo",
+        "Distribution": [
+            "Mu bàn tay",
+            "Khu trú",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Mảng vòng",
+            "Sẩn da"
+        ],
+        "Colour": [
+            "Màu da",
+            "Hồng nhạt",
+            "Vàng nhạt"
+        ],
+        "Shape": [
+            "Hình vòng cung",
+            "Ranh giới rõ",
+            "Trung tâm lõm"
+        ],
+        "Characteristics": [
+            "Bề mặt nhẵn",
+            "Bờ gồ nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_solar_lentigo_09_jpg_111a",
+            "json_id": "JSON_IMG_solar_lentigo_09_jpg_111a_gpt_5_5_04280021",
+            "timestamp": "2026-04-28 00:21:25"
+        }
+    }
+}

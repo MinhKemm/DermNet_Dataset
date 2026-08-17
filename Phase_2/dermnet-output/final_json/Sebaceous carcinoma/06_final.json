@@ -1,0 +1,32 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Sebaceous carcinoma",
+        "Distribution": [
+            "Mi mắt trên",
+            "Khu trú"
+        ],
+        "Lesion_Type": [
+            "Mảng hồng ban",
+            "Sẩn nhỏ"
+        ],
+        "Colour": [
+            "Đỏ hồng",
+            "Vàng nâu"
+        ],
+        "Shape": [
+            "Dạng dải",
+            "Bất quy tắc",
+            "Ranh giới"
+        ],
+        "Characteristics": [
+            "Vảy tiết",
+            "Đóng mài",
+            "Sưng nhẹ"
+        ],
+        "_metadata": {
+            "image_id": "IMG_06_jpg_9b45",
+            "json_id": "JSON_IMG_06_jpg_9b45_gpt_5_5_04280742",
+            "timestamp": "2026-04-28 07:42:23"
+        }
+    }
+}

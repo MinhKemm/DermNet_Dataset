@@ -1,0 +1,33 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Actinic prurigo",
+        "Distribution": [
+            "Vùng da có lông",
+            "Rải rác",
+            "Nhiều ổ"
+        ],
+        "Lesion_Type": [
+            "Mảng vảy",
+            "Mảng tăng sắc tố"
+        ],
+        "Colour": [
+            "Nâu sẫm",
+            "Trắng vàng"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Hình bầu dục",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bong vảy dày",
+            "Vảy trắng",
+            "Đóng mài"
+        ],
+        "_metadata": {
+            "image_id": "IMG_10_jpg_c64f",
+            "json_id": "JSON_IMG_10_jpg_c64f_gpt_5_5_04281232",
+            "timestamp": "2026-04-28 12:32:38"
+        }
+    }
+}

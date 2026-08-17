@@ -1,0 +1,31 @@
+{
+    "JSON_EXTRACTION": {
+        "Category": "Molluscum contagiosum",
+        "Distribution": [
+            "Thân mình",
+            "Rải rác"
+        ],
+        "Lesion_Type": [
+            "Sẩn dạng vòm",
+            "Nốt"
+        ],
+        "Colour": [
+            "Hồng tím",
+            "Nâu đen"
+        ],
+        "Shape": [
+            "Hình tròn",
+            "Ranh giới rõ"
+        ],
+        "Characteristics": [
+            "Bề mặt bóng",
+            "Lõm trung tâm",
+            "Tăng sắc tố"
+        ],
+        "_metadata": {
+            "image_id": "IMG_molluscum_contagiosum_0030_jpg_c261",
+            "json_id": "JSON_IMG_molluscum_contagiosum_0030_jpg_c261_gpt_5_5_04291006",
+            "timestamp": "2026-04-29 10:06:10"
+        }
+    }
+}
