@@ -1,6 +1,3 @@
-# ──────────────────────────────────────────────────
-#  Environment & Secrets — KHÔNG BAO GIỜ push
-# ──────────────────────────────────────────────────
 .env
 .env.local
 .env.*.local
@@ -9,9 +6,6 @@
 token.json
 *.p12
 service_account.json
-
-# Credentials (đặt tên khác cho ví dụ nếu cần push)
-# credentials_example.json   ← copy credentials.json → đổi tên → push
 
 # ──────────────────────────────────────────────────
 #  Python

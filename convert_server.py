@@ -1,53 +1,28 @@
 import pandas as pd
-import os
+import glob
 
-# 1. Khai báo đường dẫn file tsv đầu vào và đầu ra
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-input_file = "/Users/binhminh/Desktop/DermNet_Dataset/Phase_2/VLMEvalKit/LMUData/DermNet_Val_4k-2.tsv"
-output_file = os.path.join(BASE_DIR, "Phase_2", "VLMEvalKit", "LMUData", "DermNet_Val_4k-2_mac_relative.tsv")
+def clean_image_path(df):
+    if 'image_path' in df.columns:
+        # Chuẩn hóa dấu gạch chéo sang chuẩn Linux/Mac
+        df['image_path'] = df['image_path'].astype(str).str.replace('\\', '/', regex=False)
+        # Rút gọn 2 lần folder lồng nhau về 1 lần
+        df['image_path'] = df['image_path'].str.replace('dermnet-output/dermnet-output/', 'dermnet-output/', regex=False)
+    return df
 
-# ĐỔI THÀNH CHUỖI GỐC THEO YÊU CẦU MỚI CỦA BẠN
-dataset_root = "../../dermnet-output/images/"
+# 1. Bỏ chữ 'DermNet_Dataset/' ở đầu vì đang đứng sẵn trong thư mục này
+tsv_files = glob.glob("Phase_2/VLMEvalKit/LMUData/*.tsv")
+for tsv_path in tsv_files:
+    df_tsv = pd.read_csv(tsv_path, sep='\t')
+    df_tsv = clean_image_path(df_tsv)
+    df_tsv.to_csv(tsv_path, sep='\t', index=False)
+    print(f"Đã cập nhật TSV: {tsv_path}")
 
-def convert_to_relative_path(win_path):
-    if pd.isna(win_path):
-        return win_path
-    
-    # Chuyển toàn bộ dấu \ của Windows thành / để chuẩn hóa định dạng Linux/Mac
-    path_normalized = str(win_path).replace('\\', '/')
-    
-    # Tìm cụm '/images/' để lấy phần 'Tên bệnh/tên ảnh.jpg' phía sau
-    if '/images/' in path_normalized:
-        relative_part = path_normalized.split('/images/')[-1]
-    else:
-        # Dự phòng nếu dòng nào đó không chứa cụm '/images/' thì lấy 2 cấp cuối (tên_bệnh/tên_ảnh.jpg)
-        parts = path_normalized.split('/')
-        if len(parts) >= 2:
-            relative_part = f"{parts[-2]}/{parts[-1]}"
-        else:
-            relative_part = parts[-1]
-        
-    # Nối thẳng để tạo ra đường dẫn tương đối hoàn chỉnh
-    return dataset_root + relative_part
+# 2. Cập nhật các file Excel trong outputs
+excel_files = glob.glob("Phase_2/VLMEvalKit/outputs/**/*.xlsx", recursive=True)
+for excel_path in excel_files:
+    df_excel = pd.read_excel(excel_path)
+    df_excel = clean_image_path(df_excel)
+    df_excel.to_excel(excel_path, index=False)
+    print(f"Đã cập nhật Excel: {excel_path}")
 
-# 2. Đọc file TSV sử dụng pandas
-if not os.path.exists(input_file):
-    print(f"❌ Không tìm thấy file đầu vào tại: {input_file}")
-else:
-    print("Đang đọc file TSV...")
-    df = pd.read_csv(input_file, sep='\t')
-
-    # 3. Áp dụng hàm sửa đường dẫn cho cột 'image_path'
-    print("Đang chuẩn hóa đường dẫn ảnh (dạng tương đối ../../)...")
-    df['image_path'] = df['image_path'].apply(convert_to_relative_path)
-
-    # In thử dòng đầu tiên để bạn check kết quả hiển thị
-    if len(df) > 0:
-        print(f"👉 Kết quả test dòng đầu: {df['image_path'].iloc[0]}")
-
-    # Đảm bảo thư mục đầu ra tồn tại trước khi ghi file
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
-
-    # 4. Lưu lại thành file TSV mới
-    df.to_csv(output_file, sep='\t', index=False)
-    print(f"✅ Hoàn thành! Đã lưu file sạch tại: {output_file}")
+print("Hoàn tất! Kiểm tra xem trên màn hình terminal có in ra các dòng 'Đã cập nhật...' không.")

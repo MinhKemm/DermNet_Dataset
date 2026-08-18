@@ -237,7 +237,7 @@ class Gemma4(BaseModel):
     INTERLEAVE = True
 
     def __init__(self, model_path='google/gemma-4-E2B-it', **kwargs):
-        self.use_vllm = kwargs.pop('use_vllm', False)
+        self.use_vllm = kwargs.pop('use_vllm', True)
         self.limit_mm_per_prompt = kwargs.pop('limit_mm_per_prompt', 24)
         self.model_path = model_path
 
@@ -314,7 +314,7 @@ class Gemma4(BaseModel):
 
         default_kwargs = {
             'do_sample': False,
-            'max_new_tokens': 4096
+            'max_new_tokens': 512
         }
         default_kwargs.update(kwargs)
         self.kwargs = default_kwargs
@@ -325,11 +325,49 @@ class Gemma4(BaseModel):
         with Image.open(image_path) as image:
             return image.convert('RGB').copy()
 
+    # def message2pipeline(self, message):
+    #     content = []
+    #     for m in message:
+    #         if m['type'] == 'text':
+    #             content.append(dict(type='text', text=m['value']))
+    #         elif m['type'] == 'image':
+    #             content.append(dict(type='image', image=self._load_image(m['value'])))
+    #     return [dict(role='user', content=content)]
+
+    # def message_to_promptimg_vllm(self, message, dataset=None):
+    #     processed_message = []
+    #     images = []
+    #     num_images = 0
+    #     for item in message:
+    #         if item['type'] == 'text':
+    #             processed_message.append({
+    #                 "type": "text",
+    #                 "text": item['value']
+    #             })
+    #         elif item['type'] == 'image' and num_images < self.limit_mm_per_prompt:
+    #             processed_message.append({"type": "image"})
+    #             images.append(self._load_image(item['value']))
+    #             num_images += 1
+    #     if num_images >= self.limit_mm_per_prompt:
+    #         logging.warning(
+    #             f"Number of images exceeds the limit of {self.limit_mm_per_prompt}."
+    #             f"Only the first {self.limit_mm_per_prompt} images will be used."
+    #         )
+    #     return processed_message, images
+
+    def _format_prompt(self, text):
+        # Kiểm tra nếu câu hỏi là dạng nhận định / Yes-No question
+        if "là phù hợp" in text or "phải không" in text or "đúng không" in text:
+            instruction = "\nNếu câu là nhận định đúng/sai, chỉ trả lời ngắn gọn là 'Có' hoặc 'Không' (hoặc 'Đúng'/'Sai')."
+        else:
+            instruction = "\nTrả lời trực tiếp và ngắn gọn nhất bằng từ khóa/cụm từ, không giải thích dài dòng."
+        return text + instruction
+
     def message2pipeline(self, message):
         content = []
         for m in message:
             if m['type'] == 'text':
-                content.append(dict(type='text', text=m['value']))
+                content.append(dict(type='text', text=self._format_prompt(m['value'])))
             elif m['type'] == 'image':
                 content.append(dict(type='image', image=self._load_image(m['value'])))
         return [dict(role='user', content=content)]
@@ -342,7 +380,7 @@ class Gemma4(BaseModel):
             if item['type'] == 'text':
                 processed_message.append({
                     "type": "text",
-                    "text": item['value']
+                    "text": self._format_prompt(item['value'])
                 })
             elif item['type'] == 'image' and num_images < self.limit_mm_per_prompt:
                 processed_message.append({"type": "image"})
