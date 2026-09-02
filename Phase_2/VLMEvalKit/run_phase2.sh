@@ -2,17 +2,22 @@
 
 # ==============================================================================
 # Script Name: run_phase2.sh
-# Description: Script đánh giá (benchmark) các VLM cho dự án DermNet
+# Description: Script đánh giá các VLM 
 # Usage:
-#   Full:  bash run_phase2.sh full  <model_name> <test|val>
-#   Patch: bash run_phase2.sh patch <model_name> <test|val> <excel_path>
+#   Full (Chạy cả bộ data):  bash run_phase2.sh full  <model_name> <test|val>
+#   Patch (Chỉ sửa Lesion Reasoning): bash run_phase2.sh patch <model_name> <test|val> <excel_path>
 # ==============================================================================
 
-cd /content/DermNet_Dataset/Phase_2/VLMEvalKit || exit 1
+# cd DermNet_Dataset/Phase_2/VLMEvalKit || exit 1
 pip install -r requirements.txt
 pip uninstall -y torchaudio && pip install vllm
 
-export LMUData="/content/DermNet_Dataset/Phase_2/VLMEvalKit/LMUData"
+# Lấy đường dẫn tuyệt đối của thư mục hiện tại (do đã cd vào VLMEvalKit)
+CURRENT_DIR="$PWD"
+
+# Ép tuyệt đối biến LMUData để VLMEvalKit không bị nhảy về thư mục Home (~/LMUData)
+export LMUData="$CURRENT_DIR/LMUData"
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 export HF_TOKEN="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"
 
 MODE=$1
@@ -45,7 +50,7 @@ MINI_TSV="LMUData/${MINI_DATASET}.tsv"
 # ==============================================================================
 if [ "$MODE" == "full" ]; then
     echo ">>> Running FULL mode on $BASE_DATASET with model $MODEL_NAME"
-    python run.py --data $BASE_DATASET --model "$MODEL_NAME" --mode infer --verbose --use-vllm
+    python run.py --data $BASE_DATASET --model "$MODEL_NAME" --mode infer --verbose --reuse --use-vllm
 
 # ==============================================================================
 # LUỒNG 2: PATCH RUN

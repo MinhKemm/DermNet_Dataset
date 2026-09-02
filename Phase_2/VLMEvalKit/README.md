@@ -36,16 +36,16 @@ Dành cho các tập dữ liệu đã có file kết quả Excel, chỉ cần ch
 
 **Nhóm 2.1: Vá tập Val (Dành cho các model đã chạy xong Val)**
 ```bash
-bash run_phase2.sh patch deepseek_vl2 val /content/DermNet_Dataset/Phase_2/VLMEvalKit/outputs/deepseek_vl2/deepseek_vl2_DermNet_Val_4k-2_mac_relative.xlsx
-bash run_phase2.sh patch deepseek_vl2_small val /content/DermNet_Dataset/Phase_2/VLMEvalKit/outputs/deepseek_vl2_small/deepseek_vl2_small_DermNet_Val_4k-2_mac_relative.xlsx
-bash run_phase2.sh patch deepseek_vl2_tiny val /content/DermNet_Dataset/Phase_2/VLMEvalKit/outputs/deepseek_vl2_tiny/deepseek_vl2_tiny_DermNet_Val_4k-2_mac_relative.xlsx
-bash run_phase2.sh patch Vintern-1B-v2 val /content/DermNet_Dataset/Phase_2/VLMEvalKit/outputs/Vintern-1B-v2/Vintern-1B-v2_DermNet_Val_4k-2_mac_relative.xlsx
-bash run_phase2.sh patch Vintern-3B-beta val /content/DermNet_Dataset/Phase_2/VLMEvalKit/outputs/Vintern-3B-beta/Vintern-3B-beta_DermNet_Val_4k-2_mac_relative.xlsx
+bash run_phase2.sh patch deepseek_vl2 val outputs/deepseek_vl2/deepseek_vl2_int8_DermNet_Val_4k.xlsx
+bash run_phase2.sh patch deepseek_vl2_small val outputs/deepseek_vl2_small/deepseek_vl2_small_DermNet_Val_4k.xlsx
+bash run_phase2.sh patch deepseek_vl2_tiny val outputs/deepseek_vl2_tiny/deepseek_vl2_tiny_DermNet_Val_4k.xlsx
+bash run_phase2.sh patch Vintern-1B-v2 val outputs/Vintern-1B-v2/Vintern-1B-v2_DermNet_Val_4k_mac.xlsx
+bash run_phase2.sh patch Vintern-3B-beta val outputs/Vintern-3B-beta/Vintern-3B-beta_DermNet_Val_4k.xlsx
 ```
 
 **Nhóm 2.2: Vá tập Test (Chỉ áp dụng cho họ Deepseek đã chạy xong Test)**
 ```bash
-bash run_phase2.sh patch deepseek_vl2 test /content/DermNet_Dataset/Phase_2/VLMEvalKit/outputs/deepseek_vl2/deepseek_vl2_DermNet_Test_mac_relative.xlsx
-bash run_phase2.sh patch deepseek_vl2_small test /content/DermNet_Dataset/Phase_2/VLMEvalKit/outputs/deepseek_vl2_small/deepseek_vl2_small_DermNet_Test_mac_relative.xlsx
-bash run_phase2.sh patch deepseek_vl2_tiny test /content/DermNet_Dataset/Phase_2/VLMEvalKit/outputs/deepseek_vl2_tiny/deepseek_vl2_tiny_DermNet_Test_mac_relative.xlsx
+bash run_phase2.sh patch deepseek_vl2 test outputs/deepseek_vl2/deepseek_vl2_int8_DermNet_Test_1of3.xlsx
+bash run_phase2.sh patch deepseek_vl2_small test outputs/deepseek_vl2_small/deepseek_vl2_small_DermNet_Test_1of3.xlsx
+bash run_phase2.sh patch deepseek_vl2_tiny test outputs/deepseek_vl2_tiny/deepseek_vl2_tiny_DermNet_Test_1of3.xlsx
 ```
