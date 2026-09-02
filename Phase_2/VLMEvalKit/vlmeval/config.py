@@ -1024,6 +1024,7 @@ thyme_series = {
 }
 
 llava_series = {
+    "LLaVA-med-v1.5-7B": partial(vlm.LLaVA, model_path="microsoft/llava-med-v1.5-mistral-7b"),
     "llava_v1.5_7b": partial(vlm.LLaVA, model_path="liuhaotian/llava-v1.5-7b"),
     "llava_v1.5_13b": partial(vlm.LLaVA, model_path="liuhaotian/llava-v1.5-13b"),
     "llava_v1_7b": partial(vlm.LLaVA, model_path=LLAVA_V1_7B_MODEL_PTH),
