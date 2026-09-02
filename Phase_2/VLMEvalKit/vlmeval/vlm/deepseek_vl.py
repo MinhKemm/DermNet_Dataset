@@ -38,6 +38,13 @@ class DeepSeekVL(BaseModel):
         self.kwargs = default_kwargs
         warnings.warn(f'Following kwargs received: {self.kwargs}, will use as generation config. ')
 
+    def _format_prompt(self, text):
+        if "là phù hợp" in text or "phải không" in text or "đúng không" in text:
+            instruction = "\nNếu câu là nhận định đúng/sai, chỉ trả lời ngắn gọn là 'Có' hoặc 'Không' (hoặc 'Đúng'/'Sai')."
+        else:
+            instruction = "\nTrả lời trực tiếp và ngắn gọn nhất bằng từ khóa/cụm từ, không giải thích dài dòng."
+        return text + instruction
+
     def prepare_inputs(self, message):
         def prepare_itlist(msgs):
             content, images = '', []
@@ -46,7 +53,7 @@ class DeepSeekVL(BaseModel):
                     images.append(s['value'])
                     content += '<image_placeholder>'
                 elif s['type'] == 'text':
-                    content += s['value']
+                    content += self._format_prompt(s['value'])
             return content, images
         conversation = []
         if 'role' not in message[0]:

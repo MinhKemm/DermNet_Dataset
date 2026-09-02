@@ -131,7 +131,7 @@ class VinternChat(BaseModel):
             self.model = self.model.to(device)
 
         self.image_size = self.model.config.vision_config.image_size
-        kwargs_default = dict(do_sample=False, max_new_tokens=1024, top_p=None, num_beams=3)
+        kwargs_default = dict(do_sample=False, max_new_tokens=512, top_p=None, num_beams=3)
         kwargs_default.update(kwargs)
         self.kwargs = kwargs_default
 
@@ -250,15 +250,22 @@ class VinternChat(BaseModel):
         else:
             self.max_num = 6  # 6
 
+    def _format_prompt(self, text):
+        if "là phù hợp" in text or "phải không" in text or "đúng không" in text:
+            instruction = "\nNếu câu là nhận định đúng/sai, chỉ trả lời ngắn gọn là 'Có' hoặc 'Không' (hoặc 'Đúng'/'Sai')."
+        else:
+            instruction = "\nTrả lời trực tiếp và ngắn gọn nhất bằng từ khóa/cụm từ, không giải thích dài dòng."
+        return text + instruction
+
     def generate_v2(self, message, dataset=None):
         image_num = len([x for x in message if x['type'] == 'image'])
         if image_num == 1:
-            prompt = '<image>\n' + '\n'.join([x['value'] for x in message if x['type'] == 'text'])
+            prompt = '<image>\n' + '\n'.join([self._format_prompt(x['value']) for x in message if x['type'] == 'text'])
         else:
             prompt, image_idx = '', 1
             for x in message:
                 if x['type'] == 'text':
-                    prompt += x['value']
+                    prompt += self._format_prompt(x['value'])
                 elif x['type'] == 'image':
                     prompt += f'<Image-{image_idx}>'
                     image_idx += 1

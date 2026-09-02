@@ -183,7 +183,7 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
         min_pixels: int | None = None,
         max_pixels: int | None = None,
         total_pixels: int | None = None,
-        max_new_tokens=128,
+        max_new_tokens=512,
         top_p=0.001,
         top_k=1,
         temperature=0.01,
@@ -315,6 +315,13 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
 
         torch.cuda.empty_cache()
 
+    def _format_prompt(self, text):
+        if "là phù hợp" in text or "phải không" in text or "đúng không" in text:
+            instruction = "\nNếu câu là nhận định đúng/sai, chỉ trả lời ngắn gọn là 'Có' hoặc 'Không' (hoặc 'Đúng'/'Sai')."
+        else:
+            instruction = "\nTrả lời trực tiếp và ngắn gọn nhất bằng từ khóa/cụm từ, không giải thích dài dòng."
+        return text + instruction
+
     def clean_output(self, text):
         import re
         text = text.strip()
@@ -390,7 +397,7 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
                     else:
                         item['nframes'] = self.nframe
             elif s['type'] == 'text':
-                item = {'type': 'text', 'text': s['value']}
+                item = {'type': 'text', 'text': self._format_prompt(s['value'])}
             elif s['type'] == 'audio':
                 item = {'type': 'audio', 'audio': s['value']}
             else:
@@ -480,7 +487,7 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
                             item['nframes'] = self.nframe
                     content.append(item)
             elif s['type'] == 'text':
-                item = {'type': 'text', 'text': s['value']}
+                item = {'type': 'text', 'text': self._format_prompt(s['value'])}
                 content.append(item)
             else:
                 raise ValueError(f"Invalid message type: {s['type']}, {s}")

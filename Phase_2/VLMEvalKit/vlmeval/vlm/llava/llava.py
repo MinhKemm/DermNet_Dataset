@@ -72,7 +72,7 @@ class LLaVA(BaseModel):
         kwargs_default = dict(
             do_sample=False,
             temperature=0,
-            max_new_tokens=2048,
+            max_new_tokens=512,
             top_p=None,
             num_beams=1,
             use_cache=True,
@@ -125,11 +125,18 @@ class LLaVA(BaseModel):
         message.append(dict(type="text", value=prompt))
         return message
 
+    def _format_prompt(self, text):
+        if "là phù hợp" in text or "phải không" in text or "đúng không" in text:
+            instruction = "\nNếu câu là nhận định đúng/sai, chỉ trả lời ngắn gọn là 'Có' hoặc 'Không' (hoặc 'Đúng'/'Sai')."
+        else:
+            instruction = "\nTrả lời trực tiếp và ngắn gọn nhất bằng từ khóa/cụm từ, không giải thích dài dòng."
+        return text + instruction
+
     def concat_tilist(self, message):
         text, images = "", []
         for item in message:
             if item["type"] == "text":
-                text += item["value"]
+                text += self._format_prompt(item["value"])
             elif item["type"] == "image":
                 text += " <image> "
                 images.append(item["value"])

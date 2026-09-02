@@ -36,10 +36,17 @@ class DeepSeekVL2(BaseModel):
         self.model = model.cuda().eval()
 
         torch.cuda.empty_cache()
-        default_kwargs = dict(max_new_tokens=2048, do_sample=False, use_cache=True)
+        default_kwargs = dict(max_new_tokens=512, do_sample=False, use_cache=True)
         default_kwargs.update(kwargs)
         self.kwargs = default_kwargs
         warnings.warn(f'Following kwargs received: {self.kwargs}, will use as generation config. ')
+
+    def _format_prompt(self, text):
+        if "là phù hợp" in text or "phải không" in text or "đúng không" in text:
+            instruction = "\nNếu câu là nhận định đúng/sai, chỉ trả lời ngắn gọn là 'Có' hoặc 'Không' (hoặc 'Đúng'/'Sai')."
+        else:
+            instruction = "\nTrả lời trực tiếp và ngắn gọn nhất bằng từ khóa/cụm từ, không giải thích dài dòng."
+        return text + instruction
 
     def prepare_inputs(self, message, dataset=None):
 
@@ -54,7 +61,7 @@ class DeepSeekVL2(BaseModel):
                         content += f'<image {image_idx}>'
                         image_idx += 1
                     elif s['type'] == 'text':
-                        content += s['value']
+                        content += self._format_prompt(s['value'])
                 # content = '<image>' * (image_idx-1) + '\n' + content
                 content = '<image>' * (image_idx - 1) + '\n' + content
                 return content, images
@@ -92,7 +99,7 @@ class DeepSeekVL2(BaseModel):
                         images.append(s['value'])
                         content += '<image>\n'
                     elif s['type'] == 'text':
-                        content += s['value']
+                        content += self._format_prompt(s['value'])
                 return content, images
 
             conversation = []
