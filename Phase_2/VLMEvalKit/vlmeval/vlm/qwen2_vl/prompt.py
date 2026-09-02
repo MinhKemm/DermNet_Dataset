@@ -39,7 +39,7 @@ class Qwen2VLPromptMixin:
             return True
         if dataset_type == 'VQA' and dataset not in {'MMVet', 'ChartQAPro', 'ChartQAPro_CoT', 'ChartQAPro_PoT', 'ChartMuseum'}:  # noqa: E501
             return True
-        return False
+        return True 
 
     def build_prompt(self, line, dataset: str) -> list[dict[str, str]]:
         from vlmeval.dataset import DATASET_TYPE
@@ -87,8 +87,9 @@ class Qwen2VLPromptMixin:
 
     def _build_mcq_prompt(self, line, dataset: str) -> list[dict[str, str]]:
         """change the prompt for MCQ dataset: use chinese prompt if the question contains chinese characters."""
-        MCQ_CN_PROMPT = '请直接回答选项字母。'
-        MCQ_EN_PROMPT = 'Please select the correct answer from the options above.'
+        # --- THAY ĐỔI PROMPT Ở ĐÂY ---
+        MCQ_CN_PROMPT = '\n[QUAN TRỌNG]: CHỈ IN RA ĐÁP ÁN CHÍNH XÁC. TUYỆT ĐỐI KHÔNG GIẢI THÍCH.'
+        MCQ_EN_PROMPT = '\n[IMPORTANT]: ONLY OUTPUT THE CORRECT ANSWER. DO NOT EXPLAIN.'
 
         import string
 
@@ -125,8 +126,8 @@ class Qwen2VLPromptMixin:
         return msgs
 
     def _build_yorn_prompt(self, line, dataset: str) -> list[dict[str, str]]:
-        """change the prompt for YORN dataset:"""
-        YORN_PROMPT = ' Please answer yes or no.'
+        """Ép trả lời Đúng/Sai bằng Tiếng Việt"""
+        YORN_PROMPT = "\n\n[QUY TẮC BẮT BUỘC]: Trả lời bằng TIẾNG VIỆT. Nếu là nhận định đúng/sai, CHỈ in ra duy nhất 1 từ 'Đúng' hoặc 'Sai'. TUYỆT ĐỐI KHÔNG giải thích, không viết tiếng Anh."
 
         tgt_path = self.dump_image(line, dataset)
         question = line['question']
@@ -135,14 +136,12 @@ class Qwen2VLPromptMixin:
             msgs.extend([dict(type='image', value=p) for p in tgt_path])
         else:
             msgs = [dict(type='image', value=tgt_path)]
-        msgs.append(dict(type='text', value=question))
-        assert msgs[-1]['type'] == 'text'
-        msgs[-1]['value'] += YORN_PROMPT
+        msgs.append(dict(type='text', value=question + YORN_PROMPT))
         return msgs
 
     def _build_vqa_prompt(self, line, dataset: str) -> list[dict[str, str]]:
-        """change the prompt for VQA dataset:"""
-        VQA_PROMPT = '\nPlease try to answer the question with short words or phrases if possible.'
+        """Ép trả lời tên bệnh/tổn thương ngắn gọn bằng Tiếng Việt"""
+        VQA_PROMPT = "\n\n[QUY TẮC BẮT BUỘC]: Trả lời bằng TIẾNG VIỆT. CHỈ IN RA DUY NHẤT TÊN TỔN THƯƠNG / BỆNH HOẶC CỤM TỪ CẦN ĐIỀN (từ 1 đến 5 từ). TUYỆT ĐỐI KHÔNG giải thích, không dịch hay viết tiếng Anh."
 
         tgt_path = self.dump_image(line, dataset)
         question = line['question']
@@ -151,7 +150,5 @@ class Qwen2VLPromptMixin:
             msgs.extend([dict(type='image', value=p) for p in tgt_path])
         else:
             msgs = [dict(type='image', value=tgt_path)]
-        msgs.append(dict(type='text', value=question))
-        assert msgs[-1]['type'] == 'text'
-        msgs[-1]['value'] += VQA_PROMPT
+        msgs.append(dict(type='text', value=question + VQA_PROMPT))
         return msgs

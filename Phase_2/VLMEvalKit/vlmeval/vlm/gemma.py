@@ -100,7 +100,7 @@ class Gemma3(BaseModel):
             # export VLLM_WORKER_MULTIPROC_METHOD=spawn
         else:
             self.model = Gemma3ForConditionalGeneration.from_pretrained(
-                model_path, device_map="cuda", attn_implementation="flash_attention_2", torch_dtype=torch.bfloat16
+                model_path, device_map="cuda", attn_implementation="sdpa", torch_dtype=torch.bfloat16
             ).eval()
             self.device = self.model.device
 
@@ -108,10 +108,18 @@ class Gemma3(BaseModel):
         self.system_prompt = kwargs.pop('system_prompt', 'You are a helpful assistant. ')
         default_kwargs = {
             'do_sample': False,
-            'max_new_tokens': 4096
+            'max_new_tokens': 512  # Đã đổi từ 4096 thành 512
         }
         default_kwargs.update(kwargs)
         self.kwargs = default_kwargs
+
+    def _format_prompt(self, text):
+        # Bổ sung logic ép format giống hệt Gemma4
+        if "là phù hợp" in text or "phải không" in text or "đúng không" in text:
+            instruction = "\nNếu câu là nhận định đúng/sai, chỉ trả lời ngắn gọn là 'Có' hoặc 'Không' (hoặc 'Đúng'/'Sai')."
+        else:
+            instruction = "\nTrả lời trực tiếp và ngắn gọn nhất bằng từ khóa/cụm từ, không giải thích dài dòng."
+        return text + instruction
 
     def message2pipeline(self, message):
         ret = []
@@ -122,7 +130,7 @@ class Gemma3(BaseModel):
         content = []
         for m in message:
             if m['type'] == 'text':
-                content.append(dict(type='text', text=m['value']))
+                content.append(dict(type='text', text=self._format_prompt(m['value']))) # Áp dụng format
             elif m['type'] == 'image':
                 content.append(dict(type='image', url=m['value']))
         ret.append(dict(role='user', content=content))
@@ -161,7 +169,7 @@ class Gemma3(BaseModel):
             if item['type'] == 'text':
                 processed_message.append({
                     "type": "text",
-                    "text": item['value']
+                    "text": self._format_prompt(item['value']) # Áp dụng format
                 })
             elif item['type'] == 'image':
                 if num_images < self.limit_mm_per_prompt:

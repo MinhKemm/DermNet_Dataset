@@ -183,7 +183,7 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
         min_pixels: int | None = None,
         max_pixels: int | None = None,
         total_pixels: int | None = None,
-        max_new_tokens=2048,
+        max_new_tokens=128,
         top_p=0.001,
         top_k=1,
         temperature=0.01,
@@ -314,6 +314,36 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
             self.model.eval()
 
         torch.cuda.empty_cache()
+
+    def clean_output(self, text):
+        import re
+        text = text.strip()
+
+        # 1. Cắt phần giải thích
+        stop_phrases = [
+            "**Giải thích", "Here's why", "Giải thích:", "Lý do:", "Because", 
+            "Bởi vì", "Note:", "Lưu ý:", "Tuy nhiên", "Therefore", "Based on"
+        ]
+        for sp in stop_phrases:
+            if sp in text:
+                text = text.split(sp)[0].strip()
+
+        # 2. Cắt các câu mào đầu phổ biến
+        patterns = [
+            r'^(The image shows.*?consistent with |The condition seems to be |Based on the.*?is |The rash appears to be )',
+            r'^(Bằng cách phân tích.*?là |Tổn thương được biện luận là |Dựa trên hình ảnh.*?là |Nhận định là )',
+            r'^(một |loại )'
+        ]
+        for pat in patterns:
+            text = re.sub(pat, '', text, flags=re.IGNORECASE).strip()
+
+        # 3. Chỉ lấy dòng đầu tiên nếu có xuống dòng
+        if '\n' in text:
+            text = text.split('\n')[0].strip()
+
+        # 4. Bỏ các ký tự thừa
+        text = text.replace('*', '').replace(':', '').replace('"', '').strip('. ')
+        return text
 
     def _prepare_content(self, inputs: list[dict[str, str]], dataset: str | None = None) -> list[dict[str, str]]:
         """
@@ -520,7 +550,7 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
 
         if self.verbose:
             print(f'\033[32m{response}\033[0m')
-        return response
+        return self.clean_output(response)
 
     def generate_inner_lmdeploy(self, message, dataset=None):
         from lmdeploy import GenerationConfig
@@ -536,7 +566,7 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
         assert len(messages_list) == 1
         response = self.model(messages_list, gen_config=gen_config)[0]
         response = response.text
-        return response
+        return self.clean_output(response)
 
     def generate_inner_vllm(self, message, dataset=None):
         from vllm import SamplingParams
@@ -631,7 +661,7 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
 
         if self.verbose:
             print(f'\033[32m{generated_text}\033[0m')
-        return generated_text
+        return self.clean_output(generated_text)
 
     def generate_inner(self, message, dataset=None):
         if self.use_vllm:
