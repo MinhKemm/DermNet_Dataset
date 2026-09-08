@@ -1,237 +1,117 @@
 # DermNet Dataset
 
-Repository dùng để chạy benchmark các Vision-Language Model trên bộ câu hỏi da liễu DermNet bằng tiếng Việt và tiếng Anh.
+## Chạy một file trên server
 
-Toàn bộ quá trình inference được điều phối bằng đúng một file:
-
-```text
-Phase_2/VLMEvalKit/run_phase2.sh
-```
-Sau khi kích hoạt environment Python đã chuẩn bị trên server, dùng `run_phase2.sh` để chạy toàn bộ benchmark.
-
-## Chạy nhanh
-
-Tại thư mục root của repository:
+Sau khi kích hoạt environment Python đã chuẩn bị, tại root repository:
 
 ```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh plan
 bash Phase_2/VLMEvalKit/run_phase2.sh all
 ```
 
-Nếu quá trình bị dừng, mất kết nối SSH hoặc server khởi động lại, chạy:
+Nếu bị gián đoạn, dùng lại cùng cấu hình và thư mục kết quả:
 
 ```bash
 bash Phase_2/VLMEvalKit/run_phase2.sh resume
 ```
 
-Script sử dụng `--reuse --reuse-aux infer`, do đó dữ liệu inference đã có được tái sử dụng và các job chưa hoàn thành tiếp tục chạy.
+`all/resume` chạy đúng kế hoạch tiếng Việt cũ, tối đa **8 lượt full + 8 lượt patch**. Checkpoint giúp tiếp tục phần chưa xong. Một file shell điều phối các module Python có sẵn trong repository.
 
-## Yêu cầu phía server
+## Danh sách công việc
 
-Người quản trị server cần chuẩn bị trước:
-
-- Linux và Bash.
-- NVIDIA GPU hoạt động bình thường.
-- Lệnh `nvidia-smi` sử dụng được.
-- Environment Python đã cài PyTorch, Transformers, pandas và các package cần thiết cho model.
-- Đủ dung lượng để tải model và lưu kết quả.
-- Kết nối tới Hugging Face nếu model chưa được tải về máy.
-
-Kiểm tra nhanh:
-
-```bash
-nvidia-smi
-python3 -c "import torch, transformers, pandas; print(torch.__version__, transformers.__version__)"
-```
-
-Các model Qwen chạy qua vLLM nên environment tương ứng phải import được `vllm`. LLaVA và DeepSeek-VL2 phải import được package model của chúng. Runner kiểm tra các import cần thiết trước khi bắt đầu và dừng sớm nếu environment chưa đầy đủ.
-
-## Các bộ dữ liệu được chạy
-
-Mỗi model được chạy trên bốn dataset:
-
-| Dataset | Ngôn ngữ | Phần dữ liệu |
+| Model | Val | Test |
 |---|---|---|
-| `DermNet_Val_4k-2_mac_relative` | Tiếng Việt | Validation |
-| `DermNet_Test_mac_relative` | Tiếng Việt | Test |
-| `DermNet_Val_4k_en` | Tiếng Anh | Validation |
-| `DermNet_Test_1of3_en` | Tiếng Anh | Test |
+| Qwen3.5-35B-A3B | Full | Full |
+| Qwen3-VL-8B-Instruct | Full | Full |
+| LLaVA-med-v1.5-7B | Full | Full |
+| Vintern-1B-v2 | Patch reasoning | Full |
+| Vintern-3B-beta | Patch reasoning | Full |
+| deepseek_vl2 | Patch reasoning | Patch reasoning |
+| deepseek_vl2_small | Patch reasoning | Patch reasoning |
+| deepseek_vl2_tiny | Patch reasoning | Patch reasoning |
 
-Bốn file TSV tương ứng phải tồn tại trong `Phase_2/VLMEvalKit/LMUData` trước khi chạy.
+Val dùng `DermNet_Val_4k-2_mac_relative`; Test dùng `DermNet_Test_mac_relative`.
 
-## Danh sách model đầy đủ
+Mặc định `MODEL_PROFILE=auto` lọc model theo VRAM ước tính, ghi rõ model bị bỏ qua. Không tự đổi sang biến thể INT4/INT8 khác. `MODEL_PROFILE=full` chọn đủ 16 lượt, chỉ dùng khi server đủ tài nguyên. Ngưỡng VRAM không bảo đảm model sẽ chạy vừa trong mọi environment.
 
-Profile đầy đủ gồm tám model:
+## Chuẩn bị file kết quả cũ để vá
 
-1. `Qwen3.5-35B-A3B`
-2. `Qwen3-VL-8B-Instruct`
-3. `LLaVA-med-v1.5-7B`
-4. `Vintern-1B-v2`
-5. `Vintern-3B-beta`
-6. `deepseek_vl2_tiny`
-7. `deepseek_vl2_small`
-8. Một biến thể DeepSeek lớn được chọn theo VRAM
-
-Khi server đủ cấu hình, tổng số lượt chạy là:
+Clone code chưa đủ để vá: cần chép 8 file kết quả cũ lên server. Mặc định chúng nằm dưới `Phase_2/VLMEvalKit/outputs`, hoặc đặt `LEGACY_RESULTS_DIR` trỏ tới thư mục chứa các thư mục model:
 
 ```text
-8 model x 4 dataset = 32 job
+outputs/
+├── deepseek_vl2/
+│   ├── deepseek_vl2_int8_DermNet_Val_4k.xlsx
+│   └── deepseek_vl2_int8_DermNet_Test_1of3.xlsx
+├── deepseek_vl2_small/
+│   ├── deepseek_vl2_small_DermNet_Val_4k.xlsx
+│   └── deepseek_vl2_small_DermNet_Test_1of3.xlsx
+├── deepseek_vl2_tiny/
+│   ├── deepseek_vl2_tiny_DermNet_Val_4k.xlsx
+│   └── deepseek_vl2_tiny_DermNet_Test_1of3.xlsx
+├── Vintern-1B-v2/
+│   └── Vintern-1B-v2_DermNet_Val_4k_mac.xlsx
+└── Vintern-3B-beta/
+    └── Vintern-3B-beta_DermNet_Val_4k.xlsx
 ```
 
-## Tự chọn model theo GPU
-
-Mặc định `MODEL_PROFILE=auto`. Script đọc VRAM bằng `nvidia-smi` và bỏ qua những model vượt quá cấu hình dự kiến.
-
-| VRAM lớn nhất | DeepSeek được chọn | Ghi chú |
-|---:|---|---|
-| Từ 64 GB | `deepseek_vl2` | Bản đầy đủ |
-| Từ 36 GB | `deepseek_vl2_int8` | Bản lượng tử 8-bit |
-| Từ 22 GB | `deepseek_vl2_int4` | Bản lượng tử 4-bit |
-| Dưới 22 GB | Không chạy biến thể DeepSeek lớn | Vẫn có thể chạy model nhỏ phù hợp |
-
-Các ngưỡng trên là ngưỡng an toàn ước tính, không phải cam kết tuyệt đối. Mức sử dụng thực tế còn phụ thuộc CUDA, phiên bản thư viện, độ dài đầu ra và VRAM đang bị tiến trình khác chiếm dụng.
-
-Các profile hỗ trợ:
+Tên file DeepSeek lớn giữ theo README cũ, kể cả hậu tố `int8`; model được gọi vẫn là `deepseek_vl2` như lệnh cũ. Cần bảo đảm file thực tế đúng model/thí nghiệm mong muốn trước khi gộp.
 
 ```bash
-# Tự chọn theo VRAM, khuyến nghị
-MODEL_PROFILE=auto bash Phase_2/VLMEvalKit/run_phase2.sh all
-
-# Ép chạy đủ tám model
-MODEL_PROFILE=full bash Phase_2/VLMEvalKit/run_phase2.sh all
-
-# Dùng DeepSeek INT8 và bỏ model lớn nhất
-MODEL_PROFILE=balanced bash Phase_2/VLMEvalKit/run_phase2.sh all
-
-# Chỉ chạy nhóm nhỏ và DeepSeek INT4
-MODEL_PROFILE=minimal bash Phase_2/VLMEvalKit/run_phase2.sh all
+LEGACY_RESULTS_DIR=/srv/dermnet/old-results bash Phase_2/VLMEvalKit/run_phase2.sh all
+LEGACY_RESULTS_DIR=/srv/dermnet/old-results bash Phase_2/VLMEvalKit/run_phase2.sh resume
 ```
 
-Không nên ép `MODEL_PROFILE=full` nếu server không đủ VRAM vì tiến trình có thể bị lỗi Out Of Memory.
+Runner kiểm tra sự tồn tại của toàn bộ file patch thuộc model được chọn trước khi bắt đầu inference. Thiếu file sẽ liệt kê và dừng. Không tự chuyển patch thành lượt full.
 
-## Chọn Python environment
+## Environment và dữ liệu
 
-Mặc định runner gọi `python3`:
+Server cần Linux/Bash, NVIDIA/CUDA hoạt động, trọng số model hoặc quyền tải từ Hugging Face, cùng Python đã cài package của các model. Qwen cần vLLM; LLaVA/DeepSeek cần package tương ứng; đọc/ghi Excel cần openpyxl.
 
-```bash
-bash Phase_2/VLMEvalKit/run_phase2.sh all
-```
-
-Nếu environment sử dụng Python tại đường dẫn khác:
-
-```bash
-PYTHON_BIN=/path/to/env/bin/python bash Phase_2/VLMEvalKit/run_phase2.sh all
-```
-
-Nếu tất cả model đã chạy được trong cùng một environment thì chỉ cần `PYTHON_BIN`.
-
-Nếu người quản trị chuẩn bị environment riêng cho từng nhóm model:
+Có thể chỉ định Python cho từng nhóm:
 
 ```bash
 PYTHON_QWEN=/env/qwen/bin/python \
-PYTHON_LEGACY=/env/llava-vintern/bin/python \
+PYTHON_LEGACY=/env/legacy/bin/python \
 PYTHON_DEEPSEEK=/env/deepseek/bin/python \
 bash Phase_2/VLMEvalKit/run_phase2.sh all
 ```
 
-Các đường dẫn trên giúp runner chọn đúng Python cho từng nhóm model.
+Mặc định dùng `python3`; đặt `PYTHON_BIN` để đổi chung. Nếu model yêu cầu xác thực, đặt `HF_TOKEN` trong environment.
 
-## Kiểm tra trước khi chạy
+Mặc định thiếu ảnh sẽ dừng trước inference. Chỉ dùng `MISSING_IMAGE_POLICY=skip` nếu chấp nhận bộ kết quả thiếu dòng; các dòng bị bỏ được ghi trong `*.missing-images.txt`. Dataset runtime chuẩn hóa đường dẫn ảnh, không thay thế dataset nguồn.
 
-In danh sách model, dataset và thứ tự job mà không chạy inference:
+## Kết quả và chạy tiếp
 
-```bash
-DRY_RUN=1 bash Phase_2/VLMEvalKit/run_phase2.sh plan
-```
+- Lượt full với prompt mới: `Phase_2/VLMEvalKit/outputs/answer-format-v2`.
+- Log, marker, mini dataset, checkpoint patch và backup: `outputs/answer-format-v2/.phase2-runner`.
+- Patch sao lưu rồi cập nhật trực tiếp file kết quả cũ đã chỉ định.
+- `MAX_JOB_RETRIES=2` mặc định thử inference tối đa hai lần mỗi lượt.
+- `RUN_WORK_DIR=/absolute/path` đặt thư mục thí nghiệm khác; giữ nguyên khi resume.
+- `status` hiển thị marker full; trạng thái patch được kiểm tra lại khi resume.
 
-Xem trạng thái:
+Patch chỉ thay các dòng Lesion_Reasoning sau khi có đủ prediction hợp lệ; câu trả lời trống, lỗi và thiếu ảnh bị từ chối. Score cũ của các dòng được vá bị xóa và cần chấm lại. Runner đang chạy `--mode infer`, chưa tự tính điểm benchmark.
 
-```bash
-bash Phase_2/VLMEvalKit/run_phase2.sh status
-```
-
-Chạy riêng một model trên một dataset:
-
-```bash
-bash Phase_2/VLMEvalKit/run_phase2.sh full Vintern-1B-v2 DermNet_Val_4k-2_mac_relative
-```
-
-## Ảnh bị thiếu hoặc sai đường dẫn
-
-Một số đường dẫn ảnh có thể khác nhau do chuẩn Unicode giữa Windows và Linux. Runner tạo bản TSV runtime đã chuẩn hóa tại:
-
-```text
-Phase_2/VLMEvalKit/outputs/.phase2-runner/datasets
-```
-
-Mặc định, dòng không tìm thấy ảnh được bỏ khỏi bản runtime và ghi vào file `*.missing-images.txt`. Dataset nguồn trong `Phase_2/VLMEvalKit/LMUData` không bị sửa.
-
-Muốn dừng toàn bộ ngay khi phát hiện ảnh thiếu:
+## Các lệnh riêng
 
 ```bash
-MISSING_IMAGE_POLICY=fail bash Phase_2/VLMEvalKit/run_phase2.sh all
+# Xem lệnh mà không chạy model; all vẫn yêu cầu file patch tồn tại
+DRY_RUN=1 bash Phase_2/VLMEvalKit/run_phase2.sh all
+
+# Chạy tiếng Anh khi cần, ngoài kế hoạch mặc định
+bash Phase_2/VLMEvalKit/run_phase2.sh full Vintern-1B-v2 DermNet_Val_4k_en
+
+# Vá riêng; chạy lại cùng lệnh để tiếp tục
+bash Phase_2/VLMEvalKit/run_phase2.sh patch deepseek_vl2_tiny DermNet_Val_4k-2_mac_relative /absolute/path/result.xlsx
 ```
 
-## Log và kết quả
+## Cách trả lời
 
-Log riêng của từng model/dataset được lưu tại:
+| Type | Định dạng |
+|---|---|
+| Multi_choice | Chữ cái in hoa: A hoặc ACD |
+| Judgement | Có/Không cho Việt; Yes/No cho Anh |
+| Fill_in_blank | Thuật ngữ hoặc cụm từ thiếu |
+| Short_answer | Cụm từ hoặc một câu ngắn |
 
-```text
-Phase_2/VLMEvalKit/outputs/.phase2-runner/logs
-```
-
-Kết quả inference được lưu dưới `Phase_2/VLMEvalKit/outputs`. File đánh dấu job hoàn thành nằm trong:
-
-```text
-Phase_2/VLMEvalKit/outputs/.phase2-runner/completed
-```
-
-Nếu một job lỗi, runner giữ checkpoint, tiếp tục thử theo `MAX_JOB_RETRIES`, rồi chuyển sang job tiếp theo. Mặc định mỗi job được thử tối đa hai lần:
-
-```bash
-MAX_JOB_RETRIES=3 bash Phase_2/VLMEvalKit/run_phase2.sh all
-```
-
-## Hugging Face token
-
-Không ghi token trực tiếp vào file shell và không commit token lên Git.
-
-Nếu model yêu cầu xác thực:
-
-```bash
-export HF_TOKEN="YOUR_TOKEN"
-bash Phase_2/VLMEvalKit/run_phase2.sh all
-```
-
-## Quy trình đề xuất trên server
-
-```bash
-# 1. Clone repository
-git clone <repository-url> Dermnet-QA
-cd Dermnet-QA
-
-# 2. Kích hoạt environment do quản trị viên chuẩn bị
-source /path/to/env/bin/activate
-
-# 3. Kiểm tra kế hoạch
-DRY_RUN=1 bash Phase_2/VLMEvalKit/run_phase2.sh plan
-
-# 4. Chạy toàn bộ
-bash Phase_2/VLMEvalKit/run_phase2.sh all
-
-# 5. Nếu bị gián đoạn, chạy tiếp
-bash Phase_2/VLMEvalKit/run_phase2.sh resume
-```
-
-## Cấu trúc chính
-
-```text
-DermNet_Dataset/
-├── README.md
-├── dermnet-output/                 # Ảnh DermNet
-└── Phase_2/VLMEvalKit/
-    ├── run_phase2.sh               # File duy nhất cần chạy
-    ├── run.py                      # Entry point inference của VLMEvalKit
-    ├── requirements.txt
-    ├── LMUData/                    # TSV tiếng Việt và tiếng Anh
-    └── outputs/                    # Log, checkpoint và kết quả
-```
+Xem [báo cáo rà soát](docs/MODEL_ANSWER_REVIEW.md) về sửa prompt, kiểm thử và các câu hỏi nguồn còn cần duyệt. Chưa kiểm chứng suy luận thực tế trên GPU server.

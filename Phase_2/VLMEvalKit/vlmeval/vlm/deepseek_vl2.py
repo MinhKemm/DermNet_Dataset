@@ -124,8 +124,12 @@ def dequantize_and_replace_kv_b_proj(model):
     logging.info(f"Permanently dequantized and replaced {count} kv_b_proj layers with standard bfloat16 Linear layers.")
 
 
-def get_custom_instruction(question_text):
+def get_custom_instruction(question_text, dataset=None):
     import re
+    if dataset is not None and not dataset.startswith("DermNet_"):
+        return ""
+    if "[DermNet answer format]" in question_text:
+        return ""
     is_vietnamese = bool(re.search(r'[À-ỹĐđ]', question_text))
     # Check if it is a Multiple Choice question (contains options like A., B., C., D.)
     has_mcq_options = (
@@ -150,7 +154,7 @@ def get_custom_instruction(question_text):
         re.match(r'^(is|are|does|do|can|has|have)\b', lowered.strip())
     ) or "correct?" in lowered
     is_judgement = any(marker in lowered for marker in (
-        "không?", "phải là", "đúng không"
+        "không?", "phải là", "đúng không", "là phù hợp"
     )) or is_english_judgement
     if is_judgement:
         if not is_vietnamese:
@@ -172,6 +176,15 @@ def get_custom_instruction(question_text):
         "KHÔNG viết các câu dẫn dắt mở đầu như 'Trong hình ảnh...' hoặc 'Dựa vào hình ảnh...'. "
         "KHÔNG chia danh sách hay dùng gạch đầu dòng."
     )
+
+
+def get_system_prompt(dataset):
+    if dataset and dataset.startswith("DermNet_"):
+        return (
+            "You are a dermatology assistant. Answer only from the image and "
+            "question, and follow the user's answer-format instruction exactly."
+        )
+    return ""
 
 
 from .base import BaseModel
@@ -290,7 +303,7 @@ class DeepSeekVL2(BaseModel):
             conversation = []
             if 'role' not in message[0]:
                 content, images = prepare_itlist(message)
-                instruction = get_custom_instruction(content)
+                instruction = get_custom_instruction(content, dataset)
                 content += instruction
                 conversation.append(dict(role='<|User|>', content=content, images=images))
             else:
@@ -299,7 +312,7 @@ class DeepSeekVL2(BaseModel):
                     role = role_map[msgs['role']]
                     content, images = prepare_itlist(msgs['content'])
                     if i == len(message) - 1 and role == '<|User|>':
-                        instruction = get_custom_instruction(content)
+                        instruction = get_custom_instruction(content, dataset)
                         content += instruction
                     conversation.append(dict(role=role, content=content, images=images))
             conversation.append(dict(role='<|Assistant|>', content=''))
@@ -320,15 +333,7 @@ class DeepSeekVL2(BaseModel):
             conversations=conversation,
             images=pil_images,
             force_batchify=True,
-            system_prompt=(
-                "You are a professional medical assistant specialized in dermatology. "
-                "Answer the user's question about the skin lesion image in a direct, complete, and concise manner in the same language as the question. "
-                "Follow these strict rules:\n"
-                "1. Provide a complete, grammatically correct answer (do NOT output only keywords or a few words).\n"
-                "2. Start answering directly. Do NOT write introductory sentences, conversational filler, or greetings.\n"
-                "3. Write the answer as a single, coherent paragraph. Do NOT use bullet points or list formats.\n"
-                "4. Keep the entire answer to 1 to 3 sentences (under 50 words) so that it is complete yet concise."
-            )
+            system_prompt=get_system_prompt(dataset)
         )
         prepare_inputs = prepare_inputs.to(self.model.device)
         inputs_embeds = self.model.prepare_inputs_embeds(**prepare_inputs)

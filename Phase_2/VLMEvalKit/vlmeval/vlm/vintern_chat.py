@@ -251,6 +251,8 @@ class VinternChat(BaseModel):
             self.max_num = 6  # 6
 
     def _format_prompt(self, text):
+        if "[DermNet answer format]" in text:
+            return text
         if "là phù hợp" in text or "phải không" in text or "đúng không" in text:
             instruction = "\nNếu câu là nhận định đúng/sai, chỉ trả lời ngắn gọn là 'Có' hoặc 'Không' (hoặc 'Đúng'/'Sai')."
         else:
