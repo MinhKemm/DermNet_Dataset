@@ -622,7 +622,7 @@ D. raised/elevated"	C	Attribute_Characteristics	Multi_choice
 A. uneven
 B. vertical
 C. ill-defined border
-D round"	B	Attribute_Shape	Multi_choice
+D. round"	B	Attribute_Shape	Multi_choice
 348	../../dermnet-output/images/Angiofibroma/tuberous-sclerosis-004.jpg	Observing the image, the prominent lesion color is ____.	pink and skin-colored	Attribute_Color	Fill_in_blank
 349	../../dermnet-output/images/Angiofibroma/tuberous-sclerosis02.jpg	Based on the image above, is the main primary lesion bulla?	No	Lesion_Recognition	Judgement
 350	../../dermnet-output/images/Angiofibroma/tuberous-sclerosis04.jpg	Based on the red; morphology/border round; dense features, the lesion is reasoned to be ____.	papule	Lesion_Reasoning	Fill_in_blank
@@ -933,7 +933,7 @@ C. fur skin + distribution scattered
 D. lower extremity + distribution unilateral"	C	Anatomical_Distribution	Multi_choice
 512	../../dermnet-output/images/Basal cell carcinoma/0618.jpg	In this image, is the appropriate diagnosis Basal cell carcinoma?	Yes	Diagnosis	Judgement
 513	../../dermnet-output/images/Basal cell carcinoma/0618.jpg	Which morphologic signs support the lesion type papule and papule pustular?	round; round; red; vasodilation.	Lesion_Reasoning	Short_answer
-514	../../dermnet-output/images/Basal cell carcinoma/0624.jpg	In this image, This image is consistent with the diagnosis No. Is this statement correct?	Yes	Diagnosis	Judgement
+514	../../dermnet-output/images/Basal cell carcinoma/0624.jpg	In this image, This image is consistent with the diagnosis Basal cell carcinoma. Is this statement correct?	Yes	Diagnosis	Judgement
 515	../../dermnet-output/images/Basal cell carcinoma/0627.jpg	In this image, the main observed primary lesion type is ____.	plaque	Lesion_Recognition	Fill_in_blank
 516	../../dermnet-output/images/Basal cell carcinoma/0628.jpg	Observing the image, is the lesion site/distribution nose and solitary?	Yes	Anatomical_Distribution	Judgement
 517	../../dermnet-output/images/Basal cell carcinoma/0629.jpg	Based on the pink and brown; morphology/border round and lobed; features shiny and raised, the main lesion is assessed as belonging to the group papule and plaque is appropriate.	Yes	Lesion_Reasoning	Judgement
@@ -1949,7 +1949,7 @@ D. plaque"	B	Lesion_Recognition	Multi_choice
 A. long strip
 B. the shore is quite clear
 C. oval
-D round"	AB	Attribute_Shape	Multi_choice
+D. round"	AB	Attribute_Shape	Multi_choice
 1063	../../dermnet-output/images/Erysipelas/erysipelas-006.jpg	In the provided image, what is the appropriate dermatologic diagnosis?	Erysipelas	Diagnosis	Short_answer
 1064	../../dermnet-output/images/Erysipelas/erysipelas-leg.jpg	Observing the image, the appropriate morphology/border description for the lesion is ____.	uneven and polycyclic	Attribute_Shape	Fill_in_blank
 1065	../../dermnet-output/images/Erysipelas/erysipelas-leg.jpg	Based on the bright red and violaceous red; morphology/border uneven and polycyclic; features edema and shiny, the main lesion is assessed as belonging to the group plaque and erosion is appropriate.	Yes	Lesion_Reasoning	Judgement
@@ -2077,7 +2077,7 @@ D. light purple"	BCD	Attribute_Color	Multi_choice
 A. reticular
 B. large plaque
 C. uneven shore
-D round"	BC	Attribute_Shape	Multi_choice
+D. round"	BC	Attribute_Shape	Multi_choice
 1119	../../dermnet-output/images/Exanthems/exanth-close.jpg	Based on the image above, the prominent lesion color is ____.	erythematous pink	Attribute_Color	Fill_in_blank
 1120	../../dermnet-output/images/Exanthems/exanth.jpg	In this image, the diagnosis most consistent with the image is ____.	Exanthems	Diagnosis	Fill_in_blank
 1121	../../dermnet-output/images/Exercise-induced vasculitis/exercise-vasculitis-2.jpg	In the provided image, is the appropriate diagnosis of exercise-induced vascular inflammation?	Yes	Diagnosis	Judgement
@@ -2310,7 +2310,7 @@ D. Calciphylaxis"	A	Diagnosis	Multi_choice
 1232	../../dermnet-output/images/Gout/gout0.jpg	In this image, the diagnosis most consistent with the image is ____.	Gout	Diagnosis	Fill_in_blank
 1233	../../dermnet-output/images/Gout/gout5.jpg	"Based on the image above, which morphology/border features are consistent with the lesion?
 A. dome-shaped
-B round
+B. round
 C. well-demarcated border
 D. polycyclic"	AB	Attribute_Shape	Multi_choice
 1234	../../dermnet-output/images/Gout/gout8.jpg	Which morphologic signs support the lesion type nodule and lump?	round; round; pink; smooth.	Lesion_Reasoning	Short_answer
@@ -2609,7 +2609,7 @@ D. Cutaneous horn"	A	Diagnosis	Multi_choice
 A. linear
 B. small drive
 C. uneven
-D round"	BD	Attribute_Shape	Multi_choice
+D. round"	BD	Attribute_Shape	Multi_choice
 1391	../../dermnet-output/images/Herpes simplex/herpes-simplex-labialis-39.jpg	Based on the pink and red; morphology/border round and small cavity; features shiny and damp, the main lesion is assessed as belonging to the group vesicular papule and skin erosion is appropriate.	Yes	Lesion_Reasoning	Judgement
 1392	../../dermnet-output/images/Herpes simplex/herpes-simplex-labialis-42.jpg	In the provided image, is the main primary lesion plaque?	No	Lesion_Recognition	Judgement
 1393	../../dermnet-output/images/Herpes simplex/herpes-simplex-labialis-45.jpg	In the provided image, how is the morphology or border of the lesion described?	small round and cluster	Attribute_Shape	Short_answer
@@ -2643,7 +2643,7 @@ D. small oval"	CD	Attribute_Shape	Multi_choice
 A. linear
 B. cluster
 C. uneven
-D round"	BD	Attribute_Shape	Multi_choice
+D. round"	BD	Attribute_Shape	Multi_choice
 1409	../../dermnet-output/images/Herpes zoster/hvz6.jpg	"Observing the image, which option correctly describes the anatomical site and distribution of the lesion?
 A. cheek + distribution unilateral
 B. cheek + distribution localized
@@ -2757,7 +2757,7 @@ C. pale center
 D. keratosis"	BC	Attribute_Characteristics	Multi_choice
 1460	../../dermnet-output/images/Hidradenitis suppurativa/hs-buttocks-119.jpg	"In the provided image, which morphology/border features are consistent with the lesion?
 A. polycyclic
-B round
+B. round
 C. uneven
 D. Slight hump"	BD	Attribute_Shape	Multi_choice
 1461	../../dermnet-output/images/Hidradenitis suppurativa/hs-buttocks-119.jpg	Based on the image above, the lesion shows clinical Yes scale?	No	Attribute_Characteristics	Judgement
@@ -2903,7 +2903,7 @@ D. ear + distribution symmetric"	C	Anatomical_Distribution	Multi_choice
 A. well-demarcated border
 B. polycyclic
 C. arc
-D round"	BC	Attribute_Shape	Multi_choice
+D. round"	BC	Attribute_Shape	Multi_choice
 1533	../../dermnet-output/images/Impetigo/perioral-impetigo-14.jpg	In the provided image, is the main primary lesion edematous papule?	No	Lesion_Recognition	Judgement
 1534	../../dermnet-output/images/Impetigo/perioral-impetigo-18.jpg	"In this image, which option correctly describes the anatomical site and distribution of the lesion?
 A. foot + symmetrical distribution
@@ -3236,7 +3236,7 @@ D. plaque erosion"	ACD	Lesion_Recognition	Multi_choice
 1698	../../dermnet-output/images/Lichen planus/3087.jpg	Based on the image above, What diagnosis is most consistent with the image?	Lichen planus	Diagnosis	Short_answer
 1699	../../dermnet-output/images/Lichen planus/3088.jpg	"Observing the image, What are the morphology or border features of the lesion?
 A. ill-defined border
-B round
+B. round
 C. Strip form
 D. irregular"	ACD	Attribute_Shape	Multi_choice
 1700	../../dermnet-output/images/Lichen planus/3089.jpg	In the provided image, What is the color of the lesion in the image?	erythematous pink, white silver	Attribute_Color	Short_answer
@@ -3254,10 +3254,10 @@ D. papules"	AB	Lesion_Recognition	Multi_choice
 1704	../../dermnet-output/images/Lichen planus/3095.jpg	Based on the image above, The prominent lesion color is ____.	ivory white, light pink	Attribute_Color	Fill_in_blank
 1705	../../dermnet-output/images/Lichen planus/3096.jpg	In the provided image, The appropriate morphology/border features are ____.	reticular, irregular	Attribute_Shape	Fill_in_blank
 1706	../../dermnet-output/images/Lichen planus/3098.jpg	Observing the image, Anatomical site and what is the distribution of the lesion?	Fingertips, interphalangeal joints, bilateral, scattered	Anatomical_Distribution	Short_answer
-1707	../../dermnet-output/images/Lichen planus/3099.jpg	Observing the image, This image is consistent with the diagnosis Yes. Is this statement correct?	Yes	Diagnosis	Judgement
+1707	../../dermnet-output/images/Lichen planus/3099.jpg	Observing the image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?	Yes	Diagnosis	Judgement
 1708	../../dermnet-output/images/Lichen planus/3100.jpg	"Based on the image above, The lesion shows ""clear boundaries"". Is this statement correct?"	No	Attribute_Shape	Judgement
 1709	../../dermnet-output/images/Lichen planus/3101.jpg	In the provided image, what are the detailed clinical features of the lesion?	scaling, thick scale, dry surface	Attribute_Characteristics	Short_answer
-1710	../../dermnet-output/images/Lichen planus/3104.jpg	Observing the image, This image is consistent with the diagnosis Yes. Is this statement correct?	Yes	Diagnosis	Judgement
+1710	../../dermnet-output/images/Lichen planus/3104.jpg	Observing the image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?	Yes	Diagnosis	Judgement
 1711	../../dermnet-output/images/Lichen planus/3104.jpg	Based on the color erythematous pink and violaceous red; morphology/border irregular and ill-defined border; features petechiae and plaque bruising, the main lesion is assessed as belonging to the group erythematous plaque and purpura is appropriate.	Yes	Lesion_Reasoning	Judgement
 1712	../../dermnet-output/images/Lichen planus/3105.jpg	Based on the image above, the appropriate detailed clinical features are ____.	Bleeding, purple bruises, dry skin	Attribute_Characteristics	Fill_in_blank
 1713	../../dermnet-output/images/Lichen planus/3107.jpg	Based on the color erythematous pink and white silver; morphology/border irregular and well-demarcated border; features scaling and thickness scale, the main lesion is assessed as belonging to the group erythematous plaque and erythematous papule is appropriate.	Yes	Lesion_Reasoning	Judgement
@@ -3535,7 +3535,7 @@ D. trunk, localized"	D	Anatomical_Distribution	Multi_choice
 A. Asymmetric
 B. oval
 C. irregular border
-D round"	ABC	Attribute_Shape	Multi_choice
+D. round"	ABC	Attribute_Shape	Multi_choice
 1865	../../dermnet-output/images/Melanocytic naevus/eccentric-pigment.jpg	"Based on the image above, What is the color of the lesion in the image?
 A. black
 B. dark brown
@@ -3702,7 +3702,7 @@ D. urticarial wheal"	BC	Lesion_Recognition	Multi_choice
 1956	../../dermnet-output/images/Merkel cell carcinoma/mcc.jpg	Which morphologic signs support the lesion type nodule and dome-shaped?	oval; color violaceous red; shiny surface.	Lesion_Reasoning	Short_answer
 1957	../../dermnet-output/images/Merkel cell carcinoma/mcc3.jpg	"Based on the image above, What are the morphology or border features of the lesion?
 A. well-demarcated border
-B round
+B. round
 C. round
 D. Dome-shaped"	ABD	Attribute_Shape	Multi_choice
 1958	../../dermnet-output/images/Merkel cell carcinoma/merkel-cell-carcinoma-0004.jpg	Observing the image, does the lesion morphology or border show dome-shaped and well-demarcated border?	Yes	Attribute_Shape	Judgement
@@ -4431,7 +4431,7 @@ D. foot + distribution scattered"	A	Anatomical_Distribution	Multi_choice
 2361	../../dermnet-output/images/Nummular eczematous dermatitis/nummular3.jpg	In this image, What diagnosis is most consistent with the image?	Nummular eczematous dermatitis	Diagnosis	Short_answer
 2362	../../dermnet-output/images/Ocular melanoma/eyelid-melanoma-1.jpg	"In this image, What are the morphology or border features of the lesion?
 A. Rolled edges
-B round
+B. round
 C. ill-defined border
 D. irregular"	ACD	Attribute_Shape	Multi_choice
 2363	../../dermnet-output/images/Ocular melanoma/eyelid-melanoma-1.jpg	Based on the color light pink and erythematous pink; morphology/border irregular, ill-defined border and Coiled border; features Vasodilation and shiny surface, the lesion is reasoned to be ____.	erythematous plaque	Lesion_Reasoning	Fill_in_blank
@@ -4593,7 +4593,7 @@ D. erythematous pink"	BD	Attribute_Color	Multi_choice
 A. small round
 B. border
 C. uneven
-D round"	AB	Attribute_Shape	Multi_choice
+D. round"	AB	Attribute_Shape	Multi_choice
 2455	../../dermnet-output/images/Oral mucositis - Stomatitis/52.jpg	Based on the image above, the lesion shows clinical smoothness?	No	Attribute_Characteristics	Judgement
 2456	../../dermnet-output/images/Oral mucositis - Stomatitis/52.jpg	In the provided image, the diagnosis most consistent with the image is ____.	Oral mucositis - Stomatitis	Diagnosis	Fill_in_blank
 2457	../../dermnet-output/images/Oral mucositis - Stomatitis/53.jpg	Based on the image above, the prominent lesion color is ____.	light pink, white blue and light purple	Attribute_Color	Fill_in_blank
@@ -5238,7 +5238,7 @@ D. ear + distribution clustered"	B	Anatomical_Distribution	Multi_choice
 A. irregular
 B. Small dots
 C. oval
-D round"	AB	Attribute_Shape	Multi_choice
+D. round"	AB	Attribute_Shape	Multi_choice
 2788	../../dermnet-output/images/Pigmented purpura/purpAmlodip2.jpg	Based on the image above, the recorded anatomical site and/or distribution is ____.	Two thighs, symmetric and scattered	Anatomical_Distribution	Fill_in_blank
 2789	../../dermnet-output/images/Pigmented purpura/purpPigm1-2.jpg	Observing the image, is the main primary lesion bulla?	No	Lesion_Recognition	Judgement
 2790	../../dermnet-output/images/Pigmented purpura/purpannul.jpg	Based on the image above, state the anatomical site and the distribution pattern of the lesion.	thigh, scattered and localized	Anatomical_Distribution	Short_answer
@@ -6331,7 +6331,7 @@ A. upper extremity + distribution symmetric
 B. upper extremity + distribution unilateral
 C. trunk + distribution scattered and diffuse
 D. upper extremity + distribution clustered"	C	Anatomical_Distribution	Multi_choice
-3408	../../dermnet-output/images/Scabies/scabies26.jpg	In this image, This image is consistent with the diagnosis Yes. Is this statement correct?	Yes	Diagnosis	Judgement
+3408	../../dermnet-output/images/Scabies/scabies26.jpg	In this image, This image is consistent with the diagnosis Scabies. Is this statement correct?	Yes	Diagnosis	Judgement
 3409	../../dermnet-output/images/Scabies/scabies26.jpg	Based on the color erythematous pink and dark red; morphology/border Small, round and well-demarcated border; features crust and erosion, the lesion is reasoned to be ____.	red papule	Lesion_Reasoning	Fill_in_blank
 3410	../../dermnet-output/images/Scabies/scabies27.jpg	"In this image, which primary lesion type is present in the image?
 A. Red streak
@@ -6342,7 +6342,7 @@ D. erythematous plaque"	AD	Lesion_Recognition	Multi_choice
 A. polycyclic
 B. uneven
 C. Blurred edges
-D round"	BC	Attribute_Shape	Multi_choice
+D. round"	BC	Attribute_Shape	Multi_choice
 3412	../../dermnet-output/images/Scabies/scabies33.jpg	Based on the color erythematous pink and reddish-brown; morphology/border small and irregular; features crusting, the main lesion is assessed as belonging to the group red papule and erythematous macule is appropriate.	Yes	Lesion_Reasoning	Judgement
 3413	../../dermnet-output/images/Scabies/scabies34.jpg	"Observing the image, which clinical features are consistent with the lesion?
 A. Shallow cracking
@@ -6496,7 +6496,7 @@ D. round"	AC	Attribute_Shape	Multi_choice
 A. irregular
 B. Lobed form
 C. raised/elevated
-D round"	ABC	Attribute_Shape	Multi_choice
+D. round"	ABC	Attribute_Shape	Multi_choice
 3490	../../dermnet-output/images/Squamous cell carcinoma/3942.jpg	"In this image, The lesion show ""yellow brown"". Is this statement correct?"	Yes	Attribute_Color	Judgement
 3491	../../dermnet-output/images/Squamous cell carcinoma/3944.jpg	Which morphologic signs support the lesion type erythematous nodule and central ulcer?	round; pink red; central depression.	Lesion_Reasoning	Short_answer
 3492	../../dermnet-output/images/Squamous cell carcinoma/3947.jpg	"Observing the image, The lesion show ""localized"". Is this statement correct?"	Yes	Anatomical_Distribution	Judgement

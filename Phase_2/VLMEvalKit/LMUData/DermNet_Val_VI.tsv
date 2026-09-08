@@ -933,7 +933,7 @@ C. da lông + phân bố rải rác
 D. Chi dưới + phân bố một bên"	C	Anatomical_Distribution	Multi_choice
 512	../../dermnet-output/images/Basal cell carcinoma/0618.jpg	Trong hình ảnh này, chẩn đoán phù hợp có phải là Basal cell carcinoma không?	Có	Diagnosis	Judgement
 513	../../dermnet-output/images/Basal cell carcinoma/0618.jpg	Những dấu hiệu hình thái nào ủng hộ loại tổn thương sẩn và mụn mủ?	tròn; màu đỏ; giãn mạch.	Lesion_Reasoning	Short_answer
-514	../../dermnet-output/images/Basal cell carcinoma/0624.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+514	../../dermnet-output/images/Basal cell carcinoma/0624.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Basal cell carcinoma. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 515	../../dermnet-output/images/Basal cell carcinoma/0627.jpg	Trong hình ảnh này, loại tổn thương thực thể chính quan sát được là ____.	mảng	Lesion_Recognition	Fill_in_blank
 516	../../dermnet-output/images/Basal cell carcinoma/0628.jpg	Quan sát bức ảnh, vị trí/phân bố của tổn thương có phải là mũi và đơn độc không?	Có	Anatomical_Distribution	Judgement
 517	../../dermnet-output/images/Basal cell carcinoma/0629.jpg	Dựa trên màu hồng và nâu; hình thái/ranh giới tròn và thùy múi; đặc điểm bóng và gồ cao, nhận định tổn thương chính thuộc nhóm sẩn và mảng là phù hợp.	Có	Lesion_Reasoning	Judgement
@@ -3254,10 +3254,10 @@ D. sẩn"	AB	Lesion_Recognition	Multi_choice
 1704	../../dermnet-output/images/Lichen planus/3095.jpg	Dựa vào hình ảnh trên, Màu sắc nổi bật của tổn thương là ____.	Trắng ngà, Hồng nhạt	Attribute_Color	Fill_in_blank
 1705	../../dermnet-output/images/Lichen planus/3096.jpg	Trong ảnh được cung cấp, Đặc điểm hình dạng/ranh giới phù hợp là ____.	Dạng lưới, Bất quy tắc	Attribute_Shape	Fill_in_blank
 1706	../../dermnet-output/images/Lichen planus/3098.jpg	Quan sát bức ảnh, Vị trí giải phẫu và phân bố của tổn thương là gì?	Mu ngón tay, Khớp liên đốt, Hai bên, Rải rác	Anatomical_Distribution	Short_answer
-1707	../../dermnet-output/images/Lichen planus/3099.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+1707	../../dermnet-output/images/Lichen planus/3099.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 1708	../../dermnet-output/images/Lichen planus/3100.jpg	"Dựa vào hình ảnh trên, Tổn thương có đặc điểm ""ranh giới rõ"". Nhận định này có đúng không?"	Không	Attribute_Shape	Judgement
 1709	../../dermnet-output/images/Lichen planus/3101.jpg	Trong ảnh được cung cấp, Đặc điểm lâm sàng chi tiết của tổn thương là gì?	Bong vảy, Vảy dày, Bề mặt khô	Attribute_Characteristics	Short_answer
-1710	../../dermnet-output/images/Lichen planus/3104.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+1710	../../dermnet-output/images/Lichen planus/3104.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 1711	../../dermnet-output/images/Lichen planus/3104.jpg	Dựa trên màu Đỏ hồng và Đỏ tím; hình thái/ranh giới Bất quy tắc và Ranh giới mờ; đặc điểm Chấm xuất huyết và Mảng bầm, nhận định tổn thương chính thuộc nhóm Mảng hồng ban và Ban xuất huyết là phù hợp.	Có	Lesion_Reasoning	Judgement
 1712	../../dermnet-output/images/Lichen planus/3105.jpg	Dựa vào hình ảnh trên, Đặc điểm lâm sàng chi tiết phù hợp là ____.	Xuất huyết, Vết bầm tím, Da khô	Attribute_Characteristics	Fill_in_blank
 1713	../../dermnet-output/images/Lichen planus/3107.jpg	Dựa trên màu Đỏ hồng và Trắng bạc; hình thái/ranh giới Bất quy tắc và Ranh giới rõ; đặc điểm Bong vảy và Vảy dày, nhận định tổn thương chính thuộc nhóm Mảng hồng ban và Sẩn hồng ban là phù hợp.	Có	Lesion_Reasoning	Judgement
@@ -6331,7 +6331,7 @@ A. Chi trên + phân bố đối xứng
 B. Chi trên + phân bố một bên
 C. Thân mình + phân bố Rải rác và Lan tỏa
 D. Chi trên + phân bố thành cụm"	C	Anatomical_Distribution	Multi_choice
-3408	../../dermnet-output/images/Scabies/scabies26.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+3408	../../dermnet-output/images/Scabies/scabies26.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Scabies. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 3409	../../dermnet-output/images/Scabies/scabies26.jpg	Dựa trên màu Đỏ hồng và Đỏ sẫm; hình thái/ranh giới Chấm nhỏ, Hình tròn và Ranh giới rõ; đặc điểm Vảy tiết và Trợt xước, tổn thương được biện luận là ____.	Sẩn đỏ	Lesion_Reasoning	Fill_in_blank
 3410	../../dermnet-output/images/Scabies/scabies27.jpg	"Trong hình ảnh này, loại tổn thương thực thể nào xuất hiện trong ảnh?
 A. Vệt đỏ

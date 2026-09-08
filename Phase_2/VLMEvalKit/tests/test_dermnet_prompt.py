@@ -82,7 +82,7 @@ class DermNetPromptTest(unittest.TestCase):
             namespace,
         )
         dataset = namespace["DermNetDataset"]()
-        dataset.dataset_name = "DermNet_Val_4k_en"
+        dataset.dataset_name = "DermNet_Val_EN"
 
         message = dataset.build_prompt(
             {

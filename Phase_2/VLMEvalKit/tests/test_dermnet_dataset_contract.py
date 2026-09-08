@@ -6,10 +6,10 @@ import unittest
 
 DATA_DIR = Path(__file__).parents[1] / "LMUData"
 DATASETS = (
-    "DermNet_Val_4k-2_mac_relative.tsv",
-    "DermNet_Test_mac_relative.tsv",
-    "DermNet_Val_4k_en.tsv",
-    "DermNet_Test_1of3_en.tsv",
+    "DermNet_Val_VI.tsv",
+    "DermNet_Test_VI.tsv",
+    "DermNet_Val_EN.tsv",
+    "DermNet_Test_EN.tsv",
 )
 
 
@@ -17,7 +17,7 @@ class DermNetDatasetContractTest(unittest.TestCase):
     def test_closed_answer_types_match_the_required_output_format(self):
         errors = []
         for dataset_name in DATASETS:
-            language = "en" if dataset_name.endswith("_en.tsv") else "vi"
+            language = "en" if dataset_name.lower().endswith("_en.tsv") else "vi"
             valid_judgements = {"Yes", "No"} if language == "en" else {"Có", "Không"}
             with (DATA_DIR / dataset_name).open(
                 encoding="utf-8-sig", newline=""

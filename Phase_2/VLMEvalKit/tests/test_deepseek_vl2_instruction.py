@@ -34,20 +34,20 @@ class DeepSeekVL2InstructionTest(unittest.TestCase):
             "thương chính thuộc nhóm Sẩn viêm và Mụn mủ là phù hợp."
         )
 
-        instruction = self.get_instruction(question, "DermNet_Test_mac_relative")
+        instruction = self.get_instruction(question, "DermNet_Test_VI")
 
         self.assertIn("'Có' hoặc 'Không'", instruction)
 
     def test_vietnamese_open_question_keeps_short_answer_instruction(self):
         instruction = self.get_instruction(
             "Những dấu hiệu hình thái nào ủng hộ loại tổn thương Sẩn?",
-            "DermNet_Test_mac_relative",
+            "DermNet_Test_VI",
         )
 
         self.assertIn("không quá 2 câu", instruction)
 
     def test_english_judgement_question_requires_yes_or_no(self):
-        instruction = self.get_instruction("Is this lesion malignant?", "DermNet_Test_1of3_en")
+        instruction = self.get_instruction("Is this lesion malignant?", "DermNet_Test_EN")
 
         self.assertIn("'Yes' or 'No'", instruction)
 
@@ -55,7 +55,7 @@ class DeepSeekVL2InstructionTest(unittest.TestCase):
         instruction = self.get_instruction(
             "Is this lesion malignant?\n[DermNet answer format] "
             "Answer with exactly 'Yes' or 'No'.",
-            "DermNet_Test_1of3_en",
+            "DermNet_Test_EN",
         )
 
         self.assertEqual("", instruction)
@@ -66,7 +66,7 @@ class DeepSeekVL2InstructionTest(unittest.TestCase):
     def test_medical_system_prompt_does_not_override_closed_answer_format(self):
         get_system_prompt, = load_functions("get_system_prompt")
 
-        prompt = get_system_prompt("DermNet_Test_mac_relative")
+        prompt = get_system_prompt("DermNet_Test_VI")
 
         self.assertIn("answer-format instruction", prompt)
         self.assertNotIn("complete, grammatically correct", prompt)

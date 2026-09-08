@@ -1025,7 +1025,10 @@ thyme_series = {
 
 llava_series = {
     "LLaVA-med-v1.5-7B": partial(vlm.LLaVA, model_path="microsoft/llava-med-v1.5-mistral-7b"),
+    "HuatuoGPT-Vision-7B": partial(vlm.HuatuoGPTVision, model_path="FreedomIntelligence/HuatuoGPT-Vision-7B"),
+    "HuatuoGPT-Vision-34B": partial(vlm.HuatuoGPTVision, model_path="FreedomIntelligence/HuatuoGPT-Vision-34B"),
     "llava_v1.5_7b": partial(vlm.LLaVA, model_path="liuhaotian/llava-v1.5-7b"),
+    "llava_v1.5_7b_4bit": partial(vlm.LLaVA, model_path="liuhaotian/llava-v1.5-7b", load_in_4bit=True),
     "llava_v1.5_13b": partial(vlm.LLaVA, model_path="liuhaotian/llava-v1.5-13b"),
     "llava_v1_7b": partial(vlm.LLaVA, model_path=LLAVA_V1_7B_MODEL_PTH),
     "sharegpt4v_7b": partial(vlm.LLaVA, model_path="Lin-Chen/ShareGPT4V-7B"),
@@ -1749,17 +1752,17 @@ deepseekvl_series = {
 
 deepseekvl2_series = {
     "deepseek_vl2_tiny": partial(
-        vlm.DeepSeekVL2, model_path="deepseek-ai/deepseek-vl2-tiny"
+        vlm.DeepSeekVL2, model_path="deepseek-ai/deepseek-vl2-tiny", use_vllm=True
     ),
     "deepseek_vl2_small": partial(
-        vlm.DeepSeekVL2, model_path="deepseek-ai/deepseek-vl2-small"
+        vlm.DeepSeekVL2, model_path="deepseek-ai/deepseek-vl2-small", use_vllm=True
     ),
     "deepseek_vl2": partial(vlm.DeepSeekVL2, model_path="deepseek-ai/deepseek-vl2"),
     "deepseek_vl2_int8": partial(
-        vlm.DeepSeekVL2, model_path="deepseek-ai/deepseek-vl2", load_in_8bit=True
+        vlm.DeepSeekVL2, model_path="deepseek-ai/deepseek-vl2", load_in_8bit=True, use_vllm=False
     ),
     "deepseek_vl2_int4": partial(
-        vlm.DeepSeekVL2, model_path="deepseek-ai/deepseek-vl2", load_in_4bit=True
+        vlm.DeepSeekVL2, model_path="deepseek-ai/deepseek-vl2", load_in_4bit=True, use_vllm=False
     ),
 }
 
@@ -1773,6 +1776,7 @@ janus_series = {
     "Janus-1.3B": partial(vlm.Janus, model_path="deepseek-ai/Janus-1.3B"),
     "Janus-Pro-1B": partial(vlm.Janus, model_path="deepseek-ai/Janus-Pro-1B"),
     "Janus-Pro-7B": partial(vlm.Janus, model_path="deepseek-ai/Janus-Pro-7B"),
+    "Janus-Pro-7B-4bit": partial(vlm.Janus, model_path="deepseek-ai/Janus-Pro-7B", load_in_4bit=True),
 }
 
 cogvlm_series = {
@@ -1880,6 +1884,10 @@ phi3_series = {
     ),
     "Phi-3.5-Vision": partial(
         vlm.Phi3_5Vision, model_path="microsoft/Phi-3.5-vision-instruct"
+    ),
+    "Phi-3.5-Vision-4bit": partial(
+        vlm.Phi3_5Vision, model_path="microsoft/Phi-3.5-vision-instruct",
+        load_in_4bit=True, attn_implementation="eager",
     ),
 }
 
@@ -2285,6 +2293,7 @@ gemma_series = {
 
     'Gemma4-E2B-it': partial(vlm.Gemma4, model_path='google/gemma-4-E2B-it'),
     'Gemma4-E4B-it': partial(vlm.Gemma4, model_path='google/gemma-4-E4B-it'),
+    'Gemma4-12B-it': partial(vlm.Gemma4, model_path='google/gemma-4-12B', use_vllm=False, use_auto_model=True),
     'Gemma4-31B-it': partial(vlm.Gemma4, model_path='google/gemma-4-31B-it'),
     'Gemma4-26B-A4B-it': partial(vlm.Gemma4, model_path='google/gemma-4-26B-A4B-it')
 }

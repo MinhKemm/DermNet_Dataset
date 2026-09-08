@@ -31,7 +31,7 @@ DRY_RUN=1 bash run_phase2.sh plan
 ## Chạy riêng một job
 
 ```bash
-bash run_phase2.sh full Vintern-1B-v2 DermNet_Val_4k-2_mac_relative
+bash run_phase2.sh full Vintern-1B-v2 DermNet_Val_VI
 ```
 
 ## Vá riêng Lesion Reasoning
@@ -39,7 +39,7 @@ bash run_phase2.sh full Vintern-1B-v2 DermNet_Val_4k-2_mac_relative
 ```bash
 bash run_phase2.sh patch \
   deepseek_vl2_tiny \
-  DermNet_Val_4k-2_mac_relative \
+  DermNet_Val_VI \
   /absolute/path/to/existing_result.xlsx
 ```
 

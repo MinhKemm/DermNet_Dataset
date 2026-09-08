@@ -204,6 +204,13 @@ class DeepSeekVL2(BaseModel):
             raise e
 
     def __init__(self, model_path='deepseek-ai/deepseek-vl2-tiny', load_in_4bit=False, load_in_8bit=False, **kwargs):
+        self.use_vllm = kwargs.pop('use_vllm', True)
+        if self.use_vllm:
+            if load_in_4bit or load_in_8bit:
+                raise ValueError('Quantized DeepSeek requires explicit use_vllm=False to preserve its precision')
+            from .deepseek_vllm_backend import DeepSeekVLLMBackend
+            self.vllm_backend = DeepSeekVLLMBackend(model_path, kwargs.get('max_new_tokens', 512))
+            return
         self.check_install()
 
         pass
@@ -320,6 +327,8 @@ class DeepSeekVL2(BaseModel):
         return conversation
 
     def generate_inner(self, message, dataset=None):
+        if self.use_vllm:
+            return self.vllm_backend.generate(message)
         conversation = self.prepare_inputs(message, dataset)
         from deepseek_vl2.utils.io import load_pil_images
         pil_images = load_pil_images(conversation)

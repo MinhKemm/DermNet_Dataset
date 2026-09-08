@@ -44,13 +44,15 @@ class LLaVA(BaseModel):
         else:
             model_name = get_model_name_from_path(model_path)
 
+        load_in_4bit = kwargs.pop('load_in_4bit', False)
         try:
             self.tokenizer, self.model, self.image_processor, self.context_len = (
                 load_pretrained_model(
                     model_path=model_path,
                     model_base=None,
                     model_name=model_name,
-                    device_map="cpu",
+                    device_map="cuda:0" if load_in_4bit else "cpu",
+                    load_4bit=load_in_4bit,
                 )
             )
         except Exception as err:
@@ -66,7 +68,8 @@ class LLaVA(BaseModel):
                 logging.critical("Unknown error when loading LLaVA model.")
             raise err
 
-        self.model = self.model.cuda()
+        if not load_in_4bit:
+            self.model = self.model.cuda()
         self.conv_mode = "llava_v1"
 
         kwargs_default = dict(

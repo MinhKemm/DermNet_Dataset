@@ -114,9 +114,19 @@ class Phi3_5Vision(BaseModel):
             logging.critical('Please install the latest version transformers.')
             raise e
 
+        load_in_4bit = kwargs.pop('load_in_4bit', False)
+        model_kwargs = {}
+        if load_in_4bit:
+            from transformers import BitsAndBytesConfig
+            model_kwargs['quantization_config'] = BitsAndBytesConfig(
+                load_in_4bit=True, bnb_4bit_quant_type='nf4',
+                bnb_4bit_compute_dtype=torch.bfloat16, bnb_4bit_use_double_quant=True,
+                llm_int8_skip_modules=['img_processor', 'vision_model', 'lm_head'],
+            )
+        attention = kwargs.pop('attn_implementation', 'flash_attention_2')
         model = AutoModelForCausalLM.from_pretrained(
             model_path, device_map='cuda', trust_remote_code=True, torch_dtype='auto',
-            _attn_implementation='flash_attention_2').eval()
+            _attn_implementation=attention, **model_kwargs).eval()
 
         # for best performance, use num_crops=4 for multi-frame, num_crops=16 for single-frame.
         processor = AutoProcessor.from_pretrained(model_path, trust_remote_code=True, num_crops=4)

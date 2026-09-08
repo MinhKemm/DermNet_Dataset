@@ -32,8 +32,22 @@ class Janus(BaseModel):
         self.vl_chat_processor = VLChatProcessor.from_pretrained(model_path)
         self.tokenizer = self.vl_chat_processor.tokenizer
 
-        model = AutoModelForCausalLM.from_pretrained(model_path, trust_remote_code=True)
-        self.model = model.to(torch.bfloat16).cuda().eval()
+        load_in_4bit = kwargs.pop('load_in_4bit', False)
+        if load_in_4bit:
+            from transformers import BitsAndBytesConfig
+            quantization_config = BitsAndBytesConfig(
+                load_in_4bit=True, bnb_4bit_quant_type='nf4',
+                bnb_4bit_compute_dtype=torch.bfloat16, bnb_4bit_use_double_quant=True,
+                llm_int8_skip_modules=['vision_model', 'aligner', 'gen_vision_model',
+                                      'gen_aligner', 'gen_head', 'lm_head'],
+            )
+            self.model = AutoModelForCausalLM.from_pretrained(
+                model_path, trust_remote_code=True, torch_dtype=torch.bfloat16,
+                device_map={'': 0}, quantization_config=quantization_config,
+            ).eval()
+        else:
+            model = AutoModelForCausalLM.from_pretrained(model_path, trust_remote_code=True)
+            self.model = model.to(torch.bfloat16).cuda().eval()
 
         torch.cuda.empty_cache()
         default_kwargs = dict(

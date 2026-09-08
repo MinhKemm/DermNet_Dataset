@@ -16,6 +16,17 @@ logger = get_logger(__name__)
 FAIL_MSG = 'Failed to obtain answer via API.'
 
 
+def _valid_cached_prediction(value):
+    if isinstance(value, dict) and 'prediction' in value:
+        value = value['prediction']
+    if value is None:
+        return False
+    text = str(value).strip()
+    return bool(text) and text.lower() not in {'nan', '<na>'} and not any(
+        marker in text.lower() for marker in ('failed to obtain answer', 'skip: image not found')
+    )
+
+
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', type=str, nargs='+', required=True)
@@ -105,6 +116,9 @@ def infer_data(model, model_name, work_dir, dataset, out_file, verbose=False, ap
     res = load(prev_file) if osp.exists(prev_file) else {}
     if osp.exists(out_file):
         res.update(load(out_file))
+
+    if retry_failed:
+        res = {key: value for key, value in res.items() if _valid_cached_prediction(value)}
 
     rank, world_size = get_rank_and_world_size()
     sheet_indices = list(range(rank, len(dataset), world_size))
@@ -234,7 +248,7 @@ def infer_data_job(
             data = load(result_file)
             results = {k: v for k, v in zip(data['index'], data['prediction'])}
             if retry_failed:
-                results = {k: v for k, v in results.items() if FAIL_MSG not in str(v)}
+                results = {k: v for k, v in results.items() if _valid_cached_prediction(v)}
             dump(results, prev_file)
         if world_size > 1:
             dist.barrier()

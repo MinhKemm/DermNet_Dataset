@@ -115,7 +115,7 @@ class Qwen3VLChat(Qwen3VLPromptMixin, BaseModel):
         max_gpu_mem = max(gpu_mems) if gpu_mems != [] else -1
         assert max_gpu_mem > 0
 
-        self.use_vllm = kwargs.get('use_vllm', False)
+        self.use_vllm = kwargs.get('use_vllm', not kwargs.get('use_lmdeploy', False))
         self.use_lmdeploy = kwargs.get('use_lmdeploy', False)
         self.limit_mm_per_prompt = VLLM_MAX_IMAGE_INPUT_NUM
         os.environ['VLLM_WORKER_MULTIPROC_METHOD'] = 'spawn'
@@ -141,12 +141,12 @@ class Qwen3VLChat(Qwen3VLPromptMixin, BaseModel):
                 limit_mm = {"image": self.limit_mm_per_prompt}
             self.llm = LLM(
                 model=self.model_path,
-                max_num_seqs=8,
+                max_num_seqs=kwargs.get('max_num_seqs', 1),
                 limit_mm_per_prompt=limit_mm,
                 tensor_parallel_size=tp_size,
                 enable_expert_parallel=enable_expert_parallel,
                 seed=0,
-                gpu_memory_utilization=kwargs.get("gpu_utils", 0.9),
+                gpu_memory_utilization=kwargs.get("gpu_utils", float(os.environ.get('DERMNET_VLLM_GPU_UTIL', '0.80'))),
                 trust_remote_code=True,
             )
         else:

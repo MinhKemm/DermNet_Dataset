@@ -1,5 +1,7 @@
 # Rà soát cách trả lời và Lesion Reasoning
 
+Kế hoạch full/patch mới nhất xem [RESULTS_PATCH_AUDIT.md](RESULTS_PATCH_AUDIT.md) và README root. Các mô tả kế hoạch cũ bên dưới ghi lại giai đoạn rà soát trước khi xác định chính xác 27 Excel nguồn.
+
 ## Kết luận
 
 Đã sửa luồng tạo prompt theo cột `type` và bổ sung lại lệnh patch an toàn. Kiểm thử cục bộ kiểm chứng việc xây prompt, hợp đồng đáp án đóng, tách/gộp reasoning và giữ nguyên kết quả gốc khi patch lỗi. Chưa chạy suy luận bằng trọng số model trên GPU; chưa thể kết luận model luôn tuân thủ prompt hoặc trả lời đúng chuyên môn.
@@ -38,7 +40,7 @@
 
 1. Có ít nhất 39 câu gốc chứa “chẩn đoán Có/Không”, xuất hiện tương ứng ở cả Việt và Anh: 4 câu Val, 35 câu Test. Ví dụ Val index 514: “Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?” nhưng đáp án là Có. Cần đối chiếu nguồn tạo câu hỏi để khôi phục tên bệnh; không suy đoán từ đáp án nhị phân. Val có index 514, 1707, 1710, 3408.
 2. Chất lượng dịch còn có dấu hiệu lỗi, ví dụ cụm “Atypical melanocytic nodule flies”. Kiểm tra định dạng không chứng minh nội dung dịch đúng.
-3. Đã cập nhật `all/resume` về kế hoạch cũ: 8 lượt full Việt và 8 lượt patch Việt, lọc theo GPU nếu dùng auto. Các file kết quả cũ cần được chép lên server trước khi chạy; thiếu file sẽ dừng trước inference. Các lượt tiếng Anh gọi riêng bằng lệnh full. Mặc định thiếu ảnh cũng dừng, chỉ bỏ dòng khi chủ động chọn skip.
+3. `all/resume` gồm kế hoạch cũ cộng HuatuoGPT-Vision 7B/34B: 12 lượt full Việt và 8 lượt patch Việt, lọc theo GPU nếu dùng auto. Các file kết quả cũ cần được chép lên server trước khi chạy; thiếu file sẽ dừng trước inference. Các lượt tiếng Anh gọi riêng bằng lệnh full. Mặc định thiếu ảnh cũng dừng, chỉ bỏ dòng khi chủ động chọn skip.
 4. `CustomVQADataset.evaluate` chưa có triển khai chấm điểm; runner đang dùng `--mode infer`. File prediction hoàn thành không đồng nghĩa đã có đánh giá độ đúng. Các score cũ của dòng được vá phải chấm lại.
 5. Prompt là hướng dẫn cho model, không bảo đảm tuyệt đối đầu ra hợp lệ. Cần chạy mẫu trên server cho mỗi model × type × ngôn ngữ rồi kiểm tra prediction thực tế trước lượt chạy lớn.
 
@@ -58,3 +60,9 @@ bash run_phase2.sh patch deepseek_vl2_tiny DermNet_Val_4k-2_mac_relative /absolu
 ```
 
 Kiểm thử cục bộ không thay thế việc chạy mẫu với trọng số model trên server GPU.
+
+## Kiểm tra đường dẫn và merge bản gốc
+
+Script cũ `3544df70` lấy Excel qua tham số thứ tư, tách mini TSV, chạy model tạo kết quả riêng rồi `df_goc.update(df_moi)` vào Excel gốc. Script hiện gọi prepare/inference/merge trong chính `run_phase2.sh`; tiện ích Python thực hiện việc xử lý bảng.
+
+Hiện giữ nguyên Excel nguồn, ghi kết quả merge vào `patch-work/<job>/merged/`. Đường dẫn mặc định được lấy đúng từ README cũ, không trỏ vào file Reasoning_Fix. Kiểm tra checkout hiện tại cho thấy cả 8 file nguồn mặc định đều chưa có; cần cấp `LEGACY_RESULTS_DIR` tới bộ Excel chưa vá thực tế. Tên file không đủ chứng minh nguồn chưa bị sửa.

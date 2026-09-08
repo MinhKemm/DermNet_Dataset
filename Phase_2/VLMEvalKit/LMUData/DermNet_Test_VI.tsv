@@ -4442,7 +4442,7 @@ C. Nốt ruồi hắc tố bẩm sinh
 D. Atopic viêm da"	D	Diagnosis	Multi_choice
 2413	../../dermnet-output/images/Atopic dermatitis/flexural-eczema13.jpg	Dựa trên màu Hồng nhạt; hình thái/ranh giới Không đều; đặc điểm Dày da và Mờ nhạt, tổn thương được biện luận là ____.	Mảng	Lesion_Reasoning	Fill_in_blank
 2414	../../dermnet-output/images/Atopic dermatitis/flexural-eczema14.jpg	Quan sát bức ảnh, loại tổn thương thực thể chính quan sát được là ____.	Mảng	Lesion_Recognition	Fill_in_blank
-2415	../../dermnet-output/images/Atopic dermatitis/flexural-eczema14.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+2415	../../dermnet-output/images/Atopic dermatitis/flexural-eczema14.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Atopic dermatitis. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 2416	../../dermnet-output/images/Atopic dermatitis/flexural-eczema15.jpg	Trong ảnh được cung cấp, hình dạng hoặc ranh giới tổn thương có đặc điểm Ranh giới rõ không?	Không	Attribute_Shape	Judgement
 2417	../../dermnet-output/images/Atopic dermatitis/flexural-eczema15.jpg	Trong hình ảnh này, vị trí giải phẫu và/hoặc phân bố được ghi nhận là ____.	Cẳng tay và Lan tỏa	Anatomical_Distribution	Fill_in_blank
 2418	../../dermnet-output/images/Atopic dermatitis/flexural-eczema16.jpg	Quan sát bức ảnh, tổn thương thực thể chính có phải là Bóng nước không?	Không	Lesion_Recognition	Judgement
@@ -4457,7 +4457,7 @@ D. Rải rác"	AD	Attribute_Characteristics	Multi_choice
 2423	../../dermnet-output/images/Atopic dermatitis/flexural-eczema17.jpg	Dựa trên màu Đỏ; hình thái/ranh giới Tròn nhỏ; đặc điểm Trợt xước và Rải rác, nhận định tổn thương chính thuộc nhóm Sẩn và Mảng là phù hợp.	Có	Lesion_Reasoning	Judgement
 2424	../../dermnet-output/images/Atopic dermatitis/flexural-eczema18.jpg	Dựa vào hình ảnh trên, tổn thương thực thể chính có phải là Nốt không?	Không	Lesion_Recognition	Judgement
 2425	../../dermnet-output/images/Atopic dermatitis/flexural-eczema18.jpg	Dựa vào hình ảnh trên, hình dạng hoặc ranh giới của tổn thương được mô tả như thế nào?	Không đều	Attribute_Shape	Short_answer
-2426	../../dermnet-output/images/Atopic dermatitis/flexural-eczema18.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+2426	../../dermnet-output/images/Atopic dermatitis/flexural-eczema18.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Atopic dermatitis. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 2427	../../dermnet-output/images/Atopic dermatitis/flexural-eczema19.jpg	"Quan sát bức ảnh, loại tổn thương thực thể nào xuất hiện trong ảnh?
 A. Mụn mủ
 B. Sẩn
@@ -4477,7 +4477,7 @@ A. Hồng
 B. Đỏ
 C. Trắng
 D. Xanh tím"	AB	Attribute_Color	Multi_choice
-2434	../../dermnet-output/images/Atopic dermatitis/flexural-eczema23.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+2434	../../dermnet-output/images/Atopic dermatitis/flexural-eczema23.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Atopic dermatitis. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 2435	../../dermnet-output/images/Atopic dermatitis/flexural-eczema24.jpg	Quan sát bức ảnh, tổn thương thực thể chính có phải là Sẩn phù không?	Không	Lesion_Recognition	Judgement
 2436	../../dermnet-output/images/Atopic dermatitis/flexural-eczema24.jpg	Quan sát bức ảnh, hình dạng hoặc ranh giới tổn thương có đặc điểm Ranh giới rõ không?	Không	Attribute_Shape	Judgement
 2437	../../dermnet-output/images/Atopic dermatitis/flexural-eczema24.jpg	Dựa vào hình ảnh trên, vị trí giải phẫu và/hoặc phân bố được ghi nhận là ____.	Nếp gấp và Khu trú	Anatomical_Distribution	Fill_in_blank
@@ -7202,7 +7202,7 @@ D. cong móc"	D	Attribute_Shape	Multi_choice
 3876	../../dermnet-output/images/Cutaneous horn/horn-11.jpg	Trong hình ảnh này, loại tổn thương thực thể chính là gì?	sừng da	Lesion_Recognition	Short_answer
 3877	../../dermnet-output/images/Cutaneous horn/horn-11.jpg	Quan sát bức ảnh, tổn thương có màu vàng nhạt không?	Có	Attribute_Color	Judgement
 3878	../../dermnet-output/images/Cutaneous horn/horn-11.jpg	Trong hình ảnh này, vị trí giải phẫu và/hoặc phân bố được ghi nhận là ____.	da đầu và đơn độc	Anatomical_Distribution	Fill_in_blank
-3879	../../dermnet-output/images/Cutaneous horn/horn-11.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+3879	../../dermnet-output/images/Cutaneous horn/horn-11.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Cutaneous horn. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 3880	../../dermnet-output/images/Cutaneous horn/horn-11.jpg	Dựa trên màu vàng nhạt; hình thái/ranh giới nhú sừng; đặc điểm quầng đỏ, nhận định tổn thương chính thuộc nhóm sừng da là phù hợp.	Có	Lesion_Reasoning	Judgement
 3881	../../dermnet-output/images/Cutaneous horn/horn-12.jpg	Trong hình ảnh này, tổn thương có màu xanh xám không?	Có	Attribute_Color	Judgement
 3882	../../dermnet-output/images/Cutaneous horn/horn-12.jpg	Quan sát bức ảnh, hình dạng hoặc ranh giới của tổn thương được mô tả như thế nào?	cong ngang	Attribute_Shape	Short_answer
@@ -13874,7 +13874,7 @@ C. Tròn
 D. diện rộng"	BD	Attribute_Shape	Multi_choice
 7513	../../dermnet-output/images/Ichthyosis/keratinopathic-ichthyosis-0001.jpg	Dựa trên màu đỏ hồng và trắng ngà; hình thái/ranh giới mảng không đều và diện rộng; đặc điểm da bóng ướt và vảy da bong, nhận định tổn thương chính thuộc nhóm trợt da và bong thượng bì là phù hợp.	Có	Lesion_Reasoning	Judgement
 7514	../../dermnet-output/images/Ichthyosis/keratinopathic-ichthyosis-0002.jpg	Trong hình ảnh này, tổn thương thực thể chính có phải là trợt da, bong thượng bì và bọng nước vỡ không?	Có	Lesion_Recognition	Judgement
-7515	../../dermnet-output/images/Ichthyosis/keratinopathic-ichthyosis-0002.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+7515	../../dermnet-output/images/Ichthyosis/keratinopathic-ichthyosis-0002.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Ichthyosis. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 7516	../../dermnet-output/images/Ichthyosis/keratinopathic-ichthyosis-0003.jpg	Dựa vào hình ảnh trên, loại tổn thương thực thể chính quan sát được là ____.	bọng nước, trợt da và bong vảy lá	Lesion_Recognition	Fill_in_blank
 7517	../../dermnet-output/images/Ichthyosis/keratinopathic-ichthyosis-0004.jpg	Dựa trên màu vàng và trắng ngà; hình thái/ranh giới mảng dày sừng, nứt kẽ và vảy phiến; đặc điểm dày da và khô da, tổn thương được biện luận là ____.	tăng sừng	Lesion_Reasoning	Fill_in_blank
 7518	../../dermnet-output/images/Ichthyosis/keratinopathic-ichthyosis-0005.jpg	"Trong hình ảnh này, đặc điểm hình dạng/ranh giới nào phù hợp với tổn thương?
@@ -15153,7 +15153,7 @@ A. Đóng mày
 B. Lõm giữa
 C. Bờ gồ nhẹ
 D. Dịch tiết"	ACD	Attribute_Characteristics	Multi_choice
-8202	../../dermnet-output/images/Leishmaniasis/cutaneous-leishmaniasis-02-v2.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8202	../../dermnet-output/images/Leishmaniasis/cutaneous-leishmaniasis-02-v2.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Leishmaniasis. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8203	../../dermnet-output/images/Leishmaniasis/cutaneous-leishmaniasis-04-v2.jpg	Quan sát bức ảnh, vị trí/phân bố của tổn thương có phải là Đối xứng không?	Không	Anatomical_Distribution	Judgement
 8204	../../dermnet-output/images/Leishmaniasis/cutaneous-leishmaniasis-04-v2.jpg	Trong ảnh được cung cấp, chẩn đoán bệnh da liễu phù hợp là gì?	bệnh leishmania	Diagnosis	Short_answer
 8205	../../dermnet-output/images/Leishmaniasis/cutaneous-leishmaniasis-05-v2.jpg	"Trong ảnh được cung cấp, loại tổn thương thực thể nào xuất hiện trong ảnh?
@@ -15275,7 +15275,7 @@ B. Loét trợt
 C. Mụn nước
 D. Vết loét"	AB	Lesion_Recognition	Multi_choice
 8267	../../dermnet-output/images/Leishmaniasis/leishmaniasis8.jpg	Trong hình ảnh này, màu sắc nổi bật của tổn thương được ghi nhận là ____.	Đỏ hồng, Nâu đen và Vàng nâu	Attribute_Color	Fill_in_blank
-8268	../../dermnet-output/images/Leishmaniasis/leishmaniasis8.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8268	../../dermnet-output/images/Leishmaniasis/leishmaniasis8.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Leishmaniasis. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8269	../../dermnet-output/images/Leishmaniasis/leishmaniasis9.jpg	Dựa vào hình ảnh trên, tổn thương thực thể chính có phải là Mảng trợt loét và Mảng hồng ban không?	Có	Lesion_Recognition	Judgement
 8270	../../dermnet-output/images/Leishmaniasis/leishmaniasis9.jpg	Trong hình ảnh này, hình dạng hoặc ranh giới tổn thương có đặc điểm Hình bầu dục, Ranh giới rõ và Bất quy tắc không?	Có	Attribute_Shape	Judgement
 8271	../../dermnet-output/images/Leishmaniasis/leishmaniasis9.jpg	Trong hình ảnh này, đặc điểm lâm sàng bổ sung của tổn thương là ____.	Đóng vảy tiết, Bề mặt ẩm và Bóng ướt	Attribute_Characteristics	Fill_in_blank
@@ -15492,7 +15492,7 @@ C. sẩn
 D. Mảng hồng ban"	AD	Lesion_Recognition	Multi_choice
 8387	../../dermnet-output/images/Lichen planus/3067.jpg	Trong ảnh được cung cấp, Màu sắc của tổn thương trong ảnh là gì?	Hồng tím, Đỏ hồng, Trắng xám	Attribute_Color	Short_answer
 8388	../../dermnet-output/images/Lichen planus/3067.jpg	"Trong ảnh được cung cấp, Tổn thương có đặc điểm ""gan bàn tay, đối xứng"". Nhận định này có đúng không?"	Không	Anatomical_Distribution	Judgement
-8389	../../dermnet-output/images/Lichen planus/3067.jpg	Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8389	../../dermnet-output/images/Lichen planus/3067.jpg	Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8390	../../dermnet-output/images/Lichen planus/3068.jpg	"Dựa vào hình ảnh trên, Màu sắc của tổn thương trong ảnh là gì?
 A. Trắng bạc
 B. Đỏ hồng
@@ -15508,7 +15508,7 @@ D. Phân bố nang lông"	BCD	Attribute_Characteristics	Multi_choice
 8394	../../dermnet-output/images/Lichen planus/3071.jpg	Quan sát bức ảnh, Chẩn đoán phù hợp nhất với hình ảnh là ____.	Có	Diagnosis	Fill_in_blank
 8395	../../dermnet-output/images/Lichen planus/3071.jpg	Dựa trên màu Đỏ tươi và Trắng xám; hình thái/ranh giới Bất quy tắc và Không đều; đặc điểm Bề mặt ướt và Giả mạc, tổn thương được biện luận là ____.	Mảng trợt	Lesion_Reasoning	Fill_in_blank
 8396	../../dermnet-output/images/Lichen planus/3072.jpg	Trong hình ảnh này, Vị trí và phân bố tổn thương là ____.	Mu bàn tay, Khu trú, Rải rác	Anatomical_Distribution	Fill_in_blank
-8397	../../dermnet-output/images/Lichen planus/3072.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8397	../../dermnet-output/images/Lichen planus/3072.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8398	../../dermnet-output/images/Lichen planus/3073.jpg	Quan sát bức ảnh, Đặc điểm hình dạng hoặc ranh giới của tổn thương là gì?	Hình tròn, Hình bầu dục, Ranh giới rõ	Attribute_Shape	Short_answer
 8399	../../dermnet-output/images/Lichen planus/3073.jpg	"Trong hình ảnh này, Tổn thương có đặc điểm ""vảy mỏng"". Nhận định này có đúng không?"	Không	Attribute_Characteristics	Judgement
 8400	../../dermnet-output/images/Lichen planus/3073.jpg	"Dựa vào hình ảnh trên, Vị trí giải phẫu và phân bố của tổn thương là gì?
@@ -15534,7 +15534,7 @@ D. thân mình, lan tỏa"	C	Anatomical_Distribution	Multi_choice
 8412	../../dermnet-output/images/Lichen planus/3081.jpg	Dựa vào hình ảnh trên, Màu sắc của tổn thương trong ảnh là gì?	Nâu nhạt, Nâu xám	Attribute_Color	Short_answer
 8413	../../dermnet-output/images/Lichen planus/3081.jpg	"Dựa vào hình ảnh trên, Tổn thương có đặc điểm ""đối xứng"". Nhận định này có đúng không?"	Không	Attribute_Shape	Judgement
 8414	../../dermnet-output/images/Lichen planus/3081.jpg	Trong ảnh được cung cấp, Vị trí và phân bố tổn thương là ____.	Gáy, Nếp cổ, Khu trú	Anatomical_Distribution	Fill_in_blank
-8415	../../dermnet-output/images/Lichen planus/3082.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8415	../../dermnet-output/images/Lichen planus/3082.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8416	../../dermnet-output/images/Lichen planus/3083.jpg	Dựa vào hình ảnh trên, Loại tổn thương phù hợp là ____.	Mảng tăng sắc tố	Lesion_Recognition	Fill_in_blank
 8417	../../dermnet-output/images/Lichen planus/3083.jpg	Những dấu hiệu hình thái nào ủng hộ loại tổn thương Mảng tăng sắc tố?	Bất quy tắc; màu Nâu đỏ; Bong vảy mịn.	Lesion_Reasoning	Short_answer
 8418	../../dermnet-output/images/Lichen planus/3084.jpg	Dựa vào hình ảnh trên, Màu sắc nổi bật của tổn thương là ____.	Đỏ hồng, Đỏ nhạt	Attribute_Color	Fill_in_blank
@@ -15591,7 +15591,7 @@ D. vảy nến"	B	Diagnosis	Multi_choice
 8437	../../dermnet-output/images/Lichen planus/3091.jpg	Trong hình ảnh này, Màu sắc của tổn thương trong ảnh là gì?	Trắng xám, Đỏ hồng	Attribute_Color	Short_answer
 8438	../../dermnet-output/images/Lichen planus/3091.jpg	"Trong hình ảnh này, Tổn thương có đặc điểm ""không đều"". Nhận định này có đúng không?"	Không	Attribute_Shape	Judgement
 8439	../../dermnet-output/images/Lichen planus/3091.jpg	Dựa vào hình ảnh trên, Vị trí và phân bố tổn thương là ____.	Niêm mạc má, Khu trú	Anatomical_Distribution	Fill_in_blank
-8440	../../dermnet-output/images/Lichen planus/3091.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8440	../../dermnet-output/images/Lichen planus/3091.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8441	../../dermnet-output/images/Lichen planus/3092.jpg	Trong hình ảnh này, Loại tổn thương phù hợp là ____.	Mảng hồng ban, Mảng mất gai	Lesion_Recognition	Fill_in_blank
 8442	../../dermnet-output/images/Lichen planus/3092.jpg	"Trong hình ảnh này, Đặc điểm lâm sàng chi tiết của tổn thương là gì?
 A. vảy mỏng
@@ -15637,7 +15637,7 @@ C. mụn trứng cá
 D. vảy nến"	A	Diagnosis	Multi_choice
 8460	../../dermnet-output/images/Lichen planus/3101.jpg	Dựa trên màu Đỏ hồng và Trắng bạc; hình thái/ranh giới Bất quy tắc và Ranh giới rõ; đặc điểm Bong vảy và Vảy dày, nhận định tổn thương chính thuộc nhóm Mảng hồng ban và Sẩn đỏ là phù hợp.	Có	Lesion_Reasoning	Judgement
 8461	../../dermnet-output/images/Lichen planus/3102.jpg	Dựa vào hình ảnh trên, Vị trí và phân bố tổn thương là ____.	Cổ tay, Mặt gấp, Rải rác	Anatomical_Distribution	Fill_in_blank
-8462	../../dermnet-output/images/Lichen planus/3102.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8462	../../dermnet-output/images/Lichen planus/3102.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8463	../../dermnet-output/images/Lichen planus/3102.jpg	Dựa trên màu Đỏ hồng và Đỏ tươi; hình thái/ranh giới Hình tròn, Hình bầu dục và Ranh giới rõ; đặc điểm Trợt xước và Đóng mày nhỏ, nhận định tổn thương chính thuộc nhóm Sẩn đỏ và Mụn nước nhỏ là phù hợp.	Có	Lesion_Reasoning	Judgement
 8464	../../dermnet-output/images/Lichen planus/3104.jpg	"Trong hình ảnh này, Tổn thương có đặc điểm ""Ban xuất huyết"". Nhận định này có đúng không?"	Có	Lesion_Recognition	Judgement
 8465	../../dermnet-output/images/Lichen planus/3104.jpg	Trong ảnh được cung cấp, Vị trí và phân bố tổn thương là ____.	Cẳng chân, Hai bên, Không đều	Anatomical_Distribution	Fill_in_blank
@@ -15868,7 +15868,7 @@ B. tròn
 C. bầu dục
 D. Bất quy tắc"	AD	Attribute_Shape	Multi_choice
 8580	../../dermnet-output/images/Lichen planus/lichen-planus-nail-017.jpg	"Trong ảnh được cung cấp, Tổn thương có đặc điểm ""Móng giòn"". Nhận định này có đúng không?"	Có	Attribute_Characteristics	Judgement
-8581	../../dermnet-output/images/Lichen planus/lichen-planus-nail-017.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8581	../../dermnet-output/images/Lichen planus/lichen-planus-nail-017.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8582	../../dermnet-output/images/Lichen planus/lichen-planus-nail-017.jpg	Dựa trên màu Trắng đục và Vàng nhạt; hình thái/ranh giới Dải dọc và Bất quy tắc; đặc điểm Bề mặt sần và Móng giòn, tổn thương được biện luận là ____.	Loạn dưỡng móng	Lesion_Reasoning	Fill_in_blank
 8583	../../dermnet-output/images/Lichen planus/lichen-planus-nail-019.jpg	Trong ảnh được cung cấp, Loại tổn thương phù hợp là ____.	Tách móng đầu xa, Mảng trắng móng	Lesion_Recognition	Fill_in_blank
 8584	../../dermnet-output/images/Lichen planus/lichen-planus-nail-019.jpg	Dựa vào hình ảnh trên, Đặc điểm hình dạng/ranh giới phù hợp là ____.	Dải ngang, Bờ cong, Ranh giới rõ	Attribute_Shape	Fill_in_blank
@@ -15938,7 +15938,7 @@ A. Nâu sẫm
 B. đỏ
 C. Nâu đen
 D. hồng"	AC	Attribute_Color	Multi_choice
-8607	../../dermnet-output/images/Lichen planus/lichen-planus-nail-031.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8607	../../dermnet-output/images/Lichen planus/lichen-planus-nail-031.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8608	../../dermnet-output/images/Lichen planus/lichen-planus-nail-032.jpg	Trong ảnh được cung cấp, Loại tổn thương phù hợp là ____.	Biến đổi móng, Rãnh dọc móng, Đổi màu móng	Lesion_Recognition	Fill_in_blank
 8609	../../dermnet-output/images/Lichen planus/lichen-planus-nail-032.jpg	"Trong ảnh được cung cấp, Đặc điểm hình dạng hoặc ranh giới của tổn thương là gì?
 A. Đường dọc
@@ -15949,7 +15949,7 @@ D. Song song"	ACD	Attribute_Shape	Multi_choice
 8611	../../dermnet-output/images/Lichen planus/lichen-planus-nail-033.jpg	"Trong hình ảnh này, Tổn thương có đặc điểm ""Rãnh móng dọc"". Nhận định này có đúng không?"	Có	Lesion_Recognition	Judgement
 8612	../../dermnet-output/images/Lichen planus/lichen-planus-nail-033.jpg	"Dựa vào hình ảnh trên, Tổn thương có đặc điểm ""thân mình, lan tỏa"". Nhận định này có đúng không?"	Không	Anatomical_Distribution	Judgement
 8613	../../dermnet-output/images/Lichen planus/lichen-planus-nail-033.jpg	Những dấu hiệu hình thái nào ủng hộ loại tổn thương Loạn dưỡng móng và Rãnh móng dọc?	Dạng dọc; màu Hồng đỏ; Bề mặt gồ.	Lesion_Reasoning	Short_answer
-8614	../../dermnet-output/images/Lichen planus/lichen-planus-nail-035.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8614	../../dermnet-output/images/Lichen planus/lichen-planus-nail-035.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8615	../../dermnet-output/images/Lichen planus/lichen-planus-nail-035.jpg	Những dấu hiệu hình thái nào ủng hộ loại tổn thương Mảng hồng ban và Dày sừng?	Bất quy tắc; màu Đỏ hồng; Bong vảy.	Lesion_Reasoning	Short_answer
 8616	../../dermnet-output/images/Lichen planus/lichen-planus-nail-036.jpg	"Trong hình ảnh này, Tổn thương có đặc điểm ""Bất quy tắc"". Nhận định này có đúng không?"	Có	Attribute_Shape	Judgement
 8617	../../dermnet-output/images/Lichen planus/lichen-planus-nail-036.jpg	"Trong hình ảnh này, Đặc điểm lâm sàng chi tiết của tổn thương là gì?
@@ -16117,7 +16117,7 @@ D. Vân trắng"	AD	Attribute_Characteristics	Multi_choice
 8699	../../dermnet-output/images/Lichen planus/oral-lichen-planus-0003.jpg	Dựa trên màu Trắng ngà và Đỏ hồng; hình thái/ranh giới Dạng lưới, Bất quy tắc và Ranh giới mờ; đặc điểm Vân trắng và Bề mặt bóng, tổn thương được biện luận là ____.	Mảng trắng	Lesion_Reasoning	Fill_in_blank
 8700	../../dermnet-output/images/Lichen planus/oral-lichen-planus-0004.jpg	"Trong hình ảnh này, Tổn thương có đặc điểm ""Đỏ hồng"". Nhận định này có đúng không?"	Có	Attribute_Color	Judgement
 8701	../../dermnet-output/images/Lichen planus/oral-lichen-planus-0004.jpg	"Dựa vào hình ảnh trên, Tổn thương có đặc điểm ""Ranh giới không đều"". Nhận định này có đúng không?"	Có	Attribute_Shape	Judgement
-8702	../../dermnet-output/images/Lichen planus/oral-lichen-planus-0004.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8702	../../dermnet-output/images/Lichen planus/oral-lichen-planus-0004.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8703	../../dermnet-output/images/Lichen planus/oral-lichen-planus-0004.jpg	Dựa trên màu Trắng ngà và Đỏ hồng; hình thái/ranh giới Dạng lưới, Dạng ren và Ranh giới không đều; đặc điểm Vân trắng và Bề mặt ẩm, tổn thương được biện luận là ____.	Mảng trắng	Lesion_Reasoning	Fill_in_blank
 8704	../../dermnet-output/images/Lichen planus/oral-lichen-planus-0005.jpg	"Quan sát bức ảnh, Tổn thương có đặc điểm ""mảng dày sừng"". Nhận định này có đúng không?"	Không	Lesion_Recognition	Judgement
 8705	../../dermnet-output/images/Lichen planus/oral-lichen-planus-0005.jpg	Trong hình ảnh này, Đặc điểm lâm sàng chi tiết phù hợp là ____.	Bề mặt bóng, Mảng bám, Gai lưỡi nổi	Attribute_Characteristics	Fill_in_blank
@@ -16407,7 +16407,7 @@ D. Ranh giới mờ"	BD	Attribute_Shape	Multi_choice
 8849	../../dermnet-output/images/Lichen simplex/lichen-simplex-0017.jpg	Dựa vào hình ảnh trên, hình dạng hoặc ranh giới tổn thương có đặc điểm Bất quy tắc, Bầu dục và Ranh giới mờ không?	Có	Attribute_Shape	Judgement
 8850	../../dermnet-output/images/Lichen simplex/lichen-simplex-0017.jpg	Dựa vào hình ảnh trên, đặc điểm lâm sàng chi tiết của tổn thương là gì?	Da bóng và Dày da	Attribute_Characteristics	Short_answer
 8851	../../dermnet-output/images/Lichen simplex/lichen-simplex-0017.jpg	Dựa vào hình ảnh trên, hãy cho biết vị trí giải phẫu và kiểu phân bố của tổn thương.	Cẳng chân, Mặt trước cẳng chân và Khu trú	Anatomical_Distribution	Short_answer
-8852	../../dermnet-output/images/Lichen simplex/lichen-simplex-0017.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+8852	../../dermnet-output/images/Lichen simplex/lichen-simplex-0017.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Lichen simplex. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 8853	../../dermnet-output/images/Lichen simplex/lichen-simplex-0018.jpg	Quan sát bức ảnh, tổn thương có đặc điểm lâm sàng Giãn mạch không?	Không	Attribute_Characteristics	Judgement
 8854	../../dermnet-output/images/Lichen simplex/lichen-simplex-0019.jpg	Trong hình ảnh này, tổn thương có màu Hồng không?	Không	Attribute_Color	Judgement
 8855	../../dermnet-output/images/Lichen simplex/lichen-simplex-0019.jpg	Quan sát bức ảnh, hình dạng hoặc ranh giới tổn thương có đặc điểm Đa cung không?	Không	Attribute_Shape	Judgement
@@ -16917,7 +16917,7 @@ A. Hạt kê dạng keo
 B. Lao da
 C. Da cẩm thạch giãn mạch bẩm sinh
 D. sởi"	D	Diagnosis	Multi_choice
-9122	../../dermnet-output/images/Measles/measles.jpg	Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+9122	../../dermnet-output/images/Measles/measles.jpg	Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Measles. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 9123	../../dermnet-output/images/Measles/measles01.jpg	Dựa vào hình ảnh trên, loại tổn thương thực thể chính là gì?	Mảng hồng ban và Vết trợt	Lesion_Recognition	Short_answer
 9124	../../dermnet-output/images/Measles/measles01.jpg	"Trong hình ảnh này, màu sắc nào được ghi nhận ở tổn thương?
 A. Đỏ nhạt
@@ -16982,7 +16982,7 @@ D. Gồ cao"	B	Attribute_Characteristics	Multi_choice
 9160	../../dermnet-output/images/Measles/measles16.jpg	Dựa vào hình ảnh trên, hãy cho biết vị trí giải phẫu và kiểu phân bố của tổn thương.	Cẳng tay, Lan tỏa và Rải rác	Anatomical_Distribution	Short_answer
 9161	../../dermnet-output/images/Measles/measles16.jpg	Dựa trên màu Đỏ tươi và Đỏ nâu; hình thái/ranh giới Chấm nhỏ, Bất quy tắc và Ranh giới mờ; đặc điểm Hợp lưu từng đám, nhận định tổn thương chính thuộc nhóm Chấm xuất huyết và Dát xuất huyết là phù hợp.	Có	Lesion_Reasoning	Judgement
 9162	../../dermnet-output/images/Measles/measles17.jpg	Dựa vào hình ảnh trên, vị trí/phân bố của tổn thương có phải là Cẳng tay, Lan tỏa và Rải rác không?	Có	Anatomical_Distribution	Judgement
-9163	../../dermnet-output/images/Measles/measles17.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+9163	../../dermnet-output/images/Measles/measles17.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Measles. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 9164	../../dermnet-output/images/Measles/measles18.jpg	Dựa vào hình ảnh trên, Đặc điểm lâm sàng chi tiết của tổn thương là gì?	Bong vảy mịn, Vảy mỏng	Attribute_Characteristics	Short_answer
 9165	../../dermnet-output/images/Measles/measles18.jpg	Trong hình ảnh này, vị trí/phân bố của tổn thương có phải là Rải rác không?	Không	Anatomical_Distribution	Judgement
 9166	../../dermnet-output/images/Measles/measles19.jpg	Trong hình ảnh này, tổn thương có đặc điểm lâm sàng Giãn mạch không?	Không	Attribute_Characteristics	Judgement
@@ -17692,7 +17692,7 @@ D. sẩn"	AB	Lesion_Recognition	Multi_choice
 9558	../../dermnet-output/images/Melanoma/Desmoplastic-melanoma-2-1-v2.jpg	Trong ảnh được cung cấp, Loại tổn thương phù hợp là ____.	Dát tăng sắc tố, Mảng lõm	Lesion_Recognition	Fill_in_blank
 9559	../../dermnet-output/images/Melanoma/Desmoplastic-melanoma-2-2-2-v2.jpg	Trong hình ảnh này, Loại tổn thương phù hợp là ____.	Mảng giảm sắc tố, Mảng hồng nhạt	Lesion_Recognition	Fill_in_blank
 9560	../../dermnet-output/images/Melanoma/Desmoplastic-melanoma-2-2-2-v2.jpg	"Quan sát bức ảnh, Tổn thương có đặc điểm ""Ranh giới mờ"". Nhận định này có đúng không?"	Có	Attribute_Shape	Judgement
-9561	../../dermnet-output/images/Melanoma/Desmoplastic-melanoma-2-2-2-v2.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+9561	../../dermnet-output/images/Melanoma/Desmoplastic-melanoma-2-2-2-v2.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Acral lentiginous melanoma. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 9562	../../dermnet-output/images/Melanoma/Desmoplastic-melanoma-2.jpg	Dựa vào hình ảnh trên, Đặc điểm lâm sàng chi tiết phù hợp là ____.	Bề mặt nhẵn, Gồ cao	Attribute_Characteristics	Fill_in_blank
 9563	../../dermnet-output/images/Melanoma/Desmoplastic-melanoma-2.jpg	Trong ảnh được cung cấp, Chẩn đoán phù hợp nhất với hình ảnh là ____.	Không	Diagnosis	Fill_in_blank
 9564	../../dermnet-output/images/Melanoma/Desmoplastic-melanoma-2.jpg	Những dấu hiệu hình thái nào ủng hộ loại tổn thương Sẩn và Nốt nhỏ?	Hình tròn; màu Hồng; Bề mặt nhẵn.	Lesion_Reasoning	Short_answer
@@ -17723,7 +17723,7 @@ B. Bất quy tắc
 C. Ranh giới không đều
 D. Hình tròn"	BCD	Attribute_Shape	Multi_choice
 9579	../../dermnet-output/images/Melanoma/mel-desmo1.jpg	"Dựa vào hình ảnh trên, Tổn thương có đặc điểm ""Chấm đỏ nhỏ"". Nhận định này có đúng không?"	Có	Attribute_Characteristics	Judgement
-9580	../../dermnet-output/images/Melanoma/mel-desmo1.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+9580	../../dermnet-output/images/Melanoma/mel-desmo1.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Acral lentiginous melanoma. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 9581	../../dermnet-output/images/Melanoma/mel-desmo1.jpg	Những dấu hiệu hình thái nào ủng hộ loại tổn thương Đốm sắc tố và Sẩn đỏ?	Hình tròn; màu Nâu nhạt; Da lão hóa.	Lesion_Reasoning	Short_answer
 9582	../../dermnet-output/images/Melanoma/mel-desmo2.jpg	Dựa vào hình ảnh trên, Đặc điểm lâm sàng chi tiết của tổn thương là gì?	Nút sừng trung tâm, Bề mặt bóng, Sắc tố nâu	Attribute_Characteristics	Short_answer
 9583	../../dermnet-output/images/Melanoma/mel-reg.jpg	"Dựa vào hình ảnh trên, Vị trí giải phẫu và phân bố của tổn thương là gì?
@@ -18344,7 +18344,7 @@ D. sẩn"	AB	Lesion_Recognition	Multi_choice
 9922	../../dermnet-output/images/Milium/milia-26.jpg	Quan sát bức ảnh, Chẩn đoán phù hợp nhất với hình ảnh là gì?	Không	Diagnosis	Short_answer
 9923	../../dermnet-output/images/Milium/milia-27.jpg	Trong hình ảnh này, Màu sắc của tổn thương trong ảnh là gì?	Đỏ hồng, Trắng xám	Attribute_Color	Short_answer
 9924	../../dermnet-output/images/Milium/milia-27.jpg	Quan sát bức ảnh, Đặc điểm lâm sàng chi tiết của tổn thương là gì?	Da khô, Vảy mịn, Hằn da rõ	Attribute_Characteristics	Short_answer
-9925	../../dermnet-output/images/Milium/milia-27.jpg	Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+9925	../../dermnet-output/images/Milium/milia-27.jpg	Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Colloid milium. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 9926	../../dermnet-output/images/Milium/milia-27.jpg	Những dấu hiệu hình thái nào ủng hộ loại tổn thương Mảng hồng ban và Mảng dày da?	Bầu dục; màu Đỏ hồng; Da khô.	Lesion_Reasoning	Short_answer
 9927	../../dermnet-output/images/Milium/milia-pemphigoid-27.jpg	"Quan sát bức ảnh, Đặc điểm lâm sàng chi tiết của tổn thương là gì?
 A. bề mặt bóng
@@ -18401,7 +18401,7 @@ D. mảng hồng ban"	BC	Lesion_Recognition	Multi_choice
 9947	../../dermnet-output/images/Milium/milia10.jpg	Dựa vào hình ảnh trên, Đặc điểm hình dạng/ranh giới phù hợp là ____.	Hình tròn, Ranh giới rõ	Attribute_Shape	Fill_in_blank
 9948	../../dermnet-output/images/Milium/milia10.jpg	Trong ảnh được cung cấp, Chẩn đoán phù hợp nhất với hình ảnh là gì?	Không	Diagnosis	Short_answer
 9949	../../dermnet-output/images/Milium/milia11.jpg	"Trong ảnh được cung cấp, Tổn thương có đặc điểm ""Dịch trong"". Nhận định này có đúng không?"	Có	Attribute_Characteristics	Judgement
-9950	../../dermnet-output/images/Milium/milia11.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+9950	../../dermnet-output/images/Milium/milia11.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Colloid milium. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 9951	../../dermnet-output/images/Milium/milia11.jpg	Dựa trên màu Trắng ngà và Vàng nhạt; hình thái/ranh giới Hình tròn, Dạng vòm và Ranh giới rõ; đặc điểm Bề mặt bóng và Kích thước nhỏ, nhận định tổn thương chính thuộc nhóm Sẩn nhỏ và Mụn nước nhỏ là phù hợp.	Có	Lesion_Reasoning	Judgement
 9952	../../dermnet-output/images/Milker_s nodule/ecz-hand3.jpg	"Trong hình ảnh này, loại tổn thương thực thể nào xuất hiện trong ảnh?
 A. Mảng hồng ban
@@ -24014,7 +24014,7 @@ C. Ranh giới mờ
 D. Bầu dục"	BC	Attribute_Shape	Multi_choice
 12965	../../dermnet-output/images/Pellagra/07.jpg	Trong hình ảnh này, hãy cho biết vị trí giải phẫu và kiểu phân bố của tổn thương.	Cẳng chân dưới, Cổ chân, Mu bàn chân và Hai bên	Anatomical_Distribution	Short_answer
 12966	../../dermnet-output/images/Pellagra/08.jpg	Trong hình ảnh này, tổn thương có đặc điểm lâm sàng Dày da, Tăng nếp da và Bong vảy mịn không?	Có	Attribute_Characteristics	Judgement
-12967	../../dermnet-output/images/Pellagra/08.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+12967	../../dermnet-output/images/Pellagra/08.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Pellagra. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 12968	../../dermnet-output/images/Pellagra/pell2.jpg	Quan sát bức ảnh, chẩn đoán phù hợp có phải là Mụn trứng cá do chlor / MADISH không?	Không	Diagnosis	Judgement
 12969	../../dermnet-output/images/Pellagra/pellagra2.jpg	Trong hình ảnh này, màu sắc nổi bật của tổn thương được ghi nhận là ____.	Nâu sẫm và Nâu vàng	Attribute_Color	Fill_in_blank
 12970	../../dermnet-output/images/Pellagra/pellagra2.jpg	Quan sát bức ảnh, tổn thương có đặc điểm lâm sàng Có vảy không?	Không	Attribute_Characteristics	Judgement
@@ -25466,7 +25466,7 @@ C. Tai + phân bố một bên
 D. Tai + phân bố đối xứng"	A	Anatomical_Distribution	Multi_choice
 13789	../../dermnet-output/images/Pityriasis versicolor/3484.jpg	Trong hình ảnh này, tổn thương có đặc điểm lâm sàng Vảy mịn và Loang lổ không?	Có	Attribute_Characteristics	Judgement
 13790	../../dermnet-output/images/Pityriasis versicolor/3484.jpg	Quan sát bức ảnh, vị trí/phân bố của tổn thương có phải là Bàn chân không?	Không	Anatomical_Distribution	Judgement
-13791	../../dermnet-output/images/Pityriasis versicolor/3484.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+13791	../../dermnet-output/images/Pityriasis versicolor/3484.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Pityriasis versicolor. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 13792	../../dermnet-output/images/Pityriasis versicolor/3484.jpg	Dựa trên màu Trắng nhạt và Nâu nhạt; hình thái/ranh giới Bất quy tắc và Ranh giới mờ; đặc điểm Vảy mịn và Loang lổ, tổn thương được biện luận là ____.	Dát giảm sắc tố	Lesion_Reasoning	Fill_in_blank
 13793	../../dermnet-output/images/Pityriasis versicolor/3485.jpg	Dựa trên màu Đỏ hồng và Trắng nhạt; hình thái/ranh giới Hình bầu dục, Bất quy tắc và Ranh giới mờ; đặc điểm Bong vảy mịn và Bề mặt khô, tổn thương được biện luận là ____.	Dát giảm sắc tố	Lesion_Reasoning	Fill_in_blank
 13794	../../dermnet-output/images/Pityriasis versicolor/3486.jpg	Dựa vào hình ảnh trên, loại tổn thương thực thể chính quan sát được là ____.	Mảng	Lesion_Recognition	Fill_in_blank
@@ -29268,12 +29268,12 @@ D. Ranh giới mờ"	ACD	Attribute_Shape	Multi_choice
 15782	../../dermnet-output/images/Recessive X-linked ichthyosis/03.jpg	"Dựa vào hình ảnh trên, Tổn thương có đặc điểm ""Bong vảy dày"". Nhận định này có đúng không?"	Có	Attribute_Characteristics	Judgement
 15783	../../dermnet-output/images/Recessive X-linked ichthyosis/04.jpg	Trong hình ảnh này, Màu sắc nổi bật của tổn thương là ____.	Vàng nâu, Đỏ hồng	Attribute_Color	Fill_in_blank
 15784	../../dermnet-output/images/Recessive X-linked ichthyosis/04.jpg	Dựa trên màu Vàng nâu và Đỏ hồng; hình thái/ranh giới Đa giác, Ranh giới rõ và Dạng ô lưới; đặc điểm Vảy dày và Nứt nẻ, nhận định tổn thương chính thuộc nhóm Mảng tăng sừng và Bong vảy dày là phù hợp.	Có	Lesion_Reasoning	Judgement
-15785	../../dermnet-output/images/Recessive X-linked ichthyosis/05.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+15785	../../dermnet-output/images/Recessive X-linked ichthyosis/05.jpg	Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Ichthyosis. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 15786	../../dermnet-output/images/Recessive X-linked ichthyosis/05.jpg	Dựa trên màu Trắng xám và Hồng nhạt; hình thái/ranh giới Bất quy tắc và Ranh giới mờ; đặc điểm Bong vảy dày và Nứt nẻ, nhận định tổn thương chính thuộc nhóm Mảng dày sừng và Mảng bong vảy là phù hợp.	Có	Lesion_Reasoning	Judgement
 15787	../../dermnet-output/images/Recessive X-linked ichthyosis/06.jpg	Trong ảnh được cung cấp, Chẩn đoán phù hợp nhất với hình ảnh là gì?	Có	Diagnosis	Short_answer
 15788	../../dermnet-output/images/Recessive X-linked ichthyosis/07.jpg	"Dựa vào hình ảnh trên, Tổn thương có đặc điểm ""mụn mủ"". Nhận định này có đúng không?"	Không	Lesion_Recognition	Judgement
 15789	../../dermnet-output/images/Recessive X-linked ichthyosis/07.jpg	"Dựa vào hình ảnh trên, Tổn thương có đặc điểm ""tay, rải rác"". Nhận định này có đúng không?"	Không	Anatomical_Distribution	Judgement
-15790	../../dermnet-output/images/Recessive X-linked ichthyosis/07.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+15790	../../dermnet-output/images/Recessive X-linked ichthyosis/07.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Ichthyosis. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 15791	../../dermnet-output/images/Recessive X-linked ichthyosis/08.jpg	Trong hình ảnh này, Đặc điểm lâm sàng chi tiết của tổn thương là gì?	Bong vảy, Vảy dày, Khô da	Attribute_Characteristics	Short_answer
 15792	../../dermnet-output/images/Recessive X-linked ichthyosis/08.jpg	"Quan sát bức ảnh, Chẩn đoán phù hợp nhất là gì?
 A. viêm da cơ địa
@@ -29446,7 +29446,7 @@ A. Bề mặt bóng
 B. Lỗ lông giãn
 C. Sẹo lõm
 D. Hoại tử"	ABC	Attribute_Characteristics	Multi_choice
-15875	../../dermnet-output/images/Rhinophyma/10.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+15875	../../dermnet-output/images/Rhinophyma/10.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Rhinophyma. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 15876	../../dermnet-output/images/Rhinophyma/10.jpg	Dựa trên màu Đỏ hồng và Đỏ tím; hình thái/ranh giới Bất quy tắc, Dạng thùy và Gồ ghề; đặc điểm Lỗ lông giãn và Bề mặt bóng, nhận định tổn thương chính thuộc nhóm Mảng hồng ban và Sẩn là phù hợp.	Có	Lesion_Reasoning	Judgement
 15877	../../dermnet-output/images/Rhinophyma/11.jpg	Trong hình ảnh này, mô tả hình thái/ranh giới phù hợp cho tổn thương là ____.	Thùy múi, Gồ ghề và Bất quy tắc	Attribute_Shape	Fill_in_blank
 15878	../../dermnet-output/images/Rhinophyma/11.jpg	Dựa vào hình ảnh trên, đặc điểm lâm sàng chi tiết của tổn thương là gì?	Chân lông giãn, Bề mặt bóng và Da dày	Attribute_Characteristics	Short_answer
@@ -29693,7 +29693,7 @@ B. Vàng
 C. Đỏ hồng
 D. Đỏ sẫm"	CD	Attribute_Color	Multi_choice
 16013	../../dermnet-output/images/Rosacea/3632.jpg	Dựa vào hình ảnh trên, tổn thương có màu Đỏ hồng và Đỏ nâu không?	Có	Attribute_Color	Judgement
-16014	../../dermnet-output/images/Rosacea/3632.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+16014	../../dermnet-output/images/Rosacea/3632.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Rosacea. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 16015	../../dermnet-output/images/Rosacea/3633.jpg	Dựa vào hình ảnh trên, loại tổn thương thực thể chính quan sát được là ____.	Mảng hồng ban và Sẩn đỏ	Lesion_Recognition	Fill_in_blank
 16016	../../dermnet-output/images/Rosacea/3633.jpg	Trong ảnh được cung cấp, hãy cho biết vị trí giải phẫu và kiểu phân bố của tổn thương.	Má, Mũi, Trung tâm mặt và Đối xứng	Anatomical_Distribution	Short_answer
 16017	../../dermnet-output/images/Rosacea/3634.jpg	Quan sát bức ảnh, chẩn đoán bệnh da liễu phù hợp là gì?	trứng cá đỏ	Diagnosis	Short_answer
@@ -35090,7 +35090,7 @@ B. vảy mỏng
 C. Viền dày sừng
 D. Lõm trung tâm"	ACD	Attribute_Characteristics	Multi_choice
 18958	../../dermnet-output/images/X linked ichthyosis/13.jpg	Dựa vào hình ảnh trên, Vị trí và phân bố tổn thương là ____.	Cổ chân, Mu bàn chân, Rải rác	Anatomical_Distribution	Fill_in_blank
-18959	../../dermnet-output/images/X linked ichthyosis/13.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+18959	../../dermnet-output/images/X linked ichthyosis/13.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Ichthyosis. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 18960	../../dermnet-output/images/X linked ichthyosis/13.jpg	Dựa trên màu Nâu nhạt và Vàng xám; hình thái/ranh giới Hình vòng, Hình bầu dục và Ranh giới rõ; đặc điểm Bong vảy và Viền dày sừng, nhận định tổn thương chính thuộc nhóm Sẩn dày sừng và Mảng dày sừng là phù hợp.	Có	Lesion_Reasoning	Judgement
 18961	../../dermnet-output/images/X linked ichthyosis/14.jpg	"Trong hình ảnh này, Tổn thương có đặc điểm ""nâu"". Nhận định này có đúng không?"	Không	Attribute_Color	Judgement
 18962	../../dermnet-output/images/X linked ichthyosis/14.jpg	Dựa vào hình ảnh trên, Đặc điểm hình dạng hoặc ranh giới của tổn thương là gì?	Hình tròn, Hình bầu dục, Ranh giới rõ	Attribute_Shape	Short_answer
@@ -35105,7 +35105,7 @@ D. mặt, khu trú"	B	Anatomical_Distribution	Multi_choice
 18967	../../dermnet-output/images/X linked ichthyosis/16.jpg	Trong ảnh được cung cấp, Chẩn đoán phù hợp nhất với hình ảnh là gì?	Có	Diagnosis	Short_answer
 18968	../../dermnet-output/images/X linked ichthyosis/x-linked-ichthyosis-1.jpg	"Trong ảnh được cung cấp, Tổn thương có đặc điểm ""hồng"". Nhận định này có đúng không?"	Không	Attribute_Color	Judgement
 18969	../../dermnet-output/images/X linked ichthyosis/x-linked-ichthyosis-1.jpg	Dựa trên màu Nâu sẫm và Nâu đỏ; hình thái/ranh giới Bất quy tắc và Ranh giới mờ; đặc điểm Dày da và Hằn da, tổn thương được biện luận là ____.	Mảng dày da	Lesion_Reasoning	Fill_in_blank
-18970	../../dermnet-output/images/X linked ichthyosis/x-linked-ichthyosis-2.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+18970	../../dermnet-output/images/X linked ichthyosis/x-linked-ichthyosis-2.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Ichthyosis. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 18971	../../dermnet-output/images/X linked ichthyosis/x-linked-ichthyosis-3.jpg	"Dựa vào hình ảnh trên, Loại tổn thương chính trong ảnh là gì?
 A. Mảng tăng sừng
 B. Sẩn tăng sừng
@@ -35203,7 +35203,7 @@ B. bầu dục
 C. tròn
 D. Ranh giới rõ"	AD	Attribute_Shape	Multi_choice
 19011	../../dermnet-output/images/Xanthoma/xanthelasma08.jpg	Trong ảnh được cung cấp, Vị trí và phân bố tổn thương là ____.	Mi mắt trên, Hai bên, Đối xứng	Anatomical_Distribution	Fill_in_blank
-19012	../../dermnet-output/images/Xanthoma/xanthelasma08.jpg	Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+19012	../../dermnet-output/images/Xanthoma/xanthelasma08.jpg	Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Atypical fibroxanthoma. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 19013	../../dermnet-output/images/Xanthoma/xanthelasma09.jpg	"Trong hình ảnh này, Tổn thương có đặc điểm ""Vàng nhạt"". Nhận định này có đúng không?"	Có	Attribute_Color	Judgement
 19014	../../dermnet-output/images/Xanthoma/xanthelasma09.jpg	"Quan sát bức ảnh, Tổn thương có đặc điểm ""Hơi gồ"". Nhận định này có đúng không?"	Có	Attribute_Characteristics	Judgement
 19015	../../dermnet-output/images/Xanthoma/xanthelasma09.jpg	Những dấu hiệu hình thái nào ủng hộ loại tổn thương Mảng phẳng và Mảng vàng?	Hình bầu dục; màu Vàng nhạt; Bề mặt nhẵn.	Lesion_Reasoning	Short_answer
@@ -35227,12 +35227,12 @@ D. viêm da cơ địa"	C	Diagnosis	Multi_choice
 19021	../../dermnet-output/images/Xanthoma/xanthelasma12.jpg	"Quan sát bức ảnh, Tổn thương có đặc điểm ""Mảng phẳng"". Nhận định này có đúng không?"	Có	Lesion_Recognition	Judgement
 19022	../../dermnet-output/images/Xanthoma/xanthelasma12.jpg	"Dựa vào hình ảnh trên, Tổn thương có đặc điểm ""Bề mặt nhẵn"". Nhận định này có đúng không?"	Có	Attribute_Characteristics	Judgement
 19023	../../dermnet-output/images/Xanthoma/xanthelasma12.jpg	Dựa trên màu Vàng nhạt và Vàng cam; hình thái/ranh giới Bầu dục và Ranh giới rõ; đặc điểm Bề mặt nhẵn, tổn thương được biện luận là ____.	Mảng vàng	Lesion_Reasoning	Fill_in_blank
-19024	../../dermnet-output/images/Xanthoma/xanthelasma13.jpg	Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
-19025	../../dermnet-output/images/Xanthoma/xanthelasma14.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+19024	../../dermnet-output/images/Xanthoma/xanthelasma13.jpg	Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Atypical fibroxanthoma. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+19025	../../dermnet-output/images/Xanthoma/xanthelasma14.jpg	Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Atypical fibroxanthoma. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 19026	../../dermnet-output/images/Xanthoma/xanthelasma15.jpg	"Trong ảnh được cung cấp, Tổn thương có đặc điểm ""mảng hồng ban"". Nhận định này có đúng không?"	Không	Lesion_Recognition	Judgement
 19027	../../dermnet-output/images/Xanthoma/xanthelasma15.jpg	Trong hình ảnh này, Màu sắc nổi bật của tổn thương là ____.	Vàng nhạt, Màu da	Attribute_Color	Fill_in_blank
 19028	../../dermnet-output/images/Xanthoma/xanthelasma15.jpg	Dựa vào hình ảnh trên, Đặc điểm lâm sàng chi tiết phù hợp là ____.	Bề mặt nhẵn, Cụm nhỏ	Attribute_Characteristics	Fill_in_blank
-19029	../../dermnet-output/images/Xanthoma/xanthelasma15.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?	Có	Diagnosis	Judgement
+19029	../../dermnet-output/images/Xanthoma/xanthelasma15.jpg	Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Atypical fibroxanthoma. Nhận định này có đúng không?	Có	Diagnosis	Judgement
 19030	../../dermnet-output/images/Xanthoma/xanthelasma16.jpg	Quan sát bức ảnh, Loại tổn thương chính trong ảnh là gì?	Mảng vàng, Mảng phẳng	Lesion_Recognition	Short_answer
 19031	../../dermnet-output/images/Xanthoma/xanthelasma16.jpg	Trong hình ảnh này, Chẩn đoán phù hợp nhất với hình ảnh là ____.	Không	Diagnosis	Fill_in_blank
 19032	../../dermnet-output/images/Xanthoma/xanthelasma16.jpg	Dựa trên màu Vàng nhạt và Vàng cam; hình thái/ranh giới Bất quy tắc và Ranh giới rõ; đặc điểm Bề mặt nhẵn và Nếp da, nhận định tổn thương chính thuộc nhóm Mảng vàng và Mảng phẳng là phù hợp.	Có	Lesion_Reasoning	Judgement

@@ -12,7 +12,7 @@ SOURCE_DATA_DIR="$SCRIPT_DIR/LMUData"
 export LMUData="$SOURCE_DATA_DIR"
 
 # Isolate the revised prompts from predictions produced by the legacy prompts.
-RUN_WORK_DIR="${RUN_WORK_DIR:-$SCRIPT_DIR/outputs/answer-format-v2}"
+RUN_WORK_DIR="${RUN_WORK_DIR:-$SCRIPT_DIR/outputs/answer-format-v4-vllm}"
 STATE_DIR="${STATE_DIR:-$RUN_WORK_DIR/.phase2-runner}"
 COMPLETED_DIR="$STATE_DIR/completed"
 LOG_DIR="$STATE_DIR/logs"
@@ -22,7 +22,10 @@ PATCH_TOOL="$SCRIPT_DIR/scripts/dermnet_reasoning_patch.py"
 PYTHON_BIN="${PYTHON_BIN:-python3}"
 PYTHON_QWEN="${PYTHON_QWEN:-$PYTHON_BIN}"
 PYTHON_LEGACY="${PYTHON_LEGACY:-$PYTHON_BIN}"
+PYTHON_VINTERN="${PYTHON_VINTERN:-$PYTHON_LEGACY}"
 PYTHON_DEEPSEEK="${PYTHON_DEEPSEEK:-$PYTHON_BIN}"
+PYTHON_DEEPSEEK_VLLM="${PYTHON_DEEPSEEK_VLLM:-$PYTHON_QWEN}"
+PYTHON_HUATUO="${PYTHON_HUATUO:-$PYTHON_BIN}"
 PYTHON_EXE="$PYTHON_BIN"
 
 DRY_RUN="${DRY_RUN:-0}"
@@ -39,10 +42,10 @@ GPU_MAX_VRAM_GB="${GPU_MAX_VRAM_GB:-}"
 GPU_TOTAL_VRAM_GB="${GPU_TOTAL_VRAM_GB:-}"
 
 DATASETS=(
-    "DermNet_Val_4k-2_mac_relative"
-    "DermNet_Test_mac_relative"
-    "DermNet_Val_4k_en"
-    "DermNet_Test_1of3_en"
+    "DermNet_Val_VI"
+    "DermNet_Test_VI"
+    "DermNet_Val_EN"
+    "DermNet_Test_EN"
 )
 MODELS=()
 SKIPPED_MODELS=()
@@ -65,7 +68,7 @@ Usage:
   bash run_phase2.sh full <model_name> <dataset_name>
   bash run_phase2.sh patch <model_name> <dataset_name> <existing_result.xlsx>
 
-The all/resume commands run the legacy Vietnamese plan: 8 full + 8 patch jobs.
+The all/resume commands follow scripts/dermnet_jobs.txt: 15 full + 26 patch jobs.
 The auto profile skips models above estimated VRAM limits without substituting variants.
 Old patch inputs must exist before all/resume starts. Use plan to list their paths.
 
@@ -75,8 +78,11 @@ Useful overrides:
   LEGACY_RESULTS_DIR=/path     Root containing the old model result folders.
   PYTHON_BIN=python3           Python environment prepared by the server owner.
   PYTHON_QWEN=python3          Optional Python executable for Qwen models.
-  PYTHON_LEGACY=python3        Optional Python executable for LLaVA/Vintern.
+  PYTHON_LEGACY=python3        Optional Python executable for LLaVA-med.
+  PYTHON_VINTERN=python3       Python for Vintern; defaults to PYTHON_LEGACY.
   PYTHON_DEEPSEEK=python3      Optional Python executable for DeepSeek-VL2.
+  PYTHON_HUATUO=python3        Python environment for official HuatuoGPT-Vision.
+  HUATUO_SOURCE_DIR=/path      Official HuatuoGPT-Vision checkout with cli.py.
   MAX_JOB_RETRIES=2            Attempts per model/dataset job.
   MISSING_IMAGE_POLICY=fail    fail | skip; fail is the default.
   GPU_MAX_VRAM_GB=80           Override detected largest-GPU VRAM.
@@ -87,7 +93,7 @@ Examples:
   bash run_phase2.sh all
   bash run_phase2.sh resume
   MODEL_PROFILE=full bash run_phase2.sh plan
-  bash run_phase2.sh patch deepseek_vl2_tiny DermNet_Val_4k-2_mac_relative /path/result.xlsx
+  bash run_phase2.sh patch deepseek_vl2_tiny DermNet_Val_VI /path/result.xlsx
 EOF
 }
 
@@ -138,9 +144,7 @@ select_models() {
     case "$MODEL_PROFILE" in
         full)
             MODELS=(
-                "Qwen3.5-35B-A3B" "Qwen3-VL-8B-Instruct" "LLaVA-med-v1.5-7B"
-                "Vintern-1B-v2" "Vintern-3B-beta" "deepseek_vl2_tiny"
-                "deepseek_vl2_small" "deepseek_vl2"
+                "Qwen3.5-35B-A3B" "Qwen3-VL-8B-Instruct" "HuatuoGPT-Vision-34B" "Vintern-1B-v2" "Vintern-3B-beta" "deepseek_vl2_small" "deepseek_vl2_int8" "deepseek_vl2_tiny"
             )
             DEEPSEEK_VARIANT='deepseek_vl2'
             ;;
@@ -148,12 +152,12 @@ select_models() {
             add_model_if_fit 'Vintern-1B-v2' 8 8
             add_model_if_fit 'Vintern-3B-beta' 12 12
             add_model_if_fit 'Qwen3-VL-8B-Instruct' 20 24
-            add_model_if_fit 'LLaVA-med-v1.5-7B' 20 24
             add_model_if_fit 'Qwen3.5-35B-A3B' 24 72
             add_model_if_fit 'deepseek_vl2_tiny' 12 12
             add_model_if_fit 'deepseek_vl2_small' 36 36
 
-            add_model_if_fit 'deepseek_vl2' 64 64
+            add_model_if_fit 'deepseek_vl2_int8' 48 48
+            add_model_if_fit 'HuatuoGPT-Vision-34B' 80 80
             ;;
         *) die 'MODEL_PROFILE must be auto or full.' ;;
     esac
@@ -163,30 +167,20 @@ select_models() {
 
 build_jobs() {
     select_models
-    DATASETS=(DermNet_Val_4k-2_mac_relative DermNet_Test_mac_relative)
+    DATASETS=(DermNet_Val_VI DermNet_Test_VI)
     JOBS=()
-    local model split mode dataset result
-    for model in "Qwen3.5-35B-A3B" "Qwen3-VL-8B-Instruct" "LLaVA-med-v1.5-7B" \
-        "Vintern-1B-v2" "Vintern-3B-beta" "deepseek_vl2" "deepseek_vl2_small" "deepseek_vl2_tiny"; do
+    local mode model dataset result source_path
+    while IFS='|' read -r mode model dataset result; do
+        [[ -n "$mode" && "$mode" != \#* ]] || continue
         [[ " ${MODELS[*]} " == *" $model "* ]] || continue
-        for split in val test; do
-            if [[ "$split" == val ]]; then dataset=DermNet_Val_4k-2_mac_relative; else dataset=DermNet_Test_mac_relative; fi
-            mode=full
-            result=''
-            if [[ "$model" == deepseek* || ( "$model" == Vintern* && "$split" == val ) ]]; then
-                mode=patch
-                case "$model:$split" in
-                    deepseek_vl2:val) result=deepseek_vl2_int8_DermNet_Val_4k.xlsx ;;
-                    deepseek_vl2:test) result=deepseek_vl2_int8_DermNet_Test_1of3.xlsx ;;
-                    Vintern-1B-v2:val) result=Vintern-1B-v2_DermNet_Val_4k_mac.xlsx ;;
-                    Vintern-3B-beta:val) result=Vintern-3B-beta_DermNet_Val_4k.xlsx ;;
-                    *:val) result=${model}_DermNet_Val_4k.xlsx ;;
-                    *:test) result=${model}_DermNet_Test_1of3.xlsx ;;
-                esac
-                result="$LEGACY_RESULTS_DIR/$model/$result"
-            fi
-            JOBS+=("$mode|$model|$dataset|$result")
-        done
+        [[ -z "$result" ]] || result="$LEGACY_RESULTS_DIR/$result"
+        JOBS+=("$mode|$model|$dataset|$result")
+    done < "$SCRIPT_DIR/scripts/dermnet_jobs.txt"
+    # Validate only models actually referenced by the selected jobs.
+    MODELS=()
+    for result in "${JOBS[@]}"; do
+        IFS='|' read -r mode model dataset source_path <<< "$result"
+        [[ " ${MODELS[*]} " == *" $model "* ]] || MODELS+=("$model")
     done
 }
 
@@ -207,7 +201,7 @@ show_plan() {
     local number=0 model dataset job mode result
     printf 'Hardware: %s GPU(s), largest=%sGB, total=%sGB; profile=%s\n' \
         "$GPU_COUNT" "$GPU_MAX_VRAM_GB" "$GPU_TOTAL_VRAM_GB" "$MODEL_PROFILE"
-    printf 'Execution plan: %s legacy Vietnamese jobs (full + patch)\n' "${#JOBS[@]}"
+    printf 'Execution plan: %s jobs from scripts/dermnet_jobs.txt (full + patch)\n' "${#JOBS[@]}"
     for job in "${JOBS[@]}"; do
             IFS='|' read -r mode model dataset result <<< "$job"
             number=$((number + 1))
@@ -224,18 +218,23 @@ validate_static_files() {
     [[ -f "$SCRIPT_DIR/requirements.txt" ]] || die 'Missing requirements.txt.'
     [[ -f "$SCRIPT_DIR/vlmeval/config.py" ]] || die 'Missing vlmeval/config.py.'
     [[ -f "$PATCH_TOOL" ]] || die 'Missing scripts/dermnet_reasoning_patch.py.'
+    [[ -f "$SCRIPT_DIR/scripts/dermnet_jobs.txt" ]] || die 'Missing scripts/dermnet_jobs.txt.'
     [[ "$MAX_JOB_RETRIES" =~ ^[1-9][0-9]*$ ]] || die 'MAX_JOB_RETRIES must be a positive integer.'
 
-    local dataset model
+    local dataset model missing_models=0
     for dataset in "${DATASETS[@]}"; do
         [[ -f "$SOURCE_DATA_DIR/$dataset.tsv" ]] || die "Missing LMUData/$dataset.tsv"
     done
     [[ "$MISSING_IMAGE_POLICY" == 'skip' || "$MISSING_IMAGE_POLICY" == 'fail' ]] \
         || die 'MISSING_IMAGE_POLICY must be skip or fail.'
     for model in "${MODELS[@]}"; do
-        grep -Fq -- "\"$model\"" "$SCRIPT_DIR/vlmeval/config.py" \
-            || die "Model is not registered: $model"
+        if ! grep -Fq -- "\"$model\":" "$SCRIPT_DIR/vlmeval/config.py" && \
+           ! grep -Fq -- "'$model':" "$SCRIPT_DIR/vlmeval/config.py"; then
+            log "MISSING model configuration: $model"
+            missing_models=$((missing_models + 1))
+        fi
     done
+    (( missing_models == 0 )) || die "$missing_models model configuration(s) must be restored before running this plan."
 }
 
 prepare_datasets() {
@@ -340,10 +339,16 @@ on_signal() {
 
 python_for_model() {
     local model="$1"
-    if [[ "$model" == deepseek_vl2* ]]; then
+    if [[ "$model" == HuatuoGPT-Vision* ]]; then
+        printf '%s\n' "$PYTHON_HUATUO"
+    elif [[ "$model" == deepseek_vl2_tiny || "$model" == deepseek_vl2_small ]]; then
+        printf '%s\n' "$PYTHON_DEEPSEEK_VLLM"
+    elif [[ "$model" == deepseek_vl2* ]]; then
         printf '%s\n' "$PYTHON_DEEPSEEK"
     elif [[ "$model" == Qwen3* ]]; then
         printf '%s\n' "$PYTHON_QWEN"
+    elif [[ "$model" == Vintern-* ]]; then
+        printf '%s\n' "$PYTHON_VINTERN"
     else
         printf '%s\n' "$PYTHON_LEGACY"
     fi
@@ -356,12 +361,24 @@ validate_environment() {
         python_exe="$(python_for_model "$model")"
         command -v "$python_exe" >/dev/null 2>&1 || die "Python executable not found: $python_exe"
         case "$model" in
+            HuatuoGPT-Vision*)
+                [[ -f "${HUATUO_SOURCE_DIR:-}/cli.py" ]] || die 'Set HUATUO_SOURCE_DIR to the official HuatuoGPT-Vision checkout.'
+                imports='import os, sys; sys.path.insert(0, os.environ["HUATUO_SOURCE_DIR"]); from cli import HuatuoChatbot; import pandas, openpyxl'
+                ;;
             Qwen3*) imports='import pandas, torch, transformers, vllm' ;;
+            Gemma4-12B-it) imports='import pandas, torch, transformers; from transformers import AutoModelForMultimodalLM' ;;
+            Gemma4*) imports='import pandas, torch, transformers, vllm' ;;
+            Janus*-4bit) imports='import pandas, torch, transformers, janus, bitsandbytes, accelerate' ;;
+            Janus*) imports='import pandas, torch, transformers, janus' ;;
+            llava*4bit) imports='import pandas, torch, transformers, llava, bitsandbytes, accelerate' ;;
+            Phi*4bit) imports='import pandas, torch, transformers, bitsandbytes, accelerate' ;;
             deepseek_vl2_int*) imports='import pandas, torch, transformers, deepseek_vl2, bitsandbytes' ;;
+            deepseek_vl2_tiny|deepseek_vl2_small) imports='import pandas, torch, transformers, vllm' ;;
             deepseek_vl2*) imports='import pandas, torch, transformers, deepseek_vl2' ;;
             LLaVA*) imports='import pandas, torch, transformers, llava' ;;
             *) imports='import pandas, torch, transformers' ;;
         esac
+        imports="$imports; import openpyxl"
         "$python_exe" -c "$imports" >/dev/null 2>&1 \
             || die "Environment for $model is incomplete: $python_exe"
     done
@@ -443,6 +460,10 @@ PY
 
 run_job() {
     local model="$1" dataset="$2"
+    local RUN_WORK_DIR="$RUN_WORK_DIR"
+    if [[ "$model" == Vintern-1B-v2 || "$model" == Vintern-3B-beta ]]; then
+        RUN_WORK_DIR="$RUN_WORK_DIR/vintern-full-rerun-20260908"
+    fi
     local id marker job_log attempt result rc
     PYTHON_EXE="$(python_for_model "$model")"
     id="$(job_id "$model" "$dataset")"
@@ -462,7 +483,7 @@ run_job() {
         return 0
     fi
 
-    validate_dataset "$dataset"
+    validate_dataset "$dataset" || return 1
     for ((attempt = 1; attempt <= MAX_JOB_RETRIES; attempt++)); do
         log "RUN $id (attempt $attempt/$MAX_JOB_RETRIES)"
         set +e
@@ -503,18 +524,23 @@ PY
 
 run_patch_job() {
     local model="$1" dataset="$2" original_result="$3"
-    local id mini_dataset mini_tsv patch_work patch_result marker job_log rc attempt fingerprint
+    local id mini_dataset mini_tsv patch_work patch_result marker job_log rc attempt fingerprint merged_result
     PYTHON_EXE="$(python_for_model "$model")"
     [[ -f "$original_result" ]] || die "Existing result not found: $original_result"
+    if [[ "$DRY_RUN" != '1' ]]; then
+        "$PYTHON_EXE" "$PATCH_TOOL" check --base "$LMUData/$dataset.tsv" --original "$original_result" || return 1
+    fi
     original_result="$(cd -- "$(dirname -- "$original_result")" && pwd -P)/$(basename -- "$original_result")"
 
     case "$dataset" in
-        DermNet_Val_4k-2_mac_relative) mini_dataset="DermNet_Val_4k-2_Reasoning_Fix" ;;
-        DermNet_Test_mac_relative) mini_dataset="DermNet_Test_Reasoning_Fix" ;;
-        *) die 'Patch supports DermNet_Val_4k-2_mac_relative or DermNet_Test_mac_relative.' ;;
+        DermNet_Val_VI) mini_dataset="DermNet_Val_Reasoning_VI" ;;
+        DermNet_Test_VI) mini_dataset="DermNet_Test_Reasoning_VI" ;;
+        DermNet_Val_EN) mini_dataset="DermNet_Val_Reasoning_EN" ;;
+        DermNet_Test_EN) mini_dataset="DermNet_Test_Reasoning_EN" ;;
+        *) die 'Patch supports DermNet_Val_VI or DermNet_Test_VI.' ;;
     esac
 
-    fingerprint="$("$PYTHON_EXE" - "$LMUData/$dataset.tsv" "$SCRIPT_DIR/vlmeval/dataset/utils/dermnet_prompt.py" "$SCRIPT_DIR/vlmeval/vlm/deepseek_vl2.py" <<'PY'
+    fingerprint="$("$PYTHON_EXE" - "$LMUData/$dataset.tsv" "$SCRIPT_DIR/vlmeval/dataset/utils/dermnet_prompt.py" "$SCRIPT_DIR/vlmeval/vlm/deepseek_vl2.py" "$original_result" "$SCRIPT_DIR/vlmeval/config.py" "$SCRIPT_DIR/vlmeval/vlm/janus.py" "$SCRIPT_DIR/vlmeval/vlm/phi3_vision.py" "$SCRIPT_DIR/vlmeval/vlm/llava/llava.py" "$SCRIPT_DIR/vlmeval/vlm/gemma.py" "$SCRIPT_DIR/vlmeval/vlm/deepseek_vllm_backend.py" <<'PY'
 import hashlib
 import sys
 from pathlib import Path
@@ -528,23 +554,24 @@ PY
     marker="$COMPLETED_DIR/$id.ok"
     job_log="$LOG_DIR/$id.log"
     patch_work="$STATE_DIR/patch-work/$id"
+    merged_result="$patch_work/merged/$(basename -- "$original_result")"
     mini_tsv="$RUNTIME_DATA_DIR/$mini_dataset.tsv"
 
-    if [[ -f "$marker" ]] && grep -Fqx "result=$original_result" "$marker"; then
+    if [[ -f "$marker" && -f "$merged_result" ]] && grep -Fqx "result=$merged_result" "$marker"; then
         log "SKIP $id (patch marker exists)"
         return 0
     fi
     if [[ "$DRY_RUN" == '1' ]]; then
-        printf '%q ' "$PYTHON_EXE" "$PATCH_TOOL" prepare --base "$LMUData/$dataset.tsv" --mini "$mini_tsv"
+        printf '%q ' "$PYTHON_EXE" "$PATCH_TOOL" prepare --base "$LMUData/$dataset.tsv" --mini "$mini_tsv" --original "$original_result"
         printf '\n'
         printf '%q ' "$PYTHON_EXE" run.py --data "$mini_dataset" --model "$model" --work-dir "$patch_work" --mode infer --verbose --reuse --reuse-aux infer
         printf '\n'
-        printf '%q ' "$PYTHON_EXE" "$PATCH_TOOL" merge --base "$LMUData/$dataset.tsv" --original "$original_result" --patch-result '<generated-result>' --backup-dir "$STATE_DIR/backups/$id"
+        printf '%q ' "$PYTHON_EXE" "$PATCH_TOOL" merge --base "$LMUData/$dataset.tsv" --original "$original_result" --patch-result '<generated-result>' --backup-dir "$STATE_DIR/backups/$id" --output "$merged_result"
         printf '\n'
         return 0
     fi
 
-    "$PYTHON_EXE" "$PATCH_TOOL" prepare --base "$LMUData/$dataset.tsv" --mini "$mini_tsv" || return 1
+    "$PYTHON_EXE" "$PATCH_TOOL" prepare --base "$LMUData/$dataset.tsv" --mini "$mini_tsv" --original "$original_result" || return 1
     mkdir -p "$patch_work"
     patch_result=''
     for ((attempt = 1; attempt <= MAX_JOB_RETRIES; attempt++)); do
@@ -565,10 +592,10 @@ PY
         --base "$LMUData/$dataset.tsv" \
         --original "$original_result" \
         --patch-result "$patch_result" \
-        --backup-dir "$STATE_DIR/backups/$id" || return 1
+        --backup-dir "$STATE_DIR/backups/$id" --output "$merged_result" || return 1
     printf 'completed_at=%s\nresult=%s\npatch_result=%s\n' \
-        "$(timestamp)" "$original_result" "$patch_result" > "$marker"
-    log "DONE $id -> $original_result"
+        "$(timestamp)" "$merged_result" "$patch_result" > "$marker"
+    log "DONE $id -> $merged_result (source preserved: $original_result)"
 }
 
 run_all_jobs() {
@@ -619,8 +646,8 @@ main() {
         status) show_status ;;
         all|resume)
             show_plan
-            validate_static_files
             preflight_patch_files
+            validate_static_files
             if [[ "$DRY_RUN" != '1' ]]; then
                 acquire_lock
                 trap release_lock EXIT

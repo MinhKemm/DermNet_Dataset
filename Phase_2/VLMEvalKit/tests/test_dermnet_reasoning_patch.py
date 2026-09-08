@@ -1,4 +1,5 @@
 import importlib.util
+import json
 from pathlib import Path
 import tempfile
 import unittest
@@ -42,6 +43,15 @@ class DermNetReasoningPatchTest(unittest.TestCase):
             ]
         ).to_csv(self.original, sep="\t", index=False)
 
+        for path in (self.base, self.original):
+            frame = pd.read_csv(path, sep="\t")
+            frame["image_path"] = ["/images/disease/a.jpg", "/images/disease/b.jpg"]
+            frame.to_csv(path, sep="\t", index=False)
+
+    def patch_row(self, prediction):
+        return {"index": 2, "prediction": prediction, "image_path": "/images/disease/b.jpg",
+                "question": "new question", "answer": "Có", "category": "Lesion_Reasoning", "type": "Judgement"}
+
     def tearDown(self):
         self.temp_dir.cleanup()
 
@@ -54,8 +64,27 @@ class DermNetReasoningPatchTest(unittest.TestCase):
         self.assertEqual(before, self.original.read_bytes())
         self.assertEqual([2], pd.read_csv(self.mini, sep="\t")["index"].tolist())
 
+    def test_audited_question_repair_is_rerun_and_merged(self):
+        item = json.loads(MODULE_PATH.with_name('dataset_repairs.json').read_text(encoding='utf-8'))[0]
+        base = pd.DataFrame([{'index': item['index'], 'question': item['after'],
+                              'answer': 'Có', 'category': 'Diagnosis', 'type': 'Judgement',
+                              'image_path': item['image_path']}])
+        original = base.copy()
+        original['question'] = item['before']
+        original['prediction'] = 'old'
+        base.to_csv(self.base, sep='\t', index=False)
+        original.to_csv(self.original, sep='\t', index=False)
+        self.assertEqual(1, self.patch.prepare_reasoning_dataset(self.base, self.mini, self.original))
+        result = pd.read_csv(self.mini, sep='\t')
+        result['prediction'] = 'Có'
+        result.to_csv(self.patch_result, sep='\t', index=False)
+        self.patch.merge_reasoning_result(self.base, self.original, self.patch_result, self.backups)
+        merged = pd.read_csv(self.original, sep='\t')
+        self.assertEqual(item['after'], merged.iloc[0].question)
+        self.assertEqual('Có', merged.iloc[0].prediction)
+
     def test_merge_updates_only_reasoning_and_creates_backup(self):
-        pd.DataFrame([{"index": 2, "prediction": "Có"}]).to_csv(
+        pd.DataFrame([self.patch_row("Có")]).to_csv(
             self.patch_result, sep="\t", index=False
         )
 
@@ -70,12 +99,12 @@ class DermNetReasoningPatchTest(unittest.TestCase):
         self.assertTrue(backup.is_file())
 
     def test_merge_rejects_incomplete_patch_without_modifying_original(self):
-        pd.DataFrame(columns=["index", "prediction"]).to_csv(
+        pd.DataFrame(columns=list(self.patch_row("Có"))).to_csv(
             self.patch_result, sep="\t", index=False
         )
         before = self.original.read_bytes()
 
-        with self.assertRaisesRegex(ValueError, "missing reasoning predictions"):
+        with self.assertRaisesRegex(ValueError, "missing reasoning predictions|missing dataset indices"):
             self.patch.merge_reasoning_result(
                 self.base, self.original, self.patch_result, self.backups
             )
@@ -86,10 +115,10 @@ class DermNetReasoningPatchTest(unittest.TestCase):
         before = self.original.read_bytes()
         for prediction in ("   ", "SKIP: Image not found", "Failed to obtain answer"):
             with self.subTest(prediction=prediction):
-                pd.DataFrame([{"index": 2, "prediction": prediction}]).to_csv(
+                pd.DataFrame([self.patch_row(prediction)]).to_csv(
                     self.patch_result, sep="\t", index=False
                 )
-                with self.assertRaisesRegex(ValueError, "missing reasoning predictions"):
+                with self.assertRaisesRegex(ValueError, "missing reasoning predictions|missing dataset indices"):
                     self.patch.merge_reasoning_result(
                         self.base, self.original, self.patch_result, self.backups
                     )
@@ -101,7 +130,7 @@ class DermNetReasoningPatchTest(unittest.TestCase):
         frame["score"] = [1, 0]
         frame.to_excel(original, index=False)
         before = original.read_bytes()
-        pd.DataFrame([{"index": 2, "prediction": "Có"}]).to_csv(
+        pd.DataFrame([self.patch_row("Có")]).to_csv(
             self.patch_result, sep="\t", index=False
         )
         backup = self.patch.merge_reasoning_result(
@@ -113,6 +142,42 @@ class DermNetReasoningPatchTest(unittest.TestCase):
         self.assertEqual(1, merged.loc[1, "score"])
         self.assertEqual("Có", merged.loc[2, "prediction"])
         self.assertTrue(pd.isna(merged.loc[2, "score"]))
+
+    def test_separate_merge_keeps_unmodified_source_excel(self):
+        source = self.root / "untouched.xlsx"
+        output = self.root / "merged" / "result.xlsx"
+        pd.read_csv(self.original, sep="\t").to_excel(source, index=False)
+        before = source.read_bytes()
+        pd.DataFrame([self.patch_row("Có")]).to_csv(
+            self.patch_result, sep="\t", index=False
+        )
+        self.patch.merge_reasoning_result(
+            self.base, source, self.patch_result, self.backups, output
+        )
+        self.assertEqual(before, source.read_bytes())
+        merged = pd.read_excel(output).set_index("index")
+        self.assertEqual("Có", merged.loc[2, "prediction"])
+        self.assertEqual("keep", merged.loc[1, "prediction"])
+
+    def test_same_indices_with_different_images_are_rejected(self):
+        frame = pd.read_csv(self.original, sep="\t")
+        frame.loc[frame["index"] == 2, "image_path"] = "/images/other/wrong.jpg"
+        frame.to_csv(self.original, sep="\t", index=False)
+        with self.assertRaisesRegex(ValueError, "image mismatch"):
+            self.patch.validate_source(self.base, self.original)
+
+    def test_nonreasoning_question_changes_are_rejected(self):
+        frame = pd.read_csv(self.original, sep="\t")
+        frame.loc[frame["index"] == 1, "question"] = "unrelated question"
+        frame.to_csv(self.original, sep="\t", index=False)
+        with self.assertRaisesRegex(ValueError, "question mismatch"):
+            self.patch.validate_source(self.base, self.original)
+
+    def test_windows_and_linux_image_prefixes_match(self):
+        frame = pd.read_csv(self.original, sep="\t")
+        frame["image_path"] = [r"D:\data\images\disease\a.jpg", r"D:\data\images\disease\b.jpg"]
+        frame.to_csv(self.original, sep="\t", index=False)
+        self.assertEqual(2, self.patch.validate_source(self.base, self.original))
 
 
 if __name__ == "__main__":
