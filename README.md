@@ -71,7 +71,43 @@ Cài environment một lần trên setup/login node trước khi submit compute 
 | `dermnet-vintern` | [vintern-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/vintern-blackwell.txt) | Vintern 1B/3B |
 | `dermnet-huatuo` | [huatuo-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/huatuo-blackwell.txt) | HuatuoGPT-Vision-34B |
 
-Trên setup node có GPU, lệnh sau tạo đủ bốn env, cài source đã ghim, áp dụng bản vá Blackwell, tạo file mapping và chạy doctor:
+Đứng tại root repository và cài đúng một requirement vào mỗi environment:
+
+```bash
+export DERMNET_KIT_DIR="$PWD/Phase_2/VLMEvalKit"
+export LEGACY_TORCH_INDEX_URL="https://download.pytorch.org/whl/cu128"
+
+conda create -n dermnet-vllm python=3.10 pip -y
+conda run -n dermnet-vllm python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/vllm-blackwell.txt"
+
+conda create -n dermnet-deepseek-int8 python=3.10 pip -y
+conda run -n dermnet-deepseek-int8 python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-deepseek-int8 python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/deepseek-int8-blackwell.txt"
+
+conda create -n dermnet-vintern python=3.10 pip -y
+conda run -n dermnet-vintern python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-vintern python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/vintern-blackwell.txt"
+
+conda create -n dermnet-huatuo python=3.10 pip -y
+conda run -n dermnet-huatuo python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-huatuo python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/huatuo-blackwell.txt"
+
+for DERMNET_ENV in dermnet-vllm dermnet-deepseek-int8 dermnet-vintern dermnet-huatuo; do
+  conda run -n "$DERMNET_ENV" python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+  conda run -n "$DERMNET_ENV" python -m pip check
+done
+```
+
+Quan hệ cài và chạy là cố định: `vllm-blackwell.txt` → `run-group vllm`, `deepseek-int8-blackwell.txt` → `run-group deepseek-int8`, `vintern-blackwell.txt` → `run-group vintern`, `huatuo-blackwell.txt` → `run-group huatuo`.
+
+Phương án tự động thay cho các lệnh thủ công trên, dùng khi setup node nhìn thấy GPU:
 
 ```bash
 git clone https://github.com/MinhKemm/DermNet_Dataset.git
