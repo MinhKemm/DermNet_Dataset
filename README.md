@@ -1,14 +1,109 @@
 # DermNet Dataset
 
-Runner Phase 2 chạy **8 model × 2 bộ dữ liệu tiếng Việt = 16 lượt** trên server 2 GPU × 96 GB. Điểm vào duy nhất:
+Phase 2 chạy **8 model × 2 bộ dữ liệu tiếng Việt = 16 lượt** trên server 2 GPU × 96 GB. Toàn bộ inference đi qua một file:
 
 ```text
 Phase_2/VLMEvalKit/run_phase2.sh
 ```
 
-## Chạy riêng bốn nhóm — luồng chính
+## Quy trình chính trên server
 
-Sau khi bốn environment đã được chuẩn bị và có file `Phase_2/VLMEvalKit/.phase2-server-env.sh`, submit bốn job riêng. Mỗi job yêu cầu 2 GPU và chỉ gọi một lệnh inference:
+Thực hiện theo đúng thứ tự:
+
+```text
+1. Clone repository
+2. Cài 4 requirement vào 4 environment riêng
+3. Chuẩn bị source DeepSeek/Huatuo và file mapping
+4. Submit lần lượt 4 run-group
+5. Submit lại đúng run-group nếu bị gián đoạn
+```
+
+### Bước 1 — Clone repository
+
+```bash
+git clone https://github.com/MinhKemm/DermNet_Dataset.git
+cd DermNet_Dataset
+```
+
+Repository, environment, dữ liệu và output cần nằm trên filesystem mà compute node đọc được.
+
+### Bước 2 — Cài bốn requirement riêng
+
+Mỗi job sử dụng một environment riêng:
+
+| Job | Environment | Requirement |
+|---|---|---|
+| `vllm` | `dermnet-vllm` | [vllm-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/vllm-blackwell.txt) |
+| `deepseek-int8` | `dermnet-deepseek-int8` | [deepseek-int8-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/deepseek-int8-blackwell.txt) |
+| `vintern` | `dermnet-vintern` | [vintern-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/vintern-blackwell.txt) |
+| `huatuo` | `dermnet-huatuo` | [huatuo-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/huatuo-blackwell.txt) |
+
+Đứng tại root repository và chạy tuần tự:
+
+```bash
+export DERMNET_KIT_DIR="$PWD/Phase_2/VLMEvalKit"
+export LEGACY_TORCH_INDEX_URL="https://download.pytorch.org/whl/cu128"
+
+# Requirement cho job 1: vllm
+conda create -n dermnet-vllm python=3.10 pip -y
+conda run -n dermnet-vllm python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/vllm-blackwell.txt"
+conda run -n dermnet-vllm python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+conda run -n dermnet-vllm python -m pip check
+
+# Requirement cho job 2: deepseek-int8
+conda create -n dermnet-deepseek-int8 python=3.10 pip -y
+conda run -n dermnet-deepseek-int8 python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-deepseek-int8 python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/deepseek-int8-blackwell.txt"
+conda run -n dermnet-deepseek-int8 python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+conda run -n dermnet-deepseek-int8 python -m pip check
+
+# Requirement cho job 3: vintern
+conda create -n dermnet-vintern python=3.10 pip -y
+conda run -n dermnet-vintern python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-vintern python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/vintern-blackwell.txt"
+conda run -n dermnet-vintern python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+conda run -n dermnet-vintern python -m pip check
+
+# Requirement cho job 4: huatuo
+conda create -n dermnet-huatuo python=3.10 pip -y
+conda run -n dermnet-huatuo python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-huatuo python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/huatuo-blackwell.txt"
+conda run -n dermnet-huatuo python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+conda run -n dermnet-huatuo python -m pip check
+```
+
+Các file server nhìn ngắn vì dòng đầu `-r ../../requirements.txt` nạp thêm [71 dependency lõi](Phase_2/VLMEvalKit/requirements.txt). Mỗi file sau đó khóa phiên bản riêng của backend; pip tiếp tục cài các package phụ cần thiết.
+
+### Bước 3 — Chuẩn bị source và file mapping
+
+Sau khi cài package, hoàn thành phần [setup thủ công](docs/SERVER_SETUP.md#3-setup-thủ-công-từng-environment):
+
+1. Clone đúng commit DeepSeek-VL2 và HuatuoGPT-Vision.
+2. Áp dụng bản vá attention cho Blackwell.
+3. Tạo `Phase_2/VLMEvalKit/.phase2-server-env.sh` trỏ đến bốn Python environment.
+
+Nếu file mapping nằm ngoài repository:
+
+```bash
+export SERVER_ENV_FILE=/shared/path/.phase2-server-env.sh
+```
+
+Trên setup node nhìn thấy GPU, có thể thay toàn bộ bước 2 và 3 bằng:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh setup
+```
+
+### Bước 4 — Chạy riêng bốn job
+
+Mỗi job yêu cầu 2 GPU. Trên server có đúng hai GPU, để scheduler chạy từng job theo thứ tự dưới đây:
 
 ```bash
 # Job 1: Qwen + DeepSeek Small/Tiny
@@ -24,132 +119,39 @@ bash Phase_2/VLMEvalKit/run_phase2.sh run-group vintern
 bash Phase_2/VLMEvalKit/run_phase2.sh run-group huatuo
 ```
 
-Với Slurm, phần đầu mỗi job thường có:
+Phần đầu Slurm job thường có:
 
 ```bash
 #SBATCH --gres=gpu:2
 cd /shared/path/DermNet_Dataset
 ```
 
-Tên resource chính xác theo cấu hình của cụm máy. Trên server chỉ có hai GPU, có thể submit cả bốn job và để scheduler xếp chạy lần lượt.
-
-### Cách runner dùng hai GPU
-
-| Nhóm | Lượt | Cách dùng GPU |
+| Job | Lượt | Cách dùng hai GPU |
 |---|---:|---|
-| `vllm` | 8 | Qwen dùng cả 2 GPU; DeepSeek chia 2 worker |
-| `deepseek-int8` | 2 | Val và Test chạy song song, mỗi GPU một lượt |
-| `vintern` | 4 | Hai worker, mỗi GPU xử lý một hàng đợi |
-| `huatuo` | 2 | Val và Test chạy song song, mỗi GPU một lượt |
+| `vllm` | 8 | Qwen dùng cả hai GPU; DeepSeek chia hai worker |
+| `deepseek-int8` | 2 | Val và Test chạy song song |
+| `vintern` | 4 | Hai worker, mỗi GPU một hàng đợi |
+| `huatuo` | 2 | Val và Test chạy song song |
 
-Runner giữ đúng `CUDA_VISIBLE_DEVICES` do scheduler cấp. Các lượt song song có work directory riêng nên không ghi đè trạng thái.
+Runner giữ `CUDA_VISIBLE_DEVICES` do scheduler cấp và tách work directory cho các lượt chạy song song.
 
-### Chạy tiếp sau gián đoạn
+### Bước 5 — Chạy tiếp sau gián đoạn
 
-Submit lại đúng lệnh của nhóm bị dừng. Ví dụ:
+Submit lại đúng lệnh của nhóm bị dừng. Runner bỏ qua lượt đã hoàn chỉnh và tiếp tục phần thiếu hoặc thất bại:
 
 ```bash
 bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
 ```
 
-Runner kiểm tra output, bỏ qua lượt đã hoàn chỉnh và tiếp tục lượt thiếu hoặc thất bại. Khi cần chẩn đoán tuần tự:
+Khi cần chạy tuần tự để chẩn đoán:
 
 ```bash
 RUN_GROUP_WORKERS=1 bash Phase_2/VLMEvalKit/run_phase2.sh run-group vintern
 ```
 
-Hướng dẫn scheduler đầy đủ: [docs/SCHEDULER_RUN.md](docs/SCHEDULER_RUN.md).
+## Model và dữ liệu
 
-## Cài riêng bốn environment
-
-Cài environment một lần trên setup/login node trước khi submit compute job. Bốn profile được tách riêng vì phiên bản Torch, Transformers và backend khác nhau:
-
-| Environment | Requirement | Model |
-|---|---|---|
-| `dermnet-vllm` | [vllm-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/vllm-blackwell.txt) | Qwen, DeepSeek Small/Tiny |
-| `dermnet-deepseek-int8` | [deepseek-int8-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/deepseek-int8-blackwell.txt) | DeepSeek-VL2 8-bit |
-| `dermnet-vintern` | [vintern-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/vintern-blackwell.txt) | Vintern 1B/3B |
-| `dermnet-huatuo` | [huatuo-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/huatuo-blackwell.txt) | HuatuoGPT-Vision-34B |
-
-### Vì sao bốn file requirement nhìn ngắn?
-
-Mỗi file đều bắt đầu bằng:
-
-```text
--r ../../requirements.txt
-```
-
-Dòng này yêu cầu pip đọc thêm [requirements.txt lõi](Phase_2/VLMEvalKit/requirements.txt), hiện có **71 khai báo package**. Sau đó file riêng bổ sung hoặc khóa phiên bản cho backend tương ứng:
-
-| Requirement của job | Phần riêng thêm vào | Nội dung chính |
-|---|---:|---|
-| `vllm-blackwell.txt` | 5 dòng | vLLM, Torch, torchvision, Transformers, Qwen utils |
-| `deepseek-int8-blackwell.txt` | 8 dòng | Torch, Transformers, bitsandbytes và dependency DeepSeek |
-| `vintern-blackwell.txt` | 6 dòng | Torch, Transformers và dependency Vintern |
-| `huatuo-blackwell.txt` | 15 dòng | Torch, Transformers và dependency Huatuo |
-
-Vì vậy, mỗi file server là một **requirement entrypoint đầy đủ trong repository**: `71 dependency lõi + phần riêng của model + các package phụ do pip tự cài`. Không cần chép lại 71 dòng giống nhau vào cả bốn file.
-
-Đứng tại root repository và cài đúng một requirement vào mỗi environment:
-
-```bash
-export DERMNET_KIT_DIR="$PWD/Phase_2/VLMEvalKit"
-export LEGACY_TORCH_INDEX_URL="https://download.pytorch.org/whl/cu128"
-
-conda create -n dermnet-vllm python=3.10 pip -y
-conda run -n dermnet-vllm python -m pip install \
-  -r "$DERMNET_KIT_DIR/requirements/server/vllm-blackwell.txt"
-
-conda create -n dermnet-deepseek-int8 python=3.10 pip -y
-conda run -n dermnet-deepseek-int8 python -m pip install \
-  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
-conda run -n dermnet-deepseek-int8 python -m pip install \
-  -r "$DERMNET_KIT_DIR/requirements/server/deepseek-int8-blackwell.txt"
-
-conda create -n dermnet-vintern python=3.10 pip -y
-conda run -n dermnet-vintern python -m pip install \
-  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
-conda run -n dermnet-vintern python -m pip install \
-  -r "$DERMNET_KIT_DIR/requirements/server/vintern-blackwell.txt"
-
-conda create -n dermnet-huatuo python=3.10 pip -y
-conda run -n dermnet-huatuo python -m pip install \
-  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
-conda run -n dermnet-huatuo python -m pip install \
-  -r "$DERMNET_KIT_DIR/requirements/server/huatuo-blackwell.txt"
-
-for DERMNET_ENV in dermnet-vllm dermnet-deepseek-int8 dermnet-vintern dermnet-huatuo; do
-  conda run -n "$DERMNET_ENV" python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
-  conda run -n "$DERMNET_ENV" python -m pip check
-done
-```
-
-Quan hệ cài và chạy là cố định: `vllm-blackwell.txt` → `run-group vllm`, `deepseek-int8-blackwell.txt` → `run-group deepseek-int8`, `vintern-blackwell.txt` → `run-group vintern`, `huatuo-blackwell.txt` → `run-group huatuo`.
-
-Phương án tự động thay cho các lệnh thủ công trên, dùng khi setup node nhìn thấy GPU:
-
-```bash
-git clone https://github.com/MinhKemm/DermNet_Dataset.git
-cd DermNet_Dataset
-bash Phase_2/VLMEvalKit/run_phase2.sh setup
-```
-
-Nếu quản trị viên cài từng env thủ công, dùng toàn bộ lệnh tại [docs/SERVER_SETUP.md](docs/SERVER_SETUP.md#3-setup-thủ-công-từng-environment). Quy trình này bao gồm:
-
-1. Tạo bốn Conda environment và cài đúng bốn requirement ở bảng trên.
-2. Clone đúng commit DeepSeek-VL2 và HuatuoGPT-Vision.
-3. Áp dụng bản vá attention cho Blackwell.
-4. Tạo `Phase_2/VLMEvalKit/.phase2-server-env.sh` để runner chọn đúng Python.
-
-Nếu mapping nằm ngoài repository:
-
-```bash
-export SERVER_ENV_FILE=/shared/path/.phase2-server-env.sh
-```
-
-## Kế hoạch model và dữ liệu
-
-Chỉ chạy `DermNet_Val_VI.tsv` và `DermNet_Test_VI.tsv`:
+Chỉ sử dụng `DermNet_Val_VI.tsv` và `DermNet_Test_VI.tsv`:
 
 | Model | Val VI | Test VI |
 |---|---|---|
@@ -164,15 +166,15 @@ Chỉ chạy `DermNet_Val_VI.tsv` và `DermNet_Test_VI.tsv`:
 
 Tổng cộng **12 lượt full + 4 lượt vá**. Manifest: [dermnet_jobs.txt](Phase_2/VLMEvalKit/scripts/dermnet_jobs.txt).
 
-Hai bản DeepSeek vá sử dụng Excel nguồn được giữ nguyên. Runner tách các dòng cần sửa, inference vào file riêng rồi merge kết quả mới. Chi tiết: [docs/DEEPSEEK_RUN_PLAN.md](docs/DEEPSEEK_RUN_PLAN.md).
+Hai bản DeepSeek vá giữ nguyên Excel nguồn, inference các dòng cần sửa vào file riêng rồi merge kết quả mới. Chi tiết: [docs/DEEPSEEK_RUN_PLAN.md](docs/DEEPSEEK_RUN_PLAN.md).
 
 ## Output và kiểm tra
 
 - Kết quả: `Phase_2/VLMEvalKit/outputs/answer-format-v4-vllm/`.
-- Log, checkpoint và trạng thái: `outputs/answer-format-v4-vllm/.phase2-runner/`.
-- Work directory cho lượt full song song: `outputs/answer-format-v4-vllm/two-gpu-jobs/`.
+- Log/checkpoint: `outputs/answer-format-v4-vllm/.phase2-runner/`.
+- Lượt full song song: `outputs/answer-format-v4-vllm/two-gpu-jobs/`.
 
-Kiểm tra kế hoạch trước khi submit:
+Kiểm tra kế hoạch:
 
 ```bash
 bash Phase_2/VLMEvalKit/run_phase2.sh plan
@@ -180,16 +182,10 @@ DRY_RUN=1 GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 \
   bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
 ```
 
-Tài liệu liên quan:
+Tài liệu chi tiết:
 
 - [Cài environment server](docs/SERVER_SETUP.md)
-- [Chạy bốn job scheduler](docs/SCHEDULER_RUN.md)
+- [Chạy scheduler](docs/SCHEDULER_RUN.md)
 - [Backend vLLM/Blackwell](docs/VLLM_SERVER.md)
 - [Kiểm tra dữ liệu](docs/DATASET_AUDIT.md)
 - [Rà soát Excel vá](docs/RESULTS_PATCH_AUDIT.md)
-
-Phương án phụ cho máy cho phép setup và inference trong cùng phiên:
-
-```bash
-bash Phase_2/VLMEvalKit/run_phase2.sh server
-```
