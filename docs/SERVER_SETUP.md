@@ -258,17 +258,25 @@ export DERMNET_ENV_FILE="$DERMNET_KIT_DIR/.phase2-server-env.sh"
   printf 'export PYTHON_HUATUO=%q\n' "$DERMNET_HUATUO_PYTHON"
   printf 'export HUATUO_SOURCE_DIR=%q\n' "$DERMNET_VENDOR_DIR/HuatuoGPT-Vision"
 } > "$DERMNET_ENV_FILE"
+```
 
+Nếu đang ở node có GPU, chạy doctor và yêu cầu kết thúc bằng thông báo `Doctor passed` trước khi inference:
+
+```bash
 bash "$DERMNET_KIT_DIR/run_phase2.sh" doctor
 ```
 
-Doctor phải kết thúc bằng thông báo `Doctor passed` trước khi chạy inference. Sau đó dùng:
+Nếu login node không có GPU, tạo mapping xong rồi bỏ qua doctor tại login node. Lệnh `run-group` trong compute job sẽ tự kiểm tra CUDA và đúng environment của nhóm đó trước khi inference.
+
+Sau đó có thể chạy toàn bộ bằng:
 
 ```bash
 bash "$DERMNET_KIT_DIR/run_phase2.sh" all
 ```
 
 Nếu setup thủ công bị gián đoạn giữa chừng, chạy lại các lệnh của đúng environment đang dở. Không xóa các environment đã hoàn tất. Nếu inference đã bắt đầu rồi bị gián đoạn, dùng `resume` thay cho `all`.
+
+Với hệ thống không cho cài package trong compute job, xem [chạy bốn nhóm trên scheduler](SCHEDULER_RUN.md). Environment và `.phase2-server-env.sh` được chuẩn bị trước; job chỉ gọi inference.
 
 ## 4. Vì sao không dùng một requirements chung
 

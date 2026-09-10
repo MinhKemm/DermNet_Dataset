@@ -20,7 +20,9 @@ Nếu bị gián đoạn:
 bash Phase_2/VLMEvalKit/run_phase2.sh resume
 ```
 
-Qwen **có và bắt buộc dùng vLLM** trong cấu hình hiện tại. Lần đầu phải dùng lệnh `server` ở trên, không chạy thẳng `all` trong một environment chưa setup. DeepSeek Small/Tiny dùng cùng environment vLLM; DeepSeek 8-bit dùng Transformers + bitsandbytes. Hai Vintern dùng Transformers remote code; Huatuo dùng mã chính thức. Hai backend legacy DeepSeek/Huatuo được setup vá attention sang PyTorch chuẩn để phù hợp Blackwell. Chi tiết phiên bản: [setup server](docs/SERVER_SETUP.md) và [backend Blackwell/vLLM](docs/VLLM_SERVER.md).
+Nếu hệ thống scheduler không cho cài package trong compute job, cài environment một lần ở ngoài job rồi submit bốn nhóm riêng bằng `run-group`. Xem [hướng dẫn chạy bốn job scheduler](docs/SCHEDULER_RUN.md).
+
+Qwen **có và bắt buộc dùng vLLM** trong cấu hình hiện tại. Với quy trình tự động, lần đầu dùng lệnh `server`; với scheduler, setup thủ công trước rồi gọi `run-group`. Không chạy thẳng `all` trong một environment chưa setup. DeepSeek Small/Tiny dùng cùng environment vLLM; DeepSeek 8-bit dùng Transformers + bitsandbytes. Hai Vintern dùng Transformers remote code; Huatuo dùng mã chính thức. Hai backend legacy DeepSeek/Huatuo được setup vá attention sang PyTorch chuẩn để phù hợp Blackwell. Chi tiết phiên bản: [setup server](docs/SERVER_SETUP.md) và [backend Blackwell/vLLM](docs/VLLM_SERVER.md).
 
 Danh sách hiện tại có **8 model**, chỉ dùng Val và Test tiếng Việt: **16 lượt = 12 full + 4 vá**. Một lượt là một model chạy trên một bộ dữ liệu. Các lượt chạy tuần tự.
 
@@ -40,6 +42,15 @@ Các lệnh kiểm tra kế hoạch:
 ```bash
 bash Phase_2/VLMEvalKit/run_phase2.sh plan
 DRY_RUN=1 bash Phase_2/VLMEvalKit/run_phase2.sh all
+```
+
+Bốn lệnh inference riêng, không chạy setup:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group deepseek-int8
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vintern
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group huatuo
 ```
 
 Manifest chính xác: [dermnet_jobs.txt](Phase_2/VLMEvalKit/scripts/dermnet_jobs.txt). Server dự kiến 2 GPU × 96 GB. Runner chọn model theo ngưỡng cấu hình; không mặc định cộng VRAM hai GPU thành bộ nhớ một model.

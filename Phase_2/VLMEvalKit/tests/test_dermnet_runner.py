@@ -87,6 +87,49 @@ class RunnerTest(unittest.TestCase):
         self.assertEqual(4, len(vintern_commands))
         self.assertTrue(all('vintern-full-rerun-20260908' in line for line in vintern_commands))
 
+    def test_runtime_groups_partition_the_complete_plan(self):
+        expected = {
+            'vllm': {
+                'Qwen3.5-35B-A3B', 'Qwen3-VL-8B-Instruct',
+                'deepseek_vl2_small', 'deepseek_vl2_tiny',
+            },
+            'deepseek-int8': {'deepseek_vl2_int8'},
+            'vintern': {'Vintern-1B-v2', 'Vintern-3B-beta'},
+            'huatuo': {'HuatuoGPT-Vision-34B'},
+        }
+        commands_by_group = {}
+        for group, models in expected.items():
+            result = self.run_shell(
+                'GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 '
+                f'DRY_RUN=1 bash run_phase2.sh run-group {group}'
+            )
+            self.assertEqual(0, result.returncode, result.stderr)
+            commands = [
+                line for line in result.stdout.splitlines()
+                if ' run.py --data ' in line
+            ]
+            commands_by_group[group] = commands
+            self.assertTrue(commands)
+            self.assertNotIn('setup_server_envs.sh', result.stdout)
+            for line in commands:
+                self.assertTrue(any(f'--model {model} ' in line for model in models), line)
+
+        all_commands = [line for commands in commands_by_group.values() for line in commands]
+        self.assertEqual(16, len(all_commands))
+        self.assertEqual(16, len(set(all_commands)))
+        self.assertEqual(8, len(commands_by_group['vllm']))
+        self.assertEqual(2, len(commands_by_group['deepseek-int8']))
+        self.assertEqual(4, len(commands_by_group['vintern']))
+        self.assertEqual(2, len(commands_by_group['huatuo']))
+
+    def test_runtime_group_rejects_unknown_name(self):
+        result = self.run_shell(
+            'GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 '
+            'DRY_RUN=1 bash run_phase2.sh run-group unknown'
+        )
+        self.assertNotEqual(0, result.returncode)
+        self.assertIn('Runtime group must be one of', result.stdout + result.stderr)
+
     def test_vintern_can_use_separate_python(self):
         result = self.run_shell(
             'GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 '
@@ -117,9 +160,12 @@ class RunnerTest(unittest.TestCase):
         self.assertIn('bash run_phase2.sh server', result.stdout)
         self.assertIn('bash run_phase2.sh setup', result.stdout)
         self.assertIn('bash run_phase2.sh doctor', result.stdout)
+        self.assertIn('bash run_phase2.sh run-group <vllm|deepseek-int8|vintern|huatuo>', result.stdout)
         self.assertIn('12 full + 4 patch jobs', result.stdout)
         self.assertNotIn('bilingual', result.stdout)
         self.assertNotIn('PYTHON_LEGACY', result.stdout)
+        runner = (Path(__file__).parents[1] / 'run_phase2.sh').read_text()
+        self.assertEqual(1, runner.count('\n        run-group)'))
 
     def test_server_profiles_cover_every_runtime_backend(self):
         root = Path(__file__).parents[1]

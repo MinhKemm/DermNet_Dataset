@@ -1,0 +1,117 @@
+# Chạy bốn nhóm model trên scheduler
+
+Tài liệu này dành cho hệ thống HPC không cho `conda create` hoặc `pip install` trong compute job. Nguyên tắc là:
+
+```text
+Login/setup node: cài environment một lần và tạo file mapping
+Compute job:       chỉ kiểm tra environment được cấp rồi chạy inference
+```
+
+Không dùng lệnh `server` trong nội dung submit job vì `server` luôn gọi `setup`. Thay vào đó, chuẩn bị environment trước rồi dùng bốn lệnh `run-group` bên dưới.
+
+## 1. Chuẩn bị một lần trước khi submit
+
+Thực hiện phần [setup thủ công từng environment](SERVER_SETUP.md#3-setup-thủ-công-từng-environment). Sau bước tạo mapping phải có file:
+
+```text
+Phase_2/VLMEvalKit/.phase2-server-env.sh
+```
+
+Repository, bốn Conda environment, thư mục `vendor` và file mapping phải nằm trên filesystem mà compute node đọc được. Nếu scheduler chạy một bản clone khác, trỏ tới mapping dùng chung:
+
+```bash
+export SERVER_ENV_FILE=/shared/path/.phase2-server-env.sh
+```
+
+Login node không có GPU thì không cần chạy doctor tại đó. Mỗi `run-group` sẽ kiểm tra CUDA và dependency của riêng nhóm trên compute node trước khi bắt đầu model.
+
+## 2. Bốn nhóm cần submit
+
+Đứng tại root repository trong nội dung job script. Không cần `conda activate` vì runner đọc đường dẫn Python tuyệt đối từ `.phase2-server-env.sh`.
+
+| Nhóm | Số lượt | Model | GPU đề xuất |
+|---|---:|---|---:|
+| `vllm` | 8 | Hai Qwen full, DeepSeek Small full, DeepSeek Tiny vá | 2 GPU |
+| `deepseek-int8` | 2 | DeepSeek-VL2 8-bit vá | 1 GPU |
+| `vintern` | 4 | Vintern 1B và 3B full | 1 GPU |
+| `huatuo` | 2 | HuatuoGPT-Vision-34B full | 1 GPU |
+
+### Job 1: vLLM
+
+```bash
+cd /shared/path/DermNet_Dataset
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
+```
+
+Nhóm này dùng `dermnet-vllm` với Torch 2.13.0. Qwen sử dụng toàn bộ GPU mà scheduler cho nhìn thấy, vì vậy job Qwen nên được cấp hai GPU và chỉ nhìn thấy đúng hai GPU được cấp qua `CUDA_VISIBLE_DEVICES`.
+
+### Job 2: DeepSeek INT8
+
+```bash
+cd /shared/path/DermNet_Dataset
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group deepseek-int8
+```
+
+### Job 3: Vintern
+
+```bash
+cd /shared/path/DermNet_Dataset
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vintern
+```
+
+### Job 4: Huatuo
+
+```bash
+cd /shared/path/DermNet_Dataset
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group huatuo
+```
+
+Các dòng `#SBATCH`, PBS hoặc LSF phụ thuộc cấu hình cụm máy nên đặt ở phần đầu job script theo mẫu của quản trị viên. Phần lệnh inference giữ nguyên như trên.
+
+## 3. Chạy thử kế hoạch trước khi submit
+
+Các lệnh dưới đây không cài package và không load model:
+
+```bash
+DRY_RUN=1 GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 \
+  bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
+
+DRY_RUN=1 GPU_COUNT=1 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=96 \
+  bash Phase_2/VLMEvalKit/run_phase2.sh run-group deepseek-int8
+
+DRY_RUN=1 GPU_COUNT=1 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=96 \
+  bash Phase_2/VLMEvalKit/run_phase2.sh run-group vintern
+
+DRY_RUN=1 GPU_COUNT=1 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=96 \
+  bash Phase_2/VLMEvalKit/run_phase2.sh run-group huatuo
+```
+
+Kết quả phải lần lượt có 8, 2, 4 và 2 lượt; tổng cộng đúng 16 lượt.
+
+## 4. Chạy tiếp sau gián đoạn
+
+Submit lại đúng lệnh của nhóm bị dừng. Ví dụ:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
+```
+
+`run-group` tự kiểm tra kết quả đã hoàn chỉnh, bỏ qua phần đã xong và dùng checkpoint cho phần thiếu hoặc thất bại. Không cần đổi sang lệnh khác.
+
+Mỗi nhóm có lock và bộ TSV runtime riêng nên có thể nằm trong các allocation scheduler khác nhau. Không chạy `all`, `resume` hoặc `server` đồng thời với bốn `run-group`, vì các lệnh toàn bộ có thể chọn lại cùng model/output.
+
+## 5. Output và log
+
+Kết quả model vẫn nằm dưới:
+
+```text
+Phase_2/VLMEvalKit/outputs/answer-format-v4-vllm/
+```
+
+Log và trạng thái nằm dưới:
+
+```text
+Phase_2/VLMEvalKit/outputs/answer-format-v4-vllm/.phase2-runner/
+```
+
+Các nhóm ghi model khác nhau nên không ghi đè kết quả của nhau. Scheduler vẫn phải cấp GPU riêng cho từng job; runner không tự chia GPU giữa những job nằm trong cùng allocation.

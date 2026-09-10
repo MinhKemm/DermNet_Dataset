@@ -34,6 +34,7 @@ PYTHON_DEEPSEEK="${PYTHON_DEEPSEEK:-$PYTHON_BIN}"
 PYTHON_DEEPSEEK_VLLM="${PYTHON_DEEPSEEK_VLLM:-$PYTHON_QWEN}"
 PYTHON_HUATUO="${PYTHON_HUATUO:-$PYTHON_BIN}"
 PYTHON_EXE="$PYTHON_BIN"
+CONTINUE_COMMAND='bash run_phase2.sh resume'
 
 DRY_RUN="${DRY_RUN:-0}"
 REQUIRE_GPU="${REQUIRE_GPU:-1}"
@@ -73,10 +74,12 @@ Usage:
   bash run_phase2.sh plan
   bash run_phase2.sh setup
   bash run_phase2.sh doctor
+  bash run_phase2.sh run-group <vllm|deepseek-int8|vintern|huatuo>
   bash run_phase2.sh full <model_name> <dataset_name>
   bash run_phase2.sh patch <model_name> <dataset_name> <existing_result.xlsx>
 
 The all/resume commands follow scripts/dermnet_jobs.txt: 12 full + 4 patch jobs.
+The run-group command runs one preinstalled environment family and resumes it when repeated.
 The auto profile skips models above estimated VRAM limits without substituting variants.
 Old patch inputs must exist before all/resume starts. Use plan to list their paths.
 
@@ -103,6 +106,10 @@ Examples:
   bash run_phase2.sh doctor
   bash run_phase2.sh all
   bash run_phase2.sh resume
+  bash run_phase2.sh run-group vllm
+  bash run_phase2.sh run-group deepseek-int8
+  bash run_phase2.sh run-group vintern
+  bash run_phase2.sh run-group huatuo
   MODEL_PROFILE=full bash run_phase2.sh plan
   bash run_phase2.sh patch deepseek_vl2_tiny DermNet_Val_VI /path/result.xlsx
 EOF
@@ -199,6 +206,49 @@ build_jobs() {
     done
 }
 
+runtime_group_for_model() {
+    local model="$1"
+    case "$model" in
+        Qwen3*|deepseek_vl2_small|deepseek_vl2_tiny) printf 'vllm\n' ;;
+        deepseek_vl2_int8) printf 'deepseek-int8\n' ;;
+        Vintern-*) printf 'vintern\n' ;;
+        HuatuoGPT-Vision*) printf 'huatuo\n' ;;
+        *) die "No runtime group is defined for model: $model" ;;
+    esac
+}
+
+select_runtime_group() {
+    local group="$1" job mode model dataset result
+    case "$group" in
+        vllm|deepseek-int8|vintern|huatuo) ;;
+        *) die 'Runtime group must be one of: vllm, deepseek-int8, vintern, huatuo.' ;;
+    esac
+
+    build_jobs
+    local selected=()
+    for job in "${JOBS[@]}"; do
+        IFS='|' read -r mode model dataset result <<< "$job"
+        if [[ "$(runtime_group_for_model "$model")" == "$group" ]]; then
+            selected+=("$job")
+        fi
+    done
+    JOBS=("${selected[@]}")
+    (( ${#JOBS[@]} > 0 )) || die "No jobs are available for runtime group: $group"
+
+    MODELS=()
+    for job in "${JOBS[@]}"; do
+        IFS='|' read -r mode model dataset result <<< "$job"
+        [[ " ${MODELS[*]} " == *" $model "* ]] || MODELS+=("$model")
+    done
+
+    # Separate locks and runtime TSVs allow scheduler groups to run in distinct
+    # allocations without writing the same temporary files. Model outputs,
+    # logs and completion markers are already uniquely named by model/dataset.
+    LOCK_DIR="$STATE_DIR/lock-$group"
+    RUNTIME_DATA_DIR="$STATE_DIR/datasets-$group"
+    CONTINUE_COMMAND="bash run_phase2.sh run-group $group"
+}
+
 preflight_patch_files() {
     local job mode model dataset result missing=0
     for job in "${JOBS[@]}"; do
@@ -211,8 +261,7 @@ preflight_patch_files() {
     (( missing == 0 )) || die "$missing patch input file(s) missing. Copy old results into LEGACY_RESULTS_DIR before running all/resume."
 }
 
-show_plan() {
-    build_jobs
+show_selected_plan() {
     local number=0 model dataset job mode result
     printf 'Hardware: %s GPU(s), largest=%sGB, total=%sGB; profile=%s\n' \
         "$GPU_COUNT" "$GPU_MAX_VRAM_GB" "$GPU_TOTAL_VRAM_GB" "$MODEL_PROFILE"
@@ -226,6 +275,11 @@ show_plan() {
         printf 'Skipped by auto VRAM policy:\n'
         printf '  - %s\n' "${SKIPPED_MODELS[@]}"
     fi
+}
+
+show_plan() {
+    build_jobs
+    show_selected_plan
 }
 
 validate_static_files() {
@@ -349,7 +403,7 @@ release_lock() {
 }
 
 on_signal() {
-    log 'Interrupted. Checkpoints were kept; run `bash run_phase2.sh resume`.'
+    log "Interrupted. Checkpoints were kept; run \`$CONTINUE_COMMAND\`."
     exit 130
 }
 
@@ -623,7 +677,7 @@ run_all_jobs() {
     done
     if (( ${#failed[@]} > 0 )); then
         log "Finished with ${#failed[@]} failed/incomplete job(s): ${failed[*]}"
-        log 'Run `bash run_phase2.sh resume` to retry unfinished jobs.'
+        log "Run \`$CONTINUE_COMMAND\` to retry unfinished jobs."
         return 1
     fi
     if [[ "$DRY_RUN" == '1' ]]; then
@@ -670,6 +724,21 @@ main() {
         status) show_status ;;
         all|resume)
             show_plan
+            preflight_patch_files
+            validate_static_files
+            if [[ "$DRY_RUN" != '1' ]]; then
+                acquire_lock
+                trap release_lock EXIT
+                trap on_signal INT TERM HUP
+            fi
+            validate_environment
+            prepare_datasets
+            run_all_jobs
+            ;;
+        run-group)
+            [[ $# -eq 2 ]] || die 'Usage: bash run_phase2.sh run-group <vllm|deepseek-int8|vintern|huatuo>'
+            select_runtime_group "$2"
+            show_selected_plan
             preflight_patch_files
             validate_static_files
             if [[ "$DRY_RUN" != '1' ]]; then
