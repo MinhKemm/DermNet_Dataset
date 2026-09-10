@@ -71,6 +71,25 @@ Cài environment một lần trên setup/login node trước khi submit compute 
 | `dermnet-vintern` | [vintern-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/vintern-blackwell.txt) | Vintern 1B/3B |
 | `dermnet-huatuo` | [huatuo-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/huatuo-blackwell.txt) | HuatuoGPT-Vision-34B |
 
+### Vì sao bốn file requirement nhìn ngắn?
+
+Mỗi file đều bắt đầu bằng:
+
+```text
+-r ../../requirements.txt
+```
+
+Dòng này yêu cầu pip đọc thêm [requirements.txt lõi](Phase_2/VLMEvalKit/requirements.txt), hiện có **71 khai báo package**. Sau đó file riêng bổ sung hoặc khóa phiên bản cho backend tương ứng:
+
+| Requirement của job | Phần riêng thêm vào | Nội dung chính |
+|---|---:|---|
+| `vllm-blackwell.txt` | 5 dòng | vLLM, Torch, torchvision, Transformers, Qwen utils |
+| `deepseek-int8-blackwell.txt` | 8 dòng | Torch, Transformers, bitsandbytes và dependency DeepSeek |
+| `vintern-blackwell.txt` | 6 dòng | Torch, Transformers và dependency Vintern |
+| `huatuo-blackwell.txt` | 15 dòng | Torch, Transformers và dependency Huatuo |
+
+Vì vậy, mỗi file server là một **requirement entrypoint đầy đủ trong repository**: `71 dependency lõi + phần riêng của model + các package phụ do pip tự cài`. Không cần chép lại 71 dòng giống nhau vào cả bốn file.
+
 Đứng tại root repository và cài đúng một requirement vào mỗi environment:
 
 ```bash
