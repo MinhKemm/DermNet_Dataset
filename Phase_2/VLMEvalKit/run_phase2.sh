@@ -66,6 +66,7 @@ usage() {
 DermNet QA - one-command Vietnamese server runner
 
 Usage:
+  bash run_phase2.sh server
   bash run_phase2.sh all
   bash run_phase2.sh resume
   bash run_phase2.sh status
@@ -97,6 +98,7 @@ Useful overrides:
   DRY_RUN=1                    Validate and print commands without inference.
 
 Examples:
+  bash run_phase2.sh server
   bash run_phase2.sh setup
   bash run_phase2.sh doctor
   bash run_phase2.sh all
@@ -646,6 +648,10 @@ show_status() {
 main() {
     local command="${1:-}"
     case "$command" in
+        server)
+            bash "$SCRIPT_DIR/scripts/setup_server_envs.sh"
+            exec bash "$SCRIPT_DIR/run_phase2.sh" all
+            ;;
         setup) bash "$SCRIPT_DIR/scripts/setup_server_envs.sh" ;;
         doctor)
             [[ "$DRY_RUN" != '1' ]] || die 'doctor is a real CUDA/package check and cannot run with DRY_RUN=1.'

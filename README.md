@@ -2,17 +2,15 @@
 
 ## Chạy từ đầu trên server
 
-Điểm vào duy nhất là `Phase_2/VLMEvalKit/run_phase2.sh`. Lần đầu sau khi clone, chạy:
+Điểm vào duy nhất là `Phase_2/VLMEvalKit/run_phase2.sh`. Sau khi clone, một lệnh `server` sẽ tự setup bốn environment, chạy doctor rồi chạy toàn bộ 16 lượt:
 
 ```bash
 git clone https://github.com/MinhKemm/DermNet_Dataset.git
 cd DermNet_Dataset
-bash Phase_2/VLMEvalKit/run_phase2.sh setup
-bash Phase_2/VLMEvalKit/run_phase2.sh doctor
-bash Phase_2/VLMEvalKit/run_phase2.sh all
+bash Phase_2/VLMEvalKit/run_phase2.sh server
 ```
 
-`setup` tạo bốn Conda environment đúng backend và lưu tự động đường dẫn Python vào `.phase2-server-env.sh`. `doctor` kiểm tra CUDA, kernel Blackwell, phiên bản vLLM/Transformers, module riêng của model, ảnh, TSV và bốn Excel nguồn trước khi inference. Những lần chạy sau không cần activate Conda hay export lại biến.
+`server` gọi toàn bộ quy trình từ A-Z. Bên trong, `setup` tạo bốn Conda environment đúng backend và lưu tự động đường dẫn Python vào `.phase2-server-env.sh`; doctor kiểm tra CUDA, kernel Blackwell, phiên bản vLLM/Transformers, module riêng của model, ảnh, TSV và bốn Excel nguồn trước khi inference. Những lần chạy sau không cần activate Conda hay export lại biến.
 
 Nếu bị gián đoạn:
 
@@ -20,7 +18,7 @@ Nếu bị gián đoạn:
 bash Phase_2/VLMEvalKit/run_phase2.sh resume
 ```
 
-Qwen **có và bắt buộc dùng vLLM** trong cấu hình hiện tại. DeepSeek Small/Tiny dùng cùng environment vLLM; DeepSeek 8-bit dùng Transformers + bitsandbytes. Hai Vintern dùng Transformers remote code; Huatuo dùng mã chính thức + FlashAttention 2. Chi tiết phiên bản: [setup server](docs/SERVER_SETUP.md) và [backend Blackwell/vLLM](docs/VLLM_SERVER.md).
+Qwen **có và bắt buộc dùng vLLM** trong cấu hình hiện tại. DeepSeek Small/Tiny dùng cùng environment vLLM; DeepSeek 8-bit dùng Transformers + bitsandbytes. Hai Vintern dùng Transformers remote code; Huatuo dùng mã chính thức. Hai backend legacy DeepSeek/Huatuo được setup vá attention sang PyTorch chuẩn để phù hợp Blackwell. Chi tiết phiên bản: [setup server](docs/SERVER_SETUP.md) và [backend Blackwell/vLLM](docs/VLLM_SERVER.md).
 
 Danh sách hiện tại có **8 model**, chỉ dùng Val và Test tiếng Việt: **16 lượt = 12 full + 4 vá**. Một lượt là một model chạy trên một bộ dữ liệu. Các lượt chạy tuần tự.
 
@@ -67,11 +65,11 @@ Gemma, Huatuo 7B, InternVL, Janus, LLaVA 1.5 7B 4-bit, Phi, Qwen2.5-VL và SmolV
 - `vllm-blackwell.txt`: Qwen3.5, Qwen3-VL, DeepSeek Small/Tiny.
 - `deepseek-int8-blackwell.txt`: DeepSeek 8-bit.
 - `vintern-blackwell.txt`: Vintern 1B/3B.
-- `huatuo-blackwell.txt`: Huatuo 34B; setup cài thêm FlashAttention sau PyTorch.
+- `huatuo-blackwell.txt`: Huatuo 34B.
 
-Conda, Git, driver NVIDIA và `nvidia-smi` cần có trên server. Huatuo cần CUDA 12.8 toolkit/compiler để build `flash-attn` khớp PyTorch cu128 mặc định; nếu cụm HPC dùng module, nạp module CUDA 12.8 trước `setup`.
+Conda, Git, driver NVIDIA và `nvidia-smi` cần có trên server.
 
-Setup ghim commit của mã nguồn DeepSeek-VL2 và HuatuoGPT-Vision để lần cài sau không tự đổi code. Khi model gated yêu cầu xác thực tải, đặt `HF_TOKEN` bằng cơ chế secret của server.
+Setup ghim commit của mã nguồn DeepSeek-VL2 và HuatuoGPT-Vision để lần cài sau không tự đổi code, rồi áp dụng bản vá attention đã kiểm thử đúng vào chính hai source tree này. Khi model gated yêu cầu xác thực tải, đặt `HF_TOKEN` bằng cơ chế secret của server. Cuối lệnh `setup`, doctor được chạy tự động; vẫn có thể gọi lại `doctor` bất cứ lúc nào.
 
 ## Dữ liệu, checkpoint và kiểm tra
 
@@ -90,7 +88,7 @@ Kiểm thử cục bộ:
 
 ```bash
 cd Phase_2/VLMEvalKit
-python -m unittest tests.test_legacy_model_loading tests.test_dermnet_runner tests.test_dermnet_reasoning_patch tests.test_dermnet_prompt tests.test_dermnet_dataset_contract tests.test_deepseek_vl2_instruction tests.test_huatuo_vision
+python -m unittest discover -s tests -p 'test_*.py'
 bash -n run_phase2.sh
 ```
 

@@ -98,6 +98,7 @@ class RunnerTest(unittest.TestCase):
     def test_help_documents_setup_doctor_and_current_job_count(self):
         result = self.run_shell('bash run_phase2.sh --help')
         self.assertEqual(0, result.returncode, result.stderr)
+        self.assertIn('bash run_phase2.sh server', result.stdout)
         self.assertIn('bash run_phase2.sh setup', result.stdout)
         self.assertIn('bash run_phase2.sh doctor', result.stdout)
         self.assertIn('12 full + 4 patch jobs', result.stdout)
@@ -107,17 +108,43 @@ class RunnerTest(unittest.TestCase):
     def test_server_profiles_cover_every_runtime_backend(self):
         root = Path(__file__).parents[1]
         profiles = root / 'requirements' / 'server'
-        self.assertIn('vllm==0.28.0', (profiles / 'vllm-blackwell.txt').read_text())
+        vllm = (profiles / 'vllm-blackwell.txt').read_text()
+        self.assertIn('vllm==0.28.0', vllm)
+        self.assertIn('torch==2.13.0', vllm)
+        self.assertIn('transformers==5.17.0', vllm)
         int8 = (profiles / 'deepseek-int8-blackwell.txt').read_text()
         self.assertIn('bitsandbytes==0.49.0', int8)
         self.assertIn('transformers==4.38.2', int8)
-        self.assertIn('xformers==0.0.32.post2', int8)
-        self.assertIn('transformers==4.42.3', (profiles / 'vintern-blackwell.txt').read_text())
+        self.assertIn('torch==2.8.0', int8)
+        self.assertNotIn('xformers', int8)
+        vintern = (profiles / 'vintern-blackwell.txt').read_text()
+        self.assertIn('transformers==4.42.3', vintern)
+        self.assertIn('torch==2.8.0', vintern)
         huatuo = (profiles / 'huatuo-blackwell.txt').read_text()
         self.assertIn('transformers==4.37.2', huatuo)
+        self.assertIn('torch==2.8.0', huatuo)
         setup = (root / 'scripts' / 'setup_server_envs.sh').read_text()
-        self.assertIn('flash-attn==2.8.3.post1 --no-build-isolation', setup)
-        self.assertIn("PYTHON_DEEPSEEK_VLLM='$VLLM_PYTHON'", setup)
+        self.assertNotIn('flash-attn', setup)
+        self.assertNotIn('nvcc', setup)
+        self.assertIn('write_export PYTHON_DEEPSEEK_VLLM "$VLLM_PYTHON"', setup)
+        self.assertIn('bash "$KIT_DIR/run_phase2.sh" doctor', setup)
+        runner = (root / 'run_phase2.sh').read_text()
+        self.assertIn('exec bash "$SCRIPT_DIR/run_phase2.sh" all', runner)
+        doctor = (root / 'scripts' / 'check_server_env.py').read_text()
+        self.assertIn('DeepSeek Blackwell attention patch is missing', doctor)
+        self.assertIn('Huatuo Blackwell attention patch is missing', doctor)
+
+    def test_selected_qwen_models_use_bounded_deterministic_generation(self):
+        config = (Path(__file__).parents[1] / 'vlmeval' / 'config.py').read_text()
+        for model in ('Qwen3-VL-8B-Instruct', 'Qwen3.5-35B-A3B'):
+            block = config.split(f'"{model}": partial(', 1)[1].split('\n    ),', 1)[0]
+            self.assertIn('use_vllm=True', block)
+            self.assertIn('temperature=0.0', block)
+            self.assertIn('max_new_tokens=512', block)
+            self.assertIn('presence_penalty=0.0', block)
+
+        adapter = (Path(__file__).parents[1] / 'vlmeval' / 'vlm' / 'qwen3_vl' / 'model.py').read_text()
+        self.assertIn("return {'enable_thinking': False}", adapter)
 
 
 if __name__ == '__main__':

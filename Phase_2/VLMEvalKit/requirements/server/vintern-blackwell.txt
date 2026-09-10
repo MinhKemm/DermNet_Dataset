@@ -1,6 +1,8 @@
 -r ../../requirements.txt
 
 # Both published Vintern configs were authored against Transformers 4.42.3.
+torch==2.8.0
+torchvision==0.23.0
 transformers==4.42.3
 einops
 timm

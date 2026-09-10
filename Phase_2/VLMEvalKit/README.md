@@ -4,16 +4,16 @@ Hướng dẫn đầy đủ nằm tại [`README.md`](../../README.md) ở root 
 
 ## Chạy toàn bộ
 
-Trong thư mục này:
+Lần đầu trên server, từ root repository:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh server
+```
+
+Lệnh này setup môi trường, doctor rồi chạy toàn bộ. Nếu môi trường đã được setup, trong thư mục này có thể chạy thẳng:
 
 ```bash
 bash run_phase2.sh all
-```
-
-Hoặc từ root repository:
-
-```bash
-bash Phase_2/VLMEvalKit/run_phase2.sh all
 ```
 
 ## Chạy tiếp sau khi gián đoạn
@@ -45,4 +45,4 @@ bash run_phase2.sh patch \
 
 Lệnh patch tạo mini dataset, chạy lại đúng các dòng `Lesion_Reasoning`, kiểm tra kết quả đầy đủ, sao lưu file cũ rồi mới gộp prediction mới. Nếu bị gián đoạn, chạy lại cùng lệnh để dùng checkpoint đã có.
 
-Runner sử dụng environment Python đã được chuẩn bị trên server. Xem README tại root để biết các biến `PYTHON_BIN`, `PYTHON_QWEN`, `PYTHON_LEGACY`, `PYTHON_DEEPSEEK`, profile GPU, dữ liệu song ngữ, log và checkpoint.
+Xem README tại root để biết bốn profile Python, hai dataset tiếng Việt, backend model, log và checkpoint.

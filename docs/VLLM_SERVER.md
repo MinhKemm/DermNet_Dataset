@@ -8,19 +8,25 @@
 |---|---|
 | Qwen3.5-35B-A3B, Qwen3-VL-8B | vLLM, đã có nhánh thật |
 | DeepSeek Small, Tiny BF16 | vLLM, nhánh mới gọi LLM.generate với ảnh và prompt |
-| DeepSeek 8-bit | Transformers/BitsAndBytes, giữ đúng lượng tử hóa yêu cầu |
+| DeepSeek 8-bit | Transformers/BitsAndBytes, attention PyTorch SDPA, giữ đúng lượng tử hóa yêu cầu |
 | Hai Vintern | Transformers, adapter hiện chưa có nhánh vLLM |
-| Huatuo 34B | CLI chính thức, adapter hiện chưa có nhánh vLLM |
+| Huatuo 34B | CLI chính thức, PyTorch eager attention; adapter hiện chưa có nhánh vLLM |
 
 Không đổi cờ cho mọi class một cách cơ học. Gemma trong ảnh đã bị loại khỏi danh sách chạy. Danh sách [vLLM hỗ trợ](https://docs.vllm.ai/en/stable/models/supported_models/) có DeepSeek-VL2 và InternVL, nhưng hỗ trợ kiến trúc không tự tạo nhánh inference cho adapter Vintern của repo này. Chuyển bản 8-bit sang backend khác cần xác nhận đúng định dạng lượng tử hóa; không tự thay bằng 4-bit/BF16.
 
+Hai source legacy vốn ép xFormers/FlashAttention 2. Setup vá đúng commit đã ghim để PyTorch tự chạy attention tương thích Blackwell. Việc này chỉ đổi kernel tính attention, không đổi checkpoint, prompt, kiểu lượng tử hóa hay logic định dạng câu trả lời.
+
 DeepSeek mới dùng API multimodal offline của vLLM, giới hạn một ảnh/câu, context 4096 và sinh tối đa 512 token, BF16. Câu hỏi cùng chỉ dẫn định dạng của dataset được giữ nguyên. Không hỗ trợ hội thoại nhiều lượt trong nhánh này; đầu vào không phù hợp báo lỗi. Đây là thay đổi backend/generation của đợt vá; không khẳng định tái lập nguyên trạng kết quả lịch sử.
+
+Hai Qwen trong manifest cũng được khóa deterministic (`temperature=0`) và tối đa 512 token. Với dataset DermNet, chat template tắt thinking để output đi thẳng vào đáp án; chỉ dẫn riêng theo loại câu hỏi vẫn do dataset gắn vào prompt.
 
 ## Dùng chung một file điều phối
 
 Lệnh `setup` chuẩn bị các môi trường và runner tự nạp biến Python theo [setup](SERVER_SETUP.md):
 
 ```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh server
+# Hoặc chạy từng bước:
 bash Phase_2/VLMEvalKit/run_phase2.sh setup
 bash Phase_2/VLMEvalKit/run_phase2.sh doctor
 bash Phase_2/VLMEvalKit/run_phase2.sh all
