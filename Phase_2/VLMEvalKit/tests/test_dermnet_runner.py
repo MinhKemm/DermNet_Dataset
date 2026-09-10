@@ -130,6 +130,48 @@ class RunnerTest(unittest.TestCase):
         self.assertNotEqual(0, result.returncode)
         self.assertIn('Runtime group must be one of', result.stdout + result.stderr)
 
+    def test_two_gpu_groups_parallelize_non_vllm_jobs_one_per_gpu(self):
+        for group, expected_jobs in {
+            'deepseek-int8': 2,
+            'vintern': 4,
+            'huatuo': 2,
+        }.items():
+            result = self.run_shell(
+                'GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 '
+                f'DRY_RUN=1 bash run_phase2.sh run-group {group}'
+            )
+            self.assertEqual(0, result.returncode, result.stderr)
+            self.assertIn('Two-GPU mode: 2 parallel workers', result.stdout)
+            assignments = [
+                line for line in result.stdout.splitlines()
+                if 'ASSIGN GPU ' in line
+            ]
+            self.assertEqual(expected_jobs, len(assignments))
+            self.assertTrue(any('ASSIGN GPU 0 ' in line for line in assignments))
+            self.assertTrue(any('ASSIGN GPU 1 ' in line for line in assignments))
+
+        vllm = self.run_shell(
+            'GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 '
+            'DRY_RUN=1 bash run_phase2.sh run-group vllm'
+        )
+        self.assertEqual(0, vllm.returncode, vllm.stderr)
+        self.assertIn('Two-GPU mode: vLLM keeps both GPUs visible', vllm.stdout)
+        self.assertNotIn('ASSIGN GPU ', vllm.stdout)
+
+    def test_parallel_full_jobs_use_distinct_work_directories(self):
+        result = self.run_shell(
+            'GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 '
+            'DRY_RUN=1 bash run_phase2.sh run-group huatuo'
+        )
+        self.assertEqual(0, result.returncode, result.stderr)
+        commands = [line for line in result.stdout.splitlines() if ' run.py --data ' in line]
+        self.assertEqual(2, len(commands))
+        self.assertTrue(all('/two-gpu-jobs/' in line for line in commands))
+        self.assertNotEqual(
+            commands[0].split(' --work-dir ', 1)[1].split(' --mode ', 1)[0],
+            commands[1].split(' --work-dir ', 1)[1].split(' --mode ', 1)[0],
+        )
+
     def test_vintern_can_use_separate_python(self):
         result = self.run_shell(
             'GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 '

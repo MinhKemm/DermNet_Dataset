@@ -35,6 +35,10 @@ PYTHON_DEEPSEEK_VLLM="${PYTHON_DEEPSEEK_VLLM:-$PYTHON_QWEN}"
 PYTHON_HUATUO="${PYTHON_HUATUO:-$PYTHON_BIN}"
 PYTHON_EXE="$PYTHON_BIN"
 CONTINUE_COMMAND='bash run_phase2.sh resume'
+RUNTIME_GROUP=''
+ALLOCATED_CUDA_DEVICES="${CUDA_VISIBLE_DEVICES:-}"
+RUN_GROUP_WORKERS="${RUN_GROUP_WORKERS:-2}"
+ACTIVE_PIDS=()
 
 DRY_RUN="${DRY_RUN:-0}"
 REQUIRE_GPU="${REQUIRE_GPU:-1}"
@@ -61,6 +65,11 @@ timestamp() { date '+%Y-%m-%d %H:%M:%S'; }
 log() { printf '[%s] %s\n' "$(timestamp)" "$*"; }
 die() { log "ERROR: $*" >&2; exit 1; }
 job_id() { printf '%s__%s' "$1" "$2" | tr -c 'A-Za-z0-9_.-' '_'; }
+print_shell_command() {
+    local rendered
+    printf -v rendered '%q ' "$@"
+    printf '%s\n' "$rendered"
+}
 
 usage() {
     cat <<'EOF'
@@ -95,6 +104,7 @@ Useful overrides:
   PYTHON_HUATUO=python3        Python environment for official HuatuoGPT-Vision.
   HUATUO_SOURCE_DIR=/path      Official HuatuoGPT-Vision checkout with cli.py.
   MAX_JOB_RETRIES=2            Attempts per model/dataset job.
+  RUN_GROUP_WORKERS=2          Use two one-GPU workers for non-vLLM groups.
   MISSING_IMAGE_POLICY=fail    fail | skip; fail is the default.
   GPU_MAX_VRAM_GB=80           Override detected largest-GPU VRAM.
   GPU_TOTAL_VRAM_GB=160        Override detected aggregate VRAM.
@@ -247,6 +257,7 @@ select_runtime_group() {
     LOCK_DIR="$STATE_DIR/lock-$group"
     RUNTIME_DATA_DIR="$STATE_DIR/datasets-$group"
     CONTINUE_COMMAND="bash run_phase2.sh run-group $group"
+    RUNTIME_GROUP="$group"
 }
 
 preflight_patch_files() {
@@ -290,6 +301,8 @@ validate_static_files() {
     [[ -f "$ENV_CHECK_TOOL" ]] || die 'Missing scripts/check_server_env.py.'
     [[ -f "$SCRIPT_DIR/scripts/dermnet_jobs.txt" ]] || die 'Missing scripts/dermnet_jobs.txt.'
     [[ "$MAX_JOB_RETRIES" =~ ^[1-9][0-9]*$ ]] || die 'MAX_JOB_RETRIES must be a positive integer.'
+    [[ "$RUN_GROUP_WORKERS" == 1 || "$RUN_GROUP_WORKERS" == 2 ]] \
+        || die 'RUN_GROUP_WORKERS must be 1 or 2.'
 
     local dataset model missing_models=0
     for dataset in "${DATASETS[@]}"; do
@@ -403,6 +416,10 @@ release_lock() {
 }
 
 on_signal() {
+    if (( ${#ACTIVE_PIDS[@]} > 0 )); then
+        kill -TERM "${ACTIVE_PIDS[@]}" 2>/dev/null || true
+        wait "${ACTIVE_PIDS[@]}" 2>/dev/null || true
+    fi
     log "Interrupted. Checkpoints were kept; run \`$CONTINUE_COMMAND\`."
     exit 130
 }
@@ -543,9 +560,8 @@ run_job() {
     fi
 
     if [[ "$DRY_RUN" == '1' ]]; then
-        printf '%q ' "$PYTHON_EXE" run.py --data "$dataset" --model "$model" \
+        print_shell_command "$PYTHON_EXE" run.py --data "$dataset" --model "$model" \
             --work-dir "$RUN_WORK_DIR" --mode infer --verbose --reuse --reuse-aux infer
-        printf '\n'
         return 0
     fi
 
@@ -626,12 +642,14 @@ PY
         return 0
     fi
     if [[ "$DRY_RUN" == '1' ]]; then
-        printf '%q ' "$PYTHON_EXE" "$PATCH_TOOL" prepare --base "$LMUData/$dataset.tsv" --mini "$mini_tsv" --original "$original_result"
-        printf '\n'
-        printf '%q ' "$PYTHON_EXE" run.py --data "$mini_dataset" --model "$model" --work-dir "$patch_work" --mode infer --verbose --reuse --reuse-aux infer
-        printf '\n'
-        printf '%q ' "$PYTHON_EXE" "$PATCH_TOOL" merge --base "$LMUData/$dataset.tsv" --original "$original_result" --patch-result '<generated-result>' --backup-dir "$STATE_DIR/backups/$id" --output "$merged_result"
-        printf '\n'
+        print_shell_command "$PYTHON_EXE" "$PATCH_TOOL" prepare \
+            --base "$LMUData/$dataset.tsv" --mini "$mini_tsv" --original "$original_result"
+        print_shell_command "$PYTHON_EXE" run.py --data "$mini_dataset" --model "$model" \
+            --work-dir "$patch_work" --mode infer --verbose --reuse --reuse-aux infer
+        print_shell_command "$PYTHON_EXE" "$PATCH_TOOL" merge \
+            --base "$LMUData/$dataset.tsv" --original "$original_result" \
+            --patch-result '<generated-result>' --backup-dir "$STATE_DIR/backups/$id" \
+            --output "$merged_result"
         return 0
     fi
 
@@ -662,17 +680,32 @@ PY
     log "DONE $id -> $merged_result (source preserved: $original_result)"
 }
 
-run_all_jobs() {
-    local failed=() model dataset mode result job
+run_job_spec() {
+    local job="$1" mode model dataset result
+    IFS='|' read -r mode model dataset result <<< "$job"
+    if [[ "$mode" == patch ]]; then
+        # Keep a fatal error in one patch job from exiting its whole worker.
+        ( run_patch_job "$model" "$dataset" "$result" )
+    else
+        run_job "$model" "$dataset"
+    fi
+}
+
+failed_job_id() {
+    local job="$1" mode model dataset result
+    IFS='|' read -r mode model dataset result <<< "$job"
+    if [[ "$mode" == patch ]]; then
+        printf 'patch__%s\n' "$(job_id "$model" "$dataset")"
+    else
+        job_id "$model" "$dataset"
+    fi
+}
+
+run_jobs_sequentially() {
+    local failed=() job
     for job in "${JOBS[@]}"; do
-        IFS='|' read -r mode model dataset result <<< "$job"
-        if [[ "$mode" == patch ]]; then
-            # Run in a subprocess so a failed patch stops only this job.
-            if ! ( run_patch_job "$model" "$dataset" "$result" ); then
-                failed+=("patch__$(job_id "$model" "$dataset")")
-            fi
-        elif ! run_job "$model" "$dataset"; then
-            failed+=("$(job_id "$model" "$dataset")")
+        if ! run_job_spec "$job"; then
+            failed+=("$(failed_job_id "$job")")
         fi
     done
     if (( ${#failed[@]} > 0 )); then
@@ -680,6 +713,68 @@ run_all_jobs() {
         log "Run \`$CONTINUE_COMMAND\` to retry unfinished jobs."
         return 1
     fi
+}
+
+run_gpu_worker() {
+    local worker_index="$1" worker_count="$2" device="$3"
+    local index job job_work_dir failed=0
+    local base_work_dir="$RUN_WORK_DIR"
+    export CUDA_VISIBLE_DEVICES="$device"
+    for ((index = worker_index; index < ${#JOBS[@]}; index += worker_count)); do
+        job="${JOBS[$index]}"
+        job_work_dir="$base_work_dir/two-gpu-jobs/$(failed_job_id "$job")"
+        log "ASSIGN GPU $device $(failed_job_id "$job")"
+        if ! ( local RUN_WORK_DIR="$job_work_dir"; run_job_spec "$job" ); then
+            log "FAILED $(failed_job_id "$job") on GPU $device; checkpoint was kept."
+            failed=1
+        fi
+    done
+    return "$failed"
+}
+
+run_jobs_two_gpus() {
+    local devices=() worker_count=2 worker pid failed_workers=0
+    if [[ -n "$ALLOCATED_CUDA_DEVICES" && "$ALLOCATED_CUDA_DEVICES" != 'NoDevFiles' ]]; then
+        IFS=',' read -r -a devices <<< "$ALLOCATED_CUDA_DEVICES"
+    else
+        devices=(0 1)
+    fi
+    if (( ${#devices[@]} < 2 )); then
+        log 'Only one allocated CUDA device is visible; using one sequential worker.'
+        run_jobs_sequentially
+        return
+    fi
+    (( ${#JOBS[@]} >= 2 )) || worker_count=1
+    log "Two-GPU mode: $worker_count parallel workers (devices ${devices[0]},${devices[1]})."
+    ACTIVE_PIDS=()
+    for ((worker = 0; worker < worker_count; worker++)); do
+        run_gpu_worker "$worker" "$worker_count" "${devices[$worker]}" &
+        ACTIVE_PIDS+=("$!")
+    done
+    for pid in "${ACTIVE_PIDS[@]}"; do
+        if ! wait "$pid"; then
+            failed_workers=$((failed_workers + 1))
+        fi
+    done
+    ACTIVE_PIDS=()
+    if (( failed_workers > 0 )); then
+        log "Finished with failed/incomplete jobs in $failed_workers GPU worker(s)."
+        log "Run \`$CONTINUE_COMMAND\` to retry unfinished jobs."
+        return 1
+    fi
+}
+
+run_all_jobs() {
+    if [[ "$RUNTIME_GROUP" == vllm && "$GPU_COUNT" -ge 2 ]]; then
+        log 'Two-GPU mode: vLLM keeps both GPUs visible to each sequential job.'
+        run_jobs_sequentially
+    elif [[ -n "$RUNTIME_GROUP" && "$GPU_COUNT" -ge 2 && "$RUN_GROUP_WORKERS" == 2 ]]; then
+        run_jobs_two_gpus
+    else
+        run_jobs_sequentially
+    fi
+    local rc=$?
+    (( rc == 0 )) || return "$rc"
     if [[ "$DRY_RUN" == '1' ]]; then
         log 'Dry-run plan is complete; no inference was started.'
     else
