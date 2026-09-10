@@ -10,7 +10,7 @@ cd DermNet_Dataset
 bash Phase_2/VLMEvalKit/run_phase2.sh server
 ```
 
-Trước khi chạy trên máy mới, đọc [hướng dẫn setup server chi tiết](docs/SERVER_SETUP.md). Tài liệu này giải thích điều kiện đầu vào, bốn Conda environment được tạo, cách Qwen nhận đúng environment vLLM, các kiểm tra của doctor và cách xử lý khi setup hoặc inference bị gián đoạn.
+Trước khi chạy trên máy mới, đọc [hướng dẫn setup server chi tiết](docs/SERVER_SETUP.md). Tài liệu này có cả phương án tự động và toàn bộ lệnh Conda/pip để cài thủ công từng environment, cách Qwen nhận đúng environment vLLM, các kiểm tra của doctor và cách xử lý khi setup hoặc inference bị gián đoạn.
 
 `server` gọi toàn bộ quy trình từ A-Z. Bên trong, `setup` tạo bốn Conda environment đúng backend và lưu tự động đường dẫn Python vào `.phase2-server-env.sh`; doctor kiểm tra CUDA, kernel Blackwell, phiên bản vLLM/Transformers, module riêng của model, ảnh, TSV và bốn Excel nguồn trước khi inference. Những lần chạy sau không cần activate Conda hay export lại biến.
 
