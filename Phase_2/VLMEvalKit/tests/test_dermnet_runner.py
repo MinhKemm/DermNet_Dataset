@@ -40,6 +40,22 @@ class RunnerTest(unittest.TestCase):
         self.assertEqual(4, sum('Vintern-' in line for line in jobs))
         self.assertNotIn('deepseek_vl2_int4 ', result.stdout)
 
+    def test_manifest_parser_accepts_crlf_checkout(self):
+        root = Path(__file__).parents[1]
+        manifest = root / 'scripts' / 'dermnet_jobs.txt'
+        original = manifest.read_bytes()
+        try:
+            manifest.write_bytes(original.replace(b'\r\n', b'\n').replace(b'\n', b'\r\n'))
+            result = self.run_shell(
+                'GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 '
+                'DRY_RUN=1 bash run_phase2.sh all'
+            )
+            self.assertEqual(0, result.returncode, result.stderr)
+            self.assertEqual(16, result.stdout.count(' run.py --data '))
+            self.assertNotIn('MISSING patch input:', result.stdout)
+        finally:
+            manifest.write_bytes(original)
+
     def test_missing_patch_files_stop_before_inference(self):
         result = self.run_shell(
             "GPU_COUNT=1 GPU_MAX_VRAM_GB=80 GPU_TOTAL_VRAM_GB=80 "

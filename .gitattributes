@@ -1,1 +1,2 @@
 *.sh text eol=lf
+Phase_2/VLMEvalKit/scripts/dermnet_jobs.txt text eol=lf

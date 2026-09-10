@@ -182,6 +182,10 @@ build_jobs() {
     JOBS=()
     local mode model dataset result source_path
     while IFS='|' read -r mode model dataset result; do
+        # A repository cloned on Windows may check this manifest out as CRLF.
+        # Strip the trailing carriage return from its final field before any
+        # empty-field or file-path checks.
+        result="${result%$'\r'}"
         [[ -n "$mode" && "$mode" != \#* ]] || continue
         [[ " ${MODELS[*]} " == *" $model "* ]] || continue
         [[ -z "$result" ]] || result="$LEGACY_RESULTS_DIR/$result"
