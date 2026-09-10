@@ -1,0 +1,5 @@
+-r ../../requirements.txt
+
+# vLLM 0.28 supplies the compatible torch/torchvision/Transformers stack and
+# supports Qwen3.5, Qwen3-VL and DeepSeek-VL2 multimodal architectures.
+vllm==0.28.0

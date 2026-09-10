@@ -1,8 +1,26 @@
 # DermNet Dataset
 
-## Chạy trên server
+## Chạy từ đầu trên server
 
-Chỉ cần chạy một file: `bash Phase_2/VLMEvalKit/run_phase2.sh all`. **LLaVA-med đã bỏ khỏi danh sách mặc định**, không cần biến SKIP_LLAVA. Xem [backend Blackwell/vLLM](docs/VLLM_SERVER.md). File shell dùng mã nguồn và dữ liệu trong checkout, không phải file độc lập có thể tách khỏi repo.
+Điểm vào duy nhất là `Phase_2/VLMEvalKit/run_phase2.sh`. Lần đầu sau khi clone, chạy:
+
+```bash
+git clone https://github.com/MinhKemm/DermNet_Dataset.git
+cd DermNet_Dataset
+bash Phase_2/VLMEvalKit/run_phase2.sh setup
+bash Phase_2/VLMEvalKit/run_phase2.sh doctor
+bash Phase_2/VLMEvalKit/run_phase2.sh all
+```
+
+`setup` tạo bốn Conda environment đúng backend và lưu tự động đường dẫn Python vào `.phase2-server-env.sh`. `doctor` kiểm tra CUDA, kernel Blackwell, phiên bản vLLM/Transformers, module riêng của model, ảnh, TSV và bốn Excel nguồn trước khi inference. Những lần chạy sau không cần activate Conda hay export lại biến.
+
+Nếu bị gián đoạn:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh resume
+```
+
+Qwen **có và bắt buộc dùng vLLM** trong cấu hình hiện tại. DeepSeek Small/Tiny dùng cùng environment vLLM; DeepSeek 8-bit dùng Transformers + bitsandbytes. Hai Vintern dùng Transformers remote code; Huatuo dùng mã chính thức + FlashAttention 2. Chi tiết phiên bản: [setup server](docs/SERVER_SETUP.md) và [backend Blackwell/vLLM](docs/VLLM_SERVER.md).
 
 Danh sách hiện tại có **8 model**, chỉ dùng Val và Test tiếng Việt: **16 lượt = 12 full + 4 vá**. Một lượt là một model chạy trên một bộ dữ liệu. Các lượt chạy tuần tự.
 
@@ -17,13 +35,11 @@ Danh sách hiện tại có **8 model**, chỉ dùng Val và Test tiếng Việt
 | Vintern-1B-v2 | Full mới | Full mới |
 | Vintern-3B-beta | Full mới | Full mới |
 
-Sau khi kích hoạt environment Python:
+Các lệnh kiểm tra kế hoạch:
 
 ```bash
 bash Phase_2/VLMEvalKit/run_phase2.sh plan
-bash Phase_2/VLMEvalKit/run_phase2.sh all
-# Chạy tiếp sau gián đoạn:
-bash Phase_2/VLMEvalKit/run_phase2.sh resume
+DRY_RUN=1 bash Phase_2/VLMEvalKit/run_phase2.sh all
 ```
 
 Manifest chính xác: [dermnet_jobs.txt](Phase_2/VLMEvalKit/scripts/dermnet_jobs.txt). Server dự kiến 2 GPU × 96 GB. Runner chọn model theo ngưỡng cấu hình; không mặc định cộng VRAM hai GPU thành bộ nhớ một model.
@@ -44,22 +60,18 @@ Luồng vá: kiểm tra nguồn → tách reasoning và các sửa dữ liệu �
 
 Gemma, Huatuo 7B, InternVL, Janus, LLaVA 1.5 7B 4-bit, Phi, Qwen2.5-VL và SmolVLM đã bỏ khỏi danh sách tự động. File lịch sử của các model này và dữ liệu Anh không bị xóa.
 
-## Environment
+## Environment và requirements
 
-Quy trình cài từ đầu: **[Setup server](docs/SERVER_SETUP.md)** — tạo environment theo nhóm model, cài PyTorch/CUDA, package, cấu hình Python và kiểm tra trước khi chạy. Đây là hướng dẫn chuẩn bị, chưa phải lockfile đã kiểm chứng trên GPU server.
+`requirements.txt` là dependency lõi của VLMEvalKit, không đại diện cho backend của mọi model. Bốn profile chạy server nằm tại `Phase_2/VLMEvalKit/requirements/server/`; lệnh `setup` cài profile tương ứng:
 
-Vintern hỗ trợ `PYTHON_VINTERN` riêng; nếu không đặt, runner dùng `PYTHON_LEGACY`. Các lệnh cài đặt chạy một lần bởi quản trị viên, sau đó dùng cùng cấu hình cho `all` và `resume`.
+- `vllm-blackwell.txt`: Qwen3.5, Qwen3-VL, DeepSeek Small/Tiny.
+- `deepseek-int8-blackwell.txt`: DeepSeek 8-bit.
+- `vintern-blackwell.txt`: Vintern 1B/3B.
+- `huatuo-blackwell.txt`: Huatuo 34B; setup cài thêm FlashAttention sau PyTorch.
 
-Người quản trị chuẩn bị Python/PyTorch/CUDA, pandas, openpyxl và package tương ứng với mỗi model. Có thể đặt `PYTHON_BIN` chung hoặc `PYTHON_QWEN`, `PYTHON_LEGACY`, `PYTHON_DEEPSEEK`, `PYTHON_HUATUO`.
+Conda, Git, driver NVIDIA và `nvidia-smi` cần có trên server. Huatuo cần CUDA 12.8 toolkit/compiler để build `flash-attn` khớp PyTorch cu128 mặc định; nếu cụm HPC dùng module, nạp module CUDA 12.8 trước `setup`.
 
-Huatuo dùng [mã inference chính thức](https://github.com/FreedomIntelligence/HuatuoGPT-Vision):
-
-```bash
-export HUATUO_SOURCE_DIR=/srv/HuatuoGPT-Vision
-export PYTHON_HUATUO=/env/huatuo/bin/python
-```
-
-Huatuo vẫn cần module llava trong repo tác giả; bỏ model LLaVA-med không có nghĩa xóa dependency nội bộ của Huatuo. Khi cần xác thực tải model, đặt `HF_TOKEN` trong environment.
+Setup ghim commit của mã nguồn DeepSeek-VL2 và HuatuoGPT-Vision để lần cài sau không tự đổi code. Khi model gated yêu cầu xác thực tải, đặt `HF_TOKEN` bằng cơ chế secret của server.
 
 ## Dữ liệu, checkpoint và kiểm tra
 

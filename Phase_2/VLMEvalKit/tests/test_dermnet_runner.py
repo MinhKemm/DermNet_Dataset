@@ -95,6 +95,30 @@ class RunnerTest(unittest.TestCase):
         self.assertTrue(all(line.startswith('/env/vllm/bin/python ') for line in commands if '--model deepseek_vl2_tiny ' in line or '--model deepseek_vl2_small ' in line))
         self.assertTrue(all(line.startswith('/env/int8/bin/python ') for line in commands if '--model deepseek_vl2_int8 ' in line))
 
+    def test_help_documents_setup_doctor_and_current_job_count(self):
+        result = self.run_shell('bash run_phase2.sh --help')
+        self.assertEqual(0, result.returncode, result.stderr)
+        self.assertIn('bash run_phase2.sh setup', result.stdout)
+        self.assertIn('bash run_phase2.sh doctor', result.stdout)
+        self.assertIn('12 full + 4 patch jobs', result.stdout)
+        self.assertNotIn('bilingual', result.stdout)
+        self.assertNotIn('PYTHON_LEGACY', result.stdout)
+
+    def test_server_profiles_cover_every_runtime_backend(self):
+        root = Path(__file__).parents[1]
+        profiles = root / 'requirements' / 'server'
+        self.assertIn('vllm==0.28.0', (profiles / 'vllm-blackwell.txt').read_text())
+        int8 = (profiles / 'deepseek-int8-blackwell.txt').read_text()
+        self.assertIn('bitsandbytes==0.49.0', int8)
+        self.assertIn('transformers==4.38.2', int8)
+        self.assertIn('xformers==0.0.32.post2', int8)
+        self.assertIn('transformers==4.42.3', (profiles / 'vintern-blackwell.txt').read_text())
+        huatuo = (profiles / 'huatuo-blackwell.txt').read_text()
+        self.assertIn('transformers==4.37.2', huatuo)
+        setup = (root / 'scripts' / 'setup_server_envs.sh').read_text()
+        self.assertIn('flash-attn==2.8.3.post1 --no-build-isolation', setup)
+        self.assertIn("PYTHON_DEEPSEEK_VLLM='$VLLM_PYTHON'", setup)
+
 
 if __name__ == '__main__':
     unittest.main()

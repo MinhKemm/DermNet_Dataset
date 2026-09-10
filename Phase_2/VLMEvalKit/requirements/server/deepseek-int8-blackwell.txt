@@ -1,0 +1,10 @@
+-r ../../requirements.txt
+
+# Legacy DeepSeek-VL2 source expects this Transformers generation.
+transformers==4.38.2
+bitsandbytes==0.49.0
+attrdict
+einops
+timm
+sentencepiece
+xformers==0.0.32.post2

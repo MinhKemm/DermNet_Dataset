@@ -1,137 +1,112 @@
-# Cài môi trường server
+# Cài môi trường server từ đầu
 
-**Cập nhật:** [cấu hình Blackwell/vLLM](VLLM_SERVER.md) thay thế phần chọn backend bên dưới cho DeepSeek Small/Tiny: dùng `PYTHON_DEEPSEEK_VLLM`, mặc định bằng `PYTHON_QWEN`. Môi trường DeepSeek legacy bên dưới chỉ còn phục vụ bản 8-bit. Một file điều phối không yêu cầu mọi model dùng chung môi trường.
-
-Hướng dẫn cho Linux/Bash, server NVIDIA 2 × 96 GB. Đây là quy trình chuẩn bị và kiểm tra; chưa phải bộ phiên bản đã chạy inference thành công trên server đích. VRAM không cho biết kiến trúc GPU hoặc phiên bản CUDA cần dùng.
-
-## 1. Chuẩn bị checkout và kiểm tra GPU
+Mục tiêu là sau khi clone chỉ thao tác qua một entrypoint:
 
 ```bash
-git clone https://github.com/MinhKemm/DermNet_Dataset.git
-cd DermNet_Dataset
-export DERMNET_ROOT="$PWD"
-export DERMNET_KIT="$DERMNET_ROOT/Phase_2/VLMEvalKit"
-nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv
-```
-
-Nếu đã clone thì dùng checkout hiện có. Kiểm tra đủ hai TSV Việt, ảnh và bốn Excel DeepSeek trong `outputs/*/source/`. Phiên bản code và Excel mới phải được push trước khi server clone để có những thay đổi này.
-
-## 2. Tạo môi trường riêng
-
-Nếu quản trị viên đã có môi trường phù hợp, bỏ qua tạo mới và dùng đường dẫn Python tương ứng. Ví dụ với Conda đã cài:
-
-```bash
-conda create -n dermnet-qwen python=3.11 pip -y
-conda create -n dermnet-deepseek python=3.10 pip -y
-conda create -n dermnet-vintern python=3.10 pip -y
-conda create -n dermnet-huatuo python=3.10 pip -y
-```
-
-| Environment | Runner dùng biến | Model |
-|---|---|---|
-| dermnet-qwen | PYTHON_QWEN | Hai Qwen3/3.5 |
-| dermnet-deepseek | PYTHON_DEEPSEEK | Ba DeepSeek |
-| dermnet-vintern | PYTHON_VINTERN | Hai Vintern |
-| dermnet-huatuo | PYTHON_HUATUO | Huatuo 34B |
-
-Qwen cần stack mới; các model khác dùng mã Transformers cũ. Huatuo và LLaVA-med đều cung cấp module tên `llava`, nên phải tách môi trường. Vintern có Python riêng để không bị khóa theo LLaVA-med.
-
-## 3. PyTorch và dependencies
-
-Với mỗi môi trường ngoài Qwen, kích hoạt rồi cài **cặp torch/torchvision có CUDA phù hợp GPU và driver**, dùng lệnh được chọn tại [PyTorch](https://pytorch.org/get-started/locally/). Không sao chép pin torch 2.0.1 từ repo cũ nếu GPU mới không được hỗ trợ. Qwen dùng cặp torch do vLLM yêu cầu. Không đổi driver hệ thống chỉ để thử một phiên bản package.
-
-Sau khi cài torch, mỗi environment phải vượt qua:
-
-```bash
-python -c "import torch, torchvision; print(torch.__version__, torch.version.cuda); assert torch.cuda.is_available(); x=torch.ones(4, device='cuda'); print(x.sum().item(), torch.cuda.get_device_name(0))"
-```
-
-Từ root repo, các lệnh dưới đây cài dependencies VLMEvalKit cùng yêu cầu model. Nếu resolver báo xung đột, dừng và giải quyết trong đúng environment; không dùng `--no-deps` để che lỗi của VLMEvalKit.
-
-### Qwen
-
-```bash
-conda activate dermnet-qwen
-python -m pip install --upgrade pip uv
-uv pip install vllm --torch-backend=auto --extra-index-url https://wheels.vllm.ai/nightly
-python -m pip install -e "$DERMNET_KIT" qwen-vl-utils
-python -m pip check
-python -c "from transformers import AutoConfig; import vllm; print(AutoConfig.from_pretrained('Qwen/Qwen3.5-35B-A3B').model_type)"
-export PYTHON_QWEN="$(command -v python)"
-```
-
-Lệnh vLLM theo [model card Qwen3.5](https://huggingface.co/Qwen/Qwen3.5-35B-A3B). Nightly thay đổi theo thời gian; sau khi chạy thử đạt cần lưu `pip freeze`. Không tự nâng Transformers độc lập nếu phiên bản đó xung đột với vLLM.
-
-### DeepSeek
-
-```bash
-conda activate dermnet-deepseek
-python -m pip install -e "$DERMNET_KIT" "transformers==4.38.2" bitsandbytes attrdict einops timm sentencepiece
-mkdir -p "$DERMNET_ROOT/vendor"
-git clone https://github.com/deepseek-ai/DeepSeek-VL2.git "$DERMNET_ROOT/vendor/DeepSeek-VL2"
-python -m pip install --no-deps -e "$DERMNET_ROOT/vendor/DeepSeek-VL2"
-python -c "from deepseek_vl2.models import DeepseekVLV2Processor; import bitsandbytes; print('DeepSeek imports OK')"
-export PYTHON_DEEPSEEK="$(command -v python)"
-```
-
-Transformers 4.38.2 lấy từ [requirements chính thức](https://github.com/deepseek-ai/DeepSeek-VL2/blob/main/requirements.txt). `--no-deps` ở bước đăng ký source DeepSeek nhằm tránh tự thay torch đã chuẩn bị bằng torch 2.0.1 của upstream; các dependencies khác thiếu vẫn phải xử lý. Nếu mã upstream yêu cầu xformers, chọn bản cùng torch/CUDA, không cài tùy ý bản mới nhất.
-
-### Vintern
-
-```bash
-conda activate dermnet-vintern
-python -m pip install -e "$DERMNET_KIT" "transformers==4.37.2" timm einops sentencepiece
-python -m pip check
-python -c "from transformers import AutoConfig; print(AutoConfig.from_pretrained('5CD-AI/Vintern-3B-beta', trust_remote_code=True).model_type)"
-export PYTHON_VINTERN="$(command -v python)"
-```
-
-4.37.2 là điểm bắt đầu cho stack legacy, không phải lockfile đã kiểm chứng cho cả hai Vintern. Đối chiếu [model card tác giả](https://huggingface.co/5CD-AI/Vintern-3B-beta) và thử cả hai model. `trust_remote_code` thực thi mã từ repo model; chỉ dùng nguồn đã tin cậy. Chỉ cài flash-attn nếu đường nạp model thực tế yêu cầu và bản đó khớp torch/CUDA.
-
-### Huatuo 34B
-
-```bash
-conda activate dermnet-huatuo
-git clone https://github.com/FreedomIntelligence/HuatuoGPT-Vision.git "$DERMNET_ROOT/vendor/HuatuoGPT-Vision"
-export HUATUO_SOURCE_DIR="$DERMNET_ROOT/vendor/HuatuoGPT-Vision"
-python -m pip install -e "$DERMNET_KIT" "transformers==4.37.2" "tokenizers>=0.14,<0.19" "numpy<2" "timm==0.6.13" "peft==0.4.0" einops-exts shortuuid markdown2 wavedrom
-export PYTHON_HUATUO="$(command -v python)"
-PYTHONPATH="$HUATUO_SOURCE_DIR" python -c "from cli import HuatuoChatbot; print('Huatuo imports OK')"
-python -m pip check
-```
-
-Không cài bản `llava` khác trong môi trường này. [Requirements Huatuo](https://github.com/FreedomIntelligence/HuatuoGPT-Vision/blob/main/requirements.txt) đồng thời khóa Transformers 4.37.2 và tokenizers 0.13.3; hướng dẫn trên để resolver chọn tokenizers phù hợp Transformers. Không cài các package huấn luyện như deepspeed chỉ để chạy CLI inference nếu không được yêu cầu bởi đường import.
-
-## 4. Giữ cấu hình Python cho lần chạy sau
-
-Các lệnh `export` ở trên có hiệu lực trong phiên shell hiện tại. Ghi lại đường dẫn tuyệt đối được in bởi:
-
-```bash
-printf '%s\n' "$PYTHON_QWEN" "$PYTHON_DEEPSEEK" "$PYTHON_LEGACY" "$PYTHON_VINTERN" "$PYTHON_HUATUO" "$HUATUO_SOURCE_DIR"
-```
-
-Đưa các dòng `export TEN_BIEN=/duong/dan/thuc` vào file riêng ngoài Git, ví dụ `/srv/dermnet-env.sh`. Trước `all` hoặc `resume`, chạy `source /srv/dermnet-env.sh`. Không chỉ lưu tên environment: runner cần đường dẫn executable. Nếu cần token tải model, đặt `HF_TOKEN` qua cơ chế secret của server, không ghi vào README/Git.
-
-## 5. Kiểm tra rồi chạy
-
-Trong **từng** environment, từ thư mục VLMEvalKit:
-
-```bash
-cd "$DERMNET_KIT"
-python -m pip check
-python -c "import vlmeval; import pandas, openpyxl; print('VLMEvalKit imports OK')"
-python run.py --help
-```
-
-Nếu `pip check` của source legacy báo pin torch/demo khác stack hiện có, ghi lại và đánh giá từng mục; không coi import thành công là bằng chứng mọi dependency tương thích. Lưu `python -m pip freeze` và commit của các repo vendor sau khi đã chạy model thật đạt.
-
-```bash
-cd "$DERMNET_ROOT"
-bash Phase_2/VLMEvalKit/run_phase2.sh plan
-DRY_RUN=1 bash Phase_2/VLMEvalKit/run_phase2.sh all
+bash Phase_2/VLMEvalKit/run_phase2.sh setup
+bash Phase_2/VLMEvalKit/run_phase2.sh doctor
 bash Phase_2/VLMEvalKit/run_phase2.sh all
-# Sau gián đoạn, nạp lại cùng các biến Python và chạy:
+```
+
+Server mục tiêu là Linux, 2 NVIDIA RTX PRO 6000 Blackwell 96 GB, driver nhìn thấy CUDA 13.0. Dòng CUDA của `nvidia-smi` là khả năng của driver; phiên bản CUDA runtime thực tế đến từ wheel PyTorch/vLLM.
+
+## 1. Phần có sẵn trên server
+
+- Git và Conda trong `PATH`.
+- NVIDIA driver hoạt động; `nvidia-smi` thấy GPU.
+- CUDA 12.8 toolkit/compiler (`nvcc`) để build FlashAttention cho Huatuo với stack mặc định.
+- Dung lượng đĩa đủ cho bốn environment, model cache và output.
+
+Kiểm tra nhanh:
+
+```bash
+git --version
+conda --version
+nvidia-smi
+nvcc --version
+```
+
+`nvidia-smi` có thể hiện CUDA 13.0 trong khi `nvcc` là 12.8; điều này bình thường. Driver 580 chạy được CUDA runtime 12.8, còn compiler phải khớp `torch.version.cuda`. Setup sẽ so sánh hai giá trị và dừng với hướng dẫn rõ nếu không khớp.
+
+## 2. Setup tự động cài gì
+
+`bash Phase_2/VLMEvalKit/run_phase2.sh setup` tạo bốn environment Python 3.10:
+
+| Environment | Model | Backend chính |
+|---|---|---|
+| `dermnet-vllm` | Qwen3.5, Qwen3-VL, DeepSeek Small/Tiny | `vllm==0.28.0` |
+| `dermnet-deepseek-int8` | DeepSeek-VL2 8-bit | Transformers 4.38.2, bitsandbytes 0.49.0 |
+| `dermnet-vintern` | Vintern 1B/3B | Transformers 4.42.3 remote code |
+| `dermnet-huatuo` | HuatuoGPT-Vision 34B | Transformers 4.37.2, FlashAttention 2.8.3.post1 |
+
+Ba environment legacy cài mặc định PyTorch 2.8.0 + torchvision 0.23.0 từ CUDA 12.8 wheels. Driver CUDA 13 có khả năng tương thích ngược với runtime này. Có thể thay cặp wheel khi cụm HPC quy định stack khác:
+
+```bash
+LEGACY_TORCH='torch==PHIEN_BAN' \
+LEGACY_TORCHVISION='torchvision==PHIEN_BAN' \
+LEGACY_TORCH_INDEX_URL='URL_WHEEL_CUDA' \
+bash Phase_2/VLMEvalKit/run_phase2.sh setup
+```
+
+Setup clone và ghim mã nguồn:
+
+- DeepSeek-VL2 commit `ef9f91e2b6426536b83294c11742c27be66361b1`.
+- HuatuoGPT-Vision commit `e1a52dcf6c0417f4b6ac1d378b01147280192fca`.
+
+Sau cùng script sinh `Phase_2/VLMEvalKit/.phase2-server-env.sh`. Runner tự source file này, vì vậy `all` và `resume` dùng đúng Python mà không cần activate từng environment.
+
+## 3. Vì sao không dùng một requirements chung
+
+Hai Qwen trong manifest khởi tạo nhánh vLLM thật; thiếu package `vllm` thì chắc chắn không chạy. DeepSeek Small/Tiny cũng gọi vLLM. Ngược lại DeepSeek 8-bit phải giữ Transformers + bitsandbytes, còn Vintern/Huatuo phụ thuộc các thế hệ Transformers cũ khác nhau. Ép bốn stack vào một environment sẽ tạo xung đột phiên bản.
+
+`Phase_2/VLMEvalKit/requirements.txt` chỉ chứa dependency lõi. Các dependency chạy model được khóa trong:
+
+```text
+Phase_2/VLMEvalKit/requirements/server/vllm-blackwell.txt
+Phase_2/VLMEvalKit/requirements/server/deepseek-int8-blackwell.txt
+Phase_2/VLMEvalKit/requirements/server/vintern-blackwell.txt
+Phase_2/VLMEvalKit/requirements/server/huatuo-blackwell.txt
+```
+
+Không dùng riêng `pip install -r requirements.txt` để kết luận server đã sẵn sàng.
+
+## 4. Doctor kiểm tra gì
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh doctor
+```
+
+Doctor dừng ngay nếu gặp một trong các lỗi:
+
+- Python mapping bị thiếu hoặc sai environment.
+- PyTorch không thấy CUDA hoặc wheel không có kernel SM 12.0 cho Blackwell.
+- Qwen/DeepSeek vLLM thiếu `vllm>=0.28,<0.29` hoặc Transformers phù hợp.
+- DeepSeek 8-bit thiếu source `deepseek_vl2`, bitsandbytes hay xformers.
+- Vintern thiếu torchvision/timm/sentencepiece hoặc Transformers quá cũ.
+- Huatuo thiếu source chính thức, FlashAttention, peft hay dependency CLI.
+- TSV, ảnh hoặc Excel nguồn dùng để vá bị thiếu.
+
+Doctor mạnh hơn dry-run: dry-run chỉ in lệnh, còn doctor thực sự import từng backend và khởi tạo CUDA. Doctor chưa tải toàn bộ trọng số; phép thử cuối cùng vẫn là chạy inference thật.
+
+## 5. Chạy và chạy tiếp
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh plan
+bash Phase_2/VLMEvalKit/run_phase2.sh all
+```
+
+Nếu SSH ngắt hoặc job bị dừng:
+
+```bash
 bash Phase_2/VLMEvalKit/run_phase2.sh resume
 ```
 
-Dry-run chỉ kiểm tra lệnh/đường dẫn, không nạp model. `all` kiểm tra import trước inference; để xác nhận môi trường ổn cần thử tải trọng số và sinh câu trả lời của cả 8 model trên GPU. Không có cam kết chạy trọn bộ chỉ từ kết quả dry-run.
+Giữ nguyên checkout, thư mục output và `.phase2-server-env.sh`. Runner bỏ qua lượt đã có kết quả hoàn chỉnh và chạy lại lượt thiếu/thất bại.
+
+## 6. Nguồn kỹ thuật
+
+- [Cài vLLM trên NVIDIA GPU](https://docs.vllm.ai/en/stable/getting_started/installation/gpu/)
+- [Các model được vLLM hỗ trợ](https://docs.vllm.ai/en/stable/models/supported_models/)
+- [Qwen3-VL model card](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct)
+- [DeepSeek-VL2 source](https://github.com/deepseek-ai/DeepSeek-VL2)
+- [HuatuoGPT-Vision source](https://github.com/FreedomIntelligence/HuatuoGPT-Vision)

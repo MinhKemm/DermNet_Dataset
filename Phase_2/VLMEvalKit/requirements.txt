@@ -1,3 +1,5 @@
+# Core VLMEvalKit dependencies. Server inference also requires exactly one
+# model profile from requirements/server; run `bash run_phase2.sh setup`.
 accelerate
 anls>=0.0.2
 antlr4-python3-runtime==4.11.1
@@ -35,6 +37,7 @@ openai
 openai-clip
 opencv-python>=4.7.0.72
 openpyxl
+packaging
 pandas
 pdf2image>=1.17.0
 pillow

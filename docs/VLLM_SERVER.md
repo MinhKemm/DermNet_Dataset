@@ -14,16 +14,15 @@
 
 Không đổi cờ cho mọi class một cách cơ học. Gemma trong ảnh đã bị loại khỏi danh sách chạy. Danh sách [vLLM hỗ trợ](https://docs.vllm.ai/en/stable/models/supported_models/) có DeepSeek-VL2 và InternVL, nhưng hỗ trợ kiến trúc không tự tạo nhánh inference cho adapter Vintern của repo này. Chuyển bản 8-bit sang backend khác cần xác nhận đúng định dạng lượng tử hóa; không tự thay bằng 4-bit/BF16.
 
-DeepSeek mới dùng mẫu prompt từ [ví dụ chính thức vLLM](https://github.com/vllm-project/vllm/blob/v0.10.2/examples/offline_inference/vision_language.py), giới hạn một ảnh/câu, context 4096 và sinh tối đa 512 token, BF16. Câu hỏi cùng chỉ dẫn định dạng của dataset được giữ nguyên. Không hỗ trợ hội thoại nhiều lượt trong nhánh này; đầu vào không phù hợp báo lỗi. Đây là thay đổi backend/generation của đợt vá; không khẳng định tái lập nguyên trạng kết quả lịch sử.
+DeepSeek mới dùng API multimodal offline của vLLM, giới hạn một ảnh/câu, context 4096 và sinh tối đa 512 token, BF16. Câu hỏi cùng chỉ dẫn định dạng của dataset được giữ nguyên. Không hỗ trợ hội thoại nhiều lượt trong nhánh này; đầu vào không phù hợp báo lỗi. Đây là thay đổi backend/generation của đợt vá; không khẳng định tái lập nguyên trạng kết quả lịch sử.
 
 ## Dùng chung một file điều phối
 
-Sau khi chuẩn bị các môi trường và nạp các biến Python theo [setup](SERVER_SETUP.md):
+Lệnh `setup` chuẩn bị các môi trường và runner tự nạp biến Python theo [setup](SERVER_SETUP.md):
 
 ```bash
-# Small/Tiny dùng môi trường vLLM giống Qwen, bản int8 vẫn dùng PYTHON_DEEPSEEK:
-export PYTHON_DEEPSEEK_VLLM="$PYTHON_QWEN"
-export DERMNET_VLLM_GPU_UTIL=0.80
+bash Phase_2/VLMEvalKit/run_phase2.sh setup
+bash Phase_2/VLMEvalKit/run_phase2.sh doctor
 bash Phase_2/VLMEvalKit/run_phase2.sh all
 # Sau gián đoạn, giữ cùng biến môi trường và thư mục kết quả:
 bash Phase_2/VLMEvalKit/run_phase2.sh resume
@@ -39,4 +38,4 @@ Luồng mặc định không còn LLaVA-med và không cần SKIP_LLAVA. Giữ n
 
 ## Giới hạn kiểm chứng
 
-40 kiểm thử đã đạt, có mô phỏng API vLLM và dry-run 16 lượt. Chưa nạp model thật trên GPU server. Các môi trường legacy vẫn cần thử trên Blackwell. Ảnh cho thấy GPU đang có tiến trình khác; 80% là tỷ lệ cấp phát tối đa theo tổng VRAM, không bảo đảm luôn đủ bộ nhớ trống. Chạy trên compute node được cấp GPU, giữ CUDA_VISIBLE_DEVICES do hệ thống cấp; không tự dừng tiến trình người khác.
+Kiểm thử repo có mô phỏng API vLLM và dry-run 16 lượt. Chưa nạp model thật trên GPU server trong checkout cục bộ. `doctor` kiểm tra package/CUDA trước khi chạy, nhưng các model vẫn cần lần tải trọng số và sinh câu trả lời đầu tiên trên compute node. Ảnh cho thấy GPU đang có tiến trình khác; 80% là tỷ lệ cấp phát tối đa theo tổng VRAM, không bảo đảm luôn đủ bộ nhớ trống. Giữ `CUDA_VISIBLE_DEVICES` do hệ thống cấp; không tự dừng tiến trình người khác.

@@ -3,6 +3,9 @@
 .env.*.local
 *.env
 *.key
+
+# Generated absolute server environment paths
+Phase_2/VLMEvalKit/.phase2-server-env.sh
 token.json
 *.p12
 service_account.json

@@ -1,4 +1,6 @@
-# Đối chiếu Excel nguồn và kế hoạch chạy
+# Đối chiếu Excel nguồn lịch sử
+
+Phần kiểm tra 27 Excel dưới đây là ảnh chụp lịch sử trước khi thu gọn manifest; không phải danh sách sẽ chạy hiện tại.
 
 Phạm vi: 27 Excel trong DermNet_Dataset/Phase_2/VLMEvalKit/outputs; không sử dụng Excel từ Dermnet-QA.
 
@@ -17,4 +19,4 @@ Bốn config đã được bổ sung: Gemma4-12B-it trỏ google/gemma-4-12B v�
 Excel nguồn và ảnh chưa bị sửa trong đợt kiểm tra này. Còn ảnh thiếu và lỗi nội dung đã ghi trong DATASET_AUDIT.md. Không có kết quả inference GPU mới trong đợt kiểm tra.
 # Kế hoạch hiện tại
 
-Danh sách trong báo cáo bên dưới là lịch sử kiểm tra. Kế hoạch mới đã bỏ Gemma/tiếng Anh và thêm bốn Excel DeepSeek người dùng cung cấp: xem [DeepSeek và luồng chạy Việt](DEEPSEEK_RUN_PLAN.md). Hiện có 18 lượt, gồm 14 full + 4 vá.
+Kế hoạch mới đã bỏ Gemma/tiếng Anh/LLaVA và dùng bốn Excel DeepSeek người dùng cung cấp: xem [DeepSeek và luồng chạy Việt](DEEPSEEK_RUN_PLAN.md). Hiện có **16 lượt: 12 full + 4 vá** trên Val/Test tiếng Việt. Manifest đang chạy là `Phase_2/VLMEvalKit/scripts/dermnet_jobs.txt`.
