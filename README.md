@@ -29,7 +29,59 @@ Cách ngắn nhất trên setup node có quyền cài package **và nhìn thấy
 bash Phase_2/VLMEvalKit/run_phase2.sh setup
 ```
 
-Nếu login node không nhìn thấy GPU, quản trị viên chạy [các lệnh setup thủ công](docs/SERVER_SETUP.md#3-setup-thủ-công-từng-environment); mỗi compute job sẽ tự kiểm tra CUDA của nhóm trước inference. Sau bước setup phải có file:
+Nếu quản trị viên muốn cài riêng từng environment, dùng đúng bốn requirement sau; không gộp chúng vào cùng một environment:
+
+| Environment | Requirement | Nhóm chạy |
+|---|---|---|
+| `dermnet-vllm` | [vllm-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/vllm-blackwell.txt) | Qwen, DeepSeek Small/Tiny |
+| `dermnet-deepseek-int8` | [deepseek-int8-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/deepseek-int8-blackwell.txt) | DeepSeek-VL2 8-bit |
+| `dermnet-vintern` | [vintern-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/vintern-blackwell.txt) | Vintern 1B/3B |
+| `dermnet-huatuo` | [huatuo-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/huatuo-blackwell.txt) | HuatuoGPT-Vision-34B |
+
+Các lệnh cài package cho bốn environment:
+
+```bash
+export DERMNET_KIT_DIR="$PWD/Phase_2/VLMEvalKit"
+export LEGACY_TORCH_INDEX_URL="https://download.pytorch.org/whl/cu128"
+
+conda create -n dermnet-vllm python=3.10 pip -y
+conda run -n dermnet-vllm python -m pip install --upgrade pip setuptools wheel packaging
+conda run -n dermnet-vllm python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/vllm-blackwell.txt"
+conda run -n dermnet-vllm python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+
+conda create -n dermnet-deepseek-int8 python=3.10 pip -y
+conda run -n dermnet-deepseek-int8 python -m pip install --upgrade pip setuptools wheel packaging
+conda run -n dermnet-deepseek-int8 python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-deepseek-int8 python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/deepseek-int8-blackwell.txt"
+conda run -n dermnet-deepseek-int8 python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+
+conda create -n dermnet-vintern python=3.10 pip -y
+conda run -n dermnet-vintern python -m pip install --upgrade pip setuptools wheel packaging
+conda run -n dermnet-vintern python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-vintern python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/vintern-blackwell.txt"
+conda run -n dermnet-vintern python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+
+conda create -n dermnet-huatuo python=3.10 pip -y
+conda run -n dermnet-huatuo python -m pip install --upgrade pip setuptools wheel packaging
+conda run -n dermnet-huatuo python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-huatuo python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/huatuo-blackwell.txt"
+conda run -n dermnet-huatuo python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+
+for DERMNET_ENV in dermnet-vllm dermnet-deepseek-int8 dermnet-vintern dermnet-huatuo; do
+  conda run -n "$DERMNET_ENV" python -m pip check
+done
+```
+
+Sau khi cài package, tiếp tục phần clone source DeepSeek/Huatuo, áp dụng bản vá Blackwell và tạo file mapping theo [setup thủ công đầy đủ](docs/SERVER_SETUP.md#3-setup-thủ-công-từng-environment). Đây là các bước bắt buộc để runner tìm đúng source và đúng Python.
+
+Nếu login node không nhìn thấy GPU, cài thủ công như trên; mỗi compute job sẽ tự kiểm tra CUDA của nhóm trước inference. Sau bước setup đầy đủ phải có file:
 
 ```text
 Phase_2/VLMEvalKit/.phase2-server-env.sh
