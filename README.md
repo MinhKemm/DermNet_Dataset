@@ -10,6 +10,8 @@ cd DermNet_Dataset
 bash Phase_2/VLMEvalKit/run_phase2.sh server
 ```
 
+Trước khi chạy trên máy mới, đọc [hướng dẫn setup server chi tiết](docs/SERVER_SETUP.md). Tài liệu này giải thích điều kiện đầu vào, bốn Conda environment được tạo, cách Qwen nhận đúng environment vLLM, các kiểm tra của doctor và cách xử lý khi setup hoặc inference bị gián đoạn.
+
 `server` gọi toàn bộ quy trình từ A-Z. Bên trong, `setup` tạo bốn Conda environment đúng backend và lưu tự động đường dẫn Python vào `.phase2-server-env.sh`; doctor kiểm tra CUDA, kernel Blackwell, phiên bản vLLM/Transformers, module riêng của model, ảnh, TSV và bốn Excel nguồn trước khi inference. Những lần chạy sau không cần activate Conda hay export lại biến.
 
 Nếu bị gián đoạn:
@@ -18,7 +20,7 @@ Nếu bị gián đoạn:
 bash Phase_2/VLMEvalKit/run_phase2.sh resume
 ```
 
-Qwen **có và bắt buộc dùng vLLM** trong cấu hình hiện tại. DeepSeek Small/Tiny dùng cùng environment vLLM; DeepSeek 8-bit dùng Transformers + bitsandbytes. Hai Vintern dùng Transformers remote code; Huatuo dùng mã chính thức. Hai backend legacy DeepSeek/Huatuo được setup vá attention sang PyTorch chuẩn để phù hợp Blackwell. Chi tiết phiên bản: [setup server](docs/SERVER_SETUP.md) và [backend Blackwell/vLLM](docs/VLLM_SERVER.md).
+Qwen **có và bắt buộc dùng vLLM** trong cấu hình hiện tại. Lần đầu phải dùng lệnh `server` ở trên, không chạy thẳng `all` trong một environment chưa setup. DeepSeek Small/Tiny dùng cùng environment vLLM; DeepSeek 8-bit dùng Transformers + bitsandbytes. Hai Vintern dùng Transformers remote code; Huatuo dùng mã chính thức. Hai backend legacy DeepSeek/Huatuo được setup vá attention sang PyTorch chuẩn để phù hợp Blackwell. Chi tiết phiên bản: [setup server](docs/SERVER_SETUP.md) và [backend Blackwell/vLLM](docs/VLLM_SERVER.md).
 
 Danh sách hiện tại có **8 model**, chỉ dùng Val và Test tiếng Việt: **16 lượt = 12 full + 4 vá**. Một lượt là một model chạy trên một bộ dữ liệu. Các lượt chạy tuần tự.
 
