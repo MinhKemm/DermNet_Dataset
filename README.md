@@ -1,30 +1,96 @@
 # DermNet Dataset
 
-## Chạy từ đầu trên server
+## Cách chạy chính: bốn job trên HPC scheduler
 
-Điểm vào duy nhất là `Phase_2/VLMEvalKit/run_phase2.sh`. Sau khi clone, một lệnh `server` sẽ tự setup bốn environment, chạy doctor rồi chạy toàn bộ 16 lượt:
+Toàn bộ benchmark được điều khiển bằng đúng một file: `Phase_2/VLMEvalKit/run_phase2.sh`. Environment được chuẩn bị một lần trước khi submit; mỗi compute job sau đó chỉ chạy inference cho một nhóm model.
+
+```text
+Login/setup node:  clone code -> tạo 4 environment -> tạo file mapping
+Compute nodes:     submit 4 run-group -> inference 16 lượt
+Nếu bị gián đoạn:  submit lại đúng run-group bị dừng
+```
+
+Hướng dẫn đầy đủ: [chạy bốn job scheduler](docs/SCHEDULER_RUN.md). Chi tiết từng lệnh Conda/pip: [setup server](docs/SERVER_SETUP.md#3-setup-thủ-công-từng-environment).
+
+### Bước 1: clone repository trên filesystem dùng chung
 
 ```bash
 git clone https://github.com/MinhKemm/DermNet_Dataset.git
 cd DermNet_Dataset
+```
+
+Repository, environment, thư mục `vendor`, dữ liệu và output cần nằm ở vị trí mà compute node đọc được.
+
+### Bước 2: chuẩn bị environment trước khi submit job
+
+Cách ngắn nhất trên setup node có quyền cài package **và nhìn thấy GPU**:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh setup
+```
+
+Nếu login node không nhìn thấy GPU, quản trị viên chạy [các lệnh setup thủ công](docs/SERVER_SETUP.md#3-setup-thủ-công-từng-environment); mỗi compute job sẽ tự kiểm tra CUDA của nhóm trước inference. Sau bước setup phải có file:
+
+```text
+Phase_2/VLMEvalKit/.phase2-server-env.sh
+```
+
+File này lưu đường dẫn tuyệt đối tới bốn Python environment. Compute job tự đọc file nên không cần `conda activate`. Nếu file mapping nằm ở nơi dùng chung khác, đặt `SERVER_ENV_FILE=/shared/path/.phase2-server-env.sh` trong job.
+
+### Bước 3: submit bốn nhóm inference
+
+Mỗi job scheduler chỉ cần `cd` vào root repository rồi gọi một lệnh dưới đây:
+
+```bash
+# Job 1: 2 GPU - Qwen và DeepSeek Small/Tiny
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
+
+# Job 2: 1 GPU - DeepSeek-VL2 8-bit
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group deepseek-int8
+
+# Job 3: 1 GPU - hai Vintern
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vintern
+
+# Job 4: 1 GPU - HuatuoGPT-Vision-34B
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group huatuo
+```
+
+| Nhóm | Lượt | Model | GPU đề xuất |
+|---|---:|---|---:|
+| `vllm` | 8 | Qwen3.5, Qwen3-VL, DeepSeek Small, DeepSeek Tiny | 2 |
+| `deepseek-int8` | 2 | DeepSeek-VL2 8-bit | 1 |
+| `vintern` | 4 | Vintern 1B và 3B | 1 |
+| `huatuo` | 2 | HuatuoGPT-Vision-34B | 1 |
+
+Các dòng `#SBATCH`, PBS hoặc LSF đặt phía trên theo mẫu của cụm máy. Job `vllm` nên được cấp cả hai GPU 96 GB; các nhóm còn lại có thể chạy trong allocation một GPU riêng.
+
+### Bước 4: chạy tiếp sau gián đoạn
+
+Submit lại đúng lệnh của nhóm đã dừng. Ví dụ nhóm vLLM bị ngắt:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
+```
+
+Runner bỏ qua kết quả đã hoàn chỉnh và tiếp tục phần thiếu hoặc thất bại. Mỗi nhóm có lock và vùng dữ liệu runtime riêng, vì vậy bốn nhóm có thể nằm trong các allocation khác nhau. Không chạy `all`, `resume` hoặc `server` đồng thời với các `run-group`.
+
+Qwen **bắt buộc dùng vLLM** trong cấu hình hiện tại. Qwen, DeepSeek Small và DeepSeek Tiny dùng environment `dermnet-vllm`; DeepSeek 8-bit dùng Transformers + bitsandbytes; Vintern và Huatuo dùng hai environment Transformers riêng. Chi tiết phiên bản và bản vá Blackwell: [setup server](docs/SERVER_SETUP.md) và [backend Blackwell/vLLM](docs/VLLM_SERVER.md).
+
+## Phương án phụ: máy cho phép setup và inference trong cùng phiên
+
+Trên server không qua scheduler, hoặc phiên shell được phép cài environment rồi chạy inference, có thể gọi toàn bộ tuần tự:
+
+```bash
 bash Phase_2/VLMEvalKit/run_phase2.sh server
 ```
 
-Trước khi chạy trên máy mới, đọc [hướng dẫn setup server chi tiết](docs/SERVER_SETUP.md). Tài liệu này có cả phương án tự động và toàn bộ lệnh Conda/pip để cài thủ công từng environment, cách Qwen nhận đúng environment vLLM, các kiểm tra của doctor và cách xử lý khi setup hoặc inference bị gián đoạn.
-
-`server` gọi toàn bộ quy trình từ A-Z. Bên trong, `setup` tạo bốn Conda environment đúng backend và lưu tự động đường dẫn Python vào `.phase2-server-env.sh`; doctor kiểm tra CUDA, kernel Blackwell, phiên bản vLLM/Transformers, module riêng của model, ảnh, TSV và bốn Excel nguồn trước khi inference. Những lần chạy sau không cần activate Conda hay export lại biến.
-
-Nếu bị gián đoạn:
+Lệnh này thực hiện `setup -> doctor -> all`. Nếu bị gián đoạn sau khi setup hoàn tất:
 
 ```bash
 bash Phase_2/VLMEvalKit/run_phase2.sh resume
 ```
 
-Nếu hệ thống scheduler không cho cài package trong compute job, cài environment một lần ở ngoài job rồi submit bốn nhóm riêng bằng `run-group`. Xem [hướng dẫn chạy bốn job scheduler](docs/SCHEDULER_RUN.md).
-
-Qwen **có và bắt buộc dùng vLLM** trong cấu hình hiện tại. Với quy trình tự động, lần đầu dùng lệnh `server`; với scheduler, setup thủ công trước rồi gọi `run-group`. Không chạy thẳng `all` trong một environment chưa setup. DeepSeek Small/Tiny dùng cùng environment vLLM; DeepSeek 8-bit dùng Transformers + bitsandbytes. Hai Vintern dùng Transformers remote code; Huatuo dùng mã chính thức. Hai backend legacy DeepSeek/Huatuo được setup vá attention sang PyTorch chuẩn để phù hợp Blackwell. Chi tiết phiên bản: [setup server](docs/SERVER_SETUP.md) và [backend Blackwell/vLLM](docs/VLLM_SERVER.md).
-
-Danh sách hiện tại có **8 model**, chỉ dùng Val và Test tiếng Việt: **16 lượt = 12 full + 4 vá**. Một lượt là một model chạy trên một bộ dữ liệu. Các lượt chạy tuần tự.
+Danh sách hiện tại có **8 model**, chỉ dùng Val và Test tiếng Việt: **16 lượt = 12 full + 4 vá**. Một lượt là một model chạy trên một bộ dữ liệu. Các lượt trong từng nhóm chạy tuần tự; bốn nhóm có thể được scheduler cấp các allocation riêng.
 
 | Model | Val VI | Test VI |
 |---|---|---|
