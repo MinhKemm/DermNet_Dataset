@@ -1,48 +1,63 @@
 # DermNet Phase 2 Runner
 
-Hướng dẫn đầy đủ nằm tại [`README.md`](../../README.md) ở root repository.
+Hướng dẫn đầy đủ nằm tại [README.md](../../README.md) ở root repository.
 
-## Chạy toàn bộ
+## Thứ tự chạy trên server
 
-Lần đầu trên server, từ root repository:
-
-```bash
-bash Phase_2/VLMEvalKit/run_phase2.sh server
+```text
+1. Cài 4 requirement vào 4 environment riêng
+2. Chuẩn bị source DeepSeek/Huatuo và file mapping
+3. Submit lần lượt 4 run-group, mỗi job được cấp 2 GPU
+4. Submit lại đúng run-group nếu bị gián đoạn
 ```
 
-Lệnh này setup môi trường, doctor rồi chạy toàn bộ. Nếu môi trường đã được setup, trong thư mục này có thể chạy thẳng:
+Không chạy cài environment bên trong compute job. Hoàn thành bước setup trước trên login/setup node theo [hướng dẫn cài server](../../docs/SERVER_SETUP.md).
+
+## Bốn job inference
+
+Chạy từ root repository:
 
 ```bash
-bash run_phase2.sh all
+# Job 1: Qwen + DeepSeek Small/Tiny
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
+
+# Job 2: DeepSeek-VL2 8-bit
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group deepseek-int8
+
+# Job 3: Vintern 1B/3B
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vintern
+
+# Job 4: HuatuoGPT-Vision-34B
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group huatuo
 ```
 
-## Chạy tiếp sau khi gián đoạn
+Mỗi nhóm dùng đúng environment được khai báo trong `.phase2-server-env.sh`. Chi tiết submit job: [SCHEDULER_RUN.md](../../docs/SCHEDULER_RUN.md).
+
+## Chạy tiếp sau gián đoạn
+
+Chạy lại đúng lệnh `run-group` đã bị dừng. Ví dụ:
 
 ```bash
-bash run_phase2.sh resume
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
 ```
+
+Runner bỏ qua lượt đã hoàn chỉnh và tiếp tục lượt còn thiếu hoặc thất bại.
 
 ## Kiểm tra kế hoạch
 
 ```bash
-DRY_RUN=1 bash run_phase2.sh plan
-```
-
-## Chạy riêng một job
-
-```bash
-bash run_phase2.sh full Vintern-1B-v2 DermNet_Val_VI
+bash Phase_2/VLMEvalKit/run_phase2.sh plan
+DRY_RUN=1 GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 \
+  bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
 ```
 
 ## Vá riêng Lesion Reasoning
 
 ```bash
-bash run_phase2.sh patch \
+bash Phase_2/VLMEvalKit/run_phase2.sh patch \
   deepseek_vl2_tiny \
   DermNet_Val_VI \
   /absolute/path/to/existing_result.xlsx
 ```
 
-Lệnh patch tạo mini dataset, chạy lại đúng các dòng `Lesion_Reasoning`, kiểm tra kết quả đầy đủ, sao lưu file cũ rồi mới gộp prediction mới. Nếu bị gián đoạn, chạy lại cùng lệnh để dùng checkpoint đã có.
-
-Xem README tại root để biết bốn profile Python, hai dataset tiếng Việt, backend model, log và checkpoint.
+Lệnh `patch` giữ nguyên Excel nguồn, tạo bộ dữ liệu nhỏ chứa các dòng `Lesion_Reasoning`, chạy lại vào file riêng rồi mới gộp prediction mới. Nếu bị gián đoạn, chạy lại cùng lệnh để dùng checkpoint đã có.
