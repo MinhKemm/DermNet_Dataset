@@ -155,8 +155,12 @@ class RunnerTest(unittest.TestCase):
             'DRY_RUN=1 bash run_phase2.sh run-group vllm'
         )
         self.assertEqual(0, vllm.returncode, vllm.stderr)
-        self.assertIn('Two-GPU mode: vLLM keeps both GPUs visible', vllm.stdout)
-        self.assertNotIn('ASSIGN GPU ', vllm.stdout)
+        self.assertIn('Qwen uses both GPUs; DeepSeek uses two parallel workers', vllm.stdout)
+        assignments = [line for line in vllm.stdout.splitlines() if 'ASSIGN GPU ' in line]
+        self.assertEqual(4, len(assignments))
+        self.assertTrue(all('deepseek_vl2_' in line for line in assignments))
+        self.assertTrue(any('ASSIGN GPU 0 ' in line for line in assignments))
+        self.assertTrue(any('ASSIGN GPU 1 ' in line for line in assignments))
 
     def test_parallel_full_jobs_use_distinct_work_directories(self):
         result = self.run_shell(
@@ -171,6 +175,15 @@ class RunnerTest(unittest.TestCase):
             commands[0].split(' --work-dir ', 1)[1].split(' --mode ', 1)[0],
             commands[1].split(' --work-dir ', 1)[1].split(' --mode ', 1)[0],
         )
+
+    def test_run_group_workers_one_disables_parallel_workers(self):
+        result = self.run_shell(
+            'GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 '
+            'RUN_GROUP_WORKERS=1 DRY_RUN=1 bash run_phase2.sh run-group vllm'
+        )
+        self.assertEqual(0, result.returncode, result.stderr)
+        self.assertEqual(8, result.stdout.count(' run.py --data '))
+        self.assertNotIn('ASSIGN GPU ', result.stdout)
 
     def test_vintern_can_use_separate_python(self):
         result = self.run_shell(

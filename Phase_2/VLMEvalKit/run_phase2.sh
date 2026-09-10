@@ -764,10 +764,33 @@ run_jobs_two_gpus() {
     fi
 }
 
+run_vllm_group_two_gpus() {
+    local all_jobs=("${JOBS[@]}") qwen_jobs=() deepseek_jobs=()
+    local job mode model dataset result rc=0
+    for job in "${all_jobs[@]}"; do
+        IFS='|' read -r mode model dataset result <<< "$job"
+        if [[ "$model" == Qwen3* ]]; then
+            qwen_jobs+=("$job")
+        else
+            deepseek_jobs+=("$job")
+        fi
+    done
+    log 'Two-GPU mode: Qwen uses both GPUs; DeepSeek uses two parallel workers.'
+    JOBS=("${qwen_jobs[@]}")
+    if ! run_jobs_sequentially; then
+        rc=1
+    fi
+    JOBS=("${deepseek_jobs[@]}")
+    if ! run_jobs_two_gpus; then
+        rc=1
+    fi
+    JOBS=("${all_jobs[@]}")
+    return "$rc"
+}
+
 run_all_jobs() {
-    if [[ "$RUNTIME_GROUP" == vllm && "$GPU_COUNT" -ge 2 ]]; then
-        log 'Two-GPU mode: vLLM keeps both GPUs visible to each sequential job.'
-        run_jobs_sequentially
+    if [[ "$RUNTIME_GROUP" == vllm && "$GPU_COUNT" -ge 2 && "$RUN_GROUP_WORKERS" == 2 ]]; then
+        run_vllm_group_two_gpus
     elif [[ -n "$RUNTIME_GROUP" && "$GPU_COUNT" -ge 2 && "$RUN_GROUP_WORKERS" == 2 ]]; then
         run_jobs_two_gpus
     else

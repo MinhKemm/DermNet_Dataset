@@ -45,24 +45,26 @@ Mỗi job scheduler chỉ cần `cd` vào root repository rồi gọi một lệ
 # Job 1: 2 GPU - Qwen và DeepSeek Small/Tiny
 bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
 
-# Job 2: 1 GPU - DeepSeek-VL2 8-bit
+# Job 2: 2 GPU - hai lượt DeepSeek-VL2 8-bit chạy song song
 bash Phase_2/VLMEvalKit/run_phase2.sh run-group deepseek-int8
 
-# Job 3: 1 GPU - hai Vintern
+# Job 3: 2 GPU - hai lượt Vintern chạy song song
 bash Phase_2/VLMEvalKit/run_phase2.sh run-group vintern
 
-# Job 4: 1 GPU - HuatuoGPT-Vision-34B
+# Job 4: 2 GPU - hai lượt Huatuo chạy song song
 bash Phase_2/VLMEvalKit/run_phase2.sh run-group huatuo
 ```
 
 | Nhóm | Lượt | Model | GPU đề xuất |
 |---|---:|---|---:|
 | `vllm` | 8 | Qwen3.5, Qwen3-VL, DeepSeek Small, DeepSeek Tiny | 2 |
-| `deepseek-int8` | 2 | DeepSeek-VL2 8-bit | 1 |
-| `vintern` | 4 | Vintern 1B và 3B | 1 |
-| `huatuo` | 2 | HuatuoGPT-Vision-34B | 1 |
+| `deepseek-int8` | 2 | DeepSeek-VL2 8-bit | 2 |
+| `vintern` | 4 | Vintern 1B và 3B | 2 |
+| `huatuo` | 2 | HuatuoGPT-Vision-34B | 2 |
 
-Các dòng `#SBATCH`, PBS hoặc LSF đặt phía trên theo mẫu của cụm máy. Job `vllm` nên được cấp cả hai GPU 96 GB; các nhóm còn lại có thể chạy trong allocation một GPU riêng.
+Các dòng `#SBATCH`, PBS hoặc LSF đặt phía trên theo mẫu của cụm máy và yêu cầu **2 GPU cho mỗi job**. Trong nhóm `vllm`, các lượt Qwen dùng đồng thời cả hai GPU; sau khi Qwen xong, DeepSeek Small/Tiny được chia thành hai worker, mỗi GPU một lượt. Ba nhóm còn lại cũng tự tạo hai worker song song. Trên server chỉ có hai GPU, có thể submit cả bốn job rồi để scheduler xếp chúng chạy lần lượt.
+
+Runner giữ nguyên `CUDA_VISIBLE_DEVICES` do scheduler cấp. Kết quả full chạy song song được tách theo từng model/dataset trong `outputs/answer-format-v4-vllm/two-gpu-jobs/`, tránh hai process ghi chung một trạng thái. Nếu cần chẩn đoán với một worker, đặt `RUN_GROUP_WORKERS=1` trước lệnh `run-group`.
 
 ### Bước 4: chạy tiếp sau gián đoạn
 
@@ -90,7 +92,7 @@ Lệnh này thực hiện `setup -> doctor -> all`. Nếu bị gián đoạn sau
 bash Phase_2/VLMEvalKit/run_phase2.sh resume
 ```
 
-Danh sách hiện tại có **8 model**, chỉ dùng Val và Test tiếng Việt: **16 lượt = 12 full + 4 vá**. Một lượt là một model chạy trên một bộ dữ liệu. Các lượt trong từng nhóm chạy tuần tự; bốn nhóm có thể được scheduler cấp các allocation riêng.
+Danh sách hiện tại có **8 model**, chỉ dùng Val và Test tiếng Việt: **16 lượt = 12 full + 4 vá**. Một lượt là một model chạy trên một bộ dữ liệu. Với `run-group`, runner chạy tối đa hai lượt song song khi backend chỉ cần một GPU; các lượt Qwen dùng cả hai GPU và chạy tuần tự.
 
 | Model | Val VI | Test VI |
 |---|---|---|
