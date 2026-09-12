@@ -13,7 +13,7 @@ Thực hiện theo đúng thứ tự:
 ```text
 1. Clone repository
 2. Cài 4 requirement vào 4 environment riêng
-3. Chuẩn bị source DeepSeek/Huatuo và file mapping
+3. Chạy một lệnh chuẩn bị runtime
 4. Submit lần lượt 4 run-group
 5. Submit lại đúng run-group nếu bị gián đoạn
 ```
@@ -81,13 +81,17 @@ conda run -n dermnet-huatuo python -m pip check
 
 Các file server nhìn ngắn vì dòng đầu `-r ../../requirements.txt` nạp thêm [71 dependency lõi](Phase_2/VLMEvalKit/requirements.txt). Mỗi file sau đó khóa phiên bản riêng của backend; pip tiếp tục cài các package phụ cần thiết.
 
-### Bước 3 — Chuẩn bị source và file mapping
+### Bước 3 — Chuẩn bị runtime một lần
 
-Sau khi cài package, hoàn thành phần [setup thủ công](docs/SERVER_SETUP.md#3-setup-thủ-công-từng-environment):
+Sau khi admin đã cài đủ bốn environment ở Bước 2, chạy:
 
-1. Clone đúng commit DeepSeek-VL2 và HuatuoGPT-Vision.
-2. Áp dụng bản vá attention cho Blackwell.
-3. Tạo `Phase_2/VLMEvalKit/.phase2-server-env.sh` trỏ đến bốn Python environment.
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh prepare-runtime
+```
+
+Lệnh này **không cài package, không chạy model và không cần GPU**. Nó xác nhận bốn environment theo tên chuẩn tồn tại, chạy `pip check`, tải đúng source DeepSeek/Huatuo, áp dụng bản vá Blackwell và tạo `Phase_2/VLMEvalKit/.phase2-server-env.sh`. Từ lần sau không cần làm lại Bước 3.
+
+Tên environment và thư mục source khác mặc định có thể truyền bằng biến môi trường theo [hướng dẫn server](docs/SERVER_SETUP.md). Phần setup thủ công dài chỉ là phương án dự phòng.
 
 Nếu file mapping nằm ngoài repository:
 
@@ -95,7 +99,7 @@ Nếu file mapping nằm ngoài repository:
 export SERVER_ENV_FILE=/shared/path/.phase2-server-env.sh
 ```
 
-Trên setup node nhìn thấy GPU, có thể thay toàn bộ bước 2 và 3 bằng:
+Nếu muốn script tự cài luôn bốn environment và node setup nhìn thấy GPU, có thể thay toàn bộ Bước 2 và 3 bằng:
 
 ```bash
 bash Phase_2/VLMEvalKit/run_phase2.sh setup

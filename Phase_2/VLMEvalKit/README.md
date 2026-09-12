@@ -6,12 +6,18 @@ Hướng dẫn đầy đủ nằm tại [README.md](../../README.md) ở root re
 
 ```text
 1. Cài 4 requirement vào 4 environment riêng
-2. Chuẩn bị source DeepSeek/Huatuo và file mapping
+2. Chạy `prepare-runtime` một lần
 3. Submit lần lượt 4 run-group, mỗi job được cấp 2 GPU
 4. Submit lại đúng run-group nếu bị gián đoạn
 ```
 
-Không chạy cài environment bên trong compute job. Hoàn thành bước setup trước trên login/setup node theo [hướng dẫn cài server](../../docs/SERVER_SETUP.md).
+Không chạy cài environment bên trong compute job. Sau khi admin cài đủ bốn environment, chạy một lần trên login/setup node:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh prepare-runtime
+```
+
+Lệnh này không cài package, không cần GPU và không chạy inference. Nó tự chuẩn bị source, bản vá Blackwell và file `.phase2-server-env.sh`. Xem [hướng dẫn cài server](../../docs/SERVER_SETUP.md) nếu environment không dùng tên mặc định.
 
 ## Bốn job inference
 

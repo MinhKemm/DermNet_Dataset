@@ -214,6 +214,8 @@ class RunnerTest(unittest.TestCase):
         self.assertEqual(0, result.returncode, result.stderr)
         self.assertIn('bash run_phase2.sh server', result.stdout)
         self.assertIn('bash run_phase2.sh setup', result.stdout)
+        self.assertIn('bash run_phase2.sh prepare-runtime', result.stdout)
+        self.assertIn('connects four preinstalled Conda environments without using a GPU', result.stdout)
         self.assertIn('bash run_phase2.sh doctor', result.stdout)
         self.assertIn('bash run_phase2.sh run-group <vllm|deepseek-int8|vintern|huatuo>', result.stdout)
         self.assertIn('12 full + 4 patch jobs', result.stdout)
@@ -221,6 +223,22 @@ class RunnerTest(unittest.TestCase):
         self.assertNotIn('PYTHON_LEGACY', result.stdout)
         runner = (Path(__file__).parents[1] / 'run_phase2.sh').read_text()
         self.assertEqual(1, runner.count('\n        run-group)'))
+
+    def test_prepare_runtime_is_a_non_installing_setup_mode(self):
+        root = Path(__file__).parents[1]
+        runner = (root / 'run_phase2.sh').read_text()
+        setup = (root / 'scripts' / 'setup_server_envs.sh').read_text()
+        self.assertIn(
+            'prepare-runtime) bash "$SCRIPT_DIR/scripts/setup_server_envs.sh" prepare-runtime',
+            runner,
+        )
+        self.assertIn("MODE=\"${1:-install}\"", setup)
+        self.assertIn("prepare-runtime)", setup)
+        self.assertIn("require_env \"$VLLM_ENV\"", setup)
+        self.assertIn("require_env \"$DEEPSEEK_ENV\"", setup)
+        self.assertIn("require_env \"$VINTERN_ENV\"", setup)
+        self.assertIn("require_env \"$HUATUO_ENV\"", setup)
+        self.assertIn("Skipping package installation", setup)
 
     def test_server_profiles_cover_every_runtime_backend(self):
         root = Path(__file__).parents[1]

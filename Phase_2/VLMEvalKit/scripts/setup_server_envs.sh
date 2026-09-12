@@ -14,15 +14,22 @@ DEEPSEEK_ENV="${DEEPSEEK_ENV:-dermnet-deepseek-int8}"
 VINTERN_ENV="${VINTERN_ENV:-dermnet-vintern}"
 HUATUO_ENV="${HUATUO_ENV:-dermnet-huatuo}"
 LEGACY_TORCH_INDEX_URL="${LEGACY_TORCH_INDEX_URL:-https://download.pytorch.org/whl/cu128}"
+MODE="${1:-install}"
 
 DEEPSEEK_COMMIT='ef9f91e2b6426536b83294c11742c27be66361b1'
 HUATUO_COMMIT='e1a52dcf6c0417f4b6ac1d378b01147280192fca'
 
 log() { printf '[setup] %s\n' "$*"; }
 die() { log "ERROR: $*" >&2; exit 1; }
+case "$MODE" in
+    install|prepare-runtime) ;;
+    *) die 'Usage: setup_server_envs.sh [install|prepare-runtime]' ;;
+esac
 command -v conda >/dev/null 2>&1 || die 'conda was not found in PATH.'
 command -v git >/dev/null 2>&1 || die 'git was not found in PATH.'
-command -v nvidia-smi >/dev/null 2>&1 || die 'nvidia-smi was not found; run this on the NVIDIA compute server.'
+if [[ "$MODE" == install ]]; then
+    command -v nvidia-smi >/dev/null 2>&1 || die 'nvidia-smi was not found; run full setup on the NVIDIA compute server.'
+fi
 
 ensure_env() {
     local name="$1"
@@ -31,6 +38,12 @@ ensure_env() {
         conda create -n "$name" python=3.10 pip -y
     fi
     conda run -n "$name" python -m pip install --upgrade pip setuptools wheel packaging
+}
+
+require_env() {
+    local name="$1"
+    conda run -n "$name" python -c 'import sys; print(sys.executable)' >/dev/null 2>&1 \
+        || die "Conda environment '$name' was not found. Install its requirement profile first."
 }
 
 install_profile() {
@@ -59,36 +72,45 @@ ensure_repo() {
 }
 
 mkdir -p "$VENDOR_DIR"
-nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv
+if [[ "$MODE" == install ]]; then
+    nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv
 
-ensure_env "$VLLM_ENV"
-install_profile "$VLLM_ENV" vllm-blackwell.txt
-conda run -n "$VLLM_ENV" python -m pip check
+    ensure_env "$VLLM_ENV"
+    install_profile "$VLLM_ENV" vllm-blackwell.txt
 
-ensure_env "$DEEPSEEK_ENV"
-install_legacy_torch "$DEEPSEEK_ENV"
-install_profile "$DEEPSEEK_ENV" deepseek-int8-blackwell.txt
+    ensure_env "$DEEPSEEK_ENV"
+    install_legacy_torch "$DEEPSEEK_ENV"
+    install_profile "$DEEPSEEK_ENV" deepseek-int8-blackwell.txt
+
+    ensure_env "$VINTERN_ENV"
+    install_legacy_torch "$VINTERN_ENV"
+    install_profile "$VINTERN_ENV" vintern-blackwell.txt
+
+    ensure_env "$HUATUO_ENV"
+    install_legacy_torch "$HUATUO_ENV"
+    install_profile "$HUATUO_ENV" huatuo-blackwell.txt
+else
+    log 'Skipping package installation; preparing the four existing environments.'
+    require_env "$VLLM_ENV"
+    require_env "$DEEPSEEK_ENV"
+    require_env "$VINTERN_ENV"
+    require_env "$HUATUO_ENV"
+fi
+
 ensure_repo https://github.com/deepseek-ai/DeepSeek-VL2.git "$VENDOR_DIR/DeepSeek-VL2" "$DEEPSEEK_COMMIT"
+ensure_repo https://github.com/FreedomIntelligence/HuatuoGPT-Vision.git "$VENDOR_DIR/HuatuoGPT-Vision" "$HUATUO_COMMIT"
 # Register the source tree without its upstream torch==2.0.1 package metadata;
 # that wheel cannot target Blackwell. All runtime dependencies are explicit in
-# our profile and are still verified by pip check + doctor.
+# our profile and are still verified by pip check and the compute-job preflight.
 conda run -n "$DEEPSEEK_ENV" python -c \
     'import site,sys; from pathlib import Path; Path(site.getsitepackages()[0], "dermnet_deepseek_vl2.pth").write_text(sys.argv[1] + "\n")' \
     "$VENDOR_DIR/DeepSeek-VL2"
-conda run -n "$DEEPSEEK_ENV" python -m pip check
-
-ensure_env "$VINTERN_ENV"
-install_legacy_torch "$VINTERN_ENV"
-install_profile "$VINTERN_ENV" vintern-blackwell.txt
-conda run -n "$VINTERN_ENV" python -m pip check
-
-ensure_env "$HUATUO_ENV"
-install_legacy_torch "$HUATUO_ENV"
-install_profile "$HUATUO_ENV" huatuo-blackwell.txt
-ensure_repo https://github.com/FreedomIntelligence/HuatuoGPT-Vision.git "$VENDOR_DIR/HuatuoGPT-Vision" "$HUATUO_COMMIT"
 conda run -n "$HUATUO_ENV" python "$SCRIPT_DIR/patch_vendor_sources.py" \
     --deepseek-dir "$VENDOR_DIR/DeepSeek-VL2" \
     --huatuo-dir "$VENDOR_DIR/HuatuoGPT-Vision"
+conda run -n "$VLLM_ENV" python -m pip check
+conda run -n "$DEEPSEEK_ENV" python -m pip check
+conda run -n "$VINTERN_ENV" python -m pip check
 conda run -n "$HUATUO_ENV" python -m pip check
 
 python_path() {
@@ -113,5 +135,9 @@ write_export PYTHON_HUATUO "$HUATUO_PYTHON"
 write_export HUATUO_SOURCE_DIR "$VENDOR_DIR/HuatuoGPT-Vision"
 
 log "Saved runtime mapping: $ENV_FILE"
-log 'Running the complete environment and dataset doctor'
-bash "$KIT_DIR/run_phase2.sh" doctor
+if [[ "$MODE" == install ]]; then
+    log 'Running the complete environment and dataset doctor'
+    bash "$KIT_DIR/run_phase2.sh" doctor
+else
+    log 'Runtime preparation is complete. CUDA will be checked inside each compute job.'
+fi

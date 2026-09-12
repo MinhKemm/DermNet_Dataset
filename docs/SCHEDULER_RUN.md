@@ -3,7 +3,7 @@
 Tài liệu này dành cho hệ thống HPC không cho `conda create` hoặc `pip install` trong compute job. Nguyên tắc là:
 
 ```text
-Login/setup node: cài environment một lần và tạo file mapping
+Login/setup node: cài environment rồi chạy prepare-runtime một lần
 Compute job:       chỉ kiểm tra environment được cấp rồi chạy inference
 ```
 
@@ -11,7 +11,13 @@ Không dùng lệnh `server` trong nội dung submit job vì `server` luôn gọ
 
 ## 1. Chuẩn bị một lần trước khi submit
 
-Thực hiện phần [setup thủ công từng environment](SERVER_SETUP.md#3-setup-thủ-công-từng-environment). Sau bước tạo mapping phải có file:
+Sau khi quản trị viên cài đủ bốn environment theo [hướng dẫn server](SERVER_SETUP.md), chạy:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh prepare-runtime
+```
+
+Lệnh này không cài package và không cần GPU. Sau khi hoàn tất phải có file:
 
 ```text
 Phase_2/VLMEvalKit/.phase2-server-env.sh

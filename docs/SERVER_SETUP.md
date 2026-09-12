@@ -1,6 +1,25 @@
 # Cài môi trường server từ đầu
 
-Đây là tài liệu vận hành cho lệnh duy nhất dùng trên một server mới clone code. Đứng tại root `DermNet_Dataset` và chạy:
+Có hai luồng setup. Nếu quản trị viên đã cài bốn requirement vào bốn environment, đứng tại root `DermNet_Dataset` và chạy đúng một lệnh:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh prepare-runtime
+```
+
+`prepare-runtime` không cài package, không cần GPU và không chạy inference. Nó xác nhận bốn environment tồn tại, chạy `pip check`, tải source DeepSeek/Huatuo, áp dụng bản vá Blackwell và tạo `.phase2-server-env.sh`. Sau đó compute job chỉ gọi `run-group`.
+
+Nếu server dùng tên environment hoặc thư mục source khác mặc định, vẫn chỉ cần một lệnh:
+
+```bash
+VLLM_ENV=my-vllm \
+DEEPSEEK_ENV=my-deepseek-int8 \
+VINTERN_ENV=my-vintern \
+HUATUO_ENV=my-huatuo \
+DERMNET_VENDOR_DIR=/shared/vendor \
+  bash Phase_2/VLMEvalKit/run_phase2.sh prepare-runtime
+```
+
+Nếu muốn runner tự cài cả bốn environment trên node nhìn thấy GPU, dùng:
 
 ```bash
 bash Phase_2/VLMEvalKit/run_phase2.sh server
@@ -15,7 +34,7 @@ server
   └─ all: chạy tuần tự 16 lượt model × dataset tiếng Việt
 ```
 
-Nếu một bước lỗi, script dừng ngay tại bước đó và chưa chuyển sang bước sau. Lệnh `setup`, `doctor` và `all` có thể chạy riêng để chẩn đoán, nhưng trên server mới phải bắt đầu bằng `server`.
+Nếu một bước lỗi, script dừng ngay tại bước đó và chưa chuyển sang bước sau. `server` là luồng tự cài toàn bộ; không dùng lệnh này trong compute job.
 
 Server mục tiêu là Linux, 2 NVIDIA RTX PRO 6000 Blackwell 96 GB, driver nhìn thấy CUDA 13.0. Dòng CUDA của `nvidia-smi` là khả năng của driver; phiên bản CUDA runtime thực tế đến từ wheel PyTorch/vLLM.
 
@@ -85,7 +104,7 @@ Vì vậy Qwen không chạy bằng Python mặc định của shell. Nó chạy
 
 ## 3. Setup thủ công từng environment
 
-Phần này dành cho quản trị viên muốn tự chạy từng lệnh thay vì gọi `server`. Các lệnh dưới đây tương đương với `scripts/setup_server_envs.sh`. Nếu repository đã được clone, bỏ qua lệnh `git clone` và bắt đầu tại root `DermNet_Dataset`.
+Đây là phương án dự phòng khi quản trị viên không muốn dùng `prepare-runtime`. Với bốn tên mặc định hoặc các biến override ở đầu tài liệu, chỉ cần cài requirement rồi chạy `prepare-runtime`; không cần tự thực hiện các mục 3.5–3.7. Nếu repository đã được clone, bỏ qua lệnh `git clone` và bắt đầu tại root `DermNet_Dataset`.
 
 ### 3.1. Khai báo đường dẫn dùng chung
 
