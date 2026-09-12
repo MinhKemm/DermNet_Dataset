@@ -46,6 +46,7 @@ export LEGACY_TORCH_INDEX_URL="https://download.pytorch.org/whl/cu128"
 
 # Requirement cho job 1: vllm
 conda create -n dermnet-vllm python=3.10 pip -y
+conda install -n dermnet-vllm -c conda-forge decord=0.6.0 -y
 conda run -n dermnet-vllm python -m pip install \
   -r "$DERMNET_KIT_DIR/requirements/server/vllm-blackwell.txt"
 conda run -n dermnet-vllm python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
@@ -53,6 +54,7 @@ conda run -n dermnet-vllm python -m pip check
 
 # Requirement cho job 2: deepseek-int8
 conda create -n dermnet-deepseek-int8 python=3.10 pip -y
+conda install -n dermnet-deepseek-int8 -c conda-forge decord=0.6.0 -y
 conda run -n dermnet-deepseek-int8 python -m pip install \
   torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
 conda run -n dermnet-deepseek-int8 python -m pip install \
@@ -62,6 +64,7 @@ conda run -n dermnet-deepseek-int8 python -m pip check
 
 # Requirement cho job 3: vintern
 conda create -n dermnet-vintern python=3.10 pip -y
+conda install -n dermnet-vintern -c conda-forge decord=0.6.0 -y
 conda run -n dermnet-vintern python -m pip install \
   torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
 conda run -n dermnet-vintern python -m pip install \
@@ -71,6 +74,7 @@ conda run -n dermnet-vintern python -m pip check
 
 # Requirement cho job 4: huatuo
 conda create -n dermnet-huatuo python=3.10 pip -y
+conda install -n dermnet-huatuo -c conda-forge decord=0.6.0 -y
 conda run -n dermnet-huatuo python -m pip install \
   torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
 conda run -n dermnet-huatuo python -m pip install \
