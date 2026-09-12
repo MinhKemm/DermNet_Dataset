@@ -9,7 +9,7 @@ cairosvg
 cd-fvd
 colormath>=3.0.0
 datasets
-decord>=0.6.0
+# decord>=0.6.0  # Optional: only required for video benchmarks.
 distance>=0.1.3
 dotenv
 editdistance>=0.8.1

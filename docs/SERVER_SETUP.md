@@ -133,8 +133,6 @@ Environment này không dùng Torch 2.8.0. `vllm==0.28.0` đi cùng Torch 2.13.0
 ```bash
 conda create -n dermnet-vllm python=3.10 pip -y
 
-conda install -n dermnet-vllm -c conda-forge decord=0.6.0 -y
-
 conda run -n dermnet-vllm python -m pip install --upgrade \
   pip setuptools wheel packaging
 
@@ -162,8 +160,6 @@ CUDA 13.x True
 
 ```bash
 conda create -n dermnet-deepseek-int8 python=3.10 pip -y
-
-conda install -n dermnet-deepseek-int8 -c conda-forge decord=0.6.0 -y
 
 conda run -n dermnet-deepseek-int8 python -m pip install --upgrade \
   pip setuptools wheel packaging
@@ -204,8 +200,6 @@ conda run -n dermnet-deepseek-int8 python -m pip check
 ```bash
 conda create -n dermnet-vintern python=3.10 pip -y
 
-conda install -n dermnet-vintern -c conda-forge decord=0.6.0 -y
-
 conda run -n dermnet-vintern python -m pip install --upgrade \
   pip setuptools wheel packaging
 
@@ -228,8 +222,6 @@ Một environment dùng chung cho `Vintern-1B-v2` và `Vintern-3B-beta`.
 
 ```bash
 conda create -n dermnet-huatuo python=3.10 pip -y
-
-conda install -n dermnet-huatuo -c conda-forge decord=0.6.0 -y
 
 conda run -n dermnet-huatuo python -m pip install --upgrade \
   pip setuptools wheel packaging
@@ -390,16 +382,6 @@ Giữ nguyên checkout, thư mục output và `.phase2-server-env.sh`. Runner b�
 
 - Lỗi trước dòng `Doctor passed`: vấn đề thuộc environment, CUDA, dữ liệu, ảnh hoặc Excel nguồn; sửa nguyên nhân rồi chạy lại `server`.
 - Lỗi `No module named 'vllm'`: chạy lại `server` hoặc `setup`, sau đó dùng lệnh kiểm tra Qwen ở trên.
-- Lỗi `decord 0.6.0 is not supported on this platform`: PyPI không có wheel phù hợp với nền tảng hiện tại. Cài `decord` từ conda-forge vào đúng environment rồi chạy lại lệnh cài requirement. Ví dụ cho job vLLM:
-
-```bash
-conda install -n dermnet-vllm -c conda-forge decord=0.6.0 -y
-conda run -n dermnet-vllm python -c 'import decord; print(decord.__version__)'
-conda run -n dermnet-vllm python -m pip install \
-  -r "$PWD/Phase_2/VLMEvalKit/requirements/server/vllm-blackwell.txt"
-```
-
-  Với job khác, thay `dermnet-vllm` bằng `dermnet-deepseek-int8`, `dermnet-vintern` hoặc `dermnet-huatuo`. Không tải thủ công một wheel x86_64 để cài trên máy aarch64.
 - Lỗi tải checkpoint từ Hugging Face: kiểm tra mạng, dung lượng cache và quyền của `HF_TOKEN`.
 - CUDA out of memory: kiểm tra `nvidia-smi` xem GPU có tiến trình khác; runner không tự dừng tiến trình của người dùng khác.
 - SSH ngắt trong lúc inference: kết nối lại và dùng `resume`.

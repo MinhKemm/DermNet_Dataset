@@ -263,15 +263,40 @@ class RunnerTest(unittest.TestCase):
         self.assertNotIn('nvcc', setup)
         self.assertIn('write_export PYTHON_DEEPSEEK_VLLM "$VLLM_PYTHON"', setup)
         self.assertIn('bash "$KIT_DIR/run_phase2.sh" doctor', setup)
-        self.assertIn('install_decord() {', setup)
-        self.assertIn('conda install -n "$name" -c conda-forge decord=0.6.0 -y', setup)
-        self.assertIn("import decord; assert decord.__version__ == '0.6.0'", setup)
-        self.assertEqual(4, setup.count('install_decord "$'))
+        self.assertNotIn('install_decord', setup)
         runner = (root / 'run_phase2.sh').read_text()
         self.assertIn('exec bash "$SCRIPT_DIR/run_phase2.sh" all', runner)
         doctor = (root / 'scripts' / 'check_server_env.py').read_text()
         self.assertIn('DeepSeek Blackwell attention patch is missing', doctor)
         self.assertIn('Huatuo Blackwell attention patch is missing', doctor)
+
+    def test_image_only_server_does_not_require_decord(self):
+        import ast
+
+        root = Path(__file__).parents[1]
+        requirements = (root / 'requirements.txt').read_text().splitlines()
+        self.assertIn('# decord>=0.6.0  # Optional: only required for video benchmarks.', requirements)
+
+        optional_modules = [
+            'vlmeval/vlm/cambrian_s.py',
+            'vlmeval/vlm/vlm3r.py',
+            'vlmeval/dataset/dsrbench.py',
+            'vlmeval/dataset/sitebench.py',
+            'vlmeval/dataset/stibench.py',
+            'vlmeval/dataset/vsibench.py',
+        ]
+        for relative_path in optional_modules:
+            tree = ast.parse((root / relative_path).read_text())
+            direct_imports = [
+                node
+                for node in tree.body
+                if (
+                    isinstance(node, ast.Import)
+                    and any(alias.name == 'decord' for alias in node.names)
+                )
+                or (isinstance(node, ast.ImportFrom) and node.module == 'decord')
+            ]
+            self.assertEqual([], direct_imports, relative_path)
 
     def test_selected_qwen_models_use_bounded_deterministic_generation(self):
         config = (Path(__file__).parents[1] / 'vlmeval' / 'config.py').read_text()

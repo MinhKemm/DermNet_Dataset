@@ -53,15 +53,6 @@ install_profile() {
     conda run -n "$name" python -m pip install --no-deps -e "$KIT_DIR"
 }
 
-install_decord() {
-    local name="$1"
-    log "Installing decord 0.6.0 from conda-forge into $name"
-    # PyPI only publishes a Linux x86_64 wheel for decord 0.6.0. Conda-forge
-    # also provides Linux aarch64 builds and avoids pip's unsupported-wheel error.
-    conda install -n "$name" -c conda-forge decord=0.6.0 -y
-    conda run -n "$name" python -c "import decord; assert decord.__version__ == '0.6.0'"
-}
-
 install_legacy_torch() {
     local name="$1"
     conda run -n "$name" python -m pip install \
@@ -85,21 +76,17 @@ if [[ "$MODE" == install ]]; then
     nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv
 
     ensure_env "$VLLM_ENV"
-    install_decord "$VLLM_ENV"
     install_profile "$VLLM_ENV" vllm-blackwell.txt
 
     ensure_env "$DEEPSEEK_ENV"
-    install_decord "$DEEPSEEK_ENV"
     install_legacy_torch "$DEEPSEEK_ENV"
     install_profile "$DEEPSEEK_ENV" deepseek-int8-blackwell.txt
 
     ensure_env "$VINTERN_ENV"
-    install_decord "$VINTERN_ENV"
     install_legacy_torch "$VINTERN_ENV"
     install_profile "$VINTERN_ENV" vintern-blackwell.txt
 
     ensure_env "$HUATUO_ENV"
-    install_decord "$HUATUO_ENV"
     install_legacy_torch "$HUATUO_ENV"
     install_profile "$HUATUO_ENV" huatuo-blackwell.txt
 else

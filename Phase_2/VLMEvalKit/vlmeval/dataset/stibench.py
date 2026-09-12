@@ -2,7 +2,6 @@ import ast
 import os
 import string
 
-import decord
 import numpy as np
 from huggingface_hub import snapshot_download
 from PIL import Image
@@ -10,6 +9,11 @@ from tqdm import tqdm
 
 from vlmeval.smp import LMUDataRoot, get_cache_path, load, modelscope_flag_set
 from .video_base import VideoBaseDataset
+
+try:
+    import decord
+except ImportError:
+    decord = None
 
 
 class STIBench(VideoBaseDataset):
