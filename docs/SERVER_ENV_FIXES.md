@@ -1,18 +1,10 @@
 # Hướng dẫn sửa environment HPC đã cài sẵn
 
-Tài liệu này chỉ là note để người setup copy lệnh. **Không chạy file fix/setup
-tự động trong tình trạng hiện tại**: bốn environment đã được cài trên login node,
-và server đã chưa được thay đổi trong hai ngày qua.
-
 HPC của server tách hai loại node:
 
 - **Login node:** kiểm tra và thay đổi package trong environment đã có.
 - **Run/compute node:** chỉ chạy environment đã có; tuyệt đối không `conda
   create`, `pip install`, nâng Python hoặc chạy file fix.
-
-Không chạy `run_phase2.sh server`, `run_phase2.sh setup`,
-`fix_qwen_vllm_env.sh` hoặc `prepare-runtime` để tạo lại environment. Phần
-`run_phase2.sh run-group` ở cuối tài liệu vẫn được dùng để chạy benchmark.
 
 ## 1. Kiểm tra environment hiện có — chỉ chạy trên login node
 
