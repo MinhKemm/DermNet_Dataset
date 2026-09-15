@@ -69,6 +69,7 @@ from array import array
 assert sys.version_info[:2] == (3, 12), sys.version
 array[int]
 import flashinfer.comm  # noqa: F401
+import vllm.distributed.device_communicators.flashinfer_all_reduce  # noqa: F401
 
 expected = {
     "vllm": "0.28.0",
@@ -84,6 +85,7 @@ print(f"Python: {sys.version.split()[0]}")
 for distribution in expected:
     print(f"{distribution}: {metadata.version(distribution)}")
 print("FlashInfer import: OK")
+print("vLLM FlashInfer communicator import: OK")
 PY
 
 VLLM_PYTHON="$(conda run --no-capture-output -n "$ENV_NAME" python -c \
