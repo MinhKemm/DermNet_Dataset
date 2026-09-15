@@ -1,7 +1,123 @@
-# Bản ghi sửa lỗi environment trên HPC
+# Hướng dẫn sửa environment HPC theo đúng thứ tự
 
-Tài liệu này ghi rõ lỗi nào được sửa, environment nào bị thay đổi và bước nào
-chỉ được chạy ở login node hay run/compute node.
+Tài liệu này dành cho người trực tiếp setup server. **Code/docs đã được push
+nhưng chưa tự sửa environment trên HPC**; theo hiện trạng được báo, server chưa
+được sửa trong hai ngày qua. Phải chạy các bước bên dưới trên login node thì
+environment mới thực sự thay đổi.
+
+## Quy trình bắt buộc
+
+Làm đúng thứ tự, không nhảy bước.
+
+### Bước 0 — Phân biệt hai loại node
+
+- **Login/setup node:** được phép `conda create` và `pip install`.
+- **Run/compute node:** chỉ dùng environment đã cài sẵn để chạy job; không cài
+  package, không tạo environment, không chạy file fix.
+
+Nếu đang ở run node thì thoát job và quay về login node trước khi làm Bước 1.
+
+### Bước 1 — Kiểm tra hiện trạng, không thay đổi gì
+
+Chạy trên login node:
+
+```bash
+cd /shared/homes/u26466553/projects/DermNet_Dataset
+
+for ENV in dermnet-vllm dermnet-vllm-py312 dermnet-deepseek-int8 dermnet-vintern dermnet-huatuo
+do
+  echo "===== $ENV ====="
+  conda run -n "$ENV" python --version 2>&1 || true
+done
+```
+
+Nếu `dermnet-vllm` đang là Python 3.10 thì **không xóa và không nâng trực tiếp**;
+tạo environment mới `dermnet-vllm-py312` ở Bước 2.
+
+### Bước 2 — Cài/nâng environment trên login node
+
+Nếu cần cài đủ cả bốn environment, dùng đúng một lệnh:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh setup
+```
+
+Lệnh này tạo vLLM bằng Python 3.12, tạo ba environment legacy bằng Python 3.10,
+cài đúng các version ở bảng bên dưới, tạo launcher sạch và **không cần GPU**.
+
+Nếu ba environment legacy đã có và chỉ Qwen đang lỗi, dùng file fix:
+
+```bash
+bash Phase_2/VLMEvalKit/scripts/fix_qwen_vllm_env.sh
+bash Phase_2/VLMEvalKit/run_phase2.sh prepare-runtime
+```
+
+Hai lệnh trên cũng chỉ chạy trên login node. Không chạy `run_phase2.sh server`
+trong mô hình HPC tách login/run vì lệnh đó còn tiếp tục chạy inference.
+
+### Bước 3 — Kiểm tra version sau khi cài
+
+Vẫn trên login node:
+
+```bash
+for ENV in dermnet-vllm-py312 dermnet-deepseek-int8 dermnet-vintern dermnet-huatuo
+do
+  conda run -n "$ENV" python -m pip check
+done
+```
+
+Kiểm tra đúng lỗi Qwen và workaround:
+
+```bash
+VLLM_PYTHON="$(conda run --no-capture-output -n dermnet-vllm-py312 python -c 'import sys; print(sys.executable)' | awk 'NF {line=$0} END {print line}')"
+VLLM_CLEAN="$(dirname "$VLLM_PYTHON")/dermnet-vllm-clean"
+
+test -x "$VLLM_CLEAN"
+"$VLLM_CLEAN" -c '
+import importlib.metadata as m
+from array import array
+assert array[int]
+assert m.version("vllm") == "0.28.0"
+assert m.version("flashinfer-python") == "0.6.16.post3"
+assert m.version("flashinfer-cubin") == "0.6.16.post3"
+import flashinfer.comm
+import vllm.distributed.device_communicators.flashinfer_all_reduce
+print("Qwen vLLM environment: OK")
+'
+```
+
+Nếu Bước 3 chưa pass thì chưa được submit inference.
+
+### Bước 4 — Chạy kiểm tra trên run/compute node
+
+Sau khi Bước 3 pass, submit job compute và chỉ chạy:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh doctor
+```
+
+`doctor` mới là nơi kiểm tra CUDA, SM 12.0 và memory của node được cấp. Không
+chạy `pip`, `conda`, `setup` hoặc file fix trong job này.
+
+### Bước 5 — Chạy model tuần tự
+
+Nếu yêu cầu mỗi model chạy xong mới chuyển model tiếp theo, dùng:
+
+```bash
+RUN_GROUP_WORKERS=1 bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
+RUN_GROUP_WORKERS=1 bash Phase_2/VLMEvalKit/run_phase2.sh run-group deepseek-int8
+RUN_GROUP_WORKERS=1 bash Phase_2/VLMEvalKit/run_phase2.sh run-group vintern
+RUN_GROUP_WORKERS=1 bash Phase_2/VLMEvalKit/run_phase2.sh run-group huatuo
+```
+
+Không submit bốn lệnh trên đồng thời vào cùng allocation. Chỉ submit group kế
+tiếp sau khi group trước đã kết thúc hoặc đã được scheduler báo thành công.
+
+### Bước 6 — Nếu DeepSeek vẫn báo thiếu memory
+
+Đây là lỗi tài nguyên GPU, không phải lỗi package. Log cũ cho thấy GPU 0 còn
+`69.64/94.97 GiB` nhưng vLLM cần khoảng `75.98 GiB`; cần allocation sạch hoặc
+process đang chiếm GPU phải được admin xử lý. Không tự kill process người khác.
 
 ## Kết luận từ log `dermnet_vllm.o85842`
 
