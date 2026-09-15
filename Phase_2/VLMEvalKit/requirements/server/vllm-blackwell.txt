@@ -2,7 +2,10 @@
 
 # vLLM 0.28 supplies the compatible torch/torchvision/Transformers stack and
 # supports Qwen3.5, Qwen3-VL and DeepSeek-VL2 multimodal architectures.
+--extra-index-url https://flashinfer.ai/whl/
 vllm==0.28.0
+flashinfer-python==0.6.16.post3
+flashinfer-cubin==0.6.16.post3
 torch==2.13.0
 torchvision==0.28.0
 transformers==5.17.0

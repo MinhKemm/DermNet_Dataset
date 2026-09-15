@@ -57,10 +57,29 @@ def main() -> int:
 
     if role == "vllm":
         details.append(f"vllm={require_package('vllm', '0.28.0', '0.29.0')}")
+        flashinfer_python = require_package("flashinfer-python")
+        flashinfer_cubin = require_package("flashinfer-cubin")
+        if flashinfer_python != "0.6.16.post3":
+            raise RuntimeError(
+                f"flashinfer-python=={flashinfer_python}; need ==0.6.16.post3"
+            )
+        if flashinfer_cubin != "0.6.16.post3":
+            raise RuntimeError(
+                f"flashinfer-cubin=={flashinfer_cubin}; need ==0.6.16.post3"
+            )
+        details.extend([
+            f"flashinfer-python={flashinfer_python}",
+            f"flashinfer-cubin={flashinfer_cubin}",
+        ])
         require_package("torch", "2.13.0", "2.14.0")
         require_package("torchvision", "0.28.0", "0.29.0")
         require_package("transformers", "5.17.0", "5.18.0")
-        require_import("vllm", "qwen_vl_utils")
+        require_import(
+            "vllm",
+            "qwen_vl_utils",
+            "flashinfer.comm",
+            "vllm.distributed.device_communicators.flashinfer_all_reduce",
+        )
     elif role == "deepseek-int8":
         require_package("torch", "2.8.0", "2.9.0")
         require_package("torchvision", "0.23.0", "0.24.0")
