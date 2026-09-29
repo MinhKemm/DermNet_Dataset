@@ -1,0 +1,8 @@
+{
+  "snapshot_images_sha256_verified": 7692,
+  "pixel_groups_verified_by_direct_comparison": 366,
+  "phash_BK_tree_matches_exhaustive_search": true,
+  "near_pairs_verified_algorithmically": 175,
+  "dedup_proposal_valid": 146,
+  "scope": "Validates latest snapshot; initial snapshot differences are recorded separately."
+}

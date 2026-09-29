@@ -1,0 +1,1637 @@
+[
+  {
+    "a": "Pigmented purpura",
+    "b": "Purpura",
+    "shared_unique_images": 27,
+    "examples": [
+      [
+        "Pigmented purpura/capil1.jpg",
+        "Purpura/20.jpg"
+      ],
+      [
+        "Pigmented purpura/capillaritis-47.jpg",
+        "Purpura/21.jpg"
+      ],
+      [
+        "Pigmented purpura/lichen-aureus-01.jpg",
+        "Purpura/40.jpg"
+      ]
+    ],
+    "coverage_a": 0.5294,
+    "coverage_b": 0.2411
+  },
+  {
+    "a": "Non-albicans candida infections",
+    "b": "Vulvovaginal candidiasis",
+    "shared_unique_images": 15,
+    "examples": [
+      [
+        "Non-albicans candida infections/06.jpg",
+        "Vulvovaginal candidiasis/1266-small.jpg"
+      ],
+      [
+        "Non-albicans candida infections/07.jpg",
+        "Vulvovaginal candidiasis/1268-small.jpg"
+      ],
+      [
+        "Non-albicans candida infections/16.jpg",
+        "Vulvovaginal candidiasis/1284-small.jpg"
+      ]
+    ],
+    "coverage_a": 0.2174,
+    "coverage_b": 1.0
+  },
+  {
+    "a": "Notalgia paraesthetica",
+    "b": "Pruritus",
+    "shared_unique_images": 14,
+    "examples": [
+      [
+        "Notalgia paraesthetica/05.jpg",
+        "Pruritus/24.jpg"
+      ],
+      [
+        "Notalgia paraesthetica/06.jpg",
+        "Pruritus/25.jpg"
+      ],
+      [
+        "Notalgia paraesthetica/07.jpg",
+        "Pruritus/26.jpg"
+      ]
+    ],
+    "coverage_a": 0.6667,
+    "coverage_b": 0.2545
+  },
+  {
+    "a": "Non-albicans candida infections",
+    "b": "Onychomycosis",
+    "shared_unique_images": 11,
+    "examples": [
+      [
+        "Non-albicans candida infections/01.jpg",
+        "Onychomycosis/01.jpg",
+        "Onychomycosis/1254.jpg"
+      ],
+      [
+        "Non-albicans candida infections/04.jpg",
+        "Non-albicans candida infections/45.jpg",
+        "Onychomycosis/02.jpg",
+        "Onychomycosis/1261.jpg"
+      ],
+      [
+        "Non-albicans candida infections/05.jpg",
+        "Onychomycosis/03.jpg",
+        "Onychomycosis/1263.jpg"
+      ]
+    ],
+    "coverage_a": 0.1594,
+    "coverage_b": 0.1774
+  },
+  {
+    "a": "Non-albicans candida infections",
+    "b": "Oral candidiasis",
+    "shared_unique_images": 7,
+    "examples": [
+      [
+        "Non-albicans candida infections/12.jpg",
+        "Oral candidiasis/1277-big.jpg"
+      ],
+      [
+        "Non-albicans candida infections/42.jpg",
+        "Oral candidiasis/candida-barbae-18.jpg"
+      ],
+      [
+        "Non-albicans candida infections/43.jpg",
+        "Oral candidiasis/candida-barbae-19.jpg"
+      ]
+    ],
+    "coverage_a": 0.1014,
+    "coverage_b": 0.3889
+  },
+  {
+    "a": "Henoch–Schönlein purpura",
+    "b": "Purpura",
+    "shared_unique_images": 6,
+    "examples": [
+      [
+        "Henoch–Schönlein purpura/hsp1.jpg",
+        "Purpura/32.jpg"
+      ],
+      [
+        "Henoch–Schönlein purpura/hsp2.jpg",
+        "Purpura/33.jpg"
+      ],
+      [
+        "Henoch–Schönlein purpura/hsp3.jpg",
+        "Purpura/34.jpg"
+      ]
+    ],
+    "coverage_a": 1.0,
+    "coverage_b": 0.0536
+  },
+  {
+    "a": "Polymorphic light eruption",
+    "b": "Prurigo",
+    "shared_unique_images": 6,
+    "examples": [
+      [
+        "Polymorphic light eruption/23.jpg",
+        "Prurigo/68.jpg"
+      ],
+      [
+        "Polymorphic light eruption/24.jpg",
+        "Prurigo/69.jpg"
+      ],
+      [
+        "Polymorphic light eruption/25.jpg",
+        "Prurigo/70.jpg"
+      ]
+    ],
+    "coverage_a": 0.2143,
+    "coverage_b": 0.0606
+  },
+  {
+    "a": "Alopecia areata",
+    "b": "Madarosis",
+    "shared_unique_images": 5,
+    "examples": [
+      [
+        "Alopecia areata/madarosis-02.jpg",
+        "Madarosis/madarosis-02.jpg"
+      ],
+      [
+        "Alopecia areata/madarosis-03.jpg",
+        "Madarosis/madarosis-03.jpg"
+      ],
+      [
+        "Alopecia areata/madarosis-10.jpg",
+        "Madarosis/madarosis-10.jpg"
+      ]
+    ],
+    "coverage_a": 0.1,
+    "coverage_b": 0.2941
+  },
+  {
+    "a": "Atypical melanocytic naevus",
+    "b": "Melanocytic naevus",
+    "shared_unique_images": 4,
+    "examples": [
+      [
+        "Atypical melanocytic naevus/3161.jpg",
+        "Melanocytic naevus/3161.jpg"
+      ],
+      [
+        "Atypical melanocytic naevus/3167.jpg",
+        "Melanocytic naevus/3167.jpg"
+      ],
+      [
+        "Atypical melanocytic naevus/3170.jpg",
+        "Melanocytic naevus/3170.jpg"
+      ]
+    ],
+    "coverage_a": 0.2,
+    "coverage_b": 0.0364
+  },
+  {
+    "a": "Meningococcal disease",
+    "b": "Purpura",
+    "shared_unique_images": 4,
+    "examples": [
+      [
+        "Meningococcal disease/meningo.jpg",
+        "Purpura/46.jpg"
+      ],
+      [
+        "Meningococcal disease/meningococcus1.jpg",
+        "Purpura/47.jpg"
+      ],
+      [
+        "Meningococcal disease/meningococcus2.jpg",
+        "Purpura/48.jpg"
+      ]
+    ],
+    "coverage_a": 0.5714,
+    "coverage_b": 0.0357
+  },
+  {
+    "a": "Anagen effluvium",
+    "b": "Kerion",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Anagen effluvium/anagen-effluvium-14.jpg",
+        "Kerion/anagen-effluvium-14.jpg"
+      ],
+      [
+        "Anagen effluvium/anagen-effluvium-15.jpg",
+        "Kerion/anagen-effluvium-15.jpg"
+      ],
+      [
+        "Anagen effluvium/anagen-effluvium-16.jpg",
+        "Kerion/anagen-effluvium-16.jpg"
+      ]
+    ],
+    "coverage_a": 0.1765,
+    "coverage_b": 0.1579
+  },
+  {
+    "a": "Angular cheilitis",
+    "b": "Non-albicans candida infections",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Angular cheilitis/ang-cheilitis.jpg",
+        "Non-albicans candida infections/34.jpg",
+        "Non-albicans candida infections/69.jpg"
+      ],
+      [
+        "Angular cheilitis/angular-cheilitis-0012.jpg",
+        "Non-albicans candida infections/35.jpg"
+      ],
+      [
+        "Angular cheilitis/perleche9.jpg",
+        "Non-albicans candida infections/70.jpg"
+      ]
+    ],
+    "coverage_a": 0.0811,
+    "coverage_b": 0.0435
+  },
+  {
+    "a": "Atopic dermatitis",
+    "b": "Prurigo",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Atopic dermatitis/atopic-dermatitis-0049.jpg",
+        "Prurigo/05.jpg"
+      ],
+      [
+        "Atopic dermatitis/eapsimplex1.jpg",
+        "Prurigo/09.jpg"
+      ],
+      [
+        "Atopic dermatitis/prurigo-01.jpg",
+        "Prurigo/77.jpg"
+      ]
+    ],
+    "coverage_a": 0.018,
+    "coverage_b": 0.0303
+  },
+  {
+    "a": "Atopic dermatitis",
+    "b": "Hand dermatitis",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Atopic dermatitis/atopic26.jpg",
+        "Hand dermatitis/atopic26.jpg"
+      ],
+      [
+        "Atopic dermatitis/atopic36.jpg",
+        "Hand dermatitis/atopic36.jpg"
+      ],
+      [
+        "Atopic dermatitis/itchy-skin-41.jpg",
+        "Hand dermatitis/itchy-skin-41.jpg"
+      ]
+    ],
+    "coverage_a": 0.018,
+    "coverage_b": 0.0227
+  },
+  {
+    "a": "Bullous pemphigoid",
+    "b": "Vulval intraepithelial neoplasia",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Bullous pemphigoid/bullous-pemphigoid-00092.jpg",
+        "Vulval intraepithelial neoplasia/10.jpg"
+      ],
+      [
+        "Bullous pemphigoid/bullous-pemphigoid-00096.jpg",
+        "Vulval intraepithelial neoplasia/11.jpg"
+      ],
+      [
+        "Bullous pemphigoid/bullous-pemphigoid-00098.jpg",
+        "Vulval intraepithelial neoplasia/13.jpg"
+      ]
+    ],
+    "coverage_a": 0.0448,
+    "coverage_b": 0.0536
+  },
+  {
+    "a": "Calciphylaxis",
+    "b": "Purpura",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Calciphylaxis/calciphylaxis-0001.jpg",
+        "Purpura/17.jpg"
+      ],
+      [
+        "Calciphylaxis/calciphylaxis-0002.jpg",
+        "Purpura/18.jpg"
+      ],
+      [
+        "Calciphylaxis/calciphylaxis-0003.jpg",
+        "Purpura/19.jpg"
+      ]
+    ],
+    "coverage_a": 0.2,
+    "coverage_b": 0.0268
+  },
+  {
+    "a": "Cutaneous amyloidosis",
+    "b": "Macular amyloidosis",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Cutaneous amyloidosis/amyloidosis-0005.jpg",
+        "Macular amyloidosis/amyloidosis-0005.jpg"
+      ],
+      [
+        "Cutaneous amyloidosis/amyloidosis-0013.jpg",
+        "Macular amyloidosis/amyloidosis-0013.jpg"
+      ],
+      [
+        "Cutaneous amyloidosis/amyloidosis-0014.jpg",
+        "Macular amyloidosis/amyloidosis-0014.jpg",
+        "Notalgia paraesthetica/01.jpg"
+      ]
+    ],
+    "coverage_a": 0.0811,
+    "coverage_b": 0.375
+  },
+  {
+    "a": "Cutaneous lupus erythematosus",
+    "b": "Discoid lupus erythematosus",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Cutaneous lupus erythematosus/cdle-04.jpg",
+        "Discoid lupus erythematosus/cdle-04.jpg"
+      ],
+      [
+        "Cutaneous lupus erythematosus/htrophicle.jpg",
+        "Discoid lupus erythematosus/htrophicle.jpg"
+      ],
+      [
+        "Cutaneous lupus erythematosus/palmoplantar-le.jpg",
+        "Discoid lupus erythematosus/palmoplantar-le.jpg"
+      ]
+    ],
+    "coverage_a": 0.0303,
+    "coverage_b": 0.0405
+  },
+  {
+    "a": "Elastosis",
+    "b": "Elastosis perforans serpiginosa",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Elastosis/eps4.jpg",
+        "Elastosis perforans serpiginosa/eps4.jpg"
+      ],
+      [
+        "Elastosis/eps5.jpg",
+        "Elastosis perforans serpiginosa/eps5.jpg"
+      ],
+      [
+        "Elastosis/eps6.jpg",
+        "Elastosis perforans serpiginosa/eps6.jpg"
+      ]
+    ],
+    "coverage_a": 0.1429,
+    "coverage_b": 0.2143
+  },
+  {
+    "a": "Halo naevus",
+    "b": "Melanocytic naevus",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Halo naevus/2783.jpg",
+        "Melanocytic naevus/2783.jpg"
+      ],
+      [
+        "Halo naevus/2786.jpg",
+        "Melanocytic naevus/2786.jpg"
+      ],
+      [
+        "Halo naevus/2787.jpg",
+        "Melanocytic naevus/2787.jpg"
+      ]
+    ],
+    "coverage_a": 0.1154,
+    "coverage_b": 0.0273
+  },
+  {
+    "a": "Lichen planus",
+    "b": "Postinflammatory hyperpigmentation",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Lichen planus/annular-lichen-planus-0007.jpg",
+        "Postinflammatory hyperpigmentation/05.jpg",
+        "Vulval intraepithelial neoplasia/05.jpg"
+      ],
+      [
+        "Lichen planus/papular-lichen-planus-0009.jpg",
+        "Postinflammatory hyperpigmentation/15.jpg",
+        "Vulval intraepithelial neoplasia/34.jpg"
+      ],
+      [
+        "Lichen planus/papular-lichen-planus-0010.jpg",
+        "Postinflammatory hyperpigmentation/16.jpg",
+        "Vulval intraepithelial neoplasia/35.jpg"
+      ]
+    ],
+    "coverage_a": 0.0178,
+    "coverage_b": 0.1154
+  },
+  {
+    "a": "Lichen planus",
+    "b": "Vulval intraepithelial neoplasia",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Lichen planus/annular-lichen-planus-0007.jpg",
+        "Postinflammatory hyperpigmentation/05.jpg",
+        "Vulval intraepithelial neoplasia/05.jpg"
+      ],
+      [
+        "Lichen planus/papular-lichen-planus-0009.jpg",
+        "Postinflammatory hyperpigmentation/15.jpg",
+        "Vulval intraepithelial neoplasia/34.jpg"
+      ],
+      [
+        "Lichen planus/papular-lichen-planus-0010.jpg",
+        "Postinflammatory hyperpigmentation/16.jpg",
+        "Vulval intraepithelial neoplasia/35.jpg"
+      ]
+    ],
+    "coverage_a": 0.0178,
+    "coverage_b": 0.0536
+  },
+  {
+    "a": "Postinflammatory hyperpigmentation",
+    "b": "Vulval intraepithelial neoplasia",
+    "shared_unique_images": 3,
+    "examples": [
+      [
+        "Lichen planus/annular-lichen-planus-0007.jpg",
+        "Postinflammatory hyperpigmentation/05.jpg",
+        "Vulval intraepithelial neoplasia/05.jpg"
+      ],
+      [
+        "Lichen planus/papular-lichen-planus-0009.jpg",
+        "Postinflammatory hyperpigmentation/15.jpg",
+        "Vulval intraepithelial neoplasia/34.jpg"
+      ],
+      [
+        "Lichen planus/papular-lichen-planus-0010.jpg",
+        "Postinflammatory hyperpigmentation/16.jpg",
+        "Vulval intraepithelial neoplasia/35.jpg"
+      ]
+    ],
+    "coverage_a": 0.1154,
+    "coverage_b": 0.0536
+  },
+  {
+    "a": "Acral lentiginous melanoma",
+    "b": "Melanoma in situ",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Acral lentiginous melanoma/acral-lentiginous-melanoma-0005.jpg",
+        "Melanoma in situ/acral-lentiginous-melanoma-0005.jpg"
+      ],
+      [
+        "Acral lentiginous melanoma/alm16.jpg",
+        "Melanoma in situ/alm16.jpg"
+      ]
+    ],
+    "coverage_a": 0.05,
+    "coverage_b": 0.0357
+  },
+  {
+    "a": "Alopecia areata",
+    "b": "Poliosis",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Alopecia areata/1330.jpg",
+        "Poliosis/01.jpg"
+      ],
+      [
+        "Alopecia areata/1333.jpg",
+        "Poliosis/04.jpg",
+        "Poliosis/poliosis2.jpg"
+      ]
+    ],
+    "coverage_a": 0.04,
+    "coverage_b": 0.1538
+  },
+  {
+    "a": "Amputation stump dermatoses",
+    "b": "Molluscum contagiosum",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Amputation stump dermatoses/amputation-stump-05.jpg",
+        "Molluscum contagiosum/amputation-stump-05.jpg"
+      ],
+      [
+        "Amputation stump dermatoses/amputation-stump-07.jpg",
+        "Molluscum contagiosum/amputation-stump-07.jpg"
+      ]
+    ],
+    "coverage_a": 0.2,
+    "coverage_b": 0.0202
+  },
+  {
+    "a": "Angular cheilitis",
+    "b": "Oral candidiasis",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Angular cheilitis/1282-big.jpg",
+        "Oral candidiasis/1282-big.jpg"
+      ],
+      [
+        "Angular cheilitis/cand-oral.jpg",
+        "Oral candidiasis/01.jpg"
+      ]
+    ],
+    "coverage_a": 0.0541,
+    "coverage_b": 0.1111
+  },
+  {
+    "a": "Aphthous ulcer",
+    "b": "Oral mucositis - Stomatitis",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Aphthous ulcer/aphth1.jpg",
+        "Oral mucositis - Stomatitis/17.jpg"
+      ],
+      [
+        "Aphthous ulcer/enteroviral-stomatitis-044.jpg",
+        "Oral mucositis - Stomatitis/34.jpg"
+      ]
+    ],
+    "coverage_a": 0.4,
+    "coverage_b": 0.1333
+  },
+  {
+    "a": "Atopic dermatitis",
+    "b": "Nipple eczema",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Atopic dermatitis/atopic-dermatitis-0025.jpg",
+        "Nipple eczema/01.jpg"
+      ],
+      [
+        "Atopic dermatitis/nipple-eczema-08.jpg",
+        "Nipple eczema/09.jpg"
+      ]
+    ],
+    "coverage_a": 0.012,
+    "coverage_b": 0.1667
+  },
+  {
+    "a": "Cryoglobulinaemia",
+    "b": "Purpura",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Cryoglobulinaemia/cryoglobulinaemia-0001.jpg",
+        "Purpura/23.jpg"
+      ],
+      [
+        "Cryoglobulinaemia/cryoglobulinaemia-0002.jpg",
+        "Purpura/24.jpg"
+      ]
+    ],
+    "coverage_a": 0.125,
+    "coverage_b": 0.0179
+  },
+  {
+    "a": "Cutaneous amyloidosis",
+    "b": "Purpura",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Cutaneous amyloidosis/amyloid5.jpg",
+        "Purpura/09.jpg"
+      ],
+      [
+        "Cutaneous amyloidosis/amyloid7.jpg",
+        "Purpura/10.jpg"
+      ]
+    ],
+    "coverage_a": 0.0541,
+    "coverage_b": 0.0179
+  },
+  {
+    "a": "Dry gangrene",
+    "b": "Purpura",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Dry gangrene/purpura-fulminans-0011.jpg",
+        "Purpura/75.jpg"
+      ],
+      [
+        "Dry gangrene/purpura-fulminans-0012.jpg",
+        "Purpura/76.jpg"
+      ]
+    ],
+    "coverage_a": 0.25,
+    "coverage_b": 0.0179
+  },
+  {
+    "a": "Epidermolysis bullosa acquisita",
+    "b": "Postinflammatory hyperpigmentation",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0002.jpg",
+        "Postinflammatory hyperpigmentation/10.jpg"
+      ],
+      [
+        "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0003.jpg",
+        "Postinflammatory hyperpigmentation/11.jpg"
+      ]
+    ],
+    "coverage_a": 0.1538,
+    "coverage_b": 0.0769
+  },
+  {
+    "a": "Erythema multiforme",
+    "b": "Mycoplasma pneumoniae infection",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Erythema multiforme/mycoplasma1.jpg",
+        "Mycoplasma pneumoniae infection/mycoplasma1.jpg"
+      ],
+      [
+        "Erythema multiforme/mycoplasma2.jpg",
+        "Mycoplasma pneumoniae infection/mycoplasma2.jpg"
+      ]
+    ],
+    "coverage_a": 0.0606,
+    "coverage_b": 0.1053
+  },
+  {
+    "a": "Hand dermatitis",
+    "b": "Vulval intraepithelial neoplasia",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Hand dermatitis/at-derm13.jpg",
+        "Vulval intraepithelial neoplasia/06.jpg"
+      ],
+      [
+        "Hand dermatitis/atopic42.jpg",
+        "Vulval intraepithelial neoplasia/07.jpg"
+      ]
+    ],
+    "coverage_a": 0.0152,
+    "coverage_b": 0.0357
+  },
+  {
+    "a": "Hand dermatitis",
+    "b": "Hyperkeratotic palmar dermatitis",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Hand dermatitis/hyperkeratotic-hand-dermatitis-07.jpg",
+        "Hyperkeratotic palmar dermatitis/hyperkeratotic-hand-dermatitis-07.jpg"
+      ],
+      [
+        "Hand dermatitis/hyperkeratotic-hand-dermatitis-08.jpg",
+        "Hyperkeratotic palmar dermatitis/hyperkeratotic-hand-dermatitis-08.jpg"
+      ]
+    ],
+    "coverage_a": 0.0152,
+    "coverage_b": 0.4
+  },
+  {
+    "a": "Herpes simplex",
+    "b": "Oral candidiasis",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Herpes simplex/herpes-simplex-labialis-38.jpg",
+        "Oral candidiasis/05.jpg"
+      ],
+      [
+        "Herpes simplex/herpes-simplex-labialis-39.jpg",
+        "Oral candidiasis/06.jpg"
+      ]
+    ],
+    "coverage_a": 0.022,
+    "coverage_b": 0.1111
+  },
+  {
+    "a": "Mycosis fungoides",
+    "b": "Sézary syndrome",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Mycosis fungoides/ctcl10.jpg",
+        "Sézary syndrome/01.jpg"
+      ],
+      [
+        "Mycosis fungoides/ctcl4.jpg",
+        "Sézary syndrome/02.jpg"
+      ]
+    ],
+    "coverage_a": 0.0377,
+    "coverage_b": 0.2
+  },
+  {
+    "a": "Palmoplantar keratoderma",
+    "b": "Pityriasis rubra pilaris",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Palmoplantar keratoderma/35.jpg",
+        "Pityriasis rubra pilaris/11.jpg"
+      ],
+      [
+        "Palmoplantar keratoderma/36.jpg",
+        "Pityriasis rubra pilaris/12.jpg"
+      ]
+    ],
+    "coverage_a": 0.0408,
+    "coverage_b": 0.0667
+  },
+  {
+    "a": "Panniculitis",
+    "b": "Venous eczema",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Panniculitis/03.jpg",
+        "Venous eczema/acute-lipodermatosclerosis-21.jpg"
+      ],
+      [
+        "Panniculitis/04.jpg",
+        "Venous eczema/acute-lipodermatosclerosis-22.jpg"
+      ]
+    ],
+    "coverage_a": 0.087,
+    "coverage_b": 0.05
+  },
+  {
+    "a": "Pemphigoid gestationis",
+    "b": "Postinflammatory hyperpigmentation",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Pemphigoid gestationis/37.jpg",
+        "Postinflammatory hyperpigmentation/24.jpg"
+      ],
+      [
+        "Pemphigoid gestationis/38.jpg",
+        "Postinflammatory hyperpigmentation/25.jpg"
+      ]
+    ],
+    "coverage_a": 0.0417,
+    "coverage_b": 0.0769
+  },
+  {
+    "a": "Postinflammatory hyperpigmentation",
+    "b": "Pretibial myxoedema",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Postinflammatory hyperpigmentation/30.jpg",
+        "Pretibial myxoedema/10.jpg"
+      ],
+      [
+        "Postinflammatory hyperpigmentation/31.jpg",
+        "Pretibial myxoedema/11.jpg"
+      ]
+    ],
+    "coverage_a": 0.0769,
+    "coverage_b": 0.05
+  },
+  {
+    "a": "Prurigo",
+    "b": "Pruritus",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Prurigo/06.jpg",
+        "Pruritus/07.jpg"
+      ],
+      [
+        "Prurigo/98.jpg",
+        "Pruritus/42.jpg"
+      ]
+    ],
+    "coverage_a": 0.0202,
+    "coverage_b": 0.0364
+  },
+  {
+    "a": "Purpura",
+    "b": "Scurvy",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Purpura/96.jpg",
+        "Scurvy/01.jpg"
+      ],
+      [
+        "Purpura/97.jpg",
+        "Scurvy/02.jpg"
+      ]
+    ],
+    "coverage_a": 0.0179,
+    "coverage_b": 0.3333
+  },
+  {
+    "a": "Tinea capitis",
+    "b": "Vulval intraepithelial neoplasia",
+    "shared_unique_images": 2,
+    "examples": [
+      [
+        "Tinea capitis/15.jpg",
+        "Vulval intraepithelial neoplasia/41.jpg"
+      ],
+      [
+        "Tinea capitis/16.jpg",
+        "Vulval intraepithelial neoplasia/42.jpg"
+      ]
+    ],
+    "coverage_a": 0.1111,
+    "coverage_b": 0.0357
+  },
+  {
+    "a": "Acquired dermal macular hyperpigmentation",
+    "b": "Erythema dyschromicum perstans",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Acquired dermal macular hyperpigmentation/acquired-dermal-macular-hyperpigmentation-018.jpg",
+        "Erythema dyschromicum perstans/acquired-dermal-macular-hyperpigmentation-018.jpg"
+      ]
+    ],
+    "coverage_a": 0.0455,
+    "coverage_b": 0.2
+  },
+  {
+    "a": "Actinic keratosis",
+    "b": "Purpura",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Actinic keratosis/313.jpg",
+        "Purpura/06.jpg"
+      ]
+    ],
+    "coverage_a": 0.0055,
+    "coverage_b": 0.0089
+  },
+  {
+    "a": "Actinic keratosis",
+    "b": "Cutaneous horn",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Actinic keratosis/316.jpg",
+        "Cutaneous horn/316.jpg"
+      ]
+    ],
+    "coverage_a": 0.0055,
+    "coverage_b": 0.04
+  },
+  {
+    "a": "Amelanotic melanoma",
+    "b": "Metastatic melanoma",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Amelanotic melanoma/amelanotic-melanoma-028.jpg",
+        "Metastatic melanoma/amelanotic-melanoma-028.jpg"
+      ]
+    ],
+    "coverage_a": 0.0227,
+    "coverage_b": 0.0333
+  },
+  {
+    "a": "Amelanotic melanoma",
+    "b": "Melanoma in situ",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Amelanotic melanoma/amelanotic-melanoma-2m.jpg",
+        "Melanoma in situ/amelanotic-melanoma-2m.jpg"
+      ]
+    ],
+    "coverage_a": 0.0227,
+    "coverage_b": 0.0179
+  },
+  {
+    "a": "Amputation stump dermatoses",
+    "b": "Purpura",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Amputation stump dermatoses/amputation-stump-03.jpg",
+        "Purpura/08.jpg"
+      ]
+    ],
+    "coverage_a": 0.1,
+    "coverage_b": 0.0089
+  },
+  {
+    "a": "Aspergillosis",
+    "b": "Panniculitis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Aspergillosis/aspergillosis1.jpg",
+        "Panniculitis/05.jpg"
+      ]
+    ],
+    "coverage_a": 0.3333,
+    "coverage_b": 0.0435
+  },
+  {
+    "a": "Atopic dermatitis",
+    "b": "Molluscum contagiosum",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Atopic dermatitis/at-mol.jpg",
+        "Molluscum contagiosum/at-mol.jpg"
+      ]
+    ],
+    "coverage_a": 0.006,
+    "coverage_b": 0.0101
+  },
+  {
+    "a": "Atopic dermatitis",
+    "b": "Postinflammatory hyperpigmentation",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Atopic dermatitis/atopic-dermatitis-0039.jpg",
+        "Postinflammatory hyperpigmentation/08.jpg"
+      ]
+    ],
+    "coverage_a": 0.006,
+    "coverage_b": 0.0385
+  },
+  {
+    "a": "Atopic dermatitis",
+    "b": "Eyelid contact dermatitis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Atopic dermatitis/atopic3.jpg",
+        "Eyelid contact dermatitis/atopic3.jpg"
+      ]
+    ],
+    "coverage_a": 0.006,
+    "coverage_b": 0.0833
+  },
+  {
+    "a": "Calcinosis cutis",
+    "b": "Systemic sclerosis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Calcinosis cutis/calcinosis1.jpg",
+        "Systemic sclerosis/02.jpg"
+      ]
+    ],
+    "coverage_a": 0.0455,
+    "coverage_b": 0.0769
+  },
+  {
+    "a": "Cryoglobulinaemia",
+    "b": "Raynaud phenomenon",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Cryoglobulinaemia/raynaud.jpg",
+        "Raynaud phenomenon/03.jpg"
+      ]
+    ],
+    "coverage_a": 0.0625,
+    "coverage_b": 0.1667
+  },
+  {
+    "a": "Cutaneous abscess",
+    "b": "Wound infection",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Cutaneous abscess/abscess-3.jpg",
+        "Wound infection/01.jpg"
+      ]
+    ],
+    "coverage_a": 0.1667,
+    "coverage_b": 0.0769
+  },
+  {
+    "a": "Cutaneous amyloidosis",
+    "b": "Macroglossia",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Cutaneous amyloidosis/amyloid8.jpg",
+        "Macroglossia/amyloid8.jpg"
+      ]
+    ],
+    "coverage_a": 0.027,
+    "coverage_b": 0.25
+  },
+  {
+    "a": "Cutaneous amyloidosis",
+    "b": "Notalgia paraesthetica",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Cutaneous amyloidosis/amyloidosis-0014.jpg",
+        "Macular amyloidosis/amyloidosis-0014.jpg",
+        "Notalgia paraesthetica/01.jpg"
+      ]
+    ],
+    "coverage_a": 0.027,
+    "coverage_b": 0.0476
+  },
+  {
+    "a": "Macular amyloidosis",
+    "b": "Notalgia paraesthetica",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Cutaneous amyloidosis/amyloidosis-0014.jpg",
+        "Macular amyloidosis/amyloidosis-0014.jpg",
+        "Notalgia paraesthetica/01.jpg"
+      ]
+    ],
+    "coverage_a": 0.125,
+    "coverage_b": 0.0476
+  },
+  {
+    "a": "Cutaneous lupus erythematosus",
+    "b": "Panniculitis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Cutaneous lupus erythematosus/lupus-pann.jpg",
+        "Panniculitis/11.jpg"
+      ]
+    ],
+    "coverage_a": 0.0101,
+    "coverage_b": 0.0435
+  },
+  {
+    "a": "Cutaneous lupus erythematosus",
+    "b": "Systemic lupus erythematosus",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Cutaneous lupus erythematosus/lupus-sc4.jpg",
+        "Systemic lupus erythematosus/sle-13.jpg"
+      ]
+    ],
+    "coverage_a": 0.0101,
+    "coverage_b": 0.0172
+  },
+  {
+    "a": "Discoid lupus erythematosus",
+    "b": "Madarosis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Discoid lupus erythematosus/madarosis-01.jpg",
+        "Madarosis/madarosis-01.jpg"
+      ]
+    ],
+    "coverage_a": 0.0135,
+    "coverage_b": 0.0588
+  },
+  {
+    "a": "Dyshidrotic eczema (pompholyx)",
+    "b": "Vulval intraepithelial neoplasia",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Dyshidrotic eczema (pompholyx)/dyshidrotic-eczema-0002.jpg",
+        "Vulval intraepithelial neoplasia/16.jpg"
+      ]
+    ],
+    "coverage_a": 0.0357,
+    "coverage_b": 0.0179
+  },
+  {
+    "a": "Epidermolysis bullosa",
+    "b": "Milium",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Epidermolysis bullosa/milia03.jpg",
+        "Milium/milia03.jpg"
+      ]
+    ],
+    "coverage_a": 0.0476,
+    "coverage_b": 0.0435
+  },
+  {
+    "a": "Erythema nodosum",
+    "b": "Panniculitis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Erythema nodosum/pannic3.jpg",
+        "Panniculitis/20.jpg"
+      ]
+    ],
+    "coverage_a": 0.0556,
+    "coverage_b": 0.0435
+  },
+  {
+    "a": "Fissured tongue",
+    "b": "Oral mucositis - Stomatitis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Fissured tongue/paraneoplastic-pemphigus-0013.jpg",
+        "Oral mucositis - Stomatitis/78.jpg"
+      ]
+    ],
+    "coverage_a": 0.25,
+    "coverage_b": 0.0667
+  },
+  {
+    "a": "Flexural psoriasis",
+    "b": "Genital psoriasis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Flexural psoriasis/flexural-psoriasis16-s.jpg",
+        "Genital psoriasis/genital-psoriasis-32.jpg"
+      ]
+    ],
+    "coverage_a": 0.0385,
+    "coverage_b": 0.0227
+  },
+  {
+    "a": "Flexural psoriasis",
+    "b": "Psoriasis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Flexural psoriasis/psorkai2.jpg",
+        "Psoriasis/psorkai2.jpg"
+      ]
+    ],
+    "coverage_a": 0.0385,
+    "coverage_b": 0.0097
+  },
+  {
+    "a": "Foreign body granuloma",
+    "b": "Vulval intraepithelial neoplasia",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Foreign body granuloma/foreign-body-granuloma-2.jpg",
+        "Vulval intraepithelial neoplasia/21.jpg"
+      ]
+    ],
+    "coverage_a": 0.3333,
+    "coverage_b": 0.0179
+  },
+  {
+    "a": "Granuloma annulare",
+    "b": "Granulomatous dermatitis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Granuloma annulare/interstitial-granulomatous-dermatitis1.jpg",
+        "Granulomatous dermatitis/interstitial-granulomatous-dermatitis1.jpg"
+      ]
+    ],
+    "coverage_a": 0.0152,
+    "coverage_b": 0.1667
+  },
+  {
+    "a": "Hand dermatitis",
+    "b": "Postinflammatory hyperpigmentation",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Hand dermatitis/postinflamm5.jpg",
+        "Postinflammatory hyperpigmentation/postinflamm5.jpg"
+      ]
+    ],
+    "coverage_a": 0.0076,
+    "coverage_b": 0.0385
+  },
+  {
+    "a": "Herpes zoster",
+    "b": "Pyoderma",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Herpes zoster/pyoderma-gangrenosum-0002.jpg",
+        "Pyoderma/13.jpg"
+      ]
+    ],
+    "coverage_a": 0.0256,
+    "coverage_b": 0.0132
+  },
+  {
+    "a": "Ichthyosis",
+    "b": "Palmoplantar keratoderma",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Ichthyosis/keratinopathic-ichthyosis-0013.jpg",
+        "Palmoplantar keratoderma/23.jpg"
+      ]
+    ],
+    "coverage_a": 0.0161,
+    "coverage_b": 0.0204
+  },
+  {
+    "a": "Kerion",
+    "b": "Tinea faciei",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Kerion/tfker.jpg",
+        "Tinea faciei/09.jpg"
+      ]
+    ],
+    "coverage_a": 0.0526,
+    "coverage_b": 0.1
+  },
+  {
+    "a": "Leg ulcer",
+    "b": "Pyoderma",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Leg ulcer/3042.jpg",
+        "Pyoderma/01.jpg"
+      ]
+    ],
+    "coverage_a": 0.0238,
+    "coverage_b": 0.0132
+  },
+  {
+    "a": "Leg ulcer",
+    "b": "Leprosy",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Leg ulcer/ulcer-02.jpg",
+        "Leprosy/ulcer-02.jpg"
+      ]
+    ],
+    "coverage_a": 0.0238,
+    "coverage_b": 0.05
+  },
+  {
+    "a": "Majocchi granuloma",
+    "b": "Tinea manuum",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Majocchi granuloma/majocchi15.jpg",
+        "Tinea manuum/04.jpg"
+      ]
+    ],
+    "coverage_a": 0.25,
+    "coverage_b": 0.1111
+  },
+  {
+    "a": "Melanocytic naevus",
+    "b": "Meyerson naevus",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Melanocytic naevus/meyerson5.jpg",
+        "Meyerson naevus/meyerson5.jpg"
+      ]
+    ],
+    "coverage_a": 0.0091,
+    "coverage_b": 0.2
+  },
+  {
+    "a": "Melanocytic naevus",
+    "b": "Naevus of Ota, naevus of Ito and naevus of Hori",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Melanocytic naevus/ota4.jpg",
+        "Naevus of Ota, naevus of Ito and naevus of Hori/06.jpg"
+      ]
+    ],
+    "coverage_a": 0.0091,
+    "coverage_b": 0.1667
+  },
+  {
+    "a": "Melanonychia",
+    "b": "Onychomycosis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Melanonychia/brown-onychomycosis.jpg",
+        "Onychomycosis/07.jpg"
+      ]
+    ],
+    "coverage_a": 0.0278,
+    "coverage_b": 0.0161
+  },
+  {
+    "a": "Melanonychia",
+    "b": "Onychopapilloma",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Melanonychia/onychopapilloma-2.jpg",
+        "Onychopapilloma/06.jpg"
+      ]
+    ],
+    "coverage_a": 0.0278,
+    "coverage_b": 0.1429
+  },
+  {
+    "a": "Milium",
+    "b": "Porphyria cutanea tarda",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Milium/milia08.jpg",
+        "Porphyria cutanea tarda/03.jpg"
+      ]
+    ],
+    "coverage_a": 0.0435,
+    "coverage_b": 0.0833
+  },
+  {
+    "a": "Molluscum contagiosum",
+    "b": "Vulval intraepithelial neoplasia",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Molluscum contagiosum/molluscum-contagiosum-0032.jpg",
+        "Vulval intraepithelial neoplasia/26.jpg"
+      ]
+    ],
+    "coverage_a": 0.0101,
+    "coverage_b": 0.0179
+  },
+  {
+    "a": "Mycoplasma pneumoniae infection",
+    "b": "Oral mucositis - Stomatitis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Mycoplasma pneumoniae infection/reactive-infectious-mucocutaneous-eruption-0008.jpg",
+        "Oral mucositis - Stomatitis/81.jpg"
+      ]
+    ],
+    "coverage_a": 0.0526,
+    "coverage_b": 0.0667
+  },
+  {
+    "a": "Non-albicans candida infections",
+    "b": "Oral mucositis - Stomatitis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Non-albicans candida infections/48.jpg",
+        "Oral candidiasis/03.jpg",
+        "Oral mucositis - Stomatitis/18.jpg"
+      ]
+    ],
+    "coverage_a": 0.0145,
+    "coverage_b": 0.0667
+  },
+  {
+    "a": "Oral candidiasis",
+    "b": "Oral mucositis - Stomatitis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Non-albicans candida infections/48.jpg",
+        "Oral candidiasis/03.jpg",
+        "Oral mucositis - Stomatitis/18.jpg"
+      ]
+    ],
+    "coverage_a": 0.0556,
+    "coverage_b": 0.0667
+  },
+  {
+    "a": "Non-albicans candida infections",
+    "b": "Purpura",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Non-albicans candida infections/71.jpg",
+        "Oral candidiasis/10.jpg",
+        "Purpura/108.jpg"
+      ]
+    ],
+    "coverage_a": 0.0145,
+    "coverage_b": 0.0089
+  },
+  {
+    "a": "Oral candidiasis",
+    "b": "Purpura",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Non-albicans candida infections/71.jpg",
+        "Oral candidiasis/10.jpg",
+        "Purpura/108.jpg"
+      ]
+    ],
+    "coverage_a": 0.0556,
+    "coverage_b": 0.0089
+  },
+  {
+    "a": "Onychocryptosis",
+    "b": "Paronychia",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Onychocryptosis/01.jpg",
+        "Paronychia/3296.jpg"
+      ]
+    ],
+    "coverage_a": 0.125,
+    "coverage_b": 0.0333
+  },
+  {
+    "a": "Onychomycosis",
+    "b": "Tinea manuum",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Onychomycosis/47.jpg",
+        "Tinea manuum/05.jpg"
+      ]
+    ],
+    "coverage_a": 0.0161,
+    "coverage_b": 0.1111
+  },
+  {
+    "a": "Pediculosis capitis",
+    "b": "Pyoderma",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Pediculosis capitis/12.jpg",
+        "Pyoderma/08.jpg"
+      ]
+    ],
+    "coverage_a": 0.0769,
+    "coverage_b": 0.0132
+  },
+  {
+    "a": "Piebaldism",
+    "b": "Poliosis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Piebaldism/07.jpg",
+        "Poliosis/03.jpg",
+        "Poliosis/poliosis1.jpg"
+      ]
+    ],
+    "coverage_a": 0.1429,
+    "coverage_b": 0.0769
+  },
+  {
+    "a": "Pigmented purpura",
+    "b": "Varicose veins",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Pigmented purpura/capillaritis-38.jpg",
+        "Varicose veins/01.jpg"
+      ]
+    ],
+    "coverage_a": 0.0196,
+    "coverage_b": 0.1
+  },
+  {
+    "a": "Plasmacytoma",
+    "b": "Purpura",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Plasmacytoma/04.jpg",
+        "Purpura/101.jpg"
+      ]
+    ],
+    "coverage_a": 0.25,
+    "coverage_b": 0.0089
+  },
+  {
+    "a": "Poliosis",
+    "b": "Vitiligo",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Poliosis/05.jpg",
+        "Poliosis/poliosis3.jpg",
+        "Vitiligo/poliosis3.jpg"
+      ]
+    ],
+    "coverage_a": 0.0769,
+    "coverage_b": 0.0139
+  },
+  {
+    "a": "Porphyria cutanea tarda",
+    "b": "Pyoderma",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Porphyria cutanea tarda/04.jpg",
+        "Pyoderma/07.jpg"
+      ]
+    ],
+    "coverage_a": 0.0833,
+    "coverage_b": 0.0132
+  },
+  {
+    "a": "Postinflammatory hyperpigmentation",
+    "b": "Prurigo",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Postinflammatory hyperpigmentation/21.jpg",
+        "Prurigo/64.jpg"
+      ]
+    ],
+    "coverage_a": 0.0385,
+    "coverage_b": 0.0101
+  },
+  {
+    "a": "Prurigo",
+    "b": "Varicose veins",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Prurigo/99.jpg",
+        "Varicose veins/05.jpg"
+      ]
+    ],
+    "coverage_a": 0.0101,
+    "coverage_b": 0.1
+  },
+  {
+    "a": "Pruritus",
+    "b": "Purpura",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Pruritus/56.jpg",
+        "Purpura/98.jpg"
+      ]
+    ],
+    "coverage_a": 0.0182,
+    "coverage_b": 0.0089
+  },
+  {
+    "a": "Pseudofolliculitis barbae",
+    "b": "Vulval intraepithelial neoplasia",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Pseudofolliculitis barbae/11.jpg",
+        "Vulval intraepithelial neoplasia/37.jpg"
+      ]
+    ],
+    "coverage_a": 0.1,
+    "coverage_b": 0.0179
+  },
+  {
+    "a": "Sarcoidosis",
+    "b": "Tinea capitis",
+    "shared_unique_images": 1,
+    "examples": [
+      [
+        "Sarcoidosis/01.jpg",
+        "Tinea capitis/01.jpg"
+      ]
+    ],
+    "coverage_a": 0.0238,
+    "coverage_b": 0.0556
+  }
+]

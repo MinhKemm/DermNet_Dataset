@@ -1,0 +1,826 @@
+[
+  {
+    "folder": "Pyoderma",
+    "action": "quarantine_label_review",
+    "target": "Cutaneous abscess (chỉ ảnh xác minh đúng áp xe)",
+    "reason": "Hai tệp contents giống hệt, nhưng Pyoderma có 76 ảnh, Cutaneous abscess có 6 và không trùng pixel giữa hai thư mục. Không thể suy ra cả 76 ảnh đều là áp xe. Bỏ nhãn Pyoderma khỏi tập đơn nhãn tạm thời; kiểm tra từng ảnh trước khi gộp.",
+    "source_url": "https://dermnetnz.org/topics/cutaneous-abscess",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pyoderma.txt"
+  },
+  {
+    "folder": "Vulval intraepithelial neoplasia",
+    "action": "quarantine_image_review",
+    "target": null,
+    "reason": "14 ảnh pixel duy nhất trùng với 9 nhãn khác; đã thấy ảnh bàn tay, cằm/râu và tổn thương ngoài vùng âm hộ trong mẫu. Ưu tiên rà soát ảnh số thứ tự; giữ riêng ảnh VIN đã xác minh. Không xoá bệnh VIN.",
+    "source_url": "https://dermnetnz.org/topics/vulval-intraepithelial-neoplasia",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Vulval intraepithelial neoplasia.txt"
+  },
+  {
+    "folder": "Non-albicans candida infections",
+    "action": "quarantine_label_review",
+    "target": "Candidiasis + vị trí + bằng chứng loài",
+    "reason": "36/69 ảnh pixel duy nhất trùng với 6 nhãn khác. Toàn bộ 15 ảnh của Vulvovaginal candidiasis nằm trong nhóm này. Hình lâm sàng không chứng minh được loài non-albicans; chỉ giữ nhãn loài khi có nguồn xét nghiệm. Không chuyển toàn bộ onychomycosis thành Candida.",
+    "source_url": "https://dermnetnz.org/topics/non-albicans-candida-infections",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Non-albicans candida infections.txt"
+  },
+  {
+    "folder": "Facial psoriasis",
+    "action": "merge_if_coarse",
+    "target": "Psoriasis",
+    "reason": "Nhãn vị trí/biểu hiện của psoriasis. Nếu phân loại cấp bệnh, gộp và lưu vị trí làm metadata. Nếu phân loại chi tiết, giữ nhãn con và rà soát ảnh trong nhãn cha.",
+    "source_url": "https://dermnetnz.org/topics/psoriasis",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Facial psoriasis.txt"
+  },
+  {
+    "folder": "Flexural psoriasis",
+    "action": "merge_if_coarse",
+    "target": "Psoriasis",
+    "reason": "Nhãn vị trí/biểu hiện của psoriasis. Nếu phân loại cấp bệnh, gộp và lưu vị trí làm metadata. Nếu phân loại chi tiết, giữ nhãn con và rà soát ảnh trong nhãn cha.",
+    "source_url": "https://dermnetnz.org/topics/psoriasis",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Flexural psoriasis.txt"
+  },
+  {
+    "folder": "Genital psoriasis",
+    "action": "merge_if_coarse",
+    "target": "Psoriasis",
+    "reason": "Nhãn vị trí/biểu hiện của psoriasis. Nếu phân loại cấp bệnh, gộp và lưu vị trí làm metadata. Nếu phân loại chi tiết, giữ nhãn con và rà soát ảnh trong nhãn cha.",
+    "source_url": "https://dermnetnz.org/topics/psoriasis",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Genital psoriasis.txt"
+  },
+  {
+    "folder": "Erythrodermic psoriasis",
+    "action": "hierarchy_keep_subtype",
+    "target": "Psoriasis",
+    "reason": "Cùng nhóm nhưng thể bệnh có ý nghĩa lâm sàng; ưu tiên cấu trúc cha–con, chỉ gộp khi bài toán dùng cấp bệnh rộng.",
+    "source_url": "https://dermnetnz.org/topics/psoriasis",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Erythrodermic psoriasis.txt"
+  },
+  {
+    "folder": "Generalised pustular psoriasis",
+    "action": "hierarchy_keep_subtype",
+    "target": "Psoriasis",
+    "reason": "Cùng nhóm nhưng thể bệnh có ý nghĩa lâm sàng; ưu tiên cấu trúc cha–con, chỉ gộp khi bài toán dùng cấp bệnh rộng.",
+    "source_url": "https://dermnetnz.org/topics/psoriasis",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Generalised pustular psoriasis.txt"
+  },
+  {
+    "folder": "Discoid lupus erythematosus",
+    "action": "merge_if_coarse",
+    "target": "Cutaneous lupus erythematosus",
+    "reason": "DLE là thể lupus da; không đồng nhất với systemic lupus hoặc neonatal lupus.",
+    "source_url": "https://dermnetnz.org/topics/cutaneous-lupus-erythematosus",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Discoid lupus erythematosus.txt"
+  },
+  {
+    "folder": "Macular amyloidosis",
+    "action": "merge_if_coarse",
+    "target": "Cutaneous amyloidosis",
+    "reason": "Các thể của amyloidosis da; lưu subtype.",
+    "source_url": "https://dermnetnz.org/topics/cutaneous-amyloidosis",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Macular amyloidosis.txt"
+  },
+  {
+    "folder": "Amyloidosis cutis dyschromica",
+    "action": "merge_if_coarse",
+    "target": "Cutaneous amyloidosis",
+    "reason": "Các thể của amyloidosis da; lưu subtype.",
+    "source_url": "https://dermnetnz.org/topics/cutaneous-amyloidosis",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Amyloidosis cutis dyschromica.txt"
+  },
+  {
+    "folder": "Erythema dyschromicum perstans",
+    "action": "merge_if_coarse",
+    "target": "Acquired dermal macular hyperpigmentation",
+    "reason": "Nhãn con trong nhóm tăng sắc tố dát trung bì mắc phải; không tự gộp melasma/postinflammatory hyperpigmentation.",
+    "source_url": "https://dermnetnz.org/topics/erythema-dyschromicum-perstans",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Erythema dyschromicum perstans.txt"
+  },
+  {
+    "folder": "Cold urticaria",
+    "action": "merge_if_coarse",
+    "target": "Urticaria",
+    "reason": "Các dạng mày đay cảm ứng; lưu yếu tố khởi phát.",
+    "source_url": "https://dermnetnz.org/topics/urticaria-an-overview",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Cold urticaria.txt"
+  },
+  {
+    "folder": "Delayed pressure urticaria",
+    "action": "merge_if_coarse",
+    "target": "Urticaria",
+    "reason": "Các dạng mày đay cảm ứng; lưu yếu tố khởi phát.",
+    "source_url": "https://dermnetnz.org/topics/urticaria-an-overview",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Delayed pressure urticaria.txt"
+  },
+  {
+    "folder": "Solar urticaria",
+    "action": "merge_if_coarse",
+    "target": "Urticaria",
+    "reason": "Các dạng mày đay cảm ứng; lưu yếu tố khởi phát.",
+    "source_url": "https://dermnetnz.org/topics/urticaria-an-overview",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Solar urticaria.txt"
+  },
+  {
+    "folder": "Rhinophyma",
+    "action": "merge_if_coarse",
+    "target": "Rosacea",
+    "reason": "Biểu hiện phymatous ở mũi thuộc phổ rosacea; lưu phenotype.",
+    "source_url": "https://dermnetnz.org/topics/rosacea",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Rhinophyma.txt"
+  },
+  {
+    "folder": "Hyperkeratotic palmar dermatitis",
+    "action": "merge_if_coarse",
+    "target": "Hand dermatitis",
+    "reason": "Thể chàm bàn tay tăng sừng. Không đồng nghĩa mọi hand dermatitis đều là atopic dermatitis.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Hyperkeratotic palmar dermatitis.txt"
+  },
+  {
+    "folder": "Acute localised exanthematous pustulosis",
+    "action": "hierarchy_keep_subtype",
+    "target": "AGEP/ALEP spectrum",
+    "reason": "Nguồn mô tả ALEP là thể khu trú của AGEP. Nếu gộp nên dùng nhãn phổ chung, tránh gọi ảnh khu trú là generalised.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Acute localised exanthematous pustulosis.txt"
+  },
+  {
+    "folder": "Acral lentiginous melanoma",
+    "action": "hierarchy_keep_subtype",
+    "target": "Melanoma",
+    "reason": "Các trục subtype, sắc tố và giai đoạn chồng lấp nhau. Có thể gộp ở cấp melanoma nhưng phải giữ stage/phenotype; không dùng chúng làm lớp đơn nhãn loại trừ nhau mà chưa rà soát.",
+    "source_url": "https://dermnetnz.org/topics/melanoma",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Acral lentiginous melanoma.txt"
+  },
+  {
+    "folder": "Amelanotic melanoma",
+    "action": "hierarchy_keep_subtype",
+    "target": "Melanoma",
+    "reason": "Các trục subtype, sắc tố và giai đoạn chồng lấp nhau. Có thể gộp ở cấp melanoma nhưng phải giữ stage/phenotype; không dùng chúng làm lớp đơn nhãn loại trừ nhau mà chưa rà soát.",
+    "source_url": "https://dermnetnz.org/topics/melanoma",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Amelanotic melanoma.txt"
+  },
+  {
+    "folder": "Nodular melanoma",
+    "action": "hierarchy_keep_subtype",
+    "target": "Melanoma",
+    "reason": "Các trục subtype, sắc tố và giai đoạn chồng lấp nhau. Có thể gộp ở cấp melanoma nhưng phải giữ stage/phenotype; không dùng chúng làm lớp đơn nhãn loại trừ nhau mà chưa rà soát.",
+    "source_url": "https://dermnetnz.org/topics/melanoma",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Nodular melanoma.txt"
+  },
+  {
+    "folder": "Melanoma in situ",
+    "action": "hierarchy_keep_subtype",
+    "target": "Melanoma",
+    "reason": "Các trục subtype, sắc tố và giai đoạn chồng lấp nhau. Có thể gộp ở cấp melanoma nhưng phải giữ stage/phenotype; không dùng chúng làm lớp đơn nhãn loại trừ nhau mà chưa rà soát.",
+    "source_url": "https://dermnetnz.org/topics/melanoma",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Melanoma in situ.txt"
+  },
+  {
+    "folder": "Metastatic melanoma",
+    "action": "hierarchy_keep_subtype",
+    "target": "Melanoma",
+    "reason": "Các trục subtype, sắc tố và giai đoạn chồng lấp nhau. Có thể gộp ở cấp melanoma nhưng phải giữ stage/phenotype; không dùng chúng làm lớp đơn nhãn loại trừ nhau mà chưa rà soát.",
+    "source_url": "https://dermnetnz.org/topics/melanoma",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Metastatic melanoma.txt"
+  },
+  {
+    "folder": "Ocular melanoma",
+    "action": "keep_separate",
+    "target": "Melanoma (cha khái niệm)",
+    "reason": "Giữ riêng modality/vị trí mắt; không tự trộn vào bài toán ảnh da ngoài.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Ocular melanoma.txt"
+  },
+  {
+    "folder": "Atypical melanocytic naevus",
+    "action": "hierarchy_keep_subtype",
+    "target": "Melanocytic naevus",
+    "reason": "Có thể tổ chức phân cấp nhóm tổn thương tế bào hắc tố, nhưng đặc điểm và vị trí khác nhau. Ưu tiên giữ chi tiết; Ota/Ito/Hori còn là nhãn chứa nhiều thực thể.",
+    "source_url": "https://dermnetnz.org/topics/melanocytic-naevus",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Atypical melanocytic naevus.txt"
+  },
+  {
+    "folder": "Blue nevus",
+    "action": "hierarchy_keep_subtype",
+    "target": "Melanocytic naevus",
+    "reason": "Có thể tổ chức phân cấp nhóm tổn thương tế bào hắc tố, nhưng đặc điểm và vị trí khác nhau. Ưu tiên giữ chi tiết; Ota/Ito/Hori còn là nhãn chứa nhiều thực thể.",
+    "source_url": "https://dermnetnz.org/topics/melanocytic-naevus",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Blue nevus.txt"
+  },
+  {
+    "folder": "Halo naevus",
+    "action": "hierarchy_keep_subtype",
+    "target": "Melanocytic naevus",
+    "reason": "Có thể tổ chức phân cấp nhóm tổn thương tế bào hắc tố, nhưng đặc điểm và vị trí khác nhau. Ưu tiên giữ chi tiết; Ota/Ito/Hori còn là nhãn chứa nhiều thực thể.",
+    "source_url": "https://dermnetnz.org/topics/melanocytic-naevus",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Halo naevus.txt"
+  },
+  {
+    "folder": "Meyerson naevus",
+    "action": "hierarchy_keep_subtype",
+    "target": "Melanocytic naevus",
+    "reason": "Có thể tổ chức phân cấp nhóm tổn thương tế bào hắc tố, nhưng đặc điểm và vị trí khác nhau. Ưu tiên giữ chi tiết; Ota/Ito/Hori còn là nhãn chứa nhiều thực thể.",
+    "source_url": "https://dermnetnz.org/topics/melanocytic-naevus",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Meyerson naevus.txt"
+  },
+  {
+    "folder": "Naevus of Ota, naevus of Ito and naevus of Hori",
+    "action": "hierarchy_keep_subtype",
+    "target": "Melanocytic naevus",
+    "reason": "Có thể tổ chức phân cấp nhóm tổn thương tế bào hắc tố, nhưng đặc điểm và vị trí khác nhau. Ưu tiên giữ chi tiết; Ota/Ito/Hori còn là nhãn chứa nhiều thực thể.",
+    "source_url": "https://dermnetnz.org/topics/melanocytic-naevus",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Naevus of Ota, naevus of Ito and naevus of Hori.txt"
+  },
+  {
+    "folder": "Anogenital squamous cell carcinoma",
+    "action": "hierarchy_keep_subtype",
+    "target": "Squamous cell carcinoma",
+    "reason": "Phân theo vị trí; giữ miền ảnh niêm mạc/sinh dục, chỉ gộp nếu scope bao gồm các vị trí này.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Anogenital squamous cell carcinoma.txt"
+  },
+  {
+    "folder": "Oral squamous cell carcinoma",
+    "action": "hierarchy_keep_subtype",
+    "target": "Squamous cell carcinoma",
+    "reason": "Phân theo vị trí; giữ miền ảnh niêm mạc/sinh dục, chỉ gộp nếu scope bao gồm các vị trí này.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Oral squamous cell carcinoma.txt"
+  },
+  {
+    "folder": "Marjolin ulcer",
+    "action": "hierarchy_keep_subtype",
+    "target": "Squamous cell carcinoma (khi nguồn xác nhận)",
+    "reason": "Ung thư phát sinh trên sẹo/loét, thường là SCC. Cần lịch sử/nguồn chẩn đoán; không coi là loét chân thông thường.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Marjolin ulcer.txt"
+  },
+  {
+    "folder": "Flea bite",
+    "action": "merge_if_coarse",
+    "target": "Arthropod bites and stings",
+    "reason": "Nhóm con theo tác nhân; lưu tác nhân nếu có nguồn xác minh.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Flea bite.txt"
+  },
+  {
+    "folder": "Papular urticaria",
+    "action": "keep_separate",
+    "target": "Arthropod bite reaction (liên hệ)",
+    "reason": "Phản ứng dạng sẩn do côn trùng; không gộp vào Urticaria chỉ vì tên có urticaria.",
+    "source_url": "https://dermnetnz.org/topics/papular-urticaria",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Papular urticaria.txt"
+  },
+  {
+    "folder": "Exercise-induced vasculitis",
+    "action": "hierarchy_keep_subtype",
+    "target": "Cutaneous vasculitis (cấp biểu hiện da)",
+    "reason": "Có liên hệ nhóm viêm mạch nhưng khác căn nguyên/bối cảnh; giữ nhãn cụ thể. HSP là IgA vasculitis có thể có tổn thương hệ thống; không gộp vào Purpura như một bệnh đồng nghĩa.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Exercise-induced vasculitis.txt"
+  },
+  {
+    "folder": "Henoch–Schönlein purpura",
+    "action": "hierarchy_keep_subtype",
+    "target": "Cutaneous vasculitis (cấp biểu hiện da)",
+    "reason": "Có liên hệ nhóm viêm mạch nhưng khác căn nguyên/bối cảnh; giữ nhãn cụ thể. HSP là IgA vasculitis có thể có tổn thương hệ thống; không gộp vào Purpura như một bệnh đồng nghĩa.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Henoch–Schönlein purpura.txt"
+  },
+  {
+    "folder": "Urticarial vasculitis",
+    "action": "hierarchy_keep_subtype",
+    "target": "Cutaneous vasculitis (cấp biểu hiện da)",
+    "reason": "Có liên hệ nhóm viêm mạch nhưng khác căn nguyên/bối cảnh; giữ nhãn cụ thể. HSP là IgA vasculitis có thể có tổn thương hệ thống; không gộp vào Purpura như một bệnh đồng nghĩa.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Urticarial vasculitis.txt"
+  },
+  {
+    "folder": "Erythema elevatum diutinum",
+    "action": "hierarchy_keep_subtype",
+    "target": "Cutaneous vasculitis (cấp biểu hiện da)",
+    "reason": "Có liên hệ nhóm viêm mạch nhưng khác căn nguyên/bối cảnh; giữ nhãn cụ thể. HSP là IgA vasculitis có thể có tổn thương hệ thống; không gộp vào Purpura như một bệnh đồng nghĩa.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Erythema elevatum diutinum.txt"
+  },
+  {
+    "folder": "Boil",
+    "action": "hierarchy_keep_subtype",
+    "target": "Bacterial folliculitis / Cutaneous abscess",
+    "reason": "Viêm nang lông sâu và có thể tạo áp xe; quan hệ chồng lấp, không phải ba tên đồng nghĩa.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Boil.txt"
+  },
+  {
+    "folder": "Kerion",
+    "action": "review_per_image",
+    "target": "Tinea capitis / Tinea faciei / Tinea corporis",
+    "reason": "Biểu hiện viêm mạnh do dermatophyte; chỉ chuyển vào Tinea capitis nếu xác nhận ở da đầu.",
+    "source_url": "https://dermnetnz.org/topics/kerion",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Kerion.txt"
+  },
+  {
+    "folder": "Tinea barbae",
+    "action": "hierarchy_keep_subtype",
+    "target": "Dermatophytosis (cha mới nếu cần)",
+    "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea barbae.txt"
+  },
+  {
+    "folder": "Tinea capitis",
+    "action": "hierarchy_keep_subtype",
+    "target": "Dermatophytosis (cha mới nếu cần)",
+    "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea capitis.txt"
+  },
+  {
+    "folder": "Tinea corporis",
+    "action": "hierarchy_keep_subtype",
+    "target": "Dermatophytosis (cha mới nếu cần)",
+    "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea corporis.txt"
+  },
+  {
+    "folder": "Tinea cruris",
+    "action": "hierarchy_keep_subtype",
+    "target": "Dermatophytosis (cha mới nếu cần)",
+    "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea cruris.txt"
+  },
+  {
+    "folder": "Tinea faciei",
+    "action": "hierarchy_keep_subtype",
+    "target": "Dermatophytosis (cha mới nếu cần)",
+    "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea faciei.txt"
+  },
+  {
+    "folder": "Tinea manuum",
+    "action": "hierarchy_keep_subtype",
+    "target": "Dermatophytosis (cha mới nếu cần)",
+    "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea manuum.txt"
+  },
+  {
+    "folder": "Tinea pedis",
+    "action": "hierarchy_keep_subtype",
+    "target": "Dermatophytosis (cha mới nếu cần)",
+    "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea pedis.txt"
+  },
+  {
+    "folder": "Majocchi granuloma",
+    "action": "hierarchy_keep_subtype",
+    "target": "Dermatophytosis (cha mới nếu cần)",
+    "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Majocchi granuloma.txt"
+  },
+  {
+    "folder": "Atopic dermatitis",
+    "action": "keep_separate",
+    "target": "Dermatitis/eczema (cha khái niệm)",
+    "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Atopic dermatitis.txt"
+  },
+  {
+    "folder": "Asteatotic eczema",
+    "action": "keep_separate",
+    "target": "Dermatitis/eczema (cha khái niệm)",
+    "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Asteatotic eczema.txt"
+  },
+  {
+    "folder": "Nummular eczematous dermatitis",
+    "action": "keep_separate",
+    "target": "Dermatitis/eczema (cha khái niệm)",
+    "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Nummular eczematous dermatitis.txt"
+  },
+  {
+    "folder": "Dyshidrotic eczema (pompholyx)",
+    "action": "keep_separate",
+    "target": "Dermatitis/eczema (cha khái niệm)",
+    "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Dyshidrotic eczema (pompholyx).txt"
+  },
+  {
+    "folder": "Venous eczema",
+    "action": "keep_separate",
+    "target": "Dermatitis/eczema (cha khái niệm)",
+    "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Venous eczema.txt"
+  },
+  {
+    "folder": "Disseminated secondary eczema",
+    "action": "keep_separate",
+    "target": "Dermatitis/eczema (cha khái niệm)",
+    "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Disseminated secondary eczema.txt"
+  },
+  {
+    "folder": "Napkin dermatitis",
+    "action": "keep_separate",
+    "target": "Dermatitis/eczema (cha khái niệm)",
+    "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Napkin dermatitis.txt"
+  },
+  {
+    "folder": "Nipple eczema",
+    "action": "keep_separate",
+    "target": "Dermatitis/eczema (cha khái niệm)",
+    "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Nipple eczema.txt"
+  },
+  {
+    "folder": "Airborne contact dermatitis",
+    "action": "keep_separate",
+    "target": "Dermatitis/eczema (cha khái niệm)",
+    "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Airborne contact dermatitis.txt"
+  },
+  {
+    "folder": "Eyelid contact dermatitis",
+    "action": "keep_separate",
+    "target": "Dermatitis/eczema (cha khái niệm)",
+    "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Eyelid contact dermatitis.txt"
+  },
+  {
+    "folder": "Nickel allergy",
+    "action": "keep_separate",
+    "target": "Dermatitis/eczema (cha khái niệm)",
+    "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Nickel allergy.txt"
+  },
+  {
+    "folder": "Pruritus",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Triệu chứng ngứa, nhiều nguyên nhân; ảnh trùng với Notalgia paraesthetica và Prurigo không làm ba nhãn đồng nghĩa.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pruritus.txt"
+  },
+  {
+    "folder": "Purpura",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Dấu hiệu xuất huyết da, chứa nhiều căn nguyên; 27 ảnh chung với Pigmented purpura và toàn bộ 6 ảnh HSP.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Purpura.txt"
+  },
+  {
+    "folder": "Exanthems",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Thuật ngữ phát ban lan toả, không chỉ một bệnh hay một tác nhân.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Exanthems.txt"
+  },
+  {
+    "folder": "Cutaneous horn",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Hình thái sừng da, có nhiều tổn thương nền; không tự gộp vào Actinic keratosis hoặc SCC.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Cutaneous horn.txt"
+  },
+  {
+    "folder": "Pityriasis amiantacea",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Kiểu phản ứng da đầu, có nhiều bệnh nền; không tự gộp vào psoriasis hoặc tinea.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pityriasis amiantacea.txt"
+  },
+  {
+    "folder": "Elastosis",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Thuật ngữ thay đổi mô đàn hồi bao gồm nhiều tình trạng, không đồng nghĩa Elastosis perforans serpiginosa.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Elastosis.txt"
+  },
+  {
+    "folder": "Leg ulcer",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Loét chân là biểu hiện với nhiều nguyên nhân. Tách theo căn nguyên nếu nguồn cho phép.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Leg ulcer.txt"
+  },
+  {
+    "folder": "Madarosis",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Rụng lông mi/lông mày do nhiều bệnh; không tự gộp vào Alopecia areata.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Madarosis.txt"
+  },
+  {
+    "folder": "Poliosis",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Lông/tóc trắng khu trú, nhiều nguyên nhân; không tự gộp vào Vitiligo.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Poliosis.txt"
+  },
+  {
+    "folder": "Melanonychia",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Sắc tố móng, có nhiều nguyên nhân lành/ác tính; không tự chuyển thành melanoma.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Melanonychia.txt"
+  },
+  {
+    "folder": "Macroglossia",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Lưỡi to là dấu hiệu với nhiều căn nguyên.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Macroglossia.txt"
+  },
+  {
+    "folder": "Dry gangrene",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Biểu hiện hoại tử khô, nhiều nguyên nhân mạch máu/hệ thống.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Dry gangrene.txt"
+  },
+  {
+    "folder": "Amputation stump dermatoses",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Nhóm nhiều bệnh ở mỏm cụt; cần nhãn bệnh cụ thể cho từng ảnh.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Amputation stump dermatoses.txt"
+  },
+  {
+    "folder": "Granulomatous dermatitis",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Nhóm kiểu phản ứng/mô bệnh học; không tự gộp vào sarcoidosis hay granuloma annulare.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Granulomatous dermatitis.txt"
+  },
+  {
+    "folder": "Panniculitis",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Nhóm viêm mô mỡ dưới da; có thể giữ làm cha, không coi mọi ảnh là erythema nodosum.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Panniculitis.txt"
+  },
+  {
+    "folder": "Palmoplantar keratoderma",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Nhóm dày sừng lòng bàn tay/bàn chân, có dạng di truyền và mắc phải.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Palmoplantar keratoderma.txt"
+  },
+  {
+    "folder": "Ichthyosis",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Nhóm bệnh nhiều thể; giữ làm cha hoặc gán subtype từ nguồn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Ichthyosis.txt"
+  },
+  {
+    "folder": "Oral mucositis - Stomatitis",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Viêm niêm mạc miệng do nhiều nguyên nhân; không đồng nghĩa Aphthous ulcer.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Oral mucositis - Stomatitis.txt"
+  },
+  {
+    "folder": "Wound infection",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Nhiễm trùng vết thương nhiều tác nhân; không đồng nhất với Pyoderma hoặc áp xe.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Wound infection.txt"
+  },
+  {
+    "folder": "Malignant histiocytoses",
+    "action": "separate_sign_or_umbrella",
+    "target": null,
+    "reason": "Nhãn nhóm rộng/thuật ngữ lịch sử; cần rà từng thực thể, không gộp toàn bộ vào Leukaemia cutis.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Malignant histiocytoses.txt"
+  },
+  {
+    "folder": "Atypical solar lentigo",
+    "action": "quarantine_label_review",
+    "target": null,
+    "reason": "Thuật ngữ dùng cho tổn thương không chắc là solar lentigo lành tính hay melanoma in situ; không gộp mù vào nhóm lành tính.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Atypical solar lentigo.txt"
+  },
+  {
+    "folder": "Palmoplantar pustulosis",
+    "action": "keep_separate",
+    "target": "Pustular disease spectrum",
+    "reason": "Giữ subtype; palmoplantar pustulosis có thể là thực thể riêng dù liên hệ psoriasis. Không tự gộp vào Generalised pustular psoriasis.",
+    "source_url": "https://dermnetnz.org/topics/palmoplantar-pustulosis",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Palmoplantar pustulosis.txt"
+  },
+  {
+    "folder": "Acrodermatitis continua of Hallopeau",
+    "action": "keep_separate",
+    "target": "Pustular disease spectrum",
+    "reason": "Giữ subtype; palmoplantar pustulosis có thể là thực thể riêng dù liên hệ psoriasis. Không tự gộp vào Generalised pustular psoriasis.",
+    "source_url": "https://dermnetnz.org/topics/palmoplantar-pustulosis",
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Acrodermatitis continua of Hallopeau.txt"
+  },
+  {
+    "folder": "Psoriatic arthritis",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Psoriatic arthritis.txt"
+  },
+  {
+    "folder": "Systemic lupus erythematosus",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Systemic lupus erythematosus.txt"
+  },
+  {
+    "folder": "Neonatal lupus",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Neonatal lupus.txt"
+  },
+  {
+    "folder": "Epidermolysis bullosa acquisita",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Epidermolysis bullosa acquisita.txt"
+  },
+  {
+    "folder": "Pemphigoid gestationis",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pemphigoid gestationis.txt"
+  },
+  {
+    "folder": "Pemphigus foliaceus",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pemphigus foliaceus.txt"
+  },
+  {
+    "folder": "Pemphigus vulgaris",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pemphigus vulgaris.txt"
+  },
+  {
+    "folder": "Sézary syndrome",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Sézary syndrome.txt"
+  },
+  {
+    "folder": "Pseudoporphyria",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pseudoporphyria.txt"
+  },
+  {
+    "folder": "Acquired lymphangiectasia",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Acquired lymphangiectasia.txt"
+  },
+  {
+    "folder": "Lymphatic malformation",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Lymphatic malformation.txt"
+  },
+  {
+    "folder": "Erysipelas",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Erysipelas.txt"
+  },
+  {
+    "folder": "Cellulitis",
+    "action": "keep_separate",
+    "target": null,
+    "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Cellulitis.txt"
+  },
+  {
+    "folder": "Benign familial pemphigus",
+    "action": "rename_only",
+    "target": "Hailey-Hailey disease",
+    "reason": "Tên đồng nghĩa, không gộp vào pemphigus tự miễn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Benign familial pemphigus.txt"
+  },
+  {
+    "folder": "Bazin_s hydroa vacciniforme",
+    "action": "rename_only",
+    "target": "Hydroa vacciniforme",
+    "reason": "Chuẩn hoá tên theo bài nguồn.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Bazin_s hydroa vacciniforme.txt"
+  },
+  {
+    "folder": "Blue nevus",
+    "action": "rename_only",
+    "target": "Blue naevus",
+    "reason": "Thống nhất chính tả naevus/nevus; không bắt buộc.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Blue nevus.txt"
+  },
+  {
+    "folder": "Nevus comedonicus",
+    "action": "rename_only",
+    "target": "Naevus comedonicus",
+    "reason": "Thống nhất chính tả; không phải melanocytic naevus.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Nevus comedonicus.txt"
+  },
+  {
+    "folder": "Milker_s nodule",
+    "action": "rename_only",
+    "target": "Milker’s nodule",
+    "reason": "Sửa dấu nháy bị thay bằng dấu gạch dưới.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Milker_s nodule.txt"
+  },
+  {
+    "folder": "Swimmer_s itch",
+    "action": "rename_only",
+    "target": "Swimmer’s itch",
+    "reason": "Sửa dấu nháy bị thay bằng dấu gạch dưới.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Swimmer_s itch.txt"
+  },
+  {
+    "folder": "Chloracne _ MADISH",
+    "action": "rename_only",
+    "target": "Chloracne (MADISH)",
+    "reason": "Chuẩn hoá dấu phân cách.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Chloracne _ MADISH.txt"
+  },
+  {
+    "folder": "Plasma cell balanitis_vulvitis",
+    "action": "rename_only",
+    "target": "Plasma cell balanitis / vulvitis",
+    "reason": "Chuẩn hoá nhãn; giữ thông tin vị trí.",
+    "source_url": null,
+    "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Plasma cell balanitis_vulvitis.txt"
+  }
+]

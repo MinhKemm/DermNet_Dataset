@@ -1,0 +1,1170 @@
+[
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Poliosis/poliosis2.jpg",
+    "redundant": "Poliosis/04.jpg",
+    "pixel_sha256": "849a14c3229277ba4fa6d98f042aab848c84501d94f374acc12bd6fc73ece59e",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Non-albicans candida infections/34.jpg",
+    "redundant": "Non-albicans candida infections/69.jpg",
+    "pixel_sha256": "09e457b5e0a7afb78459b2d05cb1f0ae4d5a6986acd880038b2290ed6e530a3e",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Cutaneous lupus erythematosus/le-nailfolds.jpg",
+    "redundant": "Cutaneous lupus erythematosus/2542.jpg",
+    "pixel_sha256": "6d083131572a9d3295fa6b770efac7a77c136546e2c0d04656055631f8388a6e",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Cutaneous lupus erythematosus/lupus-bullous.jpg",
+    "redundant": "Cutaneous lupus erythematosus/2564.jpg",
+    "pixel_sha256": "0869420d26a15bdceff1c58ba3b4c706b22e8420d5451540d221b912e0c6b942",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Cutaneous lupus erythematosus/subacute-lupus-08.jpg",
+    "redundant": "Cutaneous lupus erythematosus/subacute-lupus-9.jpg",
+    "pixel_sha256": "008e518bba03e61b149f7c5551e0e6462febdefe89c316016f4aa4e33ed75b58",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Dyshidrotic eczema (pompholyx)/dyshidrotic-eczema-0010.jpg",
+    "redundant": "Dyshidrotic eczema (pompholyx)/dyshidrotic-eczema-0021.jpg",
+    "pixel_sha256": "72c62e527288786cb2570936bd6d181a0b03a0de464f2b4d7cd90653ca527eae",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Erythema annulare centrifugum/annular-erythema-02-v2.jpg",
+    "redundant": "Erythema annulare centrifugum/annular-erythema-02.jpg",
+    "pixel_sha256": "b5280a50474ab56ff685a1ed2669d3e307faa662fa7165892d260cf8e17d2e26",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Genital psoriasis/genital-psoriasis-01.jpg",
+    "redundant": "Genital psoriasis/infant-boy-ps1-s.jpg",
+    "pixel_sha256": "d699882df6ba83066cccec4c76e64c411c48483d9af30043d7d4eb00a1d5cb18",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Genital psoriasis/genital-psoriasis-02.jpg",
+    "redundant": "Genital psoriasis/infant-boy-ps2-s.jpg",
+    "pixel_sha256": "79c728cc184702d2d5c1542288dd4e0564a87785d26c3d462ec1c14a712b7659",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Keloid scar/keloid-scar-0017-2.jpg",
+    "redundant": "Keloid scar/keloid-scar-0017.jpg",
+    "pixel_sha256": "00be5409615391dc2400f4cda22a32867bd6d8213c38eedff552ae187db1524b",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Keloid scar/keloid04.jpg",
+    "redundant": "Keloid scar/keloid12.jpg",
+    "pixel_sha256": "69c844df68d0ad285e78d1f8b7e0dc6550347f34610e0872f5d33ec273bb365a",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Molluscum contagiosum/molluscum32.jpg",
+    "redundant": "Molluscum contagiosum/moll-cont.jpg",
+    "pixel_sha256": "f9a504625cfab57f928c4b46361363e6192facbae9c0c42cc14c2457ee0aacb1",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Naevus of Ota, naevus of Ito and naevus of Hori/ito.jpg",
+    "redundant": "Naevus of Ota, naevus of Ito and naevus of Hori/01.jpg",
+    "pixel_sha256": "2778a5eb32ed68b454aee75414425f3a60401cdf565eac923db1e82f7ed7a5fa",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Neonatal lupus/lupus-neon.jpg",
+    "redundant": "Neonatal lupus/01.jpg",
+    "pixel_sha256": "b2a6bb7abda0dad3326947dc8247dcf221f60cca6b97bb25a2817139db9e8689",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Neonatal lupus/lupus-neon1.jpg",
+    "redundant": "Neonatal lupus/02.jpg",
+    "pixel_sha256": "3620db93621131b656642262957fee3b7a4854102787f4428cd76c08e23ec2bc",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Neonatal lupus/lupus-neon2-s.jpg",
+    "redundant": "Neonatal lupus/03.jpg",
+    "pixel_sha256": "8b5314949e8a93a365eb02dd2f3bb8b107a63a723caf819bf05515ff5a3f9097",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Neonatal lupus/lupus-neon3.jpg",
+    "redundant": "Neonatal lupus/06.jpg",
+    "pixel_sha256": "a8ab13fa4116786fe6e342db0b082d16e20f26d9fede02467d33c9bea6de456e",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nickel allergy/ecz-nose.jpg",
+    "redundant": "Nickel allergy/15.jpg",
+    "pixel_sha256": "5079f92e8c89876ef61e10a06996faa117b24486142c599d572484bd498b3ddf",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nickel allergy/ni1.jpg",
+    "redundant": "Nickel allergy/17.jpg",
+    "pixel_sha256": "84927f196de6a7ce2c0e87943df3f4f24a696f5d42332343e32eee8fbf9aa624",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nickel allergy/ni2.jpg",
+    "redundant": "Nickel allergy/18.jpg",
+    "pixel_sha256": "633fbeec2b0a59c3af279fa8919b706a19a23c95d3046e12e675a981a29e6c20",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nickel allergy/ni6.jpg",
+    "redundant": "Nickel allergy/21.jpg",
+    "pixel_sha256": "13fa892887a417daf40e8c80a0dcef488caee826feba043bae259ff3b4513f5c",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nipple eczema/nipple-eczema-02.jpg",
+    "redundant": "Nipple eczema/03.jpg",
+    "pixel_sha256": "eb9001dbbb1543c70842e76b1ebde9dc1e356149dc70833ba5277dc7159740bf",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nipple eczema/nipple-eczema-03.jpg",
+    "redundant": "Nipple eczema/04.jpg",
+    "pixel_sha256": "8f61048ffeab54656e687a86f11bf678e8ef5c36f2943a88aaf335ad62e96e4c",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nipple eczema/nipple-eczema-07.jpg",
+    "redundant": "Nipple eczema/08.jpg",
+    "pixel_sha256": "eea73e49d774d308648d6b3eb04a6fe0564b1ff7095ad0bf6070851526859e6c",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nodular chondrodermatitis/cnh2.jpg",
+    "redundant": "Nodular chondrodermatitis/05.jpg",
+    "pixel_sha256": "3973d5a665503e4fa2c3f0c0e4aad1c2a5d85438133a54d9968751ae0f157392",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nodular chondrodermatitis/cnh3.jpg",
+    "redundant": "Nodular chondrodermatitis/06.jpg",
+    "pixel_sha256": "6f9a882ecf4eacb454382348c4a19ebc186fcf6ff06bb362f08719e4741bc15a",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nodular chondrodermatitis/cnh4.jpg",
+    "redundant": "Nodular chondrodermatitis/08.jpg",
+    "pixel_sha256": "f563cccf7d7ff8580c476988dbba04137d0644876b0d4212692eca983a776300",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Onychomycosis/01.jpg",
+    "redundant": "Onychomycosis/1254.jpg",
+    "pixel_sha256": "851b0862239408070e9ab382a97f76264284ccaa6aa3ea33d361ba87db0250cb",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Non-albicans candida infections/45.jpg",
+    "redundant": "Non-albicans candida infections/04.jpg",
+    "pixel_sha256": "077ba3cd22b65416041cab23e58a851fc2348cfd536bc9fddb2dd0be807ea4b9",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Onychomycosis/02.jpg",
+    "redundant": "Onychomycosis/1261.jpg",
+    "pixel_sha256": "077ba3cd22b65416041cab23e58a851fc2348cfd536bc9fddb2dd0be807ea4b9",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Onychomycosis/03.jpg",
+    "redundant": "Onychomycosis/1263.jpg",
+    "pixel_sha256": "5d25a38fa38950406f02e9abfffe494c4299353f89743b2ee382f5964ca59317",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Noonan syndrome with multiple lentigines/leopard1.jpg",
+    "redundant": "Noonan syndrome with multiple lentigines/01.jpg",
+    "pixel_sha256": "803e524c5ca55af2bd67d3c1743cd7d0173c2b868d205e2879378a788e82d14d",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Noonan syndrome with multiple lentigines/leopard2.jpg",
+    "redundant": "Noonan syndrome with multiple lentigines/02.jpg",
+    "pixel_sha256": "bbd2c74a271dd7ae8215c0f01598df4518a218ac3ec2555e9e7309984a98a335",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Noonan syndrome with multiple lentigines/leopard3.jpg",
+    "redundant": "Noonan syndrome with multiple lentigines/03.jpg",
+    "pixel_sha256": "c085807856a13959642a6206e364ef7637f53415e000fa65ebaf3cb8f3ce9d59",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Notalgia paraesthetica/notalgia.jpg",
+    "redundant": "Notalgia paraesthetica/19.jpg",
+    "pixel_sha256": "8a1e5e08fa20beafab33052d679b53f2b96c998c5c33d42cd6414f4dff08157f",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Notalgia paraesthetica/notalgia1.jpg",
+    "redundant": "Notalgia paraesthetica/20.jpg",
+    "pixel_sha256": "e55e5376a39a696d45101507b2d69eed4996c2c663d469c7b64b5d31014893e5",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Notalgia paraesthetica/notalgia2.jpg",
+    "redundant": "Notalgia paraesthetica/21.jpg",
+    "pixel_sha256": "e31cd0edbb23dabfef92e4053a8f6c9ae1a41155485a48838a6f2a46dd8a75e8",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nummular eczematous dermatitis/discoid-eczema-day-14-v2.jpg",
+    "redundant": "Nummular eczematous dermatitis/discoid-eczema-day-14.jpg",
+    "pixel_sha256": "f97c9417970582e0d21402565fea9320df8acb051716fbf77f8286615fa41db6",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nummular eczematous dermatitis/discoid-eczema-day-2-v2.jpg",
+    "redundant": "Nummular eczematous dermatitis/discoid-eczema-day-2.jpg",
+    "pixel_sha256": "7c97dc2678e7587260fdb9f9a7bb41b0f3303c62219ff427b6b77b9c5085ce9d",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nummular eczematous dermatitis/discoid-eczema-day-6-v2.jpg",
+    "redundant": "Nummular eczematous dermatitis/discoid-eczema-day-6.jpg",
+    "pixel_sha256": "f5db9e34c5869ed60534812df5bbbf327d691e0c4b0fba5370dde251b43fbf23",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Nummular eczematous dermatitis/nummular-eczema43.jpg",
+    "redundant": "Nummular eczematous dermatitis/nummular-eczema45.jpg",
+    "pixel_sha256": "e48657d7adbb5e254e408d73fb4cba8b7d9ff012edc338711147d19782d87f13",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Onychocryptosis/ingrown-toenail1.jpg",
+    "redundant": "Onychocryptosis/04.jpg",
+    "pixel_sha256": "cd3bf5823760398243c761c083defee896b481b0c3b4ec5a4bee23bc85637d96",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Onychocryptosis/ingrown-toenail2.jpg",
+    "redundant": "Onychocryptosis/05.jpg",
+    "pixel_sha256": "dcd6503ed757c7671723a6dfcd31519917bb9ef052c6747706b09ead6b93d1ee",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Onychocryptosis/ingrown-toenail3.jpg",
+    "redundant": "Onychocryptosis/06.jpg",
+    "pixel_sha256": "0fa7be144a5c30b4f1293aa26ced97d5aeec32e50911181c7cc356d074abc8b7",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Onychogryphosis/onychogryphosis-04.jpg",
+    "redundant": "Onychogryphosis/04.jpg",
+    "pixel_sha256": "d7d80fdbfa60434afc3e230e777e759f8338b88d14ab45607f3f88989ef2ea5d",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Onychogryphosis/onychogryphosis-05.jpg",
+    "redundant": "Onychogryphosis/05.jpg",
+    "pixel_sha256": "751ca06447fae089d786a5626a1143e44dd9c90b714a95bdf3be71d9b3e517ca",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Onychogryphosis/onychogryphosis-06.jpg",
+    "redundant": "Onychogryphosis/06.jpg",
+    "pixel_sha256": "6bba3094b913038e61a560d43f3aa419ef2ec88237eabf983f96c376ec9c81cf",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Onychomycosis/tin-ung1-v2.jpg",
+    "redundant": "Onychomycosis/44.jpg",
+    "pixel_sha256": "db559caceac902a93c95ce635d834d98482581d196c455be6856b17025c1b538",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Oral candidiasis/candor.jpg",
+    "redundant": "Oral candidiasis/04.jpg",
+    "pixel_sha256": "000595fee9efaa6b84e2c0ff7f8f3d9c0e924570fc9542f6a70f0b3dfd90258b",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Osteoma cutis/osteoma-cutis1.jpg",
+    "redundant": "Osteoma cutis/01.jpg",
+    "pixel_sha256": "106bfd44c29dea71cca9e2cc511f42df207135e027ef9eb9d19821a3b95ad895",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Osteoma cutis/osteoma-cutis2.jpg",
+    "redundant": "Osteoma cutis/02.jpg",
+    "pixel_sha256": "27bff77f21e06f5eb8a19de5fba36ac7b93eca085434d1078d02aeafed96ed3a",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Osteoma cutis/osteoma-cutis3.jpg",
+    "redundant": "Osteoma cutis/03.jpg",
+    "pixel_sha256": "edcf588924d6ade927a1eec8b4508cc3884f208f5a6074b9fdd3b4c50bb0f07a",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Papular urticaria/papurt1.jpg",
+    "redundant": "Papular urticaria/03.jpg",
+    "pixel_sha256": "14f8e05b6acc40d29b4a464163764051f1dc6707302b468fe2ad9b12047a4898",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Papular urticaria/papurt2.jpg",
+    "redundant": "Papular urticaria/04.jpg",
+    "pixel_sha256": "cf114aa71f0d5dbfcb4901efe13354913d520e5eca00ad8ffc7fe2408b5eac6f",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Papular urticaria/papurt3.jpg",
+    "redundant": "Papular urticaria/05.jpg",
+    "pixel_sha256": "6574c2db506c4e3bd7784df2a31f62198a029a82771dd8717bb4f0facc9088cd",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Parakeratosis pustulosa/parakeratosis1.jpg",
+    "redundant": "Parakeratosis pustulosa/01.jpg",
+    "pixel_sha256": "ff6783285e0d4daf023800a6599ece4df5c260a9beb4a0eac4902c67802f958e",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Parakeratosis pustulosa/parakeratosis2.jpg",
+    "redundant": "Parakeratosis pustulosa/02.jpg",
+    "pixel_sha256": "20fe630821e36f81b2dee218658af252c472a52ac4a8d8c6aa4f973b03a030fc",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Paraneoplastic acrokeratosis/bazex1.jpg",
+    "redundant": "Paraneoplastic acrokeratosis/01.jpg",
+    "pixel_sha256": "bccff4d2694122b91ab53f23214a3f8798bd28fe3b96648ba168819fdc749f79",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Paraneoplastic acrokeratosis/bazex2-s.jpg",
+    "redundant": "Paraneoplastic acrokeratosis/02.jpg",
+    "pixel_sha256": "8040b3f040b35ef072f7265db83e4553350bc720b49036427a116775951b99d7",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pearly penile papules/penile-pearly-papules-01.jpg",
+    "redundant": "Pearly penile papules/01.jpg",
+    "pixel_sha256": "7bdea0bc1deb18ca2352c4543fbf6e212afd6d050519f6a6e85faea7843539cf",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pearly penile papules/penile-pearly-papules-02.jpg",
+    "redundant": "Pearly penile papules/02.jpg",
+    "pixel_sha256": "a6c4e45fcddb2a43cc0510b44c64cff302b615f5666db9432d5e392683aafda5",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pearly penile papules/penile-pearly-papules-03.jpg",
+    "redundant": "Pearly penile papules/03.jpg",
+    "pixel_sha256": "8752d5ce3df4302720b89f3f2e4937455be7828bf2e66d073d667d9fe9d5a6ce",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pearly penile papules/penile-pearly-papules-04.jpg",
+    "redundant": "Pearly penile papules/04.jpg",
+    "pixel_sha256": "7150c07b0341bc9c3898bab1cf01dc31627d32ec9e0d9b4b0c45a8a6ccb05f83",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pearly penile papules/penile-pearly-papules-05.jpg",
+    "redundant": "Pearly penile papules/05.jpg",
+    "pixel_sha256": "4dab707a95645a0ee73d67f9758bbb0ccda15bb6b9b458379d81d11b67dd8e14",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pearly penile papules/ppap-small.jpg",
+    "redundant": "Pearly penile papules/06.jpg",
+    "pixel_sha256": "dac6d0e32956af7e53f36eadfdf8a6f3bf77e3279cf0b7cc3313f13088766485",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pearly penile papules/ppp1-small.jpg",
+    "redundant": "Pearly penile papules/07.jpg",
+    "pixel_sha256": "afaee2d8f7613e1bea67a87c4e2f89ce8a6c6753e622c7921a093a5236810bf9",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pearly penile papules/ppp2-small.jpg",
+    "redundant": "Pearly penile papules/08.jpg",
+    "pixel_sha256": "5b5d4aaba87971ee4bc6828c8f385be2a2ea78cb8f0969a7a2319f658850ebae",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pediculosis capitis/head-lice-001.jpg",
+    "redundant": "Pediculosis capitis/05.jpg",
+    "pixel_sha256": "db034300ced956499c48f423c8323d890a95df399c58de54f2ea2f681dfa1829",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pediculosis capitis/head-lice-002.jpg",
+    "redundant": "Pediculosis capitis/06.jpg",
+    "pixel_sha256": "2715e4dae062da279bb36c90800762d7b9e6b962c7bfaca0bff3e4121f6cfdbf",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pediculosis capitis/nits-dermatitis.jpg",
+    "redundant": "Pediculosis capitis/11.jpg",
+    "pixel_sha256": "e57dedbd61407670efc580232016a968ffc257c429ebe80f59399f428d8c4ad9",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pemphigoid gestationis/pemgest1.jpg",
+    "redundant": "Pemphigoid gestationis/03.jpg",
+    "pixel_sha256": "739f92154599d356e32f7d42e92ebae953a05eceb7beda4f29eaa520861995e3",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pemphigoid gestationis/pemgest6.jpg",
+    "redundant": "Pemphigoid gestationis/08.jpg",
+    "pixel_sha256": "7b3f6569dea3b643efee008b58e84f55adb4084f81bc1c9bb851903ea726b18a",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pemphigus foliaceus/pfol1.jpg",
+    "redundant": "Pemphigus foliaceus/10.jpg",
+    "pixel_sha256": "3a4406bb1b27c521d4c142c050d9266bb3f6d2d9416e4aae4e7ba015f08131a1",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pemphigus foliaceus/pfol2.jpg",
+    "redundant": "Pemphigus foliaceus/11.jpg",
+    "pixel_sha256": "d0f59dd1e418a4ef7d118a4348deb41421325520e258803e5a6ae7a040e00fcb",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pemphigus foliaceus/pfol3.jpg",
+    "redundant": "Pemphigus foliaceus/12.jpg",
+    "pixel_sha256": "3a3640244d436636da982ceda7e380d2becfc62e384f2f71079901967f164f1c",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pemphigus foliaceus/pfol4.jpg",
+    "redundant": "Pemphigus foliaceus/13.jpg",
+    "pixel_sha256": "a54fbe3567de58adbfc52b3c38595e5ae804fbc4ca3a0744a1156d4cca0114ab",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pemphigus foliaceus/pfol5.jpg",
+    "redundant": "Pemphigus foliaceus/14.jpg",
+    "pixel_sha256": "053028cd917031c41ffa0e1dfd8a0225132410df48167092836dbacc1d2670e2",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pemphigus foliaceus/pfol6.jpg",
+    "redundant": "Pemphigus foliaceus/15.jpg",
+    "pixel_sha256": "aeb79786f0634b442cb1e48cfc1f93ca56d0ea1d098f0f7ae024c521cde42b10",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Periarteritis nodosa/pan1.jpg",
+    "redundant": "Periarteritis nodosa/01.jpg",
+    "pixel_sha256": "2d6df9ef4cb2cbac10459a442072e4f3e49f6439807e6713abee9ec375e01360",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Periarteritis nodosa/pan3.jpg",
+    "redundant": "Periarteritis nodosa/04.jpg",
+    "pixel_sha256": "3ac79013d56c45e506c1f468089a81aaa926300142265422a19e5a9b3efd72c7",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Piebaldism/piebald2.jpg",
+    "redundant": "Piebaldism/01.jpg",
+    "pixel_sha256": "a07947ce571c46252022018c4577df304219a6e1c0b81e63ea2b9d2c75918e58",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Piebaldism/piebald3.jpg",
+    "redundant": "Piebaldism/02.jpg",
+    "pixel_sha256": "5c65a51b13e73066e15b45b40174783f5dc296685529d14d669f874df3059dc9",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Piebaldism/piebald4.jpg",
+    "redundant": "Piebaldism/03.jpg",
+    "pixel_sha256": "7b7aaa85933cea7ac8fe0af257964cf29caf8daa7be89982b9fbd1793d27a765",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Piebaldism/piebald5.jpg",
+    "redundant": "Piebaldism/04.jpg",
+    "pixel_sha256": "2a6bcbdb2e3c5136acfba149f2e30f2a56c2575649dc8cff79b1096c6d2ac5a6",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Piebaldism/piebald6.jpg",
+    "redundant": "Piebaldism/05.jpg",
+    "pixel_sha256": "f0b8877ed0f589952d9a30ad2c38d6bd10c62894a1719b2360ff93d115fd3876",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Piebaldism/piebald7.jpg",
+    "redundant": "Piebaldism/06.jpg",
+    "pixel_sha256": "d534116ea3a3c5325f41248b3cc2f4fca5fea7c9bc298cc22015579016bed827",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Poliosis/poliosis1.jpg",
+    "redundant": "Poliosis/03.jpg",
+    "pixel_sha256": "06caaf041f8f0cb8a1938fe6ba030f201f18eb70dfe87396630ea67becde079e",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pilomatricoma/giant-pilomatricoma.jpg",
+    "redundant": "Pilomatricoma/01.jpg",
+    "pixel_sha256": "c76c5715e0d8f0e65979d8f20bd77d976c92b3812daefe58bba264731f569594",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pilomatricoma/pilomatricoma-01.jpg",
+    "redundant": "Pilomatricoma/02.jpg",
+    "pixel_sha256": "0505fe0136202b1826b54f4f9f0de6e7380bbafa5670ca1cc07bb6b2f034d69a",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pilomatricoma/pilomatricoma-macro.jpg",
+    "redundant": "Pilomatricoma/03.jpg",
+    "pixel_sha256": "a5ac0ae213ab216c9d5414f75a37ec355b5d30f94157948130245e42a1a618f2",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pilomatricoma/pilomatricoma.jpg",
+    "redundant": "Pilomatricoma/04.jpg",
+    "pixel_sha256": "44510e32d338b2aa4b07dc74f15ca748e9cc7375c416a855c2bf229abc39e00e",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pilomatricoma/pilomatricoma2.jpg",
+    "redundant": "Pilomatricoma/05.jpg",
+    "pixel_sha256": "87454f40e13258a9e25d8760100e69f4590cce2e2c5f31898837e2cd1782cf5c",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pilomatricoma/pilomatricoma3.jpg",
+    "redundant": "Pilomatricoma/06.jpg",
+    "pixel_sha256": "0d7527fe7f8de53be5e8d5d6b2b5e30b21f88f4084198f6513f5c389b1bb3e36",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis amiantacea/amiantacea.jpg",
+    "redundant": "Pityriasis amiantacea/01.jpg",
+    "pixel_sha256": "49aa1e6cb8f476f64a381f16d13068770b37734224a27d3f2d80441480df3c1a",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis amiantacea/pitamiant3.jpg",
+    "redundant": "Pityriasis amiantacea/03.jpg",
+    "pixel_sha256": "561b6d43526404bece40cd819c26adfedba8e0afda8324b799a00d0f28706a36",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis amiantacea/pityramiant.jpg",
+    "redundant": "Pityriasis amiantacea/04.jpg",
+    "pixel_sha256": "5c1a278e9c6d6cf96dc4ff527a9c353b1fa86746d693188a97e44cba6665aa32",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp1.jpg",
+    "redundant": "Pityriasis rubra pilaris/15.jpg",
+    "pixel_sha256": "5bdcb3f9e14cc1de2582e9bff5587ced809d486613be028f175fab1321cc0037",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp10.jpg",
+    "redundant": "Pityriasis rubra pilaris/16.jpg",
+    "pixel_sha256": "97d493e60f36e91db2a20362fe804d3aa89810198fa91bc4bbae7c9282c3389d",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp11.jpg",
+    "redundant": "Pityriasis rubra pilaris/17.jpg",
+    "pixel_sha256": "cf64427a7d5ff98af67d32b6c547c83de038822cb7d7053056f40abb7e53699a",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp12.jpg",
+    "redundant": "Pityriasis rubra pilaris/18.jpg",
+    "pixel_sha256": "e6b35100a33ccecd71caca55dad27c04cd3343fc0afbdbe0c6c4367f60eac19c",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp13.jpg",
+    "redundant": "Pityriasis rubra pilaris/19.jpg",
+    "pixel_sha256": "8191c2e316a23c48d0609a694efffc15a911d58e5bd58898799dda4a76e8fda7",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp2.jpg",
+    "redundant": "Pityriasis rubra pilaris/20.jpg",
+    "pixel_sha256": "c4eca22f0f25f36cc33879c0177b668d408cc0e7efcb7d83aa2701b15b9e6eca",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp3.jpg",
+    "redundant": "Pityriasis rubra pilaris/21.jpg",
+    "pixel_sha256": "ef30737759fa19a33cbd5994dd397fb1b7522bfaa31e4f0e50fe433280b2aa40",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp4.jpg",
+    "redundant": "Pityriasis rubra pilaris/23.jpg",
+    "pixel_sha256": "9a3662c6162bed59e67e4659ff12a38a012c0d4ca46ac413600465409a2167f2",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp5.jpg",
+    "redundant": "Pityriasis rubra pilaris/24.jpg",
+    "pixel_sha256": "79638a836ff51fc581075e31b9729cd350a4b701ec5dac2a9a85362154af413a",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp6.jpg",
+    "redundant": "Pityriasis rubra pilaris/25.jpg",
+    "pixel_sha256": "2c3f078e31af9f794d26671cdbbb056ef6525e45af8933443992c29aea047593",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp7.jpg",
+    "redundant": "Pityriasis rubra pilaris/26.jpg",
+    "pixel_sha256": "cf342c73b6e2c81129911122c803d4683af5f893897bde2377bbd4167fe4feb9",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp8.jpg",
+    "redundant": "Pityriasis rubra pilaris/27.jpg",
+    "pixel_sha256": "2f3cad2e289274474ee7227bd28c3a8e6a0fa2aa434e23a828145a43f52b958c",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pityriasis rubra pilaris/prp9.jpg",
+    "redundant": "Pityriasis rubra pilaris/29.jpg",
+    "pixel_sha256": "e68eedf5636d12072893a72bec9837518c866327bcefed2b268d5eb14b028a4f",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Plasma cell balanitis_vulvitis/plasma1-s.jpg",
+    "redundant": "Plasma cell balanitis_vulvitis/02.jpg",
+    "pixel_sha256": "d826403a3b03c0ec0905c168e56331c5318d9136dd0e531bf8d47da5fdcbadbe",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Plasma cell balanitis_vulvitis/plasma2-s.jpg",
+    "redundant": "Plasma cell balanitis_vulvitis/03.jpg",
+    "pixel_sha256": "fb1fcf7e969e64e81a959d197699d2951b740b7d96ea1cd39070e7204a2547fe",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Plasmacytoma/plasmacytoma-2.jpg",
+    "redundant": "Plasmacytoma/01.jpg",
+    "pixel_sha256": "9e3765a3efb464fe1933ba24489fc5c697932d9abc746bd562afa5975754ef4f",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Plasmacytoma/plasmacytoma-3.jpg",
+    "redundant": "Plasmacytoma/02.jpg",
+    "pixel_sha256": "261fa2a2c1446dfd1be9fad9041851ab7bb503f0fdcaf16d7a281fdff4838494",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Plasmacytoma/plasmacytoma.jpg",
+    "redundant": "Plasmacytoma/03.jpg",
+    "pixel_sha256": "5c1ed0bf7bf53ccadba663681f1441ede721a184893d300ff82e2d41150df52d",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Poikiloderma of Civatte/civatte1.jpg",
+    "redundant": "Poikiloderma of Civatte/01.jpg",
+    "pixel_sha256": "0093fd39bc334586cdc1080bd3dd9e2cc63fbf4c0d33df1cc7c8ab74b16cca47",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Poikiloderma of Civatte/civatte2.jpg",
+    "redundant": "Poikiloderma of Civatte/02.jpg",
+    "pixel_sha256": "a3f8aac1964248e00c0d30ef65063ab0f10a2a3eafa3599424cc412aefbe9b18",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Poikiloderma of Civatte/civatte3.jpg",
+    "redundant": "Poikiloderma of Civatte/03.jpg",
+    "pixel_sha256": "7c83bb5ee99cb8022dfc7f48776f8dc2a8603f52b2d3bee42f39c1b0d3b315f6",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Poikiloderma of Civatte/civatte4.jpg",
+    "redundant": "Poikiloderma of Civatte/04.jpg",
+    "pixel_sha256": "00f4ec37b3cc5abee22073e91c8414f850f21168227d1ab2c31cbb1510a1f65b",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Poikiloderma of Civatte/civatte5.jpg",
+    "redundant": "Poikiloderma of Civatte/05.jpg",
+    "pixel_sha256": "d9d220f68a467c54b1a844a88f249ba1ed6269e7ec863383d8637eb48ea46912",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Poikiloderma of Civatte/civatte6.jpg",
+    "redundant": "Poikiloderma of Civatte/06.jpg",
+    "pixel_sha256": "2265db815bed2e92ffde1410f313a05dde1d743d470f2b49ec88b2d3bd22445d",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Poliosis/poliosis3.jpg",
+    "redundant": "Poliosis/05.jpg",
+    "pixel_sha256": "f5b6da178ba8490dec4ba101510c71953df4a0d7b4228407d6836c63c5d0ec28",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Poliosis/poliosis4.jpg",
+    "redundant": "Poliosis/06.jpg",
+    "pixel_sha256": "0b38fb613204e4f0e317dd9dbaa52fb13e4d35e4b8007e102171b8410e23919b",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Polycystic ovary syndrome/acne-pcos.jpg",
+    "redundant": "Polycystic ovary syndrome/01.jpg",
+    "pixel_sha256": "f01bbfc7769e871be77335b1a37b9240b4b93a1f2388b6d7cb6ebfff00839b0d",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Polycystic ovary syndrome/aga-pcos.jpg",
+    "redundant": "Polycystic ovary syndrome/02.jpg",
+    "pixel_sha256": "309deaf6cdd188520b461f67dc3b06fa9f084757ac5d5edb86e61d776dd2f321",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Polycystic ovary syndrome/hirs-pcos.jpg",
+    "redundant": "Polycystic ovary syndrome/03.jpg",
+    "pixel_sha256": "24e87d80e599c6eda99ac8269b8e1c5fecef5ac0872e230a50bd1b57daeb1a15",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Polymorphic eruption of pregnancy/polymorphic-pregnancy.jpg",
+    "redundant": "Polymorphic eruption of pregnancy/01.jpg",
+    "pixel_sha256": "2faa042f1e23ed983e5aa3ee1bc39ab1d432b4cadbdeb382274473e1bfdb5357",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Polymorphic eruption of pregnancy/pupp4.jpg",
+    "redundant": "Polymorphic eruption of pregnancy/02.jpg",
+    "pixel_sha256": "e591d5041894375a0335dbb35636459824874769c2adffa9b4aabd2c03daf004",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Polymorphic eruption of pregnancy/puppp1.jpg",
+    "redundant": "Polymorphic eruption of pregnancy/04.jpg",
+    "pixel_sha256": "a6550b5d5f34e8890cc12fe010f4c105885407f280c9f569d25560e263ccd3e0",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Polymorphic eruption of pregnancy/05.jpg",
+    "redundant": "Polymorphic eruption of pregnancy/07.jpg",
+    "pixel_sha256": "2b2a5a8de6050077d7dc7220015a8895cdd49de77949bd48d1a3b9bec25ba110",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Porphyria cutanea tarda/pct2.jpg",
+    "redundant": "Porphyria cutanea tarda/08.jpg",
+    "pixel_sha256": "7be368950d5d8992ea354298e5f585a99636be68ae9b3bb33c97d3cae6bac73b",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Porphyria cutanea tarda/pct3.jpg",
+    "redundant": "Porphyria cutanea tarda/09.jpg",
+    "pixel_sha256": "b375187f612f227045bd3a39005716d7602ac81cb819ea9f991ce4078a92b386",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Porphyria cutanea tarda/pct5.jpg",
+    "redundant": "Porphyria cutanea tarda/11.jpg",
+    "pixel_sha256": "9f0217377b2f23f1c973e5066ce8e4866b48e866187d3c94ed3eae8f09f65aaf",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Porphyria cutanea tarda/pct7.jpg",
+    "redundant": "Porphyria cutanea tarda/13.jpg",
+    "pixel_sha256": "23e6af3c69d57bcdf4ca99bdd660c80d018fd9c913d7a1ad4ac552ad2e45e02e",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Postinflammatory hyperpigmentation/oven-burn.jpg",
+    "redundant": "Postinflammatory hyperpigmentation/14.jpg",
+    "pixel_sha256": "2e2560eae0f04cb663c3e0cb0b4eff2c9e928c69d68bdf0ceed0899fee801e2b",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Postinflammatory hyperpigmentation/postinflamm4.jpg",
+    "redundant": "Postinflammatory hyperpigmentation/28.jpg",
+    "pixel_sha256": "b14dbaed7cfde0531641fe1447c570e5e1275d7ab479ef4d4ab88f2346249a7d",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pressure ulcer/decubitus3.jpg",
+    "redundant": "Pressure ulcer/01.jpg",
+    "pixel_sha256": "5bf79b957ad4a2acc3072d9dccbf293c41dde4e5dfe6df73a2ecc0bfeefdfc92",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Pressure ulcer/ulcer-press.jpg",
+    "redundant": "Pressure ulcer/22.jpg",
+    "pixel_sha256": "5f38bd96b2aa2c2d22018b62d762e3b239b85c2310589a9c101aee37811ade4c",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Purpura/104.jpg",
+    "redundant": "Purpura/79.jpg",
+    "pixel_sha256": "3605c43fb5799a3bbed80a5896b384a7e16ef9a7b876adf2d03bc0a2b6fdf0a3",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Venous eczema/acute-lipodermatosclerosis-10.jpg",
+    "redundant": "Venous eczema/acute-lipodermatosclerosis-12.jpg",
+    "pixel_sha256": "5251e6e3bc636a022c079001b170aa4ecbf03891b0ed7a1e7cb1beb0ea563e69",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Venous eczema/acute-lipodermatosclerosis-18.jpg",
+    "redundant": "Venous eczema/acute-lipodermatosclerosis-24.jpg",
+    "pixel_sha256": "b6659ce3c1383a413e450926bff897fe89d1b0ebe8065d0ae1b160070454de08",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Vulval intraepithelial neoplasia/vin1-s.jpg",
+    "redundant": "Vulval intraepithelial neoplasia/43.jpg",
+    "pixel_sha256": "5a369cc70910666bbc8e2043f16a76d914169340b03648f6e02182d12cd471fc",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Vulval intraepithelial neoplasia/vin2-s.jpg",
+    "redundant": "Vulval intraepithelial neoplasia/45.jpg",
+    "pixel_sha256": "9cab787e1276ab268435169189f3bdc067a0721f1260e4442b7572612bb3142a",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Vulval intraepithelial neoplasia/vin3-s.jpg",
+    "redundant": "Vulval intraepithelial neoplasia/47.jpg",
+    "pixel_sha256": "cb9c0058bcb0de7083cd3389cfbf767ff283596c26a6599140ca30af0540eedf",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Vulval intraepithelial neoplasia/vin4-s.jpg",
+    "redundant": "Vulval intraepithelial neoplasia/49.jpg",
+    "pixel_sha256": "b6e513aa4353ece7cda777d87681b341fce4d179c4c53cad8d792df31c73c4ce",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Vulval intraepithelial neoplasia/vin5-s.jpg",
+    "redundant": "Vulval intraepithelial neoplasia/51.jpg",
+    "pixel_sha256": "bff2c67214e01441676a64db6bd529e6d26503e1e249ba7e90752f01dd4f51d9",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  },
+  {
+    "action": "proposed_remove_redundant_within_folder",
+    "keep": "Vulval intraepithelial neoplasia/vin6-s.jpg",
+    "redundant": "Vulval intraepithelial neoplasia/53.jpg",
+    "pixel_sha256": "afdb32ee8c60c40094398ffe663508b3e8cebeb70a53792380b750549fedbaed",
+    "reason": "Same dimensions and identical decoded RGBA pixels after EXIF orientation. Keep all source/path metadata before any removal.",
+    "executed": false
+  }
+]

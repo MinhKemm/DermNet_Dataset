@@ -65,3 +65,4 @@ id_ed25519
 mykey.pem
 *.pem
 *.key
+dermnet-output/images.zip

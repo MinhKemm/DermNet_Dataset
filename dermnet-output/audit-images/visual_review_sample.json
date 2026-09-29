@@ -1,0 +1,254 @@
+[
+  {
+    "a": "Alopecia areata/alopecia-areata-00004.jpg",
+    "b": "Triangular alopecia/01.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Amelanotic melanoma/12a-amelanotic-melanoma.jpg",
+    "b": "Amelanotic melanoma/amelanotic-melanoma-macro.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Amelanotic melanoma/amelanotic-melanoma-11.jpg",
+    "b": "Melanoma in situ/Melanoma-in-situ-6.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Atopic dermatitis/at-mol.jpg",
+    "b": "Molluscum contagiosum/ecz-atopic3.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Atopic dermatitis/at-mol.jpg",
+    "b": "Molluscum contagiosum/moll-ecz.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Atopic dermatitis/ecz-atopic1.jpg",
+    "b": "Atopic dermatitis/figure-1-itch2.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Atopic dermatitis/flexural-eczema01.jpg",
+    "b": "Atopic dermatitis/flexural-eczema14.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Birt-Hogg-Dubé syndrome/birt-hogg-dube-05.jpg",
+    "b": "Birt-Hogg-Dubé syndrome/fibrofollic2.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2515.jpg",
+    "b": "Discoid lupus erythematosus/dle-scalp2.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2551.jpg",
+    "b": "Cutaneous lupus erythematosus/lupus-sc3.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2558.jpg",
+    "b": "Discoid lupus erythematosus/dle-lip.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2561.jpg",
+    "b": "Discoid lupus erythematosus/dle-scalp.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Onychocryptosis/03.jpg",
+    "b": "Paronychia/3297.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Papular urticaria/01.jpg",
+    "b": "Papular urticaria/02.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Paronychia/3285.jpg",
+    "b": "Paronychia/paron4.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Pemphigoid gestationis/16.jpg",
+    "b": "Polymorphic eruption of pregnancy/01.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Pityriasis amiantacea/02.jpg",
+    "b": "Pityriasis amiantacea/17.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Porphyria cutanea tarda/02.jpg",
+    "b": "Porphyria cutanea tarda/15.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Rhinophyma/17.jpg",
+    "b": "Rhinophyma/22.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Venous eczema/chronic-lipodermatosclerosis-28.jpg",
+    "b": "Venous eczema/lds5.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/10.jpg",
+    "b": "Bullous pemphigoid/bullous-pemphigoid-00092.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/11.jpg",
+    "b": "Bullous pemphigoid/bullous-pemphigoid-00096.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/13.jpg",
+    "b": "Bullous pemphigoid/bullous-pemphigoid-00098.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/16.jpg",
+    "b": "Dyshidrotic eczema (pompholyx)/dyshidrotic-eczema-0002.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/21.jpg",
+    "b": "Foreign body granuloma/foreign-body-granuloma-2.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/06.jpg",
+    "b": "Hand dermatitis/at-derm13.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/07.jpg",
+    "b": "Hand dermatitis/atopic42.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/05.jpg",
+    "b": "Lichen planus/annular-lichen-planus-0007.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/34.jpg",
+    "b": "Lichen planus/papular-lichen-planus-0009.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/35.jpg",
+    "b": "Lichen planus/papular-lichen-planus-0010.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/26.jpg",
+    "b": "Molluscum contagiosum/molluscum-contagiosum-0032.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/37.jpg",
+    "b": "Pseudofolliculitis barbae/11.jpg",
+    "phash_distance": "exact",
+    "visual_review": "same_photographic_content_in_contact_sheet; diagnosis_not_verified"
+  }
+]

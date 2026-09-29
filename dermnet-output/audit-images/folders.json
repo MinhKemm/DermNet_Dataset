@@ -1,0 +1,2698 @@
+[
+  {
+    "folder": "Acanthoma fissuratum",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 97535
+  },
+  {
+    "folder": "Acanthosis palmaris",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 121021
+  },
+  {
+    "folder": "Acne vulgaris",
+    "images": 297,
+    "readable": 297,
+    "unique_bytes": 297,
+    "unique_pixels": 297,
+    "bytes": 10993784
+  },
+  {
+    "folder": "Acquired dermal macular hyperpigmentation",
+    "images": 22,
+    "readable": 22,
+    "unique_bytes": 22,
+    "unique_pixels": 22,
+    "bytes": 691481
+  },
+  {
+    "folder": "Acquired lymphangiectasia",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 79110
+  },
+  {
+    "folder": "Acral lentiginous melanoma",
+    "images": 40,
+    "readable": 40,
+    "unique_bytes": 40,
+    "unique_pixels": 40,
+    "bytes": 2025235
+  },
+  {
+    "folder": "Acrodermatitis continua of Hallopeau",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 312732
+  },
+  {
+    "folder": "Acrodermatitis enteropathica",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 376885
+  },
+  {
+    "folder": "Acrokeratosis verruciformis of Hopf",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 92354
+  },
+  {
+    "folder": "Acropustulosis of infancy",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 99515
+  },
+  {
+    "folder": "Actinic cheilitis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 275109
+  },
+  {
+    "folder": "Actinic keratosis",
+    "images": 183,
+    "readable": 183,
+    "unique_bytes": 183,
+    "unique_pixels": 183,
+    "bytes": 8190404
+  },
+  {
+    "folder": "Acute febrile neutrophilic dermatosis (Sweet syndrome)",
+    "images": 53,
+    "readable": 53,
+    "unique_bytes": 53,
+    "unique_pixels": 53,
+    "bytes": 2765922
+  },
+  {
+    "folder": "Acute generalised exanthematous pustulosis",
+    "images": 19,
+    "readable": 19,
+    "unique_bytes": 19,
+    "unique_pixels": 19,
+    "bytes": 849025
+  },
+  {
+    "folder": "Acute localised exanthematous pustulosis",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 99016
+  },
+  {
+    "folder": "Adult-onset Still disease",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 91046
+  },
+  {
+    "folder": "Airborne contact dermatitis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 201453
+  },
+  {
+    "folder": "Alkaptonuria and ochronosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 149945
+  },
+  {
+    "folder": "Alopecia areata",
+    "images": 50,
+    "readable": 50,
+    "unique_bytes": 50,
+    "unique_pixels": 50,
+    "bytes": 2496388
+  },
+  {
+    "folder": "Alopecia mucinosa",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 256102
+  },
+  {
+    "folder": "Amelanotic melanoma",
+    "images": 44,
+    "readable": 44,
+    "unique_bytes": 44,
+    "unique_pixels": 44,
+    "bytes": 1754630
+  },
+  {
+    "folder": "Amputation stump dermatoses",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 380643
+  },
+  {
+    "folder": "Amyloidosis cutis dyschromica",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 104859
+  },
+  {
+    "folder": "Anagen effluvium",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 17,
+    "unique_pixels": 17,
+    "bytes": 774623
+  },
+  {
+    "folder": "Anetoderma",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 72814
+  },
+  {
+    "folder": "Angioma serpiginosum",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 121585
+  },
+  {
+    "folder": "Angular cheilitis",
+    "images": 37,
+    "readable": 37,
+    "unique_bytes": 37,
+    "unique_pixels": 37,
+    "bytes": 1448320
+  },
+  {
+    "folder": "Anogenital squamous cell carcinoma",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 393361
+  },
+  {
+    "folder": "Anogenital wart",
+    "images": 28,
+    "readable": 28,
+    "unique_bytes": 28,
+    "unique_pixels": 28,
+    "bytes": 1015589
+  },
+  {
+    "folder": "Anthrax",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 111503
+  },
+  {
+    "folder": "Antisynthetase syndrome",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 157564
+  },
+  {
+    "folder": "Aphthous ulcer",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 160457
+  },
+  {
+    "folder": "Apocrine chromhidrosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 158943
+  },
+  {
+    "folder": "Arthropod bites and stings",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 227483
+  },
+  {
+    "folder": "Aspergillosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 105018
+  },
+  {
+    "folder": "Asteatotic eczema",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 272978
+  },
+  {
+    "folder": "Atopic dermatitis",
+    "images": 167,
+    "readable": 167,
+    "unique_bytes": 167,
+    "unique_pixels": 167,
+    "bytes": 6541640
+  },
+  {
+    "folder": "Atrophoderma of Pasini and Pierini",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 199131
+  },
+  {
+    "folder": "Atypical fibroxanthoma",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 366738
+  },
+  {
+    "folder": "Atypical melanocytic naevus",
+    "images": 20,
+    "readable": 20,
+    "unique_bytes": 20,
+    "unique_pixels": 20,
+    "bytes": 1064288
+  },
+  {
+    "folder": "Atypical mycobacterial infection",
+    "images": 52,
+    "readable": 52,
+    "unique_bytes": 52,
+    "unique_pixels": 52,
+    "bytes": 2085106
+  },
+  {
+    "folder": "Atypical solar lentigo",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 102583
+  },
+  {
+    "folder": "Bacterial folliculitis",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 73711
+  },
+  {
+    "folder": "Basal cell carcinoma",
+    "images": 161,
+    "readable": 161,
+    "unique_bytes": 161,
+    "unique_pixels": 161,
+    "bytes": 7004560
+  },
+  {
+    "folder": "Bazin_s hydroa vacciniforme",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 267703
+  },
+  {
+    "folder": "Benign familial pemphigus",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 396566
+  },
+  {
+    "folder": "Benign hereditary telangiectasia",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 269582
+  },
+  {
+    "folder": "Birt-Hogg-Dubé syndrome",
+    "images": 14,
+    "readable": 14,
+    "unique_bytes": 14,
+    "unique_pixels": 14,
+    "bytes": 536724
+  },
+  {
+    "folder": "Blue nevus",
+    "images": 37,
+    "readable": 37,
+    "unique_bytes": 37,
+    "unique_pixels": 37,
+    "bytes": 2277023
+  },
+  {
+    "folder": "Boil",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 356216
+  },
+  {
+    "folder": "Bullous pemphigoid",
+    "images": 67,
+    "readable": 67,
+    "unique_bytes": 67,
+    "unique_pixels": 67,
+    "bytes": 2533508
+  },
+  {
+    "folder": "Calcinosis cutis",
+    "images": 22,
+    "readable": 22,
+    "unique_bytes": 22,
+    "unique_pixels": 22,
+    "bytes": 797497
+  },
+  {
+    "folder": "Calciphylaxis",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 15,
+    "unique_pixels": 15,
+    "bytes": 744068
+  },
+  {
+    "folder": "Carotenoderma",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 95458
+  },
+  {
+    "folder": "Cellulitis",
+    "images": 21,
+    "readable": 21,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 884761
+  },
+  {
+    "folder": "Cherry angioma",
+    "images": 21,
+    "readable": 21,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 798777
+  },
+  {
+    "folder": "Chilblains",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 190824
+  },
+  {
+    "folder": "Chloracne _ MADISH",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 176494
+  },
+  {
+    "folder": "Cold urticaria",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 281929
+  },
+  {
+    "folder": "Colloid milium",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 141494
+  },
+  {
+    "folder": "Cryoglobulinaemia",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 16,
+    "unique_pixels": 16,
+    "bytes": 702249
+  },
+  {
+    "folder": "Cutaneous abscess",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 228932
+  },
+  {
+    "folder": "Cutaneous amyloidosis",
+    "images": 37,
+    "readable": 37,
+    "unique_bytes": 37,
+    "unique_pixels": 37,
+    "bytes": 1643498
+  },
+  {
+    "folder": "Cutaneous horn",
+    "images": 25,
+    "readable": 25,
+    "unique_bytes": 25,
+    "unique_pixels": 25,
+    "bytes": 1022513
+  },
+  {
+    "folder": "Cutaneous larva migrans",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 95419
+  },
+  {
+    "folder": "Cutaneous lupus erythematosus",
+    "images": 102,
+    "readable": 102,
+    "unique_bytes": 102,
+    "unique_pixels": 99,
+    "bytes": 3973704
+  },
+  {
+    "folder": "Cutaneous tuberculosis",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 1389000
+  },
+  {
+    "folder": "Cutaneous vasculitis",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 293563
+  },
+  {
+    "folder": "Cutis marmorata telangiectatica congenita",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 157971
+  },
+  {
+    "folder": "Cutis verticis gyrata",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 240813
+  },
+  {
+    "folder": "Delayed pressure urticaria",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 112029
+  },
+  {
+    "folder": "Dermatitis artefacta",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 133817
+  },
+  {
+    "folder": "Dermatofibroma",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 953314
+  },
+  {
+    "folder": "Dermatosis papulosa nigra",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 416394
+  },
+  {
+    "folder": "Digital myxoid pseudocyst",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 804981
+  },
+  {
+    "folder": "Discoid lupus erythematosus",
+    "images": 74,
+    "readable": 74,
+    "unique_bytes": 74,
+    "unique_pixels": 74,
+    "bytes": 3599071
+  },
+  {
+    "folder": "Disseminate and recurrent infundibulofolliculitis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 77949
+  },
+  {
+    "folder": "Disseminated secondary eczema",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 109739
+  },
+  {
+    "folder": "Disseminated superficial actinic porokeratosis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 273481
+  },
+  {
+    "folder": "Dowling-Degos disease",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 72404
+  },
+  {
+    "folder": "Dry gangrene",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 320687
+  },
+  {
+    "folder": "Dyshidrotic eczema (pompholyx)",
+    "images": 29,
+    "readable": 29,
+    "unique_bytes": 29,
+    "unique_pixels": 28,
+    "bytes": 1249905
+  },
+  {
+    "folder": "Ecthyma",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 297968
+  },
+  {
+    "folder": "Eczema herpeticum",
+    "images": 23,
+    "readable": 23,
+    "unique_bytes": 23,
+    "unique_pixels": 23,
+    "bytes": 1101956
+  },
+  {
+    "folder": "Elastolytic giant cell granuloma",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 96870
+  },
+  {
+    "folder": "Elastosis",
+    "images": 21,
+    "readable": 21,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 1104797
+  },
+  {
+    "folder": "Elastosis perforans serpiginosa",
+    "images": 14,
+    "readable": 14,
+    "unique_bytes": 14,
+    "unique_pixels": 14,
+    "bytes": 1032150
+  },
+  {
+    "folder": "Eosinophilic pustular folliculitis",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 11,
+    "unique_pixels": 11,
+    "bytes": 639249
+  },
+  {
+    "folder": "Epidermal naevus",
+    "images": 25,
+    "readable": 25,
+    "unique_bytes": 25,
+    "unique_pixels": 25,
+    "bytes": 1324493
+  },
+  {
+    "folder": "Epidermoid cyst",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 242756
+  },
+  {
+    "folder": "Epidermolysis bullosa",
+    "images": 21,
+    "readable": 21,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 876582
+  },
+  {
+    "folder": "Epidermolysis bullosa acquisita",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 731415
+  },
+  {
+    "folder": "Erysipelas",
+    "images": 14,
+    "readable": 14,
+    "unique_bytes": 14,
+    "unique_pixels": 14,
+    "bytes": 562126
+  },
+  {
+    "folder": "Erysipeloid",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 111561
+  },
+  {
+    "folder": "Erythema ab igne",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 176848
+  },
+  {
+    "folder": "Erythema annulare centrifugum",
+    "images": 29,
+    "readable": 29,
+    "unique_bytes": 29,
+    "unique_pixels": 28,
+    "bytes": 1005180
+  },
+  {
+    "folder": "Erythema dyschromicum perstans",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 152923
+  },
+  {
+    "folder": "Erythema elevatum diutinum",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 136142
+  },
+  {
+    "folder": "Erythema infectiosum",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 16,
+    "unique_pixels": 16,
+    "bytes": 627709
+  },
+  {
+    "folder": "Erythema multiforme",
+    "images": 33,
+    "readable": 33,
+    "unique_bytes": 33,
+    "unique_pixels": 33,
+    "bytes": 1549671
+  },
+  {
+    "folder": "Erythema nodosum",
+    "images": 18,
+    "readable": 18,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 644835
+  },
+  {
+    "folder": "Erythrodermic psoriasis",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 429373
+  },
+  {
+    "folder": "Erythrokeratoderma",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 267418
+  },
+  {
+    "folder": "Exanthems",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 342384
+  },
+  {
+    "folder": "Exercise-induced vasculitis",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 125168
+  },
+  {
+    "folder": "Exfoliative cheilitis",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 64260
+  },
+  {
+    "folder": "Extramammary Paget disease of skin",
+    "images": 32,
+    "readable": 32,
+    "unique_bytes": 32,
+    "unique_pixels": 32,
+    "bytes": 1763701
+  },
+  {
+    "folder": "Eyelid contact dermatitis",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 530443
+  },
+  {
+    "folder": "Fabry disease",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 129715
+  },
+  {
+    "folder": "Facial psoriasis",
+    "images": 31,
+    "readable": 31,
+    "unique_bytes": 31,
+    "unique_pixels": 31,
+    "bytes": 1435380
+  },
+  {
+    "folder": "Fissured tongue",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 175627
+  },
+  {
+    "folder": "Flea bite",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 119640
+  },
+  {
+    "folder": "Flexural psoriasis",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 720195
+  },
+  {
+    "folder": "Foreign body granuloma",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 156872
+  },
+  {
+    "folder": "Generalised essential telangiectasia",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 281312
+  },
+  {
+    "folder": "Generalised pustular psoriasis",
+    "images": 50,
+    "readable": 50,
+    "unique_bytes": 50,
+    "unique_pixels": 50,
+    "bytes": 2254849
+  },
+  {
+    "folder": "Genital Crohn disease",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 170347
+  },
+  {
+    "folder": "Genital psoriasis",
+    "images": 46,
+    "readable": 46,
+    "unique_bytes": 46,
+    "unique_pixels": 44,
+    "bytes": 1735089
+  },
+  {
+    "folder": "Geographic tongue",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 232766
+  },
+  {
+    "folder": "Gingivitis and periodontitis",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 302245
+  },
+  {
+    "folder": "Glomus tumour",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 164454
+  },
+  {
+    "folder": "Gout",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 11,
+    "unique_pixels": 11,
+    "bytes": 435513
+  },
+  {
+    "folder": "Granular parakeratosis",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 438815
+  },
+  {
+    "folder": "Granuloma annulare",
+    "images": 66,
+    "readable": 66,
+    "unique_bytes": 66,
+    "unique_pixels": 66,
+    "bytes": 2121572
+  },
+  {
+    "folder": "Granuloma faciale",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 264459
+  },
+  {
+    "folder": "Granuloma inguinale",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 153066
+  },
+  {
+    "folder": "Granulomatous dermatitis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 274162
+  },
+  {
+    "folder": "Hairy tongue",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 542074
+  },
+  {
+    "folder": "Halo naevus",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 1060392
+  },
+  {
+    "folder": "Hand dermatitis",
+    "images": 132,
+    "readable": 132,
+    "unique_bytes": 132,
+    "unique_pixels": 132,
+    "bytes": 6371855
+  },
+  {
+    "folder": "Henoch–Schönlein purpura",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 226375
+  },
+  {
+    "folder": "Hereditary haemorrhagic telangiectasia",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 395396
+  },
+  {
+    "folder": "Herpangina",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 70787
+  },
+  {
+    "folder": "Herpes simplex",
+    "images": 91,
+    "readable": 91,
+    "unique_bytes": 91,
+    "unique_pixels": 91,
+    "bytes": 4739100
+  },
+  {
+    "folder": "Herpes zoster",
+    "images": 39,
+    "readable": 39,
+    "unique_bytes": 39,
+    "unique_pixels": 39,
+    "bytes": 1645943
+  },
+  {
+    "folder": "Hidradenitis suppurativa",
+    "images": 128,
+    "readable": 128,
+    "unique_bytes": 128,
+    "unique_pixels": 128,
+    "bytes": 6187878
+  },
+  {
+    "folder": "Hyperhidrosis",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 287955
+  },
+  {
+    "folder": "Hyperkeratotic palmar dermatitis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 245524
+  },
+  {
+    "folder": "Ichthyosis",
+    "images": 62,
+    "readable": 62,
+    "unique_bytes": 62,
+    "unique_pixels": 62,
+    "bytes": 3403645
+  },
+  {
+    "folder": "Impetigo",
+    "images": 55,
+    "readable": 55,
+    "unique_bytes": 55,
+    "unique_pixels": 55,
+    "bytes": 2222111
+  },
+  {
+    "folder": "Intralymphatic histiocytosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 118888
+  },
+  {
+    "folder": "Intravascular lymphoma",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 111522
+  },
+  {
+    "folder": "Jessner lymphocytic infiltrate",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 290670
+  },
+  {
+    "folder": "Kaposi sarcoma",
+    "images": 25,
+    "readable": 25,
+    "unique_bytes": 25,
+    "unique_pixels": 25,
+    "bytes": 1337642
+  },
+  {
+    "folder": "Keloid scar",
+    "images": 75,
+    "readable": 75,
+    "unique_bytes": 74,
+    "unique_pixels": 73,
+    "bytes": 2902621
+  },
+  {
+    "folder": "Keratoelastoidosis marginalis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 167452
+  },
+  {
+    "folder": "Keratolytic winter erythema",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 1362283
+  },
+  {
+    "folder": "Keratosis pilaris",
+    "images": 43,
+    "readable": 43,
+    "unique_bytes": 43,
+    "unique_pixels": 43,
+    "bytes": 1798672
+  },
+  {
+    "folder": "Kerion",
+    "images": 19,
+    "readable": 19,
+    "unique_bytes": 19,
+    "unique_pixels": 19,
+    "bytes": 1131221
+  },
+  {
+    "folder": "Kyrle disease",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 462930
+  },
+  {
+    "folder": "Leg ulcer",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 42,
+    "bytes": 2193933
+  },
+  {
+    "folder": "Leishmaniasis",
+    "images": 32,
+    "readable": 32,
+    "unique_bytes": 32,
+    "unique_pixels": 32,
+    "bytes": 1618129
+  },
+  {
+    "folder": "Leprosy",
+    "images": 20,
+    "readable": 20,
+    "unique_bytes": 20,
+    "unique_pixels": 20,
+    "bytes": 1068130
+  },
+  {
+    "folder": "Leukaemia cutis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 234450
+  },
+  {
+    "folder": "Lichen myxoedematosus",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 212555
+  },
+  {
+    "folder": "Lichen nitidus",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 113052
+  },
+  {
+    "folder": "Lichen planus",
+    "images": 169,
+    "readable": 169,
+    "unique_bytes": 169,
+    "unique_pixels": 169,
+    "bytes": 6549069
+  },
+  {
+    "folder": "Lichen simplex",
+    "images": 62,
+    "readable": 62,
+    "unique_bytes": 62,
+    "unique_pixels": 62,
+    "bytes": 2969154
+  },
+  {
+    "folder": "Lichenoid keratosis",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 443803
+  },
+  {
+    "folder": "Lymphatic malformation",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 310732
+  },
+  {
+    "folder": "Macroglossia",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 172686
+  },
+  {
+    "folder": "Macular amyloidosis",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 283494
+  },
+  {
+    "folder": "Maculopapular cutaneous mastocytosis",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 456091
+  },
+  {
+    "folder": "Madarosis",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 17,
+    "unique_pixels": 17,
+    "bytes": 825607
+  },
+  {
+    "folder": "Majocchi granuloma",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 183220
+  },
+  {
+    "folder": "Malassezia folliculitis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 206183
+  },
+  {
+    "folder": "Male pattern hair loss",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 95082
+  },
+  {
+    "folder": "Malignant atrophic papulosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 158717
+  },
+  {
+    "folder": "Malignant histiocytoses",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 70277
+  },
+  {
+    "folder": "Marjolin ulcer",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 746460
+  },
+  {
+    "folder": "Martorell ulcer",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 129889
+  },
+  {
+    "folder": "Mastocytoma",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 11,
+    "unique_pixels": 11,
+    "bytes": 412457
+  },
+  {
+    "folder": "Measles",
+    "images": 36,
+    "readable": 36,
+    "unique_bytes": 36,
+    "unique_pixels": 36,
+    "bytes": 1422925
+  },
+  {
+    "folder": "Median canaliform nail dystrophy",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 213690
+  },
+  {
+    "folder": "Melanocytic naevus",
+    "images": 110,
+    "readable": 110,
+    "unique_bytes": 110,
+    "unique_pixels": 110,
+    "bytes": 5596322
+  },
+  {
+    "folder": "Melanoma",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 17,
+    "unique_pixels": 17,
+    "bytes": 823022
+  },
+  {
+    "folder": "Melanoma in situ",
+    "images": 56,
+    "readable": 56,
+    "unique_bytes": 56,
+    "unique_pixels": 56,
+    "bytes": 2468628
+  },
+  {
+    "folder": "Melanonychia",
+    "images": 36,
+    "readable": 36,
+    "unique_bytes": 36,
+    "unique_pixels": 36,
+    "bytes": 1509033
+  },
+  {
+    "folder": "Melanotic macule",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 125032
+  },
+  {
+    "folder": "Melasma",
+    "images": 32,
+    "readable": 32,
+    "unique_bytes": 32,
+    "unique_pixels": 32,
+    "bytes": 1587388
+  },
+  {
+    "folder": "Meningococcal disease",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 260159
+  },
+  {
+    "folder": "Merkel cell carcinoma",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 15,
+    "unique_pixels": 15,
+    "bytes": 835424
+  },
+  {
+    "folder": "Metastatic melanoma",
+    "images": 30,
+    "readable": 30,
+    "unique_bytes": 30,
+    "unique_pixels": 30,
+    "bytes": 1401653
+  },
+  {
+    "folder": "Meyerson naevus",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 225838
+  },
+  {
+    "folder": "Mid-dermal elastolysis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 122334
+  },
+  {
+    "folder": "Milium",
+    "images": 23,
+    "readable": 23,
+    "unique_bytes": 23,
+    "unique_pixels": 23,
+    "bytes": 1205254
+  },
+  {
+    "folder": "Milker_s nodule",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 292921
+  },
+  {
+    "folder": "Mixed connective tissue disease",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 189443
+  },
+  {
+    "folder": "Molluscum contagiosum",
+    "images": 100,
+    "readable": 100,
+    "unique_bytes": 100,
+    "unique_pixels": 99,
+    "bytes": 5176501
+  },
+  {
+    "folder": "Morbilliform drug reaction",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 135731
+  },
+  {
+    "folder": "Morphoea",
+    "images": 45,
+    "readable": 45,
+    "unique_bytes": 45,
+    "unique_pixels": 45,
+    "bytes": 1905293
+  },
+  {
+    "folder": "Mucocoele of the lip",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 127249
+  },
+  {
+    "folder": "Multicentric reticulohistiocytosis",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 436496
+  },
+  {
+    "folder": "Multiple self-healing squamous epitheliomas of Ferguson-Smith",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 219122
+  },
+  {
+    "folder": "Mycetoma",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 123107
+  },
+  {
+    "folder": "Mycoplasma pneumoniae infection",
+    "images": 19,
+    "readable": 19,
+    "unique_bytes": 19,
+    "unique_pixels": 19,
+    "bytes": 970997
+  },
+  {
+    "folder": "Mycosis fungoides",
+    "images": 53,
+    "readable": 53,
+    "unique_bytes": 53,
+    "unique_pixels": 53,
+    "bytes": 2093808
+  },
+  {
+    "folder": "Myxoma syndrome",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 118127
+  },
+  {
+    "folder": "Naevus anaemicus",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 210976
+  },
+  {
+    "folder": "Naevus depigmentosus",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 205491
+  },
+  {
+    "folder": "Naevus flammeus simplex",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 171201
+  },
+  {
+    "folder": "Naevus of Ota, naevus of Ito and naevus of Hori",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 341307
+  },
+  {
+    "folder": "Napkin dermatitis",
+    "images": 37,
+    "readable": 37,
+    "unique_bytes": 37,
+    "unique_pixels": 37,
+    "bytes": 1520574
+  },
+  {
+    "folder": "Necrobiosis lipoidica",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 11,
+    "unique_pixels": 11,
+    "bytes": 486796
+  },
+  {
+    "folder": "Necrolytic migratory erythema",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 253891
+  },
+  {
+    "folder": "Necrotising fasciitis",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 15,
+    "unique_pixels": 15,
+    "bytes": 699756
+  },
+  {
+    "folder": "Neonatal lupus",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 397619
+  },
+  {
+    "folder": "Neonatal subcutaneous fat necrosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 68915
+  },
+  {
+    "folder": "Neurofibromatosis",
+    "images": 36,
+    "readable": 36,
+    "unique_bytes": 36,
+    "unique_pixels": 36,
+    "bytes": 1649869
+  },
+  {
+    "folder": "Nevus comedonicus",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 218445
+  },
+  {
+    "folder": "Nickel allergy",
+    "images": 25,
+    "readable": 25,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 1449001
+  },
+  {
+    "folder": "Nipple eczema",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 691807
+  },
+  {
+    "folder": "Nodular chondrodermatitis",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 405102
+  },
+  {
+    "folder": "Nodular lymphangitis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 128997
+  },
+  {
+    "folder": "Nodular melanoma",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 316943
+  },
+  {
+    "folder": "Non-albicans candida infections",
+    "images": 71,
+    "readable": 71,
+    "unique_bytes": 71,
+    "unique_pixels": 69,
+    "bytes": 2762101
+  },
+  {
+    "folder": "Non-sexually acquired genital ulceration",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 402499
+  },
+  {
+    "folder": "Noonan syndrome with multiple lentigines",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 228288
+  },
+  {
+    "folder": "Notalgia paraesthetica",
+    "images": 24,
+    "readable": 24,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 1031670
+  },
+  {
+    "folder": "Nummular eczematous dermatitis",
+    "images": 144,
+    "readable": 144,
+    "unique_bytes": 144,
+    "unique_pixels": 140,
+    "bytes": 5108012
+  },
+  {
+    "folder": "Ocular melanoma",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 241202
+  },
+  {
+    "folder": "Onychocryptosis",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 532073
+  },
+  {
+    "folder": "Onychogryphosis",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 580547
+  },
+  {
+    "folder": "Onychomycosis",
+    "images": 66,
+    "readable": 66,
+    "unique_bytes": 62,
+    "unique_pixels": 62,
+    "bytes": 3080418
+  },
+  {
+    "folder": "Onychopapilloma",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 246296
+  },
+  {
+    "folder": "Oral candidiasis",
+    "images": 19,
+    "readable": 19,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 847337
+  },
+  {
+    "folder": "Oral mucositis - Stomatitis",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 15,
+    "unique_pixels": 15,
+    "bytes": 563097
+  },
+  {
+    "folder": "Oral squamous cell carcinoma",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 221782
+  },
+  {
+    "folder": "Orf",
+    "images": 41,
+    "readable": 41,
+    "unique_bytes": 41,
+    "unique_pixels": 41,
+    "bytes": 2558041
+  },
+  {
+    "folder": "Orofacial granulomatosis",
+    "images": 18,
+    "readable": 18,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 621352
+  },
+  {
+    "folder": "Osteoma cutis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 306794
+  },
+  {
+    "folder": "PHACE syndrome",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 116007
+  },
+  {
+    "folder": "Pachyonychia congenita",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 287439
+  },
+  {
+    "folder": "Palmoplantar keratoderma",
+    "images": 49,
+    "readable": 49,
+    "unique_bytes": 49,
+    "unique_pixels": 49,
+    "bytes": 2555468
+  },
+  {
+    "folder": "Palmoplantar pustulosis",
+    "images": 93,
+    "readable": 93,
+    "unique_bytes": 93,
+    "unique_pixels": 93,
+    "bytes": 4871049
+  },
+  {
+    "folder": "Panniculitis",
+    "images": 23,
+    "readable": 23,
+    "unique_bytes": 23,
+    "unique_pixels": 23,
+    "bytes": 782742
+  },
+  {
+    "folder": "Papular acrodermatitis of childhood",
+    "images": 55,
+    "readable": 55,
+    "unique_bytes": 55,
+    "unique_pixels": 55,
+    "bytes": 1827729
+  },
+  {
+    "folder": "Papular urticaria",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 327794
+  },
+  {
+    "folder": "Parakeratosis pustulosa",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 124028
+  },
+  {
+    "folder": "Paraneoplastic acrokeratosis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 284956
+  },
+  {
+    "folder": "Paronychia",
+    "images": 30,
+    "readable": 30,
+    "unique_bytes": 30,
+    "unique_pixels": 30,
+    "bytes": 1605281
+  },
+  {
+    "folder": "Pearly penile papules",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 735152
+  },
+  {
+    "folder": "Pediculosis capitis",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 1012076
+  },
+  {
+    "folder": "Pellagra",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 188937
+  },
+  {
+    "folder": "Pemphigoid gestationis",
+    "images": 50,
+    "readable": 50,
+    "unique_bytes": 48,
+    "unique_pixels": 48,
+    "bytes": 1852927
+  },
+  {
+    "folder": "Pemphigus foliaceus",
+    "images": 19,
+    "readable": 19,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 764675
+  },
+  {
+    "folder": "Pemphigus vulgaris",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 42,
+    "bytes": 1779109
+  },
+  {
+    "folder": "Penile epithelial neoplasia",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 86821
+  },
+  {
+    "folder": "Periarteritis nodosa",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 14,
+    "unique_pixels": 14,
+    "bytes": 631553
+  },
+  {
+    "folder": "Periorificial dermatitis",
+    "images": 34,
+    "readable": 34,
+    "unique_bytes": 34,
+    "unique_pixels": 34,
+    "bytes": 1304931
+  },
+  {
+    "folder": "Piebaldism",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 560395
+  },
+  {
+    "folder": "Piezogenic papules",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 324831
+  },
+  {
+    "folder": "Pigmented purpura",
+    "images": 51,
+    "readable": 51,
+    "unique_bytes": 51,
+    "unique_pixels": 51,
+    "bytes": 1652169
+  },
+  {
+    "folder": "Pilar cyst",
+    "images": 38,
+    "readable": 38,
+    "unique_bytes": 38,
+    "unique_pixels": 38,
+    "bytes": 1763711
+  },
+  {
+    "folder": "Pilomatricoma",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 685646
+  },
+  {
+    "folder": "Pilonidal disease",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 97967
+  },
+  {
+    "folder": "Pityriasis alba",
+    "images": 18,
+    "readable": 18,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 638654
+  },
+  {
+    "folder": "Pityriasis amiantacea",
+    "images": 24,
+    "readable": 24,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 1823832
+  },
+  {
+    "folder": "Pityriasis rubra pilaris",
+    "images": 43,
+    "readable": 43,
+    "unique_bytes": 30,
+    "unique_pixels": 30,
+    "bytes": 2223629
+  },
+  {
+    "folder": "Pityriasis versicolor",
+    "images": 47,
+    "readable": 47,
+    "unique_bytes": 47,
+    "unique_pixels": 47,
+    "bytes": 1974355
+  },
+  {
+    "folder": "Plasma cell balanitis_vulvitis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 201886
+  },
+  {
+    "folder": "Plasmacytoma",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 318579
+  },
+  {
+    "folder": "Poikiloderma of Civatte",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 511790
+  },
+  {
+    "folder": "Poliosis",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 965155
+  },
+  {
+    "folder": "Polycystic ovary syndrome",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 291860
+  },
+  {
+    "folder": "Polymorphic eruption of pregnancy",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 7,
+    "unique_pixels": 6,
+    "bytes": 351313
+  },
+  {
+    "folder": "Polymorphic light eruption",
+    "images": 28,
+    "readable": 28,
+    "unique_bytes": 28,
+    "unique_pixels": 28,
+    "bytes": 1138800
+  },
+  {
+    "folder": "Polythelia",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 537326
+  },
+  {
+    "folder": "Porphyria cutanea tarda",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 910357
+  },
+  {
+    "folder": "Porphyria variegata",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 152635
+  },
+  {
+    "folder": "Postinflammatory hyperpigmentation",
+    "images": 28,
+    "readable": 28,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 1313199
+  },
+  {
+    "folder": "Pressure ulcer",
+    "images": 25,
+    "readable": 25,
+    "unique_bytes": 23,
+    "unique_pixels": 23,
+    "bytes": 998126
+  },
+  {
+    "folder": "Pretibial myxoedema",
+    "images": 40,
+    "readable": 40,
+    "unique_bytes": 40,
+    "unique_pixels": 40,
+    "bytes": 1447390
+  },
+  {
+    "folder": "Progressive macular hypomelanosis",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 77356
+  },
+  {
+    "folder": "Prurigo",
+    "images": 99,
+    "readable": 99,
+    "unique_bytes": 99,
+    "unique_pixels": 99,
+    "bytes": 3891786
+  },
+  {
+    "folder": "Pruritus",
+    "images": 55,
+    "readable": 55,
+    "unique_bytes": 55,
+    "unique_pixels": 55,
+    "bytes": 2459205
+  },
+  {
+    "folder": "Pseudofolliculitis barbae",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 570120
+  },
+  {
+    "folder": "Pseudopelade of Brocq",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 544335
+  },
+  {
+    "folder": "Pseudoporphyria",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 363957
+  },
+  {
+    "folder": "Psoriasis",
+    "images": 103,
+    "readable": 103,
+    "unique_bytes": 103,
+    "unique_pixels": 103,
+    "bytes": 4834824
+  },
+  {
+    "folder": "Psoriatic arthritis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 148779
+  },
+  {
+    "folder": "Purpura",
+    "images": 113,
+    "readable": 113,
+    "unique_bytes": 113,
+    "unique_pixels": 112,
+    "bytes": 5318891
+  },
+  {
+    "folder": "Pyoderma",
+    "images": 76,
+    "readable": 76,
+    "unique_bytes": 76,
+    "unique_pixels": 76,
+    "bytes": 3408316
+  },
+  {
+    "folder": "Pyogenic granuloma",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 17,
+    "unique_pixels": 17,
+    "bytes": 675147
+  },
+  {
+    "folder": "Radiation dermatitis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 319072
+  },
+  {
+    "folder": "Raynaud phenomenon",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 212793
+  },
+  {
+    "folder": "Rhinophyma",
+    "images": 33,
+    "readable": 33,
+    "unique_bytes": 33,
+    "unique_pixels": 33,
+    "bytes": 1520265
+  },
+  {
+    "folder": "Rosacea",
+    "images": 46,
+    "readable": 46,
+    "unique_bytes": 46,
+    "unique_pixels": 46,
+    "bytes": 1882054
+  },
+  {
+    "folder": "Roseola",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 11,
+    "unique_pixels": 11,
+    "bytes": 378895
+  },
+  {
+    "folder": "Rothmund-Thomson syndrome",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 208974
+  },
+  {
+    "folder": "Rubella",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 94871
+  },
+  {
+    "folder": "Sarcoidosis",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 42,
+    "bytes": 1758661
+  },
+  {
+    "folder": "Scabies",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 42,
+    "bytes": 1684999
+  },
+  {
+    "folder": "Scarlatina",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 197846
+  },
+  {
+    "folder": "Scurvy",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 311495
+  },
+  {
+    "folder": "Sebaceous carcinoma",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 324299
+  },
+  {
+    "folder": "Sebaceous hyperplasia",
+    "images": 23,
+    "readable": 23,
+    "unique_bytes": 23,
+    "unique_pixels": 23,
+    "bytes": 1034499
+  },
+  {
+    "folder": "Solar lentigo",
+    "images": 33,
+    "readable": 33,
+    "unique_bytes": 33,
+    "unique_pixels": 33,
+    "bytes": 1581972
+  },
+  {
+    "folder": "Solar urticaria",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 132734
+  },
+  {
+    "folder": "Spider angioma",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 285359
+  },
+  {
+    "folder": "Squamous cell carcinoma",
+    "images": 55,
+    "readable": 55,
+    "unique_bytes": 55,
+    "unique_pixels": 55,
+    "bytes": 3380476
+  },
+  {
+    "folder": "Steatocystoma multiplex",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 244711
+  },
+  {
+    "folder": "Sunburn",
+    "images": 41,
+    "readable": 41,
+    "unique_bytes": 41,
+    "unique_pixels": 41,
+    "bytes": 1657821
+  },
+  {
+    "folder": "Swimmer_s itch",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 282742
+  },
+  {
+    "folder": "Syphilis",
+    "images": 81,
+    "readable": 81,
+    "unique_bytes": 81,
+    "unique_pixels": 81,
+    "bytes": 3515451
+  },
+  {
+    "folder": "Systemic lupus erythematosus",
+    "images": 58,
+    "readable": 58,
+    "unique_bytes": 58,
+    "unique_pixels": 58,
+    "bytes": 3033791
+  },
+  {
+    "folder": "Systemic sclerosis",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 600714
+  },
+  {
+    "folder": "Sézary syndrome",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 464907
+  },
+  {
+    "folder": "Tinea barbae",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 408941
+  },
+  {
+    "folder": "Tinea capitis",
+    "images": 18,
+    "readable": 18,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 1118607
+  },
+  {
+    "folder": "Tinea corporis",
+    "images": 18,
+    "readable": 18,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 995366
+  },
+  {
+    "folder": "Tinea cruris",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 651971
+  },
+  {
+    "folder": "Tinea faciei",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 513327
+  },
+  {
+    "folder": "Tinea manuum",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 446308
+  },
+  {
+    "folder": "Tinea pedis",
+    "images": 35,
+    "readable": 35,
+    "unique_bytes": 35,
+    "unique_pixels": 35,
+    "bytes": 1699561
+  },
+  {
+    "folder": "Toxic erythema of the newborn",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 122261
+  },
+  {
+    "folder": "Traction alopecia",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 421182
+  },
+  {
+    "folder": "Transient lingual papillitis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 187044
+  },
+  {
+    "folder": "Transient neonatal pustular melanosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 132537
+  },
+  {
+    "folder": "Triangular alopecia",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 176378
+  },
+  {
+    "folder": "Trichomycosis axillaris",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 146831
+  },
+  {
+    "folder": "Trichotillomania",
+    "images": 21,
+    "readable": 21,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 1355066
+  },
+  {
+    "folder": "Tuberous sclerosis",
+    "images": 56,
+    "readable": 56,
+    "unique_bytes": 56,
+    "unique_pixels": 56,
+    "bytes": 2402203
+  },
+  {
+    "folder": "Urticaria",
+    "images": 32,
+    "readable": 32,
+    "unique_bytes": 32,
+    "unique_pixels": 32,
+    "bytes": 1090099
+  },
+  {
+    "folder": "Urticarial vasculitis",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 359484
+  },
+  {
+    "folder": "Varicose veins",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 446236
+  },
+  {
+    "folder": "Venous eczema",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 40,
+    "bytes": 1894325
+  },
+  {
+    "folder": "Venous lake",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 17,
+    "unique_pixels": 17,
+    "bytes": 886988
+  },
+  {
+    "folder": "Vitiligo",
+    "images": 72,
+    "readable": 72,
+    "unique_bytes": 72,
+    "unique_pixels": 72,
+    "bytes": 2599122
+  },
+  {
+    "folder": "Vulval intraepithelial neoplasia",
+    "images": 62,
+    "readable": 62,
+    "unique_bytes": 56,
+    "unique_pixels": 56,
+    "bytes": 3310735
+  },
+  {
+    "folder": "Vulvovaginal candidiasis",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 15,
+    "unique_pixels": 15,
+    "bytes": 531031
+  },
+  {
+    "folder": "Whipple disease",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 152048
+  },
+  {
+    "folder": "Winter itch",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 102018
+  },
+  {
+    "folder": "Wound infection",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 678376
+  },
+  {
+    "folder": "Xanthoma",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 42,
+    "bytes": 2051851
+  },
+  {
+    "folder": "Xeroderma pigmentosum",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 445183
+  },
+  {
+    "folder": "Zygomycosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 146525
+  }
+]

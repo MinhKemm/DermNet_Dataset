@@ -1,0 +1,2789 @@
+[
+  {
+    "hash": "80b18bc79c6c14c46c5139f4ca0f6456dc391465355bbe817360fb5eca83f537",
+    "paths": [
+      "Acquired dermal macular hyperpigmentation/acquired-dermal-macular-hyperpigmentation-018.jpg",
+      "Erythema dyschromicum perstans/acquired-dermal-macular-hyperpigmentation-018.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "95c170579843715382c52c163b75d582c606f904c28d78fb769d267b11d97633",
+    "paths": [
+      "Acral lentiginous melanoma/acral-lentiginous-melanoma-0005.jpg",
+      "Melanoma in situ/acral-lentiginous-melanoma-0005.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "06b1828183d3bf7b0253b8f955363ea77c2336c68859612549f9d03856466a3a",
+    "paths": [
+      "Acral lentiginous melanoma/alm16.jpg",
+      "Melanoma in situ/alm16.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d6ebcbd9d6a87a91f68e91981173e836dc866be1023983aeb482872f29870189",
+    "paths": [
+      "Actinic keratosis/313.jpg",
+      "Purpura/06.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "9ac39f4ec316a1705cb9728f74796762b42a31bfb44a1fab5a0d8503e1eb8649",
+    "paths": [
+      "Actinic keratosis/316.jpg",
+      "Cutaneous horn/316.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "3c56daa97b15819b555571642b7777c1e2173ff4075d84c2f1b2b2943963d9d8",
+    "paths": [
+      "Alopecia areata/1330.jpg",
+      "Poliosis/01.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "ded4be085c38e9701c4375e5c5b7a38035ed07385d1d52b0e9e5e8ea2027f936",
+    "paths": [
+      "Alopecia areata/madarosis-02.jpg",
+      "Madarosis/madarosis-02.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "f6db96f973d9f54fa7e88997c1ba3ff1e275ccb2f28fb6004de63f8b7fed8281",
+    "paths": [
+      "Alopecia areata/madarosis-03.jpg",
+      "Madarosis/madarosis-03.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "0cf2d517e1f0b07dd59fa69a6d4c0aaa4b5c3794b501cd1e1a660f143486b700",
+    "paths": [
+      "Alopecia areata/madarosis-10.jpg",
+      "Madarosis/madarosis-10.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "5afa24418fb5fab4d8f27becd053d234cc93896ce5b9de878231a58ee551fda0",
+    "paths": [
+      "Alopecia areata/madarosis-11.jpg",
+      "Madarosis/madarosis-11.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "62efba5fac5ddd131cf90be72596a3cbcc04b90aae468e429710d6a87de6c96e",
+    "paths": [
+      "Alopecia areata/madarosis-12.jpg",
+      "Madarosis/madarosis-12.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d2b0b89a66f84146b7e9001d09cb2d0a2af39b8d419fbdf82f68c3e28c52b126",
+    "paths": [
+      "Amelanotic melanoma/amelanotic-melanoma-028.jpg",
+      "Metastatic melanoma/amelanotic-melanoma-028.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "5d724cf7a4ed6361adb139a8e0bda3c5a35e82840395b7516e4528c10b99df72",
+    "paths": [
+      "Amelanotic melanoma/amelanotic-melanoma-2m.jpg",
+      "Melanoma in situ/amelanotic-melanoma-2m.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "bf3b4f17ca7ebedcb4cfd6f35f16b37a4a0589556693a904db558959fb992586",
+    "paths": [
+      "Amputation stump dermatoses/amputation-stump-03.jpg",
+      "Purpura/08.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "f4e93abc59a61d354ea5a621a514bbe728e61624720b9be350679fa2a71e2c53",
+    "paths": [
+      "Amputation stump dermatoses/amputation-stump-05.jpg",
+      "Molluscum contagiosum/amputation-stump-05.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "8b02935983d6c8e682f897205a0c8a3b3d41eeb4fc0d7efa10984606b180c2a9",
+    "paths": [
+      "Amputation stump dermatoses/amputation-stump-07.jpg",
+      "Molluscum contagiosum/amputation-stump-07.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "59a631a7ce0aba5d03bbb4edd97a489b693700f5bff92be23aaae13a98850f5e",
+    "paths": [
+      "Anagen effluvium/anagen-effluvium-14.jpg",
+      "Kerion/anagen-effluvium-14.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b9482c0477564dbc77445160d71431b6e693dbd58e769dd90d64ee37efdf45a7",
+    "paths": [
+      "Anagen effluvium/anagen-effluvium-15.jpg",
+      "Kerion/anagen-effluvium-15.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "3d277ed4183c630468a75ae58bc5858b7fd2362c7d3ef928b2ee2c0254ffab14",
+    "paths": [
+      "Anagen effluvium/anagen-effluvium-16.jpg",
+      "Kerion/anagen-effluvium-16.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "267e201f30d7dd7ccbb9f760251ffb37875d3aa324413a7ef1a6a360f3c487b5",
+    "paths": [
+      "Angular cheilitis/1282-big.jpg",
+      "Oral candidiasis/1282-big.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "26440b0a4cf5e78cb632c1efe1bf2dce7b4d1a8725fb80451771779b37069a6c",
+    "paths": [
+      "Angular cheilitis/ang-cheilitis.jpg",
+      "Non-albicans candida infections/34.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "af1acd91a0d28e5016c4073fe8947446c88175f64d748833ce582d61e1a19d92",
+    "paths": [
+      "Angular cheilitis/angular-cheilitis-0012.jpg",
+      "Non-albicans candida infections/35.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b0d9a3a72e1ab29163a7dc8bb50769c9acdf7116adbfea82b313a81954de8f5f",
+    "paths": [
+      "Angular cheilitis/cand-oral.jpg",
+      "Oral candidiasis/01.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "2f95e8a9aa5061ed888f9b5ab33d784294b3f0734bc5001e3631e9123f13eaa9",
+    "paths": [
+      "Angular cheilitis/perleche9.jpg",
+      "Non-albicans candida infections/70.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b751e8c7d6bc4c01f71b743ba0d002f270275cea796ad90e74ece277697842b3",
+    "paths": [
+      "Aphthous ulcer/aphth1.jpg",
+      "Oral mucositis - Stomatitis/17.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "02c5bd54dfb7812cafc0c3c77d711e6832d7b8804b4cdda2d3aa3c497bad4bb2",
+    "paths": [
+      "Aphthous ulcer/enteroviral-stomatitis-044.jpg",
+      "Oral mucositis - Stomatitis/34.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "3c649c2ec3f293d0432aa17260bc4070aeb0c1a961a24f9533855aa07fc24dd7",
+    "paths": [
+      "Aspergillosis/aspergillosis1.jpg",
+      "Panniculitis/05.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "be2bdbeadf3f0f97467bfc05dc8a70114ab3d8d3792f5d2c72ab8b5440e9d5c1",
+    "paths": [
+      "Atopic dermatitis/at-mol.jpg",
+      "Molluscum contagiosum/at-mol.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "81252a6b9a7e43fadb13f7001185681482569e5a810111619d1ecef7156fee64",
+    "paths": [
+      "Atopic dermatitis/atopic-dermatitis-0025.jpg",
+      "Nipple eczema/01.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "f304b7dc0ec3bb8fd0fb9ba6f961660dfdd03a4382a0b26ba538d6ca411aee12",
+    "paths": [
+      "Atopic dermatitis/atopic-dermatitis-0039.jpg",
+      "Postinflammatory hyperpigmentation/08.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "f40d5207186ffe0580fbe313c8de4d3e5a559478b79372811e399f59b35df6e0",
+    "paths": [
+      "Atopic dermatitis/atopic-dermatitis-0049.jpg",
+      "Prurigo/05.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6bf212c6c9353729f6ecb880af272cb2a8b4f72a266ba0cfbd9b44fa836a3b06",
+    "paths": [
+      "Atopic dermatitis/atopic26.jpg",
+      "Hand dermatitis/atopic26.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "ff8d6815cb39074e5d415a1a8c56cbc209753ae2dbcb7c8413f4dfc7018d0021",
+    "paths": [
+      "Atopic dermatitis/atopic3.jpg",
+      "Eyelid contact dermatitis/atopic3.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "a9c8232c9a21abc6d169ba26c9964a2c800cd965c956b71173ebd87e45bded64",
+    "paths": [
+      "Atopic dermatitis/atopic36.jpg",
+      "Hand dermatitis/atopic36.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6c20e1c798baa38fbca5aea0afc3bf8b0c2cc435c8b5943e6afa810f60538a85",
+    "paths": [
+      "Atopic dermatitis/eapsimplex1.jpg",
+      "Prurigo/09.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "df47ea1ac600667f3260533c5d2937b7a29554b08db38a399f37611c68c2843c",
+    "paths": [
+      "Atopic dermatitis/itchy-skin-41.jpg",
+      "Hand dermatitis/itchy-skin-41.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "5361a051d6532036d170f8bd8394de98b31973cf6c4001919ed60994e2931c19",
+    "paths": [
+      "Atopic dermatitis/nipple-eczema-08.jpg",
+      "Nipple eczema/09.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "328a2966e927b5fbdcdb3cff2b8df97d546127ad040776326005bcc4d448d157",
+    "paths": [
+      "Atopic dermatitis/prurigo-01.jpg",
+      "Prurigo/77.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d05fa9a974cb6cd63eaf4855e412e18e0dee4d32b8570e7d053933a9d4d41bed",
+    "paths": [
+      "Atypical melanocytic naevus/3161.jpg",
+      "Melanocytic naevus/3161.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "85ef026d64d30a287722f08edca571658e4ce2e8ba66b32bb91f23b7840a7c3a",
+    "paths": [
+      "Atypical melanocytic naevus/3167.jpg",
+      "Melanocytic naevus/3167.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "26dd0fa845b7e5c73256845537337612a5fb42f3c99578afd349bee0131bc021",
+    "paths": [
+      "Atypical melanocytic naevus/3170.jpg",
+      "Melanocytic naevus/3170.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "33df26d77e6563e1c2404c94774e6bc624944957cf9893af46b003195909f7c7",
+    "paths": [
+      "Atypical melanocytic naevus/3173.jpg",
+      "Melanocytic naevus/3173.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "3e131bb298371d7715a74a3ca1a2b6082ac9c15a2aaba560887d550e05004a82",
+    "paths": [
+      "Bullous pemphigoid/bullous-pemphigoid-00092.jpg",
+      "Vulval intraepithelial neoplasia/10.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "2aa69153944cce72718d70aa582148f318762616a7d4b9789cdaaa6288478923",
+    "paths": [
+      "Bullous pemphigoid/bullous-pemphigoid-00096.jpg",
+      "Vulval intraepithelial neoplasia/11.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "166139445211a4421002ba231669bbd97c41a034d5f1bcb152e4c6dc9f82106d",
+    "paths": [
+      "Bullous pemphigoid/bullous-pemphigoid-00098.jpg",
+      "Vulval intraepithelial neoplasia/13.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "84ba235e609bdba9b647c98ec47923ba7f1abd7b019910818bbd25a6418bee29",
+    "paths": [
+      "Calcinosis cutis/calcinosis1.jpg",
+      "Systemic sclerosis/02.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "8144fdb24ada234a04f62db6cb84f5831c202ede9c14eb0421c5f3192afae417",
+    "paths": [
+      "Calciphylaxis/calciphylaxis-0001.jpg",
+      "Purpura/17.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "5936eaf0a7a8fd53fe8635aa28e81fe4af81a21c8cde394d469da5127d933d72",
+    "paths": [
+      "Calciphylaxis/calciphylaxis-0002.jpg",
+      "Purpura/18.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "1d7e704c69ed2d787ebf5f5044511a5609a6bbd7d7486b5800f374b9046d49f9",
+    "paths": [
+      "Calciphylaxis/calciphylaxis-0003.jpg",
+      "Purpura/19.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "83143a2de50e048dc9c21bf3524d84c30961f7a3de088f17aa8525ba8b739d70",
+    "paths": [
+      "Cryoglobulinaemia/cryoglobulinaemia-0001.jpg",
+      "Purpura/23.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "bf64c4f76674b7a13ef87640252cd350e01c3ecd7bcf486b1e9600f2f055328e",
+    "paths": [
+      "Cryoglobulinaemia/cryoglobulinaemia-0002.jpg",
+      "Purpura/24.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "16e64960dd40005e7d971b8550855b2cd8edd89145ee80b5c975cf324f1a79ee",
+    "paths": [
+      "Cryoglobulinaemia/raynaud.jpg",
+      "Raynaud phenomenon/03.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d89ec727d24940bf42e48757e63eab57718435ed88a24a192101f0b9bbf49f2a",
+    "paths": [
+      "Cutaneous abscess/abscess-3.jpg",
+      "Wound infection/01.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "7232664339132ecadc6adee3fc9a79e429d63fe82d0dfcb762ec84825088296e",
+    "paths": [
+      "Cutaneous amyloidosis/amyloid5.jpg",
+      "Purpura/09.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d0ed907d5f0fcdb49f8a5b2589e029e1a3741c753e9c7396822c1b45fec3a326",
+    "paths": [
+      "Cutaneous amyloidosis/amyloid7.jpg",
+      "Purpura/10.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "afd59a21a731acdebff84b2645038361994cdd3a39ffcc9cd71dcb74273eaeb6",
+    "paths": [
+      "Cutaneous amyloidosis/amyloid8.jpg",
+      "Macroglossia/amyloid8.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6c6a704a8b815888e27835d5f6388174a37fefc3f74e17a8694555e040906d8c",
+    "paths": [
+      "Cutaneous amyloidosis/amyloidosis-0005.jpg",
+      "Macular amyloidosis/amyloidosis-0005.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6b1d9b2f4693b2efa26d8bc736365df317e94c548a8d84876dd44cbf617c38a7",
+    "paths": [
+      "Cutaneous amyloidosis/amyloidosis-0013.jpg",
+      "Macular amyloidosis/amyloidosis-0013.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "a43219f9398dc0b52deda9f8ff4265e3f1985863984dc5f2a66abd0a41cfdd1e",
+    "paths": [
+      "Cutaneous amyloidosis/amyloidosis-0014.jpg",
+      "Macular amyloidosis/amyloidosis-0014.jpg",
+      "Notalgia paraesthetica/01.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6cf9eafb4002b7fd8c76539d2baf20f1e2294a31c4636bb942d92accbb73cd33",
+    "paths": [
+      "Cutaneous lupus erythematosus/cdle-04.jpg",
+      "Discoid lupus erythematosus/cdle-04.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "05167f6371bc909906ddee21fa63819bc0fb3d6049a9b0511ec9b52979621b74",
+    "paths": [
+      "Cutaneous lupus erythematosus/htrophicle.jpg",
+      "Discoid lupus erythematosus/htrophicle.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "72023075cd8f24300c26b9b470a64552f01c5caa5ab05b4d12312e91ac6c514a",
+    "paths": [
+      "Cutaneous lupus erythematosus/lupus-pann.jpg",
+      "Panniculitis/11.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "4a329d5c389cd5d7ab3525fb401368e903c071bc77db6c976301e3aa247ce0f0",
+    "paths": [
+      "Cutaneous lupus erythematosus/palmoplantar-le.jpg",
+      "Discoid lupus erythematosus/palmoplantar-le.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b6c2dace208919304bbaa5298c45c7030d203993377f4005c52b0f8fa5368c70",
+    "paths": [
+      "Discoid lupus erythematosus/madarosis-01.jpg",
+      "Madarosis/madarosis-01.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "7fdfd5941f64cb581a605a458caebd837d5d43004d10e3b8599bb5db134d4df0",
+    "paths": [
+      "Dry gangrene/purpura-fulminans-0011.jpg",
+      "Purpura/75.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "cf463cc30fa5ceba92966c47f168c3e242400c86fa2e5bd50e4170704adf798b",
+    "paths": [
+      "Dry gangrene/purpura-fulminans-0012.jpg",
+      "Purpura/76.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "44c211ae13459ceb54c4081be121faa24d975ff41bef5792e8d02693ee724c2e",
+    "paths": [
+      "Dyshidrotic eczema (pompholyx)/dyshidrotic-eczema-0002.jpg",
+      "Vulval intraepithelial neoplasia/16.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "1e42d9eb0ac98821d0016ae2ffd0d428d08122c66afbcd1721aa33a7df71eec1",
+    "paths": [
+      "Elastosis/eps4.jpg",
+      "Elastosis perforans serpiginosa/eps4.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "1b802910b5a813325b33e79c37e21ff4a8b0d8f80cf3bcddc79e55b56c642c90",
+    "paths": [
+      "Elastosis/eps5.jpg",
+      "Elastosis perforans serpiginosa/eps5.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "2b69f8c593574a4285baa5092698d731d60674ecfad9d7be85879f3834ae25ba",
+    "paths": [
+      "Elastosis/eps6.jpg",
+      "Elastosis perforans serpiginosa/eps6.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "9ebd44a3a65c3f459056e3e8356462da74ca07ab6d37ff1f9dde6cc4b4a780bd",
+    "paths": [
+      "Epidermolysis bullosa/milia03.jpg",
+      "Milium/milia03.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "edca515ef69c5deba25f6e023fb14ee639e1e261d596e9b7e1de2010cfbb8006",
+    "paths": [
+      "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0002.jpg",
+      "Postinflammatory hyperpigmentation/10.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "8c0d2c4779b0ed0aa20f88a7f677be4b95ba7495546469323e57ed4523de8ca6",
+    "paths": [
+      "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0003.jpg",
+      "Postinflammatory hyperpigmentation/11.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "7154905e729473a54a3e7918bbb79f712d8265809ae67888aaa16e6365394ad4",
+    "paths": [
+      "Erythema multiforme/mycoplasma1.jpg",
+      "Mycoplasma pneumoniae infection/mycoplasma1.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "4e6b9fd921ad717a4fe12885370eac9a7931a90bb102de1c5f755995a918d8df",
+    "paths": [
+      "Erythema multiforme/mycoplasma2.jpg",
+      "Mycoplasma pneumoniae infection/mycoplasma2.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "40816c5e671eded58b124b5aa5e5f2af9d0fc76c617248afe83b2c28e5042e74",
+    "paths": [
+      "Erythema nodosum/pannic3.jpg",
+      "Panniculitis/20.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b1a6a3a98f34e7d0c2b6337d2f1238beb91fa5f3a40d7634f8dfb41603ec32b2",
+    "paths": [
+      "Fissured tongue/paraneoplastic-pemphigus-0013.jpg",
+      "Oral mucositis - Stomatitis/78.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "645d32d3cc315bb62ce4833663509440c27359306ecc5e11e6aea7d7b330ea0f",
+    "paths": [
+      "Flexural psoriasis/psorkai2.jpg",
+      "Psoriasis/psorkai2.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "0e187bee0f1e024be1c63efd24076fdf275348d2fb777619531e543e4ff64f3a",
+    "paths": [
+      "Foreign body granuloma/foreign-body-granuloma-2.jpg",
+      "Vulval intraepithelial neoplasia/21.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "a691f44792b4ca8024f753db8c76eaf05614a8efd7b55e6f902a19d8c715ed89",
+    "paths": [
+      "Granuloma annulare/interstitial-granulomatous-dermatitis1.jpg",
+      "Granulomatous dermatitis/interstitial-granulomatous-dermatitis1.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "2fc6ee9d8dd60e628fd34e8ff90737937066eedb5a196a3f46b5a3ccbf7a78d1",
+    "paths": [
+      "Halo naevus/2783.jpg",
+      "Melanocytic naevus/2783.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "28f9c401a9d43b5d53a7638615b061843a56335a2d7d85d91baab3a25b201a65",
+    "paths": [
+      "Halo naevus/2786.jpg",
+      "Melanocytic naevus/2786.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "7a4febff35e72aa301706b150a3dc02cf831e4b6d2fefee7a69cff02c3df4abc",
+    "paths": [
+      "Halo naevus/2787.jpg",
+      "Melanocytic naevus/2787.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "39b34c32e46bac6727bc3281a179d3112ab9b819ac49ddd71a32611278f2a3d9",
+    "paths": [
+      "Hand dermatitis/at-derm13.jpg",
+      "Vulval intraepithelial neoplasia/06.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "9e9e3c426f68fd9bc184a1a5963e96089664417cd97f993c7f23ed2033c907c1",
+    "paths": [
+      "Hand dermatitis/atopic42.jpg",
+      "Vulval intraepithelial neoplasia/07.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6187ecd1757123f712cb8c073fb89e50fede942cd7fa0df9436ff9e127da84e7",
+    "paths": [
+      "Hand dermatitis/hyperkeratotic-hand-dermatitis-07.jpg",
+      "Hyperkeratotic palmar dermatitis/hyperkeratotic-hand-dermatitis-07.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "ab18e91694ce8cb92c7c872957f7907af6ae9308dc0a027a727b0c1122b9960c",
+    "paths": [
+      "Hand dermatitis/hyperkeratotic-hand-dermatitis-08.jpg",
+      "Hyperkeratotic palmar dermatitis/hyperkeratotic-hand-dermatitis-08.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "75b7a89382de87c24bf9235c26226cdd6aa4c74070b857073cc885e71f5b94f5",
+    "paths": [
+      "Hand dermatitis/postinflamm5.jpg",
+      "Postinflammatory hyperpigmentation/postinflamm5.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "51a7b9445bd304fc93a22f5cc8f8ae6c2d343d84fe89e94c0c80beb0b9987dec",
+    "paths": [
+      "Henoch–Schönlein purpura/hsp1.jpg",
+      "Purpura/32.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "7dff62eee0801e42571b254b4237cdfd52aa16510d1b3fb7a8962fd577728ad5",
+    "paths": [
+      "Henoch–Schönlein purpura/hsp2.jpg",
+      "Purpura/33.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "67675b3a0bda8556cbf98b2177765a9e3a77dfaee5451a15f225135fad23da03",
+    "paths": [
+      "Henoch–Schönlein purpura/hsp3.jpg",
+      "Purpura/34.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "7970a88449781b768244c4c6a05a39e5c97124091639ff67f6ff05733b02b901",
+    "paths": [
+      "Henoch–Schönlein purpura/hsp4.jpg",
+      "Purpura/35.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "988b422bb9ee4d6ebce4eb34db917e2c33794d0a07aab8187c2c9aaf00abaf77",
+    "paths": [
+      "Henoch–Schönlein purpura/hsp5.jpg",
+      "Purpura/36.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "7d079f8228f8acc6733e438d7acd62f08977dd805f5910bc934efeb2b8f366cc",
+    "paths": [
+      "Henoch–Schönlein purpura/hsp6.jpg",
+      "Purpura/37.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "38a0825286fcfc94e1638be0aeb67efc1e279c3e00b1cd1910e1c561a119bbad",
+    "paths": [
+      "Herpes simplex/herpes-simplex-labialis-38.jpg",
+      "Oral candidiasis/05.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "220048c3f076e86f7f69837852de5f2cb4ddb2c27d7790ac14b89fb35d8b6c30",
+    "paths": [
+      "Herpes simplex/herpes-simplex-labialis-39.jpg",
+      "Oral candidiasis/06.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "0110ade79d593820b5d34675907e637dd4cc5b77ec38f272a86f89eb67872a11",
+    "paths": [
+      "Herpes zoster/pyoderma-gangrenosum-0002.jpg",
+      "Pyoderma/13.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "370b07b377b9f6957b06a114f4647bcceddc88db214e75a7d4a6a5a5d78e0c90",
+    "paths": [
+      "Ichthyosis/keratinopathic-ichthyosis-0013.jpg",
+      "Palmoplantar keratoderma/23.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "dc48d961405619902886e2e4784827e5a198db73c1190f3ee18bfa2cef4b1b3c",
+    "paths": [
+      "Keloid scar/keloid-scar-0017-2.jpg",
+      "Keloid scar/keloid-scar-0017.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "1f92e0fbac48eabf56b35dbc16b2b8873ec04b9883d33c7fd41855c0cdcdb130",
+    "paths": [
+      "Kerion/tfker.jpg",
+      "Tinea faciei/09.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "763963a475e26d0c7a20f50ac756bb8186d138fed68f72d2a57ce7d934b04d81",
+    "paths": [
+      "Leg ulcer/3042.jpg",
+      "Pyoderma/01.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "dd2e937ae595658b0e27d2071d149afc0ce2aa43e302a09efba18fdb75da0d7f",
+    "paths": [
+      "Leg ulcer/ulcer-02.jpg",
+      "Leprosy/ulcer-02.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "bd6b3e98463092ee922116d8478dd7d6660b7ad5aabe41e2cfad3fa7d411688b",
+    "paths": [
+      "Lichen planus/annular-lichen-planus-0007.jpg",
+      "Postinflammatory hyperpigmentation/05.jpg",
+      "Vulval intraepithelial neoplasia/05.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "5a93044380c195a0ec5cf9eb1a1608bfd583afe0959e24f45146b4748ea9802e",
+    "paths": [
+      "Lichen planus/papular-lichen-planus-0009.jpg",
+      "Postinflammatory hyperpigmentation/15.jpg",
+      "Vulval intraepithelial neoplasia/34.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "9eb17ec9ee3cdbb483e1675223b6765f7c4c09c4aa0adc6849ce17c1730839be",
+    "paths": [
+      "Lichen planus/papular-lichen-planus-0010.jpg",
+      "Postinflammatory hyperpigmentation/16.jpg",
+      "Vulval intraepithelial neoplasia/35.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "f75ac530f928443e610e78b962428d5a29679758598db6d2f146d8c05d5d1a99",
+    "paths": [
+      "Majocchi granuloma/majocchi15.jpg",
+      "Tinea manuum/04.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "0893abb6e61f551fde53aad8f7bee1e591fb1318b890efe06e50082a8b4bb4dc",
+    "paths": [
+      "Melanocytic naevus/meyerson5.jpg",
+      "Meyerson naevus/meyerson5.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "8ca1dc1e4c44cbd5f94d96b8412f1a1490dd7948e864cf11f413ae701b40f859",
+    "paths": [
+      "Melanocytic naevus/ota4.jpg",
+      "Naevus of Ota, naevus of Ito and naevus of Hori/06.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "12d0ea936b2cf1d932be26d561df2d9ed7909bfc573aedd6437fb3ca06cf58aa",
+    "paths": [
+      "Melanonychia/brown-onychomycosis.jpg",
+      "Onychomycosis/07.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "3f6f7ee25152f551f982738dee93c2e74172f0c5f64a47907eb6968a4661827d",
+    "paths": [
+      "Melanonychia/onychopapilloma-2.jpg",
+      "Onychopapilloma/06.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "05414e3320638fa7c3d514d4cc9bd65111b8b78cddeb10b817eebc0d58f4e44d",
+    "paths": [
+      "Meningococcal disease/meningo.jpg",
+      "Purpura/46.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "9957fb08af6f9e4a03cbc5b7d00aa84134a02ac6a4840ce55eff3d11edd98b3e",
+    "paths": [
+      "Meningococcal disease/meningococcus1.jpg",
+      "Purpura/47.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "c55e9e13e8d7ff73a49376f0000ecb59dca6daf7f5410092a1859fd4a1534198",
+    "paths": [
+      "Meningococcal disease/meningococcus2.jpg",
+      "Purpura/48.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "1716eb5101686d151fabee4034ec7eea8b65d6ac417f51b98c3ce5f919d3c4b7",
+    "paths": [
+      "Meningococcal disease/meningococcus3.jpg",
+      "Purpura/49.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "75cff2c9b51bee7a0eaed89bc4b279486bf07c92c6fff46474ba3df7e9c2997c",
+    "paths": [
+      "Milium/milia08.jpg",
+      "Porphyria cutanea tarda/03.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "bc1c60d409504ab5d291cefa75ca939b489700221b9f8e0c428026358ce3e780",
+    "paths": [
+      "Molluscum contagiosum/molluscum-contagiosum-0032.jpg",
+      "Vulval intraepithelial neoplasia/26.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "e5a0e8ee448c44303561dcb1895b164d9731aeb3b6811e458a860cf3f42fe0a0",
+    "paths": [
+      "Mycoplasma pneumoniae infection/reactive-infectious-mucocutaneous-eruption-0008.jpg",
+      "Oral mucositis - Stomatitis/81.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "8807f17386668f21d765222091e2662ac8a9163b705c7c07b54933bde485feeb",
+    "paths": [
+      "Mycosis fungoides/ctcl10.jpg",
+      "Sézary syndrome/01.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b0a21c6b4dac8c93956deee89e0cce863d496aa13615d9f57c6c9b6471ca0d88",
+    "paths": [
+      "Mycosis fungoides/ctcl4.jpg",
+      "Sézary syndrome/02.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b3b6ad5f83224622123d186145a1df34195039e5e258cc392d657fa4ee3e9492",
+    "paths": [
+      "Naevus of Ota, naevus of Ito and naevus of Hori/01.jpg",
+      "Naevus of Ota, naevus of Ito and naevus of Hori/ito.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "bcbedd83b9017bb0e6756169d025f34350776a236adea4e68e2942658dcb87ca",
+    "paths": [
+      "Neonatal lupus/01.jpg",
+      "Neonatal lupus/lupus-neon.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "a76cebc7459ff9f0486b97d000ad129b762c216273cbf678c56476c8e8a44c2c",
+    "paths": [
+      "Neonatal lupus/02.jpg",
+      "Neonatal lupus/lupus-neon1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "fe3516c789df5e8cbd3ba23d439be667ce9f18fd0574114f218be9b5051aba86",
+    "paths": [
+      "Neonatal lupus/03.jpg",
+      "Neonatal lupus/lupus-neon2-s.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "e71bec161aa0134a8ead1fee8bd7a4a915364965de846732eed9f10d273ec66b",
+    "paths": [
+      "Neonatal lupus/06.jpg",
+      "Neonatal lupus/lupus-neon3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "d81af6ec0bdf07883649afee617f9de37eab855ebf3ebc8f7318ba24f4bc337d",
+    "paths": [
+      "Nickel allergy/15.jpg",
+      "Nickel allergy/ecz-nose.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "eed26c5730111df426277e59f87905efb7cffe7c8b0e5a1f6e1125ac4344fa1c",
+    "paths": [
+      "Nickel allergy/17.jpg",
+      "Nickel allergy/ni1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "6489d531110dacb4ee218d7c76277c390b4bd51f4a50524553d2d971d01f8800",
+    "paths": [
+      "Nickel allergy/18.jpg",
+      "Nickel allergy/ni2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "bf9af151ad4e637fdcace63e7aac34ac190296964c20e0885c925183b7eb063d",
+    "paths": [
+      "Nickel allergy/21.jpg",
+      "Nickel allergy/ni6.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "8c14fe82efa9c0e3dff9d297da617146500eb39a15fdc8bb53289f021af06d27",
+    "paths": [
+      "Nipple eczema/03.jpg",
+      "Nipple eczema/nipple-eczema-02.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "2e21ba78609b66d88b04af5379f8cc816000d9f49a593a159388912da190306d",
+    "paths": [
+      "Nipple eczema/04.jpg",
+      "Nipple eczema/nipple-eczema-03.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "17e3a53192c1f22181835366e74f5a78c43718b158a7e8b49a035f5733644863",
+    "paths": [
+      "Nipple eczema/08.jpg",
+      "Nipple eczema/nipple-eczema-07.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "84a37377c1bd90a38162db9fe7579b053fafd7fd16cc3dfdd92444fd16eb81c8",
+    "paths": [
+      "Nodular chondrodermatitis/05.jpg",
+      "Nodular chondrodermatitis/cnh2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "572ddda643ca86c7219de57d8dc7dd0b05dd0188ddf84713c94816bb15462ab5",
+    "paths": [
+      "Nodular chondrodermatitis/06.jpg",
+      "Nodular chondrodermatitis/cnh3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "b7c2c5eb78e54eefa3d0d565316d77109a222cb77f1f68d9c0b7385233242b31",
+    "paths": [
+      "Nodular chondrodermatitis/08.jpg",
+      "Nodular chondrodermatitis/cnh4.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "294945a61e2aef3f46746e6915695ef7dba1e84aa5b3984e5f336a5d654309c4",
+    "paths": [
+      "Non-albicans candida infections/01.jpg",
+      "Onychomycosis/01.jpg",
+      "Onychomycosis/1254.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "99a903717e1df0beaa052aa662c6f9d5dd7dbfd34ef483ab92e48674f08cfe9e",
+    "paths": [
+      "Non-albicans candida infections/04.jpg",
+      "Onychomycosis/02.jpg",
+      "Onychomycosis/1261.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "5207dc53213f9723ccca7b1cfd9c6a0cb2adb2149d46b6e49a6653be742c6d67",
+    "paths": [
+      "Non-albicans candida infections/05.jpg",
+      "Onychomycosis/03.jpg",
+      "Onychomycosis/1263.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d6be95f1be85b61cda0dd874c97c844d12e14743f89133c08cc31017d644c371",
+    "paths": [
+      "Non-albicans candida infections/06.jpg",
+      "Vulvovaginal candidiasis/1266-small.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "308698eecf4e93dfbf100ec8613d85145af5875c9b6a991f38c72b29c7213a21",
+    "paths": [
+      "Non-albicans candida infections/07.jpg",
+      "Vulvovaginal candidiasis/1268-small.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6e775e2b0e7cb588a2cf4d02bec38a3db9d7ef2fd1ce74d0de651bf52c2fbc6e",
+    "paths": [
+      "Non-albicans candida infections/10.jpg",
+      "Onychomycosis/1272.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "f8da1ccf0882ce0b20fa4bf12875b975dffdd7f1d9ebab30a33e9d7ec8a6c006",
+    "paths": [
+      "Non-albicans candida infections/11.jpg",
+      "Onychomycosis/1276.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "2cd7ac86b859aece35e317412e6cb9a69deced92709a45672c14515b14a9ffd9",
+    "paths": [
+      "Non-albicans candida infections/12.jpg",
+      "Oral candidiasis/1277-big.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "97619f601c586b0255198741f21d82e104cddec080c71b8cd6c6ef0412bf18c3",
+    "paths": [
+      "Non-albicans candida infections/13.jpg",
+      "Onychomycosis/1278.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "558adaf1b5724e977d0ffa7ade71ecebb682630f2c68728a62c8b1485185e86e",
+    "paths": [
+      "Non-albicans candida infections/14.jpg",
+      "Onychomycosis/1279.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "24283157716738d950eaf7cf0b1ad6044598d7715ef16978d1b0eeb386625bcb",
+    "paths": [
+      "Non-albicans candida infections/15.jpg",
+      "Onychomycosis/1280.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "ab20d5d834522b5edd3f2dee7fd9fd09eb60bc7b939dc5dc4398df35fb663805",
+    "paths": [
+      "Non-albicans candida infections/16.jpg",
+      "Vulvovaginal candidiasis/1284-small.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "87531612362faec2b4628b1da7a22684570416142a9c567d8acde1daf1656035",
+    "paths": [
+      "Non-albicans candida infections/17.jpg",
+      "Vulvovaginal candidiasis/1285-small.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "c172cac7420fe1ed733fd60e2642fb7fa5cc0e2157cd7da56a5d54d5b0603dc0",
+    "paths": [
+      "Non-albicans candida infections/19.jpg",
+      "Vulvovaginal candidiasis/1289-small.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "3659455a08cf60fc05c70f496d2ba73318762d7fc4d9b6136c04b559156c94b3",
+    "paths": [
+      "Non-albicans candida infections/21.jpg",
+      "Vulvovaginal candidiasis/1295-small.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "2a2915f15a2c52d2ef5148a705d9d3d3ecdebbc91f7ff96f2d802acc5f101751",
+    "paths": [
+      "Non-albicans candida infections/23.jpg",
+      "Onychomycosis/1297.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "0688abe249e308ee5c909d3dcf1c96c8c6de9f01543ee4ee55aec8d55fa01af5",
+    "paths": [
+      "Non-albicans candida infections/25.jpg",
+      "Vulvovaginal candidiasis/1302-small.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "806a0a3efd47f04ca6bc47dae0546bf3504927b485279df75856fcfeff29c1d9",
+    "paths": [
+      "Non-albicans candida infections/26.jpg",
+      "Vulvovaginal candidiasis/1305-small.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "533c4da1f94af14e7716a2853001049f5aa4a8bc536da8fc04164252b8164fa0",
+    "paths": [
+      "Non-albicans candida infections/30.jpg",
+      "Vulvovaginal candidiasis/1311.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "ae535f54fa5c470cbbdc2a4227dfbb7de239b1d7c8ee4f83208e088cf3035b7b",
+    "paths": [
+      "Non-albicans candida infections/32.jpg",
+      "Onychomycosis/1313.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "9becbd3100375aa13588c05ac17c0d1e5bc1beedfcfdc82f156dc5b82a70e16a",
+    "paths": [
+      "Non-albicans candida infections/40.jpg",
+      "Vulvovaginal candidiasis/cand-vulvitis.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "8af4cba23e21f7c7b63dd8b82beda3528611b7e9951678d6e2626825f3cd21aa",
+    "paths": [
+      "Non-albicans candida infections/42.jpg",
+      "Oral candidiasis/candida-barbae-18.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "e811749f4efd8c2ce54d304da9f4998bdfeb256139c628168eefa36a56e9935f",
+    "paths": [
+      "Non-albicans candida infections/43.jpg",
+      "Oral candidiasis/candida-barbae-19.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "baefb9cfe59123c6a52327c31df40b068ce38020eccb437ddbe806a8be0b6e45",
+    "paths": [
+      "Non-albicans candida infections/46.jpg",
+      "Onychomycosis/08.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "c89b43ee9c19f442c561b90c8c9e558cf304bca9d312e602530d0a028f1e771b",
+    "paths": [
+      "Non-albicans candida infections/48.jpg",
+      "Oral candidiasis/03.jpg",
+      "Oral mucositis - Stomatitis/18.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "c8d494150391ac11ddabb1107d495a5d15453fa8618a8923bf2fb634c94f1bc4",
+    "paths": [
+      "Non-albicans candida infections/49.jpg",
+      "Vulvovaginal candidiasis/candida1-s.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "c1082471adddaba4162da62cfa01fcbb802e2e63e264a6f82feb890db61b86af",
+    "paths": [
+      "Non-albicans candida infections/51.jpg",
+      "Vulvovaginal candidiasis/candida3-s.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "083460516905ec20df31ee8609c8907f63de28d6f275c57d2707a6c65bd5e490",
+    "paths": [
+      "Non-albicans candida infections/52.jpg",
+      "Vulvovaginal candidiasis/candida4-s.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "9e0fe7c4538607df8410c953d6b9acce1c380552b69d1d3f30af04527541f526",
+    "paths": [
+      "Non-albicans candida infections/53.jpg",
+      "Vulvovaginal candidiasis/cangrs.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6a56f77e47d80fe8a86458f5fc509a6db0de19c5917d788115379c22505fd5bd",
+    "paths": [
+      "Non-albicans candida infections/58.jpg",
+      "Vulvovaginal candidiasis/canvuls.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6afdfa6ff8ec25fe4a3309f38325b27a3df420eb36aab59469c68104dd120ca4",
+    "paths": [
+      "Non-albicans candida infections/65.jpg",
+      "Oral candidiasis/07.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "52fe15b8f3eddd7a8216bebf4cf9c187576a89576a154b0d5bdb38ea9da92c5f",
+    "paths": [
+      "Non-albicans candida infections/66.jpg",
+      "Oral candidiasis/08.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "f0ada75cd24c37918e21096900d321c56ea33bc52f4c1c27c419cefda647260f",
+    "paths": [
+      "Non-albicans candida infections/71.jpg",
+      "Oral candidiasis/10.jpg",
+      "Purpura/108.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "54bd0f7f0344af373d7d880906dd5699afeba65afea36c48155e80bdfbf74823",
+    "paths": [
+      "Noonan syndrome with multiple lentigines/01.jpg",
+      "Noonan syndrome with multiple lentigines/leopard1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "729d3658323b48ccd15cb2f11d3f942b041887603c89c181657be749d3b0b80b",
+    "paths": [
+      "Noonan syndrome with multiple lentigines/02.jpg",
+      "Noonan syndrome with multiple lentigines/leopard2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "dc4a566f857f92182b45477a414f119553b345de06b576404206a47089556d17",
+    "paths": [
+      "Noonan syndrome with multiple lentigines/03.jpg",
+      "Noonan syndrome with multiple lentigines/leopard3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "2dc8e2563ece82d752d0c0ee69e951202a04d3e78cf3be559f82ded50de6abb6",
+    "paths": [
+      "Notalgia paraesthetica/05.jpg",
+      "Pruritus/24.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "fb1bdebb1b265631c99afa6378aac924d18d8260b8206bd847a8b584f67e12ee",
+    "paths": [
+      "Notalgia paraesthetica/06.jpg",
+      "Pruritus/25.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6354fa14f1010a752287bb2cd14ab3e40fcf5a108b5c5015a1cfdef23e7aed20",
+    "paths": [
+      "Notalgia paraesthetica/07.jpg",
+      "Pruritus/26.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d1adddd26182af909b240721f1b42e16dbdf90a3f74cceadfaa36a48060435b2",
+    "paths": [
+      "Notalgia paraesthetica/08.jpg",
+      "Pruritus/27.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "bf69c41d0892bfa7fd45c00e344a20f2cfda9a8595618ba5dce92edb0c4b9c79",
+    "paths": [
+      "Notalgia paraesthetica/09.jpg",
+      "Pruritus/28.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "0bce5d7a388c667dfe2f5cd7750fa1aaa2c793c43f6b038d7cc963f9a6e748e3",
+    "paths": [
+      "Notalgia paraesthetica/10.jpg",
+      "Pruritus/29.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "ebc9dd2f7c95e999b4f6165818dad7e868f71342eb009d2f9246d47c69163e66",
+    "paths": [
+      "Notalgia paraesthetica/11.jpg",
+      "Pruritus/30.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "4e6e9dad75989c0c36c7ca15eccd4f2176098aea5fcc5cbca26364543aacf40f",
+    "paths": [
+      "Notalgia paraesthetica/12.jpg",
+      "Pruritus/31.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "10d51a7d170912a66214cfe7e35313fcbab42d90d11837bac3be5c6ca2076848",
+    "paths": [
+      "Notalgia paraesthetica/13.jpg",
+      "Pruritus/32.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "cc080c311a8ad13bdf97813e061cb0ce60cd572128a0ebf3d3a5bfd672683ad2",
+    "paths": [
+      "Notalgia paraesthetica/14.jpg",
+      "Pruritus/33.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d390716eaee3e99126d19d5c1d1155974ff946f857139dd680f84daa9715b81b",
+    "paths": [
+      "Notalgia paraesthetica/15.jpg",
+      "Pruritus/34.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "5fdb3bb1fe2959f9627af45cdcc994173753b1a4043798dfd148de7e71ed1465",
+    "paths": [
+      "Notalgia paraesthetica/16.jpg",
+      "Pruritus/35.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "da815c11820a187dace01f7e03a470c8e9d4839821a747437e450eebf4ac4a91",
+    "paths": [
+      "Notalgia paraesthetica/17.jpg",
+      "Pruritus/36.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "73947503faf60725997af21c1a3a7ae5173d168a9d2879ef1562d3c1ea050e20",
+    "paths": [
+      "Notalgia paraesthetica/18.jpg",
+      "Pruritus/37.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "673f0a54993542223e9d7f8b26f8a09a54a2c0f711a4e40bb3adce706b7a0393",
+    "paths": [
+      "Notalgia paraesthetica/19.jpg",
+      "Notalgia paraesthetica/notalgia.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "6592cf89ab31cf3359a9574984644cf59c851d94bc6205d3cac374a3cb88eed9",
+    "paths": [
+      "Notalgia paraesthetica/20.jpg",
+      "Notalgia paraesthetica/notalgia1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "e9e200de4ec9ec01c584ccbcfd4e80657bdf5934daf72439661535ebf335f081",
+    "paths": [
+      "Notalgia paraesthetica/21.jpg",
+      "Notalgia paraesthetica/notalgia2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "0bc497ac34c7addd09108963a82f52387c9d085a8772d15c5dc833e19154a561",
+    "paths": [
+      "Onychocryptosis/01.jpg",
+      "Paronychia/3296.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "f94a6d844a99369a5d11cea4e40cc9ae27647744bc610e2ddabc47fdad6a8d44",
+    "paths": [
+      "Onychocryptosis/04.jpg",
+      "Onychocryptosis/ingrown-toenail1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "3a9b9a33f6be20e1f328fcdc14b1ed9b3ad598e833f93537e15b2bbeabda900b",
+    "paths": [
+      "Onychocryptosis/05.jpg",
+      "Onychocryptosis/ingrown-toenail2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "40db5ea22492f46ac9d3e8f5e6cbe18f22640f4feb7a03ac4b3e47a7cc86edf3",
+    "paths": [
+      "Onychocryptosis/06.jpg",
+      "Onychocryptosis/ingrown-toenail3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "92ebb49260870af8a0ac0a7798cc2db145d7c8c093a6413f5d4763f470f4f128",
+    "paths": [
+      "Onychogryphosis/04.jpg",
+      "Onychogryphosis/onychogryphosis-04.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "7deb28783b0e31fb3513fbdcb3dc04aa394f41462d755fd62577f2fd50f93b6d",
+    "paths": [
+      "Onychogryphosis/05.jpg",
+      "Onychogryphosis/onychogryphosis-05.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "c9d099877648b41333e40258e495f13ec90f3ec02c28da4d5d2b7254d4f95b7b",
+    "paths": [
+      "Onychogryphosis/06.jpg",
+      "Onychogryphosis/onychogryphosis-06.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "ce4d041ac197ceda0c36e3440e799fd16a8ee2ae559095b0dbf92df857380d37",
+    "paths": [
+      "Onychomycosis/44.jpg",
+      "Onychomycosis/tin-ung1-v2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "20c5f9154a1c64a4541c22f36f06a602cee9bc9fbf24d2c6cb595f446907ee4b",
+    "paths": [
+      "Onychomycosis/47.jpg",
+      "Tinea manuum/05.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "726518a01e6c9361fd3414ab81522ef8318999cbf00ab33469992392b682de52",
+    "paths": [
+      "Oral candidiasis/04.jpg",
+      "Oral candidiasis/candor.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "fca93ff61da79ec5cb0a167a48541f4e5a3955fb861b5dd1d6c38cb03d469906",
+    "paths": [
+      "Osteoma cutis/01.jpg",
+      "Osteoma cutis/osteoma-cutis1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "af1e11bcd06c375abfbcf2b426ad7d5d23a50412017186c98f9f35e981f40588",
+    "paths": [
+      "Osteoma cutis/02.jpg",
+      "Osteoma cutis/osteoma-cutis2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "b98c31d763cee81160c8c2b6f8b987c394e80f99b22b8447d0bd8c980e36e6ae",
+    "paths": [
+      "Osteoma cutis/03.jpg",
+      "Osteoma cutis/osteoma-cutis3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "f03d82b3c3d662cd195706deaa34b1313901122f1bae85b35cbb607a39b146c6",
+    "paths": [
+      "Palmoplantar keratoderma/35.jpg",
+      "Pityriasis rubra pilaris/11.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "2ce26c763b7323add186ea97c1208f2f4821368a78ff5902a63597cd4f19213a",
+    "paths": [
+      "Palmoplantar keratoderma/36.jpg",
+      "Pityriasis rubra pilaris/12.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "e6076e617db08e8ce570259f98fd01a4aaef72d4eb705a35cea5361ac0f6aec2",
+    "paths": [
+      "Panniculitis/03.jpg",
+      "Venous eczema/acute-lipodermatosclerosis-21.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6d3d40f36329ed05c4909afecf8780b48ae7cee857a05e123bc08d578e4eb8d0",
+    "paths": [
+      "Panniculitis/04.jpg",
+      "Venous eczema/acute-lipodermatosclerosis-22.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6170ddbb06442e3f576be5f9a2ff11e90e35ebb1e52b9c8c75a85aa7220cad2a",
+    "paths": [
+      "Papular urticaria/03.jpg",
+      "Papular urticaria/papurt1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "7704c62f9c326ddd8b5f84c0fd9523d657209e17c1fc918c1bdf4371504498f9",
+    "paths": [
+      "Papular urticaria/04.jpg",
+      "Papular urticaria/papurt2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "014339c4c6009582281011ee0629d6e829f398bacd4a0120cf5dad79cd4b40ea",
+    "paths": [
+      "Papular urticaria/05.jpg",
+      "Papular urticaria/papurt3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "a8995e6053cd2ae3ad80d821356078652b8edc392fa07f3b26a26e2001af8007",
+    "paths": [
+      "Parakeratosis pustulosa/01.jpg",
+      "Parakeratosis pustulosa/parakeratosis1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "0a8528600be69bfb73f2eb59c4a35c038a912a6e990ad1e9e1e6c61983502017",
+    "paths": [
+      "Parakeratosis pustulosa/02.jpg",
+      "Parakeratosis pustulosa/parakeratosis2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "9ff05b94144414e2d0731932568e5ca21b1e2aef554814a428be49ba8694b665",
+    "paths": [
+      "Paraneoplastic acrokeratosis/01.jpg",
+      "Paraneoplastic acrokeratosis/bazex1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "7e48575fcccda7a6b30cf08422721f572c614a6ef80087f152d8cafed0894998",
+    "paths": [
+      "Paraneoplastic acrokeratosis/02.jpg",
+      "Paraneoplastic acrokeratosis/bazex2-s.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "81210183e184ef9613df921e7eeb50fca8cca0dda9b55bac482bccc50056c7b4",
+    "paths": [
+      "Pearly penile papules/01.jpg",
+      "Pearly penile papules/penile-pearly-papules-01.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "ae0fa5f3f32c5f59aa31055843de44c18a916349b9b9640c0b254f56b71c7dff",
+    "paths": [
+      "Pearly penile papules/02.jpg",
+      "Pearly penile papules/penile-pearly-papules-02.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "4c6ba0c5fee89052c5e9977189a971e4c2f1fa4f572ac5d27ee993ff6452a9ac",
+    "paths": [
+      "Pearly penile papules/03.jpg",
+      "Pearly penile papules/penile-pearly-papules-03.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "53ea805e5af3c56d1f64b564083eb9456b05efd3fe4c9265f484f09252f666fd",
+    "paths": [
+      "Pearly penile papules/04.jpg",
+      "Pearly penile papules/penile-pearly-papules-04.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "0643b5eae946565a6a0ab194587481f4fd9118bab6518f2d23402a86b1029083",
+    "paths": [
+      "Pearly penile papules/05.jpg",
+      "Pearly penile papules/penile-pearly-papules-05.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "40f882365280b8b4e3bbd8bd317118714c8a765b68203a223c0eb42abf231bb8",
+    "paths": [
+      "Pearly penile papules/06.jpg",
+      "Pearly penile papules/ppap-small.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "dd023917ab2ba90d956edd12a10e4b9a49922e6c33c1418ae935bde9050d99ba",
+    "paths": [
+      "Pearly penile papules/07.jpg",
+      "Pearly penile papules/ppp1-small.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "de8635edfd2d1324e951eb5ccf52666ae33186bb584e4b82b6a5661a624c4f17",
+    "paths": [
+      "Pearly penile papules/08.jpg",
+      "Pearly penile papules/ppp2-small.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "fcc3bc4c9e3bb72bf32aa10c5de72b80d662318206a414a4a2ab1aa865e40dd0",
+    "paths": [
+      "Pediculosis capitis/05.jpg",
+      "Pediculosis capitis/head-lice-001.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "9321709d910cbe24e82c642624be446b01f0041388fbebf60a0e2dc3e3c369f0",
+    "paths": [
+      "Pediculosis capitis/06.jpg",
+      "Pediculosis capitis/head-lice-002.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "3bae85dd88c3a0d3022ad63e36a3fb29a3fbe06056b6cf850f4c02d2d74465ab",
+    "paths": [
+      "Pediculosis capitis/11.jpg",
+      "Pediculosis capitis/nits-dermatitis.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "6d36e1cd545f24c78bed761f9b411c166c741b9b32622b27f9bbfd33e4f7fa92",
+    "paths": [
+      "Pediculosis capitis/12.jpg",
+      "Pyoderma/08.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d5b3fe5fab1200173c62cf36a171de605f49149755971bcc519f8eb1eb21a01d",
+    "paths": [
+      "Pemphigoid gestationis/03.jpg",
+      "Pemphigoid gestationis/pemgest1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "2aa056c69b7b199aba8228c94d2ec95f0c76e9d684aedb282e4269204f13b892",
+    "paths": [
+      "Pemphigoid gestationis/08.jpg",
+      "Pemphigoid gestationis/pemgest6.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "d1db1b6543dd589a912fab4919a572ffbd89a753b71371b7ba46b05fe54a3a3a",
+    "paths": [
+      "Pemphigoid gestationis/37.jpg",
+      "Postinflammatory hyperpigmentation/24.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "7bd4b786ad743def7f9df0b16361e40add4bee49a2322a8cfbf7c89401693059",
+    "paths": [
+      "Pemphigoid gestationis/38.jpg",
+      "Postinflammatory hyperpigmentation/25.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "e91af3329d81d29adb0188e56f28b5be0bed68c13881996a5021a76135706013",
+    "paths": [
+      "Pemphigus foliaceus/10.jpg",
+      "Pemphigus foliaceus/pfol1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "32c954cb41ca5da3b02c82f92645ae1bc470160f10b7a23a4267a0372c947daa",
+    "paths": [
+      "Pemphigus foliaceus/11.jpg",
+      "Pemphigus foliaceus/pfol2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "e76b2431bc6136f1b6e5d1d755e7eebaa8c2275987f1389243ca283a83510727",
+    "paths": [
+      "Pemphigus foliaceus/12.jpg",
+      "Pemphigus foliaceus/pfol3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "4ed149b245f9e910c842e9dacab484c995169078d35e087e9a029d149c426896",
+    "paths": [
+      "Pemphigus foliaceus/13.jpg",
+      "Pemphigus foliaceus/pfol4.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "5258aaa2e0cc5d11fc2baa5f7b429c1fe757aa7da4ef3d0b9bb57af6af793152",
+    "paths": [
+      "Pemphigus foliaceus/14.jpg",
+      "Pemphigus foliaceus/pfol5.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "4cc9f76c2933b4d7056d3d3ef119c609e26598dda538ba3da82abf2c7a196bc8",
+    "paths": [
+      "Pemphigus foliaceus/15.jpg",
+      "Pemphigus foliaceus/pfol6.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "d97f9cb3f2964c6449c8c29e22d9e41197e2e90f4ffe1ddbd395cb709cd1d2d4",
+    "paths": [
+      "Periarteritis nodosa/01.jpg",
+      "Periarteritis nodosa/pan1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "8a830dc476f267c6c5ca43584f96ad25fd40a37e42c01529078032a692d9096e",
+    "paths": [
+      "Periarteritis nodosa/04.jpg",
+      "Periarteritis nodosa/pan3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "3db73780ffac3ec8627e1bcecd3d9bbe9652a7a10a1d73b487d3f3f8e4fee7f7",
+    "paths": [
+      "Piebaldism/01.jpg",
+      "Piebaldism/piebald2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "d8c0bbea5d822083cc3c44073feab801e1eabc835b580554c613f23ea062b7a9",
+    "paths": [
+      "Piebaldism/02.jpg",
+      "Piebaldism/piebald3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "2444e65802be537baf13f026a3ae215b468156b8d2eefbded7466c7650806e31",
+    "paths": [
+      "Piebaldism/03.jpg",
+      "Piebaldism/piebald4.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "d7aac92b48754a74d89e205c3be3a38490093079ccf802a9353f9c07e7ad6afa",
+    "paths": [
+      "Piebaldism/04.jpg",
+      "Piebaldism/piebald5.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "66bcda69f38707c4f0df947235b7da1505cf775663dfee24e3f147c970a79487",
+    "paths": [
+      "Piebaldism/05.jpg",
+      "Piebaldism/piebald6.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "4e2d8dafdedd6f3b9bca9c9f0f9cbe39d00e47bdb28694de49f304281f2d1f1c",
+    "paths": [
+      "Piebaldism/06.jpg",
+      "Piebaldism/piebald7.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "004b0668580816e5d695c6b30210e2f68e0d4b919fdda04652ffae6e075361da",
+    "paths": [
+      "Piebaldism/07.jpg",
+      "Poliosis/03.jpg",
+      "Poliosis/poliosis1.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "0e3c95ca4c2cdd8dc38fbc61e23b07112d895c43a81825a9f97b2360f7c643e8",
+    "paths": [
+      "Pigmented purpura/capil1.jpg",
+      "Purpura/20.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "7cc19054b1e5473be6b45d694891910dc7213ea8b7d23368f183dde578804102",
+    "paths": [
+      "Pigmented purpura/capillaritis-38.jpg",
+      "Varicose veins/01.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "5f48806a8c23e96acf98f6cadc5d5cfd25a9e6fc03975272f942398eda75cadb",
+    "paths": [
+      "Pigmented purpura/capillaritis-47.jpg",
+      "Purpura/21.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "01b654a5b787123f15672e7c373eee3a7eca6d2bfb9c1aaca56fb4310cf8d1e3",
+    "paths": [
+      "Pigmented purpura/lichen-aureus-01.jpg",
+      "Purpura/40.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "a97ef3292d883abe3973eeade03d74d8a5ff09d65e532c38b7887fbb28dacf82",
+    "paths": [
+      "Pigmented purpura/lichen-aureus-02.jpg",
+      "Purpura/41.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "71a720e1a55d9e9b533ddfcfacc3a67e98799d09cefac9673203d0ed4af7c376",
+    "paths": [
+      "Pigmented purpura/lichen-aureus-03.jpg",
+      "Purpura/42.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "886db7d2cdfc91284becb262de6e04dca80c7d1d5b5d29673f88e89c7c36ad79",
+    "paths": [
+      "Pigmented purpura/lichen-aureus-04.jpg",
+      "Purpura/43.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b911512bd5a18a4b922456f4e8e6f31b4152f70eb14048504f3f446d7c1483ca",
+    "paths": [
+      "Pigmented purpura/lichen-aureus-06.jpg",
+      "Purpura/44.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "8dddabd6505ece2ea03d310fb62f98f3418341824d6982b75b42195533fb5879",
+    "paths": [
+      "Pigmented purpura/majocchipurp2.jpg",
+      "Purpura/45.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "1190d102722a4ee21e9490fe3a6ff44b0147d18ede10af6a895973b64415da8f",
+    "paths": [
+      "Pigmented purpura/pigmpurp.jpg",
+      "Purpura/51.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "61d9d174032199b11d44198a8fdfaf26a494fb4ba74d56b814675240a5cd59f0",
+    "paths": [
+      "Pigmented purpura/pigmpurpderm.jpg",
+      "Purpura/52.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "10970dac3265ff49369b594d712a5dbe92a75ef3b464620af8add679f58515fb",
+    "paths": [
+      "Pigmented purpura/pigmpurpdermA.jpg",
+      "Purpura/53.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "a8793ff84289ada1b672ffe26bd11a50838b7f93b0261b7770ff48abf4c06c70",
+    "paths": [
+      "Pigmented purpura/pigmpurpdermB.jpg",
+      "Purpura/54.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "c8ef2e39d1ae5dcf1dce0e36cd1fe5a2d1d7c667a0034d7ee2250613c9e10a52",
+    "paths": [
+      "Pigmented purpura/purp.jpg",
+      "Purpura/55.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "dba4c1b81a4e26846770c8846dc22e6b3e45aab299e8b6ec759b38e080e4b24d",
+    "paths": [
+      "Pigmented purpura/purpAmlodip2.jpg",
+      "Purpura/56.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "73a50239b17e7e6c9a498da37f9bbebac17dcb708e63f3bce9fc0bacf4a54bfa",
+    "paths": [
+      "Pigmented purpura/purpAnnTelMaj.jpg",
+      "Purpura/57.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "0a43e091756a27aa85e0803758fa8149a707877036473d3ae4f8ccef1fbc18a3",
+    "paths": [
+      "Pigmented purpura/purpPigm1-2.jpg",
+      "Purpura/59.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "883bcaaf95d2d1bff75ed3de3c994b7e1439eaf6de40935b8728113c42e84d09",
+    "paths": [
+      "Pigmented purpura/purpannul.jpg",
+      "Purpura/58.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "cc6c913b7382c29d4a1181f35e1f10429ece980aee9c34164bce786af814e218",
+    "paths": [
+      "Pigmented purpura/purppigm1.jpg",
+      "Purpura/60.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "06d96c9b7a8975ac877b3f97d043cdaf203666cc4808312620cb21268b0eab34",
+    "paths": [
+      "Pigmented purpura/purppigm2.jpg",
+      "Purpura/61.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "2c1c88916cd8b6c607a6512eb1d21702d7f5e8f22837c24855b3859a779a2915",
+    "paths": [
+      "Pigmented purpura/purppigmB.jpg",
+      "Purpura/62.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "0ef0c25d3119acf300fa17503183fc8a2517219b7943329bdae352fc1dc8bb80",
+    "paths": [
+      "Pigmented purpura/purpsimpl1.jpg",
+      "Purpura/63.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "6a8bba3914b3ab6bbf9e291d67ee42f3984459f73de410c6a1ec3aabae2b4096",
+    "paths": [
+      "Pigmented purpura/purpura-annularis-telangiectodes-of-majocchi.jpg",
+      "Purpura/64.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d1fb299367715f634065e9b9ce4f802075b6fdea5e454b565ce16e0453dfd76f",
+    "paths": [
+      "Pigmented purpura/purpura1.jpg",
+      "Purpura/82.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "9c9f9f2775545657b4717afb513df86c3c0c34770342c5645fddf955ca1f99b3",
+    "paths": [
+      "Pigmented purpura/purpura4.jpg",
+      "Purpura/85.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "58e9c0d62cc3fa1a79559841a327781c930d72198c0b7011743c6bf31b32b6de",
+    "paths": [
+      "Pigmented purpura/purpuranilkk.jpg",
+      "Purpura/90.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "f3e1896e0bab15aff1433355e4c5e3c3532bbf1f4238aa08cc158dd03931d5a8",
+    "paths": [
+      "Pigmented purpura/purpurapigm2.jpg",
+      "Purpura/91.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "11c2a953eb80229c99b67291881e6dcda2c3d076551f7368c6cf03941234b90e",
+    "paths": [
+      "Pigmented purpura/purpurasimpl1.jpg",
+      "Purpura/92.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "2b00d3ea2847c24803cdde8a0312ddf6651ed70c1efb7964f2bd29c9d85c4d97",
+    "paths": [
+      "Pilomatricoma/01.jpg",
+      "Pilomatricoma/giant-pilomatricoma.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "4d3623ea503a79c3472324bcc2ffe3d86faf59eb408b5da287b71750c196a940",
+    "paths": [
+      "Pilomatricoma/02.jpg",
+      "Pilomatricoma/pilomatricoma-01.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "f92cfbc0a09fb4c01c8875f78f547c6c348219ef58cab802b65da6e70b6c6656",
+    "paths": [
+      "Pilomatricoma/03.jpg",
+      "Pilomatricoma/pilomatricoma-macro.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "b7312c290ec125fa2dd6cb568e1d474122eb27384b0243c5bef7ecc0a59ff7b4",
+    "paths": [
+      "Pilomatricoma/04.jpg",
+      "Pilomatricoma/pilomatricoma.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "1fc725f6bfe255909ab2d9bb8fd43140613a09e736725b1fa8a81cc3faa75318",
+    "paths": [
+      "Pilomatricoma/05.jpg",
+      "Pilomatricoma/pilomatricoma2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "fa9206a6596469f6e52435ece7d6baa3867e643693737a43ed96a3e53a4071da",
+    "paths": [
+      "Pilomatricoma/06.jpg",
+      "Pilomatricoma/pilomatricoma3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "255fb8b0db9c372975b5d4536ddddcdc151efee9f851ac38dab1ee9f5daf6db0",
+    "paths": [
+      "Pityriasis amiantacea/01.jpg",
+      "Pityriasis amiantacea/amiantacea.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "bebee06103acbc45baa72d8d93f546c4fe9285068c10ab3376530eae7033b90e",
+    "paths": [
+      "Pityriasis amiantacea/03.jpg",
+      "Pityriasis amiantacea/pitamiant3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "255b6a0665d4544207299a59eb7ae52b7ee60af11e06c92a64ba41b068d47e82",
+    "paths": [
+      "Pityriasis amiantacea/04.jpg",
+      "Pityriasis amiantacea/pityramiant.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "cad8e1c99bdc246328dc1b2aa422277f191242b6f2a90103ae3c0785b5fb6c8a",
+    "paths": [
+      "Pityriasis rubra pilaris/15.jpg",
+      "Pityriasis rubra pilaris/prp1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "c6754886b66196ef27259f3a77e59f981da002345a19ef6d28b00d32b290bbe2",
+    "paths": [
+      "Pityriasis rubra pilaris/16.jpg",
+      "Pityriasis rubra pilaris/prp10.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "0a75443b07f46ce864bf3480458fc0307b043eff82da1b2dcef0801b472d2fe1",
+    "paths": [
+      "Pityriasis rubra pilaris/17.jpg",
+      "Pityriasis rubra pilaris/prp11.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "8326f564328829635e97e8826f7dd746a33d64c179242f19ceedea8d42c09092",
+    "paths": [
+      "Pityriasis rubra pilaris/18.jpg",
+      "Pityriasis rubra pilaris/prp12.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "ebe6f3635aa1449c04eb8c0aeca73ae5fd46d283d2d860594b42d109edab5204",
+    "paths": [
+      "Pityriasis rubra pilaris/19.jpg",
+      "Pityriasis rubra pilaris/prp13.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "e5c06b8e208f346954e9f39ce208caf38923c0509194fbae1dd200a4203bdd1f",
+    "paths": [
+      "Pityriasis rubra pilaris/20.jpg",
+      "Pityriasis rubra pilaris/prp2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "08ecfab8b48da9135cd56cc52295b0294f38b129ea8ab5b20cdc9e65d34a7578",
+    "paths": [
+      "Pityriasis rubra pilaris/21.jpg",
+      "Pityriasis rubra pilaris/prp3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "1a93823dac3c3c0256d1e36af8434676a2c58279e25441000acd8d7e99c6f8bf",
+    "paths": [
+      "Pityriasis rubra pilaris/23.jpg",
+      "Pityriasis rubra pilaris/prp4.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "bfe5fc9c027f39955662ae6f8894f8b7066d06f2fdf938fbfdbb94a181ed24e1",
+    "paths": [
+      "Pityriasis rubra pilaris/24.jpg",
+      "Pityriasis rubra pilaris/prp5.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "e07ff86e829d9991610ebd7d55b1a7ad78cdd542a420acf53184c067bd5afd75",
+    "paths": [
+      "Pityriasis rubra pilaris/25.jpg",
+      "Pityriasis rubra pilaris/prp6.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "93886a4bd03f331e89c561484e557e95c99731121453f3a6f8bbea89c3fc7c7f",
+    "paths": [
+      "Pityriasis rubra pilaris/26.jpg",
+      "Pityriasis rubra pilaris/prp7.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "18e0d204bcb2ae86359cd2625f2147c0a5627a496a3b73effbcfb06b6e3fed92",
+    "paths": [
+      "Pityriasis rubra pilaris/27.jpg",
+      "Pityriasis rubra pilaris/prp8.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "684b94555379e427267018b09360101e5c636df83832ba072728b9c0a2daae19",
+    "paths": [
+      "Pityriasis rubra pilaris/29.jpg",
+      "Pityriasis rubra pilaris/prp9.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "10ca461f44b1da99bc1bbd6a289ecc06b004e93699bb02caef4d91ec1ee9bcf9",
+    "paths": [
+      "Plasma cell balanitis_vulvitis/02.jpg",
+      "Plasma cell balanitis_vulvitis/plasma1-s.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "2e03b5394d1f511dd3c9518f7d4495d1d9834ae87144de328708b7cbb540af46",
+    "paths": [
+      "Plasma cell balanitis_vulvitis/03.jpg",
+      "Plasma cell balanitis_vulvitis/plasma2-s.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "6e67c945bdfbdf5ab2902bc74fdcfabffd3f57e65f0eadeecdf55535c56b4469",
+    "paths": [
+      "Plasmacytoma/01.jpg",
+      "Plasmacytoma/plasmacytoma-2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "f56cfb86ccd1b3e94128300dde77a62a74a6f5c99e2b7958352f77501ef2dbf5",
+    "paths": [
+      "Plasmacytoma/02.jpg",
+      "Plasmacytoma/plasmacytoma-3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "306cb9a950993bf0d591c39f2eb3653e21da6c3584a089d07decccc0e46918f5",
+    "paths": [
+      "Plasmacytoma/03.jpg",
+      "Plasmacytoma/plasmacytoma.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "f38b62b850201ad8c5c2d3403895091fc935cfbf8264c40d037d9a8b78186d1e",
+    "paths": [
+      "Plasmacytoma/04.jpg",
+      "Purpura/101.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "32a2b8aaef7ea727e29dd1da92d767355a33062e49e22769de28af4b883ec350",
+    "paths": [
+      "Poikiloderma of Civatte/01.jpg",
+      "Poikiloderma of Civatte/civatte1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "546ca7e9cee007a9248d6932f96a50564fdac8c6e9fd51fc7dc4f8c6bd4f9fa5",
+    "paths": [
+      "Poikiloderma of Civatte/02.jpg",
+      "Poikiloderma of Civatte/civatte2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "1bb2cf1490434da7de90f3f6e3f5ccc479bf18e428a9b32ba643856bca764326",
+    "paths": [
+      "Poikiloderma of Civatte/03.jpg",
+      "Poikiloderma of Civatte/civatte3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "cf157e50482e71e5856d2b3dcaf66e6fffae1c58b217dbc8a3faca57220d2434",
+    "paths": [
+      "Poikiloderma of Civatte/04.jpg",
+      "Poikiloderma of Civatte/civatte4.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "55daa1d8bfb1ce19b23c71e1d4ec8976e78c6afc069951ea0712f5946040f2e6",
+    "paths": [
+      "Poikiloderma of Civatte/05.jpg",
+      "Poikiloderma of Civatte/civatte5.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "91e84e4efd7d8eb98c5d3116ec67f1f9487026d4fcf5fb455d520f17a14f39bf",
+    "paths": [
+      "Poikiloderma of Civatte/06.jpg",
+      "Poikiloderma of Civatte/civatte6.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "61a1fbe4b6f0fcbc94379886fb23ec3416ee92c71cd26694df1b527680da1670",
+    "paths": [
+      "Poliosis/04.jpg",
+      "Poliosis/poliosis2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "7dd3de3b94e63465b76907ad4d364dfd9786e23db0b7dd72107403eb1bfd4b55",
+    "paths": [
+      "Poliosis/05.jpg",
+      "Poliosis/poliosis3.jpg",
+      "Vitiligo/poliosis3.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "f8f0254f59f0208531167172a1cd9eff9fb59999202f5557164ad41f360ed6f0",
+    "paths": [
+      "Poliosis/06.jpg",
+      "Poliosis/poliosis4.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "8860ea03dcc370ada80d0c688d5317f188e20998658de18a5dab0988e54a10f5",
+    "paths": [
+      "Polycystic ovary syndrome/01.jpg",
+      "Polycystic ovary syndrome/acne-pcos.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "c915b47f44603aaa1af9b50e7b852f8841ba8ae04cb2b2c54ec18cf7dcfb29a9",
+    "paths": [
+      "Polycystic ovary syndrome/02.jpg",
+      "Polycystic ovary syndrome/aga-pcos.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "658f780742db4e11a83643d0df7855f503f6985d0795d52def05f5ce46e5a27d",
+    "paths": [
+      "Polycystic ovary syndrome/03.jpg",
+      "Polycystic ovary syndrome/hirs-pcos.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "601e2741b0f912bd95e62db6f5d05678538aa6b580ef64219c27dbc77dcea1f7",
+    "paths": [
+      "Polymorphic eruption of pregnancy/01.jpg",
+      "Polymorphic eruption of pregnancy/polymorphic-pregnancy.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "d41792525abe2c8c30e11643a0976993c5d133dd248adeed7d88242d256f07d4",
+    "paths": [
+      "Polymorphic eruption of pregnancy/02.jpg",
+      "Polymorphic eruption of pregnancy/pupp4.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "48825a4d8488894ba0024615bb6849a35a3a653482fde7865d3cc11d8f3a896b",
+    "paths": [
+      "Polymorphic eruption of pregnancy/04.jpg",
+      "Polymorphic eruption of pregnancy/puppp1.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "265cbee7a08e8e8d9b47e06415784757cb97c5f011486f9ee04735f7887973de",
+    "paths": [
+      "Polymorphic light eruption/23.jpg",
+      "Prurigo/68.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "877c76368c240d2d62b94e6dbc778b693312c9b5838302d3258d6c6e577fc50b",
+    "paths": [
+      "Polymorphic light eruption/24.jpg",
+      "Prurigo/69.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "c9ae0f61fe390b7ec1f769d519f85b01bf7cffbcee6b4a51261e5677d7616863",
+    "paths": [
+      "Polymorphic light eruption/25.jpg",
+      "Prurigo/70.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "bec8abdfb1fd54b1713038273de09a830d52132dc45f4c3e2ae965d9f9e20fa7",
+    "paths": [
+      "Polymorphic light eruption/26.jpg",
+      "Prurigo/71.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "3c7dee8ad9c888bcccf0695abf58c677b353557f0fdde56e55dd0ef73ab5a427",
+    "paths": [
+      "Polymorphic light eruption/27.jpg",
+      "Prurigo/72.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d6644f00a975bdc45c846784d1a5529aa2504a967cc49ddac1a6dae20bc8dc26",
+    "paths": [
+      "Polymorphic light eruption/28.jpg",
+      "Prurigo/73.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "c7b68ddc5b1be34b6f991fa1456693471078afac6b30159522c2b52970d75139",
+    "paths": [
+      "Porphyria cutanea tarda/04.jpg",
+      "Pyoderma/07.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "7f2a8152404dba8152b220415108c52de04f4da367a82e21f9a364543c5aa8ed",
+    "paths": [
+      "Porphyria cutanea tarda/08.jpg",
+      "Porphyria cutanea tarda/pct2.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "c252ce318c6bcc56abd92e03aab49dca59500bef7e76a2a5fe2671dd27b52d00",
+    "paths": [
+      "Porphyria cutanea tarda/09.jpg",
+      "Porphyria cutanea tarda/pct3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "fca1839b8f4a2e7dd72cf9feb9e0fc06207453f76c4839f8a195e87c19dd4830",
+    "paths": [
+      "Porphyria cutanea tarda/11.jpg",
+      "Porphyria cutanea tarda/pct5.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "c07f0b51f40597249dfe66eb619fa4a3f0556bbc4021724ad73524e4c2ab1956",
+    "paths": [
+      "Porphyria cutanea tarda/13.jpg",
+      "Porphyria cutanea tarda/pct7.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "cd1452120cce8251ae56b39ca2b9cf08f223242d4ae0a9ac5c103d589e0b2491",
+    "paths": [
+      "Postinflammatory hyperpigmentation/14.jpg",
+      "Postinflammatory hyperpigmentation/oven-burn.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "bc15822dacb6291d0fdafd0f3e214d85d1cb82cf32a7881704099c360bd9c12e",
+    "paths": [
+      "Postinflammatory hyperpigmentation/21.jpg",
+      "Prurigo/64.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "127dc98d35a0c9d06b68ccf2816de344fae550b6a0244845059c8a030945bce7",
+    "paths": [
+      "Postinflammatory hyperpigmentation/28.jpg",
+      "Postinflammatory hyperpigmentation/postinflamm4.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "4644c483a7f605b961c0873247ed7b1dc50e8a89b9dbd3a7c7e44e6f819e733b",
+    "paths": [
+      "Postinflammatory hyperpigmentation/30.jpg",
+      "Pretibial myxoedema/10.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "4d7329bf86ab3bc86585d47ddc08a017be557d14883c55f9f1d07650f56c4ca7",
+    "paths": [
+      "Postinflammatory hyperpigmentation/31.jpg",
+      "Pretibial myxoedema/11.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b124d7e9d2424542b2c33a8f41d70686e6491b97ee430e598677f41eeaa4d2fb",
+    "paths": [
+      "Pressure ulcer/01.jpg",
+      "Pressure ulcer/decubitus3.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "221314e15238804e8501ecbf1342043f19324dd3cf7b03e755cab2ea89bab4c5",
+    "paths": [
+      "Pressure ulcer/22.jpg",
+      "Pressure ulcer/ulcer-press.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "ea3a8a1040b730c0cf3963ff77e6f58c70114f491f47b937bd58c7bbc1948df0",
+    "paths": [
+      "Prurigo/06.jpg",
+      "Pruritus/07.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b40bea70d488316b25c984a6484fb29d80e1833061c378a6f530b1ecd3afed73",
+    "paths": [
+      "Prurigo/98.jpg",
+      "Pruritus/42.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "e7aae1dece716d91eac8de281234737fb0bb330c9ad4592086854711e9954ca9",
+    "paths": [
+      "Prurigo/99.jpg",
+      "Varicose veins/05.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b7b8d1ee0f5ee13bb01549dfd2f7fcd77d004e6db18b45de0af8ddd06478e96a",
+    "paths": [
+      "Pruritus/56.jpg",
+      "Purpura/98.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "3b82026af0d93954d2ddce9667dce70bce778d9e99cba6a256f7e36b5865ebc3",
+    "paths": [
+      "Pseudofolliculitis barbae/11.jpg",
+      "Vulval intraepithelial neoplasia/37.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "3b41062247bd7b7083c89bf14feb4a4f08e660fed12dfc1cff74ae73d83e2a8c",
+    "paths": [
+      "Purpura/96.jpg",
+      "Scurvy/01.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "d38bd39fa1834ead39db0982028a51e926ce3897ef0231556d6321cef515f155",
+    "paths": [
+      "Purpura/97.jpg",
+      "Scurvy/02.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "7c1416b61bc9442590611a1a5a450e36220465106e930bb2913af99154dd5523",
+    "paths": [
+      "Sarcoidosis/01.jpg",
+      "Tinea capitis/01.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "e70fe9ecf72ab03c519c42a8384c90c5e3719d924c59db2abd7000e2e70ae436",
+    "paths": [
+      "Tinea capitis/15.jpg",
+      "Vulval intraepithelial neoplasia/41.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "3d8ce7b9e67590886e89dddce687c84044a9321752137a536a97b83b0cbe3dc7",
+    "paths": [
+      "Tinea capitis/16.jpg",
+      "Vulval intraepithelial neoplasia/42.jpg"
+    ],
+    "scope": "cross_folder"
+  },
+  {
+    "hash": "b4cd1db130edf379d94b8cac7ff4dddbad60d695caa4ce710e6b49fb3fbf9fb5",
+    "paths": [
+      "Vulval intraepithelial neoplasia/43.jpg",
+      "Vulval intraepithelial neoplasia/vin1-s.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "393f1e10ad657c0c3778dc68d81b28822604450d8bc4588dab20e863cef4176a",
+    "paths": [
+      "Vulval intraepithelial neoplasia/45.jpg",
+      "Vulval intraepithelial neoplasia/vin2-s.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "64bb5c0a91988db3056828e1241b14e73a8fef5840580e811af36462efefcd22",
+    "paths": [
+      "Vulval intraepithelial neoplasia/47.jpg",
+      "Vulval intraepithelial neoplasia/vin3-s.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "629b2c162e9be46cdadc5978dd1ec71024b7fc29a57aa841b37b40b2ca953c5e",
+    "paths": [
+      "Vulval intraepithelial neoplasia/49.jpg",
+      "Vulval intraepithelial neoplasia/vin4-s.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "5987eb57efd7548ce75ce79163c22be529e9a9123c9aa33fe6daa53b34395782",
+    "paths": [
+      "Vulval intraepithelial neoplasia/51.jpg",
+      "Vulval intraepithelial neoplasia/vin5-s.jpg"
+    ],
+    "scope": "within_folder"
+  },
+  {
+    "hash": "c93851f6b01ea8f892aa1840af0c482fd1fa15a528c323d4257568c386b1f59b",
+    "paths": [
+      "Vulval intraepithelial neoplasia/53.jpg",
+      "Vulval intraepithelial neoplasia/vin6-s.jpg"
+    ],
+    "scope": "within_folder"
+  }
+]

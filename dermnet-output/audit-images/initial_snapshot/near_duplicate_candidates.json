@@ -1,0 +1,1402 @@
+[
+  {
+    "a": "Alopecia areata/alopecia-areata-00004.jpg",
+    "b": "Triangular alopecia/01.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Amelanotic melanoma/12a-amelanotic-melanoma.jpg",
+    "b": "Amelanotic melanoma/amelanotic-melanoma-macro.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Amelanotic melanoma/amelanotic-melanoma-11.jpg",
+    "b": "Melanoma in situ/Melanoma-in-situ-6.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Atopic dermatitis/at-mol.jpg",
+    "b": "Molluscum contagiosum/ecz-atopic3.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Atopic dermatitis/at-mol.jpg",
+    "b": "Molluscum contagiosum/moll-ecz.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Atopic dermatitis/ecz-atopic1.jpg",
+    "b": "Atopic dermatitis/figure-1-itch2.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Atopic dermatitis/flexural-eczema01.jpg",
+    "b": "Atopic dermatitis/flexural-eczema14.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Birt-Hogg-Dubé syndrome/birt-hogg-dube-05.jpg",
+    "b": "Birt-Hogg-Dubé syndrome/fibrofollic2.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2515.jpg",
+    "b": "Discoid lupus erythematosus/dle-scalp2.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2551.jpg",
+    "b": "Cutaneous lupus erythematosus/lupus-sc3.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2558.jpg",
+    "b": "Discoid lupus erythematosus/dle-lip.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2561.jpg",
+    "b": "Discoid lupus erythematosus/dle-scalp.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/lupus-sc4.jpg",
+    "b": "Cutaneous lupus erythematosus/subacute-lupus-06.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/palmoplantar-le.jpg",
+    "b": "Systemic lupus erythematosus/sle-51.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Dyshidrotic eczema (pompholyx)/pompholyx3.jpg",
+    "b": "Palmoplantar pustulosis/3595.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Dyshidrotic eczema (pompholyx)/pompholyx3.jpg",
+    "b": "Palmoplantar pustulosis/plantar-pustulosis-35.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Genital psoriasis/infant-boy-ps4-s.jpg",
+    "b": "Napkin dermatitis/napkin-dermatitis1-sm.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Granuloma annulare/2679.jpg",
+    "b": "Granuloma annulare/deep-ga2.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Granuloma annulare/2681.jpg",
+    "b": "Granuloma annulare/deep-ga.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/020826164645-239.jpg",
+    "b": "Hand dermatitis/2841.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/2832.jpg",
+    "b": "Impetigo/impetigo3.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/at-derm13.jpg",
+    "b": "Hand dermatitis/atopic-hand-dermatitis-0003.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/dscn5443.jpg",
+    "b": "Hand dermatitis/farmer-02.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/hand10.jpg",
+    "b": "Nummular eczematous dermatitis/nummular-eczema57.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Henoch–Schönlein purpura/hsp5.jpg",
+    "b": "Purpura/01.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Henoch–Schönlein purpura/hsp6.jpg",
+    "b": "Purpura/86.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0042,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Herpes simplex/2869.jpg",
+    "b": "Herpes simplex/hsimplex.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hidradenitis suppurativa/hidradenitis-comedones.jpg",
+    "b": "Hidradenitis suppurativa/hs-comedones-091.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hidradenitis suppurativa/hidradenitis-suppurativa-011.jpg",
+    "b": "Hidradenitis suppurativa/hs-inflammatory-113.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hidradenitis suppurativa/hidradenitis6.jpg",
+    "b": "Hidradenitis suppurativa/hs-scars-104.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Kaposi sarcoma/kaposi-sarcoma-19.jpg",
+    "b": "Kaposi sarcoma/ks9.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Kaposi sarcoma/kaposi-sarcoma-20.jpg",
+    "b": "Kaposi sarcoma/ks7.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Leg ulcer/ulcer-02.jpg",
+    "b": "Leprosy/lucio-04.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Leishmaniasis/cutaneous-leishmaniasis-12-v2.jpg",
+    "b": "Leishmaniasis/cutaneous-leishmaniasis-12.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Lichen planus/2384-s2.jpg",
+    "b": "Lichen planus/2384-small.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Marjolin ulcer/Mohs14-640x480.jpg",
+    "b": "Marjolin ulcer/Mohs15-640x480.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Melanocytic naevus/macro-melanocytic-naevus-4-v2.jpg",
+    "b": "Melanocytic naevus/macro-melanocytic-naevus-4-v3.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Melanocytic naevus/nail-pigment8.jpg",
+    "b": "Melanonychia/nail-mel-naevus.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Milker_s nodule/milkers2-sm.jpg",
+    "b": "Milker_s nodule/milkers2.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Molluscum contagiosum/ecz-atopic3.jpg",
+    "b": "Molluscum contagiosum/moll-ecz.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Molluscum contagiosum/eyelid-15.jpg",
+    "b": "Molluscum contagiosum/molluscum05.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Morphoea/3194.jpg",
+    "b": "Morphoea/morph1.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Morphoea/3201.jpg",
+    "b": "Morphoea/morph4.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Mycosis fungoides/itchy-skin-52.jpg",
+    "b": "Mycosis fungoides/mycosis-fungoides-9.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Mycosis fungoides/mycosis-fungoides-10.jpg",
+    "b": "Mycosis fungoides/mycosis-fungoides-14.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Neonatal lupus/05.jpg",
+    "b": "Neonatal lupus/06.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Neurofibromatosis/nf2-big.jpg",
+    "b": "Neurofibromatosis/nf2.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Nodular chondrodermatitis/02.jpg",
+    "b": "Nodular chondrodermatitis/07.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Non-albicans candida infections/01.jpg",
+    "b": "Non-albicans candida infections/46.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Non-albicans candida infections/26.jpg",
+    "b": "Non-albicans candida infections/55.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Nummular eczematous dermatitis/nummular-eczema31.jpg",
+    "b": "Nummular eczematous dermatitis/nummular-eczema37.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Nummular eczematous dermatitis/nummular-eczema33.jpg",
+    "b": "Nummular eczematous dermatitis/nummular2.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Nummular eczematous dermatitis/nummular-eczema44.jpg",
+    "b": "Nummular eczematous dermatitis/nummular5.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Onychogryphosis/02.jpg",
+    "b": "Onychogryphosis/03.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Onychogryphosis/06.jpg",
+    "b": "Onychomycosis/15.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Onychomycosis/48.jpg",
+    "b": "Onychomycosis/51.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Oral candidiasis/1283-big.jpg",
+    "b": "Oral candidiasis/ocan1.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Oral mucositis - Stomatitis/38.jpg",
+    "b": "Oral mucositis - Stomatitis/53.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Oral mucositis - Stomatitis/39.jpg",
+    "b": "Oral mucositis - Stomatitis/54.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Palmoplantar pustulosis/3595.jpg",
+    "b": "Palmoplantar pustulosis/plantar-pustulosis-35.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Pediculosis capitis/02.jpg",
+    "b": "Pediculosis capitis/08.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Pemphigus foliaceus/01.jpg",
+    "b": "Pemphigus foliaceus/11.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Pigmented purpura/lichen-aureus-04.jpg",
+    "b": "Pigmented purpura/purpurasimpl1.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Pigmented purpura/pigmpurpdermA.jpg",
+    "b": "Pigmented purpura/purpura1.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Pityriasis rubra pilaris/15.jpg",
+    "b": "Psoriasis/chronic-plaque-psoriasis-013.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Vulval intraepithelial neoplasia/47.jpg",
+    "b": "Vulval intraepithelial neoplasia/48.jpg",
+    "phash_distance": 0,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Acne vulgaris/acne-face-6-5.jpg",
+    "b": "Acne vulgaris/acne6.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Acquired dermal macular hyperpigmentation/acquired-dermal-macular-hyperpigmentation-019.jpg",
+    "b": "Lichen planus/3083.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Acute febrile neutrophilic dermatosis (Sweet syndrome)/sweet2.jpg",
+    "b": "Urticarial vasculitis/05.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Anagen effluvium/anagen-effluvium-19.jpg",
+    "b": "Madarosis/madarosis-09-v2.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Angular cheilitis/ang-cheilitis.jpg",
+    "b": "Oral candidiasis/1283-big.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Angular cheilitis/ang-cheilitis.jpg",
+    "b": "Oral candidiasis/ocan1.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Angular cheilitis/perleche13.jpg",
+    "b": "Impetigo/perioral-impetigo-19.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Angular cheilitis/perleche9.jpg",
+    "b": "Oral candidiasis/1300-big.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Atopic dermatitis/atopic-dermatitis-4.jpg",
+    "b": "Atopic dermatitis/flexural-eczema22.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Atopic dermatitis/atopic16.jpg",
+    "b": "Hand dermatitis/2825.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Atopic dermatitis/atopic30.jpg",
+    "b": "Eyelid contact dermatitis/eyelid-dermatitis-07.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Basal cell carcinoma/0616.jpg",
+    "b": "Radiation dermatitis/04.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Basal cell carcinoma/0883.jpg",
+    "b": "Squamous cell carcinoma/3965.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Bullous pemphigoid/3363.jpg",
+    "b": "Pemphigus vulgaris/pgus9.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cellulitis/callus6.jpg",
+    "b": "Erysipelas/wound-inf2.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2516.jpg",
+    "b": "Discoid lupus erythematosus/dle-scalp3.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2525.jpg",
+    "b": "Cutaneous lupus erythematosus/lupus-sc.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2530.jpg",
+    "b": "Cutaneous lupus erythematosus/subacute-lupus-05.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2541.jpg",
+    "b": "Jessner lymphocytic infiltrate/jessner1.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Dermatofibroma/2397.jpg",
+    "b": "Dermatofibroma/df6.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Dermatofibroma/2404.jpg",
+    "b": "Dermatofibroma/df4.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Eczema herpeticum/ecz-herp1.jpg",
+    "b": "Herpes simplex/herpes-simplex-labialis-54.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Epidermolysis bullosa acquisita/blist-eba.jpg",
+    "b": "Epidermolysis bullosa acquisita/eba1.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Extramammary Paget disease of skin/extra-paget1.jpg",
+    "b": "Extramammary Paget disease of skin/extra-paget5.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Flexural psoriasis/flexural-ps22-s.jpg",
+    "b": "Genital psoriasis/genital-psoriasis-29.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Granuloma annulare/2728.jpg",
+    "b": "Granuloma annulare/ga11.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/2837.jpg",
+    "b": "Hand dermatitis/palm-derm.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/2846.jpg",
+    "b": "Hand dermatitis/hand-dermatitis4.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/2853.jpg",
+    "b": "Hand dermatitis/at-derm13.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/2853.jpg",
+    "b": "Hand dermatitis/atopic-hand-dermatitis-0003.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Henoch–Schönlein purpura/hsp6.jpg",
+    "b": "Purpura/05.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hidradenitis suppurativa/hidradenitis3.jpg",
+    "b": "Hidradenitis suppurativa/hs-scars-105.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hidradenitis suppurativa/hs-axilla-050.jpg",
+    "b": "Hidradenitis suppurativa/smoker-hidradenitis2.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Keratosis pilaris/3024.jpg",
+    "b": "Keratosis pilaris/kp2.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Leg ulcer/3044.jpg",
+    "b": "Leg ulcer/ulcer-ven1.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Leg ulcer/3058.jpg",
+    "b": "Leg ulcer/ulcer-ven2.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Lichen simplex/3115.jpg",
+    "b": "Madarosis/madarosis-04.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Lichen simplex/3117.jpg",
+    "b": "Madarosis/madarosis-13.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Melasma/3146.jpg",
+    "b": "Melasma/chloas3.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Metastatic melanoma/metastasis-v2.jpg",
+    "b": "Metastatic melanoma/metastatic-melanoma04.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Metastatic melanoma/metastasis1.jpg",
+    "b": "Metastatic melanoma/mmm3.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Mid-dermal elastolysis/middermal-elastolysis-2.jpg",
+    "b": "Mid-dermal elastolysis/middermal-elastolysis-4.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Mid-dermal elastolysis/middermal-elastolysis-3.jpg",
+    "b": "Mid-dermal elastolysis/middermal-elastolysis-5.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Milker_s nodule/milkers3-sm.jpg",
+    "b": "Milker_s nodule/milkers3.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Neonatal lupus/03.jpg",
+    "b": "Neonatal lupus/04.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Neurofibromatosis/calm7.jpg",
+    "b": "Neurofibromatosis/nf6.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Neurofibromatosis/nf3-big.jpg",
+    "b": "Neurofibromatosis/nf3.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Nummular eczematous dermatitis/lowerleg2.jpg",
+    "b": "Nummular eczematous dermatitis/nummular-eczema43.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Nummular eczematous dermatitis/nummular-eczema34.jpg",
+    "b": "Nummular eczematous dermatitis/nummular1.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Papular urticaria/03.jpg",
+    "b": "Prurigo/01.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Pemphigoid gestationis/03.jpg",
+    "b": "Pemphigoid gestationis/46.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Pityriasis versicolor/3491.jpg",
+    "b": "Pityriasis versicolor/pitver7.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Prurigo/02.jpg",
+    "b": "Prurigo/65.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Psoriasis/2752.jpg",
+    "b": "Psoriasis/ps4.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Purpura/05.jpg",
+    "b": "Purpura/86.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0042,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Purpura/25.jpg",
+    "b": "Purpura/87.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Sunburn/20.jpg",
+    "b": "Sunburn/36.jpg",
+    "phash_distance": 2,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Acne vulgaris/acne-face-20-1.jpg",
+    "b": "Acne vulgaris/second2.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Acrodermatitis continua of Hallopeau/hallopeaupeuk.jpg",
+    "b": "Palmoplantar pustulosis/3583.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Atopic dermatitis/at-mol.jpg",
+    "b": "Molluscum contagiosum/moll2.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Atopic dermatitis/atopic18.jpg",
+    "b": "Nummular eczematous dermatitis/nummular-eczema61.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Atopic dermatitis/ecz-atopic10.jpg",
+    "b": "Atopic dermatitis/flexural-eczema05.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Atopic dermatitis/flexural-eczema04.jpg",
+    "b": "Molluscum contagiosum/molluscum19.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Bullous pemphigoid/3393.jpg",
+    "b": "Bullous pemphigoid/blist-pgoid4.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Calciphylaxis/ulcer-47.jpg",
+    "b": "Leg ulcer/3041.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2535.jpg",
+    "b": "Cutaneous lupus erythematosus/plaque-le.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Genital psoriasis/genital-psoriasis-02.jpg",
+    "b": "Napkin dermatitis/napkin-dermatitis24-sm.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Genital psoriasis/genital-psoriasis-19.jpg",
+    "b": "Non-albicans candida infections/19.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/2843.jpg",
+    "b": "Hand dermatitis/dscn5443.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/2843.jpg",
+    "b": "Hand dermatitis/farmer-02.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Molluscum contagiosum/ecz-atopic3.jpg",
+    "b": "Molluscum contagiosum/moll2.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Molluscum contagiosum/moll-ecz.jpg",
+    "b": "Molluscum contagiosum/moll2.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Molluscum contagiosum/molluscum-contagiosum-0026.jpg",
+    "b": "Molluscum contagiosum/molluscum06.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Morphoea/3197.jpg",
+    "b": "Morphoea/morph3.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Non-albicans candida infections/38.jpg",
+    "b": "Non-albicans candida infections/61.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Pemphigus vulgaris/blist-pgus1.jpg",
+    "b": "Pemphigus vulgaris/pgus1.jpg",
+    "phash_distance": 4,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Acne vulgaris/acne-face-1-19.jpg",
+    "b": "Arthropod bites and stings/bite2.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Acral lentiginous melanoma/alm-nail-1.jpg",
+    "b": "Acral lentiginous melanoma/alm13.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Actinic keratosis/3732.jpg",
+    "b": "Keratosis pilaris/3020.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Amelanotic melanoma/amelanotic-melanoma-032.jpg",
+    "b": "Blue nevus/blue-naevus-0037.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Amelanotic melanoma/amelanotic-melanoma-032.jpg",
+    "b": "Melanocytic naevus/585.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Angioma serpiginosum/ang-serpig3.jpg",
+    "b": "Molluscum contagiosum/molluscum-contagiosum-0028.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Angioma serpiginosum/ang-serpig3.jpg",
+    "b": "Psoriasis/2766.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Arthropod bites and stings/bite2.jpg",
+    "b": "Cherry angioma/1318.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cherry angioma/208528.25830736.20151229090402533.jpg",
+    "b": "Melanoma in situ/melanoma-in-situ-0014.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous amyloidosis/amyloid6.jpg",
+    "b": "Macroglossia/amyl1.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous amyloidosis/amyloidosis-0014.jpg",
+    "b": "Notalgia paraesthetica/19.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous horn/horn-03.jpg",
+    "b": "Squamous cell carcinoma/3945.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Cutaneous lupus erythematosus/2539.jpg",
+    "b": "Cutaneous lupus erythematosus/le-cheeks.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Erythema annulare centrifugum/annular-erythema-05.jpg",
+    "b": "Ichthyosis/ichthyosis-17.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Genital psoriasis/genital-psoriasis-01.jpg",
+    "b": "Napkin dermatitis/napkin-dermatitis23-sm.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Genital psoriasis/genital-psoriasis-19.jpg",
+    "b": "Genital psoriasis/vulval-ps1-s.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Granular parakeratosis/granular-parakeratosis-06.jpg",
+    "b": "Halo naevus/halo3.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/2836.jpg",
+    "b": "Hand dermatitis/ecz-hand7.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Hand dermatitis/2847.jpg",
+    "b": "Paronychia/3292.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Marjolin ulcer/Mohs13-640x480.jpg",
+    "b": "Marjolin ulcer/Mohs14-640x480.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Marjolin ulcer/Mohs13-640x480.jpg",
+    "b": "Marjolin ulcer/Mohs15-640x480.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Melanocytic naevus/3164.jpg",
+    "b": "Melanocytic naevus/585.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Morphoea/3191.jpg",
+    "b": "Morphoea/morph8.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Morphoea/3196.jpg",
+    "b": "Morphoea/morph2.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Nummular eczematous dermatitis/2621.jpg",
+    "b": "Nummular eczematous dermatitis/nummular6.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Onychocryptosis/03.jpg",
+    "b": "Paronychia/3297.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Papular urticaria/01.jpg",
+    "b": "Papular urticaria/02.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Paronychia/3285.jpg",
+    "b": "Paronychia/paron4.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Pemphigoid gestationis/16.jpg",
+    "b": "Polymorphic eruption of pregnancy/01.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "cross_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Pityriasis amiantacea/02.jpg",
+    "b": "Pityriasis amiantacea/17.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Porphyria cutanea tarda/02.jpg",
+    "b": "Porphyria cutanea tarda/15.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Rhinophyma/17.jpg",
+    "b": "Rhinophyma/22.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  },
+  {
+    "a": "Venous eczema/chronic-lipodermatosclerosis-28.jpg",
+    "b": "Venous eczema/lds5.jpg",
+    "phash_distance": 6,
+    "aspect_ratio_factor": 1.0,
+    "scope": "within_folder",
+    "review": "candidate_only"
+  }
+]

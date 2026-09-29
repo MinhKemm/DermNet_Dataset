@@ -1,0 +1,4655 @@
+[
+  {
+    "folder": "Acanthoma fissuratum",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 97535,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acanthosis palmaris",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 121021,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acne vulgaris",
+    "images": 297,
+    "readable": 297,
+    "unique_bytes": 297,
+    "unique_pixels": 297,
+    "bytes": 10993784,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acquired dermal macular hyperpigmentation",
+    "images": 22,
+    "readable": 22,
+    "unique_bytes": 22,
+    "unique_pixels": 22,
+    "bytes": 691481,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acquired lymphangiectasia",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 79110,
+    "recommendations": [
+      {
+        "folder": "Acquired lymphangiectasia",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Acquired lymphangiectasia.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acral lentiginous melanoma",
+    "images": 40,
+    "readable": 40,
+    "unique_bytes": 40,
+    "unique_pixels": 40,
+    "bytes": 2025235,
+    "recommendations": [
+      {
+        "folder": "Acral lentiginous melanoma",
+        "action": "hierarchy_keep_subtype",
+        "target": "Melanoma",
+        "reason": "Các trục subtype, sắc tố và giai đoạn chồng lấp nhau. Có thể gộp ở cấp melanoma nhưng phải giữ stage/phenotype; không dùng chúng làm lớp đơn nhãn loại trừ nhau mà chưa rà soát.",
+        "source_url": "https://dermnetnz.org/topics/melanoma",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Acral lentiginous melanoma.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acrodermatitis continua of Hallopeau",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 312732,
+    "recommendations": [
+      {
+        "folder": "Acrodermatitis continua of Hallopeau",
+        "action": "keep_separate",
+        "target": "Pustular disease spectrum",
+        "reason": "Giữ subtype; palmoplantar pustulosis có thể là thực thể riêng dù liên hệ psoriasis. Không tự gộp vào Generalised pustular psoriasis.",
+        "source_url": "https://dermnetnz.org/topics/palmoplantar-pustulosis",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Acrodermatitis continua of Hallopeau.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acrodermatitis enteropathica",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 376885,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acrokeratosis verruciformis of Hopf",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 92354,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acropustulosis of infancy",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 99515,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Actinic cheilitis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 275109,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Actinic keratosis",
+    "images": 183,
+    "readable": 183,
+    "unique_bytes": 183,
+    "unique_pixels": 183,
+    "bytes": 8190404,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acute febrile neutrophilic dermatosis (Sweet syndrome)",
+    "images": 53,
+    "readable": 53,
+    "unique_bytes": 53,
+    "unique_pixels": 53,
+    "bytes": 2765922,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acute generalised exanthematous pustulosis",
+    "images": 19,
+    "readable": 19,
+    "unique_bytes": 19,
+    "unique_pixels": 19,
+    "bytes": 849025,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Acute localised exanthematous pustulosis",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 99016,
+    "recommendations": [
+      {
+        "folder": "Acute localised exanthematous pustulosis",
+        "action": "hierarchy_keep_subtype",
+        "target": "AGEP/ALEP spectrum",
+        "reason": "Nguồn mô tả ALEP là thể khu trú của AGEP. Nếu gộp nên dùng nhãn phổ chung, tránh gọi ảnh khu trú là generalised.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Acute localised exanthematous pustulosis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Adult-onset Still disease",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 91046,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Airborne contact dermatitis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 201453,
+    "recommendations": [
+      {
+        "folder": "Airborne contact dermatitis",
+        "action": "keep_separate",
+        "target": "Dermatitis/eczema (cha khái niệm)",
+        "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Airborne contact dermatitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Alkaptonuria and ochronosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 149945,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Alopecia areata",
+    "images": 50,
+    "readable": 50,
+    "unique_bytes": 50,
+    "unique_pixels": 50,
+    "bytes": 2496388,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Alopecia mucinosa",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 256102,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Amelanotic melanoma",
+    "images": 44,
+    "readable": 44,
+    "unique_bytes": 44,
+    "unique_pixels": 44,
+    "bytes": 1754630,
+    "recommendations": [
+      {
+        "folder": "Amelanotic melanoma",
+        "action": "hierarchy_keep_subtype",
+        "target": "Melanoma",
+        "reason": "Các trục subtype, sắc tố và giai đoạn chồng lấp nhau. Có thể gộp ở cấp melanoma nhưng phải giữ stage/phenotype; không dùng chúng làm lớp đơn nhãn loại trừ nhau mà chưa rà soát.",
+        "source_url": "https://dermnetnz.org/topics/melanoma",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Amelanotic melanoma.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Amputation stump dermatoses",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 380643,
+    "recommendations": [
+      {
+        "folder": "Amputation stump dermatoses",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Nhóm nhiều bệnh ở mỏm cụt; cần nhãn bệnh cụ thể cho từng ảnh.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Amputation stump dermatoses.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Amyloidosis cutis dyschromica",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 104859,
+    "recommendations": [
+      {
+        "folder": "Amyloidosis cutis dyschromica",
+        "action": "merge_if_coarse",
+        "target": "Cutaneous amyloidosis",
+        "reason": "Các thể của amyloidosis da; lưu subtype.",
+        "source_url": "https://dermnetnz.org/topics/cutaneous-amyloidosis",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Amyloidosis cutis dyschromica.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Anagen effluvium",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 17,
+    "unique_pixels": 17,
+    "bytes": 774623,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Anetoderma",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 72814,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Angioma serpiginosum",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 121585,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Angular cheilitis",
+    "images": 37,
+    "readable": 37,
+    "unique_bytes": 37,
+    "unique_pixels": 37,
+    "bytes": 1448320,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Anogenital squamous cell carcinoma",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 393361,
+    "recommendations": [
+      {
+        "folder": "Anogenital squamous cell carcinoma",
+        "action": "hierarchy_keep_subtype",
+        "target": "Squamous cell carcinoma",
+        "reason": "Phân theo vị trí; giữ miền ảnh niêm mạc/sinh dục, chỉ gộp nếu scope bao gồm các vị trí này.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Anogenital squamous cell carcinoma.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Anogenital wart",
+    "images": 28,
+    "readable": 28,
+    "unique_bytes": 28,
+    "unique_pixels": 28,
+    "bytes": 1015589,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Anthrax",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 111503,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Antisynthetase syndrome",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 157564,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Aphthous ulcer",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 160457,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Apocrine chromhidrosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 158943,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Arthropod bites and stings",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 227483,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Aspergillosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 105018,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Asteatotic eczema",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 272978,
+    "recommendations": [
+      {
+        "folder": "Asteatotic eczema",
+        "action": "keep_separate",
+        "target": "Dermatitis/eczema (cha khái niệm)",
+        "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Asteatotic eczema.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Atopic dermatitis",
+    "images": 167,
+    "readable": 167,
+    "unique_bytes": 167,
+    "unique_pixels": 167,
+    "bytes": 6541640,
+    "recommendations": [
+      {
+        "folder": "Atopic dermatitis",
+        "action": "keep_separate",
+        "target": "Dermatitis/eczema (cha khái niệm)",
+        "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Atopic dermatitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Atrophoderma of Pasini and Pierini",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 199131,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Atypical fibroxanthoma",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 366738,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Atypical melanocytic naevus",
+    "images": 20,
+    "readable": 20,
+    "unique_bytes": 20,
+    "unique_pixels": 20,
+    "bytes": 1064288,
+    "recommendations": [
+      {
+        "folder": "Atypical melanocytic naevus",
+        "action": "hierarchy_keep_subtype",
+        "target": "Melanocytic naevus",
+        "reason": "Có thể tổ chức phân cấp nhóm tổn thương tế bào hắc tố, nhưng đặc điểm và vị trí khác nhau. Ưu tiên giữ chi tiết; Ota/Ito/Hori còn là nhãn chứa nhiều thực thể.",
+        "source_url": "https://dermnetnz.org/topics/melanocytic-naevus",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Atypical melanocytic naevus.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Atypical mycobacterial infection",
+    "images": 52,
+    "readable": 52,
+    "unique_bytes": 52,
+    "unique_pixels": 52,
+    "bytes": 2085106,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Atypical solar lentigo",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 102583,
+    "recommendations": [
+      {
+        "folder": "Atypical solar lentigo",
+        "action": "quarantine_label_review",
+        "target": null,
+        "reason": "Thuật ngữ dùng cho tổn thương không chắc là solar lentigo lành tính hay melanoma in situ; không gộp mù vào nhóm lành tính.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Atypical solar lentigo.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Bacterial folliculitis",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 73711,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Basal cell carcinoma",
+    "images": 161,
+    "readable": 161,
+    "unique_bytes": 161,
+    "unique_pixels": 161,
+    "bytes": 7004560,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Bazin_s hydroa vacciniforme",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 267703,
+    "recommendations": [
+      {
+        "folder": "Bazin_s hydroa vacciniforme",
+        "action": "rename_only",
+        "target": "Hydroa vacciniforme",
+        "reason": "Chuẩn hoá tên theo bài nguồn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Bazin_s hydroa vacciniforme.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Benign familial pemphigus",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 396566,
+    "recommendations": [
+      {
+        "folder": "Benign familial pemphigus",
+        "action": "rename_only",
+        "target": "Hailey-Hailey disease",
+        "reason": "Tên đồng nghĩa, không gộp vào pemphigus tự miễn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Benign familial pemphigus.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Benign hereditary telangiectasia",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 269582,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Birt-Hogg-Dubé syndrome",
+    "images": 14,
+    "readable": 14,
+    "unique_bytes": 14,
+    "unique_pixels": 14,
+    "bytes": 536724,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Blue nevus",
+    "images": 37,
+    "readable": 37,
+    "unique_bytes": 37,
+    "unique_pixels": 37,
+    "bytes": 2277023,
+    "recommendations": [
+      {
+        "folder": "Blue nevus",
+        "action": "hierarchy_keep_subtype",
+        "target": "Melanocytic naevus",
+        "reason": "Có thể tổ chức phân cấp nhóm tổn thương tế bào hắc tố, nhưng đặc điểm và vị trí khác nhau. Ưu tiên giữ chi tiết; Ota/Ito/Hori còn là nhãn chứa nhiều thực thể.",
+        "source_url": "https://dermnetnz.org/topics/melanocytic-naevus",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Blue nevus.txt"
+      },
+      {
+        "folder": "Blue nevus",
+        "action": "rename_only",
+        "target": "Blue naevus",
+        "reason": "Thống nhất chính tả naevus/nevus; không bắt buộc.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Blue nevus.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Boil",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 356216,
+    "recommendations": [
+      {
+        "folder": "Boil",
+        "action": "hierarchy_keep_subtype",
+        "target": "Bacterial folliculitis / Cutaneous abscess",
+        "reason": "Viêm nang lông sâu và có thể tạo áp xe; quan hệ chồng lấp, không phải ba tên đồng nghĩa.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Boil.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Bullous pemphigoid",
+    "images": 67,
+    "readable": 67,
+    "unique_bytes": 67,
+    "unique_pixels": 67,
+    "bytes": 2533508,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Calcinosis cutis",
+    "images": 22,
+    "readable": 22,
+    "unique_bytes": 22,
+    "unique_pixels": 22,
+    "bytes": 797497,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Calciphylaxis",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 15,
+    "unique_pixels": 15,
+    "bytes": 744068,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Carotenoderma",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 95458,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cellulitis",
+    "images": 21,
+    "readable": 21,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 884761,
+    "recommendations": [
+      {
+        "folder": "Cellulitis",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Cellulitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cherry angioma",
+    "images": 21,
+    "readable": 21,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 798777,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Chilblains",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 190824,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Chloracne _ MADISH",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 176494,
+    "recommendations": [
+      {
+        "folder": "Chloracne _ MADISH",
+        "action": "rename_only",
+        "target": "Chloracne (MADISH)",
+        "reason": "Chuẩn hoá dấu phân cách.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Chloracne _ MADISH.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cold urticaria",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 281929,
+    "recommendations": [
+      {
+        "folder": "Cold urticaria",
+        "action": "merge_if_coarse",
+        "target": "Urticaria",
+        "reason": "Các dạng mày đay cảm ứng; lưu yếu tố khởi phát.",
+        "source_url": "https://dermnetnz.org/topics/urticaria-an-overview",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Cold urticaria.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Colloid milium",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 141494,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cryoglobulinaemia",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 16,
+    "unique_pixels": 16,
+    "bytes": 702249,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cutaneous abscess",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 228932,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cutaneous amyloidosis",
+    "images": 37,
+    "readable": 37,
+    "unique_bytes": 37,
+    "unique_pixels": 37,
+    "bytes": 1643498,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cutaneous horn",
+    "images": 25,
+    "readable": 25,
+    "unique_bytes": 25,
+    "unique_pixels": 25,
+    "bytes": 1022513,
+    "recommendations": [
+      {
+        "folder": "Cutaneous horn",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Hình thái sừng da, có nhiều tổn thương nền; không tự gộp vào Actinic keratosis hoặc SCC.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Cutaneous horn.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cutaneous larva migrans",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 95419,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cutaneous lupus erythematosus",
+    "images": 102,
+    "readable": 102,
+    "unique_bytes": 102,
+    "unique_pixels": 99,
+    "bytes": 3973704,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cutaneous tuberculosis",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 1389000,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cutaneous vasculitis",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 293563,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cutis marmorata telangiectatica congenita",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 157971,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Cutis verticis gyrata",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 240813,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Delayed pressure urticaria",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 112029,
+    "recommendations": [
+      {
+        "folder": "Delayed pressure urticaria",
+        "action": "merge_if_coarse",
+        "target": "Urticaria",
+        "reason": "Các dạng mày đay cảm ứng; lưu yếu tố khởi phát.",
+        "source_url": "https://dermnetnz.org/topics/urticaria-an-overview",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Delayed pressure urticaria.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Dermatitis artefacta",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 133817,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Dermatofibroma",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 953314,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Dermatosis papulosa nigra",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 416394,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Digital myxoid pseudocyst",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 804981,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Discoid lupus erythematosus",
+    "images": 74,
+    "readable": 74,
+    "unique_bytes": 74,
+    "unique_pixels": 74,
+    "bytes": 3599071,
+    "recommendations": [
+      {
+        "folder": "Discoid lupus erythematosus",
+        "action": "merge_if_coarse",
+        "target": "Cutaneous lupus erythematosus",
+        "reason": "DLE là thể lupus da; không đồng nhất với systemic lupus hoặc neonatal lupus.",
+        "source_url": "https://dermnetnz.org/topics/cutaneous-lupus-erythematosus",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Discoid lupus erythematosus.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Disseminate and recurrent infundibulofolliculitis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 77949,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Disseminated secondary eczema",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 109739,
+    "recommendations": [
+      {
+        "folder": "Disseminated secondary eczema",
+        "action": "keep_separate",
+        "target": "Dermatitis/eczema (cha khái niệm)",
+        "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Disseminated secondary eczema.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Disseminated superficial actinic porokeratosis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 273481,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Dowling-Degos disease",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 72404,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Dry gangrene",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 320687,
+    "recommendations": [
+      {
+        "folder": "Dry gangrene",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Biểu hiện hoại tử khô, nhiều nguyên nhân mạch máu/hệ thống.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Dry gangrene.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Dyshidrotic eczema (pompholyx)",
+    "images": 29,
+    "readable": 29,
+    "unique_bytes": 29,
+    "unique_pixels": 28,
+    "bytes": 1249905,
+    "recommendations": [
+      {
+        "folder": "Dyshidrotic eczema (pompholyx)",
+        "action": "keep_separate",
+        "target": "Dermatitis/eczema (cha khái niệm)",
+        "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Dyshidrotic eczema (pompholyx).txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Ecthyma",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 297968,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Eczema herpeticum",
+    "images": 23,
+    "readable": 23,
+    "unique_bytes": 23,
+    "unique_pixels": 23,
+    "bytes": 1101956,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Elastolytic giant cell granuloma",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 96870,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Elastosis",
+    "images": 21,
+    "readable": 21,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 1104797,
+    "recommendations": [
+      {
+        "folder": "Elastosis",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Thuật ngữ thay đổi mô đàn hồi bao gồm nhiều tình trạng, không đồng nghĩa Elastosis perforans serpiginosa.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Elastosis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Elastosis perforans serpiginosa",
+    "images": 14,
+    "readable": 14,
+    "unique_bytes": 14,
+    "unique_pixels": 14,
+    "bytes": 1032150,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Eosinophilic pustular folliculitis",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 11,
+    "unique_pixels": 11,
+    "bytes": 639249,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Epidermal naevus",
+    "images": 25,
+    "readable": 25,
+    "unique_bytes": 25,
+    "unique_pixels": 25,
+    "bytes": 1324493,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Epidermoid cyst",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 242756,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Epidermolysis bullosa",
+    "images": 21,
+    "readable": 21,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 876582,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Epidermolysis bullosa acquisita",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 731415,
+    "recommendations": [
+      {
+        "folder": "Epidermolysis bullosa acquisita",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Epidermolysis bullosa acquisita.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Erysipelas",
+    "images": 14,
+    "readable": 14,
+    "unique_bytes": 14,
+    "unique_pixels": 14,
+    "bytes": 562126,
+    "recommendations": [
+      {
+        "folder": "Erysipelas",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Erysipelas.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Erysipeloid",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 111561,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Erythema ab igne",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 176848,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Erythema annulare centrifugum",
+    "images": 29,
+    "readable": 29,
+    "unique_bytes": 29,
+    "unique_pixels": 28,
+    "bytes": 1005180,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Erythema dyschromicum perstans",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 152923,
+    "recommendations": [
+      {
+        "folder": "Erythema dyschromicum perstans",
+        "action": "merge_if_coarse",
+        "target": "Acquired dermal macular hyperpigmentation",
+        "reason": "Nhãn con trong nhóm tăng sắc tố dát trung bì mắc phải; không tự gộp melasma/postinflammatory hyperpigmentation.",
+        "source_url": "https://dermnetnz.org/topics/erythema-dyschromicum-perstans",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Erythema dyschromicum perstans.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Erythema elevatum diutinum",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 136142,
+    "recommendations": [
+      {
+        "folder": "Erythema elevatum diutinum",
+        "action": "hierarchy_keep_subtype",
+        "target": "Cutaneous vasculitis (cấp biểu hiện da)",
+        "reason": "Có liên hệ nhóm viêm mạch nhưng khác căn nguyên/bối cảnh; giữ nhãn cụ thể. HSP là IgA vasculitis có thể có tổn thương hệ thống; không gộp vào Purpura như một bệnh đồng nghĩa.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Erythema elevatum diutinum.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Erythema infectiosum",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 16,
+    "unique_pixels": 16,
+    "bytes": 627709,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Erythema multiforme",
+    "images": 33,
+    "readable": 33,
+    "unique_bytes": 33,
+    "unique_pixels": 33,
+    "bytes": 1549671,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Erythema nodosum",
+    "images": 18,
+    "readable": 18,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 644835,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Erythrodermic psoriasis",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 429373,
+    "recommendations": [
+      {
+        "folder": "Erythrodermic psoriasis",
+        "action": "hierarchy_keep_subtype",
+        "target": "Psoriasis",
+        "reason": "Cùng nhóm nhưng thể bệnh có ý nghĩa lâm sàng; ưu tiên cấu trúc cha–con, chỉ gộp khi bài toán dùng cấp bệnh rộng.",
+        "source_url": "https://dermnetnz.org/topics/psoriasis",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Erythrodermic psoriasis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Erythrokeratoderma",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 267418,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Exanthems",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 342384,
+    "recommendations": [
+      {
+        "folder": "Exanthems",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Thuật ngữ phát ban lan toả, không chỉ một bệnh hay một tác nhân.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Exanthems.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Exercise-induced vasculitis",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 125168,
+    "recommendations": [
+      {
+        "folder": "Exercise-induced vasculitis",
+        "action": "hierarchy_keep_subtype",
+        "target": "Cutaneous vasculitis (cấp biểu hiện da)",
+        "reason": "Có liên hệ nhóm viêm mạch nhưng khác căn nguyên/bối cảnh; giữ nhãn cụ thể. HSP là IgA vasculitis có thể có tổn thương hệ thống; không gộp vào Purpura như một bệnh đồng nghĩa.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Exercise-induced vasculitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Exfoliative cheilitis",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 64260,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Extramammary Paget disease of skin",
+    "images": 32,
+    "readable": 32,
+    "unique_bytes": 32,
+    "unique_pixels": 32,
+    "bytes": 1763701,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Eyelid contact dermatitis",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 530443,
+    "recommendations": [
+      {
+        "folder": "Eyelid contact dermatitis",
+        "action": "keep_separate",
+        "target": "Dermatitis/eczema (cha khái niệm)",
+        "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Eyelid contact dermatitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Fabry disease",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 129715,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Facial psoriasis",
+    "images": 31,
+    "readable": 31,
+    "unique_bytes": 31,
+    "unique_pixels": 31,
+    "bytes": 1435380,
+    "recommendations": [
+      {
+        "folder": "Facial psoriasis",
+        "action": "merge_if_coarse",
+        "target": "Psoriasis",
+        "reason": "Nhãn vị trí/biểu hiện của psoriasis. Nếu phân loại cấp bệnh, gộp và lưu vị trí làm metadata. Nếu phân loại chi tiết, giữ nhãn con và rà soát ảnh trong nhãn cha.",
+        "source_url": "https://dermnetnz.org/topics/psoriasis",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Facial psoriasis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Fissured tongue",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 175627,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Flea bite",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 119640,
+    "recommendations": [
+      {
+        "folder": "Flea bite",
+        "action": "merge_if_coarse",
+        "target": "Arthropod bites and stings",
+        "reason": "Nhóm con theo tác nhân; lưu tác nhân nếu có nguồn xác minh.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Flea bite.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Flexural psoriasis",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 720195,
+    "recommendations": [
+      {
+        "folder": "Flexural psoriasis",
+        "action": "merge_if_coarse",
+        "target": "Psoriasis",
+        "reason": "Nhãn vị trí/biểu hiện của psoriasis. Nếu phân loại cấp bệnh, gộp và lưu vị trí làm metadata. Nếu phân loại chi tiết, giữ nhãn con và rà soát ảnh trong nhãn cha.",
+        "source_url": "https://dermnetnz.org/topics/psoriasis",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Flexural psoriasis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Foreign body granuloma",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 156872,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Generalised essential telangiectasia",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 281312,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Generalised pustular psoriasis",
+    "images": 50,
+    "readable": 50,
+    "unique_bytes": 50,
+    "unique_pixels": 50,
+    "bytes": 2254849,
+    "recommendations": [
+      {
+        "folder": "Generalised pustular psoriasis",
+        "action": "hierarchy_keep_subtype",
+        "target": "Psoriasis",
+        "reason": "Cùng nhóm nhưng thể bệnh có ý nghĩa lâm sàng; ưu tiên cấu trúc cha–con, chỉ gộp khi bài toán dùng cấp bệnh rộng.",
+        "source_url": "https://dermnetnz.org/topics/psoriasis",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Generalised pustular psoriasis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Genital Crohn disease",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 170347,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Genital psoriasis",
+    "images": 46,
+    "readable": 46,
+    "unique_bytes": 46,
+    "unique_pixels": 44,
+    "bytes": 1735089,
+    "recommendations": [
+      {
+        "folder": "Genital psoriasis",
+        "action": "merge_if_coarse",
+        "target": "Psoriasis",
+        "reason": "Nhãn vị trí/biểu hiện của psoriasis. Nếu phân loại cấp bệnh, gộp và lưu vị trí làm metadata. Nếu phân loại chi tiết, giữ nhãn con và rà soát ảnh trong nhãn cha.",
+        "source_url": "https://dermnetnz.org/topics/psoriasis",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Genital psoriasis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Geographic tongue",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 232766,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Gingivitis and periodontitis",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 302245,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Glomus tumour",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 164454,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Gout",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 11,
+    "unique_pixels": 11,
+    "bytes": 435513,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Granular parakeratosis",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 438815,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Granuloma annulare",
+    "images": 66,
+    "readable": 66,
+    "unique_bytes": 66,
+    "unique_pixels": 66,
+    "bytes": 2121572,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Granuloma faciale",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 264459,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Granuloma inguinale",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 153066,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Granulomatous dermatitis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 274162,
+    "recommendations": [
+      {
+        "folder": "Granulomatous dermatitis",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Nhóm kiểu phản ứng/mô bệnh học; không tự gộp vào sarcoidosis hay granuloma annulare.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Granulomatous dermatitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Hairy tongue",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 542074,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Halo naevus",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 1060392,
+    "recommendations": [
+      {
+        "folder": "Halo naevus",
+        "action": "hierarchy_keep_subtype",
+        "target": "Melanocytic naevus",
+        "reason": "Có thể tổ chức phân cấp nhóm tổn thương tế bào hắc tố, nhưng đặc điểm và vị trí khác nhau. Ưu tiên giữ chi tiết; Ota/Ito/Hori còn là nhãn chứa nhiều thực thể.",
+        "source_url": "https://dermnetnz.org/topics/melanocytic-naevus",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Halo naevus.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Hand dermatitis",
+    "images": 132,
+    "readable": 132,
+    "unique_bytes": 132,
+    "unique_pixels": 132,
+    "bytes": 6371855,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Henoch–Schönlein purpura",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 226375,
+    "recommendations": [
+      {
+        "folder": "Henoch–Schönlein purpura",
+        "action": "hierarchy_keep_subtype",
+        "target": "Cutaneous vasculitis (cấp biểu hiện da)",
+        "reason": "Có liên hệ nhóm viêm mạch nhưng khác căn nguyên/bối cảnh; giữ nhãn cụ thể. HSP là IgA vasculitis có thể có tổn thương hệ thống; không gộp vào Purpura như một bệnh đồng nghĩa.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Henoch–Schönlein purpura.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Hereditary haemorrhagic telangiectasia",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 395396,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Herpangina",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 70787,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Herpes simplex",
+    "images": 91,
+    "readable": 91,
+    "unique_bytes": 91,
+    "unique_pixels": 91,
+    "bytes": 4739100,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Herpes zoster",
+    "images": 39,
+    "readable": 39,
+    "unique_bytes": 39,
+    "unique_pixels": 39,
+    "bytes": 1645943,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Hidradenitis suppurativa",
+    "images": 128,
+    "readable": 128,
+    "unique_bytes": 128,
+    "unique_pixels": 128,
+    "bytes": 6187878,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Hyperhidrosis",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 287955,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Hyperkeratotic palmar dermatitis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 245524,
+    "recommendations": [
+      {
+        "folder": "Hyperkeratotic palmar dermatitis",
+        "action": "merge_if_coarse",
+        "target": "Hand dermatitis",
+        "reason": "Thể chàm bàn tay tăng sừng. Không đồng nghĩa mọi hand dermatitis đều là atopic dermatitis.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Hyperkeratotic palmar dermatitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Ichthyosis",
+    "images": 62,
+    "readable": 62,
+    "unique_bytes": 62,
+    "unique_pixels": 62,
+    "bytes": 3403645,
+    "recommendations": [
+      {
+        "folder": "Ichthyosis",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Nhóm bệnh nhiều thể; giữ làm cha hoặc gán subtype từ nguồn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Ichthyosis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Impetigo",
+    "images": 55,
+    "readable": 55,
+    "unique_bytes": 55,
+    "unique_pixels": 55,
+    "bytes": 2222111,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Intralymphatic histiocytosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 118888,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Intravascular lymphoma",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 111522,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Jessner lymphocytic infiltrate",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 290670,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Kaposi sarcoma",
+    "images": 25,
+    "readable": 25,
+    "unique_bytes": 25,
+    "unique_pixels": 25,
+    "bytes": 1337642,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Keloid scar",
+    "images": 75,
+    "readable": 75,
+    "unique_bytes": 74,
+    "unique_pixels": 73,
+    "bytes": 2902621,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Keratoelastoidosis marginalis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 167452,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Keratolytic winter erythema",
+    "images": 26,
+    "readable": 26,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 1362283,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Keratosis pilaris",
+    "images": 43,
+    "readable": 43,
+    "unique_bytes": 43,
+    "unique_pixels": 43,
+    "bytes": 1798672,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Kerion",
+    "images": 19,
+    "readable": 19,
+    "unique_bytes": 19,
+    "unique_pixels": 19,
+    "bytes": 1131221,
+    "recommendations": [
+      {
+        "folder": "Kerion",
+        "action": "review_per_image",
+        "target": "Tinea capitis / Tinea faciei / Tinea corporis",
+        "reason": "Biểu hiện viêm mạnh do dermatophyte; chỉ chuyển vào Tinea capitis nếu xác nhận ở da đầu.",
+        "source_url": "https://dermnetnz.org/topics/kerion",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Kerion.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Kyrle disease",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 462930,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Leg ulcer",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 42,
+    "bytes": 2193933,
+    "recommendations": [
+      {
+        "folder": "Leg ulcer",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Loét chân là biểu hiện với nhiều nguyên nhân. Tách theo căn nguyên nếu nguồn cho phép.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Leg ulcer.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Leishmaniasis",
+    "images": 32,
+    "readable": 32,
+    "unique_bytes": 32,
+    "unique_pixels": 32,
+    "bytes": 1618129,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Leprosy",
+    "images": 20,
+    "readable": 20,
+    "unique_bytes": 20,
+    "unique_pixels": 20,
+    "bytes": 1068130,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Leukaemia cutis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 234450,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Lichen myxoedematosus",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 212555,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Lichen nitidus",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 113052,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Lichen planus",
+    "images": 169,
+    "readable": 169,
+    "unique_bytes": 169,
+    "unique_pixels": 169,
+    "bytes": 6549069,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Lichen simplex",
+    "images": 62,
+    "readable": 62,
+    "unique_bytes": 62,
+    "unique_pixels": 62,
+    "bytes": 2969154,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Lichenoid keratosis",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 443803,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Lymphatic malformation",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 310732,
+    "recommendations": [
+      {
+        "folder": "Lymphatic malformation",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Lymphatic malformation.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Macroglossia",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 172686,
+    "recommendations": [
+      {
+        "folder": "Macroglossia",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Lưỡi to là dấu hiệu với nhiều căn nguyên.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Macroglossia.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Macular amyloidosis",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 283494,
+    "recommendations": [
+      {
+        "folder": "Macular amyloidosis",
+        "action": "merge_if_coarse",
+        "target": "Cutaneous amyloidosis",
+        "reason": "Các thể của amyloidosis da; lưu subtype.",
+        "source_url": "https://dermnetnz.org/topics/cutaneous-amyloidosis",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Macular amyloidosis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Maculopapular cutaneous mastocytosis",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 456091,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Madarosis",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 17,
+    "unique_pixels": 17,
+    "bytes": 825607,
+    "recommendations": [
+      {
+        "folder": "Madarosis",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Rụng lông mi/lông mày do nhiều bệnh; không tự gộp vào Alopecia areata.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Madarosis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Majocchi granuloma",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 183220,
+    "recommendations": [
+      {
+        "folder": "Majocchi granuloma",
+        "action": "hierarchy_keep_subtype",
+        "target": "Dermatophytosis (cha mới nếu cần)",
+        "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Majocchi granuloma.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Malassezia folliculitis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 206183,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Male pattern hair loss",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 95082,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Malignant atrophic papulosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 158717,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Malignant histiocytoses",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 70277,
+    "recommendations": [
+      {
+        "folder": "Malignant histiocytoses",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Nhãn nhóm rộng/thuật ngữ lịch sử; cần rà từng thực thể, không gộp toàn bộ vào Leukaemia cutis.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Malignant histiocytoses.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Marjolin ulcer",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 746460,
+    "recommendations": [
+      {
+        "folder": "Marjolin ulcer",
+        "action": "hierarchy_keep_subtype",
+        "target": "Squamous cell carcinoma (khi nguồn xác nhận)",
+        "reason": "Ung thư phát sinh trên sẹo/loét, thường là SCC. Cần lịch sử/nguồn chẩn đoán; không coi là loét chân thông thường.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Marjolin ulcer.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Martorell ulcer",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 129889,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Mastocytoma",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 11,
+    "unique_pixels": 11,
+    "bytes": 412457,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Measles",
+    "images": 36,
+    "readable": 36,
+    "unique_bytes": 36,
+    "unique_pixels": 36,
+    "bytes": 1422925,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Median canaliform nail dystrophy",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 213690,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Melanocytic naevus",
+    "images": 110,
+    "readable": 110,
+    "unique_bytes": 110,
+    "unique_pixels": 110,
+    "bytes": 5596322,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Melanoma",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 17,
+    "unique_pixels": 17,
+    "bytes": 823022,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Melanoma in situ",
+    "images": 56,
+    "readable": 56,
+    "unique_bytes": 56,
+    "unique_pixels": 56,
+    "bytes": 2468628,
+    "recommendations": [
+      {
+        "folder": "Melanoma in situ",
+        "action": "hierarchy_keep_subtype",
+        "target": "Melanoma",
+        "reason": "Các trục subtype, sắc tố và giai đoạn chồng lấp nhau. Có thể gộp ở cấp melanoma nhưng phải giữ stage/phenotype; không dùng chúng làm lớp đơn nhãn loại trừ nhau mà chưa rà soát.",
+        "source_url": "https://dermnetnz.org/topics/melanoma",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Melanoma in situ.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Melanonychia",
+    "images": 36,
+    "readable": 36,
+    "unique_bytes": 36,
+    "unique_pixels": 36,
+    "bytes": 1509033,
+    "recommendations": [
+      {
+        "folder": "Melanonychia",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Sắc tố móng, có nhiều nguyên nhân lành/ác tính; không tự chuyển thành melanoma.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Melanonychia.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Melanotic macule",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 125032,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Melasma",
+    "images": 32,
+    "readable": 32,
+    "unique_bytes": 32,
+    "unique_pixels": 32,
+    "bytes": 1587388,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Meningococcal disease",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 260159,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Merkel cell carcinoma",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 15,
+    "unique_pixels": 15,
+    "bytes": 835424,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Metastatic melanoma",
+    "images": 30,
+    "readable": 30,
+    "unique_bytes": 30,
+    "unique_pixels": 30,
+    "bytes": 1401653,
+    "recommendations": [
+      {
+        "folder": "Metastatic melanoma",
+        "action": "hierarchy_keep_subtype",
+        "target": "Melanoma",
+        "reason": "Các trục subtype, sắc tố và giai đoạn chồng lấp nhau. Có thể gộp ở cấp melanoma nhưng phải giữ stage/phenotype; không dùng chúng làm lớp đơn nhãn loại trừ nhau mà chưa rà soát.",
+        "source_url": "https://dermnetnz.org/topics/melanoma",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Metastatic melanoma.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Meyerson naevus",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 225838,
+    "recommendations": [
+      {
+        "folder": "Meyerson naevus",
+        "action": "hierarchy_keep_subtype",
+        "target": "Melanocytic naevus",
+        "reason": "Có thể tổ chức phân cấp nhóm tổn thương tế bào hắc tố, nhưng đặc điểm và vị trí khác nhau. Ưu tiên giữ chi tiết; Ota/Ito/Hori còn là nhãn chứa nhiều thực thể.",
+        "source_url": "https://dermnetnz.org/topics/melanocytic-naevus",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Meyerson naevus.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Mid-dermal elastolysis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 122334,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Milium",
+    "images": 23,
+    "readable": 23,
+    "unique_bytes": 23,
+    "unique_pixels": 23,
+    "bytes": 1205254,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Milker_s nodule",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 292921,
+    "recommendations": [
+      {
+        "folder": "Milker_s nodule",
+        "action": "rename_only",
+        "target": "Milker’s nodule",
+        "reason": "Sửa dấu nháy bị thay bằng dấu gạch dưới.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Milker_s nodule.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Mixed connective tissue disease",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 189443,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Molluscum contagiosum",
+    "images": 100,
+    "readable": 100,
+    "unique_bytes": 100,
+    "unique_pixels": 99,
+    "bytes": 5176501,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Morbilliform drug reaction",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 135731,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Morphoea",
+    "images": 45,
+    "readable": 45,
+    "unique_bytes": 45,
+    "unique_pixels": 45,
+    "bytes": 1905293,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Mucocoele of the lip",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 127249,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Multicentric reticulohistiocytosis",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 436496,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Multiple self-healing squamous epitheliomas of Ferguson-Smith",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 219122,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Mycetoma",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 123107,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Mycoplasma pneumoniae infection",
+    "images": 19,
+    "readable": 19,
+    "unique_bytes": 19,
+    "unique_pixels": 19,
+    "bytes": 970997,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Mycosis fungoides",
+    "images": 53,
+    "readable": 53,
+    "unique_bytes": 53,
+    "unique_pixels": 53,
+    "bytes": 2093808,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Myxoma syndrome",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 118127,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Naevus anaemicus",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 210976,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Naevus depigmentosus",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 205491,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Naevus flammeus simplex",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 171201,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Naevus of Ota, naevus of Ito and naevus of Hori",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 341307,
+    "recommendations": [
+      {
+        "folder": "Naevus of Ota, naevus of Ito and naevus of Hori",
+        "action": "hierarchy_keep_subtype",
+        "target": "Melanocytic naevus",
+        "reason": "Có thể tổ chức phân cấp nhóm tổn thương tế bào hắc tố, nhưng đặc điểm và vị trí khác nhau. Ưu tiên giữ chi tiết; Ota/Ito/Hori còn là nhãn chứa nhiều thực thể.",
+        "source_url": "https://dermnetnz.org/topics/melanocytic-naevus",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Naevus of Ota, naevus of Ito and naevus of Hori.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Napkin dermatitis",
+    "images": 37,
+    "readable": 37,
+    "unique_bytes": 37,
+    "unique_pixels": 37,
+    "bytes": 1520574,
+    "recommendations": [
+      {
+        "folder": "Napkin dermatitis",
+        "action": "keep_separate",
+        "target": "Dermatitis/eczema (cha khái niệm)",
+        "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Napkin dermatitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Necrobiosis lipoidica",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 11,
+    "unique_pixels": 11,
+    "bytes": 486796,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Necrolytic migratory erythema",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 253891,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Necrotising fasciitis",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 15,
+    "unique_pixels": 15,
+    "bytes": 699756,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Neonatal lupus",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 397619,
+    "recommendations": [
+      {
+        "folder": "Neonatal lupus",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Neonatal lupus.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Neonatal subcutaneous fat necrosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 68915,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Neurofibromatosis",
+    "images": 36,
+    "readable": 36,
+    "unique_bytes": 36,
+    "unique_pixels": 36,
+    "bytes": 1649869,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Nevus comedonicus",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 218445,
+    "recommendations": [
+      {
+        "folder": "Nevus comedonicus",
+        "action": "rename_only",
+        "target": "Naevus comedonicus",
+        "reason": "Thống nhất chính tả; không phải melanocytic naevus.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Nevus comedonicus.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Nickel allergy",
+    "images": 25,
+    "readable": 25,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 1449001,
+    "recommendations": [
+      {
+        "folder": "Nickel allergy",
+        "action": "keep_separate",
+        "target": "Dermatitis/eczema (cha khái niệm)",
+        "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Nickel allergy.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Nipple eczema",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 691807,
+    "recommendations": [
+      {
+        "folder": "Nipple eczema",
+        "action": "keep_separate",
+        "target": "Dermatitis/eczema (cha khái niệm)",
+        "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Nipple eczema.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Nodular chondrodermatitis",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 405102,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Nodular lymphangitis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 128997,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Nodular melanoma",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 316943,
+    "recommendations": [
+      {
+        "folder": "Nodular melanoma",
+        "action": "hierarchy_keep_subtype",
+        "target": "Melanoma",
+        "reason": "Các trục subtype, sắc tố và giai đoạn chồng lấp nhau. Có thể gộp ở cấp melanoma nhưng phải giữ stage/phenotype; không dùng chúng làm lớp đơn nhãn loại trừ nhau mà chưa rà soát.",
+        "source_url": "https://dermnetnz.org/topics/melanoma",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Nodular melanoma.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Non-albicans candida infections",
+    "images": 71,
+    "readable": 71,
+    "unique_bytes": 71,
+    "unique_pixels": 69,
+    "bytes": 2762101,
+    "recommendations": [
+      {
+        "folder": "Non-albicans candida infections",
+        "action": "quarantine_label_review",
+        "target": "Candidiasis + vị trí + bằng chứng loài",
+        "reason": "36/69 ảnh pixel duy nhất trùng với 6 nhãn khác. Toàn bộ 15 ảnh của Vulvovaginal candidiasis nằm trong nhóm này. Hình lâm sàng không chứng minh được loài non-albicans; chỉ giữ nhãn loài khi có nguồn xét nghiệm. Không chuyển toàn bộ onychomycosis thành Candida.",
+        "source_url": "https://dermnetnz.org/topics/non-albicans-candida-infections",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Non-albicans candida infections.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Non-sexually acquired genital ulceration",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 402499,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Noonan syndrome with multiple lentigines",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 228288,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Notalgia paraesthetica",
+    "images": 24,
+    "readable": 24,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 1031670,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Nummular eczematous dermatitis",
+    "images": 144,
+    "readable": 144,
+    "unique_bytes": 144,
+    "unique_pixels": 140,
+    "bytes": 5108012,
+    "recommendations": [
+      {
+        "folder": "Nummular eczematous dermatitis",
+        "action": "keep_separate",
+        "target": "Dermatitis/eczema (cha khái niệm)",
+        "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Nummular eczematous dermatitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Ocular melanoma",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 241202,
+    "recommendations": [
+      {
+        "folder": "Ocular melanoma",
+        "action": "keep_separate",
+        "target": "Melanoma (cha khái niệm)",
+        "reason": "Giữ riêng modality/vị trí mắt; không tự trộn vào bài toán ảnh da ngoài.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Ocular melanoma.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Onychocryptosis",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 532073,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Onychogryphosis",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 580547,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Onychomycosis",
+    "images": 66,
+    "readable": 66,
+    "unique_bytes": 62,
+    "unique_pixels": 62,
+    "bytes": 3080418,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Onychopapilloma",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 246296,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Oral candidiasis",
+    "images": 19,
+    "readable": 19,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 847337,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Oral mucositis - Stomatitis",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 15,
+    "unique_pixels": 15,
+    "bytes": 563097,
+    "recommendations": [
+      {
+        "folder": "Oral mucositis - Stomatitis",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Viêm niêm mạc miệng do nhiều nguyên nhân; không đồng nghĩa Aphthous ulcer.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Oral mucositis - Stomatitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Oral squamous cell carcinoma",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 221782,
+    "recommendations": [
+      {
+        "folder": "Oral squamous cell carcinoma",
+        "action": "hierarchy_keep_subtype",
+        "target": "Squamous cell carcinoma",
+        "reason": "Phân theo vị trí; giữ miền ảnh niêm mạc/sinh dục, chỉ gộp nếu scope bao gồm các vị trí này.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Oral squamous cell carcinoma.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Orf",
+    "images": 41,
+    "readable": 41,
+    "unique_bytes": 41,
+    "unique_pixels": 41,
+    "bytes": 2558041,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Orofacial granulomatosis",
+    "images": 18,
+    "readable": 18,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 621352,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Osteoma cutis",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 306794,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "PHACE syndrome",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 116007,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pachyonychia congenita",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 287439,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Palmoplantar keratoderma",
+    "images": 49,
+    "readable": 49,
+    "unique_bytes": 49,
+    "unique_pixels": 49,
+    "bytes": 2555468,
+    "recommendations": [
+      {
+        "folder": "Palmoplantar keratoderma",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Nhóm dày sừng lòng bàn tay/bàn chân, có dạng di truyền và mắc phải.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Palmoplantar keratoderma.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Palmoplantar pustulosis",
+    "images": 93,
+    "readable": 93,
+    "unique_bytes": 93,
+    "unique_pixels": 93,
+    "bytes": 4871049,
+    "recommendations": [
+      {
+        "folder": "Palmoplantar pustulosis",
+        "action": "keep_separate",
+        "target": "Pustular disease spectrum",
+        "reason": "Giữ subtype; palmoplantar pustulosis có thể là thực thể riêng dù liên hệ psoriasis. Không tự gộp vào Generalised pustular psoriasis.",
+        "source_url": "https://dermnetnz.org/topics/palmoplantar-pustulosis",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Palmoplantar pustulosis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Panniculitis",
+    "images": 23,
+    "readable": 23,
+    "unique_bytes": 23,
+    "unique_pixels": 23,
+    "bytes": 782742,
+    "recommendations": [
+      {
+        "folder": "Panniculitis",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Nhóm viêm mô mỡ dưới da; có thể giữ làm cha, không coi mọi ảnh là erythema nodosum.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Panniculitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Papular acrodermatitis of childhood",
+    "images": 55,
+    "readable": 55,
+    "unique_bytes": 55,
+    "unique_pixels": 55,
+    "bytes": 1827729,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Papular mucinosis",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 60476,
+    "recommendations": [
+      {
+        "folder": "Papular mucinosis",
+        "action": "merge_synonym",
+        "target": "Lichen myxoedematosus",
+        "reason": "Tên đồng nghĩa; giữ nguồn và phân nhóm của từng ảnh. 2 ảnh ở nhãn nguồn không trùng pixel với 6 ảnh ở nhãn đích.",
+        "source_url": "https://dermnetnz.org/topics/lichen-myxoedematosus",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Papular mucinosis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Papular urticaria",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 327794,
+    "recommendations": [
+      {
+        "folder": "Papular urticaria",
+        "action": "keep_separate",
+        "target": "Arthropod bite reaction (liên hệ)",
+        "reason": "Phản ứng dạng sẩn do côn trùng; không gộp vào Urticaria chỉ vì tên có urticaria.",
+        "source_url": "https://dermnetnz.org/topics/papular-urticaria",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Papular urticaria.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Parakeratosis pustulosa",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 124028,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Paraneoplastic acrokeratosis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 284956,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Paronychia",
+    "images": 30,
+    "readable": 30,
+    "unique_bytes": 30,
+    "unique_pixels": 30,
+    "bytes": 1605281,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pearly penile papules",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 735152,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pediculosis capitis",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 1012076,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pellagra",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 188937,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pemphigoid gestationis",
+    "images": 50,
+    "readable": 50,
+    "unique_bytes": 48,
+    "unique_pixels": 48,
+    "bytes": 1852927,
+    "recommendations": [
+      {
+        "folder": "Pemphigoid gestationis",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pemphigoid gestationis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pemphigus foliaceus",
+    "images": 19,
+    "readable": 19,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 764675,
+    "recommendations": [
+      {
+        "folder": "Pemphigus foliaceus",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pemphigus foliaceus.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pemphigus vulgaris",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 42,
+    "bytes": 1779109,
+    "recommendations": [
+      {
+        "folder": "Pemphigus vulgaris",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pemphigus vulgaris.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Penile epithelial neoplasia",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 86821,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Periarteritis nodosa",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 14,
+    "unique_pixels": 14,
+    "bytes": 631553,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Periorificial dermatitis",
+    "images": 34,
+    "readable": 34,
+    "unique_bytes": 34,
+    "unique_pixels": 34,
+    "bytes": 1304931,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Piebaldism",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 560395,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Piezogenic papules",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 324831,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pigmented purpura",
+    "images": 51,
+    "readable": 51,
+    "unique_bytes": 51,
+    "unique_pixels": 51,
+    "bytes": 1652169,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pilar cyst",
+    "images": 38,
+    "readable": 38,
+    "unique_bytes": 38,
+    "unique_pixels": 38,
+    "bytes": 1763711,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pilomatricoma",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 685646,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pilonidal disease",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 97967,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pityriasis alba",
+    "images": 18,
+    "readable": 18,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 638654,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pityriasis amiantacea",
+    "images": 24,
+    "readable": 24,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 1823832,
+    "recommendations": [
+      {
+        "folder": "Pityriasis amiantacea",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Kiểu phản ứng da đầu, có nhiều bệnh nền; không tự gộp vào psoriasis hoặc tinea.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pityriasis amiantacea.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pityriasis rubra pilaris",
+    "images": 43,
+    "readable": 43,
+    "unique_bytes": 30,
+    "unique_pixels": 30,
+    "bytes": 2223629,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pityriasis versicolor",
+    "images": 47,
+    "readable": 47,
+    "unique_bytes": 47,
+    "unique_pixels": 47,
+    "bytes": 1974355,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Plasma cell balanitis_vulvitis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 201886,
+    "recommendations": [
+      {
+        "folder": "Plasma cell balanitis_vulvitis",
+        "action": "rename_only",
+        "target": "Plasma cell balanitis / vulvitis",
+        "reason": "Chuẩn hoá nhãn; giữ thông tin vị trí.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Plasma cell balanitis_vulvitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Plasmacytoma",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 318579,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Poikiloderma of Civatte",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 511790,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Poliosis",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 965155,
+    "recommendations": [
+      {
+        "folder": "Poliosis",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Lông/tóc trắng khu trú, nhiều nguyên nhân; không tự gộp vào Vitiligo.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Poliosis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Polycystic ovary syndrome",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 291860,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Polymorphic eruption of pregnancy",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 7,
+    "unique_pixels": 6,
+    "bytes": 351313,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Polymorphic light eruption",
+    "images": 28,
+    "readable": 28,
+    "unique_bytes": 28,
+    "unique_pixels": 28,
+    "bytes": 1138800,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Polythelia",
+    "images": 12,
+    "readable": 12,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 537326,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Porphyria cutanea tarda",
+    "images": 16,
+    "readable": 16,
+    "unique_bytes": 12,
+    "unique_pixels": 12,
+    "bytes": 910357,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Porphyria variegata",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 152635,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Postinflammatory hyperpigmentation",
+    "images": 28,
+    "readable": 28,
+    "unique_bytes": 26,
+    "unique_pixels": 26,
+    "bytes": 1313199,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pressure ulcer",
+    "images": 25,
+    "readable": 25,
+    "unique_bytes": 23,
+    "unique_pixels": 23,
+    "bytes": 998126,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pretibial myxoedema",
+    "images": 40,
+    "readable": 40,
+    "unique_bytes": 40,
+    "unique_pixels": 40,
+    "bytes": 1447390,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Progressive macular hypomelanosis",
+    "images": 2,
+    "readable": 2,
+    "unique_bytes": 2,
+    "unique_pixels": 2,
+    "bytes": 77356,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Prurigo",
+    "images": 99,
+    "readable": 99,
+    "unique_bytes": 99,
+    "unique_pixels": 99,
+    "bytes": 3891786,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pruritus",
+    "images": 55,
+    "readable": 55,
+    "unique_bytes": 55,
+    "unique_pixels": 55,
+    "bytes": 2459205,
+    "recommendations": [
+      {
+        "folder": "Pruritus",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Triệu chứng ngứa, nhiều nguyên nhân; ảnh trùng với Notalgia paraesthetica và Prurigo không làm ba nhãn đồng nghĩa.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pruritus.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pseudofolliculitis barbae",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 570120,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pseudopelade of Brocq",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 544335,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pseudoporphyria",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 363957,
+    "recommendations": [
+      {
+        "folder": "Pseudoporphyria",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pseudoporphyria.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Psoriasis",
+    "images": 103,
+    "readable": 103,
+    "unique_bytes": 103,
+    "unique_pixels": 103,
+    "bytes": 4834824,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Psoriatic arthritis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 148779,
+    "recommendations": [
+      {
+        "folder": "Psoriatic arthritis",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Psoriatic arthritis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Purpura",
+    "images": 113,
+    "readable": 113,
+    "unique_bytes": 113,
+    "unique_pixels": 112,
+    "bytes": 5318891,
+    "recommendations": [
+      {
+        "folder": "Purpura",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Dấu hiệu xuất huyết da, chứa nhiều căn nguyên; 27 ảnh chung với Pigmented purpura và toàn bộ 6 ảnh HSP.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Purpura.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pyoderma",
+    "images": 76,
+    "readable": 76,
+    "unique_bytes": 76,
+    "unique_pixels": 76,
+    "bytes": 3408316,
+    "recommendations": [
+      {
+        "folder": "Pyoderma",
+        "action": "quarantine_label_review",
+        "target": "Cutaneous abscess (chỉ ảnh xác minh đúng áp xe)",
+        "reason": "Hai tệp contents giống hệt, nhưng Pyoderma có 76 ảnh, Cutaneous abscess có 6 và không trùng pixel giữa hai thư mục. Không thể suy ra cả 76 ảnh đều là áp xe. Bỏ nhãn Pyoderma khỏi tập đơn nhãn tạm thời; kiểm tra từng ảnh trước khi gộp.",
+        "source_url": "https://dermnetnz.org/topics/cutaneous-abscess",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Pyoderma.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Pyogenic granuloma",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 17,
+    "unique_pixels": 17,
+    "bytes": 675147,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Radiation dermatitis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 319072,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Raynaud phenomenon",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 212793,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Rhinophyma",
+    "images": 33,
+    "readable": 33,
+    "unique_bytes": 33,
+    "unique_pixels": 33,
+    "bytes": 1520265,
+    "recommendations": [
+      {
+        "folder": "Rhinophyma",
+        "action": "merge_if_coarse",
+        "target": "Rosacea",
+        "reason": "Biểu hiện phymatous ở mũi thuộc phổ rosacea; lưu phenotype.",
+        "source_url": "https://dermnetnz.org/topics/rosacea",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Rhinophyma.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Rosacea",
+    "images": 46,
+    "readable": 46,
+    "unique_bytes": 46,
+    "unique_pixels": 46,
+    "bytes": 1882054,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Roseola",
+    "images": 11,
+    "readable": 11,
+    "unique_bytes": 11,
+    "unique_pixels": 11,
+    "bytes": 378895,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Rothmund-Thomson syndrome",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 208974,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Rubella",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 94871,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Sarcoidosis",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 42,
+    "bytes": 1758661,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Scabies",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 42,
+    "bytes": 1684999,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Scarlatina",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 197846,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Scurvy",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 311495,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Sebaceous carcinoma",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 324299,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Sebaceous hyperplasia",
+    "images": 23,
+    "readable": 23,
+    "unique_bytes": 23,
+    "unique_pixels": 23,
+    "bytes": 1034499,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Solar lentigo",
+    "images": 33,
+    "readable": 33,
+    "unique_bytes": 33,
+    "unique_pixels": 33,
+    "bytes": 1581972,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Solar urticaria",
+    "images": 4,
+    "readable": 4,
+    "unique_bytes": 4,
+    "unique_pixels": 4,
+    "bytes": 132734,
+    "recommendations": [
+      {
+        "folder": "Solar urticaria",
+        "action": "merge_if_coarse",
+        "target": "Urticaria",
+        "reason": "Các dạng mày đay cảm ứng; lưu yếu tố khởi phát.",
+        "source_url": "https://dermnetnz.org/topics/urticaria-an-overview",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Solar urticaria.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Spider angioma",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 285359,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Squamous cell carcinoma",
+    "images": 55,
+    "readable": 55,
+    "unique_bytes": 55,
+    "unique_pixels": 55,
+    "bytes": 3380476,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Steatocystoma multiplex",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 244711,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Sunburn",
+    "images": 41,
+    "readable": 41,
+    "unique_bytes": 41,
+    "unique_pixels": 41,
+    "bytes": 1657821,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Swimmer_s itch",
+    "images": 8,
+    "readable": 8,
+    "unique_bytes": 8,
+    "unique_pixels": 8,
+    "bytes": 282742,
+    "recommendations": [
+      {
+        "folder": "Swimmer_s itch",
+        "action": "rename_only",
+        "target": "Swimmer’s itch",
+        "reason": "Sửa dấu nháy bị thay bằng dấu gạch dưới.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Swimmer_s itch.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Syphilis",
+    "images": 81,
+    "readable": 81,
+    "unique_bytes": 81,
+    "unique_pixels": 81,
+    "bytes": 3515451,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Systemic lupus erythematosus",
+    "images": 58,
+    "readable": 58,
+    "unique_bytes": 58,
+    "unique_pixels": 58,
+    "bytes": 3033791,
+    "recommendations": [
+      {
+        "folder": "Systemic lupus erythematosus",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Systemic lupus erythematosus.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Systemic sclerosis",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 600714,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Sézary syndrome",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 464907,
+    "recommendations": [
+      {
+        "folder": "Sézary syndrome",
+        "action": "keep_separate",
+        "target": null,
+        "reason": "Giữ chẩn đoán riêng; có quan hệ hoặc biểu hiện giống nhãn khác nhưng không đủ cơ sở coi là đồng nghĩa hay xoá lớp.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Sézary syndrome.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Tinea barbae",
+    "images": 6,
+    "readable": 6,
+    "unique_bytes": 6,
+    "unique_pixels": 6,
+    "bytes": 408941,
+    "recommendations": [
+      {
+        "folder": "Tinea barbae",
+        "action": "hierarchy_keep_subtype",
+        "target": "Dermatophytosis (cha mới nếu cần)",
+        "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea barbae.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Tinea capitis",
+    "images": 18,
+    "readable": 18,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 1118607,
+    "recommendations": [
+      {
+        "folder": "Tinea capitis",
+        "action": "hierarchy_keep_subtype",
+        "target": "Dermatophytosis (cha mới nếu cần)",
+        "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea capitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Tinea corporis",
+    "images": 18,
+    "readable": 18,
+    "unique_bytes": 18,
+    "unique_pixels": 18,
+    "bytes": 995366,
+    "recommendations": [
+      {
+        "folder": "Tinea corporis",
+        "action": "hierarchy_keep_subtype",
+        "target": "Dermatophytosis (cha mới nếu cần)",
+        "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea corporis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Tinea cruris",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 651971,
+    "recommendations": [
+      {
+        "folder": "Tinea cruris",
+        "action": "hierarchy_keep_subtype",
+        "target": "Dermatophytosis (cha mới nếu cần)",
+        "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea cruris.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Tinea faciei",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 513327,
+    "recommendations": [
+      {
+        "folder": "Tinea faciei",
+        "action": "hierarchy_keep_subtype",
+        "target": "Dermatophytosis (cha mới nếu cần)",
+        "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea faciei.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Tinea manuum",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 446308,
+    "recommendations": [
+      {
+        "folder": "Tinea manuum",
+        "action": "hierarchy_keep_subtype",
+        "target": "Dermatophytosis (cha mới nếu cần)",
+        "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea manuum.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Tinea pedis",
+    "images": 35,
+    "readable": 35,
+    "unique_bytes": 35,
+    "unique_pixels": 35,
+    "bytes": 1699561,
+    "recommendations": [
+      {
+        "folder": "Tinea pedis",
+        "action": "hierarchy_keep_subtype",
+        "target": "Dermatophytosis (cha mới nếu cần)",
+        "reason": "Giữ site/depth làm metadata. Đích chung chưa có trong images; không lấy Tinea corporis làm cha cho tất cả. Majocchi là nhiễm sâu.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Tinea pedis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Toxic erythema of the newborn",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 122261,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Traction alopecia",
+    "images": 7,
+    "readable": 7,
+    "unique_bytes": 7,
+    "unique_pixels": 7,
+    "bytes": 421182,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Transient lingual papillitis",
+    "images": 5,
+    "readable": 5,
+    "unique_bytes": 5,
+    "unique_pixels": 5,
+    "bytes": 187044,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Transient neonatal pustular melanosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 132537,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Triangular alopecia",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 176378,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Trichomycosis axillaris",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 146831,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Trichotillomania",
+    "images": 21,
+    "readable": 21,
+    "unique_bytes": 21,
+    "unique_pixels": 21,
+    "bytes": 1355066,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Tuberous sclerosis",
+    "images": 56,
+    "readable": 56,
+    "unique_bytes": 56,
+    "unique_pixels": 56,
+    "bytes": 2402203,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Urticaria",
+    "images": 32,
+    "readable": 32,
+    "unique_bytes": 32,
+    "unique_pixels": 32,
+    "bytes": 1090099,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Urticarial vasculitis",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 359484,
+    "recommendations": [
+      {
+        "folder": "Urticarial vasculitis",
+        "action": "hierarchy_keep_subtype",
+        "target": "Cutaneous vasculitis (cấp biểu hiện da)",
+        "reason": "Có liên hệ nhóm viêm mạch nhưng khác căn nguyên/bối cảnh; giữ nhãn cụ thể. HSP là IgA vasculitis có thể có tổn thương hệ thống; không gộp vào Purpura như một bệnh đồng nghĩa.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Urticarial vasculitis.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Varicose veins",
+    "images": 10,
+    "readable": 10,
+    "unique_bytes": 10,
+    "unique_pixels": 10,
+    "bytes": 446236,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Venous eczema",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 40,
+    "bytes": 1894325,
+    "recommendations": [
+      {
+        "folder": "Venous eczema",
+        "action": "keep_separate",
+        "target": "Dermatitis/eczema (cha khái niệm)",
+        "reason": "Các nhãn theo căn nguyên, vị trí, cơ chế khác nhau; có thể chồng lấp. Không gộp tất cả vào Atopic dermatitis. Với bài toán rộng tạo nhóm eczema mới và lưu các trục nhãn.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Venous eczema.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Venous lake",
+    "images": 17,
+    "readable": 17,
+    "unique_bytes": 17,
+    "unique_pixels": 17,
+    "bytes": 886988,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Vitiligo",
+    "images": 72,
+    "readable": 72,
+    "unique_bytes": 72,
+    "unique_pixels": 72,
+    "bytes": 2599122,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Vulval intraepithelial neoplasia",
+    "images": 62,
+    "readable": 62,
+    "unique_bytes": 56,
+    "unique_pixels": 56,
+    "bytes": 3310735,
+    "recommendations": [
+      {
+        "folder": "Vulval intraepithelial neoplasia",
+        "action": "quarantine_image_review",
+        "target": null,
+        "reason": "14 ảnh pixel duy nhất trùng với 9 nhãn khác; đã thấy ảnh bàn tay, cằm/râu và tổn thương ngoài vùng âm hộ trong mẫu. Ưu tiên rà soát ảnh số thứ tự; giữ riêng ảnh VIN đã xác minh. Không xoá bệnh VIN.",
+        "source_url": "https://dermnetnz.org/topics/vulval-intraepithelial-neoplasia",
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Vulval intraepithelial neoplasia.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Vulvovaginal candidiasis",
+    "images": 15,
+    "readable": 15,
+    "unique_bytes": 15,
+    "unique_pixels": 15,
+    "bytes": 531031,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Whipple disease",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 152048,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Winter itch",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 102018,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Wound infection",
+    "images": 13,
+    "readable": 13,
+    "unique_bytes": 13,
+    "unique_pixels": 13,
+    "bytes": 678376,
+    "recommendations": [
+      {
+        "folder": "Wound infection",
+        "action": "separate_sign_or_umbrella",
+        "target": null,
+        "reason": "Nhiễm trùng vết thương nhiều tác nhân; không đồng nhất với Pyoderma hoặc áp xe.",
+        "source_url": null,
+        "local_source": "/Users/binhminh/Desktop/DermNet_Dataset/dermnet-output/contents/Toàn bộ nội dung - Wound infection.txt"
+      }
+    ],
+    "status": "flagged_or_related",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Xanthoma",
+    "images": 42,
+    "readable": 42,
+    "unique_bytes": 42,
+    "unique_pixels": 42,
+    "bytes": 2051851,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Xeroderma pigmentosum",
+    "images": 9,
+    "readable": 9,
+    "unique_bytes": 9,
+    "unique_pixels": 9,
+    "bytes": 445183,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  },
+  {
+    "folder": "Zygomycosis",
+    "images": 3,
+    "readable": 3,
+    "unique_bytes": 3,
+    "unique_pixels": 3,
+    "bytes": 146525,
+    "recommendations": [],
+    "status": "no_specific_merge_flag_from_name_screen",
+    "note": "Sàng lọc taxonomy không xác nhận chẩn đoán từng ảnh."
+  }
+]
