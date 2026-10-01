@@ -1,0 +1,17 @@
+# mode|model|dataset|source relative to LEGACY_RESULTS_DIR
+full|Qwen3.5-35B-A3B|DermNet_Val_VI|
+full|Qwen3.5-35B-A3B|DermNet_Test_VI|
+full|Qwen3-VL-8B-Instruct|DermNet_Val_VI|
+full|Qwen3-VL-8B-Instruct|DermNet_Test_VI|
+full|HuatuoGPT-Vision-34B|DermNet_Val_VI|
+full|HuatuoGPT-Vision-34B|DermNet_Test_VI|
+full|Vintern-1B-v2|DermNet_Val_VI|
+full|Vintern-1B-v2|DermNet_Test_VI|
+full|Vintern-3B-beta|DermNet_Val_VI|
+full|Vintern-3B-beta|DermNet_Test_VI|
+full|deepseek_vl2_small|DermNet_Val_VI|
+full|deepseek_vl2_small|DermNet_Test_VI|
+patch|deepseek_vl2_int8|DermNet_Val_VI|deepseek_vl2_int8/source/deepseek_vl2_int8_DermNet_Val_VI.xlsx
+patch|deepseek_vl2_int8|DermNet_Test_VI|deepseek_vl2_int8/source/deepseek_vl2_int8_DermNet_Test_VI.xlsx
+patch|deepseek_vl2_tiny|DermNet_Val_VI|deepseek_vl2_tiny/source/deepseek_vl2_tiny_DermNet_Val_VI.xlsx
+patch|deepseek_vl2_tiny|DermNet_Test_VI|deepseek_vl2_tiny/source/deepseek_vl2_tiny_DermNet_Test_VI.xlsx

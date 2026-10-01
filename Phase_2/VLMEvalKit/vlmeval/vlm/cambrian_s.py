@@ -3,8 +3,12 @@ from typing import Dict, List, Optional, Tuple, Union
 
 import numpy as np
 import torch
-from decord import VideoReader, cpu
 from PIL import Image
+
+try:
+    from decord import VideoReader, cpu
+except ImportError:
+    VideoReader = cpu = None
 
 from .base import BaseModel
 

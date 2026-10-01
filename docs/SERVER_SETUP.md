@@ -1,0 +1,401 @@
+# Cài môi trường server từ đầu
+
+Có hai luồng setup. Nếu quản trị viên đã cài bốn requirement vào bốn environment, đứng tại root `DermNet_Dataset` và chạy đúng một lệnh:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh prepare-runtime
+```
+
+`prepare-runtime` không cài package, không cần GPU và không chạy inference. Nó xác nhận bốn environment tồn tại, chạy `pip check`, tải source DeepSeek/Huatuo, áp dụng bản vá Blackwell và tạo `.phase2-server-env.sh`. Sau đó compute job chỉ gọi `run-group`.
+
+Nếu server dùng tên environment hoặc thư mục source khác mặc định, vẫn chỉ cần một lệnh:
+
+```bash
+VLLM_ENV=my-vllm \
+DEEPSEEK_ENV=my-deepseek-int8 \
+VINTERN_ENV=my-vintern \
+HUATUO_ENV=my-huatuo \
+DERMNET_VENDOR_DIR=/shared/vendor \
+  bash Phase_2/VLMEvalKit/run_phase2.sh prepare-runtime
+```
+
+Nếu muốn runner tự cài cả bốn environment trên node nhìn thấy GPU, dùng:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh server
+```
+
+Luồng thực tế của lệnh:
+
+```text
+server
+  ├─ setup: tạo/cập nhật 4 Conda environment và ghi đường dẫn Python
+  ├─ doctor: import backend, kiểm tra CUDA, dữ liệu và file vá
+  └─ all: chạy tuần tự 16 lượt model × dataset tiếng Việt
+```
+
+Nếu một bước lỗi, script dừng ngay tại bước đó và chưa chuyển sang bước sau. `server` là luồng tự cài toàn bộ; không dùng lệnh này trong compute job.
+
+Server mục tiêu là Linux, 2 NVIDIA RTX PRO 6000 Blackwell 96 GB, driver nhìn thấy CUDA 13.0. Dòng CUDA của `nvidia-smi` là khả năng của driver; phiên bản CUDA runtime thực tế đến từ wheel PyTorch/vLLM.
+
+## 1. Phần có sẵn trên server
+
+- Git và Conda trong `PATH`.
+- NVIDIA driver hoạt động; `nvidia-smi` thấy GPU.
+- Dung lượng đĩa đủ cho bốn environment, model cache và output.
+
+Kiểm tra nhanh:
+
+```bash
+git --version
+conda --version
+nvidia-smi
+```
+
+Nếu `conda` đã cài nhưng SSH báo `command not found`, nạp script khởi tạo của bản Conda trên server rồi kiểm tra lại. Ví dụ với Conda đặt tại `/opt/conda`:
+
+```bash
+source /opt/conda/etc/profile.d/conda.sh
+conda --version
+```
+
+Đường dẫn Conda thực tế do quản trị viên server cung cấp. Không cần activate environment thủ công sau khi setup vì runner lưu chính xác đường dẫn Python của từng environment.
+
+`nvidia-smi` có thể hiện CUDA 13.0 trong khi environment PyTorch dùng CUDA runtime khác; điều này bình thường. Driver 580 tương thích ngược với runtime CUDA trong wheel. Setup không biên dịch CUDA extension nên không yêu cầu `nvcc`.
+
+## 2. Setup tự động cài gì
+
+`bash Phase_2/VLMEvalKit/run_phase2.sh setup` tạo bốn environment Python 3.10:
+
+| Environment | Model | Backend chính |
+|---|---|---|
+| `dermnet-vllm` | Qwen3.5, Qwen3-VL, DeepSeek Small/Tiny | vLLM 0.28.0, PyTorch 2.13.0 CUDA 13, Transformers 5.17.0 |
+| `dermnet-deepseek-int8` | DeepSeek-VL2 8-bit | Transformers 4.38.2, bitsandbytes 0.49.0 |
+| `dermnet-vintern` | Vintern 1B/3B | Transformers 4.42.3 remote code |
+| `dermnet-huatuo` | HuatuoGPT-Vision 34B | Transformers 4.37.2, PyTorch eager attention |
+
+Ba environment legacy khóa PyTorch 2.8.0 + torchvision 0.23.0 từ CUDA 12.8 wheels. Việc ghi phiên bản ở cả setup và profile ngăn lần chạy `pip` sau tự nâng Torch ngoài ý muốn. Driver CUDA 13 có khả năng tương thích ngược với runtime này. Có thể đổi mirror bằng `LEGACY_TORCH_INDEX_URL` nếu cụm HPC yêu cầu, nhưng mirror đó phải chứa đúng hai wheel đã khóa.
+
+Setup clone và ghim mã nguồn:
+
+- DeepSeek-VL2 commit `ef9f91e2b6426536b83294c11742c27be66361b1`.
+- HuatuoGPT-Vision commit `e1a52dcf6c0417f4b6ac1d378b01147280192fca`.
+
+Sau khi kiểm tra đúng commit, setup áp dụng hai bản vá nhỏ, có kiểm tra nội dung trước khi sửa:
+
+- DeepSeek vision encoder dùng `torch.nn.functional.scaled_dot_product_attention`, để PyTorch chọn kernel tương thích SM 12.0 thay cho xFormers/FlashAttention bị ép trong source cũ.
+- Huatuo chuyển cấu hình attention từ FlashAttention 2 bị ép sang `eager`, tương thích với Transformers 4.37.2 và không cần build CUDA extension.
+
+Nếu source không đúng block đã duyệt, setup dừng thay vì sửa mù. Chạy setup lần nữa là an toàn vì bản vá có tính idempotent (đã vá thì giữ nguyên).
+
+Sau cùng script sinh `Phase_2/VLMEvalKit/.phase2-server-env.sh`. Runner tự source file này, vì vậy `all` và `resume` dùng đúng Python mà không cần activate từng environment.
+
+File mapping được tạo có vai trò như bảng định tuyến:
+
+| Biến | Environment được trỏ tới | Model sử dụng |
+|---|---|---|
+| `PYTHON_QWEN` | `dermnet-vllm` | Hai Qwen |
+| `PYTHON_DEEPSEEK_VLLM` | `dermnet-vllm` | DeepSeek Small/Tiny |
+| `PYTHON_DEEPSEEK` | `dermnet-deepseek-int8` | DeepSeek 8-bit |
+| `PYTHON_VINTERN` | `dermnet-vintern` | Vintern 1B/3B |
+| `PYTHON_HUATUO` | `dermnet-huatuo` | Huatuo 34B |
+
+Vì vậy Qwen không chạy bằng Python mặc định của shell. Nó chạy bằng Python trong `dermnet-vllm`, nơi setup đã cài `vllm`, PyTorch, Transformers và `qwen-vl-utils`.
+
+## 3. Setup thủ công từng environment
+
+Đây là phương án dự phòng khi quản trị viên không muốn dùng `prepare-runtime`. Với bốn tên mặc định hoặc các biến override ở đầu tài liệu, chỉ cần cài requirement rồi chạy `prepare-runtime`; không cần tự thực hiện các mục 3.5–3.7. Nếu repository đã được clone, bỏ qua lệnh `git clone` và bắt đầu tại root `DermNet_Dataset`.
+
+### 3.1. Khai báo đường dẫn dùng chung
+
+```bash
+git clone https://github.com/MinhKemm/DermNet_Dataset.git
+cd DermNet_Dataset
+
+export DERMNET_KIT_DIR="$PWD/Phase_2/VLMEvalKit"
+export DERMNET_VENDOR_DIR="$PWD/vendor"
+export LEGACY_TORCH_INDEX_URL="https://download.pytorch.org/whl/cu128"
+
+mkdir -p "$DERMNET_VENDOR_DIR"
+```
+
+Nếu mạng tải package chậm, có thể tăng thời gian chờ của pip cho phiên shell hiện tại:
+
+```bash
+export PIP_DEFAULT_TIMEOUT=300
+export PIP_RETRIES=10
+```
+
+### 3.2. Environment vLLM cho Qwen và DeepSeek Small/Tiny
+
+Environment này không dùng Torch 2.8.0. `vllm==0.28.0` đi cùng Torch 2.13.0 và CUDA runtime từ wheel của package.
+
+```bash
+conda create -n dermnet-vllm python=3.10 pip -y
+
+conda run -n dermnet-vllm python -m pip install --upgrade \
+  pip setuptools wheel packaging
+
+conda run -n dermnet-vllm python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/vllm-blackwell.txt"
+
+conda run -n dermnet-vllm python -m pip install --no-deps \
+  -e "$DERMNET_KIT_DIR"
+
+conda run -n dermnet-vllm python -m pip check
+conda run -n dermnet-vllm python -c \
+  'import torch, transformers, vllm, qwen_vl_utils; print("torch", torch.__version__); print("transformers", transformers.__version__); print("vllm", vllm.__version__); print("CUDA", torch.version.cuda, torch.cuda.is_available())'
+```
+
+Kết quả phiên bản mong đợi:
+
+```text
+torch 2.13.0
+transformers 5.17.0
+vllm 0.28.0
+CUDA 13.x True
+```
+
+### 3.3. Environment DeepSeek-VL2 8-bit
+
+```bash
+conda create -n dermnet-deepseek-int8 python=3.10 pip -y
+
+conda run -n dermnet-deepseek-int8 python -m pip install --upgrade \
+  pip setuptools wheel packaging
+
+conda run -n dermnet-deepseek-int8 python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 \
+  --index-url "$LEGACY_TORCH_INDEX_URL"
+
+conda run -n dermnet-deepseek-int8 python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/deepseek-int8-blackwell.txt"
+
+conda run -n dermnet-deepseek-int8 python -m pip install --no-deps \
+  -e "$DERMNET_KIT_DIR"
+```
+
+Clone đúng source và commit mà adapter 8-bit đã được kiểm thử:
+
+```bash
+git clone https://github.com/deepseek-ai/DeepSeek-VL2.git \
+  "$DERMNET_VENDOR_DIR/DeepSeek-VL2"
+
+git -C "$DERMNET_VENDOR_DIR/DeepSeek-VL2" checkout --detach \
+  ef9f91e2b6426536b83294c11742c27be66361b1
+```
+
+Đăng ký source bằng file `.pth` thay vì `pip install` package DeepSeek-VL2. Cách này tránh metadata cũ của upstream kéo Torch 2.0.1 vào environment Blackwell:
+
+```bash
+conda run -n dermnet-deepseek-int8 python -c \
+  'import site,sys; from pathlib import Path; Path(site.getsitepackages()[0], "dermnet_deepseek_vl2.pth").write_text(sys.argv[1] + "\n")' \
+  "$DERMNET_VENDOR_DIR/DeepSeek-VL2"
+
+conda run -n dermnet-deepseek-int8 python -m pip check
+```
+
+### 3.4. Environment Vintern
+
+```bash
+conda create -n dermnet-vintern python=3.10 pip -y
+
+conda run -n dermnet-vintern python -m pip install --upgrade \
+  pip setuptools wheel packaging
+
+conda run -n dermnet-vintern python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 \
+  --index-url "$LEGACY_TORCH_INDEX_URL"
+
+conda run -n dermnet-vintern python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/vintern-blackwell.txt"
+
+conda run -n dermnet-vintern python -m pip install --no-deps \
+  -e "$DERMNET_KIT_DIR"
+
+conda run -n dermnet-vintern python -m pip check
+```
+
+Một environment dùng chung cho `Vintern-1B-v2` và `Vintern-3B-beta`.
+
+### 3.5. Environment HuatuoGPT-Vision
+
+```bash
+conda create -n dermnet-huatuo python=3.10 pip -y
+
+conda run -n dermnet-huatuo python -m pip install --upgrade \
+  pip setuptools wheel packaging
+
+conda run -n dermnet-huatuo python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 \
+  --index-url "$LEGACY_TORCH_INDEX_URL"
+
+conda run -n dermnet-huatuo python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/huatuo-blackwell.txt"
+
+conda run -n dermnet-huatuo python -m pip install --no-deps \
+  -e "$DERMNET_KIT_DIR"
+
+git clone https://github.com/FreedomIntelligence/HuatuoGPT-Vision.git \
+  "$DERMNET_VENDOR_DIR/HuatuoGPT-Vision"
+
+git -C "$DERMNET_VENDOR_DIR/HuatuoGPT-Vision" checkout --detach \
+  e1a52dcf6c0417f4b6ac1d378b01147280192fca
+```
+
+### 3.6. Áp dụng bản vá Blackwell cho source legacy
+
+Chỉ chạy sau khi đã clone đủ DeepSeek-VL2 và HuatuoGPT-Vision. Công cụ kiểm tra đúng block source trước khi sửa và có thể chạy lại an toàn:
+
+```bash
+conda run -n dermnet-huatuo python \
+  "$DERMNET_KIT_DIR/scripts/patch_vendor_sources.py" \
+  --deepseek-dir "$DERMNET_VENDOR_DIR/DeepSeek-VL2" \
+  --huatuo-dir "$DERMNET_VENDOR_DIR/HuatuoGPT-Vision"
+
+conda run -n dermnet-huatuo python -m pip check
+```
+
+### 3.7. Tạo mapping để runner tự chọn đúng Python
+
+Nếu bỏ qua bước này, `all` có thể chạy Qwen bằng Python mặc định và báo thiếu `vllm`. Các lệnh sau tạo cùng file mapping như setup tự động:
+
+```bash
+export DERMNET_VLLM_PYTHON="$(conda run -n dermnet-vllm python -c 'import sys; print(sys.executable)' | awk 'NF { line=$0 } END { print line }')"
+export DERMNET_DEEPSEEK_PYTHON="$(conda run -n dermnet-deepseek-int8 python -c 'import sys; print(sys.executable)' | awk 'NF { line=$0 } END { print line }')"
+export DERMNET_VINTERN_PYTHON="$(conda run -n dermnet-vintern python -c 'import sys; print(sys.executable)' | awk 'NF { line=$0 } END { print line }')"
+export DERMNET_HUATUO_PYTHON="$(conda run -n dermnet-huatuo python -c 'import sys; print(sys.executable)' | awk 'NF { line=$0 } END { print line }')"
+export DERMNET_ENV_FILE="$DERMNET_KIT_DIR/.phase2-server-env.sh"
+
+{
+  printf '# Generated by manual server setup\n'
+  printf 'export PYTHON_BIN=%q\n' "$DERMNET_VLLM_PYTHON"
+  printf 'export PYTHON_QWEN=%q\n' "$DERMNET_VLLM_PYTHON"
+  printf 'export PYTHON_DEEPSEEK_VLLM=%q\n' "$DERMNET_VLLM_PYTHON"
+  printf 'export PYTHON_DEEPSEEK=%q\n' "$DERMNET_DEEPSEEK_PYTHON"
+  printf 'export PYTHON_VINTERN=%q\n' "$DERMNET_VINTERN_PYTHON"
+  printf 'export PYTHON_HUATUO=%q\n' "$DERMNET_HUATUO_PYTHON"
+  printf 'export HUATUO_SOURCE_DIR=%q\n' "$DERMNET_VENDOR_DIR/HuatuoGPT-Vision"
+} > "$DERMNET_ENV_FILE"
+```
+
+Nếu đang ở node có GPU, chạy doctor và yêu cầu kết thúc bằng thông báo `Doctor passed` trước khi inference:
+
+```bash
+bash "$DERMNET_KIT_DIR/run_phase2.sh" doctor
+```
+
+Nếu login node không có GPU, tạo mapping xong rồi bỏ qua doctor tại login node. Lệnh `run-group` trong compute job sẽ tự kiểm tra CUDA và đúng environment của nhóm đó trước khi inference.
+
+Sau đó có thể chạy toàn bộ bằng:
+
+```bash
+bash "$DERMNET_KIT_DIR/run_phase2.sh" all
+```
+
+Nếu setup thủ công bị gián đoạn giữa chừng, chạy lại các lệnh của đúng environment đang dở. Không xóa các environment đã hoàn tất. Nếu inference đã bắt đầu rồi bị gián đoạn, dùng `resume` thay cho `all`.
+
+Với hệ thống không cho cài package trong compute job, xem [chạy bốn nhóm trên scheduler](SCHEDULER_RUN.md). Environment và `.phase2-server-env.sh` được chuẩn bị trước; job chỉ gọi inference.
+
+## 4. Vì sao không dùng một requirements chung
+
+Hai Qwen trong manifest khởi tạo nhánh vLLM thật; thiếu package `vllm` thì chắc chắn không chạy. DeepSeek Small/Tiny cũng gọi vLLM. Ngược lại DeepSeek 8-bit phải giữ Transformers + bitsandbytes, còn Vintern/Huatuo phụ thuộc các thế hệ Transformers cũ khác nhau. Ép bốn stack vào một environment sẽ tạo xung đột phiên bản.
+
+`Phase_2/VLMEvalKit/requirements.txt` chỉ chứa dependency lõi. Các dependency chạy model được khóa trong:
+
+```text
+Phase_2/VLMEvalKit/requirements/server/vllm-blackwell.txt
+Phase_2/VLMEvalKit/requirements/server/deepseek-int8-blackwell.txt
+Phase_2/VLMEvalKit/requirements/server/vintern-blackwell.txt
+Phase_2/VLMEvalKit/requirements/server/huatuo-blackwell.txt
+```
+
+Không dùng riêng `pip install -r requirements.txt` để kết luận server đã sẵn sàng.
+
+## 5. Doctor kiểm tra gì
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh doctor
+```
+
+Doctor dừng ngay nếu gặp một trong các lỗi:
+
+- Python mapping bị thiếu hoặc sai environment.
+- PyTorch không thấy CUDA hoặc wheel không có kernel SM 12.0 cho Blackwell.
+- Qwen/DeepSeek vLLM thiếu `vllm>=0.28,<0.29` hoặc Transformers phù hợp.
+- DeepSeek 8-bit thiếu source `deepseek_vl2` hay bitsandbytes.
+- Vintern thiếu torchvision/timm/sentencepiece hoặc Transformers quá cũ.
+- Huatuo thiếu source chính thức, peft hay dependency CLI.
+- TSV, ảnh hoặc Excel nguồn dùng để vá bị thiếu.
+
+Doctor mạnh hơn dry-run: dry-run chỉ in lệnh, còn doctor thực sự import từng backend và khởi tạo CUDA. Doctor chưa tải toàn bộ trọng số; phép thử cuối cùng vẫn là chạy inference thật.
+
+### Kiểm tra riêng Qwen và vLLM
+
+Lỗi `ModuleNotFoundError: No module named 'vllm'` nghĩa là Qwen đang chạy bằng Python chưa được setup hoặc lệnh `setup` trước đó chưa hoàn tất. Kiểm tra trực tiếp environment mà runner tạo:
+
+```bash
+conda run -n dermnet-vllm python -c 'import vllm, torch, transformers, qwen_vl_utils; print("vLLM", vllm.__version__); print("Torch", torch.__version__); print("CUDA", torch.version.cuda, torch.cuda.is_available()); print("Transformers", transformers.__version__)'
+```
+
+Sau đó chạy doctor qua đúng entrypoint:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh doctor
+```
+
+Doctor chỉ báo đạt khi environment vLLM thỏa phiên bản đã khóa và PyTorch truy cập được GPU. Không cần tự chạy `pip install vllm` vào environment hiện tại của shell.
+
+## 6. Chạy và chạy tiếp
+
+### Máy mới clone hoặc setup chưa hoàn tất
+
+```bash
+git clone https://github.com/MinhKemm/DermNet_Dataset.git
+cd DermNet_Dataset
+bash Phase_2/VLMEvalKit/run_phase2.sh server
+```
+
+Nếu cần tải model gated/private, đặt `HF_TOKEN` trong secret của job hoặc export cho phiên SSH trước khi chạy `server`. Không ghi token vào repository.
+
+Nếu mạng hoặc SSH ngắt khi đang cài package, chạy lại cùng lệnh `server`. Setup có thể chạy lại: Conda giữ environment đã tạo, `pip` hoàn thiện các package còn thiếu, source model được kiểm tra theo commit đã ghim, rồi doctor chạy lại trước inference.
+
+### Environment đã setup và muốn kiểm tra trước khi chạy
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh plan
+bash Phase_2/VLMEvalKit/run_phase2.sh doctor
+bash Phase_2/VLMEvalKit/run_phase2.sh all
+```
+
+`plan` chỉ liệt kê 16 lượt. `doctor` kiểm tra môi trường và dữ liệu. `all` bắt đầu toàn bộ kế hoạch nhưng giữ lại những kết quả đã hoàn chỉnh theo cơ chế checkpoint.
+
+### Inference đã chạy nhưng bị gián đoạn
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh resume
+```
+
+Giữ nguyên checkout, thư mục output và `.phase2-server-env.sh`. Runner bỏ qua lượt đã có kết quả hoàn chỉnh và chạy lại lượt thiếu/thất bại. Không xóa thư mục `outputs/answer-format-v4-vllm` trước khi resume.
+
+## 7. Đọc log và xác định bước lỗi
+
+- Lỗi trước dòng `Doctor passed`: vấn đề thuộc environment, CUDA, dữ liệu, ảnh hoặc Excel nguồn; sửa nguyên nhân rồi chạy lại `server`.
+- Lỗi `No module named 'vllm'`: chạy lại `server` hoặc `setup`, sau đó dùng lệnh kiểm tra Qwen ở trên.
+- Lỗi tải checkpoint từ Hugging Face: kiểm tra mạng, dung lượng cache và quyền của `HF_TOKEN`.
+- CUDA out of memory: kiểm tra `nvidia-smi` xem GPU có tiến trình khác; runner không tự dừng tiến trình của người dùng khác.
+- SSH ngắt trong lúc inference: kết nối lại và dùng `resume`.
+
+Log từng lượt và trạng thái checkpoint nằm trong:
+
+```text
+Phase_2/VLMEvalKit/outputs/answer-format-v4-vllm/.phase2-runner/
+```
+
+## 8. Nguồn kỹ thuật
+
+- [Cài vLLM trên NVIDIA GPU](https://docs.vllm.ai/en/stable/getting_started/installation/gpu/)
+- [Các model được vLLM hỗ trợ](https://docs.vllm.ai/en/stable/models/supported_models/)
+- [Qwen3-VL model card](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct)
+- [DeepSeek-VL2 source](https://github.com/deepseek-ai/DeepSeek-VL2)
+- [HuatuoGPT-Vision source](https://github.com/FreedomIntelligence/HuatuoGPT-Vision)

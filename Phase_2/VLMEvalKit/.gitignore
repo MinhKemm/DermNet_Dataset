@@ -172,6 +172,7 @@ data
 outputs/*
 demo.ipynb
 *json
+!scripts/dataset_repairs.json
 !vlmeval/dataset/utils/vgrpbench/configs/formating-prompt/**/*.json
 .vscode
 *.swp
@@ -218,5 +219,13 @@ SenseNova*
 temp
 result*
 debug
-outputs
+outputs/*
+!outputs/deepseek_vl2_tiny/
+!outputs/deepseek_vl2_int8/
+outputs/deepseek_vl2_tiny/*
+outputs/deepseek_vl2_int8/*
+!outputs/deepseek_vl2_tiny/source/
+!outputs/deepseek_vl2_int8/source/
+!outputs/deepseek_vl2_tiny/source/*.xlsx
+!outputs/deepseek_vl2_int8/source/*.xlsx
 scripts/data

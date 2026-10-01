@@ -21,6 +21,7 @@ from .charxiv import CharXiv
 from .cmmmu import CMMMU
 from .creation import CreationMMBenchDataset
 from .da2k import DA2K
+from .dermnet import DermNetDataset
 from .design2code import Design2Code
 from .dream import DREAM
 from .dsrbench import DSRBench
@@ -331,7 +332,7 @@ TEXT_DATASET = [
 ]
 
 CUSTOM_DATASET = [
-    CustomMCQDataset, CustomVQADataset, CustomTextMCQDataset
+    DermNetDataset, CustomMCQDataset, CustomVQADataset, CustomTextMCQDataset
 ]
 
 DATASET_COLLECTION = [ConcatDataset, ConcatVideoDataset]

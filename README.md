@@ -1,42 +1,237 @@
 # DermNet Dataset
 
-Repository xử lý chú thích hình thái tổn thương và dữ liệu hỏi–đáp DermNet.
-Chuẩn QA mới `2.0.0` tách **5 nhiệm vụ × 4 hình thức**, sinh 20 tổ hợp cho
-bản bài báo và 20 biến thể vận hành từ cùng nguồn quy tắc.
+## Trạng thái sau hợp nhất ngày 02/10/2026
+
+Code runner/HPC trước lần cập nhật lại lịch sử Git đã được hợp nhất với main
+mới và bộ prompt QA v2. Không khôi phục ảnh cũ đã bị loại khỏi bộ ảnh trên main.
+Xem [biên bản hợp nhất](docs/REPOSITORY_RECOVERY_20261002.md) để phân biệt
+code phục hồi, dữ liệu benchmark cũ, bản chuẩn hóa mới và công việc đang làm.
+
+**Chưa được coi là sẵn sàng inference:** TSV benchmark cũ còn tham chiếu ảnh
+không có trong bộ ảnh đã tuyển chọn. Runner mặc định dừng khi thiếu ảnh;
+không đặt `MISSING_IMAGE_POLICY=skip` chỉ để chạy qua lỗi. Không thay benchmark
+bằng bản reviewed mới khi chưa đối chiếu split, index và Excel kết quả nguồn.
+
+Nếu server đã có environment, đọc
+[quy trình sửa environment có sẵn](docs/SERVER_ENV_FIXES.md) trước.
+Không cài environment trên compute/run node. Hướng dẫn cài mới bên dưới là
+quy trình lịch sử; cấu hình Qwen/vLLM hiện hành nằm trong tài liệu sửa environment.
 
 ## Bộ chuẩn QA mới
 
-- [Thiết kế, 20 tổ hợp và cách dùng](docs/DERMNET_QA_STANDARD_V2.md).
-- [Kết quả tự rà soát và giới hạn xác nhận](docs/DERMNET_QA_REVIEW_V2.md).
+- [Thiết kế 5 nhiệm vụ × 4 hình thức](docs/DERMNET_QA_STANDARD_V2.md).
+- [Tự rà soát và giới hạn xác nhận](docs/DERMNET_QA_REVIEW_V2.md).
 - [Nguồn cấu hình prompt tiếng Việt](Phase_2/config/qa_standard_vi.json).
-- [Công cụ ghép prompt, kiểm tra QA và xuất TSV](Phase_2/qa_prompts.py).
+- [Ghép prompt, kiểm tra QA và xuất TSV ứng viên](Phase_2/qa_prompts.py).
 
 Năm nhiệm vụ: Lesion recognition, Attribute recognize, Location, Lesion
-Reasoning, Diagnose. Bốn `type` giữ nguyên từ dataset cũ: Short_answer,
-Multi_choice, Judgement, Fill_in_blank. Diagnose lấy bệnh danh đã có, không
-tự dự đoán lại. Không ép mỗi ảnh có đủ 20 câu.
+Reasoning, Diagnose. Bốn hình thức cũ: Short_answer, Multi_choice, Judgement,
+Fill_in_blank. Diagnose giữ bệnh danh đã có, không tự đoán lại.
 
-## Dùng nhanh — không gọi mô hình/API
-
-Từ thư mục gốc repo, với Python 3.10 trở lên:
+Phần QA v2 dùng thư viện chuẩn Python và không gọi mô hình:
 
 ```powershell
-python -m unittest discover -v
+python -m unittest discover -s Phase_2/tests -v
 python -m Phase_2.qa_prompts catalog --profile all --output qa_prompts_40.json
 ```
 
-Chỉ phần chuẩn mới sử dụng thư viện chuẩn Python, không cần cài các mô hình
-để xuất prompt và chạy test này. Nếu file đầu ra đã có, lệnh từ chối ghi đè.
-Xem tài liệu thiết kế để chuẩn bị `context.json`, gắn dữ liệu vào một prompt,
-kiểm tra JSON đáp án và chuyển sang TSV ứng viên.
+Catalog có 20 tổ hợp cho bài báo và 20 biến thể vận hành, không ép mỗi ảnh có
+đủ 20 câu. Module mới chưa thay thế `Phase_2/pipeline.py` và chưa triển khai
+runner multimodal hoặc điều phối worker. Test phần mềm không chứng minh ảnh
+được đọc chính xác hay QA đã được bác sĩ duyệt.
 
-## Phạm vi và trạng thái
+## Runner benchmark đã phục hồi
 
-`Phase_1` giữ luồng quan sát/chuẩn hóa cũ. `Phase_2/pipeline.py` là luồng QA
-văn bản cũ; bộ chuẩn mới không tự thay thế nó hoặc mở inference khi import.
-`Phase_2/VLMEvalKit` là mã đánh giá/vendor và các TSV benchmark hiện có.
+Phase 2 chạy **8 model × 2 bộ dữ liệu tiếng Việt = 16 lượt** trên server 2 GPU × 96 GB. Toàn bộ inference đi qua một file:
 
-Công cụ mới chưa có runner multimodal hoặc bộ điều phối worker. Đường dẫn ảnh
-không thay thế ảnh đính kèm. Test kiểm tra hợp đồng phần mềm, không xác nhận
-ảnh được đọc đúng hay QA được bác sĩ duyệt. Lịch chạy nhiều worker trong tài
-liệu là đặc tả cho giai đoạn tích hợp, chưa được khởi chạy.
+```text
+Phase_2/VLMEvalKit/run_phase2.sh
+```
+
+## Quy trình chính trên server
+
+Thực hiện theo đúng thứ tự:
+
+```text
+1. Clone repository
+2. Cài 4 requirement vào 4 environment riêng
+3. Chạy một lệnh chuẩn bị runtime
+4. Submit lần lượt 4 run-group
+5. Submit lại đúng run-group nếu bị gián đoạn
+```
+
+### Bước 1 — Clone repository
+
+```bash
+git clone https://github.com/MinhKemm/DermNet_Dataset.git
+cd DermNet_Dataset
+```
+
+Repository, environment, dữ liệu và output cần nằm trên filesystem mà compute node đọc được.
+
+### Bước 2 — Cài bốn requirement riêng
+
+Mỗi job sử dụng một environment riêng:
+
+| Job | Environment | Requirement |
+|---|---|---|
+| `vllm` | `dermnet-vllm` | [vllm-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/vllm-blackwell.txt) |
+| `deepseek-int8` | `dermnet-deepseek-int8` | [deepseek-int8-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/deepseek-int8-blackwell.txt) |
+| `vintern` | `dermnet-vintern` | [vintern-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/vintern-blackwell.txt) |
+| `huatuo` | `dermnet-huatuo` | [huatuo-blackwell.txt](Phase_2/VLMEvalKit/requirements/server/huatuo-blackwell.txt) |
+
+Đứng tại root repository và chạy tuần tự:
+
+```bash
+export DERMNET_KIT_DIR="$PWD/Phase_2/VLMEvalKit"
+export LEGACY_TORCH_INDEX_URL="https://download.pytorch.org/whl/cu128"
+
+# Requirement cho job 1: vllm
+conda create -n dermnet-vllm python=3.10 pip -y
+conda run -n dermnet-vllm python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/vllm-blackwell.txt"
+conda run -n dermnet-vllm python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+conda run -n dermnet-vllm python -m pip check
+
+# Requirement cho job 2: deepseek-int8
+conda create -n dermnet-deepseek-int8 python=3.10 pip -y
+conda run -n dermnet-deepseek-int8 python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-deepseek-int8 python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/deepseek-int8-blackwell.txt"
+conda run -n dermnet-deepseek-int8 python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+conda run -n dermnet-deepseek-int8 python -m pip check
+
+# Requirement cho job 3: vintern
+conda create -n dermnet-vintern python=3.10 pip -y
+conda run -n dermnet-vintern python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-vintern python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/vintern-blackwell.txt"
+conda run -n dermnet-vintern python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+conda run -n dermnet-vintern python -m pip check
+
+# Requirement cho job 4: huatuo
+conda create -n dermnet-huatuo python=3.10 pip -y
+conda run -n dermnet-huatuo python -m pip install \
+  torch==2.8.0 torchvision==0.23.0 --index-url "$LEGACY_TORCH_INDEX_URL"
+conda run -n dermnet-huatuo python -m pip install \
+  -r "$DERMNET_KIT_DIR/requirements/server/huatuo-blackwell.txt"
+conda run -n dermnet-huatuo python -m pip install --no-deps -e "$DERMNET_KIT_DIR"
+conda run -n dermnet-huatuo python -m pip check
+```
+
+Các file server nhìn ngắn vì dòng đầu `-r ../../requirements.txt` nạp thêm [71 dependency lõi](Phase_2/VLMEvalKit/requirements.txt). Mỗi file sau đó khóa phiên bản riêng của backend; pip tiếp tục cài các package phụ cần thiết.
+
+### Bước 3 — Chuẩn bị runtime một lần
+
+Sau khi admin đã cài đủ bốn environment ở Bước 2, chạy:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh prepare-runtime
+```
+
+Lệnh này **không cài package, không chạy model và không cần GPU**. Nó xác nhận bốn environment theo tên chuẩn tồn tại, chạy `pip check`, tải đúng source DeepSeek/Huatuo, áp dụng bản vá Blackwell và tạo `Phase_2/VLMEvalKit/.phase2-server-env.sh`. Từ lần sau không cần làm lại Bước 3.
+
+Tên environment và thư mục source khác mặc định có thể truyền bằng biến môi trường theo [hướng dẫn server](docs/SERVER_SETUP.md). Phần setup thủ công dài chỉ là phương án dự phòng.
+
+Nếu file mapping nằm ngoài repository:
+
+```bash
+export SERVER_ENV_FILE=/shared/path/.phase2-server-env.sh
+```
+
+Nếu muốn script tự cài luôn bốn environment và node setup nhìn thấy GPU, có thể thay toàn bộ Bước 2 và 3 bằng:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh setup
+```
+
+### Bước 4 — Chạy riêng bốn job
+
+Mỗi job yêu cầu 2 GPU. Trên server có đúng hai GPU, để scheduler chạy từng job theo thứ tự dưới đây:
+
+```bash
+# Job 1: Qwen + DeepSeek Small/Tiny
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
+
+# Job 2: DeepSeek-VL2 8-bit
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group deepseek-int8
+
+# Job 3: Vintern 1B/3B
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vintern
+
+# Job 4: HuatuoGPT-Vision-34B
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group huatuo
+```
+
+Phần đầu Slurm job thường có:
+
+```bash
+#SBATCH --gres=gpu:2
+cd /shared/path/DermNet_Dataset
+```
+
+| Job | Lượt | Cách dùng hai GPU |
+|---|---:|---|
+| `vllm` | 8 | Qwen dùng cả hai GPU; DeepSeek chia hai worker |
+| `deepseek-int8` | 2 | Val và Test chạy song song |
+| `vintern` | 4 | Hai worker, mỗi GPU một hàng đợi |
+| `huatuo` | 2 | Val và Test chạy song song |
+
+Runner giữ `CUDA_VISIBLE_DEVICES` do scheduler cấp và tách work directory cho các lượt chạy song song.
+
+### Bước 5 — Chạy tiếp sau gián đoạn
+
+Submit lại đúng lệnh của nhóm bị dừng. Runner bỏ qua lượt đã hoàn chỉnh và tiếp tục phần thiếu hoặc thất bại:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
+```
+
+Khi cần chạy tuần tự để chẩn đoán:
+
+```bash
+RUN_GROUP_WORKERS=1 bash Phase_2/VLMEvalKit/run_phase2.sh run-group vintern
+```
+
+## Model và dữ liệu
+
+Chỉ sử dụng `DermNet_Val_VI.tsv` và `DermNet_Test_VI.tsv`:
+
+| Model | Val VI | Test VI |
+|---|---|---|
+| Qwen3.5-35B-A3B | Full | Full |
+| Qwen3-VL-8B-Instruct | Full | Full |
+| HuatuoGPT-Vision-34B | Full | Full |
+| Vintern-1B-v2 | Full mới | Full mới |
+| Vintern-3B-beta | Full mới | Full mới |
+| DeepSeek-VL2-small | Full | Full |
+| DeepSeek-VL2 8-bit | Vá | Vá |
+| DeepSeek-VL2-tiny BF16 | Vá | Vá |
+
+Tổng cộng **12 lượt full + 4 lượt vá**. Manifest: [dermnet_jobs.txt](Phase_2/VLMEvalKit/scripts/dermnet_jobs.txt).
+
+Hai bản DeepSeek vá giữ nguyên Excel nguồn, inference các dòng cần sửa vào file riêng rồi merge kết quả mới. Chi tiết: [docs/DEEPSEEK_RUN_PLAN.md](docs/DEEPSEEK_RUN_PLAN.md).
+
+## Output và kiểm tra
+
+- Kết quả: `Phase_2/VLMEvalKit/outputs/answer-format-v4-vllm/`.
+- Log/checkpoint: `outputs/answer-format-v4-vllm/.phase2-runner/`.
+- Lượt full song song: `outputs/answer-format-v4-vllm/two-gpu-jobs/`.
+
+Kiểm tra kế hoạch:
+
+```bash
+bash Phase_2/VLMEvalKit/run_phase2.sh plan
+DRY_RUN=1 GPU_COUNT=2 GPU_MAX_VRAM_GB=96 GPU_TOTAL_VRAM_GB=192 \
+  bash Phase_2/VLMEvalKit/run_phase2.sh run-group vllm
+```
+
+Tài liệu chi tiết:
+
+- [Cài environment server](docs/SERVER_SETUP.md)
+- [Chạy scheduler](docs/SCHEDULER_RUN.md)
+- [Backend vLLM/Blackwell](docs/VLLM_SERVER.md)
+- [Kiểm tra dữ liệu](docs/DATASET_AUDIT.md)
+- [Rà soát Excel vá](docs/RESULTS_PATCH_AUDIT.md)

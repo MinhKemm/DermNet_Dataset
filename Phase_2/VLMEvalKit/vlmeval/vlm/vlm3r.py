@@ -7,11 +7,15 @@ import logging
 import math
 from typing import Optional
 
-import decord
 import numpy as np
 import torch
 from PIL import Image
 from transformers import AutoConfig
+
+try:
+    import decord
+except ImportError:
+    decord = None
 
 from .base import BaseModel
 

@@ -1,0 +1,802 @@
+{
+  "date": "2026-10-02",
+  "timezone": "Asia/Bangkok",
+  "main_before": "2255b768c3f75f8408793054766052038afed92a",
+  "preserved_code": "d57b5ace",
+  "main_images": 7057,
+  "live_images": 6992,
+  "stable_files": [
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/__pycache__/build_lexical_inventory.cpython-312.pyc",
+      "bytes": 69384,
+      "sha256": "e0a765769fd44624ab1c7249866f843a881be57c06d9070ed482a1e628dfa0dc",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/audit_all_fields_normalization.py",
+      "bytes": 24225,
+      "sha256": "c63bc8465974362a03a10f4537e2bfeffaed9668f5a3874670e48d06fcb1faf8",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/audit_shape_normalization.py",
+      "bytes": 15204,
+      "sha256": "723cfc746d2ef86103f70ac77ad9b9964337138ad3528b01f4641a2630f84f96",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/build_lexical_inventory.py",
+      "bytes": 61633,
+      "sha256": "cb9967e32f0469973e14c735741302bd3c44ffc2a74b79e0280ac67364e685c8",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_All_fields_normalization_audit_20260925.md",
+      "bytes": 32883,
+      "sha256": "e09b74c229545becdc7f911a6feaf847f6290bb289f2bc456d86ad2e42f0e241",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_All_fields_normalization_audit_20260925.tsv",
+      "bytes": 117114,
+      "sha256": "bc1f9c284ffc315915ff096bd0e193101e7acc9319de9726470d169a6f195397",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_Disease_and_Lesion_Type_Lists_20260925.md",
+      "bytes": 22403,
+      "sha256": "bbf5b341b93c8b9291c4ae966d13d0a0d1b9949799286cbeadb93d86a0fffab4",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_Disease_and_Lesion_Type_Lists_20260925.tsv",
+      "bytes": 36748,
+      "sha256": "503bc331c1b6fabd62b2ef82029876e49725c30de866160589bf06beefde216c",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_Disease_Bilingual_Crosswalk_20260926.md",
+      "bytes": 68243,
+      "sha256": "3ae029d4d79d3537d7b75b91d1ba0495642612b9eb206cb6fccda94e4d41028c",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_Disease_Bilingual_Crosswalk_20260926.tsv",
+      "bytes": 61839,
+      "sha256": "1c8043a629e659b5ac750c75ecafac38cdc917d371969ebfcb6d21d903c5ba64",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_Lesion_Type_Bilingual_Crosswalk_20260926.md",
+      "bytes": 32204,
+      "sha256": "0b89aa27bd1d5ad1ebcf4876a5a4203ac6ae3c4cc30dd22430489255599dd694",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_Lesion_Type_Bilingual_Crosswalk_20260926.tsv",
+      "bytes": 25620,
+      "sha256": "8f46f08474541d8c3123ed7aee3c6fef2a88239169765d0531ed229db1323e9a",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_lexical_inventory_20260925.tsv",
+      "bytes": 916165,
+      "sha256": "8c6a4d370eeaa2727c64151490ea75569259f811f8b14567b8fa06c13633e785",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_lexical_tables_simple_20260925.md",
+      "bytes": 27592,
+      "sha256": "528fa8844772b2cca7fb88d6f9b2dc35635b6ee3c46fd0f625f9d685eaa2c565",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_lexical_tree_20260925.json",
+      "bytes": 4198924,
+      "sha256": "d89f0f6f6d71013fc02d0df90f8d7a7cc37266081784390eb4b6a05feffd97ab",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_lexical_tree_20260925.md",
+      "bytes": 56807,
+      "sha256": "d33ea3bdc9b1345409972a8a8a0a96e3180b33ba61123908657c7320cc84e065",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_lexical_unparsed_judgements_20260925.tsv",
+      "bytes": 52,
+      "sha256": "41b53fc484834cc0b8b94b6bd3733d59714e6bd90108d7efea17729457293f63",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_Shape_normalization_audit_20260925.md",
+      "bytes": 8911,
+      "sha256": "6d71a591e93018936ddf769196ec7872c3dca5b9708ca7037962214db45eea75",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-lexical-tree-20260925/DermNet_Shape_normalization_audit_20260925.tsv",
+      "bytes": 71684,
+      "sha256": "54e0bf0d1ef00b2b92bb03df5ffba9e760fc768618594789b4638e67ca95c738",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-qa-prompts-20261001/DermNet_10_Prompts_VI.md",
+      "bytes": 37193,
+      "sha256": "48a72c62df6e8dd2ee7eb92febb0566db32d06c0450b8e3213f158de60b8269e",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-qa-prompts-20261001/DermNet_40_Prompts_VI_v2.json",
+      "bytes": 236741,
+      "sha256": "1adcab11fba198ca8776fa22c53d7c29f1c71d653359c6b663a491692eb26df3",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-cleaned-20260923/DermNet_Test.cleaned_final.tsv",
+      "bytes": 10113950,
+      "sha256": "5a69b0f1ab9dee87e9737fe447ad581c5c680f69fa2f4fbdcc8f96cb0ab94ce5",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-cleaned-20260923/DermNet_Test_1of3.cleaned_final.tsv",
+      "bytes": 3386173,
+      "sha256": "7c0192f4b4e67f9bef8d929ff45c42e36c5d1ad7dc25db6f98e505ca04ec3b75",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-cleaned-20260923/DermNet_Val_4k.cleaned_final.tsv",
+      "bytes": 1152480,
+      "sha256": "4f4487c4c3396042fa4efb114a8c71fcb9aa60df168e8153d49a927def96cb21",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-cleaned-20260923/DermNet_VQA_cleaning_report_20260923.xlsx",
+      "bytes": 4030341,
+      "sha256": "631855b4b8095e82f5442f8c9077734a98d2403223a767cd2533a000d23a3b78",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-quality-audit-20260923/DermNet_VQA_quality_audit_20260923.xlsx",
+      "bytes": 5099562,
+      "sha256": "0d1b81260f63014d956a8dfd2adcd2cbd730ab481d25b6298ad7f2888abee95e",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/__pycache__/review_dermnet_vqa.cpython-310.pyc",
+      "bytes": 42171,
+      "sha256": "3b5a729cd324b2f30f38c70ea395a1a2c32203ee9bc5cdc4c252ccb23a8be1a6",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/__pycache__/verify_reviewed.cpython-310.pyc",
+      "bytes": 26086,
+      "sha256": "f970ce339f68856d936dac0890d9ed95a32d652e596d6574b394971c7baa1090",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/DermNet_Test.reviewed.tsv",
+      "bytes": 10743075,
+      "sha256": "099ab879f9fa3bc55a6dd38bd25fcbaa998f4d5c02d57e421304f111f75d71c6",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/DermNet_Test_1of3.reviewed.tsv",
+      "bytes": 3596251,
+      "sha256": "4d758222dfda649acb409957bb68f756ad422364969978361cb8a54b0eca18c8",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/DermNet_Val_4k.reviewed.tsv",
+      "bytes": 1248407,
+      "sha256": "61a2a1f46b914e56d0c957f1416ce25fa841c47f95b992c89c08f2459cb302c8",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/DermNet_VQA_issue_ledger_20260923.tsv",
+      "bytes": 9647209,
+      "sha256": "358a0346b6aa4bc79d61fc8f919a4502913c2d25730722bc8047091d3b51e83e",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/DermNet_VQA_path_audit_20260923.tsv",
+      "bytes": 612,
+      "sha256": "d48267abe64530fe1ad256108389a705d097bbaef085115249c0433320d12b4c",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/DermNet_VQA_review_report_20260923.md",
+      "bytes": 9979,
+      "sha256": "5f9b23245a511cf5aa852949387ba7cda08b99ac846b632f5116617f5a1fa714",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/legacy-6col/DermNet_Test.reviewed.legacy_6col.tsv",
+      "bytes": 5623088,
+      "sha256": "b4bd7289ffe22cb5a36ff26a6637a4402a83978794c9d9066a4b30a63c84dae6",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/legacy-6col/DermNet_Test_1of3.reviewed.legacy_6col.tsv",
+      "bytes": 1879279,
+      "sha256": "7e14375e1c8cacc34f92a302d932b2bfcbfb13bade96fac68cad51b5da9ab3bd",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/legacy-6col/DermNet_Val_4k.reviewed.legacy_6col.tsv",
+      "bytes": 647631,
+      "sha256": "b9969f5af27f4de733a207082031851255b37ca01712f195053be3c55598af8b",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/review_dermnet_vqa.py",
+      "bytes": 52384,
+      "sha256": "00f421d5b43b8fb37dcea73fbd108d74ffb04eeebee63dbf9a4f038c2157e874",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/verify_reviewed.py",
+      "bytes": 26852,
+      "sha256": "0bd9893d8620d95ea34cbccc00a7d6036d0c3f18422cdf8d1a19add7231a3a87",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/image-history-audit-20261001/current_exact_duplicates.json",
+      "bytes": 16742,
+      "sha256": "a5b845f48b7227dfbaa69c7b369eef56872e784a22f7fab5c79970e974b79744",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/image-history-audit-20261001/history_details.json",
+      "bytes": 4940398,
+      "sha256": "29af3afbed148b330c0b1b8cf0fb056c99161c7cb34a91abac54a5699963c875",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/image-history-audit-20261001/REPORT_VI.md",
+      "bytes": 7558,
+      "sha256": "2483c4cedae98df842d0f3a0dcbbb0653292962f34b18e0ad7a7f646eb6bc09f",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/image-history-audit-20261001/summary.json",
+      "bytes": 42931,
+      "sha256": "f53fe8889eb1ff17d50ee2069456709797b0a53dff59102e194042c55bacf0d0",
+      "matches_local": true
+    }
+  ],
+  "datasets": [
+    {
+      "path": "Phase_2/VLMEvalKit/LMUData/DermNet_Val_VI.tsv",
+      "rows": 4000,
+      "missing_main_rows": 943,
+      "missing_live_rows": 978
+    },
+    {
+      "path": "Phase_2/VLMEvalKit/LMUData/DermNet_Val_EN.tsv",
+      "rows": 4000,
+      "missing_main_rows": 943,
+      "missing_live_rows": 978
+    },
+    {
+      "path": "Phase_2/VLMEvalKit/LMUData/DermNet_Test_VI.tsv",
+      "rows": 19133,
+      "missing_main_rows": 4382,
+      "missing_live_rows": 4501
+    },
+    {
+      "path": "Phase_2/VLMEvalKit/LMUData/DermNet_Test_EN.tsv",
+      "rows": 19133,
+      "missing_main_rows": 4382,
+      "missing_live_rows": 4501
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/DermNet_Test.reviewed.tsv",
+      "rows": 23681,
+      "missing_main_rows": 5318,
+      "missing_live_rows": 5457
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/DermNet_Test_1of3.reviewed.tsv",
+      "rows": 7891,
+      "missing_main_rows": 1818,
+      "missing_live_rows": 1858
+    },
+    {
+      "path": "outputs/dermnet-vqa-reviewed-20260923/DermNet_Val_4k.reviewed.tsv",
+      "rows": 2721,
+      "missing_main_rows": 626,
+      "missing_live_rows": 647
+    }
+  ],
+  "wip_files": [
+    {
+      "path": "outputs/image-dedup-20261002/additional_source_jobs.json",
+      "bytes": 5374,
+      "sha256": "a7225338fa5a844e528c4e7926f76b69e0bd11c189e605029ca95e96b14d27a1"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/cross_folder_decisions.json",
+      "bytes": 81016,
+      "sha256": "693f9d167c8c16a9bedefd9ebbc8b8661d870199c5d66a9fa43c13ce76774d90"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/cross_folder_evidence.json",
+      "bytes": 64090,
+      "sha256": "92d1648ff8657741ec0cc783178a91f5d334dc7306536eda80cd97e6399c60b7"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/duplicates_bytes_before.json",
+      "bytes": 11985,
+      "sha256": "cca1b0ed212b9870dc6697bbd5ba4e450a7c5637a5851643332b9ff05e441795"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/duplicates_pixels_before.json",
+      "bytes": 14843,
+      "sha256": "a316d33b5847f7ec9e1a58217b8b50f32c624ca2ddfcba66e4e083cf6ced5794"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/image_alias_map.json",
+      "bytes": 27154,
+      "sha256": "bb986436b40cdee90be462c838fd52d52ac22026f968629ba10663ad1459311b"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/inventory_after.json",
+      "bytes": 1901647,
+      "sha256": "6382f40ce12da83c9abcd450d6891d563ad1427d0421ed410e419fb9bd32e1b9"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/inventory_before.json",
+      "bytes": 2356746,
+      "sha256": "b4e0ba7e7e29fd185a2a3fa9739638611c9794f9083fb5cb147de05ab03ae38c"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/live_source_pages.json",
+      "bytes": 669926,
+      "sha256": "5dc26a42120696b2cc4e03fce41d23601b93426fb7c5bc2883ac2ee2037bb0be"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/pending_label_review/G050/21.jpg",
+      "bytes": 67205,
+      "sha256": "bc15822dacb6291d0fdafd0f3e214d85d1cb82cf32a7881704099c360bd9c12e"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/removal_journal.json",
+      "bytes": 42848,
+      "sha256": "98c2a7743bf952af7948f7b9eb23d80bfca8ec0b44fdc5d93ccf1004b6d4180e"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/removed_images_backup.zip",
+      "bytes": 2898293,
+      "sha256": "09886b29d43f3ffa63995213305930c97bc2d6dfa7b673ffb2d91df9d1a5a982"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/removed_to_kept.csv",
+      "bytes": 14383,
+      "sha256": "ed289fc0ad2665c08b1fb1588e874b981deb3f87569ca5363392d8b70994857f"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/REPORT_VI.md",
+      "bytes": 11839,
+      "sha256": "3b5c7c693cc90df84b5628741ea20be2443f203290261819e3db903ddba7ac38"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/restore_images.py",
+      "bytes": 1736,
+      "sha256": "4cd7821cc704c474916af5774cf08e9287b25101302fdac666d5544256c161ef"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/review-1.jpg",
+      "bytes": 213344,
+      "sha256": "ca6909c3839f41af5f793c20513597daf5a631756279a8495b1a92382c45c5df"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/review-2.jpg",
+      "bytes": 213538,
+      "sha256": "a2ea5e62e5f4b368718c346d8c37f61763b34dce352ebb478d90d7890fcdf5eb"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/review-3.jpg",
+      "bytes": 187880,
+      "sha256": "27e406cc11f66fab1c13b147b0813f661ba1151ef503c9a9b5470942c7936670"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/review-4.jpg",
+      "bytes": 193285,
+      "sha256": "5a69934ea57efb44b1f4dd77ea9ecadc8c74b10a4d9e37c1c1260eb2445413f7"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/review-5.jpg",
+      "bytes": 189369,
+      "sha256": "664f8c06aa47504e6a21f145769be83bb271d92d46a543ebc3a062ad09df8d1f"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/review-6.jpg",
+      "bytes": 59799,
+      "sha256": "b218c453cd98e0106b2b05ee1cef031305594a6f838a5a59ab43a0b0c3f9d518"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_content_verification.json",
+      "bytes": 920798,
+      "sha256": "fe9ac86779fb2840317b558d59d8248b530937c9d6ae48ae3e27490d394da8ab"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_annular_lichen_planus_images.html",
+      "bytes": 51627,
+      "sha256": "6b0cc9c1a7089dbda38157cd42d891c71a43c2315a9b3d8df8547d32ecc6d1fa"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_atopic_dermatitis_images.html",
+      "bytes": 146779,
+      "sha256": "54b6637030d745bb0d0fcbb96c2f8a0800d224a9b746354a675ae2e11dac5511"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_capillaritis_images.html",
+      "bytes": 105703,
+      "sha256": "ba56c472040a9f8d3d47a439fb618899dc444993ec74cc66b4b25dfbd7d46572"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_epidermolysis_bullosa_acquisita_images.html",
+      "bytes": 52061,
+      "sha256": "d1df7873418903585f0765605f3960afe889123ddbf48c1df48881bd0f47b3fb"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_herpes_simplex_images.html",
+      "bytes": 112289,
+      "sha256": "367e5c7ff3161e2a476d348a88c909f346c8ff7a8190f8b821c5f5464c2281dd"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_lichen_planus_images.html",
+      "bytes": 117179,
+      "sha256": "4ac8e9918e4dbe049e5d6598ca162313a22c5e2212caffdfb47abb0e86de16c2"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_nodular_prurigo_images.html",
+      "bytes": 81203,
+      "sha256": "84cebe7d9f03ca57604ecf570bbcc0b9d9b3789f8e4cbdd25cd539d5c0d53c12"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_onychomycosis_images.html",
+      "bytes": 97112,
+      "sha256": "b5d903a2a1e498ed0f8e49eb500a9dc54398aa3dc883e3bfde6314be6650eca5"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_pityriasis_rubra_pilaris_images.html",
+      "bytes": 58726,
+      "sha256": "23aa336055b4a9d669d93a20ec2312fd3050497790d8db013670188a2f596929"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_pretibial_myxoedema_images.html",
+      "bytes": 84346,
+      "sha256": "d2bf314e5e986523787e765af0fbf44c0472449cd81a427591e972a4073093a4"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_reactive_infectious_mucocutaneous_eruption_images.html",
+      "bytes": 61006,
+      "sha256": "fd33ba549368b249dc66f2a149cd4b424694e97564b1661398bb6fd8efbe929a"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_sarcoidosis_images.html",
+      "bytes": 95050,
+      "sha256": "50c1992b4e204ac01e2e675fe8b2d2f68303ef90795ada054ca863aa1b9f6e66"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_images_tinea_capitis_images.html",
+      "bytes": 60914,
+      "sha256": "d84e3d648290cd67773322d34b13faab94dc8c57ee3e9b3571994974e99ac35a"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_atopic_dermatitis.html",
+      "bytes": 130684,
+      "sha256": "1f1bfff98f3947fd7c8aa134609c02a8879ee5410f3368206e2f5e9547341548"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_capillaritis.html",
+      "bytes": 80833,
+      "sha256": "9176995922562af4af5ef1c866340d7b5deee5412e446b5ae01c2d9ad0884331"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_cutaneous_lupus_erythematosus.html",
+      "bytes": 125370,
+      "sha256": "bd87732d6a4c679f9132a5f2e64713270c4f8793e8dc9cdca8984e223af8ce9c"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_cutaneous_lupus_erythematosus_images.html",
+      "bytes": 164019,
+      "sha256": "ff58368e7d9c16adf3c24fafd2f96424385be928972e1df26fea06632352aba8"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_epidermolysis_bullosa_acquisita.html",
+      "bytes": 110488,
+      "sha256": "d14b2c33b1fe5d0f3852aabe3af448e4ba57212e888b285e4c37749eb0434679"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_erythema_multiforme.html",
+      "bytes": 102283,
+      "sha256": "fc053e63e7d7263c524161979c90256810da86b5b954a9aabaa0fd3bbfe87ae4"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_erythema_multiforme_images.html",
+      "bytes": 80515,
+      "sha256": "948685697363c9007b06c37fe817264340fe76c3b530a5bd5476b518a5d42a20"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_fungal_nail_infections.html",
+      "bytes": 107374,
+      "sha256": "62e94b3789fb2fcfcf34306e7fe91a9f6f56527d426b6b13f0b83c122d833a58"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_head_lice.html",
+      "bytes": 85472,
+      "sha256": "f490e8288727f28eb691e093e60db63336f0ca85c238606ab1d8b4b21354933e"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_herpes_simplex.html",
+      "bytes": 102735,
+      "sha256": "2a2f9e5da83416107a39056871ec2619bfae4fc798b28275583e4596f25ff22d"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_ingrown_toenail.html",
+      "bytes": 81076,
+      "sha256": "fa1f8f0dae3ab834b96fdfcc776b7947f3c90caea2dbff18b9d9b5c39baca4bb"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_leg_ulcer.html",
+      "bytes": 103437,
+      "sha256": "59139e877fdb1f3c9d7fc7cd21665dcae60d14202f5dc25bbcf1ba5c655b8e27"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_leg_ulcer_images.html",
+      "bytes": 81652,
+      "sha256": "698a29a8854fdcadb55e552401d4be76a2960d3ca75c389882cb85134553a740"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_lichen_planus.html",
+      "bytes": 130572,
+      "sha256": "a70dda95ed326f3c938757e59b00195dd413ddf3b42f67917461c96c4a1c4026"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_lipodermatosclerosis_images.html",
+      "bytes": 93499,
+      "sha256": "79bf266eafe5106703572315fcfdbbf89b9c27df7705e16140153c8aef679efa"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_milia_images.html",
+      "bytes": 77952,
+      "sha256": "dae7845f43d322a526079db9ed6a80a774091dd74e49f444ac9a68e060be3a27"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_milium.html",
+      "bytes": 79750,
+      "sha256": "8684ed76572f510943dee40fea567a6cc3780bd61f9da1478d363dae9981fcc0"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_mycoplasma_pneumoniae_infection.html",
+      "bytes": 106359,
+      "sha256": "f887173816732ce2b503b465a3da2d81eb4aafe3ecd2fcaacfca4b5359ed58f1"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_oral_candidiasis.html",
+      "bytes": 84100,
+      "sha256": "7abb32c4dec92624cafd393c7f90944e1f88e204b7a816f2cfe1a21653534c0c"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_palmoplantar_keratoderma.html",
+      "bytes": 80599,
+      "sha256": "4925a61002db473c4558cdac9b0e4011c5befd18841b61ac6f18693b50c4e051"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_panniculitis.html",
+      "bytes": 86083,
+      "sha256": "e6c5650596b45f6b49e4df162133acf50ea129bcbf9a9a2d94ecc9f3eba51a77"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_paronychia.html",
+      "bytes": 93963,
+      "sha256": "8e5e300597e72ee225e80d71a1dcf59f8f2a5ec53d7f8797734b46194131cfed"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_paronychia_images.html",
+      "bytes": 79184,
+      "sha256": "88e45f2a5c92b28ea4535d63779a3ff023cd13dcc957d2d7c8966a88e55f5fa3"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_pemphigoid_gestationis.html",
+      "bytes": 93164,
+      "sha256": "db7ca8223fce526ce9f32d704353753dad4d13f56f2c2b951327d270794c012c"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_pityriasis_rubra_pilaris.html",
+      "bytes": 93826,
+      "sha256": "3e61a12cc540fc7993ebcdf722810043b4d213ef1b44b09b44d367c4b893f623"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_plasmacytoma.html",
+      "bytes": 94129,
+      "sha256": "93b28f722e1254d61a4717b695d3ae443c4561f3ac73b3b9c646fc3d27c04d90"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_porphyria_cutanea_tarda.html",
+      "bytes": 85388,
+      "sha256": "68901dc63138af9e60552a815aac25ac097f5c2988b945969df13d26d665850e"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_postinflammatory_hyperpigmentation.html",
+      "bytes": 86070,
+      "sha256": "a651496e417a3922e0906c1c7ed93d35dc43e652f17c1f13a7b6f3ea581a4461"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_pretibial_myxoedema.html",
+      "bytes": 101289,
+      "sha256": "0ce7183a4159ba3a9e22164aa5e9f761e91d8d4e671214eeb8c1167bc048cafd"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_prurigo.html",
+      "bytes": 86993,
+      "sha256": "a75aef6d1413ab0cfad70d1b77fc351e07bb0fb1c38c05fee22dc7e751702b6a"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_pruritus.html",
+      "bytes": 111280,
+      "sha256": "87c04124c6d4e83b9f9928afb6ccc36ffd9f51e7fa6ff62e738caa5556a5333d"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_purpura.html",
+      "bytes": 80589,
+      "sha256": "ef706cc9bf8cb804544a0fc73b5405be221b347de8c8785b4c98943ca429eac4"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_reactive_infectious_mucocutaneous_eruption.html",
+      "bytes": 106970,
+      "sha256": "6b81fcfb870f39e9329d4f757bd4f9d3970901e00d01eafacef89e0cebf21fd1"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_sarcoidosis.html",
+      "bytes": 137288,
+      "sha256": "cf16034da6e8c28a0507e8e0f08060716257ad72da9ff2c9fe690e4f178672ce"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_scurvy.html",
+      "bytes": 92096,
+      "sha256": "ffcd939ae85cdc92d61893e189972d49978f2d26fbbd691a172ab8a03a5e7b59"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_stomatitis.html",
+      "bytes": 84941,
+      "sha256": "11a61601067955a58ecd392d0f44174ad32fd601773cf14ee923542026ff1253"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_systemic_lupus_erythematosus.html",
+      "bytes": 129366,
+      "sha256": "7dc5984ca5c1070b0cb886604de76a67a5f065f4932660c28548eee0ebfaadec"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_systemic_lupus_erythematosus_images.html",
+      "bytes": 110547,
+      "sha256": "f1da90cef9460972281c304d4b363a59ac30f6d1bf2a3cd3e85061c7ae975d3b"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_tinea_capitis.html",
+      "bytes": 107907,
+      "sha256": "cb75f06897abd31fec4b5f0d21ede69d5ad91333b60bfc96ac739a6e9c10edc3"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_tinea_manuum.html",
+      "bytes": 74237,
+      "sha256": "3dfe3408d780691de16644d0fb12c5f2d64b3773f8d7bc79bec6947e2150c1f5"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_varicose_veins.html",
+      "bytes": 95258,
+      "sha256": "17d99159440869fff84020a588d161ae4648b6828c6b32c44b2f3be23e9f9457"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/https_dermnetnz_org_topics_venous_eczema.html",
+      "bytes": 83027,
+      "sha256": "bde4771718aeb4c7c1304497c527f72845a25e5f2acb304609be8b5263885c3d"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_html/image_library.html",
+      "bytes": 140768,
+      "sha256": "b94514c316baa77027ad5e56f8d8e4f6e4ff47dc5ef933d7db96a9e33232959e"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_image_library.json",
+      "bytes": 16975323,
+      "sha256": "8cab845affd9195f8a41ccca48ffd65e5dcc95feb1413936c6c6b0d46aaec91e"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/source_library_candidates.json",
+      "bytes": 375954,
+      "sha256": "52012872c3b15cbf51f241f5f8fd0e4d8d7dbe44e372b860ffb68e9ea03a71e1"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/summary_before.json",
+      "bytes": 225,
+      "sha256": "9fe6ed0f618c19cf56959bc30557b68aa91907af0b4f6f1b1d5e0c4375a631d9"
+    },
+    {
+      "path": "outputs/image-dedup-20261002/verification.json",
+      "bytes": 682,
+      "sha256": "09fd4c19d0ddcc7ec0dfe87798427a45a9ac8c5a9d99d3ab6d8d41a2cf4a9509"
+    },
+    {
+      "path": "tasks/plan.md",
+      "bytes": 860,
+      "sha256": "f97f14cc3b21f4f7986d6b2a772936ae5c9b65ca2f565e47b65029b98034943a"
+    },
+    {
+      "path": "tasks/todo.md",
+      "bytes": 462,
+      "sha256": "4607240f3065b5c3abc5188990cdc3dd850cae5fba6db4cef897dac9fd89d18b"
+    }
+  ],
+  "wip_deleted_paths": [
+    "dermnet-output/images/Cutaneous lupus erythematosus/lupus-sc4.jpg",
+    "dermnet-output/images/Erythema annulare centrifugum/annular-erythema-02-v2.jpg",
+    "dermnet-output/images/Erythema multiforme/mycoplasma1.jpg",
+    "dermnet-output/images/Erythema multiforme/mycoplasma2.jpg",
+    "dermnet-output/images/Milium/milia08.jpg",
+    "dermnet-output/images/Mycoplasma pneumoniae infection/reactive-infectious-mucocutaneous-eruption-0008.jpg",
+    "dermnet-output/images/Nummular eczematous dermatitis/discoid-eczema-day-14-v2.jpg",
+    "dermnet-output/images/Nummular eczematous dermatitis/discoid-eczema-day-2-v2.jpg",
+    "dermnet-output/images/Nummular eczematous dermatitis/discoid-eczema-day-6-v2.jpg",
+    "dermnet-output/images/Nummular eczematous dermatitis/nummular-eczema45.jpg",
+    "dermnet-output/images/Onychocryptosis/01.jpg",
+    "dermnet-output/images/Onychomycosis/47.jpg",
+    "dermnet-output/images/Oral candidiasis/05.jpg",
+    "dermnet-output/images/Oral candidiasis/06.jpg",
+    "dermnet-output/images/Oral mucositis - Stomatitis/18.jpg",
+    "dermnet-output/images/Palmoplantar keratoderma/35.jpg",
+    "dermnet-output/images/Palmoplantar keratoderma/36.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/15.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/16.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/17.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/18.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/19.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/20.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/21.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/23.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/24.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/25.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/26.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/27.jpg",
+    "dermnet-output/images/Pityriasis rubra pilaris/29.jpg",
+    "dermnet-output/images/Plasmacytoma/04.jpg",
+    "dermnet-output/images/Postinflammatory hyperpigmentation/05.jpg",
+    "dermnet-output/images/Postinflammatory hyperpigmentation/10.jpg",
+    "dermnet-output/images/Postinflammatory hyperpigmentation/11.jpg",
+    "dermnet-output/images/Postinflammatory hyperpigmentation/15.jpg",
+    "dermnet-output/images/Postinflammatory hyperpigmentation/16.jpg",
+    "dermnet-output/images/Postinflammatory hyperpigmentation/21.jpg",
+    "dermnet-output/images/Postinflammatory hyperpigmentation/24.jpg",
+    "dermnet-output/images/Postinflammatory hyperpigmentation/25.jpg",
+    "dermnet-output/images/Postinflammatory hyperpigmentation/30.jpg",
+    "dermnet-output/images/Postinflammatory hyperpigmentation/31.jpg",
+    "dermnet-output/images/Prurigo/05.jpg",
+    "dermnet-output/images/Prurigo/06.jpg",
+    "dermnet-output/images/Prurigo/09.jpg",
+    "dermnet-output/images/Prurigo/64.jpg",
+    "dermnet-output/images/Prurigo/99.jpg",
+    "dermnet-output/images/Pruritus/42.jpg",
+    "dermnet-output/images/Psoriasis/genital-psoriasis-32.jpg",
+    "dermnet-output/images/Psoriasis/infant-boy-ps1-s.jpg",
+    "dermnet-output/images/Psoriasis/infant-boy-ps2-s.jpg",
+    "dermnet-output/images/Purpura/20.jpg",
+    "dermnet-output/images/Purpura/21.jpg",
+    "dermnet-output/images/Purpura/82.jpg",
+    "dermnet-output/images/Purpura/96.jpg",
+    "dermnet-output/images/Purpura/97.jpg",
+    "dermnet-output/images/Purpura/98.jpg",
+    "dermnet-output/images/Pyoderma/01.jpg",
+    "dermnet-output/images/Pyoderma/07.jpg",
+    "dermnet-output/images/Pyoderma/08.jpg",
+    "dermnet-output/images/Sarcoidosis/01.jpg",
+    "dermnet-output/images/Varicose veins/01.jpg",
+    "dermnet-output/images/Venous eczema/acute-lipodermatosclerosis-12.jpg",
+    "dermnet-output/images/Venous eczema/acute-lipodermatosclerosis-21.jpg",
+    "dermnet-output/images/Venous eczema/acute-lipodermatosclerosis-22.jpg",
+    "dermnet-output/images/Venous eczema/acute-lipodermatosclerosis-24.jpg"
+  ],
+  "wip_policy": "Inventory and private backup only; never overwrite or publish ongoing image removals as finished work."
+}

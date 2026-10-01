@@ -115,7 +115,7 @@ class Qwen3VLChat(Qwen3VLPromptMixin, BaseModel):
         max_gpu_mem = max(gpu_mems) if gpu_mems != [] else -1
         assert max_gpu_mem > 0
 
-        self.use_vllm = kwargs.get('use_vllm', False)
+        self.use_vllm = kwargs.get('use_vllm', not kwargs.get('use_lmdeploy', False))
         self.use_lmdeploy = kwargs.get('use_lmdeploy', False)
         self.limit_mm_per_prompt = VLLM_MAX_IMAGE_INPUT_NUM
         os.environ['VLLM_WORKER_MULTIPROC_METHOD'] = 'spawn'
@@ -141,12 +141,12 @@ class Qwen3VLChat(Qwen3VLPromptMixin, BaseModel):
                 limit_mm = {"image": self.limit_mm_per_prompt}
             self.llm = LLM(
                 model=self.model_path,
-                max_num_seqs=8,
+                max_num_seqs=kwargs.get('max_num_seqs', 1),
                 limit_mm_per_prompt=limit_mm,
                 tensor_parallel_size=tp_size,
                 enable_expert_parallel=enable_expert_parallel,
                 seed=0,
-                gpu_memory_utilization=kwargs.get("gpu_utils", 0.9),
+                gpu_memory_utilization=kwargs.get("gpu_utils", float(os.environ.get('DERMNET_VLLM_GPU_UTIL', '0.80'))),
                 trust_remote_code=True,
             )
         else:
@@ -168,6 +168,12 @@ class Qwen3VLChat(Qwen3VLPromptMixin, BaseModel):
         else:
             instruction = "\nTrả lời trực tiếp và ngắn gọn nhất bằng từ khóa/cụm từ, không giải thích dài dòng."
         return text + instruction
+
+    @staticmethod
+    def _chat_template_kwargs(dataset):
+        if dataset is not None and dataset.startswith('DermNet_'):
+            return {'enable_thinking': False}
+        return {}
 
     def _prepare_content(self, inputs: list[dict[str, str]], dataset: str | None = None) -> list[dict[str, str]]:
         content = []
@@ -254,7 +260,12 @@ class Qwen3VLChat(Qwen3VLPromptMixin, BaseModel):
 
         if is_omni:
             # For Qwen3-Omni, messages is a list of dicts
-            text = self.processor.apply_chat_template(messages, add_generation_prompt=True, tokenize=False)
+            text = self.processor.apply_chat_template(
+                messages,
+                add_generation_prompt=True,
+                tokenize=False,
+                **self._chat_template_kwargs(dataset),
+            )
             audios, images, videos = process_mm_info(messages, use_audio_in_video=self.use_audio_in_video)
             inputs = self.processor(
                 text=text,
@@ -266,7 +277,12 @@ class Qwen3VLChat(Qwen3VLPromptMixin, BaseModel):
                 use_audio_in_video=self.use_audio_in_video,
             )
         else:
-            text = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+            text = self.processor.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True,
+                **self._chat_template_kwargs(dataset),
+            )
             images, videos, video_kwargs = process_vision_info(
                 messages,
                 image_patch_size=16,
@@ -371,7 +387,12 @@ class Qwen3VLChat(Qwen3VLPromptMixin, BaseModel):
         if self.verbose:
             print(f'\033[31m{messages}\033[0m')
 
-        text = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+        text = self.processor.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+            **self._chat_template_kwargs(dataset),
+        )
         if is_omni:
             audios, image_inputs, video_inputs = process_mm_info(messages, use_audio_in_video=self.use_audio_in_video)
         else:

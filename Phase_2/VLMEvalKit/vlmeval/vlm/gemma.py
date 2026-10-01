@@ -115,6 +115,8 @@ class Gemma3(BaseModel):
 
     def _format_prompt(self, text):
         # Bổ sung logic ép format giống hệt Gemma4
+        if "[DermNet answer format]" in text:
+            return text
         if "là phù hợp" in text or "phải không" in text or "đúng không" in text:
             instruction = "\nNếu câu là nhận định đúng/sai, chỉ trả lời ngắn gọn là 'Có' hoặc 'Không' (hoặc 'Đúng'/'Sai')."
         else:
@@ -246,6 +248,7 @@ class Gemma4(BaseModel):
 
     def __init__(self, model_path='google/gemma-4-E2B-it', **kwargs):
         self.use_vllm = kwargs.pop('use_vllm', True)
+        use_auto_model = kwargs.pop('use_auto_model', False)
         self.limit_mm_per_prompt = kwargs.pop('limit_mm_per_prompt', 24)
         self.model_path = model_path
 
@@ -253,15 +256,15 @@ class Gemma4(BaseModel):
             from transformers import AutoProcessor
 
             if not self.use_vllm:
-                try:
-                    from transformers import Gemma4ForConditionalGeneration
-                except ImportError:
+                if use_auto_model:
                     try:
                         from transformers import \
                             AutoModelForMultimodalLM as Gemma4ForConditionalGeneration
                     except ImportError:
                         from transformers import \
                             AutoModelForImageTextToText as Gemma4ForConditionalGeneration
+                else:
+                    from transformers import Gemma4ForConditionalGeneration
         except Exception as e:
             logging.critical('Please install torch and a recent transformers version.')
             raise e
@@ -364,6 +367,8 @@ class Gemma4(BaseModel):
     #     return processed_message, images
 
     def _format_prompt(self, text):
+        if "[DermNet answer format]" in text:
+            return text
         # Kiểm tra nếu câu hỏi là dạng nhận định / Yes-No question
         if "là phù hợp" in text or "phải không" in text or "đúng không" in text:
             instruction = "\nNếu câu là nhận định đúng/sai, chỉ trả lời ngắn gọn là 'Có' hoặc 'Không' (hoặc 'Đúng'/'Sai')."

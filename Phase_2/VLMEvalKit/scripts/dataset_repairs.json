@@ -1,0 +1,1122 @@
+[
+  {
+    "dataset": "DermNet_Val_VI",
+    "index": 514,
+    "image_path": "../../dermnet-output/images/Basal cell carcinoma/0624.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Basal cell carcinoma. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Basal cell carcinoma/0624.json"
+  },
+  {
+    "dataset": "DermNet_Val_VI",
+    "index": 1707,
+    "image_path": "../../dermnet-output/images/Lichen planus/3099.jpg",
+    "before": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3099.json"
+  },
+  {
+    "dataset": "DermNet_Val_VI",
+    "index": 1710,
+    "image_path": "../../dermnet-output/images/Lichen planus/3104.jpg",
+    "before": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3104.json"
+  },
+  {
+    "dataset": "DermNet_Val_VI",
+    "index": 3408,
+    "image_path": "../../dermnet-output/images/Scabies/scabies26.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Scabies. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Scabies/scabies26.json"
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 347,
+    "image_path": "../../dermnet-output/images/Angiofibroma/periungual-fibroma2.jpg",
+    "before": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. uneven\r\nB. vertical\r\nC. ill-defined border\r\nD round",
+    "after": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. uneven\r\nB. vertical\r\nC. ill-defined border\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 514,
+    "image_path": "../../dermnet-output/images/Basal cell carcinoma/0624.jpg",
+    "before": "In this image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Basal cell carcinoma. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Basal cell carcinoma/0624.json"
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1062,
+    "image_path": "../../dermnet-output/images/Erysipelas/cellulitis.jpg",
+    "before": "In the provided image, What are the morphology or border features of the lesion?\r\nA. long strip\r\nB. the shore is quite clear\r\nC. oval\r\nD round",
+    "after": "In the provided image, What are the morphology or border features of the lesion?\r\nA. long strip\r\nB. the shore is quite clear\r\nC. oval\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1118,
+    "image_path": "../../dermnet-output/images/Erythrokeratoderma/erythrokeratoderma5.jpg",
+    "before": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. reticular\r\nB. large plaque\r\nC. uneven shore\r\nD round",
+    "after": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. reticular\r\nB. large plaque\r\nC. uneven shore\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1233,
+    "image_path": "../../dermnet-output/images/Gout/gout5.jpg",
+    "before": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. dome-shaped\r\nB round\r\nC. well-demarcated border\r\nD. polycyclic",
+    "after": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. dome-shaped\r\nB. round\r\nC. well-demarcated border\r\nD. polycyclic",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1390,
+    "image_path": "../../dermnet-output/images/Herpes simplex/herpes-simplex-labialis-39.jpg",
+    "before": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. linear\r\nB. small drive\r\nC. uneven\r\nD round",
+    "after": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. linear\r\nB. small drive\r\nC. uneven\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1408,
+    "image_path": "../../dermnet-output/images/Herpes zoster/eyelid-20.jpg",
+    "before": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. linear\r\nB. cluster\r\nC. uneven\r\nD round",
+    "after": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. linear\r\nB. cluster\r\nC. uneven\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1460,
+    "image_path": "../../dermnet-output/images/Hidradenitis suppurativa/hs-buttocks-119.jpg",
+    "before": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. polycyclic\r\nB round\r\nC. uneven\r\nD. Slight hump",
+    "after": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. polycyclic\r\nB. round\r\nC. uneven\r\nD. Slight hump",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1532,
+    "image_path": "../../dermnet-output/images/Impetigo/perioral-impetigo-11.jpg",
+    "before": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. well-demarcated border\r\nB. polycyclic\r\nC. arc\r\nD round",
+    "after": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. well-demarcated border\r\nB. polycyclic\r\nC. arc\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1699,
+    "image_path": "../../dermnet-output/images/Lichen planus/3088.jpg",
+    "before": "Observing the image, What are the morphology or border features of the lesion?\r\nA. ill-defined border\r\nB round\r\nC. Strip form\r\nD. irregular",
+    "after": "Observing the image, What are the morphology or border features of the lesion?\r\nA. ill-defined border\r\nB. round\r\nC. Strip form\r\nD. irregular",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1707,
+    "image_path": "../../dermnet-output/images/Lichen planus/3099.jpg",
+    "before": "Observing the image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "Observing the image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3099.json"
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1710,
+    "image_path": "../../dermnet-output/images/Lichen planus/3104.jpg",
+    "before": "Observing the image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "Observing the image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3104.json"
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1864,
+    "image_path": "../../dermnet-output/images/Melanocytic naevus/black-ind.jpg",
+    "before": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. Asymmetric\r\nB. oval\r\nC. irregular border\r\nD round",
+    "after": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. Asymmetric\r\nB. oval\r\nC. irregular border\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 1957,
+    "image_path": "../../dermnet-output/images/Merkel cell carcinoma/mcc3.jpg",
+    "before": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. well-demarcated border\r\nB round\r\nC. round\r\nD. Dome-shaped",
+    "after": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. well-demarcated border\r\nB. round\r\nC. round\r\nD. Dome-shaped",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 2362,
+    "image_path": "../../dermnet-output/images/Ocular melanoma/eyelid-melanoma-1.jpg",
+    "before": "In this image, What are the morphology or border features of the lesion?\r\nA. Rolled edges\r\nB round\r\nC. ill-defined border\r\nD. irregular",
+    "after": "In this image, What are the morphology or border features of the lesion?\r\nA. Rolled edges\r\nB. round\r\nC. ill-defined border\r\nD. irregular",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 2454,
+    "image_path": "../../dermnet-output/images/Oral mucositis - Stomatitis/49.jpg",
+    "before": "In this image, which morphology/border features are consistent with the lesion?\r\nA. small round\r\nB. border\r\nC. uneven\r\nD round",
+    "after": "In this image, which morphology/border features are consistent with the lesion?\r\nA. small round\r\nB. border\r\nC. uneven\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 2787,
+    "image_path": "../../dermnet-output/images/Pigmented purpura/purpAmlodip2.jpg",
+    "before": "In this image, What are the morphology or border features of the lesion?\r\nA. irregular\r\nB. Small dots\r\nC. oval\r\nD round",
+    "after": "In this image, What are the morphology or border features of the lesion?\r\nA. irregular\r\nB. Small dots\r\nC. oval\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 3408,
+    "image_path": "../../dermnet-output/images/Scabies/scabies26.jpg",
+    "before": "In this image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Scabies. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Scabies/scabies26.json"
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 3411,
+    "image_path": "../../dermnet-output/images/Scabies/scabies32.jpg",
+    "before": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. polycyclic\r\nB. uneven\r\nC. Blurred edges\r\nD round",
+    "after": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. polycyclic\r\nB. uneven\r\nC. Blurred edges\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Val_EN",
+    "index": 3489,
+    "image_path": "../../dermnet-output/images/Squamous cell carcinoma/3941.jpg",
+    "before": "In the provided image, What are the morphology or border features of the lesion?\r\nA. irregular\r\nB. Lobed form\r\nC. raised/elevated\r\nD round",
+    "after": "In the provided image, What are the morphology or border features of the lesion?\r\nA. irregular\r\nB. Lobed form\r\nC. raised/elevated\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 2415,
+    "image_path": "../../dermnet-output/images/Atopic dermatitis/flexural-eczema14.jpg",
+    "before": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Atopic dermatitis. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Atopic dermatitis/flexural-eczema14.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 2426,
+    "image_path": "../../dermnet-output/images/Atopic dermatitis/flexural-eczema18.jpg",
+    "before": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Atopic dermatitis. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Atopic dermatitis/flexural-eczema18.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 2434,
+    "image_path": "../../dermnet-output/images/Atopic dermatitis/flexural-eczema23.jpg",
+    "before": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Atopic dermatitis. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Atopic dermatitis/flexural-eczema23.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 3879,
+    "image_path": "../../dermnet-output/images/Cutaneous horn/horn-11.jpg",
+    "before": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Cutaneous horn. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Cutaneous horn/horn-11.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 7515,
+    "image_path": "../../dermnet-output/images/Ichthyosis/keratinopathic-ichthyosis-0002.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Ichthyosis. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Ichthyosis/keratinopathic-ichthyosis-0002.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8202,
+    "image_path": "../../dermnet-output/images/Leishmaniasis/cutaneous-leishmaniasis-02-v2.jpg",
+    "before": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Leishmaniasis. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Leishmaniasis/cutaneous-leishmaniasis-02-v2.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8268,
+    "image_path": "../../dermnet-output/images/Leishmaniasis/leishmaniasis8.jpg",
+    "before": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Leishmaniasis. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Leishmaniasis/leishmaniasis8.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8389,
+    "image_path": "../../dermnet-output/images/Lichen planus/3067.jpg",
+    "before": "Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3067.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8397,
+    "image_path": "../../dermnet-output/images/Lichen planus/3072.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3072.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8415,
+    "image_path": "../../dermnet-output/images/Lichen planus/3082.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3082.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8440,
+    "image_path": "../../dermnet-output/images/Lichen planus/3091.jpg",
+    "before": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3091.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8462,
+    "image_path": "../../dermnet-output/images/Lichen planus/3102.jpg",
+    "before": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3102.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8581,
+    "image_path": "../../dermnet-output/images/Lichen planus/lichen-planus-nail-017.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen planus/lichen-planus-nail-017.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8607,
+    "image_path": "../../dermnet-output/images/Lichen planus/lichen-planus-nail-031.jpg",
+    "before": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen planus/lichen-planus-nail-031.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8614,
+    "image_path": "../../dermnet-output/images/Lichen planus/lichen-planus-nail-035.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen planus/lichen-planus-nail-035.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8702,
+    "image_path": "../../dermnet-output/images/Lichen planus/oral-lichen-planus-0004.jpg",
+    "before": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Erosive lichen planus. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen planus/oral-lichen-planus-0004.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 8852,
+    "image_path": "../../dermnet-output/images/Lichen simplex/lichen-simplex-0017.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Lichen simplex. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Lichen simplex/lichen-simplex-0017.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 9122,
+    "image_path": "../../dermnet-output/images/Measles/measles.jpg",
+    "before": "Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Measles. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Measles/measles.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 9163,
+    "image_path": "../../dermnet-output/images/Measles/measles17.jpg",
+    "before": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Measles. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Measles/measles17.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 9561,
+    "image_path": "../../dermnet-output/images/Melanoma/Desmoplastic-melanoma-2-2-2-v2.jpg",
+    "before": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Acral lentiginous melanoma. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Melanoma/Desmoplastic-melanoma-2-2-2-v2.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 9580,
+    "image_path": "../../dermnet-output/images/Melanoma/mel-desmo1.jpg",
+    "before": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Acral lentiginous melanoma. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Melanoma/mel-desmo1.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 9925,
+    "image_path": "../../dermnet-output/images/Milium/milia-27.jpg",
+    "before": "Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Colloid milium. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Milium/milia-27.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 9950,
+    "image_path": "../../dermnet-output/images/Milium/milia11.jpg",
+    "before": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Colloid milium. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Milium/milia11.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 12967,
+    "image_path": "../../dermnet-output/images/Pellagra/08.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Pellagra. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Pellagra/08.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 13791,
+    "image_path": "../../dermnet-output/images/Pityriasis versicolor/3484.jpg",
+    "before": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Pityriasis versicolor. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Pityriasis versicolor/3484.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 15785,
+    "image_path": "../../dermnet-output/images/Recessive X-linked ichthyosis/05.jpg",
+    "before": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Quan sát bức ảnh, Hình ảnh này phù hợp với chẩn đoán Ichthyosis. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Recessive X-linked ichthyosis/05.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 15790,
+    "image_path": "../../dermnet-output/images/Recessive X-linked ichthyosis/07.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Ichthyosis. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Recessive X-linked ichthyosis/07.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 15875,
+    "image_path": "../../dermnet-output/images/Rhinophyma/10.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Rhinophyma. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Rhinophyma/10.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 16014,
+    "image_path": "../../dermnet-output/images/Rosacea/3632.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Rosacea. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Rosacea/3632.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 18959,
+    "image_path": "../../dermnet-output/images/X linked ichthyosis/13.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Ichthyosis. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/X linked ichthyosis/13.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 18970,
+    "image_path": "../../dermnet-output/images/X linked ichthyosis/x-linked-ichthyosis-2.jpg",
+    "before": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Có. Nhận định này có đúng không?",
+    "after": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Ichthyosis. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/X linked ichthyosis/x-linked-ichthyosis-2.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 19012,
+    "image_path": "../../dermnet-output/images/Xanthoma/xanthelasma08.jpg",
+    "before": "Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Atypical fibroxanthoma. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Xanthoma/xanthelasma08.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 19024,
+    "image_path": "../../dermnet-output/images/Xanthoma/xanthelasma13.jpg",
+    "before": "Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Dựa vào hình ảnh trên, Hình ảnh này phù hợp với chẩn đoán Atypical fibroxanthoma. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Xanthoma/xanthelasma13.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 19025,
+    "image_path": "../../dermnet-output/images/Xanthoma/xanthelasma14.jpg",
+    "before": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Trong hình ảnh này, Hình ảnh này phù hợp với chẩn đoán Atypical fibroxanthoma. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Xanthoma/xanthelasma14.json"
+  },
+  {
+    "dataset": "DermNet_Test_VI",
+    "index": 19029,
+    "image_path": "../../dermnet-output/images/Xanthoma/xanthelasma15.jpg",
+    "before": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Không. Nhận định này có đúng không?",
+    "after": "Trong ảnh được cung cấp, Hình ảnh này phù hợp với chẩn đoán Atypical fibroxanthoma. Nhận định này có đúng không?",
+    "canonical_source": "final_canonical_vi/Xanthoma/xanthelasma15.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 2011,
+    "image_path": "../../dermnet-output/images/Anthrax/anthrax-04.jpg",
+    "before": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. Oblong\r\nB. well-demarcated border\r\nC. oval\r\nD round",
+    "after": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. Oblong\r\nB. well-demarcated border\r\nC. oval\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 2029,
+    "image_path": "../../dermnet-output/images/Aphthous ulcer/enteroviral-stomatitis-044.jpg",
+    "before": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. Map\r\nB. ill-defined border\r\nC. annular\r\nD round",
+    "after": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. Map\r\nB. ill-defined border\r\nC. annular\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 2330,
+    "image_path": "../../dermnet-output/images/Atopic dermatitis/atopic5.jpg",
+    "before": "In this image, What are the morphology or border features of the lesion?\r\nA. oval\r\nB. clear boundaries\r\nC. uneven\r\nD round",
+    "after": "In this image, What are the morphology or border features of the lesion?\r\nA. oval\r\nB. clear boundaries\r\nC. uneven\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 2415,
+    "image_path": "../../dermnet-output/images/Atopic dermatitis/flexural-eczema14.jpg",
+    "before": "In the provided image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In the provided image, This image is consistent with the diagnosis Atopic dermatitis. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Atopic dermatitis/flexural-eczema14.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 2426,
+    "image_path": "../../dermnet-output/images/Atopic dermatitis/flexural-eczema18.jpg",
+    "before": "In the provided image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In the provided image, This image is consistent with the diagnosis Atopic dermatitis. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Atopic dermatitis/flexural-eczema18.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 2434,
+    "image_path": "../../dermnet-output/images/Atopic dermatitis/flexural-eczema23.jpg",
+    "before": "In the provided image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In the provided image, This image is consistent with the diagnosis Atopic dermatitis. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Atopic dermatitis/flexural-eczema23.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 2527,
+    "image_path": "../../dermnet-output/images/Atypical melanocytic naevus/atypical-melanocytic-naevus-0001.jpg",
+    "before": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. Asymmetric\r\nB. oval\r\nC. uneven\r\nD round",
+    "after": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. Asymmetric\r\nB. oval\r\nC. uneven\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 3863,
+    "image_path": "../../dermnet-output/images/Cutaneous horn/horn-04.jpg",
+    "before": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. slightly rough\r\nB. linear\r\nC. well-defined border\r\nD round",
+    "after": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. slightly rough\r\nB. linear\r\nC. well-defined border\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 3879,
+    "image_path": "../../dermnet-output/images/Cutaneous horn/horn-11.jpg",
+    "before": "Observing the image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "Observing the image, This image is consistent with the diagnosis Cutaneous horn. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Cutaneous horn/horn-11.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 3886,
+    "image_path": "../../dermnet-output/images/Cutaneous horn/horn-14.jpg",
+    "before": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. abutment\r\nB. reticular\r\nC. oval\r\nD round",
+    "after": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. abutment\r\nB. reticular\r\nC. oval\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 4243,
+    "image_path": "../../dermnet-output/images/Cutaneous vasculitis/vasculitis-001.jpg",
+    "before": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. reticular\r\nB. uneven\r\nC. zigzag\r\nD round",
+    "after": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. reticular\r\nB. uneven\r\nC. zigzag\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 4365,
+    "image_path": "../../dermnet-output/images/Digital myxoid pseudocyst/myxoid-cyst-23.jpg",
+    "before": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. annular\r\nB. oval\r\nC. Convex\r\nD round",
+    "after": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. annular\r\nB. oval\r\nC. Convex\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 4546,
+    "image_path": "../../dermnet-output/images/Discoid eczema/nummular-eczema04.jpg",
+    "before": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. uneven\r\nB. clear boundaries\r\nC. oval\r\nD round",
+    "after": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. uneven\r\nB. clear boundaries\r\nC. oval\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 5195,
+    "image_path": "../../dermnet-output/images/Eosinophilic pustular folliculitis/eos-folliculitis3.jpg",
+    "before": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. polycyclic\r\nB round\r\nC. reticular\r\nD. dome-shaped",
+    "after": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. polycyclic\r\nB. round\r\nC. reticular\r\nD. dome-shaped",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 5589,
+    "image_path": "../../dermnet-output/images/Erythema multiforme/erythema-multiforme-034.jpg",
+    "before": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. ill-defined border\r\nB round\r\nC. round\r\nD. oval",
+    "after": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. ill-defined border\r\nB. round\r\nC. round\r\nD. oval",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 5818,
+    "image_path": "../../dermnet-output/images/Facial psoriasis/facial-psoriasis-003.jpg",
+    "before": "In the provided image, What are the morphology or border features of the lesion?\r\nA. large plaque\r\nB round\r\nC. confluence\r\nD. oval",
+    "after": "In the provided image, What are the morphology or border features of the lesion?\r\nA. large plaque\r\nB. round\r\nC. confluence\r\nD. oval",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 6109,
+    "image_path": "../../dermnet-output/images/Genital herpes/genital-herpes-s.jpg",
+    "before": "In this image, which morphology/border features are consistent with the lesion?\r\nA. polycyclic\r\nB round\r\nC. hump\r\nD. round",
+    "after": "In this image, which morphology/border features are consistent with the lesion?\r\nA. polycyclic\r\nB. round\r\nC. hump\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 6267,
+    "image_path": "../../dermnet-output/images/Gout/gout8.jpg",
+    "before": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. dome-shaped\r\nB. well-demarcated border\r\nC. well-defined border\r\nD round",
+    "after": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. dome-shaped\r\nB. well-demarcated border\r\nC. well-defined border\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 7515,
+    "image_path": "../../dermnet-output/images/Ichthyosis/keratinopathic-ichthyosis-0002.jpg",
+    "before": "In this image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Ichthyosis. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Ichthyosis/keratinopathic-ichthyosis-0002.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 7740,
+    "image_path": "../../dermnet-output/images/Keloid scar/acne-scarring-0025.jpg",
+    "before": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. hemisphere\r\nB round\r\nC. well-demarcated border\r\nD. linear",
+    "after": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. hemisphere\r\nB. round\r\nC. well-demarcated border\r\nD. linear",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 7839,
+    "image_path": "../../dermnet-output/images/Keloid scar/keloid01.jpg",
+    "before": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. linear\r\nB. Lobe segment\r\nC. ill-defined border\r\nD round",
+    "after": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. linear\r\nB. Lobe segment\r\nC. ill-defined border\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 7974,
+    "image_path": "../../dermnet-output/images/Keratosis pilaris/3021.jpg",
+    "before": "Observing the image, What are the morphology or border features of the lesion?\r\nA. oval\r\nB round\r\nC. small round\r\nD. Dot form",
+    "after": "Observing the image, What are the morphology or border features of the lesion?\r\nA. oval\r\nB. round\r\nC. small round\r\nD. Dot form",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8202,
+    "image_path": "../../dermnet-output/images/Leishmaniasis/cutaneous-leishmaniasis-02-v2.jpg",
+    "before": "In the provided image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "In the provided image, This image is consistent with the diagnosis Leishmaniasis. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Leishmaniasis/cutaneous-leishmaniasis-02-v2.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8268,
+    "image_path": "../../dermnet-output/images/Leishmaniasis/leishmaniasis8.jpg",
+    "before": "In the provided image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "In the provided image, This image is consistent with the diagnosis Leishmaniasis. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Leishmaniasis/leishmaniasis8.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8389,
+    "image_path": "../../dermnet-output/images/Lichen planus/3067.jpg",
+    "before": "Based on the image above, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "Based on the image above, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3067.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8397,
+    "image_path": "../../dermnet-output/images/Lichen planus/3072.jpg",
+    "before": "In this image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3072.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8415,
+    "image_path": "../../dermnet-output/images/Lichen planus/3082.jpg",
+    "before": "In this image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3082.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8440,
+    "image_path": "../../dermnet-output/images/Lichen planus/3091.jpg",
+    "before": "Observing the image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "Observing the image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3091.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8462,
+    "image_path": "../../dermnet-output/images/Lichen planus/3102.jpg",
+    "before": "Observing the image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "Observing the image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen planus/3102.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8558,
+    "image_path": "../../dermnet-output/images/Lichen planus/lichen-planus-nail-007.jpg",
+    "before": "Observing the image, What are the morphology or border features of the lesion?\r\nA. irregular\r\nB. oval\r\nC. Rough surface\r\nD round",
+    "after": "Observing the image, What are the morphology or border features of the lesion?\r\nA. irregular\r\nB. oval\r\nC. Rough surface\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8579,
+    "image_path": "../../dermnet-output/images/Lichen planus/lichen-planus-nail-017.jpg",
+    "before": "In the provided image, What are the morphology or border features of the lesion?\r\nA. Vertical strip\r\nB round\r\nC. oval\r\nD. irregular",
+    "after": "In the provided image, What are the morphology or border features of the lesion?\r\nA. Vertical strip\r\nB. round\r\nC. oval\r\nD. irregular",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8581,
+    "image_path": "../../dermnet-output/images/Lichen planus/lichen-planus-nail-017.jpg",
+    "before": "In this image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen planus/lichen-planus-nail-017.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8594,
+    "image_path": "../../dermnet-output/images/Lichen planus/lichen-planus-nail-023.jpg",
+    "before": "Observing the image, What are the morphology or border features of the lesion?\r\nA. Longitudinal groove\r\nB. irregular\r\nC. oval\r\nD round",
+    "after": "Observing the image, What are the morphology or border features of the lesion?\r\nA. Longitudinal groove\r\nB. irregular\r\nC. oval\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8607,
+    "image_path": "../../dermnet-output/images/Lichen planus/lichen-planus-nail-031.jpg",
+    "before": "In the provided image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In the provided image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen planus/lichen-planus-nail-031.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8609,
+    "image_path": "../../dermnet-output/images/Lichen planus/lichen-planus-nail-032.jpg",
+    "before": "In the provided image, What are the morphology or border features of the lesion?\r\nA. Vertical line\r\nB round\r\nC. ill-defined border\r\nD. Parallel",
+    "after": "In the provided image, What are the morphology or border features of the lesion?\r\nA. Vertical line\r\nB. round\r\nC. ill-defined border\r\nD. Parallel",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8614,
+    "image_path": "../../dermnet-output/images/Lichen planus/lichen-planus-nail-035.jpg",
+    "before": "In this image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen planus/lichen-planus-nail-035.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8702,
+    "image_path": "../../dermnet-output/images/Lichen planus/oral-lichen-planus-0004.jpg",
+    "before": "Observing the image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "Observing the image, This image is consistent with the diagnosis Erosive lichen planus. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen planus/oral-lichen-planus-0004.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8819,
+    "image_path": "../../dermnet-output/images/Lichen simplex/figure-5-itch.jpg",
+    "before": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. Long\r\nB. irregular\r\nC. ill-defined border\r\nD round",
+    "after": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. Long\r\nB. irregular\r\nC. ill-defined border\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 8852,
+    "image_path": "../../dermnet-output/images/Lichen simplex/lichen-simplex-0017.jpg",
+    "before": "In this image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Lichen simplex. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Lichen simplex/lichen-simplex-0017.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 9122,
+    "image_path": "../../dermnet-output/images/Measles/measles.jpg",
+    "before": "Based on the image above, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "Based on the image above, This image is consistent with the diagnosis Measles. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Measles/measles.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 9163,
+    "image_path": "../../dermnet-output/images/Measles/measles17.jpg",
+    "before": "Observing the image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "Observing the image, This image is consistent with the diagnosis Measles. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Measles/measles17.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 9402,
+    "image_path": "../../dermnet-output/images/Melanocytic naevus/small.jpg",
+    "before": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. irregular border\r\nB. Not clear\r\nC. Asymmetrical\r\nD round",
+    "after": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. irregular border\r\nB. Not clear\r\nC. Asymmetrical\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 9561,
+    "image_path": "../../dermnet-output/images/Melanoma/Desmoplastic-melanoma-2-2-2-v2.jpg",
+    "before": "In the provided image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "In the provided image, This image is consistent with the diagnosis Acral lentiginous melanoma. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Melanoma/Desmoplastic-melanoma-2-2-2-v2.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 9580,
+    "image_path": "../../dermnet-output/images/Melanoma/mel-desmo1.jpg",
+    "before": "Observing the image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "Observing the image, This image is consistent with the diagnosis Acral lentiginous melanoma. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Melanoma/mel-desmo1.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 9752,
+    "image_path": "../../dermnet-output/images/Meningococcal disease/meningo-close.jpg",
+    "before": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. well-demarcated border\r\nB. irregular\r\nC. Small dots\r\nD round",
+    "after": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. well-demarcated border\r\nB. irregular\r\nC. Small dots\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 9802,
+    "image_path": "../../dermnet-output/images/Metastatic melanoma/mel21.jpg",
+    "before": "Observing the image, What are the morphology or border features of the lesion?\r\nA. oval\r\nB round\r\nC. Dome-shaped\r\nD. well-demarcated border",
+    "after": "Observing the image, What are the morphology or border features of the lesion?\r\nA. oval\r\nB. round\r\nC. Dome-shaped\r\nD. well-demarcated border",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 9828,
+    "image_path": "../../dermnet-output/images/Metastatic melanoma/metastatic-melanoma-13.jpg",
+    "before": "Observing the image, What are the morphology or border features of the lesion?\r\nA. well-demarcated border\r\nB. linear\r\nC. small round\r\nD round",
+    "after": "Observing the image, What are the morphology or border features of the lesion?\r\nA. well-demarcated border\r\nB. linear\r\nC. small round\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 9925,
+    "image_path": "../../dermnet-output/images/Milium/milia-27.jpg",
+    "before": "Based on the image above, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "Based on the image above, This image is consistent with the diagnosis Colloid milium. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Milium/milia-27.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 9950,
+    "image_path": "../../dermnet-output/images/Milium/milia11.jpg",
+    "before": "In the provided image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "In the provided image, This image is consistent with the diagnosis Colloid milium. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Milium/milia11.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 10180,
+    "image_path": "../../dermnet-output/images/Molluscum contagiosum/molluscum47.jpg",
+    "before": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. well-demarcated border\r\nB round\r\nC. uneven\r\nD. small dome-shaped",
+    "after": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. well-demarcated border\r\nB. round\r\nC. uneven\r\nD. small dome-shaped",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 10870,
+    "image_path": "../../dermnet-output/images/Neonatal subcutaneous fat necrosis/fat-necrosis2.jpg",
+    "before": "In this image, which morphology/border features are consistent with the lesion?\r\nA. ill-defined border\r\nB. irregular\r\nC. Strip form\r\nD round",
+    "after": "In this image, which morphology/border features are consistent with the lesion?\r\nA. ill-defined border\r\nB. irregular\r\nC. Strip form\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 12710,
+    "image_path": "../../dermnet-output/images/Papular acrodermatitis of childhood/gcs35.jpg",
+    "before": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. small round\r\nB. uneven\r\nC. annular\r\nD round",
+    "after": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. small round\r\nB. uneven\r\nC. annular\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 12967,
+    "image_path": "../../dermnet-output/images/Pellagra/08.jpg",
+    "before": "In this image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Pellagra. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Pellagra/08.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 13596,
+    "image_path": "../../dermnet-output/images/Pilomatricoma/giant-pilomatricoma.jpg",
+    "before": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. Dome-shaped\r\nB. polycyclic\r\nC. well-demarcated border\r\nD round",
+    "after": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. Dome-shaped\r\nB. polycyclic\r\nC. well-demarcated border\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 13791,
+    "image_path": "../../dermnet-output/images/Pityriasis versicolor/3484.jpg",
+    "before": "In the provided image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In the provided image, This image is consistent with the diagnosis Pityriasis versicolor. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Pityriasis versicolor/3484.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 14019,
+    "image_path": "../../dermnet-output/images/Polymorphic eruption of pregnancy/pupp4.jpg",
+    "before": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. Slightly curved\r\nB round\r\nC. Parallel\r\nD. linear",
+    "after": "In the provided image, which morphology/border features are consistent with the lesion?\r\nA. Slightly curved\r\nB. round\r\nC. Parallel\r\nD. linear",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 14750,
+    "image_path": "../../dermnet-output/images/Pruritus/19.jpg",
+    "before": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. small\r\nB. Straight line\r\nC. irregular\r\nD round",
+    "after": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. small\r\nB. Straight line\r\nC. irregular\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 15215,
+    "image_path": "../../dermnet-output/images/Purpura/112.jpg",
+    "before": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. Small dots\r\nB round\r\nC. small plaque\r\nD. irregular",
+    "after": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. Small dots\r\nB. round\r\nC. small plaque\r\nD. irregular",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 15547,
+    "image_path": "../../dermnet-output/images/Pyoderma/51.jpg",
+    "before": "In this image, What are the morphology or border features of the lesion?\r\nA. Rugged shore\r\nB round\r\nC. well-demarcated border\r\nD. irregular",
+    "after": "In this image, What are the morphology or border features of the lesion?\r\nA. Rugged shore\r\nB. round\r\nC. well-demarcated border\r\nD. irregular",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 15616,
+    "image_path": "../../dermnet-output/images/Pyogenic granuloma/06.jpg",
+    "before": "In this image, which morphology/border features are consistent with the lesion?\r\nA. annular\r\nB round\r\nC. Stem shape\r\nD. well-demarcated border",
+    "after": "In this image, which morphology/border features are consistent with the lesion?\r\nA. annular\r\nB. round\r\nC. Stem shape\r\nD. well-demarcated border",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 15785,
+    "image_path": "../../dermnet-output/images/Recessive X-linked ichthyosis/05.jpg",
+    "before": "Observing the image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "Observing the image, This image is consistent with the diagnosis Ichthyosis. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Recessive X-linked ichthyosis/05.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 15790,
+    "image_path": "../../dermnet-output/images/Recessive X-linked ichthyosis/07.jpg",
+    "before": "In this image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Ichthyosis. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Recessive X-linked ichthyosis/07.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 15844,
+    "image_path": "../../dermnet-output/images/Reticulohistiocytosis/Reticulohistiocytoma.jpg",
+    "before": "Observing the image, What are the morphology or border features of the lesion?\r\nA. round\r\nB. well-demarcated border\r\nC. Dome-shaped\r\nD round",
+    "after": "Observing the image, What are the morphology or border features of the lesion?\r\nA. round\r\nB. well-demarcated border\r\nC. Dome-shaped\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 15875,
+    "image_path": "../../dermnet-output/images/Rhinophyma/10.jpg",
+    "before": "In this image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Rhinophyma. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Rhinophyma/10.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 16014,
+    "image_path": "../../dermnet-output/images/Rosacea/3632.jpg",
+    "before": "In this image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Rosacea. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Rosacea/3632.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 16358,
+    "image_path": "../../dermnet-output/images/Scurvy/07.jpg",
+    "before": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. Small dots\r\nB round\r\nC. annular\r\nD. border",
+    "after": "Based on the image above, which morphology/border features are consistent with the lesion?\r\nA. Small dots\r\nB. round\r\nC. annular\r\nD. border",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 16461,
+    "image_path": "../../dermnet-output/images/Sebaceous hyperplasia/3776.jpg",
+    "before": "In this image, What are the morphology or border features of the lesion?\r\nA. round\r\nB round\r\nC. Slight hump\r\nD. well-demarcated border",
+    "after": "In this image, What are the morphology or border features of the lesion?\r\nA. round\r\nB. round\r\nC. Slight hump\r\nD. well-demarcated border",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 16509,
+    "image_path": "../../dermnet-output/images/Solar lentigo/SL-back-2.jpg",
+    "before": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. small round\r\nB. oval\r\nC. irregular\r\nD round",
+    "after": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. small round\r\nB. oval\r\nC. irregular\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 17334,
+    "image_path": "../../dermnet-output/images/Telangiectasia/111.jpg",
+    "before": "Observing the image, What are the morphology or border features of the lesion?\r\nA. well-demarcated border\r\nB. oval\r\nC. Hemispherical shape\r\nD round",
+    "after": "Observing the image, What are the morphology or border features of the lesion?\r\nA. well-demarcated border\r\nB. oval\r\nC. Hemispherical shape\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 17516,
+    "image_path": "../../dermnet-output/images/Telangiectasia/89.jpg",
+    "before": "In the provided image, What are the morphology or border features of the lesion?\r\nA. reticular\r\nB round\r\nC. Zigzag\r\nD. Branching",
+    "after": "In the provided image, What are the morphology or border features of the lesion?\r\nA. reticular\r\nB. round\r\nC. Zigzag\r\nD. Branching",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 17985,
+    "image_path": "../../dermnet-output/images/Traction alopecia/traction-alopecia-5.jpg",
+    "before": "Observing the image, What are the morphology or border features of the lesion?\r\nA. irregular\r\nB round\r\nC. ill-defined border\r\nD. Strip form",
+    "after": "Observing the image, What are the morphology or border features of the lesion?\r\nA. irregular\r\nB. round\r\nC. ill-defined border\r\nD. Strip form",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 18200,
+    "image_path": "../../dermnet-output/images/Tuberous sclerosis/tuberous-sclerosis15.jpg",
+    "before": "In this image, What are the morphology or border features of the lesion?\r\nA. irregular\r\nB. Small dots\r\nC. oval\r\nD round",
+    "after": "In this image, What are the morphology or border features of the lesion?\r\nA. irregular\r\nB. Small dots\r\nC. oval\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 18529,
+    "image_path": "../../dermnet-output/images/Venous lake/ven-lake4.jpg",
+    "before": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. well-demarcated border\r\nB. Dome-shaped form\r\nC. ill-defined border\r\nD round",
+    "after": "Observing the image, which morphology/border features are consistent with the lesion?\r\nA. well-demarcated border\r\nB. Dome-shaped form\r\nC. ill-defined border\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 18934,
+    "image_path": "../../dermnet-output/images/X linked ichthyosis/05.jpg",
+    "before": "In this image, What are the morphology or border features of the lesion?\r\nA. uneven\r\nB round\r\nC. Grid format\r\nD. Polygon",
+    "after": "In this image, What are the morphology or border features of the lesion?\r\nA. uneven\r\nB. round\r\nC. Grid format\r\nD. Polygon",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 18959,
+    "image_path": "../../dermnet-output/images/X linked ichthyosis/13.jpg",
+    "before": "In this image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Ichthyosis. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/X linked ichthyosis/13.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 18970,
+    "image_path": "../../dermnet-output/images/X linked ichthyosis/x-linked-ichthyosis-2.jpg",
+    "before": "In the provided image, This image is consistent with the diagnosis Yes. Is this statement correct?",
+    "after": "In the provided image, This image is consistent with the diagnosis Ichthyosis. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/X linked ichthyosis/x-linked-ichthyosis-2.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 18995,
+    "image_path": "../../dermnet-output/images/Xanthoma/xanthelasma01.jpg",
+    "before": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. well-demarcated border\r\nB. Slightly rough\r\nC. oval\r\nD round",
+    "after": "Based on the image above, What are the morphology or border features of the lesion?\r\nA. well-demarcated border\r\nB. Slightly rough\r\nC. oval\r\nD. round",
+    "canonical_source": ""
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 19012,
+    "image_path": "../../dermnet-output/images/Xanthoma/xanthelasma08.jpg",
+    "before": "Based on the image above, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "Based on the image above, This image is consistent with the diagnosis Atypical fibroxanthoma. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Xanthoma/xanthelasma08.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 19024,
+    "image_path": "../../dermnet-output/images/Xanthoma/xanthelasma13.jpg",
+    "before": "Based on the image above, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "Based on the image above, This image is consistent with the diagnosis Atypical fibroxanthoma. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Xanthoma/xanthelasma13.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 19025,
+    "image_path": "../../dermnet-output/images/Xanthoma/xanthelasma14.jpg",
+    "before": "In this image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "In this image, This image is consistent with the diagnosis Atypical fibroxanthoma. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Xanthoma/xanthelasma14.json"
+  },
+  {
+    "dataset": "DermNet_Test_EN",
+    "index": 19029,
+    "image_path": "../../dermnet-output/images/Xanthoma/xanthelasma15.jpg",
+    "before": "In the provided image, This image is consistent with the diagnosis No. Is this statement correct?",
+    "after": "In the provided image, This image is consistent with the diagnosis Atypical fibroxanthoma. Is this statement correct?",
+    "canonical_source": "final_canonical_vi/Xanthoma/xanthelasma15.json"
+  }
+]
