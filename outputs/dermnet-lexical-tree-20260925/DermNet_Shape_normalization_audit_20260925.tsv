@@ -1,0 +1,345 @@
+﻿source_term	observed_forms	action	candidate_canonical_term	confidence	candidate_group	gold_rows_val	gold_rows_test	gold_rows_test_1of3	mcq_option_rows_val	mcq_option_rows_test	mcq_option_rows_test_1of3	images_val	images_test	images_test_1of3	rationale	source_mapping_status
+Bia bắn	Bia bắn || bia bắn	Ứng viên gần nghĩa, cần duyệt	Bia đích	Trung bình	Bia đích	0	2	1	0	0	0	0	3	2	Các nhãn gần nhau nhưng mức độ tương đương chưa chắc chắn.	observed_term_no_disease_translation
+Bia bắn mờ	Bia bắn mờ	Giữ nguyên	Bia bắn mờ			1	0	0	1	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bia đích	Bia đích	Ứng viên gần nghĩa, cần duyệt	Bia đích	Trung bình	Bia đích	0	2	0	0	2	0	0	2	0	Các nhãn gần nhau nhưng mức độ tương đương chưa chắc chắn.	observed_term_no_disease_translation
+Bán cầu	Bán cầu	Chuẩn hóa gần trùng	Hình bán cầu	Cao	Hình bán cầu	0	3	1	0	1	0	0	4	1	Cùng cụm từ; khác tiền tố Hình.	observed_term_no_disease_translation
+Bản đồ	Bản đồ	Chuẩn hóa gần trùng	Dạng bản đồ	Cao	Dạng bản đồ	1	7	4	1	2	0	1	7	4	Cùng mô tả dạng bản đồ; khác tiền tố.	observed_term_no_disease_translation
+bất quy tắc	bất quy tắc || Bất quy tắc	Ứng viên gần nghĩa, cần duyệt	Không đều	Trung bình	Không đều	160	1409	468	57	430	140	183	1635	537	Có thể gần nghĩa nhưng cần xác nhận source context trước khi gộp.	observed_term_no_disease_translation
+Bất đối xứng	Bất đối xứng	Chuẩn hóa gần trùng	Không đối xứng	Cao	Không đối xứng	4	31	14	2	12	5	4	35	15	Cùng nghĩa; khác tiền tố phủ định.	observed_term_no_disease_translation
+Bầu dục	Bầu dục || bầu dục	Chuẩn hóa gần trùng	Hình bầu dục	Cao	Hình bầu dục	25	301	101	66	429	131	91	736	239	Cùng một hình dạng; khác tiền tố Hình/Dạng.	observed_term_no_disease_translation
+Bầu dục dài	Bầu dục dài	Chuẩn hóa gần trùng	Bầu dục kéo dài	Cao	Bầu dục kéo dài	0	1	0	0	0	0	0	2	0	Cùng hình dạng và qualifier kéo dài; không gộp với Bầu dục.	observed_term_no_disease_translation
+Bầu dục kéo dài	Bầu dục kéo dài	Giữ làm canonical	Bầu dục kéo dài	Cao	Bầu dục kéo dài	0	1	0	0	1	0	0	1	0	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Bầu dục nhỏ	Bầu dục nhỏ || bầu dục nhỏ	Giữ nguyên	Bầu dục nhỏ			1	1	0	1	1	0	1	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bề mặt gồ	Bề mặt gồ	Giữ nguyên	Bề mặt gồ			1	0	0	0	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bề mặt gồ ghề	Bề mặt gồ ghề	Giữ nguyên	Bề mặt gồ ghề			2	3	2	0	1	0	2	5	3	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bề mặt không đều	Bề mặt không đều	Giữ nguyên	Bề mặt không đều			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bề mặt lồi	Bề mặt lồi	Giữ nguyên	Bề mặt lồi			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ cong	Bờ cong	Giữ nguyên	Bờ cong			0	4	1	0	0	0	0	5	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+bờ cung	bờ cung || Bờ cung	Giữ nguyên	bờ cung			0	2	0	0	1	0	0	3	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ cuộn	Bờ cuộn	Giữ nguyên	Bờ cuộn			1	0	0	1	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ gồ	Bờ gồ	Giữ nguyên	Bờ gồ			4	18	12	1	7	4	4	22	13	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ gồ cao	Bờ gồ cao	Giữ nguyên	Bờ gồ cao			1	1	0	0	0	0	1	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ gồ nhẹ	Bờ gồ nhẹ	Giữ nguyên	Bờ gồ nhẹ			0	3	1	0	1	0	0	3	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ khá rõ	Bờ khá rõ || bờ khá rõ	Chuẩn hóa gần trùng	Ranh giới tương đối rõ	Cao	Ranh giới tương đối rõ	2	5	3	1	2	1	2	6	4	Các cách diễn đạt gần nhau về ranh giới tương đối rõ.	observed_term_no_disease_translation
+Bờ không rõ	Bờ không rõ || bờ không rõ	Chuẩn hóa gần trùng	Ranh giới không rõ	Cao	Ranh giới không rõ	1	14	3	0	3	1	1	20	6	Cùng mô tả ranh giới không rõ; khác cách diễn đạt.	observed_term_no_disease_translation
+Bờ không đều	Bờ không đều || bờ không đều	Chuẩn hóa gần trùng	Ranh giới không đều	Cao	Ranh giới không đều	6	41	23	3	13	6	6	44	24	Cùng mô tả bờ/ranh giới không đều.	observed_term_no_disease_translation
+Bờ lượn sóng	Bờ lượn sóng	Giữ nguyên	Bờ lượn sóng			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ mờ	Bờ mờ || bờ mờ	Chuẩn hóa gần trùng	Ranh giới không rõ	Cao	Ranh giới không rõ	5	26	12	2	9	4	6	32	13	Cùng mô tả ranh giới không rõ; khác cách diễn đạt.	observed_term_no_disease_translation
+Bờ ngoằn ngoèo	Bờ ngoằn ngoèo	Giữ nguyên	Bờ ngoằn ngoèo			1	2	0	0	1	0	1	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ nham nhở	Bờ nham nhở	Giữ làm canonical	Bờ nham nhở	Cao	Bờ nham nhở	1	17	5	0	7	3	1	20	7	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Bờ nông	Bờ nông	Giữ nguyên	Bờ nông			0	2	0	0	0	0	0	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ nổi	Bờ nổi	Giữ nguyên	Bờ nổi			0	2	0	0	0	0	0	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+bờ rõ	bờ rõ || Bờ rõ	Chuẩn hóa gần trùng	Ranh giới rõ	Cao	Ranh giới rõ	1	46	12	1	16	4	2	58	14	Cùng mô tả ranh giới rõ; khác cách diễn đạt.	observed_term_no_disease_translation
+Bờ thẳng	Bờ thẳng	Giữ nguyên	Bờ thẳng			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ tua gai	Bờ tua gai	Giữ nguyên	Bờ tua gai			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ tương đối rõ	Bờ tương đối rõ	Chuẩn hóa gần trùng	Ranh giới tương đối rõ	Cao	Ranh giới tương đối rõ	2	0	0	0	0	0	2	0	0	Các cách diễn đạt gần nhau về ranh giới tương đối rõ.	observed_term_no_disease_translation
+Bờ viền rõ	Bờ viền rõ	Chuẩn hóa gần trùng	Ranh giới rõ	Cao	Ranh giới rõ	0	0	0	0	0	0	0	1	1	Cùng mô tả ranh giới rõ; khác cách diễn đạt.	observed_term_no_disease_translation
+Bờ vòng	Bờ vòng	Giữ nguyên	Bờ vòng			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ vòng cung	Bờ vòng cung	Giữ nguyên	Bờ vòng cung			0	3	1	0	0	0	0	3	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ vụn	Bờ vụn	Giữ nguyên	Bờ vụn			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ xa	Bờ xa	Giữ nguyên	Bờ xa			0	1	0	0	0	0	0	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ xa bên	Bờ xa bên	Giữ nguyên	Bờ xa bên			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ đa cung	Bờ đa cung	Giữ nguyên	Bờ đa cung			0	4	0	0	1	0	0	5	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Bờ đều	Bờ đều	Giữ nguyên	Bờ đều			0	2	0	0	0	0	0	3	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Chia thùy	Chia thùy	Giữ nguyên	Chia thùy			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Chuỗi hạt	Chuỗi hạt	Giữ nguyên	Chuỗi hạt			1	0	0	0	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Chóp nhọn	Chóp nhọn	Giữ nguyên	Chóp nhọn			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Chùm	Chùm || chùm	Ứng viên gần nghĩa, cần duyệt	Dạng chùm	Trung bình	Dạng chùm	1	4	2	0	1	0	1	6	3	Các cách nói gần nhau; kiểm tra câu nguồn trước khi thống nhất cách diễn đạt.	observed_term_no_disease_translation
+Chùm nho	Chùm nho	Giữ nguyên	Chùm nho			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Chấm	Chấm	Giữ nguyên	Chấm			1	4	1	0	0	0	1	4	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Chấm nhỏ	Chấm nhỏ || chấm nhỏ	Giữ nguyên	Chấm nhỏ			2	35	8	1	12	1	2	40	11	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Chấm tròn	Chấm tròn	Giữ nguyên	Chấm tròn			0	2	2	0	1	1	0	2	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Chữ C	Chữ C	Giữ nguyên	Chữ C			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Chữ nhật	Chữ nhật || chữ nhật	Chuẩn hóa gần trùng	Hình chữ nhật	Cao	Hình chữ nhật	0	2	0	0	1	0	0	3	0	Cùng một hình dạng; khác tiền tố Hình và chữ hoa/thường.	observed_term_no_disease_translation
+Cong	Cong	Giữ nguyên	Cong			0	5	3	0	1	1	0	5	3	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Cong lồi	Cong lồi	Giữ nguyên	Cong lồi			0	2	1	0	1	0	0	2	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Cong móc	Cong móc	Giữ nguyên	Cong móc			0	2	1	0	1	0	0	2	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Cong ngắn	Cong ngắn	Giữ nguyên	Cong ngắn			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Cung	Cung || cung	Chuẩn hóa gần trùng	Hình cung	Cao	Hình cung	3	1	0	2	1	0	3	3	0	Cùng mô tả hình cung; khác tiền tố.	observed_term_no_disease_translation
+Cung tròn	Cung tròn || cung tròn	Giữ nguyên	Cung tròn			0	1	1	0	0	0	0	3	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Cuống nhỏ	Cuống nhỏ	Giữ nguyên	Cuống nhỏ			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Cánh bướm	Cánh bướm	Chuẩn hóa gần trùng	Hình cánh bướm	Cao	Hình cánh bướm	0	3	0	0	2	0	0	3	0	Cùng cụm từ; khác tiền tố Hình.	observed_term_no_disease_translation
+Có cuống	Có cuống	Giữ nguyên	Có cuống			0	9	4	0	4	2	0	9	4	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Có vảy	Có vảy	Giữ nguyên	Có vảy			0	0	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Căng	Căng	Giữ nguyên	Căng			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+cột nhỏ	cột nhỏ	Giữ nguyên	cột nhỏ			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Diện rộng	Diện rộng	Giữ nguyên	Diện rộng			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dài	Dài || dài	Giữ nguyên	Dài			2	29	9	1	5	1	2	36	10	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dày da	Dày da	Giữ nguyên	Dày da			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng bia	Dạng bia	Ứng viên gần nghĩa, cần duyệt	Bia đích	Trung bình	Bia đích	0	1	1	0	0	0	0	1	1	Các nhãn gần nhau nhưng mức độ tương đương chưa chắc chắn.	observed_term_no_disease_translation
+Dạng bản đồ	Dạng bản đồ	Giữ làm canonical	Dạng bản đồ	Cao	Dạng bản đồ	1	1	0	0	0	0	1	1	0	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Dạng bầu dục	Dạng bầu dục	Chuẩn hóa gần trùng	Hình bầu dục	Cao	Hình bầu dục	0	1	1	0	0	0	0	1	1	Cùng một hình dạng; khác tiền tố Hình/Dạng.	observed_term_no_disease_translation
+Dạng chùm	Dạng chùm	Ứng viên gần nghĩa, cần duyệt	Dạng chùm	Trung bình	Dạng chùm	0	2	0	0	1	0	0	2	0	Các cách nói gần nhau; kiểm tra câu nguồn trước khi thống nhất cách diễn đạt.	observed_term_no_disease_translation
+Dạng chấm	Dạng chấm	Giữ nguyên	Dạng chấm			1	10	5	0	3	1	1	11	5	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng chấm tròn	Dạng chấm tròn	Giữ nguyên	Dạng chấm tròn			1	0	0	0	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng cung	Dạng cung	Chuẩn hóa gần trùng	Hình cung	Cao	Hình cung	0	3	0	0	0	0	0	3	0	Cùng mô tả hình cung; khác tiền tố.	observed_term_no_disease_translation
+Dạng cục	Dạng cục	Giữ nguyên	Dạng cục			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng củ	Dạng củ	Giữ nguyên	Dạng củ			0	0	0	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng dài	Dạng dài	Giữ nguyên	Dạng dài			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng dát	Dạng dát	Giữ nguyên	Dạng dát			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng dát nhỏ	Dạng dát nhỏ	Giữ nguyên	Dạng dát nhỏ			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng dải	Dạng dải	Giữ làm canonical	Dạng dải	Cao	Dạng dải	4	24	10	1	0	0	4	29	13	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Dạng dải dài	Dạng dải dài	Giữ nguyên	Dạng dải dài			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng dọc	Dạng dọc	Giữ nguyên	Dạng dọc			0	4	0	0	0	0	0	4	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng gai	Dạng gai	Giữ nguyên	Dạng gai			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng giọt	Dạng giọt	Giữ nguyên	Dạng giọt			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng hạt	Dạng hạt	Giữ nguyên	Dạng hạt			0	1	0	0	0	0	0	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng khe	Dạng khe	Giữ nguyên	Dạng khe			2	7	4	1	0	0	2	7	4	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng khe nứt	Dạng khe nứt	Giữ nguyên	Dạng khe nứt			1	0	0	0	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+dạng khảm	dạng khảm	Giữ nguyên	dạng khảm			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng kẽ	Dạng kẽ	Giữ nguyên	Dạng kẽ			1	0	0	0	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng lưới	Dạng lưới || dạng lưới	Chuẩn hóa gần trùng	Dạng mạng lưới	Cao	Dạng mạng lưới	4	53	14	0	11	3	5	57	17	Cùng cách gọi dạng lưới/mạng lưới; giữ riêng vân lưới mờ và dạng ô lưới.	observed_term_no_disease_translation
+Dạng lưới mờ	Dạng lưới mờ	Giữ nguyên	Dạng lưới mờ			0	2	0	0	2	0	0	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng múi	Dạng múi	Ứng viên gần nghĩa, cần duyệt	Dạng thùy múi	Trung bình	Dạng thùy múi	2	1	1	1	1	1	2	1	1	Các cụm gần nghĩa nhưng có thể khác nhau về số lượng/mức độ thùy.	observed_term_no_disease_translation
+dạng mạng lưới	dạng mạng lưới || Dạng mạng lưới	Giữ làm canonical	Dạng mạng lưới	Cao	Dạng mạng lưới	1	5	1	29	239	79	33	308	98	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Dạng nhánh	Dạng nhánh || dạng nhánh	Giữ nguyên	Dạng nhánh			0	2	1	0	1	1	0	3	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng nhú	Dạng nhú	Giữ nguyên	Dạng nhú			0	4	1	0	1	0	0	4	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng nhẫn	Dạng nhẫn	Ứng viên gần nghĩa, cần duyệt	Dạng vòng	Trung bình	Dạng vòng	0	1	1	0	0	0	0	1	1	Gần nghĩa với Dạng vòng; cần xác nhận có dùng thay thế cho nhau trong bộ dữ liệu.	observed_term_no_disease_translation
+Dạng nếp gấp	Dạng nếp gấp	Giữ nguyên	Dạng nếp gấp			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng súp lơ	Dạng súp lơ	Giữ nguyên	Dạng súp lơ			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng sừng	Dạng sừng	Giữ nguyên	Dạng sừng			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+dạng thùy	dạng thùy || Dạng thùy	Ứng viên gần nghĩa, cần duyệt	Dạng thùy múi	Trung bình	Dạng thùy múi	3	9	2	1	4	1	4	14	2	Các cụm gần nghĩa nhưng có thể khác nhau về số lượng/mức độ thùy.	observed_term_no_disease_translation
+Dạng thùy múi	Dạng thùy múi	Giữ nguyên	Dạng thùy múi			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng vân	Dạng vân	Giữ nguyên	Dạng vân			0	2	2	0	0	0	0	2	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng vòm	Dạng vòm || dạng vòm	Giữ làm canonical	Dạng vòm	Cao	Dạng vòm	2	31	12	1	9	3	3	34	13	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Dạng vòng	Dạng vòng || dạng vòng	Giữ làm canonical	Dạng vòng	Cao	Dạng vòng	0	10	3	29	237	71	41	308	92	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Dạng vòng cung	Dạng vòng cung	Giữ nguyên	Dạng vòng cung			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng vệt	Dạng vệt	Giữ nguyên	Dạng vệt			1	6	2	0	1	0	1	6	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng ô lưới	Dạng ô lưới	Giữ nguyên	Dạng ô lưới			0	2	1	0	1	1	0	2	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng đường	Dạng đường || dạng đường	Giữ làm canonical	Dạng đường	Cao	Dạng đường	2	18	3	33	235	78	41	311	104	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Dạng đường cong	Dạng đường cong	Giữ nguyên	Dạng đường cong			1	0	0	1	0	0	1	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng đường nứt	Dạng đường nứt	Giữ nguyên	Dạng đường nứt			0	2	2	0	2	2	0	2	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dạng đường thẳng	Dạng đường thẳng	Giữ làm canonical	Dạng đường thẳng	Cao	Dạng đường thẳng	1	0	0	0	0	0	1	0	0	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Dải	Dải || dải	Chuẩn hóa gần trùng	Dạng dải	Cao	Dạng dải	2	31	8	1	6	1	2	37	9	Cùng cụm từ; khác tiền tố Dạng.	observed_term_no_disease_translation
+Dải co kéo	Dải co kéo	Giữ nguyên	Dải co kéo			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dải cong	Dải cong	Giữ nguyên	Dải cong			0	5	1	0	4	1	0	6	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dải cung	Dải cung	Giữ nguyên	Dải cung			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+dải dài	dải dài || Dải dài	Giữ nguyên	dải dài			1	20	10	1	3	1	2	21	11	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dải dọc	Dải dọc	Giữ nguyên	Dải dọc			1	7	4	0	3	3	1	8	4	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dải hình cung	Dải hình cung	Giữ nguyên	Dải hình cung			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+dải ngang	dải ngang || Dải ngang	Giữ nguyên	dải ngang			2	13	4	0	6	1	3	14	5	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dải ngoại vi	Dải ngoại vi	Giữ nguyên	Dải ngoại vi			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dải ngoằn ngoèo	Dải ngoằn ngoèo	Giữ nguyên	Dải ngoằn ngoèo			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dải ngắn	Dải ngắn	Giữ nguyên	Dải ngắn			0	2	0	0	0	0	0	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dải rộng	Dải rộng || dải rộng	Giữ nguyên	Dải rộng			0	2	1	0	1	0	0	3	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dải song song	Dải song song	Giữ nguyên	Dải song song			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dải theo nếp	Dải theo nếp	Giữ nguyên	Dải theo nếp			1	0	0	1	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dải thẳng	Dải thẳng	Giữ nguyên	Dải thẳng			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dẹt	Dẹt	Giữ nguyên	Dẹt			0	3	1	0	0	0	0	3	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dọc	Dọc	Giữ nguyên	Dọc			3	5	1	2	1	0	3	5	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dọc giữa	Dọc giữa	Giữ nguyên	Dọc giữa			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dọc móng	Dọc móng	Giữ nguyên	Dọc móng			0	3	2	0	1	1	0	3	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dọc nếp da	Dọc nếp da	Giữ nguyên	Dọc nếp da			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dọc nếp gấp	Dọc nếp gấp	Giữ nguyên	Dọc nếp gấp			1	1	1	0	0	0	1	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Dọc rãnh móng	Dọc rãnh móng	Giữ nguyên	Dọc rãnh móng			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Giãn mạch	Giãn mạch	Giữ nguyên	Giãn mạch			0	0	0	1	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Giọt nước	Giọt nước	Giữ nguyên	Giọt nước			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Giới hạn khá rõ	Giới hạn khá rõ	Chuẩn hóa gần trùng	Ranh giới tương đối rõ	Cao	Ranh giới tương đối rõ	0	1	0	0	1	0	0	1	0	Các cách diễn đạt gần nhau về ranh giới tương đối rõ.	observed_term_no_disease_translation
+Góc móng tù	Góc móng tù	Giữ nguyên	Góc móng tù			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Gần tròn	Gần tròn	Giữ nguyên	Gần tròn			1	0	0	1	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Gần vuông	Gần vuông	Giữ nguyên	Gần vuông			0	0	0	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Gồ	Gồ || gồ	Giữ nguyên	Gồ			1	8	4	0	3	1	1	9	4	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Gồ cao	Gồ cao	Giữ nguyên	Gồ cao			4	36	10	4	11	3	5	44	11	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Gồ cục	Gồ cục	Giữ nguyên	Gồ cục			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Gồ ghề	Gồ ghề || gồ ghề	Giữ nguyên	Gồ ghề			2	13	6	0	2	1	3	17	6	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Gồ nhẹ	Gồ nhẹ	Giữ nguyên	Gồ nhẹ			2	4	2	1	2	1	2	4	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Gồ nổi	Gồ nổi	Giữ nguyên	Gồ nổi			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Gồ vòm	Gồ vòm	Giữ nguyên	Gồ vòm			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hoại tử	Hoại tử	Giữ nguyên	Hoại tử			0	0	0	0	2	0	0	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hình bia bắn	Hình bia bắn	Ứng viên gần nghĩa, cần duyệt	Bia đích	Trung bình	Bia đích	0	2	2	0	2	2	0	2	2	Các nhãn gần nhau nhưng mức độ tương đương chưa chắc chắn.	observed_term_no_disease_translation
+Hình bán cầu	Hình bán cầu	Giữ làm canonical	Hình bán cầu	Cao	Hình bán cầu	0	2	1	0	2	1	0	2	1	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Hình bán nguyệt	Hình bán nguyệt	Giữ nguyên	Hình bán nguyệt			0	2	1	0	1	0	0	2	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hình bản đồ	Hình bản đồ	Chuẩn hóa gần trùng	Dạng bản đồ	Cao	Dạng bản đồ	0	1	0	0	0	0	0	1	0	Cùng mô tả dạng bản đồ; khác tiền tố.	observed_term_no_disease_translation
+Hình bầu dục	Hình bầu dục || hình bầu dục	Giữ làm canonical	Hình bầu dục	Cao	Hình bầu dục	31	179	50	12	49	13	34	211	61	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Hình chấm	Hình chấm	Giữ nguyên	Hình chấm			0	2	0	0	0	0	0	3	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hình chấm nhỏ	Hình chấm nhỏ	Giữ nguyên	Hình chấm nhỏ			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+hình chữ nhật	hình chữ nhật	Giữ làm canonical	Hình chữ nhật	Cao	Hình chữ nhật	0	0	0	0	0	0	0	1	1	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Hình cung	Hình cung || hình cung	Giữ làm canonical	Hình cung	Cao	Hình cung	1	3	2	1	0	0	1	5	3	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Hình cánh bướm	Hình cánh bướm	Giữ làm canonical	Hình cánh bướm	Cao	Hình cánh bướm	0	1	1	0	0	0	0	1	1	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Hình cầu	Hình cầu	Giữ nguyên	Hình cầu			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hình dải	Hình dải	Giữ nguyên	Hình dải			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hình nhẫn	Hình nhẫn || hình nhẫn	Ứng viên gần nghĩa, cần duyệt	Dạng vòng	Trung bình	Dạng vòng	0	11	3	0	6	2	0	12	3	Gần nghĩa với Dạng vòng; cần xác nhận có dùng thay thế cho nhau trong bộ dữ liệu.	observed_term_no_disease_translation
+Hình nón	Hình nón	Giữ nguyên	Hình nón			1	1	1	0	1	1	1	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hình que	Hình que	Giữ nguyên	Hình que			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hình sao	Hình sao	Giữ nguyên	Hình sao			0	3	1	0	2	1	0	3	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hình tam giác	Hình tam giác	Giữ làm canonical	Hình tam giác	Cao	Hình tam giác	0	1	1	0	1	1	0	1	1	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Hình thoi	Hình thoi	Giữ làm canonical	Hình thoi	Cao	Hình thoi	0	2	1	0	1	0	0	3	1	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Hình tròn	Hình tròn || hình tròn	Giữ làm canonical	Hình tròn	Cao	Hình tròn	59	470	165	17	150	52	66	538	183	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Hình tròn nhỏ	Hình tròn nhỏ	Giữ làm canonical	Hình tròn nhỏ	Cao	Hình tròn nhỏ	9	69	24	1	22	9	9	85	31	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Hình trụ	Hình trụ	Giữ nguyên	Hình trụ			0	2	0	0	1	0	0	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+hình vòm	hình vòm || Hình vòm	Chuẩn hóa gần trùng	Dạng vòm	Cao	Dạng vòm	3	39	9	2	11	2	6	45	13	Cùng khái niệm vòm; khác tiền tố hoặc chữ hoa/thường.	observed_term_no_disease_translation
+Hình vòng	Hình vòng || hình vòng	Chuẩn hóa gần trùng	Dạng vòng	Cao	Dạng vòng	13	94	32	4	22	7	16	110	39	Cùng cách gọi hình vòng; giữ riêng nhẫn và các qualifier vòng hở/một phần.	observed_term_no_disease_translation
+Hình vòng cung	Hình vòng cung	Giữ làm canonical	Hình vòng cung	Cao	Hình vòng cung	0	13	8	0	2	1	0	16	9	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Hình vòng nhỏ	Hình vòng nhỏ	Giữ nguyên	Hình vòng nhỏ			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hình đa cung	Hình đa cung	Giữ nguyên	Hình đa cung			0	2	1	0	1	0	0	2	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hình đa giác	Hình đa giác	Giữ làm canonical	Hình đa giác	Cao	Hình đa giác	0	0	0	0	0	0	0	1	1	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Hình đồng xu	Hình đồng xu	Giữ làm canonical	Hình đồng xu	Cao	Hình đồng xu	0	3	1	0	0	0	0	3	1	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+hơi dạng vòng	hơi dạng vòng	Giữ nguyên	hơi dạng vòng			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hơi dẹt	Hơi dẹt	Giữ nguyên	Hơi dẹt			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hơi gồ	Hơi gồ || hơi gồ	Giữ nguyên	Hơi gồ			1	5	1	1	3	0	1	7	3	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+hơi không đều	hơi không đều	Giữ nguyên	hơi không đều			0	0	0	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+hơi không đối xứng	hơi không đối xứng	Giữ nguyên	hơi không đối xứng			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hơi thùy múi	Hơi thùy múi	Giữ nguyên	Hơi thùy múi			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hơi tròn	Hơi tròn	Giữ nguyên	Hơi tròn			1	0	0	0	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Hẹp	Hẹp	Giữ nguyên	Hẹp			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Khe	Khe	Giữ nguyên	Khe			2	9	2	1	2	0	2	9	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Khe dài	Khe dài	Giữ nguyên	Khe dài			0	2	1	0	0	0	0	2	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Khe nhỏ	Khe nhỏ	Giữ nguyên	Khe nhỏ			1	0	0	1	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Khe nứt	Khe nứt || khe nứt	Giữ nguyên	Khe nứt			1	4	0	1	0	0	1	6	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Khe nứt dài	Khe nứt dài	Giữ nguyên	Khe nứt dài			1	0	0	1	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Khe nứt ngắn	Khe nứt ngắn	Giữ nguyên	Khe nứt ngắn			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+khe nứt thẳng	khe nứt thẳng	Giữ nguyên	khe nứt thẳng			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Khép kín	Khép kín	Giữ nguyên	Khép kín			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+khía múi	khía múi	Giữ nguyên	khía múi			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Không rõ	Không rõ	Giữ nguyên	Không rõ			1	5	3	1	2	1	1	5	3	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Không đều	Không đều || không đều	Ứng viên gần nghĩa, cần duyệt	Không đều	Trung bình	Không đều	76	574	183	59	356	119	125	882	289	Có thể gần nghĩa nhưng cần xác nhận source context trước khi gộp.	observed_term_no_disease_translation
+Không đối xứng	Không đối xứng	Giữ làm canonical	Không đối xứng	Cao	Không đối xứng	0	1	1	0	0	0	0	1	1	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Kéo dài	Kéo dài	Giữ nguyên	Kéo dài			1	6	0	0	1	0	1	7	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Kích thước khác nhau	Kích thước khác nhau	Giữ nguyên	Kích thước khác nhau			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Kích thước không đều	Kích thước không đều	Giữ nguyên	Kích thước không đều			0	1	0	0	1	0	0	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Kích thước nhỏ	Kích thước nhỏ	Giữ nguyên	Kích thước nhỏ			1	22	8	1	6	2	1	22	8	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Kích thước đa dạng	Kích thước đa dạng	Giữ nguyên	Kích thước đa dạng			0	4	2	0	3	1	0	4	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+kích thước đều	kích thước đều || Kích thước đều	Giữ nguyên	kích thước đều			0	1	0	0	0	0	1	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lan dài	Lan dài	Giữ nguyên	Lan dài			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lan từ bờ xa	Lan từ bờ xa	Giữ nguyên	Lan từ bờ xa			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Li ti	Li ti	Giữ nguyên	Li ti			0	2	1	0	2	1	0	2	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Loang lổ	Loang lổ || loang lổ	Giữ nguyên	Loang lổ			4	36	12	2	10	5	4	40	15	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lobul	Lobul	Giữ nguyên	Lobul			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Loét	Loét	Giữ nguyên	Loét			0	0	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lõm	Lõm	Giữ nguyên	Lõm			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lõm giữa	Lõm giữa	Chuẩn hóa gần trùng	Lõm trung tâm	Cao	Lõm trung tâm	0	8	5	0	5	3	0	8	5	Cùng mô tả vùng lõm ở trung tâm; khác trật tự từ.	observed_term_no_disease_translation
+Lõm nhỏ	Lõm nhỏ	Giữ nguyên	Lõm nhỏ			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lõm trung tâm	Lõm trung tâm	Giữ làm canonical	Lõm trung tâm	Cao	Lõm trung tâm	1	9	2	1	4	1	1	12	2	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+lưới	lưới || Lưới	Chuẩn hóa gần trùng	Dạng mạng lưới	Cao	Dạng mạng lưới	0	3	1	0	0	0	0	4	2	Cùng cách gọi dạng lưới/mạng lưới; giữ riêng vân lưới mờ và dạng ô lưới.	observed_term_no_disease_translation
+Lấm tấm	Lấm tấm	Giữ nguyên	Lấm tấm			1	2	0	0	0	0	1	3	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lốm đốm	Lốm đốm	Giữ nguyên	Lốm đốm			0	3	1	0	1	0	0	3	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lồi	Lồi	Giữ nguyên	Lồi			0	5	1	0	3	0	0	5	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lồi dạng vòm	Lồi dạng vòm	Giữ nguyên	Lồi dạng vòm			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lồi gồ	Lồi gồ	Giữ nguyên	Lồi gồ			1	1	0	0	1	0	1	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lồi nhô	Lồi nhô	Giữ nguyên	Lồi nhô			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Lỗ giãn	Lỗ giãn	Giữ nguyên	Lỗ giãn			0	2	2	0	1	1	0	2	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Mép nham nhở	Mép nham nhở	Chuẩn hóa gần trùng	Bờ nham nhở	Cao	Bờ nham nhở	0	1	0	0	0	0	0	1	0	Cùng mô tả bờ nham nhở; giữ riêng từ Nham nhở nếu thiếu ngữ cảnh.	observed_term_no_disease_translation
+Múi	Múi	Giữ nguyên	Múi			1	0	0	1	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Múi hóa	Múi hóa	Giữ nguyên	Múi hóa			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Mũi thoi	Mũi thoi	Giữ nguyên	Mũi thoi			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Mạch phân nhánh	Mạch phân nhánh	Giữ nguyên	Mạch phân nhánh			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Mạng lưới	Mạng lưới	Chuẩn hóa gần trùng	Dạng mạng lưới	Cao	Dạng mạng lưới	0	2	0	0	1	0	0	2	0	Cùng cách gọi dạng lưới/mạng lưới; giữ riêng vân lưới mờ và dạng ô lưới.	observed_term_no_disease_translation
+Mờ	Mờ	Giữ nguyên	Mờ			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Mờ ranh giới	Mờ ranh giới	Chuẩn hóa gần trùng	Ranh giới không rõ	Cao	Ranh giới không rõ	0	1	0	0	1	0	0	1	0	Cùng mô tả ranh giới không rõ; khác cách diễn đạt.	observed_term_no_disease_translation
+Ngoằn ngoèo	Ngoằn ngoèo || ngoằn ngoèo	Giữ nguyên	Ngoằn ngoèo			3	28	8	0	9	4	3	35	9	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nham nhở	Nham nhở	Ứng viên gần nghĩa, cần duyệt	Bờ nham nhở	Trung bình	Bờ nham nhở	0	1	0	0	1	0	0	1	0	Có thể là bờ nham nhở nhưng nhãn thiếu từ chỉ vị trí.	observed_term_no_disease_translation
+Nhiều thùy	Nhiều thùy	Ứng viên gần nghĩa, cần duyệt	Dạng thùy múi	Trung bình	Dạng thùy múi	0	1	1	0	1	1	0	1	1	Các cụm gần nghĩa nhưng có thể khác nhau về số lượng/mức độ thùy.	observed_term_no_disease_translation
+Nhô cao	Nhô cao || nhô cao	Giữ nguyên	Nhô cao			0	2	2	0	0	0	0	3	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nhú	Nhú	Giữ nguyên	Nhú			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+nhú sừng	nhú sừng	Giữ nguyên	nhú sừng			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nhẫn	Nhẫn	Ứng viên gần nghĩa, cần duyệt	Dạng vòng	Trung bình	Dạng vòng	0	1	0	0	0	0	0	1	0	Gần nghĩa với Dạng vòng; cần xác nhận có dùng thay thế cho nhau trong bộ dữ liệu.	observed_term_no_disease_translation
+Nhẵn	Nhẵn	Giữ nguyên	Nhẵn			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nhọn	Nhọn	Giữ nguyên	Nhọn			1	0	0	1	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nhỏ	Nhỏ || nhỏ	Giữ nguyên	Nhỏ			5	49	12	5	11	2	8	58	16	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nhỏ giọt	Nhỏ giọt	Giữ nguyên	Nhỏ giọt			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nhỏ li ti	Nhỏ li ti	Giữ nguyên	Nhỏ li ti			1	4	1	1	2	0	1	5	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nhỏ đều	Nhỏ đều	Giữ nguyên	Nhỏ đều			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nón cong	Nón cong	Giữ nguyên	Nón cong			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nón sừng	Nón sừng	Giữ nguyên	Nón sừng			1	0	0	0	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nông	Nông	Giữ nguyên	Nông			0	4	1	0	1	1	0	5	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nếp gấp	Nếp gấp	Giữ nguyên	Nếp gấp			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nếp gấp sâu	Nếp gấp sâu	Giữ nguyên	Nếp gấp sâu			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Nốt tròn	Nốt tròn	Giữ nguyên	Nốt tròn			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+nổi cao	nổi cao || Nổi cao	Giữ nguyên	nổi cao			0	0	0	0	0	0	1	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Phân nhánh	Phân nhánh || phân nhánh	Giữ nguyên	Phân nhánh			1	5	3	0	2	2	2	6	4	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Phân vùng ngang	Phân vùng ngang	Giữ nguyên	Phân vùng ngang			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Phù nề	Phù nề || phù nề	Giữ nguyên	Phù nề			1	0	0	1	1	0	2	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Phẳng nhẹ	Phẳng nhẹ	Giữ nguyên	Phẳng nhẹ			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Ranh giới	Ranh giới	Giữ nguyên	Ranh giới			4	43	17	1	10	6	4	49	20	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Ranh giới không rõ	Ranh giới không rõ || ranh giới không rõ	Giữ làm canonical	Ranh giới không rõ	Cao	Ranh giới không rõ	11	65	18	2	15	6	12	88	26	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Ranh giới không đều	Ranh giới không đều	Giữ làm canonical	Ranh giới không đều	Cao	Ranh giới không đều	9	77	22	5	20	8	9	90	25	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Ranh giới mờ	Ranh giới mờ || ranh giới mờ	Chuẩn hóa gần trùng	Ranh giới không rõ	Cao	Ranh giới không rõ	86	793	288	57	444	136	134	1170	390	Cùng mô tả ranh giới không rõ; khác cách diễn đạt.	observed_term_no_disease_translation
+Ranh giới rõ	Ranh giới rõ || ranh giới rõ	Giữ làm canonical	Ranh giới rõ	Cao	Ranh giới rõ	100	749	241	59	469	156	143	1182	383	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Ranh giới tương đối rõ	Ranh giới tương đối rõ	Giữ làm canonical	Ranh giới tương đối rõ	Cao	Ranh giới tương đối rõ	0	0	0	0	0	0	0	1	1	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Rãnh dọc	Rãnh dọc	Giữ nguyên	Rãnh dọc			1	8	0	0	2	0	1	8	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Rãnh gờ	Rãnh gờ	Giữ nguyên	Rãnh gờ			1	0	0	0	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Rìa nham nhở	Rìa nham nhở	Chuẩn hóa gần trùng	Bờ nham nhở	Cao	Bờ nham nhở	0	0	0	0	0	0	0	1	0	Cùng mô tả bờ nham nhở; giữ riêng từ Nham nhở nếu thiếu ngữ cảnh.	observed_term_no_disease_translation
+Rất nhỏ	Rất nhỏ	Giữ nguyên	Rất nhỏ			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Song song	Song song || song song	Giữ nguyên	Song song			1	3	1	0	1	0	1	4	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+sùi	sùi	Giữ nguyên	sùi			0	0	0	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Sẩn vòm	Sẩn vòm	Giữ nguyên	Sẩn vòm			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Sẹo dải	Sẹo dải	Giữ nguyên	Sẹo dải			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Sợi dài	Sợi dài	Giữ nguyên	Sợi dài			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Sừng nhô cao	Sừng nhô cao	Giữ nguyên	Sừng nhô cao			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Tam giác	Tam giác	Chuẩn hóa gần trùng	Hình tam giác	Cao	Hình tam giác	0	6	2	0	3	2	0	6	2	Cùng một hình dạng; khác tiền tố Hình.	observed_term_no_disease_translation
+Theo hình xăm	Theo hình xăm	Giữ nguyên	Theo hình xăm			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Theo nếp gấp	Theo nếp gấp	Giữ nguyên	Theo nếp gấp			1	1	1	0	0	0	1	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Thoi	Thoi || thoi	Chuẩn hóa gần trùng	Hình thoi	Cao	Hình thoi	0	4	1	0	1	0	0	6	2	Cùng một hình dạng; khác tiền tố Hình.	observed_term_no_disease_translation
+Thon dài	Thon dài	Giữ nguyên	Thon dài			1	9	3	0	1	0	1	11	4	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Thuôn dài	Thuôn dài || thuôn dài	Giữ nguyên	Thuôn dài			2	22	8	0	10	4	3	25	8	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Thuỳ	Thuỳ	Ứng viên gần nghĩa, cần duyệt	Dạng thùy múi	Trung bình	Dạng thùy múi	1	0	0	1	0	0	1	0	0	Các cụm gần nghĩa nhưng có thể khác nhau về số lượng/mức độ thùy.	observed_term_no_disease_translation
+Thành chùm	Thành chùm	Ứng viên gần nghĩa, cần duyệt	Dạng chùm	Trung bình	Dạng chùm	0	1	1	0	1	1	0	1	1	Các cách nói gần nhau; kiểm tra câu nguồn trước khi thống nhất cách diễn đạt.	observed_term_no_disease_translation
+Thùy	Thùy	Giữ nguyên	Thùy			0	6	2	0	0	0	0	7	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Thùy múi	Thùy múi || thùy múi	Ứng viên gần nghĩa, cần duyệt	Dạng thùy múi	Trung bình	Dạng thùy múi	1	23	5	0	4	1	1	27	5	Các cụm gần nghĩa nhưng có thể khác nhau về số lượng/mức độ thùy.	observed_term_no_disease_translation
+Thùy nhỏ	Thùy nhỏ	Giữ nguyên	Thùy nhỏ			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Thẳng	Thẳng	Giữ nguyên	Thẳng			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Trung tâm lõm	Trung tâm lõm	Chuẩn hóa gần trùng	Lõm trung tâm	Cao	Lõm trung tâm	1	11	1	0	2	0	1	11	1	Cùng mô tả vùng lõm ở trung tâm; khác trật tự từ.	observed_term_no_disease_translation
+Trung tâm nhạt	Trung tâm nhạt	Giữ nguyên	Trung tâm nhạt			0	5	2	0	2	1	0	5	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+tròn	tròn || Tròn	Chuẩn hóa gần trùng	Hình tròn	Cao	Hình tròn	79	685	210	85	576	182	146	1213	398	Cùng một hình dạng; khác tiền tố Hình và chữ hoa/thường.	observed_term_no_disease_translation
+Tròn bầu dục	Tròn bầu dục || tròn bầu dục	Giữ làm canonical	Tròn bầu dục	Cao	Tròn bầu dục	1	1	1	0	1	1	1	4	2	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Tròn không đều	Tròn không đều	Giữ nguyên	Tròn không đều			0	3	0	0	1	0	0	3	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Tròn nhỏ	Tròn nhỏ || tròn nhỏ	Chuẩn hóa gần trùng	Hình tròn nhỏ	Cao	Hình tròn nhỏ	7	47	12	3	12	1	7	55	14	Cùng hình dạng và qualifier nhỏ; không gộp với Hình tròn.	observed_term_no_disease_translation
+Tròn đều	Tròn đều	Giữ nguyên	Tròn đều			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Tròn-bầu dục	Tròn-bầu dục	Chuẩn hóa gần trùng	Tròn bầu dục	Cao	Tròn bầu dục	0	1	0	0	0	0	0	1	0	Chỉ chuẩn hóa dấu nối; không gộp với Bầu dục.	observed_term_no_disease_translation
+Trụ cong	Trụ cong	Giữ nguyên	Trụ cong			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Trụ cụt	Trụ cụt	Giữ nguyên	Trụ cụt			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+tuyến tính	tuyến tính || Tuyến tính	Giữ nguyên	tuyến tính			0	10	3	0	4	1	3	25	8	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+U cục nhỏ	U cục nhỏ	Giữ nguyên	U cục nhỏ			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Uốn cong	Uốn cong	Giữ nguyên	Uốn cong			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+uốn lượn	uốn lượn	Giữ nguyên	uốn lượn			0	0	0	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Viền cong	Viền cong	Giữ nguyên	Viền cong			1	0	0	0	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Viền gồ	Viền gồ	Giữ nguyên	Viền gồ			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Viền quanh móng	Viền quanh móng	Giữ nguyên	Viền quanh móng			1	0	0	1	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Viền đỏ	Viền đỏ	Giữ nguyên	Viền đỏ			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Vân da rõ	Vân da rõ	Giữ nguyên	Vân da rõ			0	0	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Vân lưới	Vân lưới	Giữ nguyên	Vân lưới			0	2	2	0	0	0	0	2	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Vân lưới mờ	Vân lưới mờ	Giữ nguyên	Vân lưới mờ			0	3	1	0	0	0	0	3	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Vòm	Vòm || vòm	Chuẩn hóa gần trùng	Dạng vòm	Cao	Dạng vòm	5	68	20	2	22	6	8	73	20	Cùng khái niệm vòm; khác tiền tố hoặc chữ hoa/thường.	observed_term_no_disease_translation
+Vòm nhỏ	Vòm nhỏ	Giữ nguyên	Vòm nhỏ			0	3	2	0	2	1	0	3	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Vòm thấp	Vòm thấp	Giữ nguyên	Vòm thấp			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+vòm tròn	vòm tròn || Vòm tròn	Giữ nguyên	vòm tròn			0	3	1	0	1	0	1	4	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+vòng	vòng || Vòng	Chuẩn hóa gần trùng	Dạng vòng	Cao	Dạng vòng	1	17	6	0	4	1	2	20	6	Cùng cách gọi hình vòng; giữ riêng nhẫn và các qualifier vòng hở/một phần.	observed_term_no_disease_translation
+Vòng cung	Vòng cung || vòng cung	Chuẩn hóa gần trùng	Hình vòng cung	Cao	Hình vòng cung	3	26	9	2	8	5	4	29	11	Cùng cụm từ; khác tiền tố Hình.	observed_term_no_disease_translation
+Vòng hở	Vòng hở	Chuẩn hóa gần trùng	Vòng không hoàn toàn	Cao	Vòng không hoàn toàn	0	1	1	0	0	0	0	1	1	Cùng mô tả vòng không khép kín; giữ nguyên qualifier không hoàn toàn.	observed_term_no_disease_translation
+Vòng không hoàn toàn	Vòng không hoàn toàn	Giữ làm canonical	Vòng không hoàn toàn	Cao	Vòng không hoàn toàn	2	2	0	1	1	0	2	2	0	Giá trị canonical của nhóm; không cần sửa nhãn này.	observed_term_no_disease_translation
+Vòng một phần	Vòng một phần	Chuẩn hóa gần trùng	Vòng không hoàn toàn	Cao	Vòng không hoàn toàn	0	1	1	0	1	1	0	1	1	Cùng mô tả vòng không khép kín; giữ nguyên qualifier không hoàn toàn.	observed_term_no_disease_translation
+Vòng nhỏ	Vòng nhỏ	Giữ nguyên	Vòng nhỏ			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Vòng quanh móng	Vòng quanh móng	Giữ nguyên	Vòng quanh móng			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Vảy tiết	Vảy tiết	Giữ nguyên	Vảy tiết			0	0	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Vệt tuyến tính	Vệt tuyến tính	Giữ nguyên	Vệt tuyến tính			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đa cung	Đa cung || đa cung	Giữ nguyên	Đa cung			18	116	36	38	269	85	61	447	150	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đa dạng	Đa dạng	Giữ nguyên	Đa dạng			1	3	1	0	2	0	1	3	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đa dạng kích thước	Đa dạng kích thước	Giữ nguyên	Đa dạng kích thước			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đa giác	Đa giác || đa giác	Chuẩn hóa gần trùng	Hình đa giác	Cao	Hình đa giác	0	12	3	0	4	2	0	17	5	Cùng một hình dạng; khác tiền tố Hình.	observed_term_no_disease_translation
+đa giác lớn	đa giác lớn || Đa giác lớn	Giữ nguyên	đa giác lớn			0	1	0	0	1	0	0	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đa giác nhỏ	Đa giác nhỏ	Giữ nguyên	Đa giác nhỏ			0	5	2	0	0	0	0	5	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đa hình	Đa hình	Giữ nguyên	Đa hình			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đa kích thước	Đa kích thước	Giữ nguyên	Đa kích thước			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+đa thùy	đa thùy || Đa thùy	Ứng viên gần nghĩa, cần duyệt	Dạng thùy múi	Trung bình	Dạng thùy múi	0	8	2	0	2	0	1	9	2	Các cụm gần nghĩa nhưng có thể khác nhau về số lượng/mức độ thùy.	observed_term_no_disease_translation
+đa vòng	đa vòng || Đa vòng	Giữ nguyên	đa vòng			1	15	10	0	5	5	2	17	10	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đám không đều	Đám không đều	Giữ nguyên	Đám không đều			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đường	Đường	Chuẩn hóa gần trùng	Dạng đường	Cao	Dạng đường	0	1	1	0	0	0	0	1	1	Cùng cụm từ; khác tiền tố Dạng.	observed_term_no_disease_translation
+Đường dài	Đường dài	Giữ nguyên	Đường dài			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đường dọc	Đường dọc	Giữ nguyên	Đường dọc			0	6	4	0	1	0	0	6	4	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đường mảnh	Đường mảnh || đường mảnh	Giữ nguyên	Đường mảnh			0	1	1	0	0	0	0	2	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đường ngoằn ngoèo	Đường ngoằn ngoèo	Giữ nguyên	Đường ngoằn ngoèo			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đường nứt	Đường nứt	Giữ nguyên	Đường nứt			0	1	0	0	0	0	0	2	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đường nứt dài	Đường nứt dài	Giữ nguyên	Đường nứt dài			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đường nứt nẻ	Đường nứt nẻ	Giữ nguyên	Đường nứt nẻ			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đường thẳng	Đường thẳng || đường thẳng	Chuẩn hóa gần trùng	Dạng đường thẳng	Cao	Dạng đường thẳng	3	19	7	0	4	0	3	22	8	Cùng cụm từ; khác tiền tố Dạng.	observed_term_no_disease_translation
+Đường vân	Đường vân	Giữ nguyên	Đường vân			0	1	0	0	1	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đầu tù	Đầu tù	Giữ nguyên	Đầu tù			0	2	0	0	0	0	0	2	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đều nhau	Đều nhau	Giữ nguyên	Đều nhau			1	0	0	0	0	0	1	0	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đốm	Đốm	Giữ nguyên	Đốm			0	1	1	0	0	0	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đốm nhỏ	Đốm nhỏ	Giữ nguyên	Đốm nhỏ			0	2	2	0	2	2	0	2	2	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đồng dạng	Đồng dạng || đồng dạng	Giữ nguyên	Đồng dạng			0	7	4	0	2	1	0	8	4	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đồng tiền	Đồng tiền	Chuẩn hóa gần trùng	Hình đồng xu	Cao	Hình đồng xu	0	2	1	0	0	0	0	2	1	Cùng cách gọi hình đồng xu/đồng tiền; không gộp với hình tròn chung.	observed_term_no_disease_translation
+Đồng tâm	Đồng tâm	Giữ nguyên	Đồng tâm			0	1	0	0	0	0	0	1	0	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Đồng xu	Đồng xu || đồng xu	Chuẩn hóa gần trùng	Hình đồng xu	Cao	Hình đồng xu	2	5	1	1	3	1	2	6	1	Cùng cách gọi hình đồng xu/đồng tiền; không gộp với hình tròn chung.	observed_term_no_disease_translation
+Đồng đều	Đồng đều	Giữ nguyên	Đồng đều			0	1	1	0	1	1	0	1	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation
+Ổ nhỏ	Ổ nhỏ || ổ nhỏ	Giữ nguyên	Ổ nhỏ			3	6	1	1	2	0	3	7	1	Không đủ giống để gộp an toàn; giữ nguyên cả nghĩa và qualifier.	observed_term_no_disease_translation

@@ -36,7 +36,9 @@ Cơ sở hành vi: [hướng dẫn Copy-on-Write của Pandas](https://pandas.py
 
 ## Công việc mới và đang làm
 
-43 file ổn định trong 6 thư mục `outputs/` được gom nguyên trạng:
+43 file trong 6 thư mục `outputs/` được sao lưu nguyên trạng; 40 file nguồn,
+dữ liệu và báo cáo được đưa vào Git, 3 file cache `__pycache__/*.pyc`
+chỉ giữ trong bản sao lưu riêng, không publish:
 
 - `dermnet-lexical-tree-20260925/`: cây thuật ngữ, bảng song ngữ và audit.
 - `dermnet-qa-prompts-20261001/`: bản nháp 10 prompt và catalog 40 biến thể v2.
@@ -114,13 +116,15 @@ split/index và Excel source; thay index làm mất khả năng vá kết quả 
 
 ## Rà soát trước khi lưu nhánh
 
-- Đã rà diff, resolve README, không còn unmerged entry và không có lỗi
-  whitespace trong staged diff.
+- Đã rà diff, resolve README và không còn unmerged entry. Kiểm tra whitespace
+  code/tài liệu tách khỏi TSV: tab cuối dòng TSV là ô trống có ý nghĩa,
+  không strip làm mất cột chỉ để hết cảnh báo Git.
 - 35 file Python được phục hồi/chỉnh sửa đã qua parse AST.
 - `dermnet-output/` và `final_canonical_vi/` không có staged diff so với main.
 - Code điều phối, cấu hình model và dữ liệu sửa cũ được giữ theo lịch sử;
   thay đổi hành vi mới chỉ là bản sao mask cho lỗi Pandas đã được test đỏ/xanh.
-- 43 snapshot ổn định được đối chiếu SHA-256; không thực thi script có
+- 43 file snapshot được đối chiếu SHA-256; 40 artifact được version hóa,
+  3 cache được giữ riêng. Không thực thi script có
   đường dẫn máy cá nhân, không chứng nhận lại nội dung lâm sàng.
 - Kết luận: có thể lưu/push **nhánh phục hồi**, chưa đủ điều kiện nhập main
   hoặc chạy benchmark thật. Không sửa test để che các điểm chặn.

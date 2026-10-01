@@ -1,0 +1,4 @@
+dataset	raw_source_rows	raw_source_duplicate_root_paths	cleaned_final_rows	cleaned_final_duplicate_root_paths	cleaned_final_wrong_runner_relative_prefix	cleaned_final_missing_images_from_runner_base	reviewed_rows	reviewed_duplicate_root_paths	reviewed_wrong_runner_relative_prefix	reviewed_missing_images_from_runner_base	runner_base
+Val_4k	4000	4000	2819	0	0	0	2721	0	0	0	D:\VuLapTrinh2\DermNet_Dataset\Phase_2\VLMEvalKit
+Test_1of3	19104	19104	8224	0	0	0	7891	0	0	0	D:\VuLapTrinh2\DermNet_Dataset\Phase_2\VLMEvalKit
+Test	57400	57400	24671	0	0	0	23681	0	0	0	D:\VuLapTrinh2\DermNet_Dataset\Phase_2\VLMEvalKit

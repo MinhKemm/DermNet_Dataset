@@ -5,6 +5,9 @@
   "preserved_code": "d57b5ace",
   "main_images": 7057,
   "live_images": 6992,
+  "stable_files_in_private_snapshot": 43,
+  "stable_files_selected_for_git": 40,
+  "excluded_from_git": "Three __pycache__/*.pyc files remain only in the private backup.",
   "stable_files": [
     {
       "path": "outputs/dermnet-lexical-tree-20260925/__pycache__/build_lexical_inventory.cpython-312.pyc",

@@ -1,0 +1,966 @@
+# Danh sách bệnh danh và lesion type trong DermNet inventory
+
+Các nhãn dưới đây được chép từ lexical inventory hiện tại. Bệnh danh nguồn, bệnh danh trong đáp án và lesion type là các danh sách riêng; inventory không thiết lập quan hệ một bệnh ↔ một loại tổn thương.
+
+## Tóm tắt
+
+- Bệnh danh nguồn: **381** nhãn.
+- Bệnh danh trong đáp án: **354** nhãn.
+- Bệnh danh trùng chính xác giữa hai danh sách: **326** nhãn.
+- Lesion type — tổn thương cơ bản: **104** nhãn.
+- Lesion type — tổn thương cơ bản và thứ phát: **103** nhãn.
+- Lesion type riêng biệt sau khi gộp trùng chính xác hai nhóm trên: **178** nhãn.
+
+## Bệnh danh nguồn (source_disease)
+
+- Acanthoma fissuratum
+- Acanthosis palmaris
+- Acne vulgaris
+- Acquired dermal macular hyperpigmentation
+- Acquired lymphangiectasia
+- Acral lentiginous melanoma
+- Acrodermatitis continua of Hallopeau
+- Acrodermatitis enteropathica
+- Acrokeratosis verruciformis of Hopf
+- Acropustulosis of infancy
+- Actinic cheilitis
+- Actinic keratosis
+- Actinic prurigo
+- Acute febrile neutrophilic dermatosis (Sweet syndrome)
+- Acute generalised exanthematous pustulosis
+- Acute hepatic porphyrias
+- Acute localised exanthematous pustulosis
+- Adult-onset Still disease
+- Aeromonas skin infection
+- Airborne contact dermatitis
+- Alkaptonuria and ochronosis
+- Alopecia areata
+- Alopecia from drugs
+- Alopecia mucinosa
+- Amelanotic melanoma
+- Amputation stump dermatoses
+- Amyloidosis cutis dyschromica
+- Anagen effluvium
+- Anal cancer and anal canal cancer
+- Anetoderma
+- Angiofibroma
+- Angioma serpiginosum
+- Angular cheilitis
+- Anogenital squamous cell carcinoma
+- Anogenital wart
+- Anthrax
+- Antisynthetase syndrome
+- Aphthous ulcer
+- Apocrine chromhidrosis
+- Arthropod bites and stings
+- Aspergillosis
+- Asteatotic eczema
+- Atopic dermatitis
+- Atrophoderma of Pasini and Pierini
+- Atypical fibroxanthoma
+- Atypical melanocytic naevus
+- Atypical mycobacterial infection
+- Atypical solar lentigo
+- Bacterial folliculitis
+- Basal cell carcinoma
+- Bazin_s hydroa vacciniforme
+- Benign familial pemphigus
+- Benign hereditary telangiectasia
+- Birt-Hogg-Dubé syndrome
+- Blue nevus
+- Boil
+- Bullous pemphigoid
+- Calcinosis cutis
+- Calciphylaxis
+- Capillary vascular malformation
+- Carotenoderma
+- Cellulitis
+- Cherry angioma
+- Chilblains
+- Chloracne _ MADISH
+- Cold urticaria
+- Colloid milium
+- Congenital melanocytic naevus
+- Cryoglobulinaemia
+- Cutaneous abscess
+- Cutaneous amyloidosis
+- Cutaneous horn
+- Cutaneous larva migrans
+- Cutaneous lupus erythematosus
+- Cutaneous tuberculosis
+- Cutaneous vasculitis
+- Cutis marmorata telangiectatica congenita
+- Cutis verticis gyrata
+- Cytophagic histiocytic panniculitis
+- Delayed pressure urticaria
+- Dermatitis artefacta
+- Dermatofibroma
+- Dermatosis papulosa nigra
+- Digital myxoid pseudocyst
+- Discoid eczema
+- Discoid lupus erythematosus
+- Disseminate and recurrent infundibulofolliculitis
+- Disseminated secondary eczema
+- Disseminated superficial actinic porokeratosis
+- Dowling-Degos disease
+- Dry gangrene
+- Dyshidrotic eczema (pompholyx)
+- Dystrophic epidermolysis bullosa
+- Eccrine porocarcinoma
+- Ecthyma
+- Eczema herpeticum
+- Elastolytic giant cell granuloma
+- Elastosis
+- Elastosis perforans serpiginosa
+- Eosinophilic pustular folliculitis
+- Epidermal naevus
+- Epidermoid cyst
+- Epidermolysis bullosa
+- Epidermolysis bullosa acquisita
+- Erosive lichen planus
+- Erysipelas
+- Erysipeloid
+- Erythema ab igne
+- Erythema annulare centrifugum
+- Erythema dyschromicum perstans
+- Erythema elevatum diutinum
+- Erythema infectiosum
+- Erythema multiforme
+- Erythema nodosum
+- Erythrodermic psoriasis
+- Erythrokeratoderma
+- Exanthems
+- Exercise-induced vasculitis
+- Exfoliative cheilitis
+- Extramammary Paget disease of skin
+- Eyelid contact dermatitis
+- Fabry disease
+- Facial psoriasis
+- Fissured tongue
+- Flea bite
+- Flexural psoriasis
+- Foreign body granuloma
+- Generalised essential telangiectasia
+- Generalised pustular psoriasis
+- Genital Crohn disease
+- Genital herpes
+- Genital psoriasis
+- Geographic tongue
+- Gingivitis and periodontitis
+- Glomus tumour
+- Gout
+- Granular parakeratosis
+- Granuloma annulare
+- Granuloma faciale
+- Granuloma inguinale
+- Granulomatous dermatitis
+- Hairy tongue
+- Halo naevus
+- Hand dermatitis
+- Henoch–Schönlein purpura
+- Hereditary haemorrhagic telangiectasia
+- Herpangina
+- Herpes simplex
+- Herpes zoster
+- Hidradenitis suppurativa
+- Hyperhidrosis
+- Hyperkeratotic palmar dermatitis
+- Ichthyosis
+- Impetigo
+- Intralymphatic histiocytosis
+- Intravascular lymphoma
+- Jessner lymphocytic infiltrate
+- Kaposi sarcoma
+- Keloid scar
+- Keratoelastoidosis marginalis
+- Keratolytic winter erythema
+- Keratosis pilaris
+- Kerion
+- Kyrle disease
+- Leg ulcer
+- Leishmaniasis
+- Leprosy
+- Leukaemia cutis
+- Lichen myxoedematosus
+- Lichen nitidus
+- Lichen planus
+- Lichen simplex
+- Lichenoid keratosis
+- Lupus pernio
+- Lymphatic malformation
+- Macroglossia
+- Macular amyloidosis
+- Maculopapular cutaneous mastocytosis
+- Madarosis
+- Majocchi granuloma
+- Malassezia folliculitis
+- Male pattern hair loss
+- Malignant atrophic papulosis
+- Malignant histiocytoses
+- Marfan syndrome
+- Marjolin ulcer
+- Martorell ulcer
+- Mastocytoma
+- Measles
+- Median canaliform nail dystrophy
+- Melanocytic naevus
+- Melanoma
+- Melanoma in situ
+- Melanonychia
+- Melanotic macule
+- Melasma
+- Meningococcal disease
+- Merkel cell carcinoma
+- Metastatic melanoma
+- Meyerson naevus
+- Mid-dermal elastolysis
+- Milium
+- Milker_s nodule
+- Mixed connective tissue disease
+- Molluscum contagiosum
+- Morbilliform drug reaction
+- Morphoea
+- Morphoea en coup de sabre
+- Mucocoele of the lip
+- Multicentric reticulohistiocytosis
+- Multiple self-healing squamous epitheliomas of Ferguson-Smith
+- Mycetoma
+- Mycoplasma pneumoniae infection
+- Mycosis fungoides
+- Myxoma syndrome
+- Naevus anaemicus
+- Naevus depigmentosus
+- Naevus flammeus simplex
+- Naevus of Ota, naevus of Ito and naevus of Hori
+- Napkin dermatitis
+- Necrobiosis lipoidica
+- Necrolytic migratory erythema
+- Necrotising fasciitis
+- Neonatal lupus
+- Neonatal subcutaneous fat necrosis
+- Neurofibromatosis
+- Nevus comedonicus
+- Niacin deficiency
+- Nickel allergy
+- Nicotine stomatitis
+- Nipple eczema
+- Nodular chondrodermatitis
+- Nodular lymphangitis
+- Nodular melanoma
+- Non-albicans candida infections
+- Non-sexually acquired genital ulceration
+- Noonan syndrome with multiple lentigines
+- Notalgia paraesthetica
+- Nummular eczematous dermatitis
+- Ocular melanoma
+- Onychocryptosis
+- Onychogryphosis
+- Onychomycosis
+- Onychopapilloma
+- Oral allergy syndrome
+- Oral candidiasis
+- Oral mucositis - Stomatitis
+- Oral squamous cell carcinoma
+- Orf
+- Ornithonyssosis
+- Orofacial granulomatosis
+- Osteoma cutis
+- Pachydermodactyly
+- Pachyonychia congenita
+- Palmar fascial fibromatosis
+- Palmoplantar keratoderma
+- Palmoplantar pustulosis
+- Panniculitis
+- Papular acrodermatitis of childhood
+- Papular mucinosis
+- Papular urticaria
+- Parakeratosis pustulosa
+- Paraneoplastic acrokeratosis
+- Paronychia
+- Parvo B19 infection
+- Pearly penile papules
+- Pediculosis capitis
+- Pellagra
+- Pemphigoid gestationis
+- Pemphigus foliaceus
+- Pemphigus vulgaris
+- Penile epithelial neoplasia
+- Periarteritis nodosa
+- Periorificial dermatitis
+- PHACE syndrome
+- Piebaldism
+- Piezogenic papules
+- Pigmented purpura
+- Pilar cyst
+- Pilomatricoma
+- Pilonidal disease
+- Pityriasis alba
+- Pityriasis amiantacea
+- Pityriasis rubra pilaris
+- Pityriasis versicolor
+- Plasma cell balanitis_vulvitis
+- Plasmacytoma
+- Poikiloderma of Civatte
+- Poliosis
+- Polycystic ovary syndrome
+- Polymorphic eruption of pregnancy
+- Polymorphic light eruption
+- Polythelia
+- Porphyria cutanea tarda
+- Porphyria variegata
+- Postinflammatory hyperpigmentation
+- Pressure ulcer
+- Pretibial myxoedema
+- Progressive macular hypomelanosis
+- Prurigo
+- Pruritic urticarial papules and plaques of pregnancy
+- Pruritus
+- Pseudofolliculitis barbae
+- Pseudopelade of Brocq
+- Pseudoporphyria
+- Psoriasis
+- Psoriatic arthritis
+- Purpura
+- Pyoderma
+- Pyogenic granuloma
+- Radiation dermatitis
+- Ramsay Hunt syndrome
+- Ranula
+- Raynaud phenomenon
+- Recessive dystrophic epidermolysis bullosa
+- Recessive X-linked ichthyosis
+- Reed syndrome
+- Remitting seronegative symmetrical synovitis with pitting oedema
+- Reticular erythematous mucinosis
+- Reticulohistiocytosis
+- Rheumatic fever
+- Rhinophyma
+- Rosacea
+- Roseola
+- Ross syndrome
+- Rothmund-Thomson syndrome
+- Rubella
+- Sarcoidosis
+- Scabies
+- Scarlatina
+- Scurvy
+- Sebaceous carcinoma
+- Sebaceous hyperplasia
+- Sneddon syndrome
+- Solar lentigo
+- Solar urticaria
+- Spider angioma
+- Squamous cell carcinoma
+- Steatocystoma multiplex
+- Subungual exostosis
+- Sunburn
+- Superficial thrombophlebitis
+- Swimmer_s itch
+- Syphilis
+- Systemic lupus erythematosus
+- Systemic sclerosis
+- Sézary syndrome
+- Telangiectasia
+- Thromboangiitis obliterans
+- Tinea barbae
+- Tinea capitis
+- Tinea corporis
+- Tinea cruris
+- Tinea faciei
+- Tinea incognita
+- Tinea manuum
+- Tinea pedis
+- Topical corticosteroid withdrawal
+- Toxic erythema of the newborn
+- Traction alopecia
+- Transient lingual papillitis
+- Transient neonatal pustular melanosis
+- Triangular alopecia
+- Trichomycosis axillaris
+- Trichotillomania
+- Tuberous sclerosis
+- Urticaria
+- Urticarial vasculitis
+- Varicose veins
+- Venous eczema
+- Venous lake
+- Vitiligo
+- Vulval intraepithelial neoplasia
+- Vulvovaginal candidiasis
+- Whipple disease
+- Winter itch
+- Wound infection
+- X linked ichthyosis
+- Xanthoma
+- Xeroderma pigmentosum
+- Zygomycosis
+
+## Bệnh danh trong đáp án (Diagnosis answer)
+
+- Acanthoma fissuratum
+- Acanthosis palmaris
+- Acne vulgaris
+- Acquired dermal macular hyperpigmentation
+- Acquired lymphangiectasia
+- Acrodermatitis continua of Hallopeau
+- Acrodermatitis enteropathica
+- Acrokeratosis verruciformis of Hopf
+- Acropustulosis of infancy
+- Actinic cheilitis
+- Actinic keratosis
+- Acute febrile neutrophilic dermatosis (Sweet syndrome)
+- Acute generalised exanthematous pustulosis
+- Acute hepatic porphyrias
+- Aeromonas skin infection
+- Alopecia areata
+- Alopecia from drugs
+- Amelanotic melanoma
+- Amputation stump dermatoses
+- Amyloidosis cutis dyschromica
+- Anagen effluvium
+- Anal cancer and anal canal cancer
+- Anetoderma
+- Angiofibroma
+- Angioma serpiginosum
+- Angular cheilitis
+- Anogenital wart
+- Anthrax
+- Antisynthetase syndrome
+- Aphthous ulcer
+- Apocrine chromhidrosis
+- Arthropod bites and stings
+- Aspergillosis
+- Asteatotic eczema
+- Atrophoderma of Pasini and Pierini
+- Atypical fibroxanthoma
+- Atypical solar lentigo
+- Bacterial folliculitis
+- Ban xuất huyết (purpura)
+- Bazin_s hydroa vacciniforme
+- Benign hereditary telangiectasia
+- Blue nevus
+- Bệnh mô bào lưới (reticulohistiocytosis)
+- Bệnh Still khởi phát ở người lớn
+- Calcinosis cutis
+- Calciphylaxis
+- Capillary vascular malformation
+- Carotenoderma
+- Cellulitis
+- Chilblains
+- Chloracne _ MADISH
+- Chàm tổ đỉa (pompholyx)
+- Cold urticaria
+- Colloid milium
+- Congenital melanocytic naevus
+- Cryoglobulinaemia
+- Cutaneous amyloidosis
+- Cutaneous horn
+- Cutaneous larva migrans
+- Cutaneous lupus erythematosus
+- Cutaneous tuberculosis
+- Cutaneous vasculitis
+- Cutis marmorata telangiectatica congenita
+- Cutis verticis gyrata
+- Delayed pressure urticaria
+- Dermatitis artefacta
+- Dermatofibroma
+- Dermatosis papulosa nigra
+- Digital myxoid pseudocyst
+- Discoid eczema
+- Discoid lupus erythematosus
+- Disseminated secondary eczema
+- Dowling-Degos disease
+- Dry gangrene
+- Dystrophic epidermolysis bullosa
+- Ecthyma
+- Eczema herpeticum
+- Elastolytic giant cell granuloma
+- Elastosis
+- Elastosis perforans serpiginosa
+- Eosinophilic pustular folliculitis
+- Epidermal naevus
+- Epidermoid cyst
+- Epidermolysis bullosa
+- Epidermolysis bullosa acquisita
+- Erosive lichen planus
+- Erysipelas
+- Erysipeloid
+- Erythema ab igne
+- Erythema annulare centrifugum
+- Erythema dyschromicum perstans
+- Erythema elevatum diutinum
+- Erythema infectiosum
+- Erythema multiforme
+- Erythema nodosum
+- Erythrodermic psoriasis
+- Erythrokeratoderma
+- Exanthems
+- Exercise-induced vasculitis
+- Exfoliative cheilitis
+- Extramammary Paget disease of skin
+- Eyelid contact dermatitis
+- Fabry disease
+- Facial psoriasis
+- Fissured tongue
+- Flea bite
+- Flexural psoriasis
+- Generalised essential telangiectasia
+- Generalised pustular psoriasis
+- Genital Crohn disease
+- Genital herpes
+- Genital psoriasis
+- Geographic tongue
+- Gingivitis and periodontitis
+- Giãn mao mạch
+- Gout
+- Granular parakeratosis
+- Granuloma annulare
+- Granuloma faciale
+- Granulomatous dermatitis
+- Hairy tongue
+- Halo naevus
+- Hand dermatitis
+- Henoch–Schönlein purpura
+- Hereditary haemorrhagic telangiectasia
+- Herpangina
+- Herpes simplex
+- Herpes zoster
+- Hidradenitis suppurativa
+- Hyperhidrosis
+- Hyperkeratotic palmar dermatitis
+- Hội chứng Birt-Hogg-Dubé
+- Ichthyosis
+- Impetigo
+- Intralymphatic histiocytosis
+- Intravascular lymphoma
+- Jessner lymphocytic infiltrate
+- Kaposi sarcoma
+- Keloid scar
+- Keratoelastoidosis marginalis
+- Keratolytic winter erythema
+- Keratosis pilaris
+- Kerion
+- Kyrle disease
+- Leg ulcer
+- Leishmaniasis
+- Lentigo do nắng
+- Leprosy
+- Lichen myxoedematosus
+- Lichen nitidus
+- Lichen planus
+- Lichen simplex
+- Lichenoid keratosis
+- Lupus pernio
+- Lymphatic malformation
+- Macroglossia
+- Macular amyloidosis
+- Maculopapular cutaneous mastocytosis
+- Madarosis
+- Malassezia folliculitis
+- Male pattern hair loss
+- Malignant atrophic papulosis
+- Malignant histiocytoses
+- Marfan syndrome
+- Marjolin ulcer
+- Martorell ulcer
+- Mastocytoma
+- Measles
+- Median canaliform nail dystrophy
+- Melanocytic naevus
+- Melanoma
+- Melanoma in situ
+- Melanonychia
+- Melanotic macule
+- Melasma
+- Meningococcal disease
+- Merkel cell carcinoma
+- Mid-dermal elastolysis
+- Milium
+- Milker_s nodule
+- Mixed connective tissue disease
+- Molluscum contagiosum
+- Morbilliform drug reaction
+- Mucocoele of the lip
+- Multicentric reticulohistiocytosis
+- Multiple self-healing squamous epitheliomas of Ferguson-Smith
+- Mycoplasma pneumoniae infection
+- Mày đay
+- Naevus anaemicus
+- Naevus depigmentosus
+- Naevus of Ito and naevus of Hori
+- Naevus of Ota
+- Nang nhầy sàn miệng (ranula)
+- Napkin dermatitis
+- Necrobiosis lipoidica
+- Necrolytic migratory erythema
+- Necrotising fasciitis
+- Neonatal lupus
+- Neonatal subcutaneous fat necrosis
+- Neurofibromatosis
+- Nevus comedonicus
+- Nhiễm trùng do mycobacteria không điển hình
+- Nhọt
+- Niacin deficiency
+- Nickel allergy
+- Nipple eczema
+- Nodular chondrodermatitis
+- Nodular lymphangitis
+- Non-albicans candida infections
+- Non-sexually acquired genital ulceration
+- Noonan syndrome with multiple lentigines
+- Nummular eczematous dermatitis
+- Nốt ruồi hắc tố không điển hình
+- Onychocryptosis
+- Onychogryphosis
+- Onychomycosis
+- Onychopapilloma
+- Oral allergy syndrome
+- Oral candidiasis
+- Oral mucositis - Stomatitis
+- Oral squamous cell carcinoma
+- Orf
+- Orofacial granulomatosis
+- Osteoma cutis
+- Pachydermodactyly
+- Pachyonychia congenita
+- Palmar fascial fibromatosis
+- Palmoplantar keratoderma
+- Palmoplantar pustulosis
+- Panniculitis
+- Papular acrodermatitis of childhood
+- Papular mucinosis
+- Papular urticaria
+- Parakeratosis pustulosa
+- Paraneoplastic acrokeratosis
+- Paronychia
+- Parvo B19 infection
+- Pearly penile papules
+- Pediculosis capitis
+- Pellagra
+- Pemphigoid bọng nước
+- Pemphigoid gestationis
+- Pemphigus foliaceus
+- Pemphigus gia đình lành tính
+- Pemphigus vulgaris
+- Penile epithelial neoplasia
+- Periarteritis nodosa
+- Periorificial dermatitis
+- PHACE syndrome
+- Piebaldism
+- Piezogenic papules
+- Pigmented purpura
+- Pilar cyst
+- Pilomatricoma
+- Pilonidal disease
+- Pityriasis alba
+- Pityriasis amiantacea
+- Pityriasis rubra pilaris
+- Pityriasis versicolor
+- Plasma cell balanitis_vulvitis
+- Plasmacytoma
+- Poikiloderma of Civatte
+- Poliosis
+- Polycystic ovary syndrome
+- Polymorphic eruption of pregnancy
+- Polymorphic light eruption
+- Polythelia
+- Porokeratosis nông lan tỏa do ánh sáng (DSAP)
+- Porphyria cutanea tarda
+- Porphyria variegata
+- Postinflammatory hyperpigmentation
+- Pressure ulcer
+- Pretibial myxoedema
+- Progressive macular hypomelanosis
+- Prurigo
+- Pruritic urticarial papules and plaques of pregnancy
+- Pseudofolliculitis barbae
+- Pseudopelade of Brocq
+- Pseudoporphyria
+- Psoriasis
+- Psoriatic arthritis
+- Pyoderma
+- Pyogenic granuloma
+- Radiation dermatitis
+- Ramsay Hunt syndrome
+- Raynaud phenomenon
+- Recessive X-linked ichthyosis
+- Reed syndrome
+- Remitting seronegative symmetrical synovitis with pitting oedema
+- Reticular erythematous mucinosis
+- Rheumatic fever
+- Rhinophyma
+- Rosacea
+- Roseola
+- Ross syndrome
+- Rothmund-Thomson syndrome
+- Rubella
+- Sarcoidosis
+- Scabies
+- Scarlatina
+- Scurvy
+- Sebaceous carcinoma
+- Sebaceous hyperplasia
+- Sneddon syndrome
+- Solar urticaria
+- Spider angioma
+- Steatocystoma multiplex
+- Subungual exostosis
+- Sunburn
+- Superficial thrombophlebitis
+- Swimmer_s itch
+- Syphilis
+- Systemic lupus erythematosus
+- Systemic sclerosis
+- Sézary syndrome
+- Tinea barbae
+- Tinea capitis
+- Tinea corporis
+- Tinea cruris
+- Tinea faciei
+- Tinea incognita
+- Tinea manuum
+- Tinea pedis
+- Topical corticosteroid withdrawal
+- Toxic erythema of the newborn
+- Traction alopecia
+- Transient lingual papillitis
+- Transient neonatal pustular melanosis
+- Triangular alopecia
+- Trichotillomania
+- Tuberous sclerosis
+- U hắc tố ác tính di căn
+- U hắc tố ác tính dạng đầu chi
+- U hắc tố ác tính ở mắt
+- U sùi dạng nấm (Mycosis fungoides)
+- Ung thư biểu mô tế bào vảy
+- Ung thư biểu mô tế bào vảy hậu môn sinh dục
+- Ung thư biểu mô tế bào đáy
+- Varicose veins
+- Venous eczema
+- Venous lake
+- Vitiligo
+- Viêm da cơ địa
+- Viêm mạch mày đay
+- Vulval intraepithelial neoplasia
+- Vulvovaginal candidiasis
+- Whipple disease
+- Wound infection
+- X linked ichthyosis
+- Xanthoma
+- Xeroderma pigmentosum
+- Xâm nhiễm bạch cầu ở da
+- Xơ cứng bì khu trú (morphoea)
+- Zygomycosis
+
+## Lesion type — tổn thương cơ bản (Primary_Lesion_Type)
+
+- Ban dát
+- Ban dát đỏ
+- Bọng máu
+- bọng nước
+- Bọng nước căng
+- Bọng nước vỡ
+- cục
+- da dày
+- Dát
+- dát ban
+- Dát ban đỏ
+- dát giảm sắc tố
+- Dát hồng ban
+- Dát hồng nhạt
+- Dát mạch máu
+- Dát nâu
+- Dát nâu nhạt
+- Dát nâu nhỏ
+- Dát sẩn
+- Dát sẫm
+- Dát sắc tố
+- Dát thâm
+- Dát tăng sắc tố
+- Dát vòng
+- Dát xuất huyết
+- Dát đỏ
+- Dát đỏ nhỏ
+- Dát đỏ nâu
+- Dải hồng ban
+- lõm
+- lỗ rò nhỏ
+- Mụn mủ
+- Mụn mủ nang lông
+- Mụn mủ nhỏ
+- Mụn nước
+- Mụn nước nhỏ
+- Mụn đầu trắng
+- mụn đầu đen
+- Nang
+- Nang nhỏ
+- Nang nông
+- Nhân mụn
+- Nhân mụn kín
+- Nhân trứng cá
+- Nhân trứng cá mở
+- Nhú nổi rõ
+- Nốt
+- Nốt bọng máu
+- Nốt da
+- Nốt gồ
+- Nốt hồng
+- nốt hồng ban
+- Nốt phồng
+- Nốt polyp
+- Nốt sùi
+- Nốt sắc tố
+- Nốt viêm
+- Nốt đỏ
+- Sẩn
+- Sẩn bóng
+- Sẩn bọng nước
+- Sẩn cuống
+- Sẩn da
+- Sẩn dày sừng
+- sẩn dát
+- Sẩn dạng cục
+- Sẩn dạng hạt
+- Sẩn dạng u
+- Sẩn dạng vòm
+- Sẩn giảm sắc tố
+- Sẩn gồ
+- Sẩn hình vòm
+- Sẩn hồng
+- sẩn hồng ban
+- Sẩn kê
+- sẩn lõm giữa
+- Sẩn lõm rốn
+- Sẩn màu da
+- Sẩn mụn nước
+- Sẩn mủ
+- Sẩn nang lông
+- Sẩn nhỏ
+- sẩn phù
+- Sẩn sùi
+- Sẩn sắc tố
+- Sẩn sừng
+- Sẩn trong
+- Sẩn trắng
+- Sẩn tím
+- Sẩn tăng sắc tố
+- Sẩn viêm
+- sẩn viền gờ
+- Sẩn vòm
+- Sẩn đỏ
+- Sẩn đỏ nhỏ
+- Sẩn đỏ nâu
+- U cục
+- U cục gồ
+- U cục lồi
+- U cục nhỏ
+- U dạng vòm
+- U lồi
+- U mềm
+- U nhú
+
+## Lesion type — tổn thương cơ bản và thứ phát (Primary_and_Secondary_Morphology)
+
+- Ban dát hồng ban
+- ban đỏ
+- Bong móng
+- bong vảy
+- Bọng nước
+- Bọng nước căng
+- Bọng nước vỡ
+- Cụm mụn nước trợt
+- Dát
+- Dát hồng ban
+- Dát sẩn viêm
+- Dát sắc tố
+- Dát thâm
+- Dát tăng sắc tố
+- Dát đỏ
+- Hoại tử
+- Khe nứt
+- Khối sùi
+- Khối u
+- Khối u gồ
+- Khối u sùi
+- Loét
+- Loét nhỏ
+- Loét nông
+- Loét đóng vảy
+- Mụn mủ
+- Mụn mủ nang lông
+- Mụn mủ nhỏ
+- Mụn mủ nông
+- Mụn nước
+- Mụn nước nhỏ
+- Mụn nước trợt
+- Mụn nước vỡ
+- Mụn vảy tiết
+- Nhân mụn
+- Nốt
+- Nốt gồ
+- Nốt loét
+- Nốt lồi
+- Nốt niêm mạc
+- Nốt sùi
+- Nốt sẹo
+- Nốt sừng hóa
+- Nốt trợt
+- Nốt viêm
+- Nốt vòm
+- Nốt đỏ
+- Nứt
+- Nứt da
+- Nứt kẽ
+- Rãnh nứt
+- Sẩn
+- Sẩn bóng
+- Sẩn chắc
+- Sẩn gồ
+- Sẩn hồng ban
+- Sẩn loét
+- Sẩn lõm giữa
+- Sẩn mụn mủ
+- sẩn nang
+- Sẩn nang lông
+- Sẩn nhú
+- Sẩn nhỏ
+- Sẩn nâu
+- Sẩn phù
+- Sẩn sẹo
+- sẩn trợt
+- Sẩn tăng sắc tố
+- Sẩn viêm
+- Sẩn vòm
+- Sẩn vảy
+- Sẩn vảy tiết
+- Sẩn xuất huyết
+- Sẩn đóng vảy
+- Sẩn đỏ
+- Sẹo
+- Sẹo gồ
+- Sẹo lõm
+- Sẹo xơ
+- Sẹo đường
+- Trợt
+- Trợt da
+- Trợt loét
+- Trợt loét nông
+- Trợt niêm mạc
+- Trợt nông
+- Trợt đỏ
+- tăng sừng
+- U cục
+- Vảy
+- Vảy da
+- Vảy mịn
+- vảy mỏng
+- Vảy tiết
+- Vết loét
+- Vết loét nhỏ
+- Vết loét nông
+- Vết nứt
+- Vết trợt
+- Vết trợt nhỏ
+- Đám sẩn đỏ
+- Đóng vảy
+- Ổ loét

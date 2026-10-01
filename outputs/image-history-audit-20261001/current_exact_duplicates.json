@@ -1,0 +1,426 @@
+[
+  {
+    "blob": "8bffac0e53db7d0b65a39362a5229a297c589500",
+    "paths": [
+      "dermnet-output/images/Atopic dermatitis/atopic-dermatitis-0049.jpg",
+      "dermnet-output/images/Prurigo/05.jpg"
+    ],
+    "verified_working_sha256": "f40d5207186ffe0580fbe313c8de4d3e5a559478b79372811e399f59b35df6e0"
+  },
+  {
+    "blob": "296c70072a9062eb335fee591455c859a3305b90",
+    "paths": [
+      "dermnet-output/images/Atopic dermatitis/eapsimplex1.jpg",
+      "dermnet-output/images/Prurigo/09.jpg"
+    ],
+    "verified_working_sha256": "6c20e1c798baa38fbca5aea0afc3bf8b0c2cc435c8b5943e6afa810f60538a85"
+  },
+  {
+    "blob": "3a6c96a9abb940eb4108f565dff9884510301b19",
+    "paths": [
+      "dermnet-output/images/Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0002.jpg",
+      "dermnet-output/images/Postinflammatory hyperpigmentation/10.jpg"
+    ],
+    "verified_working_sha256": "edca515ef69c5deba25f6e023fb14ee639e1e261d596e9b7e1de2010cfbb8006"
+  },
+  {
+    "blob": "b449a8f8d9262a03ffdc408f2cd028e65b37c1de",
+    "paths": [
+      "dermnet-output/images/Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0003.jpg",
+      "dermnet-output/images/Postinflammatory hyperpigmentation/11.jpg"
+    ],
+    "verified_working_sha256": "8c0d2c4779b0ed0aa20f88a7f677be4b95ba7495546469323e57ed4523de8ca6"
+  },
+  {
+    "blob": "cb280b942d2c3be4bd6e428cbacf655ac4084559",
+    "paths": [
+      "dermnet-output/images/Erythema multiforme/mycoplasma1.jpg",
+      "dermnet-output/images/Mycoplasma pneumoniae infection/mycoplasma1.jpg"
+    ],
+    "verified_working_sha256": "7154905e729473a54a3e7918bbb79f712d8265809ae67888aaa16e6365394ad4"
+  },
+  {
+    "blob": "c1dc245c90059879104ed63c8ff5067c63f4fcb1",
+    "paths": [
+      "dermnet-output/images/Erythema multiforme/mycoplasma2.jpg",
+      "dermnet-output/images/Mycoplasma pneumoniae infection/mycoplasma2.jpg"
+    ],
+    "verified_working_sha256": "4e6b9fd921ad717a4fe12885370eac9a7931a90bb102de1c5f755995a918d8df"
+  },
+  {
+    "blob": "a19b0fe5f8212daef84e0dd49f1d19fef60f682c",
+    "paths": [
+      "dermnet-output/images/Herpes simplex/herpes-simplex-labialis-38.jpg",
+      "dermnet-output/images/Oral candidiasis/05.jpg"
+    ],
+    "verified_working_sha256": "38a0825286fcfc94e1638be0aeb67efc1e279c3e00b1cd1910e1c561a119bbad"
+  },
+  {
+    "blob": "a5f7222c55339f3de5e17d1929dd71faa695e8e0",
+    "paths": [
+      "dermnet-output/images/Herpes simplex/herpes-simplex-labialis-39.jpg",
+      "dermnet-output/images/Oral candidiasis/06.jpg"
+    ],
+    "verified_working_sha256": "220048c3f076e86f7f69837852de5f2cb4ddb2c27d7790ac14b89fb35d8b6c30"
+  },
+  {
+    "blob": "c747b64f385965d56edb0664c351809caa2d8bca",
+    "paths": [
+      "dermnet-output/images/Leg ulcer/3042.jpg",
+      "dermnet-output/images/Pyoderma/01.jpg"
+    ],
+    "verified_working_sha256": "763963a475e26d0c7a20f50ac756bb8186d138fed68f72d2a57ce7d934b04d81"
+  },
+  {
+    "blob": "1128c68a857e1dec609069e5e664df6f2c0f4915",
+    "paths": [
+      "dermnet-output/images/Lichen planus/annular-lichen-planus-0007.jpg",
+      "dermnet-output/images/Postinflammatory hyperpigmentation/05.jpg"
+    ],
+    "verified_working_sha256": "bd6b3e98463092ee922116d8478dd7d6660b7ad5aabe41e2cfad3fa7d411688b"
+  },
+  {
+    "blob": "96302fc00570b7ef5bd51f45eb237cc837c1f2c6",
+    "paths": [
+      "dermnet-output/images/Lichen planus/papular-lichen-planus-0009.jpg",
+      "dermnet-output/images/Postinflammatory hyperpigmentation/15.jpg"
+    ],
+    "verified_working_sha256": "5a93044380c195a0ec5cf9eb1a1608bfd583afe0959e24f45146b4748ea9802e"
+  },
+  {
+    "blob": "2e033c3595fa1b16bbcbfbeb0a938c04411bc29a",
+    "paths": [
+      "dermnet-output/images/Lichen planus/papular-lichen-planus-0010.jpg",
+      "dermnet-output/images/Postinflammatory hyperpigmentation/16.jpg"
+    ],
+    "verified_working_sha256": "9eb17ec9ee3cdbb483e1675223b6765f7c4c09c4aa0adc6849ce17c1730839be"
+  },
+  {
+    "blob": "e6bf961c9a53671be99141de1b5d1e1f7ba2bdd0",
+    "paths": [
+      "dermnet-output/images/Milium/milia08.jpg",
+      "dermnet-output/images/Porphyria cutanea tarda/03.jpg"
+    ],
+    "verified_working_sha256": "75cff2c9b51bee7a0eaed89bc4b279486bf07c92c6fff46474ba3df7e9c2997c"
+  },
+  {
+    "blob": "722db17b1550142b2e0613c9d080b8470079c31d",
+    "paths": [
+      "dermnet-output/images/Mycoplasma pneumoniae infection/reactive-infectious-mucocutaneous-eruption-0008.jpg",
+      "dermnet-output/images/Oral mucositis - Stomatitis/81.jpg"
+    ],
+    "verified_working_sha256": "e5a0e8ee448c44303561dcb1895b164d9731aeb3b6811e458a860cf3f42fe0a0"
+  },
+  {
+    "blob": "4d8bd7f522036b7ef97094c63d7073ecf0a2d0da",
+    "paths": [
+      "dermnet-output/images/Onychocryptosis/01.jpg",
+      "dermnet-output/images/Paronychia/3296.jpg"
+    ],
+    "verified_working_sha256": "0bc497ac34c7addd09108963a82f52387c9d085a8772d15c5dc833e19154a561"
+  },
+  {
+    "blob": "c1f6bfac14b47641ed888b99639027b2c24e50de",
+    "paths": [
+      "dermnet-output/images/Onychomycosis/47.jpg",
+      "dermnet-output/images/Tinea manuum/05.jpg"
+    ],
+    "verified_working_sha256": "20c5f9154a1c64a4541c22f36f06a602cee9bc9fbf24d2c6cb595f446907ee4b"
+  },
+  {
+    "blob": "09b4643a47fafe166bf3b466a84df2306271e768",
+    "paths": [
+      "dermnet-output/images/Oral candidiasis/03.jpg",
+      "dermnet-output/images/Oral mucositis - Stomatitis/18.jpg"
+    ],
+    "verified_working_sha256": "c89b43ee9c19f442c561b90c8c9e558cf304bca9d312e602530d0a028f1e771b"
+  },
+  {
+    "blob": "d275536ae2f46bc001f7cf3c242e2075dd1f1ae4",
+    "paths": [
+      "dermnet-output/images/Palmoplantar keratoderma/35.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/11.jpg"
+    ],
+    "verified_working_sha256": "f03d82b3c3d662cd195706deaa34b1313901122f1bae85b35cbb607a39b146c6"
+  },
+  {
+    "blob": "fda8667666f3fbc50ba182bb051205664fa04f72",
+    "paths": [
+      "dermnet-output/images/Palmoplantar keratoderma/36.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/12.jpg"
+    ],
+    "verified_working_sha256": "2ce26c763b7323add186ea97c1208f2f4821368a78ff5902a63597cd4f19213a"
+  },
+  {
+    "blob": "e4d618720f11864a79846d1e9c9cb0f022727ef9",
+    "paths": [
+      "dermnet-output/images/Panniculitis/03.jpg",
+      "dermnet-output/images/Venous eczema/acute-lipodermatosclerosis-21.jpg"
+    ],
+    "verified_working_sha256": "e6076e617db08e8ce570259f98fd01a4aaef72d4eb705a35cea5361ac0f6aec2"
+  },
+  {
+    "blob": "ff76b2373d1d9781e1721d1a908e0b159cb500e5",
+    "paths": [
+      "dermnet-output/images/Panniculitis/04.jpg",
+      "dermnet-output/images/Venous eczema/acute-lipodermatosclerosis-22.jpg"
+    ],
+    "verified_working_sha256": "6d3d40f36329ed05c4909afecf8780b48ae7cee857a05e123bc08d578e4eb8d0"
+  },
+  {
+    "blob": "45da611a1eade1e928913dbdc1d2b866df5b8f2e",
+    "paths": [
+      "dermnet-output/images/Pediculosis capitis/12.jpg",
+      "dermnet-output/images/Pyoderma/08.jpg"
+    ],
+    "verified_working_sha256": "6d36e1cd545f24c78bed761f9b411c166c741b9b32622b27f9bbfd33e4f7fa92"
+  },
+  {
+    "blob": "c709cd300c2b48584f648c1876e3c3d3b161ce1c",
+    "paths": [
+      "dermnet-output/images/Pemphigoid gestationis/37.jpg",
+      "dermnet-output/images/Postinflammatory hyperpigmentation/24.jpg"
+    ],
+    "verified_working_sha256": "d1db1b6543dd589a912fab4919a572ffbd89a753b71371b7ba46b05fe54a3a3a"
+  },
+  {
+    "blob": "3d0a61640665904fd8fe2c44c4d6e6f49155c8c7",
+    "paths": [
+      "dermnet-output/images/Pemphigoid gestationis/38.jpg",
+      "dermnet-output/images/Postinflammatory hyperpigmentation/25.jpg"
+    ],
+    "verified_working_sha256": "7bd4b786ad743def7f9df0b16361e40add4bee49a2322a8cfbf7c89401693059"
+  },
+  {
+    "blob": "c15c98c65b0c420069a088c2776ef178070e5906",
+    "paths": [
+      "dermnet-output/images/Pigmented purpura/capil1.jpg",
+      "dermnet-output/images/Purpura/20.jpg"
+    ],
+    "verified_working_sha256": "0e3c95ca4c2cdd8dc38fbc61e23b07112d895c43a81825a9f97b2360f7c643e8"
+  },
+  {
+    "blob": "2f5e347df14301ab1e1130c5b48c8ba95f48f5bc",
+    "paths": [
+      "dermnet-output/images/Pigmented purpura/capillaritis-38.jpg",
+      "dermnet-output/images/Varicose veins/01.jpg"
+    ],
+    "verified_working_sha256": "7cc19054b1e5473be6b45d694891910dc7213ea8b7d23368f183dde578804102"
+  },
+  {
+    "blob": "1d02e728027f28070be30a215300d370a88c213a",
+    "paths": [
+      "dermnet-output/images/Pigmented purpura/capillaritis-47.jpg",
+      "dermnet-output/images/Purpura/21.jpg"
+    ],
+    "verified_working_sha256": "5f48806a8c23e96acf98f6cadc5d5cfd25a9e6fc03975272f942398eda75cadb"
+  },
+  {
+    "blob": "00ab94c2b9bee6ccad01332636ef4b489a9454d5",
+    "paths": [
+      "dermnet-output/images/Pigmented purpura/purpura1.jpg",
+      "dermnet-output/images/Purpura/82.jpg"
+    ],
+    "verified_working_sha256": "d1fb299367715f634065e9b9ce4f802075b6fdea5e454b565ce16e0453dfd76f"
+  },
+  {
+    "blob": "283f646515a3b55799771303f77f18d43d07efb3",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/15.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp1.jpg"
+    ],
+    "verified_working_sha256": "cad8e1c99bdc246328dc1b2aa422277f191242b6f2a90103ae3c0785b5fb6c8a"
+  },
+  {
+    "blob": "3ef10518d59e63341cf3a288627131745d327fca",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/16.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp10.jpg"
+    ],
+    "verified_working_sha256": "c6754886b66196ef27259f3a77e59f981da002345a19ef6d28b00d32b290bbe2"
+  },
+  {
+    "blob": "331132c596376a9fcff1bcf2b1373f72fed3c4bf",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/17.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp11.jpg"
+    ],
+    "verified_working_sha256": "0a75443b07f46ce864bf3480458fc0307b043eff82da1b2dcef0801b472d2fe1"
+  },
+  {
+    "blob": "2bbf501eeea6a670b6638247a2e866fa1d98d407",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/18.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp12.jpg"
+    ],
+    "verified_working_sha256": "8326f564328829635e97e8826f7dd746a33d64c179242f19ceedea8d42c09092"
+  },
+  {
+    "blob": "f28a11558abbb71412e604420025fd9e87d1789c",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/19.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp13.jpg"
+    ],
+    "verified_working_sha256": "ebe6f3635aa1449c04eb8c0aeca73ae5fd46d283d2d860594b42d109edab5204"
+  },
+  {
+    "blob": "ebb540b16c1b3bf5cb9b64872b14f239b9e76aad",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/20.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp2.jpg"
+    ],
+    "verified_working_sha256": "e5c06b8e208f346954e9f39ce208caf38923c0509194fbae1dd200a4203bdd1f"
+  },
+  {
+    "blob": "6039d61523bd30658634358e23a1418db5e4a770",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/21.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp3.jpg"
+    ],
+    "verified_working_sha256": "08ecfab8b48da9135cd56cc52295b0294f38b129ea8ab5b20cdc9e65d34a7578"
+  },
+  {
+    "blob": "78c6a9a779eac02e210e29fcfa2c6247139b180f",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/23.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp4.jpg"
+    ],
+    "verified_working_sha256": "1a93823dac3c3c0256d1e36af8434676a2c58279e25441000acd8d7e99c6f8bf"
+  },
+  {
+    "blob": "501899190f2bd76d35b0944e5e80b288000dc3a2",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/24.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp5.jpg"
+    ],
+    "verified_working_sha256": "bfe5fc9c027f39955662ae6f8894f8b7066d06f2fdf938fbfdbb94a181ed24e1"
+  },
+  {
+    "blob": "cd659e559ae0e7852b9a7d988f7dc8734bee001f",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/25.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp6.jpg"
+    ],
+    "verified_working_sha256": "e07ff86e829d9991610ebd7d55b1a7ad78cdd542a420acf53184c067bd5afd75"
+  },
+  {
+    "blob": "07741ec63b21abef0fbddf20143d4ef0c7f79aab",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/26.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp7.jpg"
+    ],
+    "verified_working_sha256": "93886a4bd03f331e89c561484e557e95c99731121453f3a6f8bbea89c3fc7c7f"
+  },
+  {
+    "blob": "9ad0ed25967e089b7c9fafb2c2ae157d592452f1",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/27.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp8.jpg"
+    ],
+    "verified_working_sha256": "18e0d204bcb2ae86359cd2625f2147c0a5627a496a3b73effbcfb06b6e3fed92"
+  },
+  {
+    "blob": "25ca8fbe4e73a44b68f78c8ca84a2dee95cdecf1",
+    "paths": [
+      "dermnet-output/images/Pityriasis rubra pilaris/29.jpg",
+      "dermnet-output/images/Pityriasis rubra pilaris/prp9.jpg"
+    ],
+    "verified_working_sha256": "684b94555379e427267018b09360101e5c636df83832ba072728b9c0a2daae19"
+  },
+  {
+    "blob": "09d236b64aae6d271f0960e257813c3d8a69d4ba",
+    "paths": [
+      "dermnet-output/images/Plasmacytoma/04.jpg",
+      "dermnet-output/images/Purpura/101.jpg"
+    ],
+    "verified_working_sha256": "f38b62b850201ad8c5c2d3403895091fc935cfbf8264c40d037d9a8b78186d1e"
+  },
+  {
+    "blob": "c65a536fd5874526535ba98d766ce8e640d87b4b",
+    "paths": [
+      "dermnet-output/images/Porphyria cutanea tarda/04.jpg",
+      "dermnet-output/images/Pyoderma/07.jpg"
+    ],
+    "verified_working_sha256": "c7b68ddc5b1be34b6f991fa1456693471078afac6b30159522c2b52970d75139"
+  },
+  {
+    "blob": "7f610fe8fb30cb6e7f1c3b369fe7abfd581ed23a",
+    "paths": [
+      "dermnet-output/images/Postinflammatory hyperpigmentation/21.jpg",
+      "dermnet-output/images/Prurigo/64.jpg"
+    ],
+    "verified_working_sha256": "bc15822dacb6291d0fdafd0f3e214d85d1cb82cf32a7881704099c360bd9c12e"
+  },
+  {
+    "blob": "1dd26f3ccb121513ab71510401e571955c917d8a",
+    "paths": [
+      "dermnet-output/images/Postinflammatory hyperpigmentation/30.jpg",
+      "dermnet-output/images/Pretibial myxoedema/10.jpg"
+    ],
+    "verified_working_sha256": "4644c483a7f605b961c0873247ed7b1dc50e8a89b9dbd3a7c7e44e6f819e733b"
+  },
+  {
+    "blob": "77284240b804635f476e4c9d80f05b64b1dbdc42",
+    "paths": [
+      "dermnet-output/images/Postinflammatory hyperpigmentation/31.jpg",
+      "dermnet-output/images/Pretibial myxoedema/11.jpg"
+    ],
+    "verified_working_sha256": "4d7329bf86ab3bc86585d47ddc08a017be557d14883c55f9f1d07650f56c4ca7"
+  },
+  {
+    "blob": "786319f81c1c1ef6c6f808f18625dbd4410b0bdc",
+    "paths": [
+      "dermnet-output/images/Prurigo/06.jpg",
+      "dermnet-output/images/Pruritus/07.jpg"
+    ],
+    "verified_working_sha256": "ea3a8a1040b730c0cf3963ff77e6f58c70114f491f47b937bd58c7bbc1948df0"
+  },
+  {
+    "blob": "cf5d47443b89e8f3925b0ee1e6e696d761d1dc0a",
+    "paths": [
+      "dermnet-output/images/Prurigo/98.jpg",
+      "dermnet-output/images/Pruritus/42.jpg"
+    ],
+    "verified_working_sha256": "b40bea70d488316b25c984a6484fb29d80e1833061c378a6f530b1ecd3afed73"
+  },
+  {
+    "blob": "9aa1d791bfd5ececf7e396ac661f8001d5c777ea",
+    "paths": [
+      "dermnet-output/images/Prurigo/99.jpg",
+      "dermnet-output/images/Varicose veins/05.jpg"
+    ],
+    "verified_working_sha256": "e7aae1dece716d91eac8de281234737fb0bb330c9ad4592086854711e9954ca9"
+  },
+  {
+    "blob": "2013c8887ca36772d770a444ba999249e8772cff",
+    "paths": [
+      "dermnet-output/images/Pruritus/56.jpg",
+      "dermnet-output/images/Purpura/98.jpg"
+    ],
+    "verified_working_sha256": "b7b8d1ee0f5ee13bb01549dfd2f7fcd77d004e6db18b45de0af8ddd06478e96a"
+  },
+  {
+    "blob": "6b957ea405b837077dac7d35cd506a006a939501",
+    "paths": [
+      "dermnet-output/images/Purpura/96.jpg",
+      "dermnet-output/images/Scurvy/01.jpg"
+    ],
+    "verified_working_sha256": "3b41062247bd7b7083c89bf14feb4a4f08e660fed12dfc1cff74ae73d83e2a8c"
+  },
+  {
+    "blob": "daf966ee780d39542e6b5876bf9d3e0667765c78",
+    "paths": [
+      "dermnet-output/images/Purpura/97.jpg",
+      "dermnet-output/images/Scurvy/02.jpg"
+    ],
+    "verified_working_sha256": "d38bd39fa1834ead39db0982028a51e926ce3897ef0231556d6321cef515f155"
+  },
+  {
+    "blob": "c2233e5e8454e5441801ccf1e69ffd319a4122ce",
+    "paths": [
+      "dermnet-output/images/Sarcoidosis/01.jpg",
+      "dermnet-output/images/Tinea capitis/01.jpg"
+    ],
+    "verified_working_sha256": "7c1416b61bc9442590611a1a5a450e36220465106e930bb2913af99154dd5523"
+  }
+]
