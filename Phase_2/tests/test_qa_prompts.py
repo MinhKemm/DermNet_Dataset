@@ -63,10 +63,10 @@ class PromptCompositionTests(unittest.TestCase):
 
     def test_bound_context_preserves_unicode_and_literal_braces(self):
         payload = context()
-        payload["annotations"]["source_note"] = "{Không sửa dữ liệu nguồn}"
+        payload["used_questions"] = ["Câu hỏi có {ngoặc nhọn} và tiếng Việt?"]
         text = api().build_prompt("Lesion_Recognition", "Short_answer", context=payload)
         bound = json.loads(text.split("\nINPUT_JSON\n", 1)[1])
-        self.assertEqual(bound["annotations"]["source_note"], "{Không sửa dữ liệu nguồn}")
+        self.assertEqual(bound["used_questions"], ["Câu hỏi có {ngoặc nhọn} và tiếng Việt?"])
         self.assertEqual(bound["taxonomy"]["fields"]["Category"][0], "Sẩn")
 
     def test_non_diagnosis_prompt_does_not_receive_disease_gold(self):
@@ -74,6 +74,24 @@ class PromptCompositionTests(unittest.TestCase):
         bound = json.loads(text.split("\nINPUT_JSON\n", 1)[1])
         self.assertNotIn("diagnosis_label", bound)
         self.assertNotIn("diagnosis_candidates", bound)
+
+    def test_non_diagnosis_inputs_remove_gold_from_nested_metadata(self):
+        payload = context()
+        payload["annotations"].update({"Diagnosis": "Bệnh vảy nến", "source_file": "Psoriasis.png"})
+        payload["taxonomy"]["fields"]["Diagnosis"] = ["Bệnh vảy nến"]
+        text = api().build_prompt("Lesion_Reasoning", "Short_answer", context=payload)
+        bound = json.loads(text.split("\nINPUT_JSON\n", 1)[1])
+        self.assertNotIn("Diagnosis", bound["annotations"])
+        self.assertNotIn("source_file", bound["annotations"])
+        self.assertNotIn("Diagnosis", bound["taxonomy"]["fields"])
+
+    def test_invalid_annotations_and_unhashable_selections_raise_value_error(self):
+        payload = context()
+        payload["annotations"] = "plain text instead of normalized fields"
+        with self.assertRaises(ValueError):
+            api().build_prompt("Location", "Short_answer", context=payload)
+        with self.assertRaises(ValueError):
+            api().build_prompt([], "Short_answer")
 
     def test_diagnosis_prompt_receives_exact_source_label(self):
         text = api().build_prompt("Diagnosis", "Short_answer", context=context())

@@ -143,7 +143,7 @@
     "Diagnosis": {
       "Short_answer": "Hỏi bệnh danh; answer=answer_label=diagnosis_label nguyên văn. Không yêu cầu mô hình tự chọn lại bệnh từ hình ảnh.",
       "Multi_choice": "Đáp án đúng là diagnosis_label nguyên văn; ba bệnh danh khác từ diagnosis_candidates đã duyệt. answer là khóa của lựa chọn đó, không phải tên bệnh. Nếu thiếu danh mục nhiễu thì skipped.",
-      "Judgement": "claim_label là bệnh danh được nhận định từ diagnosis_candidates. Có nếu claim_label bằng diagnosis_label, Không nếu khác nhãn mục tiêu; không suy bệnh khác tuyệt đối không thể cùng tồn tại ở người bệnh.",
+      "Judgement": "claim_label là diagnosis_label hoặc bệnh danh được cấp trong diagnosis_candidates. Có nếu claim_label bằng diagnosis_label, Không nếu khác nhãn mục tiêu; không suy bệnh khác tuyệt đối không thể cùng tồn tại ở người bệnh.",
       "Fill_in_blank": "Điền bệnh danh mục tiêu: Bệnh da liễu được gắn với ảnh này là ____. answer=answer_label=diagnosis_label nguyên văn; không rút gọn hoặc tự dịch lại."
     }
   },

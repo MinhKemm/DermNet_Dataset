@@ -78,6 +78,13 @@ Với AR, lần lượt chọn Size, Color, Boundary, Shape, Quantity hoặc Dis
 của trường đang hỏi; `source_labels` lưu giá trị sửa đúng. Dạng theo cấp vị trí,
 nền/bề mặt và phân biệt lời giải đều nằm trong năm nhiệm vụ, không tạo nhóm thứ sáu.
 
+**Giới hạn quan trọng:** Quantity chỉ có ba nhãn chuẩn. Với quy tắc MCQ bốn
+lựa chọn cùng trường, không thể sinh bốn nhãn Quantity khác nhau hợp lệ; phải
+bỏ qua tổ hợp con này, không tự thêm “Không có”. Boundary cũng có khía cạnh
+chỉ hai giá trị như Rõ/Không rõ. Độ phủ 20 tổ hợp nhiệm vụ-hình thức không đồng
+nghĩa mọi thuộc tính phải có cả bốn hình thức. Muốn đổi số lựa chọn MCQ phải
+có quyết định riêng và cập nhật hợp đồng, không lặng lẽ thay trong một lượt.
+
 ## Hợp đồng đầu vào
 
 `build_prompt(category, question_type, profile="runtime", context=..., attribute_field=...)`
@@ -86,7 +93,10 @@ nhận object JSON có:
 - `image_id`: mã ảnh thật; `image_path`: đường dẫn để runner/TSV dùng, không phải ảnh đính kèm.
 - `taxonomy.version`, `taxonomy.fields`: từ điển có version và danh sách nhãn
   chuẩn không trùng của trường cần hỏi. Category của Reasoning là nhãn tổn thương.
-- `annotations`: chú thích đã chuẩn hóa, nguồn/trạng thái và căn cứ nếu có.
+- `annotations`: object chứa các trường Category, Location, Size, Color, Boundary,
+  Shape, Quantity, Distribution dưới dạng danh sách chuỗi; có thể thêm
+  `visual_evidence` là danh sách quan sát ngắn. Các metadata khác như tên file
+  nguồn, bệnh danh và ghi chú nội bộ không được chuyển thẳng cho mô hình.
 - `diagnosis_label`: bắt buộc với Diagnose; giữ đúng tên nguồn. `diagnosis_candidates`
   là danh mục bệnh danh được duyệt cho nhiễu/phán định, không tự suy từ kiến thức bệnh.
 - `max_qa`: số nguyên dương, mặc định 1; giới hạn không phải chỉ tiêu.
@@ -95,6 +105,17 @@ nhận object JSON có:
 - `measurement`, `quantity_policy`, `location_paths`: căn cứ đo/quy tắc đếm/cây đã
   duyệt; chưa có thì không được tự chế để lấp thiếu. Runner phải cho người trả lời
   xem căn cứ cần thiết, không chỉ cho mô hình sinh QA xem metadata.
+
+Khi có QA Size hoặc Quantity, object hỗ trợ tương ứng cần `reviewed=true`,
+`visible_to_answerer=true` và `description` mô tả căn cứ/quy tắc cụ thể. Đây là
+khai báo của runner/người chuẩn bị dữ liệu, không phải chứng nhận do AI tự tạo.
+Không có hỗ trợ thì chỉ được bỏ qua/chờ duyệt, không xuất QA tương ứng. Với
+Quantity, description phải nêu phạm vi và quy tắc phân biệt Vài/Nhiều đã chốt.
+
+Code loại bệnh danh khỏi nhánh đầu vào không phải Diagnose ở các trường rõ
+ràng. Người chuẩn bị đầu vào vẫn phải rà nội dung chuỗi tự do để tránh ghi tên
+bệnh hoặc đáp án trong quan sát/gợi ý. Không coi bộ lọc tên trường là bảo đảm
+chống mọi dạng rò nhãn hay chỉ dẫn độc hại trong dữ liệu.
 
 Không có context thì `build_prompt` xuất mẫu để trình bày, không phải prompt đã
 gắn đầu vào chạy thật. Mẫu trong `catalog` không chứa bệnh danh hoặc ảnh thật.
@@ -106,7 +127,7 @@ Từ thư mục gốc repository, dùng Python 3.10 trở lên; phần chuẩn m
 thư viện chuẩn Python, không yêu cầu cài toàn bộ mô hình hoặc gọi API:
 
 ```powershell
-python -m unittest discover -s Phase_2/tests -v
+python -m unittest discover -v
 python -m Phase_2.qa_prompts catalog --profile all --output qa_prompts_40.json
 python -m Phase_2.qa_prompts render --task Attribute_Recognition --type Short_answer --attribute Color --context context.json --output prompt_color.txt
 ```
@@ -114,6 +135,64 @@ python -m Phase_2.qa_prompts render --task Attribute_Recognition --type Short_an
 `context.json` phải do người dùng/runner cung cấp theo hợp đồng; các lệnh trên
 không tự đọc dataset để đoán nhãn. Đầu ra chỉ được tạo mới, không ghi đè file có
 sẵn. `qa_prompts_40.json` chứa đầy đủ văn bản 40 biến thể để xem hoặc đưa vào phụ lục.
+
+## Hợp đồng đầu ra và chuyển TSV
+
+Ví dụ JSON dưới đây **chỉ minh họa cấu trúc**, không phải kết quả đọc ảnh.
+Nhãn, quan sát và mã ảnh phải được thay bằng dữ liệu thực tế của lượt chạy:
+
+```json
+{
+  "schema_version": "2.0.0",
+  "image_id": "example-001",
+  "taxonomy_version": "fixture-reviewed-1",
+  "qas": [
+    {
+      "category": "Lesion_Recognition",
+      "type": "Short_answer",
+      "sub_category": "Category",
+      "question": "Bức ảnh này thể hiện loại tổn thương nào?",
+      "options": {},
+      "answer": "Sẩn",
+      "answer_label": "Sẩn",
+      "source_labels": ["Sẩn"],
+      "target": "tổn thương giữa ảnh",
+      "scope": "whole_image",
+      "evidence": ["Dấu hiệu độ gồ được quan sát ở tổn thương."],
+      "rationale": "",
+      "status": "candidate"
+    }
+  ],
+  "skipped": [],
+  "needs_review": []
+}
+```
+
+- `answer_label` là **nội dung đáp án**, `source_labels` là **nhãn tham chiếu**.
+  Với Reasoning, hai trường không đồng nghĩa: lời giải đúng và loại tổn thương
+  được lý giải. Với Judgement, answer/answer_label là Có hoặc Không.
+- `Multi_choice`: options có bốn khóa A-D; answer là khóa, answer_label đúng
+  bằng nội dung lựa chọn đó. Các dạng khác dùng options rỗng.
+- `Judgement` của Diagnose có thêm `claim_label`. So nhãn nhận định với
+  diagnosis_label, không tự chẩn đoán. Nhận định sai chỉ có ý nghĩa so với
+  bệnh danh mục tiêu, không khẳng định bệnh khác không thể đồng tồn tại.
+- Mỗi mục skipped/needs_review là object có `reason` không rỗng, nên có
+  `detail`. Các lý do chặn toàn tác vụ image_unavailable, image_label_conflict,
+  missing_diagnosis_label không được đồng thời có QA được xuất.
+- Lưu nguyên JSON và cấu hình gốc để truy vết; TSV không chứa evidence/rationale.
+
+```powershell
+python -m Phase_2.qa_prompts validate --task Lesion_Recognition --type Short_answer --context context.json --response qa.json
+python -m Phase_2.qa_prompts to-tsv --task Lesion_Recognition --type Short_answer --context context.json --response qa.json --start-index 100 --output candidates.tsv
+```
+
+`validate` trả `structurally_valid` và `clinical_validation=not_performed`;
+exit code 0 khi cấu trúc hợp lệ, 1 khi đầu ra QA sai, 2 khi đầu vào/lệnh lỗi.
+`to-tsv` từ chối đầu ra sai, ghép lựa chọn vào question để người trả lời nhìn
+thấy và giữ khóa A-D sau xáo trộn. Index khởi đầu phải do người gom dữ liệu
+phân bổ để không trùng giữa nhiều file. TSV xuất ra là **bản ứng viên**, chưa
+tự đưa vào benchmark chính thức. Header vẫn là index, image_path, question,
+answer, category, type; nhóm category mới cần tích hợp evaluator riêng.
 
 ## Ánh xạ dataset cũ
 
