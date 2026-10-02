@@ -1,0 +1,2484 @@
+{
+  "locations": [
+    {
+      "level1": "Đầu",
+      "level2": "Da đầu",
+      "level3": "Vùng đỉnh",
+      "label": "Vùng đỉnh"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Da đầu",
+      "level3": "Vùng thái dương",
+      "label": "Vùng thái dương"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Da đầu",
+      "level3": "Vùng chẩm",
+      "label": "Vùng chẩm"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Da đầu",
+      "level3": "Đường chân tóc",
+      "label": "Đường chân tóc"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Da đầu",
+      "level3": "Vùng có tóc",
+      "label": "Vùng có tóc"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Trán",
+      "level3": "Vùng trán",
+      "label": "Vùng trán"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Mặt",
+      "level3": "Má",
+      "label": "Má"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Mặt",
+      "level3": "Vùng quanh miệng",
+      "label": "Vùng quanh miệng"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Mặt",
+      "level3": "Cằm",
+      "label": "Cằm"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Mặt",
+      "level3": "Mũi",
+      "label": "Mũi"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Mặt",
+      "level3": "Vùng quanh mũi",
+      "label": "Vùng quanh mũi"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Mặt",
+      "level3": "Vùng quanh mắt",
+      "level4": "Mi mắt trên",
+      "label": "Mi mắt trên"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Mặt",
+      "level4": "Mi mắt dưới",
+      "label": "Mi mắt dưới"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Mặt",
+      "level4": "Cung mày",
+      "label": "Cung mày"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Tai",
+      "label": "Tai"
+    },
+    {
+      "level1": "Đầu",
+      "level2": "Vùng sau tai",
+      "label": "Vùng sau tai"
+    },
+    {
+      "level1": "Cổ",
+      "level2": "Cổ trước",
+      "label": "Cổ trước"
+    },
+    {
+      "level1": "Cổ",
+      "level2": "Cổ bên",
+      "label": "Cổ bên"
+    },
+    {
+      "level1": "Cổ",
+      "level2": "Cổ sau",
+      "label": "Cổ sau"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Ngực",
+      "level3": "Tuyến vú",
+      "label": "Tuyến vú"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Ngực",
+      "level3": "Nếp dưới vú",
+      "label": "Nếp dưới vú"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Ngực",
+      "level3": "Núm vú",
+      "label": "Núm vú"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Ngực",
+      "level3": "Quầng vú",
+      "label": "Quầng vú"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Ngực",
+      "level3": "Thành ngực trước",
+      "label": "Thành ngực trước"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Lưng",
+      "level3": "Lưng trên",
+      "label": "Lưng trên"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Lưng",
+      "level3": "Lưng giữa",
+      "label": "Lưng giữa"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Lưng",
+      "level3": "Lưng dưới",
+      "label": "Lưng dưới"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Thắt lưng",
+      "label": "Thắt lưng"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Bụng",
+      "level3": "Vùng quanh rốn",
+      "label": "Vùng quanh rốn"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Bụng",
+      "level3": "Vùng bẹn",
+      "label": "Vùng bẹn"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Bụng",
+      "level3": "Thành bụng",
+      "label": "Thành bụng"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Thân mình bên",
+      "level3": "Hố nách",
+      "label": "Hố nách"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Thân mình bên",
+      "level3": "Vùng mào chậu",
+      "label": "Vùng mào chậu"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Vai",
+      "level3": "Khớp vai",
+      "label": "Khớp vai"
+    },
+    {
+      "level1": "Thân mình",
+      "level2": "Đáy chậu",
+      "level3": "Vùng cùng cụt",
+      "label": "Vùng cùng cụt"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Cánh tay",
+      "level3": "Mặt gấp",
+      "label": "Mặt gấp"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Cánh tay",
+      "level3": "Mặt duỗi",
+      "label": "Mặt duỗi"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Khuỷu tay",
+      "level3": "Mặt duỗi ngoài",
+      "label": "Mặt duỗi ngoài"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Khuỷu tay",
+      "level3": "Hố khuỷu",
+      "label": "Hố khuỷu"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Cẳng tay",
+      "level3": "Mặt gấp",
+      "label": "Mặt gấp"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Cẳng tay",
+      "level3": "Mặt duỗi",
+      "label": "Mặt duỗi"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Bàn tay",
+      "level3": "Cổ tay",
+      "label": "Cổ tay"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Bàn tay",
+      "level3": "Mu bàn tay",
+      "label": "Mu bàn tay"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Bàn tay",
+      "level3": "Lòng bàn tay",
+      "label": "Lòng bàn tay"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Bàn tay",
+      "level3": "Kẽ ngón tay",
+      "label": "Kẽ ngón tay"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Bàn tay",
+      "level3": "Ô mô cái",
+      "label": "Ô mô cái"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Bàn tay",
+      "level3": "Ngón tay",
+      "level4": "Mặt bên ngón tay",
+      "label": "Mặt bên ngón tay"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Bàn tay",
+      "level4": "Mặt gan ngón tay",
+      "label": "Mặt gan ngón tay"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Bàn tay",
+      "level4": "Mặt mu ngón tay",
+      "label": "Mặt mu ngón tay"
+    },
+    {
+      "level1": "Chi trên",
+      "level2": "Bàn tay",
+      "level4": "Đầu ngón tay",
+      "label": "Đầu ngón tay"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Mông",
+      "label": "Mông"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Đùi",
+      "level3": "Mặt trong đùi",
+      "label": "Mặt trong đùi"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Đùi",
+      "level3": "Mặt ngoài đùi",
+      "label": "Mặt ngoài đùi"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Gối",
+      "label": "Gối"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Hố khoeo",
+      "label": "Hố khoeo"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Cẳng chân",
+      "level3": "Mặt duỗi",
+      "label": "Mặt duỗi"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Cẳng chân",
+      "level3": "Mặt gấp",
+      "label": "Mặt gấp"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Cổ chân",
+      "label": "Cổ chân"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Bàn chân",
+      "level3": "Mu bàn chân",
+      "label": "Mu bàn chân"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Bàn chân",
+      "level3": "Lòng bàn chân",
+      "level4": "Vùng gót chân",
+      "label": "Vùng gót chân"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Bàn chân",
+      "level4": "Gan bàn chân",
+      "label": "Gan bàn chân"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Bàn chân",
+      "level3": "Khớp bàn ngón thứ nhất",
+      "label": "Khớp bàn ngón thứ nhất"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Bàn chân",
+      "level3": "Kẽ ngón chân",
+      "label": "Kẽ ngón chân"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Bàn chân",
+      "level3": "Ngón chân",
+      "level4": "Mặt mu ngón chân",
+      "label": "Mặt mu ngón chân"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Bàn chân",
+      "level4": "Mặt gan ngón chân",
+      "label": "Mặt gan ngón chân"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Bàn chân",
+      "level4": "Mặt bên ngón chân",
+      "label": "Mặt bên ngón chân"
+    },
+    {
+      "level1": "Chi dưới",
+      "level2": "Bàn chân",
+      "level4": "Đầu ngón chân",
+      "label": "Đầu ngón chân"
+    },
+    {
+      "level1": "Móng",
+      "level2": "Bản móng",
+      "label": "Bản móng"
+    },
+    {
+      "level1": "Móng",
+      "level2": "Giường móng",
+      "label": "Giường móng"
+    },
+    {
+      "level1": "Móng",
+      "level2": "Gốc móng",
+      "label": "Gốc móng"
+    },
+    {
+      "level1": "Móng",
+      "level2": "Nếp gấp móng",
+      "label": "Nếp gấp móng"
+    },
+    {
+      "level1": "Móng",
+      "level2": "Rãnh móng",
+      "label": "Rãnh móng"
+    },
+    {
+      "level1": "Tầng sinh môn",
+      "level2": "Hậu môn",
+      "label": "Hậu môn"
+    },
+    {
+      "level1": "Tầng sinh môn",
+      "level2": "Cơ quan sinh dục nữ ngoài",
+      "level3": "Môi lớn",
+      "label": "Môi lớn"
+    },
+    {
+      "level1": "Tầng sinh môn",
+      "level2": "Cơ quan sinh dục nữ ngoài",
+      "level3": "Môi bé",
+      "label": "Môi bé"
+    },
+    {
+      "level1": "Tầng sinh môn",
+      "level2": "Cơ quan sinh dục nữ ngoài",
+      "level3": "Âm vật",
+      "label": "Âm vật"
+    },
+    {
+      "level1": "Tầng sinh môn",
+      "level2": "Cơ quan sinh dục nữ ngoài",
+      "level3": "Lỗ âm đạo",
+      "label": "Lỗ âm đạo"
+    },
+    {
+      "level1": "Tầng sinh môn",
+      "level2": "Cơ quan sinh dục nam ngoài",
+      "level3": "Bìu",
+      "label": "Bìu"
+    },
+    {
+      "level1": "Tầng sinh môn",
+      "level2": "Cơ quan sinh dục nam ngoài",
+      "level3": "Dương vật",
+      "level4": "Quy đầu",
+      "label": "Quy đầu"
+    },
+    {
+      "level1": "Tầng sinh môn",
+      "level2": "Cơ quan sinh dục nam ngoài",
+      "level4": "Lỗ niệu đạo ngoài",
+      "label": "Lỗ niệu đạo ngoài"
+    },
+    {
+      "level1": "Tầng sinh môn",
+      "level2": "Cơ quan sinh dục nam ngoài",
+      "level4": "Rãnh quy đầu",
+      "label": "Rãnh quy đầu"
+    },
+    {
+      "level1": "Tầng sinh môn",
+      "level2": "Cơ quan sinh dục nam ngoài",
+      "level4": "Bao quy đầu",
+      "label": "Bao quy đầu"
+    },
+    {
+      "level1": "Tầng sinh môn",
+      "level2": "Cơ quan sinh dục nam ngoài",
+      "level4": "Thân dương vật",
+      "label": "Thân dương vật"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Niêm mạc miệng",
+      "level3": "Niêm mạc môi",
+      "label": "Niêm mạc môi"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Niêm mạc miệng",
+      "level3": "Niêm mạc má",
+      "label": "Niêm mạc má"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Lưỡi",
+      "level3": "Lưng lưỡi",
+      "label": "Lưng lưỡi"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Lưỡi",
+      "level3": "Đầu lưỡi",
+      "label": "Đầu lưỡi"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Lưỡi",
+      "level3": "Gốc lưỡi",
+      "label": "Gốc lưỡi"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Lưỡi",
+      "level3": "Bờ bên lưỡi",
+      "label": "Bờ bên lưỡi"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Lưỡi",
+      "level3": "Mặt dưới lưỡi",
+      "label": "Mặt dưới lưỡi"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Khẩu cái",
+      "level3": "Khẩu cái cứng",
+      "label": "Khẩu cái cứng"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Khẩu cái",
+      "level3": "Khẩu cái mềm",
+      "label": "Khẩu cái mềm"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Hầu họng",
+      "label": "Hầu họng"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Môi",
+      "level3": "Môi trên",
+      "label": "Môi trên"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Môi",
+      "level3": "Môi dưới",
+      "label": "Môi dưới"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Môi",
+      "level3": "Khóe mép",
+      "label": "Khóe mép"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Nướu răng",
+      "level3": "Viền nướu",
+      "label": "Viền nướu"
+    },
+    {
+      "level1": "Khoang miệng",
+      "level2": "Răng",
+      "level3": "Thân răng",
+      "label": "Thân răng"
+    },
+    {
+      "level1": "Vị trí không xác định",
+      "level2": "Da không rõ vị trí",
+      "level3": "Chi thể chung",
+      "label": "Chi thể chung"
+    },
+    {
+      "level1": "Vị trí không xác định",
+      "level2": "Niêm mạc không rõ vị trí",
+      "level3": "Niêm mạc chung",
+      "label": "Niêm mạc chung"
+    },
+    {
+      "level1": "Vị trí không xác định",
+      "level2": "Niêm mạc không rõ vị trí",
+      "label": "Niêm mạc không rõ vị trí"
+    }
+  ],
+  "colors": [
+    "Erythematous",
+    "Màu đỏ",
+    "Pink",
+    "Màu hồng",
+    "Brown",
+    "Màu nâu",
+    "Black",
+    "Màu đen",
+    "White",
+    "Màu trắng",
+    "Gray",
+    "Màu xám",
+    "Yellow",
+    "Màu vàng",
+    "Orange",
+    "Màu cam",
+    "Purple",
+    "Màu tím",
+    "Blue",
+    "Màu xanh",
+    "Green",
+    "Màu xanh lục",
+    "Honey-coloured",
+    "Màu vàng mật ong",
+    "Silvery",
+    "Màu trắng bạc",
+    "Pearly",
+    "Màu trắng ngọc trai",
+    "Flesh-colored",
+    "Màu da"
+  ],
+  "boundaries": [
+    "Well-defined",
+    "Rõ",
+    "Ill-defined",
+    "Không rõ",
+    "Regular",
+    "Đều",
+    "Irregular",
+    "Không đều",
+    "Polycyclic",
+    "Đa cung",
+    "Rolled border",
+    "Bờ gồ cuộn"
+  ],
+  "shapes": [
+    "Round",
+    "Hình tròn",
+    "Oval",
+    "Hình bầu dục",
+    "Polygonal",
+    "Hình đa giác",
+    "Irregular",
+    "Không đều",
+    "Dome-shaped",
+    "Dạng vòm",
+    "Verrucous",
+    "Dạng sùi",
+    "Linear",
+    "Dạng dải",
+    "Serpiginous",
+    "Dạng ngoằn ngoèo",
+    "Annular",
+    "Dạng vòng",
+    "Targetoid",
+    "Dạng bia bắn",
+    "Reticular",
+    "Dạng lưới",
+    "Gyrate",
+    "Dạng xoắn vòng",
+    "Geographic",
+    "Dạng bản đồ",
+    "Umbilicated",
+    "Dạng lõm rốn",
+    "Stellate",
+    "Hình sao",
+    "Arcuate",
+    "Hình cung"
+  ],
+  "quantities_distributions_raw": [
+    "Tiếng Anh",
+    "Tiếng Việt",
+    "Số lượng",
+    "Solitary",
+    "Đơn độc",
+    "Oligo",
+    "Vài tổn thương",
+    "Multiple",
+    "Nhiều tổn thương",
+    "Phân bố",
+    "Localized",
+    "Khu trú",
+    "Generalized",
+    "Toàn thân lan tỏa",
+    "Dense",
+    "Dày đặc",
+    "Symmetric",
+    "Đối xứng",
+    "Asymmetric",
+    "Bất đối xứng",
+    "Unilateral",
+    "Một bên",
+    "Scattered",
+    "Rải rác",
+    "Clustered",
+    "Dạng cụm",
+    "Confluent",
+    "Hợp lưu",
+    "Linear",
+    "Dạng đường",
+    "Satellite",
+    "Dạng vệ tinh",
+    "Segmental",
+    "Phân đoạn",
+    "Flexural",
+    "Mặt gấp",
+    "Extensor",
+    "Mặt duỗi",
+    "Follicular",
+    "Quanh nang lông",
+    "Intertriginous",
+    "Vùng nếp kẽ",
+    "Photodistributive",
+    "Vùng phơi sáng",
+    "Monomorphic",
+    "Đồng dạng",
+    "Polymorphic",
+    "Đa dạng"
+  ],
+  "sizes": [
+    "Tiếng Anh",
+    "Tiếng Việt",
+    "Kích thước",
+    "Needlepoint-sized",
+    "Cỡ đầu kim",
+    "< 0.1 cm",
+    "Sesame-seed-sized",
+    "Cỡ hạt mè",
+    "0.1 - 0.2 cm",
+    "Rice-grain-sized",
+    "Cỡ hạt gạo",
+    "0.3 - 0.7 cm",
+    "Soybean-sized",
+    "Cỡ hạt đậu nành",
+    "0.7 - 1 cm",
+    "Finger-nail-sized",
+    "Cỡ móng tay",
+    "1 - 1.5 cm",
+    "Coin-sized",
+    "Cỡ đồng xu",
+    "1,5 - 2,5 cm",
+    "Walnut-sized",
+    "Cỡ quả óc chó",
+    "2.5 - 3 cm",
+    "Palm-sized",
+    "Cỡ lòng bàn tay",
+    "> 7 cm",
+    "x cm in diameter",
+    "Đường kính X cm",
+    "y cm × z cm",
+    "Y cm × Z cm"
+  ],
+  "flat_attribute_values": [
+    "Màu sắc (Color)",
+    "Màu đỏ, Màu hồng, Màu nâu, Màu đen, Màu trắng, Màu xám, Màu vàng, Màu cam, Màu tím, Màu xanh lam, Màu xanh lục, Màu da bình thường, Màu vàng mật ong, Trắng ngọc trai, Màu trắng bạc",
+    "Hình thái (Shape)",
+    "Hình tròn, Hình bầu dục, Hình đa giác, Không đều, Dạng vòm, Dạng sùi súp lơ, Dạng đường thẳng, Hình sao, Hình cung, Dạng ngoằn ngoèo, Dạng vòng tròn, Dạng bia bắn, Dạng mạng lưới, Dạng vân sóng, Dạng bản đồ, Dạng lõm rốn",
+    "Số lượng (Quantity)",
+    "Đơn độc, Vài tổn thương, Nhiều tổn thương",
+    "Phân bố (Distribution)",
+    "Khu trú, Toàn thân lan tỏa, Dày đặc, Đối xứng, Bất đối xứng, Một bên, Rải rác, Dạng cụm, Hợp lưu, Dạng đường, Dạng vệ tinh, Phân đoạn, Mặt gấp, Mặt duỗi, Quanh nang lông, Vùng nếp kẽ, Vùng phơi sáng, Đồng dạng, Đa dạng",
+    "Đường bờ (Boundary)",
+    "Rõ, Không rõ, Đều, Không đều, Đa cung, Bờ gồ cuộn",
+    "Kích thước (Size)",
+    "Cỡ đầu kim, Cỡ hạt mè, Cỡ hạt kê, Cỡ hạt gạo, Cỡ hạt đậu xanh, Cỡ hạt đậu nành, Cỡ móng tay, Cỡ đồng xu, Cỡ quả óc chó, Cỡ lòng bàn tay, Đường kính X cm, X cm × Y cm"
+  ],
+  "lesion_types": [
+    {
+      "name_en": "Macule",
+      "name_vi": "Dát",
+      "surface": "Phẳng (ngang mặt da)",
+      "size": "<= 1cm",
+      "description": "Chỉ biến đổi màu sắc (đỏ, nâu, trắng); bề mặt phẳng hoàn toàn, sờ không thấy cộm hay gồ.",
+      "differentiation": "Cùng là tổn thương phẳng nhưng  , khác với Patch( ). Không sờ thấy gồ như Papule."
+    },
+    {
+      "name_en": "Patch",
+      "name_vi": "Dát lớn / Mảng dát",
+      "surface": "Phẳng (ngang mặt da)",
+      "size": "> 1cm",
+      "description": "Vùng đổi màu diện rộng, phẳng nhẵn, ranh giới có thể rõ hoặc mờ, không có độ dày mô.",
+      "differentiation": "Khác Macule ở kích thước lớn hơn; khác Plaque ở chỗ hoàn toàn phẳng, sờ lướt tay không gợn cộm."
+    },
+    {
+      "name_en": "Papule",
+      "name_vi": "Sẩn",
+      "surface": "Gồ cao, chắc (Solid)",
+      "size": "<= 1cm",
+      "description": "Tổn thương mô đặc nhô lên khỏi bề mặt da; có thể có chóp nhọn, vòm tròn, phẳng đỉnh hoặc rốn lõm.",
+      "differentiation": "Khác Macule vì sờ thấy cộm gồ; khác Nodule vì nông và nhỏ hơn; khác Vesicle vì chứa mô chắc chứ không chứa dịch."
+    },
+    {
+      "name_en": "Plaque",
+      "name_vi": "Mảng",
+      "surface": "Gồ cao, dạng cao nguyên",
+      "size": "> 1cm",
+      "description": "Vùng da gồ rộng bản, đỉnh bằng phẳng, thường hình thành do nhiều sẩn (papules) hợp lưu lại với nhau.",
+      "differentiation": "Khác Papule vì diện tích  ; khác Patch vì có độ dày nổi cộm; khác Nodule vì phát triển bè rộng theo chiều ngang hơn là ăn sâu."
+    },
+    {
+      "name_en": "Nodule",
+      "name_vi": "Cục",
+      "surface": "Gồ hoặc chìm sâu",
+      "size": "> 1cm",
+      "description": "Khối chắc hình cầu/bán cầu, nằm sâu ở trung bì hoặc hạ bì, sờ thấy ranh giới 3 chiều rõ rệt.",
+      "differentiation": "Khác Papule vì kích thước lớn và ăn sâu hơn; khác Plaque vì phát triển theo chiều sâu dạng khối đặc hình cầu."
+    },
+    {
+      "name_en": "Tumor",
+      "name_vi": "U",
+      "surface": "Gồ lớn, choán chỗ",
+      "size": "> 2-3 cm",
+      "description": "Khối mô lớn phát triển tự do, có cấu trúc gồ ghề, sùi hoặc xâm lấn sâu xuống các lớp dưới da.",
+      "differentiation": "Kích thước và độ xâm lấn sâu vượt trội so với Nodule; có xu hướng làm biến dạng cấu trúc giải phẫu xung quanh."
+    },
+    {
+      "name_en": "Vesicle",
+      "name_vi": "Mụn nước",
+      "surface": "Gồ nông, chứa dịch",
+      "size": "<= 1 cm",
+      "description": "Nốt phồng nông ở thượng bì chứa dịch lỏng trong suốt, huyết thanh hoặc dịch lẫn máu.",
+      "differentiation": "Khác Papule vì chứa dịch lỏng; khác Bulla vì kích thước nhỏ; khác Pustule vì dịch trong suốt chứ không phải mủ đục."
+    },
+    {
+      "name_en": "Bulla",
+      "name_vi": "Bọng nước",
+      "surface": "Gồ nông/sâu, chứa dịch",
+      "size": "> 1 cm",
+      "description": "Bọng nước kích thước lớn, thành bọng có thể căng hoặc chùng tùy theo vị trí tách mô ở thượng bì hay dưới màng đáy.",
+      "differentiation": "Khác Vesicle ở đường kính  ; khác Cyst vì thành bọng rất mỏng và nằm nông hơn."
+    },
+    {
+      "name_en": "Pustule",
+      "name_vi": "Mụn mủ",
+      "surface": "Gồ nông, chứa mủ",
+      "size": "Không cố định ( <= 1cm )",
+      "description": "Tổn thương nhô lên chứa dịch viêm mủ màu trắng đục, vàng hoặc xanh nhạt (giàu bạch cầu trung tính).",
+      "differentiation": "Khác Vesicle ở tính chất dịch (dịch mủ đục do xác bạch cầu thay vì dịch huyết thanh trong suốt)."
+    },
+    {
+      "name_en": "Cyst",
+      "name_vi": "Nang",
+      "surface": "Gồ vòm, có vỏ bao",
+      "size": "Đa dạng ( > 0.5 cm)",
+      "description": "Túi kín có vách biểu mô hoàn chỉnh bao bọc, chứa dịch lỏng, dịch nhầy hoặc chất bã nhờn; sờ có tính bùng nhùng (fluctuant).",
+      "differentiation": "Khác Abscess vì có vách bao xơ biểu mô mạn tính và không viêm cấp tính; khác Nodule vì bên trong chứa dịch/chất bã chứ không phải mô đặc."
+    },
+    {
+      "name_en": "Wheal",
+      "name_vi": "Mày đay",
+      "surface": "Gồ phù nề tạm thời",
+      "size": "Thay đổi linh hoạt",
+      "description": "Mảng phù nề mô kẽ trung bì, trung tâm nhạt màu, rìa đỏ xung huyết; xuất hiện đột ngột và biến mất trong 24 giờ.",
+      "differentiation": "Khác Plaque vì tính chất phù nề tạm thời, không có hiện tượng tăng sừng hay bong vảy bề mặt, mất đi nhanh chóng không để lại dấu vết."
+    },
+    {
+      "name_en": "Scale",
+      "name_vi": "Vảy da",
+      "surface": "Biến đổi bề mặt",
+      "size": "Mọi kích thước",
+      "description": "Lớp tế bào sừng chết tích tụ và bong tróc khỏi lớp biểu bì (vảy bạc, vảy cám, vảy nhờn).",
+      "differentiation": "Là lớp sừng khô tự nhiên bong ra, khác Crust vì không được hình thành từ dịch tiết hay máu khô lại."
+    },
+    {
+      "name_en": "Crust",
+      "name_vi": "Vảy tiết ",
+      "surface": "Biến đổi bề mặt",
+      "size": "Mọi kích thước",
+      "description": "Khối vật chất khô hình thành do huyết thanh, mủ hoặc máu rỉ ra bề mặt rồi đông cứng lại (thường màu vàng mật ong hoặc đỏ nâu).",
+      "differentiation": "Được cấu tạo từ dịch ngoại tiết khô đọng; khi bóc tách thường để lại nền da trợt ẩm hoặc rớm máu, khác với tế bào sừng của Scale."
+    },
+    {
+      "name_en": "Erosion",
+      "name_vi": "Vết trợt",
+      "surface": "Khuyết lõm nông",
+      "size": "Mọi kích thước",
+      "description": "Mất một phần hoặc toàn bộ lớp biểu bì (thượng bì); đáy ẩm ướt, màu đỏ, rỉ dịch nhẹ, màng đáy còn nguyên vẹn.",
+      "differentiation": "Lành không bao giờ để lại sẹo vì tổn thương chưa vượt qua màng đáy; khác Ulcer ở độ sâu tổn thương."
+    },
+    {
+      "name_en": "Ulcer",
+      "name_vi": "Vết loét",
+      "surface": "Khuyết lõm sâu",
+      "size": "Mọi kích thước",
+      "description": "Mất toàn bộ thượng bì và ăn sâu qua màng đáy vào ít nhất một phần lớp trung bì hoặc hạ bì; đáy có thể có giả mạc, mủ hoặc hoại tử.",
+      "differentiation": "Luôn để lại sẹo vĩnh viễn sau khi lành do tổn thương cấu trúc trung bì nâng đỡ; sâu hơn nhiều so với Erosion."
+    },
+    {
+      "name_en": "Fissure",
+      "name_vi": "Vết nứt kẽ",
+      "surface": "Rãnh nứt sâu",
+      "size": "Tuyến tính hẹp",
+      "description": "Đường nứt tuyến tính thẳng hẹp, sắc gọn đi qua thượng bì vào trung bì, hay xuất hiện ở vùng da khô ráp, nếp gấp hoặc gót chân.",
+      "differentiation": "Khác Ulcer vì có hình dạng đường nứt kẻ rãnh hẹp, thành vết nứt dốc đứng chứ không tạo lòng khuyết lõm hình tròn/bầu dục."
+    },
+    {
+      "name_en": "Lichenification",
+      "name_vi": "Liken hóa",
+      "surface": "Dày sừng bề mặt",
+      "size": "Vùng mảng",
+      "description": "Da dày lên rõ rệt, sờ thô ráp như da thuộc, các rãnh hằn tự nhiên của vân da sâu và nổi rõ lên thành các ô đa giác.",
+      "differentiation": "Hậu quả của cọ xát/cào gãi mạn tính kéo dài; khác Plaque thông thường ở chỗ vân da tự nhiên bị phóng đại và hằn sâu bất thường."
+    },
+    {
+      "name_en": "Scar",
+      "name_vi": "Sẹo",
+      "surface": "Xơ hóa mô",
+      "size": "Mọi kích thước",
+      "description": "Mô xơ liên kết mới hình thành để thay thế vùng khuyết trung bì; bề mặt nhẵn bóng, mất các nếp nhăn và mất hoàn toàn lỗ chân lông.",
+      "differentiation": "Khác vùng da lành hoặc dát teo vì không có các phần phụ của da (lông, tuyến bã); cấu trúc collagen dày đặc, xơ cứng."
+    },
+    {
+      "name_en": "Atrophy",
+      "name_vi": "Teo da",
+      "surface": "Mỏng mô",
+      "size": "Khu trú/Lan tỏa",
+      "description": "Da mỏng manh, nhăn nheo giống như giấy cuốn thuốc lá bóng kính, mất độ đàn hồi, nhìn thấy rõ các mạng mạch máu bên dưới.",
+      "differentiation": "Khác da bình thường ở độ mỏng và mất nếp vân da; khác Erosionvì lớp thượng bì vẫn còn nguyên vẹn, không bị bong trợt hở đáy."
+    },
+    {
+      "name_en": "Burrow",
+      "name_vi": "Đường hầm",
+      "surface": "Rãnh nhỏ ngoằn ngoèo",
+      "size": "Dài 0.2 - 1cm",
+      "description": "Đường rãnh gồ nhẹ, ngoằn ngoèo, màu xám nhạt hoặc nâu ở lớp sừng; tận cùng rãnh thường có mụn nước nhỏ (dấu hiệu của cái ghẻ).",
+      "differentiation": "Dạng đường tuyến tính lượn sóng đặc trưng ở lớp sừng tại các vị trí đặc thù (kẽ ngón tay, nếp cổ tay), chỉ gặp trong bệnh ký sinh trùng."
+    }
+  ],
+  "diseases_vietnamese": [
+    {
+      "name_en": "Acanthosis palmaris",
+      "name_vi": "Gai đen lòng bàn tay",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Acne vulgaris",
+      "name_vi": "Mụn trứng cá thông thường",
+      "icd10": "L70.0"
+    },
+    {
+      "name_en": "Achromic naevus",
+      "name_vi": "Nốt ruồi không sắc tố",
+      "icd10": ""
+    },
+    {
+      "name_en": "Acquired dermal macular hyperpigmentation",
+      "name_vi": "Tăng sắc tố dạng dát ở trung bì mắc phải",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Acquired lymphangiectasia",
+      "name_vi": "Giãn mạch bạch huyết mắc phải",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Acrodermatitis enteropathica",
+      "name_vi": "Viêm da đầu chi ruột",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Acropustulosis of infancy",
+      "name_vi": "Mụn mủ đầu chi ở trẻ nhỏ",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Actinic cheilitis",
+      "name_vi": "Viêm môi ánh sáng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Actinic keratosis",
+      "name_vi": "Dày sừng quang hoá",
+      "icd10": "L57.0"
+    },
+    {
+      "name_en": "Acute generalised exanthematous pustulosis",
+      "name_vi": "Phát ban mụn mủ toàn thân cấp tính",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Airborne contact dermatitis",
+      "name_vi": "Viêm da tiếp xúc qua đường không khí",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Alopecia areata",
+      "name_vi": "Rụng tóc từng mảng",
+      "icd10": "L63"
+    },
+    {
+      "name_en": "Alopecia mucinosa",
+      "name_vi": "Bệnh nhầy nang lông",
+      "icd10": "L65.2"
+    },
+    {
+      "name_en": "Amputation stump dermatoses",
+      "name_vi": "Bệnh da ở mỏm cụt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Anagen effluvium",
+      "name_vi": "Rụng tóc giai đoạn phát triển",
+      "icd10": "L65.1"
+    },
+    {
+      "name_en": "Anetoderma",
+      "name_vi": "Teo điểm vàng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Angioma serpiginosum",
+      "name_vi": "U mạch hình rắn",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Angular cheilitis",
+      "name_vi": "Viêm khoé miệng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Anogenital squamous cell carcinoma",
+      "name_vi": "Ung thư biểu mô tế bào vảy vùng hậu môn sinh dục",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Anogenital wart",
+      "name_vi": "Mụn cóc sinh dục hậu môn",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Anthrax",
+      "name_vi": "Bệnh than",
+      "icd10": "A22"
+    },
+    {
+      "name_en": "Apocrine chromhidrosis",
+      "name_vi": "Rối loạn mồ hôi màu tuyến đầu huỷ",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Arthropod bites and stings",
+      "name_vi": "Vết cắn và đốt do động vật chân đốt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Aspergillosis",
+      "name_vi": "Nhiễm nấm Aspergillus",
+      "icd10": "B44"
+    },
+    {
+      "name_en": "Asteatotic eczema",
+      "name_vi": "Chàm nứt nẻ",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Atopic dermatitis",
+      "name_vi": "Viêm da cơ địa",
+      "icd10": "L20"
+    },
+    {
+      "name_en": "Atypical melanocytic naevus",
+      "name_vi": "Nốt ruồi tế bào melanin không điển hình",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Atypical mycobacterial infection",
+      "name_vi": "Nhiễm trùng mycobacterial không điển hình",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Atypical solar lentigo",
+      "name_vi": "Đốm sắc tố do nắng không điển hình",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Bacterial folliculitis",
+      "name_vi": "Viêm nang lông do vi khuẩn",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Basal cell carcinoma",
+      "name_vi": "Ung thư biểu mô tế bào đáy",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Benign hereditary telangiectasia",
+      "name_vi": "Giãn mao mạch di truyền lành tính",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Blue nevus",
+      "name_vi": "Bớt xanh",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Calcinosis cutis",
+      "name_vi": "Vôi hoá da",
+      "icd10": "L94.2"
+    },
+    {
+      "name_en": "Carotenoderma",
+      "name_vi": "Vàng da do tăng caroten",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Cellulitis",
+      "name_vi": "Viêm mô tế bào",
+      "icd10": "L03"
+    },
+    {
+      "name_en": "Cherry angioma",
+      "name_vi": "U mạch anh đào",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Chilblains",
+      "name_vi": "Bệnh cước",
+      "icd10": "T69.1"
+    },
+    {
+      "name_en": "Cold urticaria",
+      "name_vi": "Mày đay do lạnh",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Colloid milium",
+      "name_vi": "Hạt kê dạng keo",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Cryoglobulinemia",
+      "name_vi": "Cryoglobulin huyết",
+      "icd10": "D89.1"
+    },
+    {
+      "name_en": "Cutaneous abscess",
+      "name_vi": "Áp-xe da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Cutaneous horn",
+      "name_vi": "Sừng da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Cutaneous larva migrans",
+      "name_vi": "Ấu trùng di chuyển dưới da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Cutaneous lupus erythematosus",
+      "name_vi": "Lupus ban đỏ da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Cutaneous tuberculosis",
+      "name_vi": "Lao da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Cutaneous vasculitis",
+      "name_vi": "Viêm mạch máu da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Delayed pressure urticaria",
+      "name_vi": "Mày đay áp lực chậm",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Dermatitis artefacta",
+      "name_vi": "Viêm da tự tạo",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Dermatofibroma",
+      "name_vi": "U xơ da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Dermatosis papulosa nigra",
+      "name_vi": "Sẩn đen da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Digital myxoid pseudocyst",
+      "name_vi": "U nang nhầy ngón tay",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Discoid lupus erythematosus",
+      "name_vi": "Lupus ban đỏ dạng đĩa",
+      "icd10": "L93.0"
+    },
+    {
+      "name_en": "Disseminate and recurrent infundibulofolliculitis",
+      "name_vi": "Viêm nang lông lan tỏa và tái phát",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Disseminated secondary eczema",
+      "name_vi": "Tự mẫn cảm da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Dry gangrene",
+      "name_vi": "Hoại thư khô",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Dyshidrotic eczema",
+      "name_vi": "Chàm tổ đỉa",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Ecthyma",
+      "name_vi": "Chốc loét",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Eczema herpeticum",
+      "name_vi": "Viêm da do virus herpes",
+      "icd10": "B00.0"
+    },
+    {
+      "name_en": "Elastosis perforans serpiginosa",
+      "name_vi": "Bệnh thoái hoá sợi đàn hồi xuyên biểu bì hình rắn",
+      "icd10": "L87.2"
+    },
+    {
+      "name_en": "Eosinophilic pustular folliculitis",
+      "name_vi": "Viêm nang long tăng bạch cầu ái toan",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Epidermal naevus",
+      "name_vi": "Bớt thượng bì",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Epidermoid cyst",
+      "name_vi": "Nang thượng bì",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Epidermolysis bullosa",
+      "name_vi": "Bệnh ly thượng bì bọng nước",
+      "icd10": "Q81"
+    },
+    {
+      "name_en": "Epidermolysis bullosa acquisita",
+      "name_vi": "Ly thượng bì bọng nước mắc phải",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Erysipelas",
+      "name_vi": "Viêm quầng",
+      "icd10": "A46"
+    },
+    {
+      "name_en": "Erysipeloid",
+      "name_vi": "Bệnh viêm quầng đỏ",
+      "icd10": "A26"
+    },
+    {
+      "name_en": "Erythema ab igne",
+      "name_vi": "Ban đỏ do nhiệt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Erythema annulare centrifugum",
+      "name_vi": "Viêm da dạng vòng ly tâm",
+      "icd10": "L53.1"
+    },
+    {
+      "name_en": "Erythema elevatum diutinum",
+      "name_vi": "Hồng ban nổi cao dai dẳng",
+      "icd10": "L95.1"
+    },
+    {
+      "name_en": "Erythema infectiosum",
+      "name_vi": "Ban đỏ nhiễm khuẩn",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Erythema multiforme",
+      "name_vi": "Hồng ban đa dạng",
+      "icd10": "L51"
+    },
+    {
+      "name_en": "Erythema nodosum",
+      "name_vi": "Hồng ban nút",
+      "icd10": "L52"
+    },
+    {
+      "name_en": "Erythrodermic psoriasis",
+      "name_vi": "Vảy nến đỏ da toàn thân",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Erythrokeratoderma",
+      "name_vi": "Đỏ da dày sừng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Exanthems",
+      "name_vi": "Ngoại ban",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Exercise-induced vasculitis",
+      "name_vi": "Viêm mạch do vận động",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Exfoliative cheilitis",
+      "name_vi": "Viêm môi bong vảy",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Extramammary Paget disease of skin",
+      "name_vi": "Bệnh Paget ngoài vú",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Eyelid contact dermatitis",
+      "name_vi": "Viêm da tiếp xúc ở mi mắt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Fissured tongue",
+      "name_vi": "Lưỡi nứt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Foreign body granuloma",
+      "name_vi": "U hạt do dị vật",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Generalised essential telangiectasia",
+      "name_vi": "Giãn mạch nguyên phát lan tỏa",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Generalised pustular psoriasis",
+      "name_vi": "Vảy nến mụn mủ toàn thân",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Genital Crohn disease",
+      "name_vi": "Bệnh Crohn sinh dục",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Geographic tongue",
+      "name_vi": "Lưỡi bản đồ",
+      "icd10": "K14.1"
+    },
+    {
+      "name_en": "Gingivitis and periodontitis",
+      "name_vi": "Viêm lợi và viêm quanh răng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Glomus tumour",
+      "name_vi": "U cuộn mạch",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Gout",
+      "name_vi": "Gút",
+      "icd10": "M10"
+    },
+    {
+      "name_en": "Granular parakeratosis",
+      "name_vi": "Á sừng dạng hạt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Granuloma annulare",
+      "name_vi": "U hạt vòng",
+      "icd10": "L92.0"
+    },
+    {
+      "name_en": "Granuloma faciale",
+      "name_vi": "U hạt ở mặt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Granuloma inguinale",
+      "name_vi": "U hạt ở bẹn",
+      "icd10": "A58"
+    },
+    {
+      "name_en": "Granulomatous dermatitis",
+      "name_vi": "Viêm da dạng u hạt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Hairy tongue",
+      "name_vi": "Lưỡi lông",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Halo nevus",
+      "name_vi": "Nốt ruồi quầng sáng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Hand dermatitis",
+      "name_vi": "Chàm bàn tay",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Hereditary haemorrhagic telangiectasia",
+      "name_vi": "Giãn mao mạch xuất huyết di truyền",
+      "icd10": "I78.0"
+    },
+    {
+      "name_en": "Herpangina",
+      "name_vi": "Viêm họng mụn nước",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Herpes simplex",
+      "name_vi": "Bệnh do virus herpes simplex",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Herpes zoster",
+      "name_vi": "Bệnh Zona",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Hidradenitis suppurativa",
+      "name_vi": "Viêm tuyến mồ hôi mủ",
+      "icd10": "L73.2"
+    },
+    {
+      "name_en": "Hyperhidrosis",
+      "name_vi": "Tăng tiết mồ hôi",
+      "icd10": "R61"
+    },
+    {
+      "name_en": "Ichthyosis",
+      "name_vi": "Bệnh vảy cá",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Impetigo",
+      "name_vi": "Bệnh chốc",
+      "icd10": "L01"
+    },
+    {
+      "name_en": "Intralymphatic histiocytosis",
+      "name_vi": "Bệnh mô bào trong mạch bạch huyết",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Intravascular lymphoma",
+      "name_vi": "U lympho nội mạch",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Keloid scar",
+      "name_vi": "Sẹo lồi",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Keratoelastoidosis marginalis",
+      "name_vi": "Dày sừng rìa",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Keratolytic winter erythema",
+      "name_vi": "Viêm da dị ứng mùa đông do bong tróc sừng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Keratosis pilaris",
+      "name_vi": "Dày sừng nang lông",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Leg ulcer",
+      "name_vi": "Loét chân",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Leishmaniasis",
+      "name_vi": "Bệnh do nhiễm Leishmania",
+      "icd10": "B55"
+    },
+    {
+      "name_en": "Leprosy",
+      "name_vi": "Bệnh phong",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Leukaemia cutis",
+      "name_vi": "Thâm nhiễm da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Lymphatic malformation",
+      "name_vi": "Dị dạng bạch huyết",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Maculopapular cutaneous mastocytosis",
+      "name_vi": "Bệnh tế bào mast ở da dạng dát sẩn",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Madarosis",
+      "name_vi": "Rụng lông mi hoặc lông mày",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Malassezia folliculitis",
+      "name_vi": "Viêm nang lông do Malassezia",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Male pattern hair loss",
+      "name_vi": "Rụng tóc do androgen",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Malignant histiocytoses",
+      "name_vi": "Bệnh mô bào ác tính",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Mastocytoma",
+      "name_vi": "U tế bào mast",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Measles",
+      "name_vi": "Bệnh sởi",
+      "icd10": "B05"
+    },
+    {
+      "name_en": "Melanocytic naevus",
+      "name_vi": "Nốt ruồi sắc tố",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Melanonychia",
+      "name_vi": "Bệnh tăng sắc tố móng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Melanotic macule",
+      "name_vi": "Dát hắc tố",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Melasma",
+      "name_vi": "Nám da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Meningococcal disease",
+      "name_vi": "Nhiễm khuẩn não mô cầu",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Merkel cell carcinoma",
+      "name_vi": "Ung thư biểu mô tế bào Merkel",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Milium",
+      "name_vi": "Bệnh hạt kê",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Milker's nodule",
+      "name_vi": "Nốt người vắt sữa",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Mixed connective tissue disease",
+      "name_vi": "Bệnh mô liên kết hỗn hợp",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Molluscum contagiosum",
+      "name_vi": "U mềm lây",
+      "icd10": "B08.1"
+    },
+    {
+      "name_en": "Morbilliform drug reaction",
+      "name_vi": "Phát ban dạng sởi do thuốc",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Mucocele of the lip",
+      "name_vi": "U nang nhầy môi",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Multicentric reticulohistiocytosis",
+      "name_vi": "U mô bào lưới đa trung tâm",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Mycoplasma pneumoniae infection",
+      "name_vi": "Nhiễm khuẩn Mycoplasma pneumoniae",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Naevus anaemicus",
+      "name_vi": "Bớt thiếu máu",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Napkin dermatitis",
+      "name_vi": "Viêm da tã lót",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Necrolytic migratory erythema",
+      "name_vi": "Ban đỏ hoại tử di chuyển",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Necrotising fasciitis",
+      "name_vi": "Viêm cân hoại tử",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Neonatal lupus",
+      "name_vi": "Lupus ban đỏ sơ sinh",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Neonatal subcutaneous fat necrosis",
+      "name_vi": "Hoại tử mỡ dưới da ở trẻ sơ sinh",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Neurofibromatosis",
+      "name_vi": "Bệnh u xơ thần kinh",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Nevus comedonicus",
+      "name_vi": "Bớt nhân mụn",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Nickel allergy",
+      "name_vi": "Dị ứng niken",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Nipple eczema",
+      "name_vi": "Chàm núm vú",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Nodular chondrodermatitis",
+      "name_vi": "Viêm da sụn dạng nốt vành tai",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Nodular lymphangitis",
+      "name_vi": "Viêm mạch bạch huyết dạng nốt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Non-sexually acquired genital ulceration",
+      "name_vi": "Loét sinh dục không do đường tình dục",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Nummular eczematous dermatitis",
+      "name_vi": "Chàm đồng tiền",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Onychocryptosis",
+      "name_vi": "Móng chọc thịt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Onychogryphosis",
+      "name_vi": "Móng sừng cừu",
+      "icd10": "L60.2"
+    },
+    {
+      "name_en": "Onychomycosis",
+      "name_vi": "Nấm móng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Onychopapilloma",
+      "name_vi": "U nhú móng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Oral candidiasis",
+      "name_vi": "Bệnh nấm Candida miệng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Oral mucositis - Stomatitis",
+      "name_vi": "Viêm niêm mạc miệng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Orofacial granulomatosis",
+      "name_vi": "U hạt vùng miệng mặt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Osteoma cutis",
+      "name_vi": "U xương ở da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Pachyonychia congenita",
+      "name_vi": "Dày móng bẩm sinh",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Palmoplantar keratoderma",
+      "name_vi": "Dày sừng lòng bàn tay bàn chân",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Palmoplantar pustulosis",
+      "name_vi": "Mụn mủ lòng bàn tay bàn chân",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Panniculitis",
+      "name_vi": "Viêm mô mỡ dưới da",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Papular urticaria",
+      "name_vi": "Mày đay sẩn",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Paronychia",
+      "name_vi": "Viêm quanh móng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Pearly penile papules",
+      "name_vi": "Chuỗi hạt ngọc dương vật",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Pediculosis capitis",
+      "name_vi": "Chấy đầu",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Periarteritis nodosa",
+      "name_vi": "Viêm nốt quanh động mạch",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Periorificial dermatitis",
+      "name_vi": "Viêm da quanh lỗ tự nhiên",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Piezogenic papules",
+      "name_vi": "Sẩn do áp lực",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Pigmented purpura",
+      "name_vi": "Bệnh da xuất huyết tăng sắc tố",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Pilar cyst",
+      "name_vi": "U nang trụ",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Pilomatricoma",
+      "name_vi": "U nang lông",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Pityriasis alba",
+      "name_vi": "Vảy phấn trắng",
+      "icd10": "L30.5"
+    },
+    {
+      "name_en": "Pityriasis amiantacea",
+      "name_vi": "Vảy phấn ami-ăng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Pityriasis rubra pilaris",
+      "name_vi": "Vảy phấn đỏ nang lông",
+      "icd10": "L44.0"
+    },
+    {
+      "name_en": "Pityriasis versicolor",
+      "name_vi": "Lang ben",
+      "icd10": "B36.0"
+    },
+    {
+      "name_en": "Plasmacytoma",
+      "name_vi": "U tương bào",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Polycystic ovary syndrome",
+      "name_vi": "Hội chứng buồng trứng đa nang",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Polymorphic eruption of pregnancy",
+      "name_vi": "Phát ban đa dạng ở phụ nữ mang thai",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Polymorphic light eruption",
+      "name_vi": "Phát ban đa dạng do ánh sáng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Postinflammatory hyperpigmentation",
+      "name_vi": "Tăng sắc tố sau viêm",
+      "icd10": "L81.0"
+    },
+    {
+      "name_en": "Pressure ulcer",
+      "name_vi": "Loét do tỳ đè",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Pretibial myxoedema",
+      "name_vi": "Phù niêm trước xương chày",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Prurigo",
+      "name_vi": "Sẩn ngứa",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Pruritus",
+      "name_vi": "Ngứa da",
+      "icd10": "L29"
+    },
+    {
+      "name_en": "Pseudofolliculitis barbae",
+      "name_vi": "Viêm nang lông giả ở râu",
+      "icd10": "L73.1"
+    },
+    {
+      "name_en": "Psoriasis",
+      "name_vi": "Bệnh vảy nến",
+      "icd10": "L40"
+    },
+    {
+      "name_en": "Psoriatic arthritis",
+      "name_vi": "Viêm khớp vảy nến",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Purpura",
+      "name_vi": "Ban xuất huyết",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Pyoderma",
+      "name_vi": "Viêm da mủ",
+      "icd10": "L08.0"
+    },
+    {
+      "name_en": "Pyogenic granuloma",
+      "name_vi": "U hạt sinh mủ",
+      "icd10": "L98.0"
+    },
+    {
+      "name_en": "Radiation dermatitis",
+      "name_vi": "Viêm da do bức xạ",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Rhinophyma",
+      "name_vi": "Chứng mũi to",
+      "icd10": "L71.1"
+    },
+    {
+      "name_en": "Rosacea",
+      "name_vi": "Trứng cá đỏ",
+      "icd10": "L71"
+    },
+    {
+      "name_en": "Roseola",
+      "name_vi": "Bệnh ban đào",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Scabies",
+      "name_vi": "Bệnh ghẻ",
+      "icd10": "B86"
+    },
+    {
+      "name_en": "Scarlatina",
+      "name_vi": "Sốt tinh hồng nhiệt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Scurvy",
+      "name_vi": "Bệnh Scorbut",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Sebaceous carcinoma",
+      "name_vi": "Ung thư tuyến bã nhờn",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Sebaceous hyperplasia",
+      "name_vi": "Quá sản tuyến bã",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Solar lentigo",
+      "name_vi": "Đốm đồi mồi do nắng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Solar urticaria",
+      "name_vi": "Mày đay ánh nắng",
+      "icd10": "L56.3"
+    },
+    {
+      "name_en": "Spider angioma",
+      "name_vi": "Dấu sao mạch",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Squamous cell carcinoma",
+      "name_vi": "Ung thư biểu mô tế bào vảy",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Steatocystoma multiplex",
+      "name_vi": "Đa u nang tuyến bã",
+      "icd10": "L72.2"
+    },
+    {
+      "name_en": "Sunburn",
+      "name_vi": "Bỏng nắng",
+      "icd10": "L55"
+    },
+    {
+      "name_en": "Swimmer's itch",
+      "name_vi": "Viêm da do sán máng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Syphilis",
+      "name_vi": "Bệnh giang mai",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Systemic lupus erythematosus",
+      "name_vi": "Lupus ban đỏ hệ thống",
+      "icd10": "M32"
+    },
+    {
+      "name_en": "Systemic sclerosis",
+      "name_vi": "Xơ cứng bì toàn thể",
+      "icd10": "M34"
+    },
+    {
+      "name_en": "Tinea barbae",
+      "name_vi": "Nấm da râu",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Tinea capitis",
+      "name_vi": "Nấm da đầu",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Tinea corporis",
+      "name_vi": "Nấm da thân",
+      "icd10": "B35.4"
+    },
+    {
+      "name_en": "Tinea cruris",
+      "name_vi": "Nấm bẹn",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Tinea faciei",
+      "name_vi": "Nấm da mặt",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Tinea manuum",
+      "name_vi": "Nấm bàn tay",
+      "icd10": "B35.2"
+    },
+    {
+      "name_en": "Tinea pedis",
+      "name_vi": "Nấm bàn chân",
+      "icd10": "B35.3"
+    },
+    {
+      "name_en": "Toxic erythema of the newborn",
+      "name_vi": "Ban đỏ nhiễm độc sơ sinh",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Traction alopecia",
+      "name_vi": "Rụng tóc do lực kéo",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Transient lingual papillitis",
+      "name_vi": "Viêm nhú lưỡi thoáng qua",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Transient neonatal pustular melanosis",
+      "name_vi": "Tăng sắc tố mụn mủ thoáng qua ở trẻ sơ sinh",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Triangular alopecia",
+      "name_vi": "Rụng tóc hình tam giác",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Trichomycosis axillaris",
+      "name_vi": "Bệnh nấm lông nách",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Trichotillomania",
+      "name_vi": "Tật giật nhổ tóc",
+      "icd10": "F63.3"
+    },
+    {
+      "name_en": "Tuberous sclerosis",
+      "name_vi": "Bệnh xơ cứng củ",
+      "icd10": "Q85.1"
+    },
+    {
+      "name_en": "Urticaria",
+      "name_vi": "Bệnh mày đay",
+      "icd10": "L50"
+    },
+    {
+      "name_en": "Urticarial vasculitis",
+      "name_vi": "Viêm mạch mày đay",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Varicose veins",
+      "name_vi": "Giãn tĩnh mạch chi dưới",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Venous eczema",
+      "name_vi": "Chàm tĩnh mạch",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Venous lake",
+      "name_vi": "Hồ tĩnh mạch",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Vitiligo",
+      "name_vi": "Bệnh bạch biến",
+      "icd10": "L80"
+    },
+    {
+      "name_en": "Vulval intraepithelial neoplasia",
+      "name_vi": "Tân sinh trong biểu mô âm hộ",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Vulvovaginal candidiasis",
+      "name_vi": "Viêm âm hộ âm đạo do nấm Candida",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Winter itch",
+      "name_vi": "Ngứa mùa đông",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Wound infection",
+      "name_vi": "Nhiễm trùng vết thương hở",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Xanthoma",
+      "name_vi": "U vàng",
+      "icd10": "—"
+    },
+    {
+      "name_en": "Zygomycosis",
+      "name_vi": "Bệnh nấm đen",
+      "icd10": "B46"
+    }
+  ],
+  "diseases_international": [
+    {
+      "name_en": "Acanthoma fissuratum",
+      "name_vi": "U gai dạng rãnh",
+      "category": "Thuật ngữ Latinh",
+      "reason": "Tổn thương nứt loét cơ học do gọng kính; không có từ tương đương."
+    },
+    {
+      "name_en": "Acral lentiginous melanoma",
+      "name_vi": "U hắc tố ác tính vùngđầu chi",
+      "category": "Nhóm u ác Melanoma",
+      "reason": "Lâm sàng da liễu luôn dùng thể Melanoma đầu chi hoặc thể cực."
+    },
+    {
+      "name_en": "Acrodermatitis continua of Hallopeau",
+      "name_vi": "Viêm da mụn mủ đầu chi liên tục",
+      "category": "Tên tác giả",
+      "reason": "Đặt theo bác sĩ da liễu François Henri Hallopeau."
+    },
+    {
+      "name_en": "Acrokeratosis verruciformis of Hopf",
+      "name_vi": "Bệnh dày sừng dạng mụn cóc Hopf",
+      "category": "Tên tác giả",
+      "reason": "Đặt theo bác sĩ Gustav Hopf."
+    },
+    {
+      "name_en": "Acute febrile neutrophilic dermatosis (Sweet syndrome)",
+      "name_vi": "Hội chứng Sweet",
+      "category": "Tên tác giả",
+      "reason": "Lâm sàng luôn chẩn đoán là Hội chứng Sweet."
+    },
+    {
+      "name_en": "Adult-onset Still disease",
+      "name_vi": "Bệnh Still ở người lớn",
+      "category": "Tên tác giả",
+      "reason": "Bệnh Still (George Frederic Still); giữ theo chuẩn ICD-10."
+    },
+    {
+      "name_en": "Alkaptonuria and ochronosis",
+      "name_vi": "Bệnh Alkapton niệu",
+      "category": "Rối loạn sinh hóa",
+      "reason": "Ochronosis (lắng đọng sắc tố) là danh pháp sinh hóa chuẩn."
+    },
+    {
+      "name_en": "Amelanotic melanoma",
+      "name_vi": "U hắc tố ác tínhkhông sắc tố",
+      "category": "Nhóm u ác Melanoma",
+      "reason": "Thể ung thư hắc tố nhưng tế bào mất khả năng sinh melanin."
+    },
+    {
+      "name_en": "Antisynthetase syndrome",
+      "name_vi": "Hội chứng kháng Synthetase",
+      "category": "Hội chứng tự miễn",
+      "reason": "Kháng thể kháng enzyme tRNA synthetase."
+    },
+    {
+      "name_en": "Atrophoderma of Pasini and Pierini",
+      "name_vi": "Bệnh teo da Pasini - Pierini",
+      "category": "Tên tác giả",
+      "reason": "Mang tên hai bác sĩ da liễu Pasini và Pierini."
+    },
+    {
+      "name_en": "Atypical fibroxanthoma",
+      "name_vi": "U xơ vàng không điển hình",
+      "category": "Mô bệnh học",
+      "reason": "Bác sĩ giải phẫu bệnh tại Việt Nam luôn ghi mã tắt AFX."
+    },
+    {
+      "name_en": "Bazin's hydroa vacciniforme",
+      "name_vi": "Bệnh mụn nước dạng đậu mùa",
+      "category": "Tên tác giả",
+      "reason": "Mang tên bác sĩ Pierre-Antoine-Ernest Bazin."
+    },
+    {
+      "name_en": "Benign familial pemphigus",
+      "name_vi": "Bệnh Hailey - Hailey",
+      "category": "Tên tác giả",
+      "reason": "Tên lâm sàng chuẩn toàn quốc là bệnh Hailey-Hailey."
+    },
+    {
+      "name_en": "Birt-Hogg-Dubé syndrome",
+      "name_vi": "Hội chứng Birt - Hogg - Dubé",
+      "category": "Tên tác giả",
+      "reason": "Đặt theo tên ba nhà khoa học Birt, Hogg và Dubé."
+    },
+    {
+      "name_en": "Bullous pemphigoid",
+      "name_vi": "Pemphigoid bọng nước",
+      "category": "Tự miễn kinh điển",
+      "reason": "Bộ Y tế và ICD-10 giữ nguyên thuật ngữ Latinh Pemphigoid."
+    },
+    {
+      "name_en": "Calciphylaxis",
+      "name_vi": "Hội chứng Calciphylaxis",
+      "category": "Bệnh lý mạch máu",
+      "reason": "Hội chứng hoại tử vôi hóa mạch máu; không dịch sang tiếng Việt."
+    },
+    {
+      "name_en": "Cutaneous amyloidosis",
+      "name_vi": "Bệnh thoái hoá tinh bột ở da",
+      "category": "Lắng đọng Protein",
+      "reason": "Giữ nguyên gốc thuật ngữ bệnh học quốc tế Amyloidosis."
+    },
+    {
+      "name_en": "Cutis marmorata telangiectatica congenita",
+      "name_vi": "Bệnh da nổi vân giãn mao mạch bẩm sinh",
+      "category": "Thuật ngữ Latinh",
+      "reason": "Hội chứng mạch máu da hiếm gặp; giữ tên Latinh nguyên bản."
+    },
+    {
+      "name_en": "Cutis verticis gyrata",
+      "name_vi": "Bệnh da đầu xoắn",
+      "category": "Thuật ngữ Latinh",
+      "reason": "Da đầu uốn lượn thành nếp não; luôn ghi mã tên Latinh."
+    },
+    {
+      "name_en": "Disseminated superficial actinic porokeratosis",
+      "name_vi": "Porokeratosis nông lan tỏa do ánh nắng",
+      "category": "Thuật ngữ mượn",
+      "reason": "Nhóm bệnh Porokeratosis không có từ thuần Việt tương đương."
+    },
+    {
+      "name_en": "Dowling-Degos disease",
+      "name_vi": "Bệnh Dowling - Degos",
+      "category": "Tên tác giả",
+      "reason": "Bệnh di truyền sắc tố dạng lưới mang tên Dowling và Degos."
+    },
+    {
+      "name_en": "Fabry disease",
+      "name_vi": "Bệnh Fabry",
+      "category": "Tên tác giả",
+      "reason": "Bệnh rối loạn chuyển hóa di truyền mang tên Johannes Fabry."
+    },
+    {
+      "name_en": "Jessner lymphocytic infiltrate",
+      "name_vi": "Thâm nhiễm lymphocủa Jessner",
+      "category": "Tên tác giả",
+      "reason": "Bệnh da mang tên bác sĩ da liễu Max Jessner."
+    },
+    {
+      "name_en": "Kaposi sarcoma",
+      "name_vi": "Sarcoma Kaposi",
+      "category": "Tên tác giả",
+      "reason": "Đặt theo Moritz Kaposi; giữ nguyên tên trong ICD-10."
+    },
+    {
+      "name_en": "Kerion",
+      "name_vi": "Nấm da đầu Kerion de Celse",
+      "category": "Thuật ngữ kinh điển",
+      "reason": "Ổ áp-xe do nấm sâu; lâm sàng luôn gọi là Kerion."
+    },
+    {
+      "name_en": "Kyrle disease",
+      "name_vi": "Dày sừng nang lông và quanh nang lông",
+      "category": "Tên tác giả",
+      "reason": "Bệnh da thủng lỗ mang tên bác sĩ Josef Kyrle."
+    },
+    {
+      "name_en": "Lichen myxoedematosus",
+      "name_vi": "U nhầy dạng sần",
+      "category": "Bệnh lý Lichen",
+      "reason": "Giữ nguyên danh pháp phân loại Lichen."
+    },
+    {
+      "name_en": "Lichen nitidus",
+      "name_vi": "Bệnh Lichen nitidus",
+      "category": "Bệnh lý Lichen",
+      "reason": "Lâm sàng da liễu luôn gọi tên chuẩn Lichen nitidus."
+    },
+    {
+      "name_en": "Lichen planus",
+      "name_vi": "Lichen phẳng",
+      "category": "Bệnh lý Lichen",
+      "reason": "Thuật ngữ quốc tế giữ nguyên theo phân loại Bộ Y tế."
+    },
+    {
+      "name_en": "Lichen simplex",
+      "name_vi": "Lichen đơn dạngmạn tính",
+      "category": "Bệnh lý Lichen",
+      "reason": "Mảng lichen dày do cào gãi; gọi theo tên kinh điển."
+    },
+    {
+      "name_en": "Lichenoid keratosis",
+      "name_vi": "Dày sừng dạng Lichen",
+      "category": "Bệnh lý Lichen",
+      "reason": "Biến thể dày sừng mang hình thái tế bào học dạng Lichen."
+    },
+    {
+      "name_en": "Majocchi granuloma",
+      "name_vi": "U hạt Majocchi",
+      "category": "Tên tác giả",
+      "reason": "Nhiễm nấm sợi sâu nang lông do Domenico Majocchi mô tả."
+    },
+    {
+      "name_en": "Malignant atrophic papulosis",
+      "name_vi": "Bệnh sẩn teo da ác tính",
+      "category": "Tên tác giả",
+      "reason": "Gọi theo tên nhà bệnh học Robert Degos."
+    },
+    {
+      "name_en": "Martorell ulcer",
+      "name_vi": "Loét chân do tăng huyết áp",
+      "category": "Tên tác giả",
+      "reason": "Loét do tăng huyết áp mang tên Fernando Martorell."
+    },
+    {
+      "name_en": "Melanoma",
+      "name_vi": "Ung thư hắc tố",
+      "category": "Nhóm u ác Melanoma",
+      "reason": "Lâm sàng sử dụng thuật ngữ Melanoma thay cho u hắc tố."
+    },
+    {
+      "name_en": "Melanoma in situ",
+      "name_vi": "U hắc tố tại chỗ",
+      "category": "Nhóm u ác Melanoma",
+      "reason": "Giai đoạn sớm chưa vượt qua màng đáy của Melanoma."
+    },
+    {
+      "name_en": "Metastatic melanoma",
+      "name_vi": "U hắc tố ác tính",
+      "category": "Nhóm u ác Melanoma",
+      "reason": "Giai đoạn xâm lấn di căn xa của Melanoma."
+    },
+    {
+      "name_en": "Morphoea",
+      "name_vi": "Xơ cứng bì khu trú",
+      "category": "Tự miễn kinh điển",
+      "reason": "Lâm sàng phân biệt rõ Morphea và Systemic Sclerosis."
+    },
+    {
+      "name_en": "Mycetoma",
+      "name_vi": "Bệnh nấm da",
+      "category": "Nhiễm trùng nhiệt đới",
+      "reason": "Bệnh u chân nấm nhiệt đới; y văn quốc tế giữ nguyên tên."
+    },
+    {
+      "name_en": "Mycosis fungoides",
+      "name_vi": "Bệnh u lympho tế bào T ở da",
+      "category": "U lympho T da",
+      "reason": "U lympho da nguyên phát; tên gọi lịch sử không đổi."
+    },
+    {
+      "name_en": "Naevus of Ota, naevus of Ito and naevus of Hori",
+      "name_vi": "Bớt Ota, Ito và Hori",
+      "category": "Tên tác giả",
+      "reason": "Nhóm bớt hắc tố hạ bì vùng mặt và đai vai."
+    },
+    {
+      "name_en": "Necrobiosis lipoidica",
+      "name_vi": "Bệnh hoại tử mỡ",
+      "category": "Bệnh lý chuyển hóa",
+      "reason": "Bệnh thoái hóa collagen do đái tháo đường; dùng tên Latinh."
+    },
+    {
+      "name_en": "Nodular melanoma",
+      "name_vi": "U hắc tố dạng nốt",
+      "category": "Nhóm u ác Melanoma",
+      "reason": "Thể ác tính xâm lấn sâu phát triển nhanh của Melanoma."
+    },
+    {
+      "name_en": "Ocular melanoma",
+      "name_vi": "Melanoma ở mắt",
+      "category": "Nhóm u ác Melanoma",
+      "reason": "Ung thư hắc tố ác tính xuất phát từ màng bồ đào mắt."
+    },
+    {
+      "name_en": "Orf",
+      "name_vi": "Bệnh virus Orf",
+      "category": "Tên virus",
+      "reason": "Nhiễm Parapoxvirus từ cừu/dê; tên bệnh quốc tế là Orf."
+    },
+    {
+      "name_en": "Papular acrodermatitis of childhood",
+      "name_vi": "Viêm da sẩn đầu chi ở trẻ em",
+      "category": "Tên tác giả",
+      "reason": "Ban sau nhiễm virus ở trẻ mang tên Gianotti và Crosti."
+    },
+    {
+      "name_en": "Pellagra",
+      "name_vi": "Bệnh Pellagra",
+      "category": "Thiếu dinh dưỡng",
+      "reason": "Bệnh thiếu vitamin PP/Niacin; luôn giữ tên Pellagra."
+    },
+    {
+      "name_en": "Pemphigoid gestationis",
+      "name_vi": "Pemphigoid thai kỳ",
+      "category": "Bọng nước tự miễn",
+      "reason": "Bệnh bọng nước tự miễn đặc trưng trong thai kỳ."
+    },
+    {
+      "name_en": "Pemphigus foliaceus",
+      "name_vi": "Pemphigus vảy lá",
+      "category": "Bọng nước tự miễn",
+      "reason": "ICD-10 và hướng dẫn Bộ Y tế dùng nguyên gốc Pemphigus."
+    },
+    {
+      "name_en": "Pemphigus vulgaris",
+      "name_vi": "Pemphigus thông thường",
+      "category": "Bọng nước tự miễn",
+      "reason": "Thể bọng nước tự miễn kinh điển; giữ nguyên tên Latinh."
+    },
+    {
+      "name_en": "Poikiloderma of Civatte",
+      "name_vi": "Bệnh da loang lổ Civatte",
+      "category": "Tên tác giả",
+      "reason": "Chứng teo và giãn mạch vùng cổ do nắng mang tên Civatte."
+    },
+    {
+      "name_en": "Porphyria cutanea tarda",
+      "name_vi": "Porphyria da muộn",
+      "category": "Rối loạn sinh hóa",
+      "reason": "Rối loạn chuyển hóa porphyrin bóng nước ngoài da."
+    },
+    {
+      "name_en": "Pseudopelade of Brocq",
+      "name_vi": "Bệnh giả rụng tóc Brocq",
+      "category": "Tên tác giả",
+      "reason": "Bệnh teo rụng tóc vĩnh viễn mang tên Brocq."
+    },
+    {
+      "name_en": "Pseudoporphyria",
+      "name_vi": "Bệnh giả Porphyria",
+      "category": "Rối loạn mô phỏng",
+      "reason": "Tổn thương bóng nước do thuốc mô phỏng Porphyria."
+    },
+    {
+      "name_en": "Raynaud phenomenon",
+      "name_vi": "Hiện tượng Raynaud",
+      "category": "Tên tác giả",
+      "reason": "Co thắt mạch đầu ngón khi lạnh mang tên Maurice Raynaud."
+    },
+    {
+      "name_en": "Rothmund-Thomson syndrome",
+      "name_vi": "Hội chứng Rothmund - Thomson",
+      "category": "Tên tác giả",
+      "reason": "Loạn dưỡng da bẩm sinh mang tên Rothmund và Thomson."
+    },
+    {
+      "name_en": "Sarcoidosis",
+      "name_vi": "Bệnh u hạt Sarcoidosis",
+      "category": "U hạt hệ thống",
+      "reason": "Chuyên khoa da liễu luôn dùng tên bệnh Sarcoidosis."
+    },
+    {
+      "name_en": "Whipple disease",
+      "name_vi": "Bệnh Whipple",
+      "category": "Tên tác giả",
+      "reason": "Nhiễm khuẩn Tropheryma whipplei mang tên George H. Whipple."
+    },
+    {
+      "name_en": "Xeroderma pigmentosum",
+      "name_vi": "Bệnh khô da sắc tố",
+      "category": "Bệnh gen di truyền",
+      "reason": "Giới y khoa luôn dùng tên viết tắt XP song song tên dịch."
+    }
+  ]
+}
