@@ -1,6 +1,9 @@
 # Kiến trúc Phase 1: prompt và nền tảng VQA kiểm thử được
 
-Ngày: 2026-10-03. Trạng thái: đề xuất chờ người dùng duyệt bản thiết kế.
+Ngày: 2026-10-03. Trạng thái: đề xuất lịch sử, không triển khai theo phạm vi hiện tại.
+Người dùng đã chốt: Phase 1 chỉ lưu prompt; sửa prompt và đặt vào Phase 1 trước,
+không tái cấu trúc runner/CLI. Hướng dẫn đang dùng là
+[Phase_1/prompts/README_VI.md](../../../Phase_1/prompts/README_VI.md).
 Thay thế `2026-10-03-phase1-prompt-redesign-design.md`.
 Đây là thiết kế và kết quả rà soát, không phải biên bản hoàn tất triển khai.
 

@@ -3,7 +3,10 @@
 Ngày: 2026-10-03. Trạng thái: đã được thay thế bởi
 [thiết kế kiến trúc Phase 1](2026-10-03-phase1-architecture-design.md).
 Không triển khai bố cục 40 file trong `Phase_1/tasks` từ tài liệu này.
-Điều chỉnh: dùng bộ 40 prompt trong `outputs` làm điểm xuất phát và giữ pack mới tại đó.
+Điều chỉnh ban đầu: dùng bộ 40 prompt trong `outputs` làm điểm xuất phát.
+Chốt sau cùng: giữ bản v2 ở `outputs` làm lịch sử; đặt 40 prompt v3 vào
+[`Phase_1/prompts`](../../../Phase_1/prompts/README_VI.md), chỉ lưu prompt và hướng dẫn,
+không triển khai tái cấu trúc Python theo hai bản thiết kế đề xuất này.
 Mốc Git đã fetch và kiểm tra: `origin/main` tại `03e1fd53`.
 Tài liệu này không chứng nhận prompt hoặc code mới đã được triển khai.
 

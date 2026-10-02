@@ -1,5 +1,10 @@
 # DermNet VQA Pipeline — Phase 1: Sinh dữ liệu VQA Da liễu
 
+> **Cách dùng hiện tại (2026-10-03): Phase 1 lưu bộ prompt, không chạy pipeline Python bên dưới.**
+> Mở [bộ 40 prompt tiếng Việt v3](prompts/README_VI.md): 20 bản cho bài báo và 20 bản dùng với Codex đọc ảnh trực tiếp.
+> Bộ mới kế thừa bản v2 trong `outputs`, đã sửa theo các trường hợp duyệt trước đó; không import `Phase_2/config`, không dùng `generate_vqa()`.
+> Các phần pipeline, `config/prompts.yaml` và module trong `tasks/` bên dưới là tài liệu/code lịch sử, không phải prompt đang khuyến nghị dùng. Chưa triển khai subagent hay lịch chạy.
+
 Pipeline tự động sinh bộ dữ liệu Visual Question Answering (VQA) tiếng Việt chuyên khoa da liễu, tương thích VLMEvalKit.
 
 ## 📋 Tổng quan Pipeline
