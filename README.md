@@ -18,6 +18,10 @@ ngoài active set. Nhật ký, bằng chứng nguồn và archive khôi phục 6
 gốc nằm trong [outputs/image-dedup-20261002](outputs/image-dedup-20261002).
 Giữ thay đổi tên thư mục `Mucocele of the lip` từ main mới nhất.
 
+Commit upstream `e8671bfb` ("Phase 1 chạy lại") cũng được giữ nguyên, gồm
+[pipeline Phase 1 mới](Phase_1/README.md), các prompt và taxonomy mới.
+Lượt tích hợp không chạy pipeline này và chưa xác nhận chất lượng QA đầu ra.
+
 **Chưa được coi là sẵn sàng inference:** TSV benchmark cũ còn tham chiếu ảnh
 không có trong bộ ảnh đã tuyển chọn. Runner mặc định dừng khi thiếu ảnh;
 không đặt `MISSING_IMAGE_POLICY=skip` chỉ để chạy qua lỗi. Không thay benchmark

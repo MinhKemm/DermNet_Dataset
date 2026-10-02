@@ -9,12 +9,17 @@ Lượt này không triển khai kiến trúc runner sinh VQA đã đề xuất 
 
 ## Nguồn được giữ
 
-- Main remote đã fetch: `92697940b3438a89457f374fde3915e4de9c52e0`.
+- Main remote ở lần fetch đầu: `92697940b3438a89457f374fde3915e4de9c52e0`.
+- Main remote có thêm commit trong lúc tích hợp:
+  `e8671bfbf9db262bc87dc3d456fd095ab772a204` ("Phase 1 chạy lại").
+  Đã dừng trước push, fetch và ghép commit này; không ghi đè lịch sử mới.
 - Nhánh phục hồi: `1242765ac435bc0853ef177fa095a33b6321864a`.
 - Lịch sử cũ `d57b5ace` vẫn là ancestor của nhánh phục hồi và lịch sử tích hợp.
 - Giữ rename ba ảnh từ `Mucocoele of the lip/` sang `Mucocele of the lip/`
   của commit main mới. Không đổi byte hay nội dung pixel của ba ảnh này.
 - Giữ code HPC/runner, chuẩn prompt QA v2 và các artifact nghiên cứu đã phục hồi.
+- Giữ nguyên tree `Phase_1/` và `list_images.txt` của main tại `e8671bfb`,
+  gồm pipeline/prompt/taxonomy mới và việc bỏ registry cũ. Không chạy pipeline mới.
 - Thêm toàn bộ 82 file snapshot dedup, gồm bằng chứng nguồn, bảng review,
   nhật ký, ánh xạ đường dẫn, archive và ảnh G050 chờ duyệt.
 - Thư mục làm việc chính và các công việc đang làm được sao lưu riêng trước
@@ -67,7 +72,9 @@ Các kiểm thử offline không chứng minh độ chính xác đọc ảnh, GP
 - 83 kiểm thử offline được chọn đạt: QA v2 (31), contract/prompt/patch/runner
   DermNet (36), DeepSeek (7), Huatuo (1), adapter cũ (5), vendor patch (3).
 - 40 file Python phục hồi qua parse AST; năm script Bash qua `bash -n`.
-- Không sửa code Phase_1/Phase_2 hay `final_canonical_vi/` so với nhánh phục hồi.
+- 39 file Python từ commit main mới qua parse AST. `Phase_1/` và
+  `list_images.txt` khớp main mới; `Phase_2/` và `final_canonical_vi/`
+  không đổi so với nhánh phục hồi.
 - Không chạy lại toàn bộ suite legacy có lỗi tham chiếu ảnh/API Windows đã
   ghi trong biên bản phục hồi; không tuyên bố toàn bộ suite đó đã đạt.
 - Không inference, tải trọng số, cài dependency hoặc chạy job HPC.
