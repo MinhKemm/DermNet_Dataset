@@ -1,0 +1,834 @@
+[
+  {
+    "pixel_sha256": "2a04e89a8ef7e8710bf84bd03b12995c806d7ec3ee882425e1afd1bea45e7b7b",
+    "original_paths": [
+      "Atopic dermatitis/atopic-dermatitis-0049.jpg",
+      "Prurigo/05.jpg"
+    ],
+    "retained_path": "Atopic dermatitis/atopic-dermatitis-0049.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Atopic dermatitis",
+      "Prurigo"
+    ]
+  },
+  {
+    "pixel_sha256": "e03d3894689ed49f377630524c0f8fdca4a309ba596b5fab37b21cca6bbe29c8",
+    "original_paths": [
+      "Atopic dermatitis/eapsimplex1.jpg",
+      "Prurigo/09.jpg"
+    ],
+    "retained_path": "Atopic dermatitis/eapsimplex1.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Atopic dermatitis",
+      "Prurigo"
+    ]
+  },
+  {
+    "pixel_sha256": "d0a8ad59127879f962bc23e326b8d851d586e012c84d8666fa2df5e820139028",
+    "original_paths": [
+      "Cutaneous lupus erythematosus/lupus-sc4.jpg",
+      "Systemic lupus erythematosus/sle-13.jpg"
+    ],
+    "retained_path": "Systemic lupus erythematosus/sle-13.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Cutaneous lupus erythematosus",
+      "Systemic lupus erythematosus"
+    ]
+  },
+  {
+    "pixel_sha256": "356ee547f804091af89fd4d10fb2aff7be5768f3119f295334aea9c33fac5136",
+    "original_paths": [
+      "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0002.jpg",
+      "Postinflammatory hyperpigmentation/10.jpg"
+    ],
+    "retained_path": "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0002.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Epidermolysis bullosa acquisita",
+      "Postinflammatory hyperpigmentation"
+    ]
+  },
+  {
+    "pixel_sha256": "a1df70637c7d07ba607c90e62b3592066bead2c1564fde5f656b00304e10349b",
+    "original_paths": [
+      "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0003.jpg",
+      "Postinflammatory hyperpigmentation/11.jpg"
+    ],
+    "retained_path": "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0003.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Epidermolysis bullosa acquisita",
+      "Postinflammatory hyperpigmentation"
+    ]
+  },
+  {
+    "pixel_sha256": "b5280a50474ab56ff685a1ed2669d3e307faa662fa7165892d260cf8e17d2e26",
+    "original_paths": [
+      "Erythema annulare centrifugum/annular-erythema-02-v2.jpg",
+      "Erythema annulare centrifugum/annular-erythema-02.jpg"
+    ],
+    "retained_path": "Erythema annulare centrifugum/annular-erythema-02.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Erythema annulare centrifugum",
+      "Erythema annulare centrifugum"
+    ]
+  },
+  {
+    "pixel_sha256": "64ffa0d6b076bb6eabccb21edd59840c440bd1b9371c882c866f0d89e50e153f",
+    "original_paths": [
+      "Erythema multiforme/mycoplasma1.jpg",
+      "Mycoplasma pneumoniae infection/mycoplasma1.jpg"
+    ],
+    "retained_path": "Mycoplasma pneumoniae infection/mycoplasma1.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Erythema multiforme",
+      "Mycoplasma pneumoniae infection"
+    ]
+  },
+  {
+    "pixel_sha256": "1e9eeff0acb4ab6d985796ca0356ae9ebe14def3fe30708b3445facf8143d89d",
+    "original_paths": [
+      "Erythema multiforme/mycoplasma2.jpg",
+      "Mycoplasma pneumoniae infection/mycoplasma2.jpg"
+    ],
+    "retained_path": "Mycoplasma pneumoniae infection/mycoplasma2.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Erythema multiforme",
+      "Mycoplasma pneumoniae infection"
+    ]
+  },
+  {
+    "pixel_sha256": "b6e2f0f0f9a2223c780616a3d9a221ca5881f17cdeb6c288fa2b20368dfd4327",
+    "original_paths": [
+      "Herpes simplex/herpes-simplex-labialis-38.jpg",
+      "Oral candidiasis/05.jpg"
+    ],
+    "retained_path": "Herpes simplex/herpes-simplex-labialis-38.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Herpes simplex",
+      "Oral candidiasis"
+    ]
+  },
+  {
+    "pixel_sha256": "ca103a9a2af6f405af7f25d5327937f7c863371a0723b5267c174b5dab0f0db2",
+    "original_paths": [
+      "Herpes simplex/herpes-simplex-labialis-39.jpg",
+      "Oral candidiasis/06.jpg"
+    ],
+    "retained_path": "Herpes simplex/herpes-simplex-labialis-39.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Herpes simplex",
+      "Oral candidiasis"
+    ]
+  },
+  {
+    "pixel_sha256": "029d0d5d1ce7eac66a6d0621ae32968cd2bc561fe1e7f012d8fab7d3f46fa129",
+    "original_paths": [
+      "Leg ulcer/3042.jpg",
+      "Pyoderma/01.jpg"
+    ],
+    "retained_path": "Leg ulcer/3042.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Leg ulcer",
+      "Pyoderma"
+    ]
+  },
+  {
+    "pixel_sha256": "2dbb816ecf7fe18392f9900111d864bddf12c86161bd38f1a23032507f9b3c07",
+    "original_paths": [
+      "Lichen planus/annular-lichen-planus-0007.jpg",
+      "Postinflammatory hyperpigmentation/05.jpg"
+    ],
+    "retained_path": "Lichen planus/annular-lichen-planus-0007.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Lichen planus",
+      "Postinflammatory hyperpigmentation"
+    ]
+  },
+  {
+    "pixel_sha256": "755034e5326c0f41245012c164e04865c7950f7b7c89a15a0c1bdd48920e476e",
+    "original_paths": [
+      "Lichen planus/papular-lichen-planus-0009.jpg",
+      "Postinflammatory hyperpigmentation/15.jpg"
+    ],
+    "retained_path": "Lichen planus/papular-lichen-planus-0009.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Lichen planus",
+      "Postinflammatory hyperpigmentation"
+    ]
+  },
+  {
+    "pixel_sha256": "cb6c04778665a33d0a0248fab39c4648db6fe81f1cf552333d8b450a7c535350",
+    "original_paths": [
+      "Lichen planus/papular-lichen-planus-0010.jpg",
+      "Postinflammatory hyperpigmentation/16.jpg"
+    ],
+    "retained_path": "Lichen planus/papular-lichen-planus-0010.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Lichen planus",
+      "Postinflammatory hyperpigmentation"
+    ]
+  },
+  {
+    "pixel_sha256": "f74f861b270c815996d0dd165be6c34f5b5caeca8b140a43f3bd96a8bc4f7ac2",
+    "original_paths": [
+      "Milium/milia08.jpg",
+      "Porphyria cutanea tarda/03.jpg"
+    ],
+    "retained_path": "Porphyria cutanea tarda/03.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Milium",
+      "Porphyria cutanea tarda"
+    ]
+  },
+  {
+    "pixel_sha256": "d4bc92812c843964e4e4f69205ffd95dcb699cc3f8c8b03d6f99743ed2445312",
+    "original_paths": [
+      "Mycoplasma pneumoniae infection/reactive-infectious-mucocutaneous-eruption-0008.jpg",
+      "Oral mucositis - Stomatitis/81.jpg"
+    ],
+    "retained_path": "Oral mucositis - Stomatitis/81.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Mycoplasma pneumoniae infection",
+      "Oral mucositis - Stomatitis"
+    ]
+  },
+  {
+    "pixel_sha256": "f97c9417970582e0d21402565fea9320df8acb051716fbf77f8286615fa41db6",
+    "original_paths": [
+      "Nummular eczematous dermatitis/discoid-eczema-day-14-v2.jpg",
+      "Nummular eczematous dermatitis/discoid-eczema-day-14.jpg"
+    ],
+    "retained_path": "Nummular eczematous dermatitis/discoid-eczema-day-14.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Nummular eczematous dermatitis",
+      "Nummular eczematous dermatitis"
+    ]
+  },
+  {
+    "pixel_sha256": "7c97dc2678e7587260fdb9f9a7bb41b0f3303c62219ff427b6b77b9c5085ce9d",
+    "original_paths": [
+      "Nummular eczematous dermatitis/discoid-eczema-day-2-v2.jpg",
+      "Nummular eczematous dermatitis/discoid-eczema-day-2.jpg"
+    ],
+    "retained_path": "Nummular eczematous dermatitis/discoid-eczema-day-2.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Nummular eczematous dermatitis",
+      "Nummular eczematous dermatitis"
+    ]
+  },
+  {
+    "pixel_sha256": "f5db9e34c5869ed60534812df5bbbf327d691e0c4b0fba5370dde251b43fbf23",
+    "original_paths": [
+      "Nummular eczematous dermatitis/discoid-eczema-day-6-v2.jpg",
+      "Nummular eczematous dermatitis/discoid-eczema-day-6.jpg"
+    ],
+    "retained_path": "Nummular eczematous dermatitis/discoid-eczema-day-6.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Nummular eczematous dermatitis",
+      "Nummular eczematous dermatitis"
+    ]
+  },
+  {
+    "pixel_sha256": "e48657d7adbb5e254e408d73fb4cba8b7d9ff012edc338711147d19782d87f13",
+    "original_paths": [
+      "Nummular eczematous dermatitis/nummular-eczema43.jpg",
+      "Nummular eczematous dermatitis/nummular-eczema45.jpg"
+    ],
+    "retained_path": "Nummular eczematous dermatitis/nummular-eczema43.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Nummular eczematous dermatitis",
+      "Nummular eczematous dermatitis"
+    ]
+  },
+  {
+    "pixel_sha256": "122530e362b42b72cc606f63f27b39ac531a5391f46943e5c0d12f7445d41101",
+    "original_paths": [
+      "Onychocryptosis/01.jpg",
+      "Paronychia/3296.jpg"
+    ],
+    "retained_path": "Paronychia/3296.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Onychocryptosis",
+      "Paronychia"
+    ]
+  },
+  {
+    "pixel_sha256": "64b9923b49c098c913062a3fd085fdf6173a1193128b44990cce26e06e641dfb",
+    "original_paths": [
+      "Onychomycosis/47.jpg",
+      "Tinea manuum/05.jpg"
+    ],
+    "retained_path": "Tinea manuum/05.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Onychomycosis",
+      "Tinea manuum"
+    ]
+  },
+  {
+    "pixel_sha256": "f3bc4c6c4c83bb5464c989cf347c2bfc4c886091ca7fd8f1cb76693e06a3fe7e",
+    "original_paths": [
+      "Oral candidiasis/03.jpg",
+      "Oral mucositis - Stomatitis/18.jpg"
+    ],
+    "retained_path": "Oral candidiasis/03.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Oral candidiasis",
+      "Oral mucositis - Stomatitis"
+    ]
+  },
+  {
+    "pixel_sha256": "25f4642653d23a9f1cd934c7b860002e01a116a37730f60022c01ca182e614bd",
+    "original_paths": [
+      "Palmoplantar keratoderma/35.jpg",
+      "Pityriasis rubra pilaris/11.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/11.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Palmoplantar keratoderma",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "8aa3da1ec2eb3f2d7be25fdf62e8fe534aefa3a98a496e32bef8ecd2b1d4ecf7",
+    "original_paths": [
+      "Palmoplantar keratoderma/36.jpg",
+      "Pityriasis rubra pilaris/12.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/12.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Palmoplantar keratoderma",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "34cb26070c41058109b769bd5d18f0748a314bf243492804d63ce10b8396f164",
+    "original_paths": [
+      "Panniculitis/03.jpg",
+      "Venous eczema/acute-lipodermatosclerosis-21.jpg"
+    ],
+    "retained_path": "Panniculitis/03.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Panniculitis",
+      "Venous eczema"
+    ]
+  },
+  {
+    "pixel_sha256": "ec3cf0082cc12d7a263880a574a5c065da9de35a7a201747ec8e911cfd710b0f",
+    "original_paths": [
+      "Panniculitis/04.jpg",
+      "Venous eczema/acute-lipodermatosclerosis-22.jpg"
+    ],
+    "retained_path": "Panniculitis/04.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Panniculitis",
+      "Venous eczema"
+    ]
+  },
+  {
+    "pixel_sha256": "43b5b4035340092d38f5b5961f7f9e39da7b8a3db62e33b6aecc6fe108be5fe1",
+    "original_paths": [
+      "Pediculosis capitis/12.jpg",
+      "Pyoderma/08.jpg"
+    ],
+    "retained_path": "Pediculosis capitis/12.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Pediculosis capitis",
+      "Pyoderma"
+    ]
+  },
+  {
+    "pixel_sha256": "00cbc434a9859247fa3eb181666eb07a94e1f878be614f74e1fc9e3d896d59d3",
+    "original_paths": [
+      "Pemphigoid gestationis/37.jpg",
+      "Postinflammatory hyperpigmentation/24.jpg"
+    ],
+    "retained_path": "Pemphigoid gestationis/37.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Pemphigoid gestationis",
+      "Postinflammatory hyperpigmentation"
+    ]
+  },
+  {
+    "pixel_sha256": "da6a885637a6bbca73f7c1912daf6833b66a0e0db31d56fcd0e9453278250de4",
+    "original_paths": [
+      "Pemphigoid gestationis/38.jpg",
+      "Postinflammatory hyperpigmentation/25.jpg"
+    ],
+    "retained_path": "Pemphigoid gestationis/38.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Pemphigoid gestationis",
+      "Postinflammatory hyperpigmentation"
+    ]
+  },
+  {
+    "pixel_sha256": "b53181d6150acc38d00636cba84713752834b10acd4cebfbea6c4fe654e0e6b0",
+    "original_paths": [
+      "Pigmented purpura/capil1.jpg",
+      "Purpura/20.jpg"
+    ],
+    "retained_path": "Pigmented purpura/capil1.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Pigmented purpura",
+      "Purpura"
+    ]
+  },
+  {
+    "pixel_sha256": "8601581fb66d4575b68d6d0e611325783d6ca329a3339add62e7f1cf6a284b1f",
+    "original_paths": [
+      "Pigmented purpura/capillaritis-38.jpg",
+      "Varicose veins/01.jpg"
+    ],
+    "retained_path": "Pigmented purpura/capillaritis-38.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Pigmented purpura",
+      "Varicose veins"
+    ]
+  },
+  {
+    "pixel_sha256": "722b4f49e0992d5cc8334248ec98c053e5a52ee2c0f8afc39676379704410777",
+    "original_paths": [
+      "Pigmented purpura/capillaritis-47.jpg",
+      "Purpura/21.jpg"
+    ],
+    "retained_path": "Pigmented purpura/capillaritis-47.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Pigmented purpura",
+      "Purpura"
+    ]
+  },
+  {
+    "pixel_sha256": "1758b3f184f663fdf3efdf41474bf5be91bd216853550e2b0db26fb252d211e2",
+    "original_paths": [
+      "Pigmented purpura/purpura1.jpg",
+      "Purpura/82.jpg"
+    ],
+    "retained_path": "Pigmented purpura/purpura1.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Pigmented purpura",
+      "Purpura"
+    ]
+  },
+  {
+    "pixel_sha256": "5bdcb3f9e14cc1de2582e9bff5587ced809d486613be028f175fab1321cc0037",
+    "original_paths": [
+      "Pityriasis rubra pilaris/15.jpg",
+      "Pityriasis rubra pilaris/prp1.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp1.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "97d493e60f36e91db2a20362fe804d3aa89810198fa91bc4bbae7c9282c3389d",
+    "original_paths": [
+      "Pityriasis rubra pilaris/16.jpg",
+      "Pityriasis rubra pilaris/prp10.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp10.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "cf64427a7d5ff98af67d32b6c547c83de038822cb7d7053056f40abb7e53699a",
+    "original_paths": [
+      "Pityriasis rubra pilaris/17.jpg",
+      "Pityriasis rubra pilaris/prp11.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp11.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "e6b35100a33ccecd71caca55dad27c04cd3343fc0afbdbe0c6c4367f60eac19c",
+    "original_paths": [
+      "Pityriasis rubra pilaris/18.jpg",
+      "Pityriasis rubra pilaris/prp12.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp12.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "8191c2e316a23c48d0609a694efffc15a911d58e5bd58898799dda4a76e8fda7",
+    "original_paths": [
+      "Pityriasis rubra pilaris/19.jpg",
+      "Pityriasis rubra pilaris/prp13.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp13.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "c4eca22f0f25f36cc33879c0177b668d408cc0e7efcb7d83aa2701b15b9e6eca",
+    "original_paths": [
+      "Pityriasis rubra pilaris/20.jpg",
+      "Pityriasis rubra pilaris/prp2.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp2.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "ef30737759fa19a33cbd5994dd397fb1b7522bfaa31e4f0e50fe433280b2aa40",
+    "original_paths": [
+      "Pityriasis rubra pilaris/21.jpg",
+      "Pityriasis rubra pilaris/prp3.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp3.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "9a3662c6162bed59e67e4659ff12a38a012c0d4ca46ac413600465409a2167f2",
+    "original_paths": [
+      "Pityriasis rubra pilaris/23.jpg",
+      "Pityriasis rubra pilaris/prp4.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp4.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "79638a836ff51fc581075e31b9729cd350a4b701ec5dac2a9a85362154af413a",
+    "original_paths": [
+      "Pityriasis rubra pilaris/24.jpg",
+      "Pityriasis rubra pilaris/prp5.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp5.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "2c3f078e31af9f794d26671cdbbb056ef6525e45af8933443992c29aea047593",
+    "original_paths": [
+      "Pityriasis rubra pilaris/25.jpg",
+      "Pityriasis rubra pilaris/prp6.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp6.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "cf342c73b6e2c81129911122c803d4683af5f893897bde2377bbd4167fe4feb9",
+    "original_paths": [
+      "Pityriasis rubra pilaris/26.jpg",
+      "Pityriasis rubra pilaris/prp7.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp7.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "2f3cad2e289274474ee7227bd28c3a8e6a0fa2aa434e23a828145a43f52b958c",
+    "original_paths": [
+      "Pityriasis rubra pilaris/27.jpg",
+      "Pityriasis rubra pilaris/prp8.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp8.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "e68eedf5636d12072893a72bec9837518c866327bcefed2b268d5eb14b028a4f",
+    "original_paths": [
+      "Pityriasis rubra pilaris/29.jpg",
+      "Pityriasis rubra pilaris/prp9.jpg"
+    ],
+    "retained_path": "Pityriasis rubra pilaris/prp9.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Pityriasis rubra pilaris",
+      "Pityriasis rubra pilaris"
+    ]
+  },
+  {
+    "pixel_sha256": "5cf9ddf184550bc4a43b94341b75925a5ef67bd928947fde03e62aa7fff3a2d9",
+    "original_paths": [
+      "Plasmacytoma/04.jpg",
+      "Purpura/101.jpg"
+    ],
+    "retained_path": "Purpura/101.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Plasmacytoma",
+      "Purpura"
+    ]
+  },
+  {
+    "pixel_sha256": "b5bd05eb7a915050d8e969c9d3891873cb5d43aa39d6b47cad8cac2cde50aea5",
+    "original_paths": [
+      "Porphyria cutanea tarda/04.jpg",
+      "Pyoderma/07.jpg"
+    ],
+    "retained_path": "Porphyria cutanea tarda/04.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Porphyria cutanea tarda",
+      "Pyoderma"
+    ]
+  },
+  {
+    "pixel_sha256": "55977aba3be4d76ecae212eb90143c3b46e11203331be2d1964135f48cfcd19a",
+    "original_paths": [
+      "Postinflammatory hyperpigmentation/21.jpg",
+      "Prurigo/64.jpg"
+    ],
+    "retained_path": "outputs/image-dedup-20261002/pending_label_review/G050/21.jpg",
+    "status": "one_copy_pending_source_label",
+    "source_labels_preserved": [
+      "Postinflammatory hyperpigmentation",
+      "Prurigo"
+    ]
+  },
+  {
+    "pixel_sha256": "d4bbddf131c433cdfa761c0afe28975ef044fe6962e63bfcd3d5b4b3c01c5c3a",
+    "original_paths": [
+      "Postinflammatory hyperpigmentation/30.jpg",
+      "Pretibial myxoedema/10.jpg"
+    ],
+    "retained_path": "Pretibial myxoedema/10.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Postinflammatory hyperpigmentation",
+      "Pretibial myxoedema"
+    ]
+  },
+  {
+    "pixel_sha256": "6acd9ef7331bba73d02ff2d6372de1c6b234ab7c920534b2bfe42189792a9c57",
+    "original_paths": [
+      "Postinflammatory hyperpigmentation/31.jpg",
+      "Pretibial myxoedema/11.jpg"
+    ],
+    "retained_path": "Pretibial myxoedema/11.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Postinflammatory hyperpigmentation",
+      "Pretibial myxoedema"
+    ]
+  },
+  {
+    "pixel_sha256": "f8cf0169747ed6281b588fd4575ac384bf8188d0bbc9dc9a39ee2b931a026137",
+    "original_paths": [
+      "Prurigo/06.jpg",
+      "Pruritus/07.jpg"
+    ],
+    "retained_path": "Pruritus/07.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Prurigo",
+      "Pruritus"
+    ]
+  },
+  {
+    "pixel_sha256": "81b30c2a4fc696bfdf08c1f5ec5d1d547e175383a1c965a0c35b54f9279709c5",
+    "original_paths": [
+      "Prurigo/98.jpg",
+      "Pruritus/42.jpg"
+    ],
+    "retained_path": "Prurigo/98.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Prurigo",
+      "Pruritus"
+    ]
+  },
+  {
+    "pixel_sha256": "c70bb9a174d21af128908eab7052445d44d7e5bbc72c806392cfb102f865934a",
+    "original_paths": [
+      "Prurigo/99.jpg",
+      "Varicose veins/05.jpg"
+    ],
+    "retained_path": "Varicose veins/05.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Prurigo",
+      "Varicose veins"
+    ]
+  },
+  {
+    "pixel_sha256": "9975068c63fca0d8fed237a465cd81774243263747f7e22d760e60b6f8c20565",
+    "original_paths": [
+      "Pruritus/56.jpg",
+      "Purpura/98.jpg"
+    ],
+    "retained_path": "Pruritus/56.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Pruritus",
+      "Purpura"
+    ]
+  },
+  {
+    "pixel_sha256": "aa721ec5793a1eaf80823963725f84d953ec87c23798665f7f73cb1690019fc5",
+    "original_paths": [
+      "Psoriasis/flexural-psoriasis16-s.jpg",
+      "Psoriasis/genital-psoriasis-32.jpg"
+    ],
+    "retained_path": "Psoriasis/flexural-psoriasis16-s.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Psoriasis",
+      "Psoriasis"
+    ]
+  },
+  {
+    "pixel_sha256": "d699882df6ba83066cccec4c76e64c411c48483d9af30043d7d4eb00a1d5cb18",
+    "original_paths": [
+      "Psoriasis/genital-psoriasis-01.jpg",
+      "Psoriasis/infant-boy-ps1-s.jpg"
+    ],
+    "retained_path": "Psoriasis/genital-psoriasis-01.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Psoriasis",
+      "Psoriasis"
+    ]
+  },
+  {
+    "pixel_sha256": "79c728cc184702d2d5c1542288dd4e0564a87785d26c3d462ec1c14a712b7659",
+    "original_paths": [
+      "Psoriasis/genital-psoriasis-02.jpg",
+      "Psoriasis/infant-boy-ps2-s.jpg"
+    ],
+    "retained_path": "Psoriasis/genital-psoriasis-02.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Psoriasis",
+      "Psoriasis"
+    ]
+  },
+  {
+    "pixel_sha256": "d80035b4a91b7d8e98338168d5a4850dbd28fd4ce69c5477c2cd3a73830f5e8a",
+    "original_paths": [
+      "Purpura/96.jpg",
+      "Scurvy/01.jpg"
+    ],
+    "retained_path": "Scurvy/01.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Purpura",
+      "Scurvy"
+    ]
+  },
+  {
+    "pixel_sha256": "9a98b77308e04362a8cbddda9d56e161bccf752e536729541ff5a82f8c4c275f",
+    "original_paths": [
+      "Purpura/97.jpg",
+      "Scurvy/02.jpg"
+    ],
+    "retained_path": "Scurvy/02.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Purpura",
+      "Scurvy"
+    ]
+  },
+  {
+    "pixel_sha256": "ddd1cdef9009c76f864a8f0514fbe804e4cd4212046eaecb645886e40e94e763",
+    "original_paths": [
+      "Sarcoidosis/01.jpg",
+      "Tinea capitis/01.jpg"
+    ],
+    "retained_path": "Tinea capitis/01.jpg",
+    "status": "retain_source_supported_copy",
+    "source_labels_preserved": [
+      "Sarcoidosis",
+      "Tinea capitis"
+    ]
+  },
+  {
+    "pixel_sha256": "5251e6e3bc636a022c079001b170aa4ecbf03891b0ed7a1e7cb1beb0ea563e69",
+    "original_paths": [
+      "Venous eczema/acute-lipodermatosclerosis-10.jpg",
+      "Venous eczema/acute-lipodermatosclerosis-12.jpg"
+    ],
+    "retained_path": "Venous eczema/acute-lipodermatosclerosis-10.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Venous eczema",
+      "Venous eczema"
+    ]
+  },
+  {
+    "pixel_sha256": "b6659ce3c1383a413e450926bff897fe89d1b0ebe8065d0ae1b160070454de08",
+    "original_paths": [
+      "Venous eczema/acute-lipodermatosclerosis-18.jpg",
+      "Venous eczema/acute-lipodermatosclerosis-24.jpg"
+    ],
+    "retained_path": "Venous eczema/acute-lipodermatosclerosis-18.jpg",
+    "status": "retained_same_label",
+    "source_labels_preserved": [
+      "Venous eczema",
+      "Venous eczema"
+    ]
+  }
+]

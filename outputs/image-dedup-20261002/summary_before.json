@@ -1,0 +1,10 @@
+{
+  "head": "2255b768c3f75f8408793054766052038afed92a",
+  "images": 7057,
+  "errors": [],
+  "byte_groups": 53,
+  "pixel_groups": 64,
+  "pixel_within_groups": 23,
+  "pixel_cross_groups": 41,
+  "redundant_pixels": 64
+}

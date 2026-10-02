@@ -1,0 +1,1799 @@
+[
+  {
+    "hash": "2a04e89a8ef7e8710bf84bd03b12995c806d7ec3ee882425e1afd1bea45e7b7b",
+    "paths": [
+      "Atopic dermatitis/atopic-dermatitis-0049.jpg",
+      "Prurigo/05.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G001",
+    "historical_paths": [
+      "Atopic dermatitis/atopic-dermatitis-0049.jpg",
+      "Prurigo/05.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [
+      {
+        "source_label": "Atopic dermatitis",
+        "page_url": "https://dermnetnz.org/images/atopic-dermatitis-images",
+        "image_url": "/assets/collection/Atopic-dermatitis/atopic-dermatitis-0049.jpg",
+        "caption": "Excoriated and lichenified atopic dermatitis on the back"
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Atopic-dermatitis/atopic-dermatitis-0049.jpg",
+        "sha256": "f40d5207186ffe0580fbe313c8de4d3e5a559478b79372811e399f59b35df6e0",
+        "pixel_sha256": "2a04e89a8ef7e8710bf84bd03b12995c806d7ec3ee882425e1afd1bea45e7b7b",
+        "match_group": "G001",
+        "sources": [
+          {
+            "source_label": "Atopic dermatitis",
+            "page_url": "https://dermnetnz.org/images/atopic-dermatitis-images",
+            "caption": "Excoriated and lichenified atopic dermatitis on the back"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "e03d3894689ed49f377630524c0f8fdca4a309ba596b5fab37b21cca6bbe29c8",
+    "paths": [
+      "Atopic dermatitis/eapsimplex1.jpg",
+      "Prurigo/09.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G002",
+    "historical_paths": [
+      "Atopic dermatitis/eapsimplex1.jpg",
+      "Prurigo/09.jpg"
+    ],
+    "source_image_matches": [
+      {
+        "source_label": "Atopic dermatitis",
+        "caption": "Viêm da dị ứng ngứa",
+        "url": "https://dermnetnz.org/assets/Uploads/dermatitis/s/eapsimplex1.jpg"
+      }
+    ],
+    "live_filename_matches": [
+      {
+        "source_label": "Atopic dermatitis",
+        "page_url": "https://dermnetnz.org/topics/atopic-dermatitis",
+        "image_url": "/assets/Uploads/dermatitis/s/eapsimplex1.jpg",
+        "caption": "Pruritic atopic dermatitis"
+      },
+      {
+        "source_label": "Atopic dermatitis",
+        "page_url": "https://dermnetnz.org/images/atopic-dermatitis-images",
+        "image_url": "/assets/Uploads/dermatitis/s/eapsimplex1.jpg",
+        "caption": "Pruritic atopic dermatitis"
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/dermatitis/s/eapsimplex1.jpg",
+        "sha256": "6c20e1c798baa38fbca5aea0afc3bf8b0c2cc435c8b5943e6afa810f60538a85",
+        "pixel_sha256": "e03d3894689ed49f377630524c0f8fdca4a309ba596b5fab37b21cca6bbe29c8",
+        "match_group": "G002",
+        "sources": [
+          {
+            "source_label": "Atopic dermatitis",
+            "page_url": "https://dermnetnz.org/topics/atopic-dermatitis",
+            "caption": "Pruritic atopic dermatitis"
+          },
+          {
+            "source_label": "Atopic dermatitis",
+            "page_url": "https://dermnetnz.org/images/atopic-dermatitis-images",
+            "caption": "Pruritic atopic dermatitis"
+          },
+          {
+            "source_label": "Atopic dermatitis",
+            "page_url": "local archived DermNet contents",
+            "caption": "Viêm da dị ứng ngứa"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "d0a8ad59127879f962bc23e326b8d851d586e012c84d8666fa2df5e820139028",
+    "paths": [
+      "Cutaneous lupus erythematosus/lupus-sc4.jpg",
+      "Systemic lupus erythematosus/sle-13.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G003",
+    "historical_paths": [
+      "Cutaneous lupus erythematosus/lupus-sc4.jpg",
+      "Systemic lupus erythematosus/sle-13.jpg"
+    ],
+    "source_image_matches": [
+      {
+        "source_label": "Cutaneous lupus erythematosus",
+        "caption": "Không có caption",
+        "url": "https://dermnetnz.org/assets/Uploads/immune/lupus-sc4.jpg"
+      },
+      {
+        "source_label": "Systemic lupus erythematosus",
+        "caption": "Bệnh lupus ban đỏ hệ thống",
+        "url": "https://dermnetnz.org/assets/Uploads/immune/sle-13.jpg"
+      }
+    ],
+    "live_filename_matches": [
+      {
+        "source_label": "Cutaneous lupus erythematosus",
+        "page_url": "https://dermnetnz.org/topics/cutaneous-lupus-erythematosus",
+        "image_url": "/assets/Uploads/immune/lupus-sc4.jpg",
+        "caption": ""
+      },
+      {
+        "source_label": "Systemic lupus erythematosus",
+        "page_url": "https://dermnetnz.org/topics/systemic-lupus-erythematosus",
+        "image_url": "/assets/Uploads/immune/sle-13.jpg",
+        "caption": "Systemic lupus erythematosus"
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/immune/lupus-sc4.jpg",
+        "sha256": "4a20af20b90ab204114beb8f369043ac37733665647d8ea144b8b4cffd8a1874",
+        "pixel_sha256": "d0a8ad59127879f962bc23e326b8d851d586e012c84d8666fa2df5e820139028",
+        "match_group": "G003",
+        "sources": [
+          {
+            "source_label": "Cutaneous lupus erythematosus",
+            "page_url": "https://dermnetnz.org/topics/cutaneous-lupus-erythematosus",
+            "caption": ""
+          },
+          {
+            "source_label": "Cutaneous lupus erythematosus",
+            "page_url": "local archived DermNet contents",
+            "caption": "Không có caption"
+          }
+        ]
+      },
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/immune/sle-13.jpg",
+        "sha256": "9dfbe7b90b86ca88e6d69af1010bd3ae2d05962884bd1e59eb0a220ee399c09a",
+        "pixel_sha256": "d0a8ad59127879f962bc23e326b8d851d586e012c84d8666fa2df5e820139028",
+        "match_group": "G003",
+        "sources": [
+          {
+            "source_label": "Systemic lupus erythematosus",
+            "page_url": "https://dermnetnz.org/topics/systemic-lupus-erythematosus",
+            "caption": "Systemic lupus erythematosus"
+          },
+          {
+            "source_label": "Systemic lupus erythematosus",
+            "page_url": "local archived DermNet contents",
+            "caption": "Bệnh lupus ban đỏ hệ thống"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "356ee547f804091af89fd4d10fb2aff7be5768f3119f295334aea9c33fac5136",
+    "paths": [
+      "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0002.jpg",
+      "Postinflammatory hyperpigmentation/10.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G004",
+    "historical_paths": [
+      "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0002.jpg",
+      "Postinflammatory hyperpigmentation/10.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [
+      {
+        "source_label": "Epidermolysis bullosa acquisita",
+        "page_url": "https://dermnetnz.org/images/epidermolysis-bullosa-acquisita-images",
+        "image_url": "/assets/collection/Epidermolysis-bullosa-acquisita/epidermolysis-bullosa-acquisita-0002.jpg",
+        "caption": "Scars and milia on the pressure areas of the elbows due to epidermolysis bullosa acquisita"
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Epidermolysis-bullosa-acquisita/epidermolysis-bullosa-acquisita-0002.jpg",
+        "sha256": "edca515ef69c5deba25f6e023fb14ee639e1e261d596e9b7e1de2010cfbb8006",
+        "pixel_sha256": "356ee547f804091af89fd4d10fb2aff7be5768f3119f295334aea9c33fac5136",
+        "match_group": "G004",
+        "sources": [
+          {
+            "source_label": "Epidermolysis bullosa acquisita",
+            "page_url": "https://dermnetnz.org/images/epidermolysis-bullosa-acquisita-images",
+            "caption": "Scars and milia on the pressure areas of the elbows due to epidermolysis bullosa acquisita"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "a1df70637c7d07ba607c90e62b3592066bead2c1564fde5f656b00304e10349b",
+    "paths": [
+      "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0003.jpg",
+      "Postinflammatory hyperpigmentation/11.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G005",
+    "historical_paths": [
+      "Epidermolysis bullosa acquisita/epidermolysis-bullosa-acquisita-0003.jpg",
+      "Postinflammatory hyperpigmentation/11.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [
+      {
+        "source_label": "Epidermolysis bullosa acquisita",
+        "page_url": "https://dermnetnz.org/images/epidermolysis-bullosa-acquisita-images",
+        "image_url": "/assets/collection/Epidermolysis-bullosa-acquisita/epidermolysis-bullosa-acquisita-0003.jpg",
+        "caption": "Milia on the knees after healing of blisters due to epidermolysis bullosa acquisita"
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Epidermolysis-bullosa-acquisita/epidermolysis-bullosa-acquisita-0003.jpg",
+        "sha256": "8c0d2c4779b0ed0aa20f88a7f677be4b95ba7495546469323e57ed4523de8ca6",
+        "pixel_sha256": "a1df70637c7d07ba607c90e62b3592066bead2c1564fde5f656b00304e10349b",
+        "match_group": "G005",
+        "sources": [
+          {
+            "source_label": "Epidermolysis bullosa acquisita",
+            "page_url": "https://dermnetnz.org/images/epidermolysis-bullosa-acquisita-images",
+            "caption": "Milia on the knees after healing of blisters due to epidermolysis bullosa acquisita"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "64ffa0d6b076bb6eabccb21edd59840c440bd1b9371c882c866f0d89e50e153f",
+    "paths": [
+      "Erythema multiforme/mycoplasma1.jpg",
+      "Mycoplasma pneumoniae infection/mycoplasma1.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G007",
+    "historical_paths": [
+      "Erythema multiforme/mycoplasma1.jpg",
+      "Mycoplasma pneumoniae infection/mycoplasma1.jpg"
+    ],
+    "source_image_matches": [
+      {
+        "source_label": "Mycoplasma pneumoniae infection",
+        "caption": "Ban đỏ đa dạng không điển hình do mycoplasma",
+        "url": "https://dermnetnz.org/assets/Uploads/bacterial/w/mycoplasma1.jpg"
+      }
+    ],
+    "live_filename_matches": [
+      {
+        "source_label": "Mycoplasma pneumoniae infection",
+        "page_url": "https://dermnetnz.org/topics/mycoplasma-pneumoniae-infection",
+        "image_url": "/assets/Uploads/bacterial/w/mycoplasma1.jpg",
+        "caption": "Atypical erythema multiforme due to mycoplasma"
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/bacterial/w/mycoplasma1.jpg",
+        "sha256": "7154905e729473a54a3e7918bbb79f712d8265809ae67888aaa16e6365394ad4",
+        "pixel_sha256": "64ffa0d6b076bb6eabccb21edd59840c440bd1b9371c882c866f0d89e50e153f",
+        "match_group": "G007",
+        "sources": [
+          {
+            "source_label": "Mycoplasma pneumoniae infection",
+            "page_url": "https://dermnetnz.org/topics/mycoplasma-pneumoniae-infection",
+            "caption": "Atypical erythema multiforme due to mycoplasma"
+          },
+          {
+            "source_label": "Mycoplasma pneumoniae infection",
+            "page_url": "local archived DermNet contents",
+            "caption": "Ban đỏ đa dạng không điển hình do mycoplasma"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "1e9eeff0acb4ab6d985796ca0356ae9ebe14def3fe30708b3445facf8143d89d",
+    "paths": [
+      "Erythema multiforme/mycoplasma2.jpg",
+      "Mycoplasma pneumoniae infection/mycoplasma2.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G008",
+    "historical_paths": [
+      "Erythema multiforme/mycoplasma2.jpg",
+      "Mycoplasma pneumoniae infection/mycoplasma2.jpg"
+    ],
+    "source_image_matches": [
+      {
+        "source_label": "Mycoplasma pneumoniae infection",
+        "caption": "Ban đỏ đa dạng không điển hình do mycoplasma",
+        "url": "https://dermnetnz.org/assets/Uploads/bacterial/w/mycoplasma2.jpg"
+      }
+    ],
+    "live_filename_matches": [
+      {
+        "source_label": "Mycoplasma pneumoniae infection",
+        "page_url": "https://dermnetnz.org/topics/mycoplasma-pneumoniae-infection",
+        "image_url": "/assets/Uploads/bacterial/w/mycoplasma2.jpg",
+        "caption": "Atypical erythema multiforme due to mycoplasma"
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/bacterial/w/mycoplasma2.jpg",
+        "sha256": "4e6b9fd921ad717a4fe12885370eac9a7931a90bb102de1c5f755995a918d8df",
+        "pixel_sha256": "1e9eeff0acb4ab6d985796ca0356ae9ebe14def3fe30708b3445facf8143d89d",
+        "match_group": "G008",
+        "sources": [
+          {
+            "source_label": "Mycoplasma pneumoniae infection",
+            "page_url": "https://dermnetnz.org/topics/mycoplasma-pneumoniae-infection",
+            "caption": "Atypical erythema multiforme due to mycoplasma"
+          },
+          {
+            "source_label": "Mycoplasma pneumoniae infection",
+            "page_url": "local archived DermNet contents",
+            "caption": "Ban đỏ đa dạng không điển hình do mycoplasma"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "b6e2f0f0f9a2223c780616a3d9a221ca5881f17cdeb6c288fa2b20368dfd4327",
+    "paths": [
+      "Herpes simplex/herpes-simplex-labialis-38.jpg",
+      "Oral candidiasis/05.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G009",
+    "historical_paths": [
+      "Herpes simplex/herpes-simplex-labialis-38.jpg",
+      "Oral candidiasis/05.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [
+      {
+        "source_label": "Herpes simplex",
+        "page_url": "https://dermnetnz.org/images/herpes-simplex-images",
+        "image_url": "/assets/Uploads/herpes-simplex-labialis-38.jpg",
+        "caption": ""
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/herpes-simplex-labialis-38.jpg",
+        "sha256": "38a0825286fcfc94e1638be0aeb67efc1e279c3e00b1cd1910e1c561a119bbad",
+        "pixel_sha256": "b6e2f0f0f9a2223c780616a3d9a221ca5881f17cdeb6c288fa2b20368dfd4327",
+        "match_group": "G009",
+        "sources": [
+          {
+            "source_label": "Herpes simplex",
+            "page_url": "https://dermnetnz.org/images/herpes-simplex-images",
+            "caption": ""
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "ca103a9a2af6f405af7f25d5327937f7c863371a0723b5267c174b5dab0f0db2",
+    "paths": [
+      "Herpes simplex/herpes-simplex-labialis-39.jpg",
+      "Oral candidiasis/06.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G010",
+    "historical_paths": [
+      "Herpes simplex/herpes-simplex-labialis-39.jpg",
+      "Oral candidiasis/06.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [
+      {
+        "source_label": "Herpes simplex",
+        "page_url": "https://dermnetnz.org/images/herpes-simplex-images",
+        "image_url": "/assets/Uploads/herpes-simplex-labialis-39.jpg",
+        "caption": ""
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/herpes-simplex-labialis-39.jpg",
+        "sha256": "220048c3f076e86f7f69837852de5f2cb4ddb2c27d7790ac14b89fb35d8b6c30",
+        "pixel_sha256": "ca103a9a2af6f405af7f25d5327937f7c863371a0723b5267c174b5dab0f0db2",
+        "match_group": "G010",
+        "sources": [
+          {
+            "source_label": "Herpes simplex",
+            "page_url": "https://dermnetnz.org/images/herpes-simplex-images",
+            "caption": ""
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "029d0d5d1ce7eac66a6d0621ae32968cd2bc561fe1e7f012d8fab7d3f46fa129",
+    "paths": [
+      "Leg ulcer/3042.jpg",
+      "Pyoderma/01.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G011",
+    "historical_paths": [
+      "Leg ulcer/3042.jpg",
+      "Pyoderma/01.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/site-age-specific/leg-ulcer/3042.jpg",
+        "sha256": "763963a475e26d0c7a20f50ac756bb8186d138fed68f72d2a57ce7d934b04d81",
+        "pixel_sha256": "029d0d5d1ce7eac66a6d0621ae32968cd2bc561fe1e7f012d8fab7d3f46fa129",
+        "match_group": "G011",
+        "sources": [
+          {
+            "source_label": "Leg ulcer",
+            "page_url": "https://dermnetnz.org/topics/leg-ulcer-images",
+            "caption": "Leg ulcer"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "2dbb816ecf7fe18392f9900111d864bddf12c86161bd38f1a23032507f9b3c07",
+    "paths": [
+      "Lichen planus/annular-lichen-planus-0007.jpg",
+      "Postinflammatory hyperpigmentation/05.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G012",
+    "historical_paths": [
+      "Lichen planus/annular-lichen-planus-0007.jpg",
+      "Postinflammatory hyperpigmentation/05.jpg",
+      "Vulval intraepithelial neoplasia/05.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Annular-lichen-planus/annular-lichen-planus-0007.jpg",
+        "sha256": "bd6b3e98463092ee922116d8478dd7d6660b7ad5aabe41e2cfad3fa7d411688b",
+        "pixel_sha256": "2dbb816ecf7fe18392f9900111d864bddf12c86161bd38f1a23032507f9b3c07",
+        "match_group": "G012",
+        "sources": [
+          {
+            "source_label": "Lichen planus",
+            "page_url": "https://dermnetnz.org/images/annular-lichen-planus-images",
+            "caption": "Resolving annular lichen planus leaving deep post-inflammatory hyperpigmentation"
+          },
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/3699-annular-lichen-planus",
+            "caption": "Annular lichen planus",
+            "image_library_id": 3699,
+            "metadata_b": "Resolving annular lichen planus leaving deep post-inflammatory hyperpigmentation"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "755034e5326c0f41245012c164e04865c7950f7b7c89a15a0c1bdd48920e476e",
+    "paths": [
+      "Lichen planus/papular-lichen-planus-0009.jpg",
+      "Postinflammatory hyperpigmentation/15.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G013",
+    "historical_paths": [
+      "Lichen planus/papular-lichen-planus-0009.jpg",
+      "Postinflammatory hyperpigmentation/15.jpg",
+      "Vulval intraepithelial neoplasia/34.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [
+      {
+        "source_label": "Lichen planus",
+        "page_url": "https://dermnetnz.org/images/lichen-planus-images",
+        "image_url": "/assets/collection/Papular-lichen-planus/papular-lichen-planus-0009.jpg",
+        "caption": "Axillary hyperpigmentation due to lichen planus"
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Papular-lichen-planus/papular-lichen-planus-0009.jpg",
+        "sha256": "5a93044380c195a0ec5cf9eb1a1608bfd583afe0959e24f45146b4748ea9802e",
+        "pixel_sha256": "755034e5326c0f41245012c164e04865c7950f7b7c89a15a0c1bdd48920e476e",
+        "match_group": "G013",
+        "sources": [
+          {
+            "source_label": "Lichen planus",
+            "page_url": "https://dermnetnz.org/images/lichen-planus-images",
+            "caption": "Axillary hyperpigmentation due to lichen planus"
+          },
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/1527-papular-lichen-planus",
+            "caption": "Papular lichen planus",
+            "image_library_id": 1527,
+            "metadata_b": "Axillary hyperpigmentation due to lichen planus"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "cb6c04778665a33d0a0248fab39c4648db6fe81f1cf552333d8b450a7c535350",
+    "paths": [
+      "Lichen planus/papular-lichen-planus-0010.jpg",
+      "Postinflammatory hyperpigmentation/16.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G014",
+    "historical_paths": [
+      "Lichen planus/papular-lichen-planus-0010.jpg",
+      "Postinflammatory hyperpigmentation/16.jpg",
+      "Vulval intraepithelial neoplasia/35.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [
+      {
+        "source_label": "Lichen planus",
+        "page_url": "https://dermnetnz.org/images/lichen-planus-images",
+        "image_url": "/assets/collection/Papular-lichen-planus/papular-lichen-planus-0010.jpg",
+        "caption": "Axillary lichen planus showing annular lesions with post inflammatory pigmentation"
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Papular-lichen-planus/papular-lichen-planus-0010.jpg",
+        "sha256": "9eb17ec9ee3cdbb483e1675223b6765f7c4c09c4aa0adc6849ce17c1730839be",
+        "pixel_sha256": "cb6c04778665a33d0a0248fab39c4648db6fe81f1cf552333d8b450a7c535350",
+        "match_group": "G014",
+        "sources": [
+          {
+            "source_label": "Lichen planus",
+            "page_url": "https://dermnetnz.org/images/lichen-planus-images",
+            "caption": "Axillary lichen planus showing annular lesions with post inflammatory pigmentation"
+          },
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/1525-papular-lichen-planus",
+            "caption": "Papular lichen planus",
+            "image_library_id": 1525,
+            "metadata_b": "Axillary lichen planus showing annular lesions with post inflammatory pigmentation"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "f74f861b270c815996d0dd165be6c34f5b5caeca8b140a43f3bd96a8bc4f7ac2",
+    "paths": [
+      "Milium/milia08.jpg",
+      "Porphyria cutanea tarda/03.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G015",
+    "historical_paths": [
+      "Milium/milia08.jpg",
+      "Porphyria cutanea tarda/03.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/lesions/milia08.jpg",
+        "sha256": "75cff2c9b51bee7a0eaed89bc4b279486bf07c92c6fff46474ba3df7e9c2997c",
+        "pixel_sha256": "f74f861b270c815996d0dd165be6c34f5b5caeca8b140a43f3bd96a8bc4f7ac2",
+        "match_group": "G015",
+        "sources": [
+          {
+            "source_label": "Milium",
+            "page_url": "https://dermnetnz.org/topics/milia-images",
+            "caption": "Porphyria cutanea tarda"
+          },
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/8550-milia",
+            "caption": "Milia",
+            "image_library_id": 8550,
+            "metadata_b": "Porphyria cutanea tarda"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "d4bc92812c843964e4e4f69205ffd95dcb699cc3f8c8b03d6f99743ed2445312",
+    "paths": [
+      "Mycoplasma pneumoniae infection/reactive-infectious-mucocutaneous-eruption-0008.jpg",
+      "Oral mucositis - Stomatitis/81.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G016",
+    "historical_paths": [
+      "Mycoplasma pneumoniae infection/reactive-infectious-mucocutaneous-eruption-0008.jpg",
+      "Oral mucositis - Stomatitis/81.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Reactive-infectious-mucocutaneous-eruption/reactive-infectious-mucocutaneous-eruption-0008.jpg",
+        "sha256": "e5a0e8ee448c44303561dcb1895b164d9731aeb3b6811e458a860cf3f42fe0a0",
+        "pixel_sha256": "d4bc92812c843964e4e4f69205ffd95dcb699cc3f8c8b03d6f99743ed2445312",
+        "match_group": "G016",
+        "sources": [
+          {
+            "source_label": "Mycoplasma pneumoniae infection",
+            "page_url": "https://dermnetnz.org/topics/reactive-infectious-mucocutaneous-eruption",
+            "caption": "Severe oral and labial erosions in RIME"
+          },
+          {
+            "source_label": "Mycoplasma pneumoniae infection",
+            "page_url": "https://dermnetnz.org/images/reactive-infectious-mucocutaneous-eruption-images",
+            "caption": "A severe oral mucositis due to RIME"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "122530e362b42b72cc606f63f27b39ac531a5391f46943e5c0d12f7445d41101",
+    "paths": [
+      "Onychocryptosis/01.jpg",
+      "Paronychia/3296.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G021",
+    "historical_paths": [
+      "Onychocryptosis/01.jpg",
+      "Paronychia/3296.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/fungal/paronychia/3296.jpg",
+        "sha256": "0bc497ac34c7addd09108963a82f52387c9d085a8772d15c5dc833e19154a561",
+        "pixel_sha256": "122530e362b42b72cc606f63f27b39ac531a5391f46943e5c0d12f7445d41101",
+        "match_group": "G021",
+        "sources": [
+          {
+            "source_label": "Paronychia",
+            "page_url": "https://dermnetnz.org/topics/paronychia-images",
+            "caption": ""
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "64b9923b49c098c913062a3fd085fdf6173a1193128b44990cce26e06e641dfb",
+    "paths": [
+      "Onychomycosis/47.jpg",
+      "Tinea manuum/05.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G022",
+    "historical_paths": [
+      "Onychomycosis/47.jpg",
+      "Tinea manuum/05.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/tinea-manuum-004-v2.jpg",
+        "sha256": "20c5f9154a1c64a4541c22f36f06a602cee9bc9fbf24d2c6cb595f446907ee4b",
+        "pixel_sha256": "64b9923b49c098c913062a3fd085fdf6173a1193128b44990cce26e06e641dfb",
+        "match_group": "G022",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/16071-tinea-manuum",
+            "caption": "Tinea manuum",
+            "metadata_b": null,
+            "image_library_id": 16071
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G022",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/tinea-manuum-004-v2.jpg",
+        "sha256": "20c5f9154a1c64a4541c22f36f06a602cee9bc9fbf24d2c6cb595f446907ee4b",
+        "pixel_sha256": "64b9923b49c098c913062a3fd085fdf6173a1193128b44990cce26e06e641dfb",
+        "match_group": "G022",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/16071-tinea-manuum",
+            "caption": "Tinea manuum",
+            "metadata_b": null,
+            "image_library_id": 16071
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G022",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "f3bc4c6c4c83bb5464c989cf347c2bfc4c886091ca7fd8f1cb76693e06a3fe7e",
+    "paths": [
+      "Oral candidiasis/03.jpg",
+      "Oral mucositis - Stomatitis/18.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G023",
+    "historical_paths": [
+      "Non-albicans candida infections/48.jpg",
+      "Oral candidiasis/03.jpg",
+      "Oral mucositis - Stomatitis/18.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/site-age-specific/candida-stomatitis.jpg",
+        "sha256": "c89b43ee9c19f442c561b90c8c9e558cf304bca9d312e602530d0a028f1e771b",
+        "pixel_sha256": "f3bc4c6c4c83bb5464c989cf347c2bfc4c886091ca7fd8f1cb76693e06a3fe7e",
+        "match_group": "G023",
+        "sources": [
+          {
+            "source_label": "Oral mucositis - Stomatitis",
+            "page_url": "https://dermnetnz.org/topics/stomatitis",
+            "caption": "Oral candidiasis"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "25f4642653d23a9f1cd934c7b860002e01a116a37730f60022c01ca182e614bd",
+    "paths": [
+      "Palmoplantar keratoderma/35.jpg",
+      "Pityriasis rubra pilaris/11.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G024",
+    "historical_paths": [
+      "Palmoplantar keratoderma/35.jpg",
+      "Pityriasis rubra pilaris/11.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pityriasis-rubra-pilaris/pityriasis-rubra-pilaris-0010.jpg",
+        "sha256": "f03d82b3c3d662cd195706deaa34b1313901122f1bae85b35cbb607a39b146c6",
+        "pixel_sha256": "25f4642653d23a9f1cd934c7b860002e01a116a37730f60022c01ca182e614bd",
+        "match_group": "G024",
+        "sources": [
+          {
+            "source_label": "Pityriasis rubra pilaris",
+            "page_url": "https://dermnetnz.org/images/pityriasis-rubra-pilaris-images",
+            "caption": "Red-orange plantar hyperkeratosis in type 1 PRP"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "8aa3da1ec2eb3f2d7be25fdf62e8fe534aefa3a98a496e32bef8ecd2b1d4ecf7",
+    "paths": [
+      "Palmoplantar keratoderma/36.jpg",
+      "Pityriasis rubra pilaris/12.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G025",
+    "historical_paths": [
+      "Palmoplantar keratoderma/36.jpg",
+      "Pityriasis rubra pilaris/12.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pityriasis-rubra-pilaris/pityriasis-rubra-pilaris-0011.jpg",
+        "sha256": "2ce26c763b7323add186ea97c1208f2f4821368a78ff5902a63597cd4f19213a",
+        "pixel_sha256": "8aa3da1ec2eb3f2d7be25fdf62e8fe534aefa3a98a496e32bef8ecd2b1d4ecf7",
+        "match_group": "G025",
+        "sources": [
+          {
+            "source_label": "Pityriasis rubra pilaris",
+            "page_url": "https://dermnetnz.org/images/pityriasis-rubra-pilaris-images",
+            "caption": "Red-orange plantar hyperkeratosis in type 1 PRP"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "34cb26070c41058109b769bd5d18f0748a314bf243492804d63ce10b8396f164",
+    "paths": [
+      "Panniculitis/03.jpg",
+      "Venous eczema/acute-lipodermatosclerosis-21.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G026",
+    "historical_paths": [
+      "Panniculitis/03.jpg",
+      "Venous eczema/acute-lipodermatosclerosis-21.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/acute-lipodermatosclerosis-21.jpg",
+        "sha256": "e6076e617db08e8ce570259f98fd01a4aaef72d4eb705a35cea5361ac0f6aec2",
+        "pixel_sha256": "34cb26070c41058109b769bd5d18f0748a314bf243492804d63ce10b8396f164",
+        "match_group": "G026",
+        "sources": [
+          {
+            "source_label": "Venous eczema",
+            "page_url": "https://dermnetnz.org/topics/lipodermatosclerosis-images",
+            "caption": "Acute lipodermatosclerosis"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "ec3cf0082cc12d7a263880a574a5c065da9de35a7a201747ec8e911cfd710b0f",
+    "paths": [
+      "Panniculitis/04.jpg",
+      "Venous eczema/acute-lipodermatosclerosis-22.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G027",
+    "historical_paths": [
+      "Panniculitis/04.jpg",
+      "Venous eczema/acute-lipodermatosclerosis-22.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/acute-lipodermatosclerosis-22.jpg",
+        "sha256": "6d3d40f36329ed05c4909afecf8780b48ae7cee857a05e123bc08d578e4eb8d0",
+        "pixel_sha256": "ec3cf0082cc12d7a263880a574a5c065da9de35a7a201747ec8e911cfd710b0f",
+        "match_group": "G027",
+        "sources": [
+          {
+            "source_label": "Venous eczema",
+            "page_url": "https://dermnetnz.org/topics/lipodermatosclerosis-images",
+            "caption": "Acute lipodermatosclerosis"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "43b5b4035340092d38f5b5961f7f9e39da7b8a3db62e33b6aecc6fe108be5fe1",
+    "paths": [
+      "Pediculosis capitis/12.jpg",
+      "Pyoderma/08.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G028",
+    "historical_paths": [
+      "Pediculosis capitis/12.jpg",
+      "Pyoderma/08.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pediculosis/pediculosis-0006.jpg",
+        "sha256": "6d36e1cd545f24c78bed761f9b411c166c741b9b32622b27f9bbfd33e4f7fa92",
+        "pixel_sha256": "43b5b4035340092d38f5b5961f7f9e39da7b8a3db62e33b6aecc6fe108be5fe1",
+        "match_group": "G028",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/2623-pediculosis",
+            "caption": "Pediculosis",
+            "image_library_id": 2623,
+            "metadata_b": "Scalp pyoderma due to pediculosis"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G028",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pediculosis/pediculosis-0006.jpg",
+        "sha256": "6d36e1cd545f24c78bed761f9b411c166c741b9b32622b27f9bbfd33e4f7fa92",
+        "pixel_sha256": "43b5b4035340092d38f5b5961f7f9e39da7b8a3db62e33b6aecc6fe108be5fe1",
+        "match_group": "G028",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/2623-pediculosis",
+            "caption": "Pediculosis",
+            "image_library_id": 2623,
+            "metadata_b": "Scalp pyoderma due to pediculosis"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G028",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "00cbc434a9859247fa3eb181666eb07a94e1f878be614f74e1fc9e3d896d59d3",
+    "paths": [
+      "Pemphigoid gestationis/37.jpg",
+      "Postinflammatory hyperpigmentation/24.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G029",
+    "historical_paths": [
+      "Pemphigoid gestationis/37.jpg",
+      "Postinflammatory hyperpigmentation/24.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pemphigoid-gestationis/pemphigoid-gestationis-00029.jpg",
+        "sha256": "d1db1b6543dd589a912fab4919a572ffbd89a753b71371b7ba46b05fe54a3a3a",
+        "pixel_sha256": "00cbc434a9859247fa3eb181666eb07a94e1f878be614f74e1fc9e3d896d59d3",
+        "match_group": "G029",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/3395-pemphigoid-gestationis-00029",
+            "caption": "pemphigoid gestationis 00029",
+            "image_library_id": 3395,
+            "metadata_b": "Pemphigoid gestationis: pregnant abdomen"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G029",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pemphigoid-gestationis/pemphigoid-gestationis-00029.jpg",
+        "sha256": "d1db1b6543dd589a912fab4919a572ffbd89a753b71371b7ba46b05fe54a3a3a",
+        "pixel_sha256": "00cbc434a9859247fa3eb181666eb07a94e1f878be614f74e1fc9e3d896d59d3",
+        "match_group": "G029",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/3395-pemphigoid-gestationis-00029",
+            "caption": "pemphigoid gestationis 00029",
+            "image_library_id": 3395,
+            "metadata_b": "Pemphigoid gestationis: pregnant abdomen"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G029",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "da6a885637a6bbca73f7c1912daf6833b66a0e0db31d56fcd0e9453278250de4",
+    "paths": [
+      "Pemphigoid gestationis/38.jpg",
+      "Postinflammatory hyperpigmentation/25.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G030",
+    "historical_paths": [
+      "Pemphigoid gestationis/38.jpg",
+      "Postinflammatory hyperpigmentation/25.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pemphigoid-gestationis/pemphigoid-gestationis-00030.jpg",
+        "sha256": "7bd4b786ad743def7f9df0b16361e40add4bee49a2322a8cfbf7c89401693059",
+        "pixel_sha256": "da6a885637a6bbca73f7c1912daf6833b66a0e0db31d56fcd0e9453278250de4",
+        "match_group": "G030",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/3385-pemphigoid-gestationis-00030",
+            "caption": "pemphigoid gestationis 00030",
+            "image_library_id": 3385,
+            "metadata_b": "Pemphigoid gestationis: hands"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G030",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pemphigoid-gestationis/pemphigoid-gestationis-00030.jpg",
+        "sha256": "7bd4b786ad743def7f9df0b16361e40add4bee49a2322a8cfbf7c89401693059",
+        "pixel_sha256": "da6a885637a6bbca73f7c1912daf6833b66a0e0db31d56fcd0e9453278250de4",
+        "match_group": "G030",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/3385-pemphigoid-gestationis-00030",
+            "caption": "pemphigoid gestationis 00030",
+            "image_library_id": 3385,
+            "metadata_b": "Pemphigoid gestationis: hands"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G030",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "b53181d6150acc38d00636cba84713752834b10acd4cebfbea6c4fe654e0e6b0",
+    "paths": [
+      "Pigmented purpura/capil1.jpg",
+      "Purpura/20.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G031",
+    "historical_paths": [
+      "Pigmented purpura/capil1.jpg",
+      "Purpura/20.jpg"
+    ],
+    "source_image_matches": [
+      {
+        "source_label": "Pigmented purpura",
+        "caption": "ban xuất huyết Schamberg",
+        "url": "https://dermnetnz.org/assets/Uploads/vascular/capil1.jpg"
+      }
+    ],
+    "live_filename_matches": [
+      {
+        "source_label": "Pigmented purpura",
+        "page_url": "https://dermnetnz.org/topics/capillaritis",
+        "image_url": "/assets/Uploads/vascular/capil1.jpg",
+        "caption": "Schamberg purpura"
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/vascular/capil1.jpg",
+        "sha256": "0e3c95ca4c2cdd8dc38fbc61e23b07112d895c43a81825a9f97b2360f7c643e8",
+        "pixel_sha256": "b53181d6150acc38d00636cba84713752834b10acd4cebfbea6c4fe654e0e6b0",
+        "match_group": "G031",
+        "sources": [
+          {
+            "source_label": "Pigmented purpura",
+            "page_url": "https://dermnetnz.org/topics/capillaritis",
+            "caption": "Schamberg purpura"
+          },
+          {
+            "source_label": "Pigmented purpura",
+            "page_url": "local archived DermNet contents",
+            "caption": "ban xuất huyết Schamberg"
+          },
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/9593-capillaritis",
+            "caption": "capillaritis",
+            "image_library_id": 9593,
+            "metadata_b": "Schamberg purpura"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "8601581fb66d4575b68d6d0e611325783d6ca329a3339add62e7f1cf6a284b1f",
+    "paths": [
+      "Pigmented purpura/capillaritis-38.jpg",
+      "Varicose veins/01.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G032",
+    "historical_paths": [
+      "Pigmented purpura/capillaritis-38.jpg",
+      "Varicose veins/01.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [
+      {
+        "source_label": "Pigmented purpura",
+        "page_url": "https://dermnetnz.org/images/capillaritis-images",
+        "image_url": "/assets/Uploads/capillaritis-38.jpg",
+        "caption": ""
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/capillaritis-38.jpg",
+        "sha256": "7cc19054b1e5473be6b45d694891910dc7213ea8b7d23368f183dde578804102",
+        "pixel_sha256": "8601581fb66d4575b68d6d0e611325783d6ca329a3339add62e7f1cf6a284b1f",
+        "match_group": "G032",
+        "sources": [
+          {
+            "source_label": "Pigmented purpura",
+            "page_url": "https://dermnetnz.org/images/capillaritis-images",
+            "caption": ""
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "722b4f49e0992d5cc8334248ec98c053e5a52ee2c0f8afc39676379704410777",
+    "paths": [
+      "Pigmented purpura/capillaritis-47.jpg",
+      "Purpura/21.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G033",
+    "historical_paths": [
+      "Pigmented purpura/capillaritis-47.jpg",
+      "Purpura/21.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [
+      {
+        "source_label": "Pigmented purpura",
+        "page_url": "https://dermnetnz.org/images/capillaritis-images",
+        "image_url": "/assets/Uploads/capillaritis-47.jpg",
+        "caption": ""
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/capillaritis-47.jpg",
+        "sha256": "5f48806a8c23e96acf98f6cadc5d5cfd25a9e6fc03975272f942398eda75cadb",
+        "pixel_sha256": "722b4f49e0992d5cc8334248ec98c053e5a52ee2c0f8afc39676379704410777",
+        "match_group": "G033",
+        "sources": [
+          {
+            "source_label": "Pigmented purpura",
+            "page_url": "https://dermnetnz.org/images/capillaritis-images",
+            "caption": ""
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "1758b3f184f663fdf3efdf41474bf5be91bd216853550e2b0db26fb252d211e2",
+    "paths": [
+      "Pigmented purpura/purpura1.jpg",
+      "Purpura/82.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G034",
+    "historical_paths": [
+      "Pigmented purpura/purpura1.jpg",
+      "Purpura/82.jpg"
+    ],
+    "source_image_matches": [
+      {
+        "source_label": "Purpura",
+        "caption": "Hút vết bầm tím",
+        "url": "https://dermnetnz.org/assets/Uploads/vascular/s/purpura1.jpg"
+      }
+    ],
+    "live_filename_matches": [
+      {
+        "source_label": "Pigmented purpura",
+        "page_url": "https://dermnetnz.org/images/capillaritis-images",
+        "image_url": "/assets/Uploads/purpura1.jpg",
+        "caption": "Pigmented purpuric dermatitis"
+      },
+      {
+        "source_label": "Purpura",
+        "page_url": "https://dermnetnz.org/topics/purpura",
+        "image_url": "/assets/Uploads/vascular/s/purpura1.jpg",
+        "caption": "Suction bruise"
+      }
+    ],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/purpura1.jpg",
+        "sha256": "d1fb299367715f634065e9b9ce4f802075b6fdea5e454b565ce16e0453dfd76f",
+        "pixel_sha256": "1758b3f184f663fdf3efdf41474bf5be91bd216853550e2b0db26fb252d211e2",
+        "match_group": "G034",
+        "sources": [
+          {
+            "source_label": "Pigmented purpura",
+            "page_url": "https://dermnetnz.org/images/capillaritis-images",
+            "caption": "Pigmented purpuric dermatitis"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "5cf9ddf184550bc4a43b94341b75925a5ef67bd928947fde03e62aa7fff3a2d9",
+    "paths": [
+      "Plasmacytoma/04.jpg",
+      "Purpura/101.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G048",
+    "historical_paths": [
+      "Plasmacytoma/04.jpg",
+      "Purpura/101.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/vascular/senile-purpura-3.jpg",
+        "sha256": "f38b62b850201ad8c5c2d3403895091fc935cfbf8264c40d037d9a8b78186d1e",
+        "pixel_sha256": "5cf9ddf184550bc4a43b94341b75925a5ef67bd928947fde03e62aa7fff3a2d9",
+        "match_group": "G048",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/9637-senile-purpura",
+            "caption": "Senile purpura",
+            "image_library_id": 9637,
+            "metadata_b": "Senile purpura"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G048",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/vascular/senile-purpura-3.jpg",
+        "sha256": "f38b62b850201ad8c5c2d3403895091fc935cfbf8264c40d037d9a8b78186d1e",
+        "pixel_sha256": "5cf9ddf184550bc4a43b94341b75925a5ef67bd928947fde03e62aa7fff3a2d9",
+        "match_group": "G048",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/9637-senile-purpura",
+            "caption": "Senile purpura",
+            "image_library_id": 9637,
+            "metadata_b": "Senile purpura"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G048",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "b5bd05eb7a915050d8e969c9d3891873cb5d43aa39d6b47cad8cac2cde50aea5",
+    "paths": [
+      "Porphyria cutanea tarda/04.jpg",
+      "Pyoderma/07.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G049",
+    "historical_paths": [
+      "Porphyria cutanea tarda/04.jpg",
+      "Pyoderma/07.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/pct-hands-resize.jpg",
+        "sha256": "c7b68ddc5b1be34b6f991fa1456693471078afac6b30159522c2b52970d75139",
+        "pixel_sha256": "b5bd05eb7a915050d8e969c9d3891873cb5d43aa39d6b47cad8cac2cde50aea5",
+        "match_group": "G049",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/6832-porphyria-cutanea-tarda",
+            "caption": "Porphyria cutanea tarda",
+            "image_library_id": 6832,
+            "metadata_b": "Porphyria cutanea tarda"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G049",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/pct-hands-resize.jpg",
+        "sha256": "c7b68ddc5b1be34b6f991fa1456693471078afac6b30159522c2b52970d75139",
+        "pixel_sha256": "b5bd05eb7a915050d8e969c9d3891873cb5d43aa39d6b47cad8cac2cde50aea5",
+        "match_group": "G049",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/6832-porphyria-cutanea-tarda",
+            "caption": "Porphyria cutanea tarda",
+            "image_library_id": 6832,
+            "metadata_b": "Porphyria cutanea tarda"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G049",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "55977aba3be4d76ecae212eb90143c3b46e11203331be2d1964135f48cfcd19a",
+    "paths": [
+      "Postinflammatory hyperpigmentation/21.jpg",
+      "Prurigo/64.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G050",
+    "historical_paths": [
+      "Postinflammatory hyperpigmentation/21.jpg",
+      "Prurigo/64.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "d4bbddf131c433cdfa761c0afe28975ef044fe6962e63bfcd3d5b4b3c01c5c3a",
+    "paths": [
+      "Postinflammatory hyperpigmentation/30.jpg",
+      "Pretibial myxoedema/10.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G051",
+    "historical_paths": [
+      "Postinflammatory hyperpigmentation/30.jpg",
+      "Pretibial myxoedema/10.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pretibial-myxoedema/pretibial-myxoedema-0004.jpg",
+        "sha256": "4644c483a7f605b961c0873247ed7b1dc50e8a89b9dbd3a7c7e44e6f819e733b",
+        "pixel_sha256": "d4bbddf131c433cdfa761c0afe28975ef044fe6962e63bfcd3d5b4b3c01c5c3a",
+        "match_group": "G051",
+        "sources": [
+          {
+            "source_label": "Pretibial myxoedema",
+            "page_url": "https://dermnetnz.org/images/pretibial-myxoedema-images",
+            "caption": "Close-up demonstrating the swelling on the leg due to pretibial myxoedema"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "6acd9ef7331bba73d02ff2d6372de1c6b234ab7c920534b2bfe42189792a9c57",
+    "paths": [
+      "Postinflammatory hyperpigmentation/31.jpg",
+      "Pretibial myxoedema/11.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G052",
+    "historical_paths": [
+      "Postinflammatory hyperpigmentation/31.jpg",
+      "Pretibial myxoedema/11.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pretibial-myxoedema/pretibial-myxoedema-0005.jpg",
+        "sha256": "4d7329bf86ab3bc86585d47ddc08a017be557d14883c55f9f1d07650f56c4ca7",
+        "pixel_sha256": "6acd9ef7331bba73d02ff2d6372de1c6b234ab7c920534b2bfe42189792a9c57",
+        "match_group": "G052",
+        "sources": [
+          {
+            "source_label": "Pretibial myxoedema",
+            "page_url": "https://dermnetnz.org/images/pretibial-myxoedema-images",
+            "caption": "Pretibial myxoedema just above the ankle - the patient had a past history of thyrotoxicosis"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "f8cf0169747ed6281b588fd4575ac384bf8188d0bbc9dc9a39ee2b931a026137",
+    "paths": [
+      "Prurigo/06.jpg",
+      "Pruritus/07.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G053",
+    "historical_paths": [
+      "Prurigo/06.jpg",
+      "Pruritus/07.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/chronic-pruritus-01.jpg",
+        "sha256": "ea3a8a1040b730c0cf3963ff77e6f58c70114f491f47b937bd58c7bbc1948df0",
+        "pixel_sha256": "f8cf0169747ed6281b588fd4575ac384bf8188d0bbc9dc9a39ee2b931a026137",
+        "match_group": "G053",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/5654-scratching-relating-to-dermatitis",
+            "caption": "Scratching relating to dermatitis",
+            "metadata_b": "Scratching related to dermatitis",
+            "image_library_id": 5654
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G053",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/chronic-pruritus-01.jpg",
+        "sha256": "ea3a8a1040b730c0cf3963ff77e6f58c70114f491f47b937bd58c7bbc1948df0",
+        "pixel_sha256": "f8cf0169747ed6281b588fd4575ac384bf8188d0bbc9dc9a39ee2b931a026137",
+        "match_group": "G053",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/5654-scratching-relating-to-dermatitis",
+            "caption": "Scratching relating to dermatitis",
+            "metadata_b": "Scratching related to dermatitis",
+            "image_library_id": 5654
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G053",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "81b30c2a4fc696bfdf08c1f5ec5d1d547e175383a1c965a0c35b54f9279709c5",
+    "paths": [
+      "Prurigo/98.jpg",
+      "Pruritus/42.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G054",
+    "historical_paths": [
+      "Prurigo/98.jpg",
+      "Pruritus/42.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pruritus/pruritus-0001.jpg",
+        "sha256": "b40bea70d488316b25c984a6484fb29d80e1833061c378a6f530b1ecd3afed73",
+        "pixel_sha256": "81b30c2a4fc696bfdf08c1f5ec5d1d547e175383a1c965a0c35b54f9279709c5",
+        "match_group": "G054",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/3454-pruritus",
+            "caption": "Pruritus",
+            "image_library_id": 3454,
+            "metadata_b": "Prurigo in HIV disease"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G054",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": [
+      {
+        "url": "https://dermnetnz.org/assets/collection/Pruritus/pruritus-0001.jpg",
+        "sha256": "b40bea70d488316b25c984a6484fb29d80e1833061c378a6f530b1ecd3afed73",
+        "pixel_sha256": "81b30c2a4fc696bfdf08c1f5ec5d1d547e175383a1c965a0c35b54f9279709c5",
+        "match_group": "G054",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/3454-pruritus",
+            "caption": "Pruritus",
+            "image_library_id": 3454,
+            "metadata_b": "Prurigo in HIV disease"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G054",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "c70bb9a174d21af128908eab7052445d44d7e5bbc72c806392cfb102f865934a",
+    "paths": [
+      "Prurigo/99.jpg",
+      "Varicose veins/05.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G055",
+    "historical_paths": [
+      "Prurigo/99.jpg",
+      "Varicose veins/05.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/varicose-veins-03.jpg",
+        "sha256": "e7aae1dece716d91eac8de281234737fb0bb330c9ad4592086854711e9954ca9",
+        "pixel_sha256": "c70bb9a174d21af128908eab7052445d44d7e5bbc72c806392cfb102f865934a",
+        "match_group": "G055",
+        "sources": [
+          {
+            "source_label": "Varicose veins",
+            "page_url": "https://dermnetnz.org/topics/varicose-veins",
+            "caption": "Varicose veins"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "9975068c63fca0d8fed237a465cd81774243263747f7e22d760e60b6f8c20565",
+    "paths": [
+      "Pruritus/56.jpg",
+      "Purpura/98.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G056",
+    "historical_paths": [
+      "Pruritus/56.jpg",
+      "Purpura/98.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/scratching-itch-2.jpg",
+        "sha256": "b7b8d1ee0f5ee13bb01549dfd2f7fcd77d004e6db18b45de0af8ddd06478e96a",
+        "pixel_sha256": "9975068c63fca0d8fed237a465cd81774243263747f7e22d760e60b6f8c20565",
+        "match_group": "G056",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/6839-pruritus",
+            "caption": "PRURITUS",
+            "image_library_id": 6839,
+            "metadata_b": "PRURITUS"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G056",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/scratching-itch-2.jpg",
+        "sha256": "b7b8d1ee0f5ee13bb01549dfd2f7fcd77d004e6db18b45de0af8ddd06478e96a",
+        "pixel_sha256": "9975068c63fca0d8fed237a465cd81774243263747f7e22d760e60b6f8c20565",
+        "match_group": "G056",
+        "sources": [
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/6839-pruritus",
+            "caption": "PRURITUS",
+            "image_library_id": 6839,
+            "metadata_b": "PRURITUS"
+          }
+        ],
+        "near_matches": [
+          {
+            "group_id": "G056",
+            "phash_distance": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "d80035b4a91b7d8e98338168d5a4850dbd28fd4ce69c5477c2cd3a73830f5e8a",
+    "paths": [
+      "Purpura/96.jpg",
+      "Scurvy/01.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G060",
+    "historical_paths": [
+      "Purpura/96.jpg",
+      "Scurvy/01.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/systemic/scclu.jpg",
+        "sha256": "3b41062247bd7b7083c89bf14feb4a4f08e660fed12dfc1cff74ae73d83e2a8c",
+        "pixel_sha256": "d80035b4a91b7d8e98338168d5a4850dbd28fd4ce69c5477c2cd3a73830f5e8a",
+        "match_group": "G060",
+        "sources": [
+          {
+            "source_label": "Scurvy",
+            "page_url": "https://dermnetnz.org/topics/scurvy",
+            "caption": "Purpura"
+          },
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/7576-scurvy",
+            "caption": "Scurvy",
+            "image_library_id": 7576,
+            "metadata_b": "Purpura"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "9a98b77308e04362a8cbddda9d56e161bccf752e536729541ff5a82f8c4c275f",
+    "paths": [
+      "Purpura/97.jpg",
+      "Scurvy/02.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G061",
+    "historical_paths": [
+      "Purpura/97.jpg",
+      "Scurvy/02.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/systemic/schair.jpg",
+        "sha256": "d38bd39fa1834ead39db0982028a51e926ce3897ef0231556d6321cef515f155",
+        "pixel_sha256": "9a98b77308e04362a8cbddda9d56e161bccf752e536729541ff5a82f8c4c275f",
+        "match_group": "G061",
+        "sources": [
+          {
+            "source_label": "Scurvy",
+            "page_url": "https://dermnetnz.org/topics/scurvy",
+            "caption": "Corkscrew hairs and purpura"
+          },
+          {
+            "source_label": "DermNet image library",
+            "page_url": "https://dermnetnz.org/imagedetail/7615-scurvy",
+            "caption": "Scurvy",
+            "image_library_id": 7615,
+            "metadata_b": "Corkscrew hairs and purpura"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  },
+  {
+    "hash": "ddd1cdef9009c76f864a8f0514fbe804e4cd4212046eaecb645886e40e94e763",
+    "paths": [
+      "Sarcoidosis/01.jpg",
+      "Tinea capitis/01.jpg"
+    ],
+    "scope": "cross_folder",
+    "group_id": "G062",
+    "historical_paths": [
+      "Sarcoidosis/01.jpg",
+      "Tinea capitis/01.jpg"
+    ],
+    "source_image_matches": [],
+    "live_filename_matches": [],
+    "live_content_matches": [
+      {
+        "url": "https://dermnetnz.org/assets/Uploads/fungal/blackdot-tinea-1.jpg",
+        "sha256": "7c1416b61bc9442590611a1a5a450e36220465106e930bb2913af99154dd5523",
+        "pixel_sha256": "ddd1cdef9009c76f864a8f0514fbe804e4cd4212046eaecb645886e40e94e763",
+        "match_group": "G062",
+        "sources": [
+          {
+            "source_label": "Tinea capitis",
+            "page_url": "https://dermnetnz.org/topics/tinea-capitis",
+            "caption": "Black dot scalp ringworm"
+          }
+        ]
+      }
+    ],
+    "near_source_candidates": []
+  }
+]

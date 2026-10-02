@@ -1,0 +1,20 @@
+{
+  "head": "2255b768c3f75f8408793054766052038afed92a",
+  "before_images": 7057,
+  "active_images_after": 6992,
+  "pending_single_images": 1,
+  "unique_contents_preserved": 6993,
+  "redundant_copies_removed": 64,
+  "original_paths_removed": 65,
+  "within_folder_redundant_removed": 23,
+  "cross_folder_groups_source_supported": 40,
+  "byte_duplicate_groups_after": 0,
+  "pixel_duplicate_groups_after": 0,
+  "backup_files_sha256_verified": 65,
+  "retained_original_files_unchanged": 6992,
+  "unique_pixel_content_lost": 0,
+  "pending_group_ids": [
+    "G050"
+  ],
+  "scope": "Exact file and decoded-pixel duplicates only. No transformed/near-duplicate removals."
+}

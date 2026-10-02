@@ -1,5 +1,12 @@
 # Biên bản phục hồi và hợp nhất DermNet — 02/10/2026
 
+> Đây là biên bản lịch sử tại thời điểm lưu nhánh phục hồi. Sau đó người dùng
+> yêu cầu tạm dừng QA cũ, sinh lại VQA và tích hợp code phục hồi cùng dedup vào
+> main. Trạng thái mới nằm ở [biên bản tích hợp](MAIN_DEDUP_INTEGRATION_20261002.md).
+> Các điểm chặn QA dưới đây được bảo toàn để tra cứu; không còn được hiểu là
+> yêu cầu phải sửa QA cũ trước khi tích hợp lịch sử Git. Chưa chứng nhận dataset
+> hay runner sinh VQA mới đã sẵn sàng chạy thực tế.
+
 ## Kết luận và phạm vi
 
 Đây là bản hợp nhất phục hồi trên nhánh `codex/reconcile-main-20261002`, không

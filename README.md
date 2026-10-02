@@ -4,8 +4,19 @@
 
 Code runner/HPC trước lần cập nhật lại lịch sử Git đã được hợp nhất với main
 mới và bộ prompt QA v2. Không khôi phục ảnh cũ đã bị loại khỏi bộ ảnh trên main.
-Xem [biên bản hợp nhất](docs/REPOSITORY_RECOVERY_20261002.md) để phân biệt
-code phục hồi, dữ liệu benchmark cũ, bản chuẩn hóa mới và công việc đang làm.
+Xem [biên bản phục hồi lịch sử](docs/REPOSITORY_RECOVERY_20261002.md) và
+[biên bản tích hợp main + dedup](docs/MAIN_DEDUP_INTEGRATION_20261002.md)
+để phân biệt code phục hồi, dữ liệu benchmark cũ và trạng thái tích hợp hiện tại.
+
+**QA cũ đang tạm dừng theo yêu cầu người dùng; mục tiêu là sinh lại VQA.**
+Các TSV, kết quả model và công cụ cũ được giữ để bảo toàn lịch sử, không phải
+bộ QA đang hoạt động. Lượt tích hợp này không chạy inference, không sửa đáp án
+và không triển khai runner sinh VQA mới.
+
+Dedup đã được tích hợp: 6.992 ảnh trong active set, một ảnh G050 chờ duyệt
+ngoài active set. Nhật ký, bằng chứng nguồn và archive khôi phục 65 đường dẫn
+gốc nằm trong [outputs/image-dedup-20261002](outputs/image-dedup-20261002).
+Giữ thay đổi tên thư mục `Mucocele of the lip` từ main mới nhất.
 
 **Chưa được coi là sẵn sàng inference:** TSV benchmark cũ còn tham chiếu ảnh
 không có trong bộ ảnh đã tuyển chọn. Runner mặc định dừng khi thiếu ảnh;

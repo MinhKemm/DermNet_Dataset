@@ -1,0 +1,47 @@
+{
+  "verification_stage": "integrated",
+  "verification_date": "2026-10-02",
+  "recovery_parent": "1242765ac435bc0853ef177fa095a33b6321864a",
+  "main_parent": "92697940b3438a89457f374fde3915e4de9c52e0",
+  "active_images": 6992,
+  "images_matching_recorded_byte_and_pixel_hashes": 6992,
+  "byte_duplicate_groups": 0,
+  "pixel_duplicate_groups": 0,
+  "pending_label_review_images": 1,
+  "backup_files_sha256_verified": 65,
+  "backup_crc_valid": true,
+  "unique_pixel_contents_preserved": 6993,
+  "unique_pixel_contents_lost": 0,
+  "main_folder_rename_preserved_images": 3,
+  "historical_inventory_path_renames_applied_in_verification_only": 3,
+  "historical_json_evidence_files_parsed": 15,
+  "path_renames": [
+    {
+      "from": "Mucocoele of the lip/mucocoele1.jpg",
+      "to": "Mucocele of the lip/mucocoele1.jpg"
+    },
+    {
+      "from": "Mucocoele of the lip/mucocoele2.jpg",
+      "to": "Mucocele of the lip/mucocoele2.jpg"
+    },
+    {
+      "from": "Mucocoele of the lip/mucocoele3.jpg",
+      "to": "Mucocele of the lip/mucocoele3.jpg"
+    }
+  ],
+  "verification": {
+    "qa_v2_unit_tests_passed": 31,
+    "dermnet_prompt_contract_patch_runner_tests_passed": 36,
+    "deepseek_tests_passed": 7,
+    "huatuo_tests_passed": 1,
+    "legacy_adapter_tests_passed": 5,
+    "vendor_patch_tests_passed": 3,
+    "selected_offline_tests_total_passed": 83,
+    "recovered_python_files_ast_parsed": 40,
+    "bash_scripts_syntax_checked": 5,
+    "legacy_image_reference_full_suite_rerun": false,
+    "gpu_or_model_inference_performed": false
+  },
+  "clinical_validation": "not_performed",
+  "old_qa_status": "paused_preserved_as_historical_snapshots"
+}
