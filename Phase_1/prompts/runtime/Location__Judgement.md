@@ -14,6 +14,8 @@ Chỉ dùng bộ chuẩn hóa được cấp với phiên bản xác định; gi
 
 Mỗi QA hỏi một mục tiêu có target và phạm vi rõ. Mặc định quan sát toàn bộ ảnh; chỉ hỏi vùng riêng khi có thể mô tả bằng lời hoặc có đánh dấu thực sự. Không bịa vùng đánh dấu, không mặc định một loại tổn thương. Câu hỏi tự nhiên và đa dạng; mọi ví dụ trong prompt chỉ là gợi ý, không phải khuôn bắt buộc.
 
+Diễn đạt câu hỏi bằng tiếng Việt ngắn gọn, đúng ý và tự nhiên như hỏi một người đang xem ảnh. Không đưa từ điều phối như target, scope, gold, nút cây hoặc bệnh danh mục tiêu vào câu hỏi. Không dùng từ "cấu trúc" chỉ để câu nghe chuyên môn khi thực chất hỏi vị trí; ưu tiên "ở đâu", "vị trí nào" hoặc "phần nào" theo phạm vi thật. Giữ thuật ngữ y khoa khi đó chính là nội dung cần hỏi, nhưng không biến câu hỏi thành yêu cầu thuộc lòng định nghĩa. Đọc lại để sửa lỗi chính tả, câu rườm rà, cách dịch cứng và sự mơ hồ; đổi cách nói không được đổi nhiệm vụ, phạm vi, nhãn chuẩn hoặc thêm gợi ý làm lộ đáp án. Nhãn trong lựa chọn, nhận định Có/Không hoặc loại tổn thương được hỏi để lý giải vẫn được phép theo quy tắc của từng dạng. Các ví dụ không phải mẫu bắt buộc.
+
 Một mục tiêu có thể có nhiều giá trị cùng đúng, chẳng hạn nhiều màu hoặc nhiều vị trí. Short_answer/Fill_in_blank cho phép đáp án gồm các giá trị đó; source_labels là danh sách nhãn chuẩn tương ứng, không ép một nhãn. Multi_choice có thể dùng một lựa chọn tổ hợp nếu rõ ràng và duy nhất đúng. Nếu hỏi riêng một tổn thương, mô tả target đủ phân biệt; không tự chọn một loại rồi bỏ qua các loại khác đang thấy.
 
 Không nhầm Category loại tổn thương với category nhiệm vụ hay bệnh danh. Không gộp vị trí giải phẫu với kiểu phân bố.
@@ -59,6 +61,8 @@ Không tự đổi category, type hoặc attribute_field. Tuân thủ ngân sác
 Không tự tạo thời gian, mã băm, trạng thái checkpoint hoặc tuyên bố chuyên gia đã duyệt. Chia lô, phân quyền image_id, khóa đầu ra, hợp nhất và lập lịch do điều phối bên ngoài xử lý khi được triển khai. Hẹn giờ/chờ lâu hay chia nhiều subagent không tự chứng minh đọc ảnh chính xác; cần kiểm tra bằng chứng và xem lại ảnh.
 
 Trước khi xuất, tự kiểm tra: dấu hiệu nào thấy thật; target đúng phạm vi; nhãn có trong chuẩn hóa; có nhầm nhiều nhãn đúng với nhiều giả thuyết; câu trùng nội dung cũ; khóa đáp án khớp lựa chọn; nhiễu bị bác bỏ; có suy số đo/triệu chứng ngoài ảnh không. Sửa lỗi hoặc bỏ câu yếu. Kiểm tra JSON không chứng minh đúng hình ảnh; ứng viên vẫn cần kiểm tra độc lập và duyệt chuyên môn.
+
+Diễn đạt một nhận định vị trí rõ rồi hỏi "đúng không?" hoặc "có đúng không?"; không dùng câu phủ định kép. Không dùng từ "cấu trúc" thay cho vị trí chỉ để nghe chuyên môn. Dù đổi cách nói, đáp án Không vẫn cần căn cứ nhìn thấy bác bỏ nhận định.
 
 category=Location; type=Judgement; không tự đổi hai trường này.
 

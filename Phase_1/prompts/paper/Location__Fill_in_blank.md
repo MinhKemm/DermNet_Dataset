@@ -14,6 +14,8 @@ Chỉ dùng bộ chuẩn hóa được cấp với phiên bản xác định; gi
 
 Mỗi QA hỏi một mục tiêu có target và phạm vi rõ. Mặc định quan sát toàn bộ ảnh; chỉ hỏi vùng riêng khi có thể mô tả bằng lời hoặc có đánh dấu thực sự. Không bịa vùng đánh dấu, không mặc định một loại tổn thương. Câu hỏi tự nhiên và đa dạng; mọi ví dụ trong prompt chỉ là gợi ý, không phải khuôn bắt buộc.
 
+Diễn đạt câu hỏi bằng tiếng Việt ngắn gọn, đúng ý và tự nhiên như hỏi một người đang xem ảnh. Không đưa từ điều phối như target, scope, gold, nút cây hoặc bệnh danh mục tiêu vào câu hỏi. Không dùng từ "cấu trúc" chỉ để câu nghe chuyên môn khi thực chất hỏi vị trí; ưu tiên "ở đâu", "vị trí nào" hoặc "phần nào" theo phạm vi thật. Giữ thuật ngữ y khoa khi đó chính là nội dung cần hỏi, nhưng không biến câu hỏi thành yêu cầu thuộc lòng định nghĩa. Đọc lại để sửa lỗi chính tả, câu rườm rà, cách dịch cứng và sự mơ hồ; đổi cách nói không được đổi nhiệm vụ, phạm vi, nhãn chuẩn hoặc thêm gợi ý làm lộ đáp án. Nhãn trong lựa chọn, nhận định Có/Không hoặc loại tổn thương được hỏi để lý giải vẫn được phép theo quy tắc của từng dạng. Các ví dụ không phải mẫu bắt buộc.
+
 Một mục tiêu có thể có nhiều giá trị cùng đúng, chẳng hạn nhiều màu hoặc nhiều vị trí. Short_answer/Fill_in_blank cho phép đáp án gồm các giá trị đó; source_labels là danh sách nhãn chuẩn tương ứng, không ép một nhãn. Multi_choice có thể dùng một lựa chọn tổ hợp nếu rõ ràng và duy nhất đúng. Nếu hỏi riêng một tổn thương, mô tả target đủ phân biệt; không tự chọn một loại rồi bỏ qua các loại khác đang thấy.
 
 Không nhầm Category loại tổn thương với category nhiệm vụ hay bệnh danh. Không gộp vị trí giải phẫu với kiểu phân bố.
@@ -51,6 +53,8 @@ Dùng đúng một chỗ trống ký hiệu ____. answer=answer_label là một 
 Điền đúng một vị trí ở cấp câu hỏi yêu cầu. Không in sẵn đường đi cha-con chứa nút cần điền.
 
 Bản phương pháp: ảnh thực tế được đính kèm riêng; phần ví dụ chỉ minh họa cách hỏi, không phải kết luận cho ảnh này. Giữ cùng quy tắc sinh QA với bản vận hành.
+
+Có thể viết tự nhiên "Tổn thương trong ảnh nằm ở ____." khi phù hợp phạm vi. Không dùng từ "cấu trúc" thay cho vị trí chỉ để nghe chuyên môn; không thêm tên vị trí đúng vào lời dẫn và không ép mọi ảnh dùng cùng một câu.
 
 category=Location; type=Fill_in_blank; không tự đổi hai trường này.
 

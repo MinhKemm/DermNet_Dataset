@@ -69,6 +69,14 @@ Với bốn nhiệm vụ thị giác, không cung cấp bệnh danh như bằng 
 
 ## Các sửa đổi theo kết quả duyệt trước đó
 
+### Câu hỏi đúng ý và tự nhiên
+
+Tất cả 40 prompt yêu cầu viết câu hỏi như hỏi một người đang xem ảnh: ngắn gọn, rõ phạm vi, không dùng từ chuyên môn chỉ để làm câu nghe trang trọng. Không đưa các từ điều phối như `target`, `scope`, `gold`, “nút cây” hay “bệnh danh mục tiêu” vào câu hỏi.
+
+Với Location, ưu tiên những cách hỏi như “Tổn thương quan sát được trong ảnh nằm ở đâu?” hoặc “Trong ảnh, những vùng nào có tổn thương?”. Không cần hỏi “nằm ở cấu trúc nào?” khi thực chất chỉ xác định vị trí. Đáp án **Bản móng** vẫn giữ nguyên nếu đúng nhãn chuẩn hóa; đổi câu hỏi không đồng nghĩa đổi tên nhãn.
+
+Đây là ví dụ cách diễn đạt, không phải mẫu bắt buộc. Vẫn giữ thuật ngữ y khoa cần thiết khi đó chính là nội dung được hỏi, giữ đúng bốn dạng câu hỏi và không đơn giản hóa đến mức mơ hồ hoặc lộ đáp án. Trước khi xuất, đọc lại để sửa chính tả, câu rườm rà và cách dịch cứng.
+
 | Điểm | Quy tắc v3 |
 |---|---|
 | Vị trí bị thu hẹp | Đọc toàn ảnh; không tự chọn Lưng trên nếu còn vùng khác. Được dùng mức rộng chắc chắn, ví dụ Hai bàn chân; nhiều vị trí có thể cùng đúng. |

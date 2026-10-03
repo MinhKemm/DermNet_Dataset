@@ -11,6 +11,7 @@ Ngày: 2026-10-03. Phạm vi: nội dung prompt và điều hướng tài liệu
 | ID và provenance | Mỗi file có ID v3 và ID v2 kế thừa tương ứng |
 | Nguồn v2 | SHA-256 khớp giá trị trong README, không bị sửa |
 | Quy tắc chung | 5–10 QA/ảnh, tối đa 10; được ít hơn 5; không lặp một sự thật bằng bốn dạng; cho phép nhiều nhãn đúng |
+| Câu chữ tự nhiên | Cả 40 prompt có quy tắc viết ngắn gọn/đúng ý; cả 8 Location có hướng dẫn theo từng dạng, không bắt buộc dùng “cấu trúc”, không đổi nhãn chuẩn |
 | Điểm sửa theo nhiệm vụ | Patch/Crust, vị trí rộng/nhiều vị trí, sáu thuộc tính, Boundary hai khía cạnh, bỏ Reasoning chưa chắc, Diagnose giữ nhãn nguồn |
 | Ràng buộc hình thức | Trắc nghiệm bốn lựa chọn/một đáp án; Có/Không; điền đúng một chỗ trống |
 | Chính sách giữa hai profile | 20 cặp có phần quy tắc QA giống nhau; chỉ khác hướng dẫn phương pháp/thao tác vận hành |
